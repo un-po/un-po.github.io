@@ -1,0 +1,182 @@
+[
+  {
+    "id": "presente-01",
+    "verb": "bere",
+    "person": "io",
+    "before": "La mattina io",
+    "after": "un caffè.",
+    "answers": ["bevo"],
+    "explanation": "Il verbo bere cambia radice: con io si usa bevo.",
+    "difficulty": 2
+  },
+  {
+    "id": "presente-02",
+    "verb": "parlare",
+    "person": "tu",
+    "before": "Tu",
+    "after": "italiano molto bene.",
+    "answers": ["parli"],
+    "explanation": "Con tu, i verbi regolari in -are terminano in -i.",
+    "difficulty": 1
+  },
+  {
+    "id": "presente-03",
+    "verb": "essere",
+    "person": "noi",
+    "before": "Oggi noi",
+    "after": "a casa.",
+    "answers": ["siamo"],
+    "explanation": "Essere è irregolare: con noi si usa siamo.",
+    "difficulty": 2
+  },
+  {
+    "id": "presente-04",
+    "verb": "dormire",
+    "person": "loro",
+    "before": "I gatti",
+    "after": "sul divano.",
+    "answers": ["dormono"],
+    "explanation": "Con loro, dormire termina in -ono.",
+    "difficulty": 1
+  },
+  {
+    "id": "presente-05",
+    "verb": "avere",
+    "person": "voi",
+    "before": "Voi",
+    "after": "un giardino bellissimo.",
+    "answers": ["avete"],
+    "explanation": "Con voi, avere diventa avete.",
+    "difficulty": 2
+  },
+  {
+    "id": "presente-06",
+    "verb": "leggere",
+    "person": "lui/lei",
+    "before": "Ogni sera Giulia",
+    "after": "un libro.",
+    "answers": ["legge"],
+    "explanation": "Con lui o lei, leggere diventa legge.",
+    "difficulty": 1
+  },
+  {
+    "id": "presente-07",
+    "verb": "andare",
+    "person": "tu",
+    "before": "Tu",
+    "after": "al mercato ogni sabato.",
+    "answers": ["vai"],
+    "explanation": "Andare è irregolare: con tu si usa vai.",
+    "difficulty": 2
+  },
+  {
+    "id": "presente-08",
+    "verb": "capire",
+    "person": "io",
+    "before": "Finalmente io",
+    "after": "questa regola.",
+    "answers": ["capisco"],
+    "explanation": "Capire aggiunge -isc- con io: capisco.",
+    "difficulty": 2
+  },
+  {
+    "id": "presente-09",
+    "verb": "fare",
+    "person": "loro",
+    "before": "La domenica i miei amici",
+    "after": "una passeggiata.",
+    "answers": ["fanno"],
+    "explanation": "Fare è irregolare: con loro si usa fanno.",
+    "difficulty": 2
+  },
+  {
+    "id": "presente-10",
+    "verb": "ascoltare",
+    "person": "noi",
+    "before": "In macchina noi",
+    "after": "la radio.",
+    "answers": ["ascoltiamo"],
+    "explanation": "Con noi, ascoltare termina in -iamo.",
+    "difficulty": 1
+  },
+  {
+    "id": "presente-11",
+    "verb": "bere",
+    "person": "lui/lei",
+    "before": "A cena Marco",
+    "after": "solo acqua.",
+    "answers": ["beve"],
+    "explanation": "Con lui o lei, bere diventa beve.",
+    "difficulty": 2
+  },
+  {
+    "id": "presente-12",
+    "verb": "parlare",
+    "person": "voi",
+    "before": "Voi",
+    "after": "sempre con gentilezza.",
+    "answers": ["parlate"],
+    "explanation": "Con voi, i verbi regolari in -are terminano in -ate.",
+    "difficulty": 1
+  },
+  {
+    "id": "presente-13",
+    "verb": "dormire",
+    "person": "tu",
+    "before": "Di solito tu",
+    "after": "otto ore.",
+    "answers": ["dormi"],
+    "explanation": "Con tu, dormire termina in -i.",
+    "difficulty": 1
+  },
+  {
+    "id": "presente-14",
+    "verb": "avere",
+    "person": "loro",
+    "before": "I miei vicini",
+    "after": "due cani.",
+    "answers": ["hanno"],
+    "explanation": "Con loro, avere diventa hanno: ricorda la h iniziale.",
+    "difficulty": 2
+  },
+  {
+    "id": "presente-15",
+    "verb": "essere",
+    "person": "io",
+    "before": "Io",
+    "after": "pronto per partire.",
+    "answers": ["sono"],
+    "explanation": "Essere è irregolare: con io si usa sono.",
+    "difficulty": 2
+  },
+  {
+    "id": "presente-16",
+    "verb": "capire",
+    "person": "noi",
+    "before": "Noi",
+    "after": "il tuo punto di vista.",
+    "answers": ["capiamo"],
+    "explanation": "Con noi non si aggiunge -isc-: capiamo.",
+    "difficulty": 2
+  },
+  {
+    "id": "presente-17",
+    "verb": "ascoltare",
+    "person": "lui/lei",
+    "before": "Marta",
+    "after": "la sua canzone preferita.",
+    "answers": ["ascolta"],
+    "explanation": "Con lui o lei, ascoltare termina in -a.",
+    "difficulty": 1
+  },
+  {
+    "id": "presente-18",
+    "verb": "leggere",
+    "person": "voi",
+    "before": "Voi",
+    "after": "il giornale ogni mattina.",
+    "answers": ["leggete"],
+    "explanation": "Con voi, leggere termina in -ete.",
+    "difficulty": 1
+  }
+]

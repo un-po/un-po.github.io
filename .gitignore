@@ -1,0 +1,13 @@
+# Project-local GitHub authentication (contains secrets)
+.local/
+
+node_modules/
+dist/
+coverage/
+.env
+.env.*
+!.env.example
+.DS_Store
+
+playwright-report/
+test-results/

@@ -1,0 +1,62 @@
+[
+  {
+    "id": "bere",
+    "family": "ere",
+    "irregular": true,
+    "forms": ["bevo", "bevi", "beve", "beviamo", "bevete", "bevono"]
+  },
+  {
+    "id": "parlare",
+    "family": "are",
+    "irregular": false,
+    "forms": ["parlo", "parli", "parla", "parliamo", "parlate", "parlano"]
+  },
+  {
+    "id": "essere",
+    "family": "ere",
+    "irregular": true,
+    "forms": ["sono", "sei", "è", "siamo", "siete", "sono"]
+  },
+  {
+    "id": "dormire",
+    "family": "ire",
+    "irregular": false,
+    "forms": ["dormo", "dormi", "dorme", "dormiamo", "dormite", "dormono"]
+  },
+  {
+    "id": "avere",
+    "family": "ere",
+    "irregular": true,
+    "forms": ["ho", "hai", "ha", "abbiamo", "avete", "hanno"]
+  },
+  {
+    "id": "leggere",
+    "family": "ere",
+    "irregular": false,
+    "forms": ["leggo", "leggi", "legge", "leggiamo", "leggete", "leggono"]
+  },
+  {
+    "id": "andare",
+    "family": "are",
+    "irregular": true,
+    "forms": ["vado", "vai", "va", "andiamo", "andate", "vanno"]
+  },
+  {
+    "id": "capire",
+    "family": "ire",
+    "irregular": false,
+    "forms": ["capisco", "capisci", "capisce", "capiamo", "capite", "capiscono"]
+  },
+  {
+    "id": "fare",
+    "family": "are",
+    "irregular": true,
+    "forms": ["faccio", "fai", "fa", "facciamo", "fate", "fanno"]
+  },
+  {
+    "id": "ascoltare",
+    "family": "are",
+    "irregular": false,
+    "forms": ["ascolto", "ascolti", "ascolta", "ascoltiamo", "ascoltate", "ascoltano"]
+  }
+]

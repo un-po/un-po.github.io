@@ -1,0 +1,14 @@
+#!/bin/sh
+# Keep this project's GitHub login separate from work credentials.
+set -eu
+project_root=$(CDPATH= cd -- "$(dirname -- "$0")/.." && pwd)
+umask 077
+export GH_CONFIG_DIR="$project_root/.local/gh"
+export GH_HOST=github.com
+unset GH_TOKEN GITHUB_TOKEN GH_ENTERPRISE_TOKEN GITHUB_ENTERPRISE_TOKEN
+mkdir -p "$GH_CONFIG_DIR"
+chmod 700 "$project_root/.local" "$GH_CONFIG_DIR"
+if [ "${1-}" = login ]; then
+  exec gh auth login --hostname github.com --git-protocol https --web --insecure-storage
+fi
+exec gh "$@"
