@@ -41,9 +41,9 @@ installation in CI. The production build and unit tests have been verified.
 - Light/dark themes, contextual keyboard hints, reduced motion, and responsive layouts.
 
 The v1 design and interface copy are complete, but this is not yet a calibrated
-learning system. Per-skill ability
-estimation, broader tenses, progress export/import, and analytics are future work.
-Content supports multiple accepted answers; current exercises each have one.
+learning system. Per-skill ability estimation, broader tenses, progress
+export/import, and analytics are future work. Content supports multiple accepted
+answers; current exercises each have one.
 
 ## Structure
 
@@ -78,9 +78,15 @@ Login uses `--insecure-storage` to avoid the shared system credential store: the
 token is plaintext in an ignored directory with restricted permissions. Do not
 share that directory. Global work settings remain unchanged.
 
-Set your personal commit name/email locally before the first commit. Hosting is
-planned for GitHub Pages. The build uses relative asset paths, allowing a project
-subdirectory. No remote repository, CI pipeline, or deployment has been created.
+GitHub Actions validates pull requests and pushes to `main`, then deploys successful
+`main` builds to [GitHub Pages](https://ricoboni.github.io/un-po/). The build uses
+relative asset paths so it works under the repository subdirectory.
+
+## License
+
+Application code is available under the [MIT License](LICENSE). Learning content
+in `src/content/` is available under
+[CC BY 4.0](src/content/LICENSE.md). Third-party fonts retain their own licenses.
 
 ## Learner controls
 
