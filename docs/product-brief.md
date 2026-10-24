@@ -76,8 +76,9 @@ The design and interface copy are complete. Remaining release work is additive:
   standards, and the minimum useful curriculum for the first release.
 - **Learning model:** replace the prototype scheduler with per-skill confidence,
   calibrated difficulty, and spaced review of persistent mistakes.
-- **Release:** review the Italian content, self-host fonts, finish cross-browser
-  and accessibility checks, choose analytics, and automate validation and deploys.
+- **Release:** review the Italian content, self-host fonts, and finish
+  cross-browser and accessibility checks. Umami aggregate analytics and automatic
+  GitHub Pages deployment are now configured.
 
 ## Progress presentation and workflow decisions
 

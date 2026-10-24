@@ -11,6 +11,7 @@ import type { Attempt, Exercise, Outcome, Verb } from './lib/practice.ts';
 import { clearHistory, loadHistory, saveHistory } from './lib/storage.ts';
 import { loadProfile, saveProfile } from './lib/profile.ts';
 import { loadTableVisibility, saveTableVisibility } from './lib/preferences.ts';
+import { trackEvent } from './lib/analytics.ts';
 
 interface SessionItem {
   exercise: Exercise;
@@ -84,6 +85,7 @@ function begin() {
   learnerName.value = learnerName.value.trim().slice(0, 40);
   storageAvailable.value = saveProfile(learnerName.value);
   screen.value = 'practice';
+  trackEvent('session_started');
   focusAnswer();
 }
 
@@ -117,6 +119,13 @@ function submit(dontKnow = false) {
   }
 
   const result = dontKnow ? 'error' : gradeAnswer(answer.value, exercise.value.answers, verbs);
+  trackEvent(
+    result === 'correct'
+      ? 'answer_correct'
+      : result === 'typo'
+        ? 'answer_typo'
+        : 'answer_incorrect',
+  );
   displayedItem.value.outcome = result;
   const attempt: Attempt = {
     exerciseId: exercise.value.id,
@@ -185,6 +194,8 @@ function handleSessionKeys(event: KeyboardEvent) {
 }
 
 function finish() {
+  if (screen.value !== 'practice') return;
+  trackEvent('session_completed');
   transitioning.value = false;
   sentenceVisible.value = true;
   historyIndicatorVisible.value = false;
@@ -230,7 +241,10 @@ function openPrivacy() {
   nextTick(() => information.value?.open('privacy'));
 }
 
-onMounted(() => window.addEventListener('keydown', handleSessionKeys));
+onMounted(() => {
+  window.addEventListener('keydown', handleSessionKeys);
+  if (screen.value === 'practice') trackEvent('session_started');
+});
 onBeforeUnmount(() => {
   window.removeEventListener('keydown', handleSessionKeys);
   clearTimeout(indicatorTimer);

@@ -13,7 +13,8 @@ npm run dev
 ```
 
 Open the local URL printed by Vite. Font files currently load from Google Fonts;
-system fallbacks remain available when offline. No analytics are enabled.
+system fallbacks remain available when offline. Umami records anonymous page views
+and practice events in production.
 
 ```sh
 npm test               # Answer grading, content validation, review scheduling, storage
@@ -41,9 +42,9 @@ installation in CI. The production build and unit tests have been verified.
 - Light/dark themes, contextual keyboard hints, reduced motion, and responsive layouts.
 
 The v1 design and interface copy are complete, but this is not yet a calibrated
-learning system. Per-skill ability estimation, broader tenses, progress
-export/import, and analytics are future work. Content supports multiple accepted
-answers; current exercises each have one.
+learning system. Per-skill ability estimation, broader tenses, and progress
+export/import are future work. Content supports multiple accepted answers;
+current exercises each have one.
 
 ## Structure
 
@@ -57,10 +58,13 @@ answers; current exercises each have one.
 
 ## Privacy and persistence
 
-There is no application backend or account. Up to 500 recent answers, an optional first name, introduction completion, and
-the selected theme are stored in this browser. Clearing site data removes them.
-Google Fonts receives font requests. If local storage is unavailable, practice
-continues and the interface reports that results could not be saved.
+There is no application account or server-side learner profile. Up to 500 recent
+answers, an optional first name, introduction completion, and the selected theme
+are stored in this browser. Clearing site data removes them. Google Fonts receives
+font requests. Umami collects page views and anonymous counts for session starts,
+answer outcomes, and session completion; event data excludes names and typed
+answers. If local storage is unavailable, practice continues and the interface
+reports that results could not be saved.
 
 ## GitHub setup
 

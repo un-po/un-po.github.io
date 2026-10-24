@@ -61,9 +61,14 @@ defineExpose({ open, close });
     <section aria-labelledby="privacy-heading">
       <h3 id="privacy-heading" tabindex="-1">Privacy</h3>
       <p>
-        Il nome, le preferenze e i risultati restano nel browser che stai usando. Non servono un
-        account e un server non riceve le tue risposte. Se cancelli i dati del sito, perdi anche i
-        progressi salvati qui.
+        Il nome, le preferenze, i progressi e le risposte restano in questo browser. Non servono un
+        account e il server dell’app non riceve ciò che scrivi. Se cancelli i dati del sito, perdi
+        anche i progressi salvati qui.
+      </p>
+      <p>
+        Usiamo Umami, senza cookie, per raccogliere statistiche aggregate sulle visite e su quante
+        volte vengono avviate o concluse le sessioni, o verificate risposte corrette, quasi corrette
+        e sbagliate. Questi eventi non includono il tuo nome né il testo delle risposte.
       </p>
     </section>
 
