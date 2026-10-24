@@ -20,6 +20,7 @@ views and practice events in production.
 npm test               # Answer grading, content validation, review scheduling, storage
 npm run content:review # Regenerate the Markdown exercise review sheet from JSON
 npm run build          # Type-check Vue/TypeScript and produce static files in dist/
+npm run check          # Run formatting, unit, desktop/mobile browser, and build checks
 npm run preview        # Serve the production build locally
 npm run format         # Format source with Prettier
 npm run format:check   # Check formatting
@@ -29,8 +30,11 @@ npm run test:e2e       # Desktop and mobile Chromium interaction checks
 
 The unit tests use Node's built-in runner and can run before installing packages.
 The browser tests require installed dependencies and a Chromium download.
-Dependencies are pinned in `package-lock.json`. Use `npm ci` for reproducible
-installation in CI. The production build and unit tests have been verified.
+Before a substantial change or pull request, run `npm run check`. It matches the
+validation gate in GitHub Actions. Playwright needs Chromium installed and uses
+port 5173; stop an old dev server there if you want Playwright to start a fresh one.
+Dependencies are pinned in `package-lock.json`; use `npm ci` for reproducible
+installation in CI.
 
 ## Current scope
 

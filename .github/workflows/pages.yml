@@ -35,17 +35,8 @@ jobs:
       - name: Install browser
         run: npx playwright install --with-deps chromium
 
-      - name: Check formatting
-        run: npm run format:check
-
-      - name: Run unit tests
-        run: npm test
-
-      - name: Run browser tests
-        run: npm run test:e2e
-
-      - name: Build production site
-        run: npm run build
+      - name: Run validation suite
+        run: npm run check
 
       - name: Configure GitHub Pages
         if: github.event_name != 'pull_request'
