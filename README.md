@@ -19,6 +19,7 @@ views and practice events in production.
 ```sh
 npm test               # Answer grading, content validation, review scheduling, storage
 npm run content:review # Regenerate the Markdown exercise review sheet from JSON
+npm run simulate:scheduler # Run deterministic scheduler sanity scenarios
 npm run build          # Type-check Vue/TypeScript and produce static files in dist/
 npm run check          # Run formatting, unit, desktop/mobile browser, and build checks
 npm run preview        # Serve the production build locally
@@ -44,14 +45,15 @@ installation in CI.
 - In-sentence typing, deliberate advancement after every answer, a gentle error
   bounce, and conjugation tables highlighting target and supplied forms.
 - Conservative typo detection, session scoring, and a first-attempt accuracy summary.
-- A small spaced review loop, with the last 500 attempts saved locally.
+- A persistent adaptive queue with mastery levels and rolling question, verb,
+  person, and tense scores.
 - A first-visit introduction with an optional locally saved name.
 - Light/dark themes, contextual keyboard hints, reduced motion, and responsive layouts.
 
-The v1 design and interface copy are complete, but this is not yet a calibrated
-learning system. Per-skill ability estimation, broader tenses, and progress
+The scheduling model has deterministic sanity simulations but is not a claim of
+learning effectiveness. Broader tenses, calibration from real use, and progress
 export/import are future work. Content supports multiple accepted answers;
-current exercises each have one.
+current exercises each have one. See [the learning model](docs/learning-model.md).
 
 ## Structure
 
@@ -67,10 +69,10 @@ current exercises each have one.
 
 ## Privacy and persistence
 
-There is no application account or server-side learner profile. Up to 500 recent
-answers, an optional first name, introduction completion, and the selected theme
-are stored in this browser. Clearing site data removes them. Fonts load from this
-site, with no Google Fonts requests. Umami collects page views and anonymous counts for session starts,
+There is no application account or server-side learner profile. The versioned
+learning state, an optional first name, introduction completion, and the selected
+theme are stored in this browser. Clearing site data removes them. Fonts load from
+this site, with no Google Fonts requests. Umami collects page views and anonymous counts for session starts,
 answer outcomes, and session completion; event data excludes names and typed
 answers. If local storage is unavailable, practice continues and the interface
 reports that results could not be saved.

@@ -1,4 +1,23 @@
 import { test, expect } from '@playwright/test';
+import { readFileSync } from 'node:fs';
+
+interface AnswerFixture {
+  id: string;
+  answers: string[];
+}
+
+const rawExercises: AnswerFixture[] = JSON.parse(
+  readFileSync(new URL('../../src/content/exercises.json', import.meta.url), 'utf8'),
+);
+const rawPilotExercises: AnswerFixture[] = JSON.parse(
+  readFileSync(new URL('../../src/content/exercises-pilot.json', import.meta.url), 'utf8'),
+);
+
+const answerByExercise = new Map(
+  [...rawExercises, ...rawPilotExercises].map(
+    (exercise) => [exercise.id, exercise.answers[0]!] as const,
+  ),
+);
 
 async function begin(page: import('@playwright/test').Page, name = '') {
   await page.goto('/');
@@ -8,13 +27,18 @@ async function begin(page: import('@playwright/test').Page, name = '') {
   }
 }
 
+async function answerCurrent(page: import('@playwright/test').Page) {
+  const exerciseId = await page.locator('.exercise-form').getAttribute('data-exercise-id');
+  await page.getByRole('textbox').fill(answerByExercise.get(exerciseId!)!);
+}
+
 test('introduction explains keyboard use and accepts an optional name', async ({ page }) => {
   await page.goto('/');
   await expect(page.getByRole('heading', { level: 1 })).toContainText('Sbagliando');
   await expect(page.getByText(/usa ↑ e ↓/)).toBeVisible();
   await page.getByLabel('Piacere! Ops… come ti chiami?').fill('Rico');
   await page.getByRole('button', { name: 'Cominciamo' }).click();
-  await page.getByRole('textbox').fill('bevo');
+  await answerCurrent(page);
   await page.getByRole('button', { name: 'Verifica' }).click();
   await expect(page.getByRole('heading', { name: 'Esatto, Rico!' })).toBeVisible();
 });
@@ -24,10 +48,10 @@ test('practice stays quiet and waits for deliberate continuation', async ({ page
   await expect(page.locator('footer')).toHaveCount(0);
   await expect(page.getByText('Presente indicativo', { exact: true })).toHaveCount(0);
   await expect(page.getByText(/oppure premi/)).toHaveCount(0);
-  await page.getByRole('textbox').fill('bevo');
+  await answerCurrent(page);
   await page.getByRole('button', { name: 'Verifica' }).click();
   await page.waitForTimeout(1500);
-  await expect(page.getByRole('textbox')).toHaveValue('bevo');
+  await expect(page.getByRole('textbox')).not.toHaveValue('');
   await expect(page.locator('.exercise-form')).toHaveClass(/answer-correct/);
   await expect(page.locator('.history-dot.correct')).toHaveCount(1);
   await page.getByRole('button', { name: 'Prossima frase' }).click();
@@ -50,7 +74,7 @@ test('table starts open, can be retired, and can be restored in settings', async
 
 test('settings edit the name, offer three themes, and reset progress', async ({ page }) => {
   await begin(page, 'Rico');
-  await page.getByRole('textbox').fill('bevo');
+  await answerCurrent(page);
   await page.getByRole('button', { name: 'Verifica' }).click();
   await page.getByRole('button', { name: 'Apri le impostazioni' }).click();
   const name = page.getByRole('textbox', { name: 'Il tuo nome' });
@@ -63,7 +87,10 @@ test('settings edit the name, offer three themes, and reset progress', async ({ 
   expect(await page.evaluate(() => localStorage.getItem('unpo-theme'))).toBeNull();
   page.on('dialog', (dialog) => dialog.accept());
   await page.getByRole('button', { name: 'Azzera i miei progressi' }).click();
-  expect(await page.evaluate(() => localStorage.getItem('unpo-history-v1'))).toBeNull();
+  const learning = await page.evaluate(() =>
+    JSON.parse(localStorage.getItem('unpo-learning-state')!),
+  );
+  expect(learning.learner).toMatchObject({ level: 1, totalMastery: 0, missedMastery: 0 });
   await expect(page.getByRole('textbox')).toHaveValue('');
 });
 
@@ -106,29 +133,29 @@ test('privacy link in settings opens the privacy section', async ({ page }) => {
 
 test('wordmark preserves the session while Escape concludes it', async ({ page }) => {
   await begin(page);
-  await page.getByRole('textbox').fill('bevo');
+  await answerCurrent(page);
   await page.getByRole('button', { name: 'Verifica' }).click();
   await page.getByRole('button', { name: 'Torna all’esercizio corrente' }).click();
-  await expect(page.getByRole('textbox')).toHaveValue('bevo');
+  await expect(page.getByRole('textbox')).not.toHaveValue('');
   await expect(page.getByRole('heading', { name: 'Esatto!' })).toBeVisible();
   await page.getByRole('button', { name: 'Apri le impostazioni' }).click();
   await page.keyboard.press('Escape');
   await expect(page.getByRole('dialog', { name: 'Impostazioni' })).not.toBeVisible();
-  await expect(page.getByRole('textbox')).toHaveValue('bevo');
+  await expect(page.getByRole('textbox')).not.toHaveValue('');
   await page.keyboard.press('Escape');
   await expect(page.getByRole('heading', { level: 1 })).toContainText('Un po’ meglio');
 });
 
 test('arrow keys browse answered items and return to the live exercise', async ({ page }) => {
   await begin(page);
-  await page.getByRole('textbox').fill('bevi');
+  await page.getByRole('textbox').fill('sbagliato');
   await page.getByRole('button', { name: 'Verifica' }).click();
   await page.getByRole('button', { name: 'Prossima frase' }).click();
   await expect(page.getByRole('textbox')).toHaveValue('');
   await expect(page.getByRole('textbox')).toBeEditable();
 
   await page.keyboard.press('ArrowUp');
-  await expect(page.getByRole('textbox')).toHaveValue('bevi');
+  await expect(page.getByRole('textbox')).toHaveValue('sbagliato');
   await expect(page.getByRole('textbox')).toHaveAttribute('readonly', '');
   await expect(page.getByRole('button', { name: 'Prossima frase' })).toBeDisabled();
   await expect(page.locator('.history-indicator')).toHaveClass(/visible/);
@@ -164,17 +191,19 @@ test('session summary omits points, difficulty, saved-data copy, and restart con
   page,
 }) => {
   await begin(page);
-  await page.getByRole('textbox').fill('bevi');
+  const currentVerb = (await page.locator('.infinitive').textContent())!.trim();
+  await page.getByRole('textbox').fill('sbagliato');
   await page.getByRole('button', { name: 'Verifica' }).click();
   await expect(page.getByRole('button', { name: 'Concludi la sessione' })).not.toContainText('↗');
   await page.getByRole('button', { name: /Concludi la sessione/ }).click();
   await expect(page.locator('.summary-stats')).toContainText('0%');
+  await expect(page.locator('.summary-stats')).toContainText('livello');
   await expect(page.locator('body')).not.toContainText(
     /punti|Difficoltà media|risultati sono salvati/,
   );
   await expect(page.getByRole('button', { name: 'Ancora un po’' })).toHaveCount(0);
   const review = page.locator('.review-note');
-  await expect(review).toContainText('bere');
+  await expect(review).toContainText(currentVerb);
   expect((await review.boundingBox())!.width).toBeGreaterThan(300);
 });
 

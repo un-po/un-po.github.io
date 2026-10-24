@@ -1,7 +1,7 @@
 import test from 'node:test';
 import assert from 'node:assert/strict';
 import { readFileSync } from 'node:fs';
-import { gradeAnswer, nextExercise, normalize, persons, summarize } from '../src/lib/practice.ts';
+import { gradeAnswer, normalize, persons, summarize } from '../src/lib/practice.ts';
 import type { Attempt, Exercise, Verb } from '../src/lib/practice.ts';
 const verbs: Verb[] = JSON.parse(
   readFileSync(new URL('../src/content/verbs.json', import.meta.url), 'utf8'),
@@ -61,34 +61,14 @@ test('all sentences reference a real verb and its target person', () => {
     );
     for (const answer of exercise.answers)
       assert.equal(gradeAnswer(answer, exercise.answers, verbs), 'correct');
-    assert.ok(exercise.difficulty >= 1 && exercise.difficulty <= 5);
+    assert.ok((exercise.level ?? exercise.difficulty) >= 1);
+    assert.ok((exercise.level ?? exercise.difficulty) <= 25);
   }
   for (const person of persons)
     assert.ok(
       exercises.some((e) => e.person === person),
       person,
     );
-});
-test('reviews mistakes after three intervening exercises', () => {
-  const history = [
-    attempt(exercises[0]!, 'error'),
-    ...exercises.slice(1, 3).map((e) => attempt(e)),
-  ];
-  assert.equal(nextExercise(exercises, history).id, exercises[3]!.id);
-  history.push(attempt(exercises[3]!));
-  assert.equal(nextExercise(exercises, history).id, exercises[0]!.id);
-});
-test('successful review clears the old due mistake', () => {
-  const history = [
-    attempt(exercises[0]!, 'error'),
-    ...exercises.slice(1, 4).map((e) => attempt(e)),
-    attempt(exercises[0]!),
-  ];
-  assert.equal(nextExercise(exercises, history).id, exercises[4]!.id);
-});
-test('never immediately repeats the previous exercise', () => {
-  const history = exercises.map((e) => attempt(e));
-  assert.notEqual(nextExercise(exercises, history).id, history.at(-1)!.exerciseId);
 });
 test('summary keeps first-attempt accuracy separate from typo points', () => {
   const correct = attempt(exercises[0]!);

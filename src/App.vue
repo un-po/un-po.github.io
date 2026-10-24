@@ -7,9 +7,10 @@ import InformationDialog from './components/InformationDialog.vue';
 import rawVerbs from './content/verbs.json';
 import rawExercises from './content/exercises.json';
 import rawPilotExercises from './content/exercises-pilot.json';
-import { gradeAnswer, nextExercise, normalize, summarize } from './lib/practice.ts';
+import { gradeAnswer, normalize, summarize } from './lib/practice.ts';
 import type { Attempt, Exercise, Outcome, Verb } from './lib/practice.ts';
-import { clearHistory, loadHistory, saveHistory } from './lib/storage.ts';
+import { levelProgress, nextLearningExercise, recordLearningOutcome } from './lib/learning.ts';
+import { clearLearningState, loadLearningState, saveLearningState } from './lib/storage.ts';
 import { loadProfile, saveProfile } from './lib/profile.ts';
 import { loadTableVisibility, saveTableVisibility } from './lib/preferences.ts';
 import { trackEvent } from './lib/analytics.ts';
@@ -24,10 +25,10 @@ const verbs = rawVerbs as Verb[];
 const exercises = [...(rawExercises as Exercise[]), ...(rawPilotExercises as Exercise[])];
 const profile = loadProfile();
 const learnerName = ref(profile.name);
-const history = ref<Attempt[]>(loadHistory());
+const learning = ref(loadLearningState(exercises));
 const attempts = ref<Attempt[]>([]);
 const showConjugation = ref(loadTableVisibility());
-const firstExercise = nextExercise(exercises, history.value);
+const firstExercise = nextLearningExercise(learning.value, exercises);
 const sessionItems = ref<SessionItem[]>([{ exercise: firstExercise, answer: '', outcome: null }]);
 const displayedIndex = ref(0);
 const screen = ref<'intro' | 'practice' | 'summary'>(profile.introduced ? 'practice' : 'intro');
@@ -50,6 +51,7 @@ const outcome = computed(() => displayedItem.value.outcome);
 const verb = computed(() => verbs.find((item) => item.id === exercise.value.verb)!);
 const isReviewing = computed(() => displayedIndex.value !== currentIndex.value);
 const stats = computed(() => summarize(attempts.value));
+const progress = computed(() => levelProgress(learning.value, exercises));
 const mistakes = computed(() => [
   ...new Set(
     attempts.value
@@ -138,8 +140,8 @@ function submit(dontKnow = false) {
     timestamp: Date.now(),
   };
   attempts.value.push(attempt);
-  history.value.push(attempt);
-  storageAvailable.value = saveHistory(history.value);
+  recordLearningOutcome(learning.value, exercise.value, result, exercises);
+  storageAvailable.value = saveLearningState(learning.value);
 }
 
 function advance() {
@@ -150,7 +152,8 @@ function advance() {
 
 function createNextExercise() {
   if (!transitioning.value) return;
-  const next = nextExercise(exercises, history.value);
+  const next = nextLearningExercise(learning.value, exercises);
+  storageAvailable.value = saveLearningState(learning.value);
   sessionItems.value.push({ exercise: next, answer: '', outcome: null });
   displayedIndex.value = currentIndex.value;
   sentenceVisible.value = true;
@@ -223,14 +226,14 @@ function setConjugationVisibility(value: boolean) {
 }
 
 function resetProgress() {
-  storageAvailable.value = clearHistory();
+  storageAvailable.value = clearLearningState();
   if (!storageAvailable.value) {
     window.alert('Il browser non permette di cancellare i progressi salvati.');
     return;
   }
-  history.value = [];
+  learning.value = loadLearningState(exercises);
   attempts.value = [];
-  const next = nextExercise(exercises, []);
+  const next = nextLearningExercise(learning.value, exercises);
   sessionItems.value = [{ exercise: next, answer: '', outcome: null }];
   displayedIndex.value = 0;
   screen.value = 'practice';
@@ -267,7 +270,11 @@ focusAnswer();
         un po<span class="wordmark-apostrophe">’</span
         ><span class="brand-dot" aria-hidden="true"></span>
       </button>
-      <span class="brand-caption">una frase alla volta</span>
+      <span class="brand-caption">
+        una frase alla volta<span v-if="screen !== 'intro'">
+          · livello {{ learning.learner.level }}</span
+        >
+      </span>
       <nav aria-label="Informazioni e preferenze">
         <button
           ref="informationTrigger"
@@ -352,6 +359,7 @@ focusAnswer();
       <div class="sentence-stage" :aria-busy="transitioning">
         <form
           class="exercise-form"
+          :data-exercise-id="exercise.id"
           :class="{
             'answer-correct': outcome === 'correct',
             'answer-incorrect': outcome === 'error' || outcome === 'typo',
@@ -498,7 +506,18 @@ focusAnswer();
           <strong>{{ stats.count }}</strong>
           <span>frasi completate</span>
         </div>
+        <div>
+          <strong>{{ learning.learner.level }}</strong>
+          <span v-if="progress.atContentLimit">livello · massimo disponibile per ora</span>
+          <span v-else
+            >livello · {{ progress.current.toLocaleString('it', { maximumFractionDigits: 1 }) }} su
+            {{ progress.target }} verso il prossimo</span
+          >
+        </div>
       </div>
+      <p v-if="stats.count && progress.nextRankLevel" class="summary-detail">
+        Il prossimo grado comincia al livello {{ progress.nextRankLevel }}.
+      </p>
       <section v-if="mistakes.length" class="review-note">
         <h2>Da ritrovare, con calma</h2>
         <p>{{ mistakes.join(' · ') }}</p>

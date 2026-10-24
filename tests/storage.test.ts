@@ -1,55 +1,68 @@
 import test from 'node:test';
 import assert from 'node:assert/strict';
-import { clearHistory, loadHistory, saveHistory } from '../src/lib/storage.ts';
-import type { Attempt } from '../src/lib/practice.ts';
-let stored: string | null = null;
-Object.defineProperty(globalThis, 'localStorage', {
-  configurable: true,
-  value: {
-    getItem: () => stored,
-    setItem: (_key: string, value: string) => {
-      stored = value;
+import { readFileSync } from 'node:fs';
+import { createLearningState, learningStateVersion } from '../src/lib/learning.ts';
+import {
+  clearLearningState,
+  learningStorageKey,
+  loadLearningState,
+  saveLearningState,
+} from '../src/lib/storage.ts';
+import type { Exercise } from '../src/lib/practice.ts';
+
+const exercises: Exercise[] = JSON.parse(
+  readFileSync(new URL('../src/content/exercises.json', import.meta.url), 'utf8'),
+);
+const random = () => 0.5;
+let stored = new Map<string, string>();
+
+function installStorage(): void {
+  stored = new Map<string, string>();
+  Object.defineProperty(globalThis, 'localStorage', {
+    configurable: true,
+    value: {
+      getItem: (key: string) => stored.get(key) ?? null,
+      setItem: (key: string, value: string) => stored.set(key, value),
+      removeItem: (key: string) => stored.delete(key),
     },
-    removeItem: () => {
-      stored = null;
-    },
-  },
+  });
+}
+
+test('round-trips versioned learning state', () => {
+  installStorage();
+  const state = createLearningState(exercises, random);
+  assert.equal(saveLearningState(state), true);
+  assert.deepEqual(loadLearningState(exercises, random), state);
+  assert.equal(JSON.parse(stored.get(learningStorageKey)!).version, learningStateVersion);
 });
-const record: Attempt = {
-  exerciseId: 'presente-01',
-  verb: 'bere',
-  person: 'io',
-  answer: 'bevo',
-  outcome: 'correct',
-  difficulty: 2,
-  timestamp: 1000,
-};
-test('round-trips a valid attempt', () => {
-  assert.equal(saveHistory([record]), true);
-  assert.deepEqual(loadHistory(), [record]);
-});
-test('rejects corrupt and malformed history', () => {
-  for (const raw of [
-    'broken',
-    '{}',
-    'null',
-    '[null, {}, 7]',
-    JSON.stringify([{ ...record, outcome: 'other' }]),
-    JSON.stringify([{ ...record, difficulty: -1 }]),
-  ]) {
-    stored = raw;
-    assert.deepEqual(loadHistory(), []);
+
+test('rejects corrupt or unknown state versions', () => {
+  installStorage();
+  for (const raw of ['broken', '{}', 'null', JSON.stringify({ version: 999 })]) {
+    stored.set(learningStorageKey, raw);
+    const state = loadLearningState(exercises, random);
+    assert.equal(state.version, learningStateVersion);
+    assert.equal(state.learner.level, 1);
   }
 });
-test('caps retained history to 500 attempts', () => {
-  saveHistory(Array.from({ length: 700 }, () => record));
-  assert.equal(loadHistory().length, 500);
+
+test('merges newly eligible questions without resetting progress', () => {
+  installStorage();
+  const state = createLearningState(exercises.slice(0, 3), random);
+  state.learner.totalMastery = 2;
+  saveLearningState(state);
+  const expanded = loadLearningState(exercises.slice(0, 6), random);
+  assert.equal(expanded.learner.totalMastery, 2);
+  assert.equal(new Set(expanded.queue).size, 6);
 });
-test('clears only the saved practice history', () => {
-  saveHistory([record]);
-  assert.equal(clearHistory(), true);
-  assert.deepEqual(loadHistory(), []);
+
+test('clears current learning data', () => {
+  installStorage();
+  saveLearningState(createLearningState(exercises, random));
+  assert.equal(clearLearningState(), true);
+  assert.equal(stored.has(learningStorageKey), false);
 });
+
 test('storage failures do not interrupt practice', () => {
   Object.defineProperty(globalThis, 'localStorage', {
     configurable: true,
@@ -57,6 +70,7 @@ test('storage failures do not interrupt practice', () => {
       throw new Error('Blocked');
     },
   });
-  assert.deepEqual(loadHistory(), []);
-  assert.equal(saveHistory([record]), false);
+  const state = loadLearningState(exercises, random);
+  assert.equal(state.version, learningStateVersion);
+  assert.equal(saveLearningState(state), false);
 });

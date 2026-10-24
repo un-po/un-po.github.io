@@ -162,7 +162,7 @@ Dopo la partita, io e Sara **\___** acqua fresca.
 
 ### presente-21 — bere · voi · difficulty 1
 
-Ragazzi, **\___** qualcosa di caldo?
+Ragazzi, quando fate colazione, **\___** qualcosa di caldo?
 
 - Accepted answer: `bevete`
 - Explanation: Con voi, bere diventa bevete.
@@ -218,7 +218,7 @@ Il museo **\___** chiuso il lunedì.
 
 ### presente-29 — essere · voi · difficulty 2
 
-Ragazzi, **\___** liberi sabato pomeriggio?
+Ragazzi, dato che avete finito gli esami, **\___** liberi sabato pomeriggio?
 
 - Accepted answer: `siete`
 - Explanation: Essere è irregolare: con voi si usa siete.
@@ -253,7 +253,7 @@ In vacanza, io e Marco **\___** fino a tardi.
 
 ### presente-34 — dormire · voi · difficulty 1
 
-Ragazzi, in campeggio **\___** nella tenda vicino al lago?
+Ragazzi, quando andate in campeggio, **\___** nella tenda vicino al lago?
 
 - Accepted answer: `dormite`
 - Explanation: Con voi, dormire termina in -ite: dormite.
@@ -365,7 +365,7 @@ Il cucciolo **\___** subito il comando.
 
 ### presente-50 — capire · voi · difficulty 2
 
-Ragazzi, con questa mappa **\___** il percorso?
+Ragazzi, se guardate bene questa mappa, **\___** il percorso?
 
 - Accepted answer: `capite`
 - Explanation: Con voi, capire non aggiunge -isc-: capite.
@@ -407,7 +407,7 @@ Per cena, io e Paolo **\___** una pizza fatta in casa.
 
 ### presente-56 — fare · voi · difficulty 2
 
-Ragazzi, **\___** una pausa dopo questa riunione?
+Ragazzi, quando finite questa riunione, **\___** una pausa?
 
 - Accepted answer: `fate`
 - Explanation: Fare è irregolare: con voi si usa fate.
@@ -491,7 +491,7 @@ L’insegnante **\___** con i genitori dopo la lezione.
 
 ### presente-68 — parlare · voi · difficulty 1
 
-Ragazzi, con i clienti **\___** sempre in modo chiaro?
+Ragazzi, quando incontrate i clienti, **\___** sempre in modo chiaro?
 
 - Accepted answer: `parlate`
 - Explanation: Con voi, parlare termina in -ate: parlate.
@@ -547,7 +547,7 @@ Dopo il viaggio, io e Marta **\___** fino a tardi.
 
 ### presente-76 — dormire · voi · difficulty 1
 
-Ragazzi, in quell’albergo **\___** in camere singole?
+Ragazzi, quando soggiornate in quell’albergo, **\___** in camere singole?
 
 - Accepted answer: `dormite`
 - Explanation: Con voi, dormire termina in -ite: dormite.
@@ -715,7 +715,7 @@ A casa, io e mia madre **\___** musica mentre prepariamo la cena.
 
 ### presente-100 — ascoltare · voi · difficulty 1
 
-Ragazzi, nel backstage **\___** le indicazioni del regista.
+Ragazzi, mentre aspettate nel backstage, **\___** le indicazioni del regista.
 
 - Accepted answer: `ascoltate`
 - Explanation: Con voi, ascoltare termina in -ate: ascoltate.

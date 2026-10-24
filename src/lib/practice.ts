@@ -16,6 +16,8 @@ export interface Exercise {
   answers: string[];
   explanation: string;
   difficulty: number;
+  level?: number;
+  tense?: string;
 }
 export interface Attempt {
   exerciseId: string;
@@ -79,26 +81,4 @@ export function summarize(attempts: Attempt[]) {
       ? attempts.reduce((total, attempt) => total + attempt.difficulty, 0) / count
       : 0,
   };
-}
-// A small review loop for this prototype; full per-skill adaptation comes later.
-export function nextExercise(exercises: Exercise[], attempts: Attempt[]): Exercise {
-  if (!exercises.length) throw new Error('No exercises available');
-  const last = attempts.at(-1)?.exerciseId;
-  const recent = new Set(attempts.slice(-3).map((a) => a.exerciseId));
-  const due = attempts.find(
-    (attempt, index) =>
-      attempt.outcome !== 'correct' &&
-      index <= attempts.length - 4 &&
-      !recent.has(attempt.exerciseId) &&
-      !attempts.slice(index + 1).some((later) => later.exerciseId === attempt.exerciseId),
-  );
-  const review = due && exercises.find((exercise) => exercise.id === due.exerciseId);
-  if (review) return review;
-  const unseen = exercises.find((exercise) => !attempts.some((a) => a.exerciseId === exercise.id));
-  if (unseen) return unseen;
-  return (
-    exercises.find((exercise) => !recent.has(exercise.id)) ??
-    exercises.find((exercise) => exercise.id !== last) ??
-    exercises[0]!
-  );
 }

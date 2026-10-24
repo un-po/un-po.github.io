@@ -24,10 +24,13 @@ Support multiple reviewed accepted answers from the beginning. Distinguish
 specified-tense exercises from open contextual exercises; award skill evidence
 for the answer actually produced.
 
-Maintain confidence per skill and verb. An initial scheduling hypothesis is
-60% current-ability practice, 25% due reviews, and 15% exploration. Space mistakes
-across intervening questions and future sessions. Treat these proportions as
-tunable, not established learning guarantees.
+Maintain rolling scores per question, verb, person, and tense. A persistent queue
+spaces errors, typos, and correct answers differently, then uses contextual
+weakness to bring related practice forward. Permanent per-question mastery points
+advance 25 numeric levels; missed points preserve the distinction between breadth
+of mastery and simply moving forward. The final “Italiano vero” rank begins at
+level 21 and remains beyond the planned 500-question v1 corpus. Full rules and
+simulation results are in `docs/learning-model.md`.
 
 Classify exact answers, probable typos, and grammatical errors. Check known
 conjugated forms before applying similarity heuristics. Correction tables show
@@ -76,9 +79,8 @@ in place. Remaining v1 work:
 - **Content:** the 100 present-indicative sentences across 10 verbs have had an
   initial LLM review. Get a fluent-speaker review, record provenance for future
   additions, then decide the launch corpus size and next verbs.
-- **Learning model:** decide whether the prototype scheduler is sufficient for
-  launch or whether v1 needs per-skill confidence and stronger spaced review of
-  persistent mistakes. The current implementation only revisits missed items.
+- **Learning model:** calibrate the implemented queue, contextual scores, and
+  mastery thresholds through continued simulations and real aggregate usage.
 - **Release checks:** finish cross-browser and accessibility checks, walk through
   first visit, practice, history, settings, reset, and session end, then verify the
   production Pages deployment. CI builds and deploys `main`; Umami is configured.
