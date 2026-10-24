@@ -64,7 +64,8 @@ continues and the interface reports that results could not be saved.
 
 ## GitHub setup
 
-The intended owner is `ricoboni`. Use the isolated CLI wrapper:
+The repository is owned by the `un-po` organization and maintained through the
+`ricoboni` account. Use the isolated CLI wrapper:
 
 ```sh
 ./scripts/gh-project login
@@ -79,8 +80,8 @@ token is plaintext in an ignored directory with restricted permissions. Do not
 share that directory. Global work settings remain unchanged.
 
 GitHub Actions validates pull requests and pushes to `main`, then deploys successful
-`main` builds to [GitHub Pages](https://ricoboni.github.io/un-po/). The build uses
-relative asset paths so it works under the repository subdirectory.
+`main` builds to [GitHub Pages](https://un-po.github.io/). The build uses relative
+asset paths so it also remains portable to a future custom domain.
 
 ## License
 
