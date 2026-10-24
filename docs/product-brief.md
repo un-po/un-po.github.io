@@ -67,19 +67,25 @@ the production build and unit tests pass. A local development preview is availab
 
 ## V1 release work
 
-The design and interface copy are complete. Remaining release work is additive:
+The design, interface copy, hosting setup, analytics, and locally hosted fonts are
+in place. Remaining v1 work:
 
 - **Profiles:** consider multiple browser-local learner profiles later. This is
   an idea to evaluate, not a first-release commitment. Keep learning histories
   separate if implemented.
-- **Content:** a local draft now has 100 present-indicative sentences across the
-  current 10 verbs, with 82 newly generated examples awaiting independent
-  review. Review those before choosing the next verbs and expanding the corpus.
-- **Learning model:** replace the prototype scheduler with per-skill confidence,
-  calibrated difficulty, and spaced review of persistent mistakes.
-- **Release:** review the Italian content, self-host fonts, and finish
-  cross-browser and accessibility checks. Umami aggregate analytics and automatic
-  GitHub Pages deployment are now configured.
+- **Content:** the 100 present-indicative sentences across 10 verbs have had an
+  initial LLM review. Get a fluent-speaker review, record provenance for future
+  additions, then decide the launch corpus size and next verbs.
+- **Learning model:** decide whether the prototype scheduler is sufficient for
+  launch or whether v1 needs per-skill confidence and stronger spaced review of
+  persistent mistakes. The current implementation only revisits missed items.
+- **Release checks:** finish cross-browser and accessibility checks, walk through
+  first visit, practice, history, settings, reset, and session end, then verify the
+  production Pages deployment. CI builds and deploys `main`; Umami is configured.
+
+Multiple browser-local profiles, milestones, broader tenses, progress
+export/import, and a fully calibrated per-skill learning model are candidates for
+after v1 unless content review or learner feedback makes one essential.
 
 ## Progress presentation and workflow decisions
 

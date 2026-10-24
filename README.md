@@ -12,9 +12,9 @@ npm install
 npm run dev
 ```
 
-Open the local URL printed by Vite. Font files currently load from Google Fonts;
-system fallbacks remain available when offline. Umami records anonymous page views
-and practice events in production.
+Open the local URL printed by Vite. The two display fonts are served from
+`public/fonts/`; system fallbacks remain available. Umami records anonymous page
+views and practice events in production.
 
 ```sh
 npm test               # Answer grading, content validation, review scheduling, storage
@@ -35,7 +35,8 @@ installation in CI. The production build and unit tests have been verified.
 ## Current scope
 
 - 100 present-indicative sentence drafts across 10 verbs and all six persons;
-  82 are new generated examples awaiting independent review.
+  the 82 new examples have had an initial LLM review and still need fluent-speaker
+  review.
 - In-sentence typing, deliberate advancement after every answer, a gentle error
   bounce, and conjugation tables highlighting target and supplied forms.
 - Conservative typo detection, session scoring, and a first-attempt accuracy summary.
@@ -64,8 +65,8 @@ current exercises each have one.
 
 There is no application account or server-side learner profile. Up to 500 recent
 answers, an optional first name, introduction completion, and the selected theme
-are stored in this browser. Clearing site data removes them. Google Fonts receives
-font requests. Umami collects page views and anonymous counts for session starts,
+are stored in this browser. Clearing site data removes them. Fonts load from this
+site, with no Google Fonts requests. Umami collects page views and anonymous counts for session starts,
 answer outcomes, and session completion; event data excludes names and typed
 answers. If local storage is unavailable, practice continues and the interface
 reports that results could not be saved.
