@@ -8,6 +8,8 @@ const verbs: Verb[] = JSON.parse(
 );
 const exercises: Exercise[] = JSON.parse(
   readFileSync(new URL('../src/content/exercises.json', import.meta.url), 'utf8'),
+).concat(
+  JSON.parse(readFileSync(new URL('../src/content/exercises-pilot.json', import.meta.url), 'utf8')),
 );
 function attempt(exercise: Exercise, outcome: Attempt['outcome'] = 'correct'): Attempt {
   return {

@@ -72,8 +72,9 @@ The design and interface copy are complete. Remaining release work is additive:
 - **Profiles:** consider multiple browser-local learner profiles later. This is
   an idea to evaluate, not a first-release commitment. Keep learning histories
   separate if implemented.
-- **Content:** add more sentences beyond the current 18. Decide breadth, review
-  standards, and the minimum useful curriculum for the first release.
+- **Content:** a local draft now has 100 present-indicative sentences across the
+  current 10 verbs, with 82 newly generated examples awaiting independent
+  review. Review those before choosing the next verbs and expanding the corpus.
 - **Learning model:** replace the prototype scheduler with per-skill confidence,
   calibrated difficulty, and spaced review of persistent mistakes.
 - **Release:** review the Italian content, self-host fonts, and finish

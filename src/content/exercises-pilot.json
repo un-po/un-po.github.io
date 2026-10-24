@@ -1,0 +1,822 @@
+[
+  {
+    "id": "presente-19",
+    "verb": "bere",
+    "person": "tu",
+    "before": "Luca, al bar cosa",
+    "after": "con la brioche?",
+    "answers": ["bevi"],
+    "explanation": "Con tu, bere diventa bevi.",
+    "difficulty": 1
+  },
+  {
+    "id": "presente-20",
+    "verb": "bere",
+    "person": "noi",
+    "before": "Dopo la partita, io e Sara",
+    "after": "acqua fresca.",
+    "answers": ["beviamo"],
+    "explanation": "Con noi, bere diventa beviamo.",
+    "difficulty": 1
+  },
+  {
+    "id": "presente-21",
+    "verb": "bere",
+    "person": "voi",
+    "before": "Ragazzi,",
+    "after": "qualcosa di caldo?",
+    "answers": ["bevete"],
+    "explanation": "Con voi, bere diventa bevete.",
+    "difficulty": 1
+  },
+  {
+    "id": "presente-22",
+    "verb": "bere",
+    "person": "loro",
+    "before": "I bambini",
+    "after": "succo di mela a merenda.",
+    "answers": ["bevono"],
+    "explanation": "Con loro, bere diventa bevono.",
+    "difficulty": 1
+  },
+  {
+    "id": "presente-23",
+    "verb": "parlare",
+    "person": "io",
+    "before": "Al lavoro",
+    "after": "spesso con clienti stranieri.",
+    "answers": ["parlo"],
+    "explanation": "Con io, parlare termina in -o: parlo.",
+    "difficulty": 1
+  },
+  {
+    "id": "presente-24",
+    "verb": "parlare",
+    "person": "lui/lei",
+    "before": "La nuova collega",
+    "after": "tre lingue.",
+    "answers": ["parla"],
+    "explanation": "Con lei, parlare termina in -a: parla.",
+    "difficulty": 1
+  },
+  {
+    "id": "presente-25",
+    "verb": "parlare",
+    "person": "noi",
+    "before": "Mio fratello e io",
+    "after": "italiano anche a casa.",
+    "answers": ["parliamo"],
+    "explanation": "Con noi, parlare termina in -iamo: parliamo.",
+    "difficulty": 1
+  },
+  {
+    "id": "presente-26",
+    "verb": "parlare",
+    "person": "loro",
+    "before": "I vicini",
+    "after": "piano la sera.",
+    "answers": ["parlano"],
+    "explanation": "Con loro, parlare termina in -ano: parlano.",
+    "difficulty": 1
+  },
+  {
+    "id": "presente-27",
+    "verb": "essere",
+    "person": "tu",
+    "before": "Giulia,",
+    "after": "già pronta per uscire?",
+    "answers": ["sei"],
+    "explanation": "Essere è irregolare: con tu si usa sei.",
+    "difficulty": 2
+  },
+  {
+    "id": "presente-28",
+    "verb": "essere",
+    "person": "lui/lei",
+    "before": "Il museo",
+    "after": "chiuso il lunedì.",
+    "answers": ["è"],
+    "explanation": "Con lui o lei, essere diventa è.",
+    "difficulty": 2
+  },
+  {
+    "id": "presente-29",
+    "verb": "essere",
+    "person": "voi",
+    "before": "Ragazzi,",
+    "after": "liberi sabato pomeriggio?",
+    "answers": ["siete"],
+    "explanation": "Essere è irregolare: con voi si usa siete.",
+    "difficulty": 2
+  },
+  {
+    "id": "presente-30",
+    "verb": "essere",
+    "person": "loro",
+    "before": "Le finestre",
+    "after": "aperte per far entrare aria.",
+    "answers": ["sono"],
+    "explanation": "Con loro, essere diventa sono.",
+    "difficulty": 2
+  },
+  {
+    "id": "presente-31",
+    "verb": "dormire",
+    "person": "io",
+    "before": "Di solito, dopo una giornata così",
+    "after": "profondamente.",
+    "answers": ["dormo"],
+    "explanation": "Con io, dormire termina in -o: dormo.",
+    "difficulty": 1
+  },
+  {
+    "id": "presente-32",
+    "verb": "dormire",
+    "person": "lui/lei",
+    "before": "Il bambino",
+    "after": "già quando arriviamo.",
+    "answers": ["dorme"],
+    "explanation": "Con lui, dormire termina in -e: dorme.",
+    "difficulty": 1
+  },
+  {
+    "id": "presente-33",
+    "verb": "dormire",
+    "person": "noi",
+    "before": "In vacanza, io e Marco",
+    "after": "fino a tardi.",
+    "answers": ["dormiamo"],
+    "explanation": "Con noi, dormire termina in -iamo: dormiamo.",
+    "difficulty": 1
+  },
+  {
+    "id": "presente-34",
+    "verb": "dormire",
+    "person": "voi",
+    "before": "Ragazzi, in campeggio",
+    "after": "nella tenda vicino al lago?",
+    "answers": ["dormite"],
+    "explanation": "Con voi, dormire termina in -ite: dormite.",
+    "difficulty": 1
+  },
+  {
+    "id": "presente-35",
+    "verb": "avere",
+    "person": "io",
+    "before": "Per il viaggio, nella mia borsa",
+    "after": "sempre una borraccia.",
+    "answers": ["ho"],
+    "explanation": "Avere è irregolare: con io si usa ho, con la h.",
+    "difficulty": 2
+  },
+  {
+    "id": "presente-36",
+    "verb": "avere",
+    "person": "tu",
+    "before": "Paolo,",
+    "after": "una penna da prestarmi?",
+    "answers": ["hai"],
+    "explanation": "Avere è irregolare: con tu si usa hai, con la h.",
+    "difficulty": 2
+  },
+  {
+    "id": "presente-37",
+    "verb": "avere",
+    "person": "lui/lei",
+    "before": "La biblioteca",
+    "after": "una sala studio silenziosa.",
+    "answers": ["ha"],
+    "explanation": "Con lui o lei, avere diventa ha, con la h.",
+    "difficulty": 2
+  },
+  {
+    "id": "presente-38",
+    "verb": "avere",
+    "person": "noi",
+    "before": "In casa, io e Luca",
+    "after": "una sola televisione.",
+    "answers": ["abbiamo"],
+    "explanation": "Avere è irregolare: con noi si usa abbiamo.",
+    "difficulty": 2
+  },
+  {
+    "id": "presente-39",
+    "verb": "leggere",
+    "person": "io",
+    "before": "Prima di dormire, nel mio letto",
+    "after": "qualche pagina.",
+    "answers": ["leggo"],
+    "explanation": "Con io, leggere diventa leggo.",
+    "difficulty": 2
+  },
+  {
+    "id": "presente-40",
+    "verb": "leggere",
+    "person": "tu",
+    "before": "Elena,",
+    "after": "le istruzioni prima di iniziare?",
+    "answers": ["leggi"],
+    "explanation": "Con tu, leggere diventa leggi.",
+    "difficulty": 2
+  },
+  {
+    "id": "presente-41",
+    "verb": "leggere",
+    "person": "noi",
+    "before": "A colazione, io e mia madre",
+    "after": "il giornale insieme.",
+    "answers": ["leggiamo"],
+    "explanation": "Con noi, leggere diventa leggiamo.",
+    "difficulty": 2
+  },
+  {
+    "id": "presente-42",
+    "verb": "leggere",
+    "person": "loro",
+    "before": "I bambini",
+    "after": "una storia prima di dormire.",
+    "answers": ["leggono"],
+    "explanation": "Con loro, leggere diventa leggono.",
+    "difficulty": 2
+  },
+  {
+    "id": "presente-43",
+    "verb": "andare",
+    "person": "io",
+    "before": "Per tornare a casa",
+    "after": "sempre in autobus.",
+    "answers": ["vado"],
+    "explanation": "Andare è irregolare: con io si usa vado.",
+    "difficulty": 2
+  },
+  {
+    "id": "presente-44",
+    "verb": "andare",
+    "person": "lui/lei",
+    "before": "Ogni mattina, il signor Bianchi",
+    "after": "al lavoro in bicicletta.",
+    "answers": ["va"],
+    "explanation": "Andare è irregolare: con lui si usa va.",
+    "difficulty": 2
+  },
+  {
+    "id": "presente-45",
+    "verb": "andare",
+    "person": "noi",
+    "before": "Dopo il lavoro, io e Chiara",
+    "after": "in palestra.",
+    "answers": ["andiamo"],
+    "explanation": "Con noi, andare diventa andiamo.",
+    "difficulty": 2
+  },
+  {
+    "id": "presente-46",
+    "verb": "andare",
+    "person": "voi",
+    "before": "Ragazze,",
+    "after": "spesso a teatro?",
+    "answers": ["andate"],
+    "explanation": "Con voi, andare diventa andate.",
+    "difficulty": 2
+  },
+  {
+    "id": "presente-47",
+    "verb": "andare",
+    "person": "loro",
+    "before": "I miei genitori",
+    "after": "al mercato il sabato.",
+    "answers": ["vanno"],
+    "explanation": "Andare è irregolare: con loro si usa vanno.",
+    "difficulty": 2
+  },
+  {
+    "id": "presente-48",
+    "verb": "capire",
+    "person": "tu",
+    "before": "Marta,",
+    "after": "questa spiegazione?",
+    "answers": ["capisci"],
+    "explanation": "Capire aggiunge -isc- con tu: capisci.",
+    "difficulty": 2
+  },
+  {
+    "id": "presente-49",
+    "verb": "capire",
+    "person": "lui/lei",
+    "before": "Il cucciolo",
+    "after": "subito il comando.",
+    "answers": ["capisce"],
+    "explanation": "Capire aggiunge -isc- con lui o lei: capisce.",
+    "difficulty": 2
+  },
+  {
+    "id": "presente-50",
+    "verb": "capire",
+    "person": "voi",
+    "before": "Ragazzi, con questa mappa",
+    "after": "il percorso?",
+    "answers": ["capite"],
+    "explanation": "Con voi, capire non aggiunge -isc-: capite.",
+    "difficulty": 2
+  },
+  {
+    "id": "presente-51",
+    "verb": "capire",
+    "person": "loro",
+    "before": "Dopo la dimostrazione, i clienti",
+    "after": "come funziona il prodotto.",
+    "answers": ["capiscono"],
+    "explanation": "Capire aggiunge -isc- con loro: capiscono.",
+    "difficulty": 2
+  },
+  {
+    "id": "presente-52",
+    "verb": "fare",
+    "person": "io",
+    "before": "Nel fine settimana",
+    "after": "sempre una passeggiata al parco.",
+    "answers": ["faccio"],
+    "explanation": "Fare è irregolare: con io si usa faccio.",
+    "difficulty": 2
+  },
+  {
+    "id": "presente-53",
+    "verb": "fare",
+    "person": "tu",
+    "before": "Andrea,",
+    "after": "la spesa oggi?",
+    "answers": ["fai"],
+    "explanation": "Fare è irregolare: con tu si usa fai.",
+    "difficulty": 2
+  },
+  {
+    "id": "presente-54",
+    "verb": "fare",
+    "person": "lui/lei",
+    "before": "Il cuoco",
+    "after": "il pane ogni mattina.",
+    "answers": ["fa"],
+    "explanation": "Fare è irregolare: con lui si usa fa.",
+    "difficulty": 2
+  },
+  {
+    "id": "presente-55",
+    "verb": "fare",
+    "person": "noi",
+    "before": "Per cena, io e Paolo",
+    "after": "una pizza fatta in casa.",
+    "answers": ["facciamo"],
+    "explanation": "Fare è irregolare: con noi si usa facciamo.",
+    "difficulty": 2
+  },
+  {
+    "id": "presente-56",
+    "verb": "fare",
+    "person": "voi",
+    "before": "Ragazzi,",
+    "after": "una pausa dopo questa riunione?",
+    "answers": ["fate"],
+    "explanation": "Fare è irregolare: con voi si usa fate.",
+    "difficulty": 2
+  },
+  {
+    "id": "presente-57",
+    "verb": "ascoltare",
+    "person": "io",
+    "before": "In macchina",
+    "after": "sempre la radio.",
+    "answers": ["ascolto"],
+    "explanation": "Con io, ascoltare termina in -o: ascolto.",
+    "difficulty": 1
+  },
+  {
+    "id": "presente-58",
+    "verb": "ascoltare",
+    "person": "tu",
+    "before": "Tommaso,",
+    "after": "musica mentre studi?",
+    "answers": ["ascolti"],
+    "explanation": "Con tu, ascoltare termina in -i: ascolti.",
+    "difficulty": 1
+  },
+  {
+    "id": "presente-59",
+    "verb": "ascoltare",
+    "person": "voi",
+    "before": "Ragazze,",
+    "after": "spesso la radio in macchina?",
+    "answers": ["ascoltate"],
+    "explanation": "Con voi, ascoltare termina in -ate: ascoltate.",
+    "difficulty": 1
+  },
+  {
+    "id": "presente-60",
+    "verb": "ascoltare",
+    "person": "loro",
+    "before": "I miei coinquilini",
+    "after": "musica jazz la sera.",
+    "answers": ["ascoltano"],
+    "explanation": "Con loro, ascoltare termina in -ano: ascoltano.",
+    "difficulty": 1
+  },
+  {
+    "id": "presente-61",
+    "verb": "bere",
+    "person": "io",
+    "before": "A colazione",
+    "after": "un tè senza zucchero.",
+    "answers": ["bevo"],
+    "explanation": "Con io, bere diventa bevo.",
+    "difficulty": 1
+  },
+  {
+    "id": "presente-62",
+    "verb": "bere",
+    "person": "tu",
+    "before": "Luca,",
+    "after": "il caffè con o senza latte?",
+    "answers": ["bevi"],
+    "explanation": "Con tu, bere diventa bevi.",
+    "difficulty": 1
+  },
+  {
+    "id": "presente-63",
+    "verb": "bere",
+    "person": "lui/lei",
+    "before": "Dopo la corsa, Francesca",
+    "after": "un espresso.",
+    "answers": ["beve"],
+    "explanation": "Con lei, bere diventa beve.",
+    "difficulty": 1
+  },
+  {
+    "id": "presente-64",
+    "verb": "bere",
+    "person": "noi",
+    "before": "Quando fa caldo, io e Paolo",
+    "after": "molta acqua.",
+    "answers": ["beviamo"],
+    "explanation": "Con noi, bere diventa beviamo.",
+    "difficulty": 1
+  },
+  {
+    "id": "presente-65",
+    "verb": "parlare",
+    "person": "io",
+    "before": "Al telefono",
+    "after": "lentamente per farmi capire.",
+    "answers": ["parlo"],
+    "explanation": "Con io, parlare termina in -o: parlo.",
+    "difficulty": 1
+  },
+  {
+    "id": "presente-66",
+    "verb": "parlare",
+    "person": "tu",
+    "before": "Luca, con il nuovo collega",
+    "after": "durante la pausa?",
+    "answers": ["parli"],
+    "explanation": "Con tu, parlare termina in -i: parli.",
+    "difficulty": 1
+  },
+  {
+    "id": "presente-67",
+    "verb": "parlare",
+    "person": "lui/lei",
+    "before": "L’insegnante",
+    "after": "con i genitori dopo la lezione.",
+    "answers": ["parla"],
+    "explanation": "Con lui o lei, parlare termina in -a: parla.",
+    "difficulty": 1
+  },
+  {
+    "id": "presente-68",
+    "verb": "parlare",
+    "person": "voi",
+    "before": "Ragazzi, con i clienti",
+    "after": "sempre in modo chiaro?",
+    "answers": ["parlate"],
+    "explanation": "Con voi, parlare termina in -ate: parlate.",
+    "difficulty": 1
+  },
+  {
+    "id": "presente-69",
+    "verb": "essere",
+    "person": "io",
+    "before": "Oggi",
+    "after": "davvero felice.",
+    "answers": ["sono"],
+    "explanation": "Essere è irregolare: con io si usa sono.",
+    "difficulty": 2
+  },
+  {
+    "id": "presente-70",
+    "verb": "essere",
+    "person": "tu",
+    "before": "Sara,",
+    "after": "sicura di aver chiuso la porta?",
+    "answers": ["sei"],
+    "explanation": "Essere è irregolare: con tu si usa sei.",
+    "difficulty": 2
+  },
+  {
+    "id": "presente-71",
+    "verb": "essere",
+    "person": "lui/lei",
+    "before": "Il negozio",
+    "after": "aperto anche la domenica.",
+    "answers": ["è"],
+    "explanation": "Essere è irregolare: con lui o lei si usa è.",
+    "difficulty": 2
+  },
+  {
+    "id": "presente-72",
+    "verb": "essere",
+    "person": "loro",
+    "before": "Le scarpe nuove",
+    "after": "ancora nella scatola.",
+    "answers": ["sono"],
+    "explanation": "Con loro, essere diventa sono.",
+    "difficulty": 2
+  },
+  {
+    "id": "presente-73",
+    "verb": "dormire",
+    "person": "io",
+    "before": "Dopo il turno di notte",
+    "after": "poco durante il giorno.",
+    "answers": ["dormo"],
+    "explanation": "Con io, dormire termina in -o: dormo.",
+    "difficulty": 1
+  },
+  {
+    "id": "presente-74",
+    "verb": "dormire",
+    "person": "tu",
+    "before": "Paolo,",
+    "after": "meglio con la finestra aperta o chiusa?",
+    "answers": ["dormi"],
+    "explanation": "Con tu, dormire termina in -i: dormi.",
+    "difficulty": 1
+  },
+  {
+    "id": "presente-75",
+    "verb": "dormire",
+    "person": "noi",
+    "before": "Dopo il viaggio, io e Marta",
+    "after": "fino a tardi.",
+    "answers": ["dormiamo"],
+    "explanation": "Con noi, dormire termina in -iamo: dormiamo.",
+    "difficulty": 1
+  },
+  {
+    "id": "presente-76",
+    "verb": "dormire",
+    "person": "voi",
+    "before": "Ragazzi, in quell’albergo",
+    "after": "in camere singole?",
+    "answers": ["dormite"],
+    "explanation": "Con voi, dormire termina in -ite: dormite.",
+    "difficulty": 1
+  },
+  {
+    "id": "presente-77",
+    "verb": "avere",
+    "person": "io",
+    "before": "Quando esco",
+    "after": "sempre le chiavi in tasca.",
+    "answers": ["ho"],
+    "explanation": "Avere è irregolare: con io si usa ho, con la h.",
+    "difficulty": 2
+  },
+  {
+    "id": "presente-78",
+    "verb": "avere",
+    "person": "tu",
+    "before": "Anna,",
+    "after": "già un piano per il weekend?",
+    "answers": ["hai"],
+    "explanation": "Avere è irregolare: con tu si usa hai, con la h.",
+    "difficulty": 2
+  },
+  {
+    "id": "presente-79",
+    "verb": "avere",
+    "person": "lui/lei",
+    "before": "La casa",
+    "after": "un piccolo balcone sul cortile.",
+    "answers": ["ha"],
+    "explanation": "Con lui o lei, avere diventa ha, con la h.",
+    "difficulty": 2
+  },
+  {
+    "id": "presente-80",
+    "verb": "avere",
+    "person": "loro",
+    "before": "I nostri amici",
+    "after": "una casa vicino al mare.",
+    "answers": ["hanno"],
+    "explanation": "Con loro, avere diventa hanno: ricorda la h iniziale.",
+    "difficulty": 2
+  },
+  {
+    "id": "presente-81",
+    "verb": "leggere",
+    "person": "io",
+    "before": "Prima di spegnere la luce",
+    "after": "ancora un capitolo.",
+    "answers": ["leggo"],
+    "explanation": "Con io, leggere diventa leggo.",
+    "difficulty": 2
+  },
+  {
+    "id": "presente-82",
+    "verb": "leggere",
+    "person": "tu",
+    "before": "La mattina,",
+    "after": "il giornale prima di uscire?",
+    "answers": ["leggi"],
+    "explanation": "Con tu, leggere diventa leggi.",
+    "difficulty": 2
+  },
+  {
+    "id": "presente-83",
+    "verb": "leggere",
+    "person": "lui/lei",
+    "before": "La signora Rossi",
+    "after": "il menu con attenzione.",
+    "answers": ["legge"],
+    "explanation": "Con lei, leggere diventa legge.",
+    "difficulty": 2
+  },
+  {
+    "id": "presente-84",
+    "verb": "leggere",
+    "person": "noi",
+    "before": "In treno, io e mia sorella",
+    "after": "un libro ciascuno.",
+    "answers": ["leggiamo"],
+    "explanation": "Con noi, leggere diventa leggiamo.",
+    "difficulty": 2
+  },
+  {
+    "id": "presente-85",
+    "verb": "andare",
+    "person": "io",
+    "before": "Quando ho un appuntamento in centro,",
+    "after": "a piedi.",
+    "answers": ["vado"],
+    "explanation": "Andare è irregolare: con io si usa vado.",
+    "difficulty": 2
+  },
+  {
+    "id": "presente-86",
+    "verb": "andare",
+    "person": "tu",
+    "before": "Giulia,",
+    "after": "in ufficio anche domani?",
+    "answers": ["vai"],
+    "explanation": "Andare è irregolare: con tu si usa vai.",
+    "difficulty": 2
+  },
+  {
+    "id": "presente-87",
+    "verb": "andare",
+    "person": "lui/lei",
+    "before": "Il bus",
+    "after": "direttamente alla stazione.",
+    "answers": ["va"],
+    "explanation": "Andare è irregolare: con lui si usa va.",
+    "difficulty": 2
+  },
+  {
+    "id": "presente-88",
+    "verb": "andare",
+    "person": "loro",
+    "before": "Le mie cugine",
+    "after": "spesso in montagna.",
+    "answers": ["vanno"],
+    "explanation": "Andare è irregolare: con loro si usa vanno.",
+    "difficulty": 2
+  },
+  {
+    "id": "presente-89",
+    "verb": "capire",
+    "person": "io",
+    "before": "Dopo averlo provato",
+    "after": "perché questo metodo funziona.",
+    "answers": ["capisco"],
+    "explanation": "Capire aggiunge -isc- con io: capisco.",
+    "difficulty": 2
+  },
+  {
+    "id": "presente-90",
+    "verb": "capire",
+    "person": "tu",
+    "before": "Con questo esempio,",
+    "after": "la differenza?",
+    "answers": ["capisci"],
+    "explanation": "Capire aggiunge -isc- con tu: capisci.",
+    "difficulty": 2
+  },
+  {
+    "id": "presente-91",
+    "verb": "capire",
+    "person": "lui/lei",
+    "before": "Il tecnico",
+    "after": "subito qual è il problema.",
+    "answers": ["capisce"],
+    "explanation": "Capire aggiunge -isc- con lui o lei: capisce.",
+    "difficulty": 2
+  },
+  {
+    "id": "presente-92",
+    "verb": "capire",
+    "person": "noi",
+    "before": "Io e te",
+    "after": "la stessa cosa.",
+    "answers": ["capiamo"],
+    "explanation": "Con noi non si aggiunge -isc-: capiamo.",
+    "difficulty": 2
+  },
+  {
+    "id": "presente-93",
+    "verb": "fare",
+    "person": "lui/lei",
+    "before": "Il sole",
+    "after": "capolino tra le nuvole.",
+    "answers": ["fa"],
+    "explanation": "Fare è irregolare: con lui si usa fa.",
+    "difficulty": 2
+  },
+  {
+    "id": "presente-94",
+    "verb": "fare",
+    "person": "noi",
+    "before": "A turno, io e gli altri",
+    "after": "il caffè per tutti.",
+    "answers": ["facciamo"],
+    "explanation": "Fare è irregolare: con noi si usa facciamo.",
+    "difficulty": 2
+  },
+  {
+    "id": "presente-95",
+    "verb": "fare",
+    "person": "voi",
+    "before": "Ragazzi,",
+    "after": "attenzione quando attraversate.",
+    "answers": ["fate"],
+    "explanation": "Fare è irregolare: con voi si usa fate.",
+    "difficulty": 2
+  },
+  {
+    "id": "presente-96",
+    "verb": "fare",
+    "person": "loro",
+    "before": "I bambini",
+    "after": "i compiti prima di cena.",
+    "answers": ["fanno"],
+    "explanation": "Fare è irregolare: con loro si usa fanno.",
+    "difficulty": 2
+  },
+  {
+    "id": "presente-97",
+    "verb": "ascoltare",
+    "person": "lui/lei",
+    "before": "La mia vicina",
+    "after": "la radio mentre cucina.",
+    "answers": ["ascolta"],
+    "explanation": "Con lei, ascoltare termina in -a: ascolta.",
+    "difficulty": 1
+  },
+  {
+    "id": "presente-98",
+    "verb": "ascoltare",
+    "person": "noi",
+    "before": "Durante il viaggio, io e Luca",
+    "after": "un audiolibro.",
+    "answers": ["ascoltiamo"],
+    "explanation": "Con noi, ascoltare termina in -iamo: ascoltiamo.",
+    "difficulty": 1
+  },
+  {
+    "id": "presente-99",
+    "verb": "ascoltare",
+    "person": "noi",
+    "before": "A casa, io e mia madre",
+    "after": "musica mentre prepariamo la cena.",
+    "answers": ["ascoltiamo"],
+    "explanation": "Con noi, ascoltare termina in -iamo: ascoltiamo.",
+    "difficulty": 1
+  },
+  {
+    "id": "presente-100",
+    "verb": "ascoltare",
+    "person": "voi",
+    "before": "Ragazzi, nel backstage",
+    "after": "le indicazioni del regista.",
+    "answers": ["ascoltate"],
+    "explanation": "Con voi, ascoltare termina in -ate: ascoltate.",
+    "difficulty": 1
+  }
+]

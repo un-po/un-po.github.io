@@ -18,6 +18,7 @@ and practice events in production.
 
 ```sh
 npm test               # Answer grading, content validation, review scheduling, storage
+npm run content:review # Regenerate the Markdown exercise review sheet from JSON
 npm run build          # Type-check Vue/TypeScript and produce static files in dist/
 npm run preview        # Serve the production build locally
 npm run format         # Format source with Prettier
@@ -33,7 +34,8 @@ installation in CI. The production build and unit tests have been verified.
 
 ## Current scope
 
-- 18 reviewed sample sentences, 10 verbs, all six persons, present indicative.
+- 100 present-indicative sentence drafts across 10 verbs and all six persons;
+  82 are new generated examples awaiting independent review.
 - In-sentence typing, deliberate advancement after every answer, a gentle error
   bounce, and conjugation tables highlighting target and supplied forms.
 - Conservative typo detection, session scoring, and a first-attempt accuracy summary.
@@ -50,11 +52,13 @@ current exercises each have one.
 
 - `src/App.vue`: practice/session flow.
 - `src/components/`: theme control and correction table.
-- `src/content/`: verbs and exercise JSON; update both consistently.
+- `src/content/`: verbs and exercise JSON; `exercises-pilot.json` holds the new
+  82-sentence review batch.
 - `src/lib/`: answer grading, review selection, scoring, and storage.
 - `src/style.css`: design tokens, both themes, motion, and responsive styles.
 - `tests/`: unit/content tests; `tests/browser/`: Playwright interaction tests.
 - `docs/product-brief.md`: agreed direction and outstanding decisions.
+- `docs/exercise-review.md`: generated review copy for all current exercises.
 
 ## Privacy and persistence
 

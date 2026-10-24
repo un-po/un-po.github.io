@@ -6,6 +6,7 @@ import SettingsDialog from './components/SettingsDialog.vue';
 import InformationDialog from './components/InformationDialog.vue';
 import rawVerbs from './content/verbs.json';
 import rawExercises from './content/exercises.json';
+import rawPilotExercises from './content/exercises-pilot.json';
 import { gradeAnswer, nextExercise, normalize, summarize } from './lib/practice.ts';
 import type { Attempt, Exercise, Outcome, Verb } from './lib/practice.ts';
 import { clearHistory, loadHistory, saveHistory } from './lib/storage.ts';
@@ -20,7 +21,7 @@ interface SessionItem {
 }
 
 const verbs = rawVerbs as Verb[];
-const exercises = rawExercises as Exercise[];
+const exercises = [...(rawExercises as Exercise[]), ...(rawPilotExercises as Exercise[])];
 const profile = loadProfile();
 const learnerName = ref(profile.name);
 const history = ref<Attempt[]>(loadHistory());
