@@ -41,6 +41,10 @@ defineExpose({ open, close });
         frasi della sessione.
       </p>
       <p>
+        Dopo il risultato, la frase successiva arriva da sé. Scegli <strong>Resta qui</strong> se
+        vuoi più tempo per rileggere la spiegazione.
+      </p>
+      <p>
         Gli errori tornano dopo qualche frase. La pratica si adatta poco alla volta a ciò che
         riconosci con sicurezza e a ciò che merita ancora un giro.
       </p>

@@ -37,8 +37,9 @@ conjugated forms before applying similarity heuristics. Correction tables show
 the requested form and, when identifiable, the supplied form. Keep corrections
 visible until the learner continues.
 
-Session summaries separate first-attempt accuracy, typo count, points, and
-average exercise difficulty. App practice level is not CEFR certification.
+Session summaries show first-attempt accuracy and completed sentences, followed
+by the learner's progress along the level path. App practice level is not CEFR
+certification.
 
 ## Open decisions
 
@@ -61,9 +62,10 @@ bounce gently back before correction. The person is inferred from the sentence.
 Supporting text is larger; scoring is hidden and session controls share a quiet
 link row below the primary action. Feedback has reserved space so it does not
 push the sentence around.
-A first-visit introduction offers an optional locally stored name. Keyboard hints
-appear after a click and retire after keyboard use or repeated clicks.
-Respect reduced motion. Light and dark themes are available and saved locally.
+A first-visit introduction offers an optional locally stored name. Returning
+learners see a brief welcome screen with their current level and rank before a
+new session. Respect reduced motion. Light and dark themes are available and
+saved locally.
 
 This prototype is implemented locally. Dependencies are installed and pinned;
 the production build and unit tests pass. A local development preview is available.
@@ -91,13 +93,35 @@ after v1 unless content review or learner feedback makes one essential.
 
 ## Progress presentation and workflow decisions
 
-Numeric points are hidden everywhere in the learner interface. Milestones are
-deferred until after v1. If introduced later, they should consider accuracy and
-breadth alongside points so repeating easy questions cannot imply broad mastery.
-“Italiano vero” remains a possible final milestone name, not a claim of fluency.
+Numeric mastery points are hidden everywhere in the learner interface. The
+header stays quiet; level and rank appear on the returning-learner screen. The
+session summary leads with an abstract numbered path from its starting position
+to its ending position, retaining the start as a faint marker. Both the ruler
+and session statistics reveal from a shared horizontal seam: the ruler rises
+from below while the statistics descend from above, and both settle over 1.7
+seconds. The ruler begins moving after 0.9 seconds, so its journey is already
+underway as it appears. Levels use Arabic
+numbers; five-level ranks use Roman numerals. Rank V is called “Italiano vero”,
+as a playful practice rank rather than a claim of fluency. Other milestones are
+deferred until after v1. The hollow starting marker, ruler, ticks, and numbers
+fade into view. The ruler travels at a steady
+pace, with longer progress taking longer, while a tracking line grows between
+the marker borders. The destination dot emerges from the ruler and releases an
+expanding, fading halo. Every fifth level uses a thicker tick without changing
+its height. When the learner returns from session history, the completed ruler
+and statistics appear immediately, and only the halo repeats.
 
 The correction explanation stays visible. Its conjugation table starts open and
 can be retired with “Non mostrare più questa tabella”; settings restore it later.
+After validation, the next sentence arrives automatically after a generous
+reading interval: 4 seconds for a correct answer, 7 seconds for a mistake, and
+10 seconds when the conjugation table is visible. The primary button visualizes
+the interval, remains available for immediate continuation, and a quiet “Resta
+qui” action cancels automatic continuation.
+
+The full ruler journey is reserved for clearly visible progress. Sessions with
+no movement or only a tiny fractional change use a shorter, stationary reveal
+instead, avoiding ceremony that overstates the result.
 
 Settings now own name editing, system/light/dark theme choice, table visibility,
 and a permanent progress reset. “Il resto” contains the usage guide,
@@ -108,5 +132,9 @@ Arrow Up and Arrow Down browse the current session. Past exercises are read-only
 and show their original validation state; the current exercise remains the only
 editable item. A vertical indicator fades at the current exercise, stays visible
 while reviewing, shows at most 20 dots, and reports omitted items above or below.
-The wordmark never resets an active session. Escape closes an open dialog, or ends
-the session when the learner is on the practice screen.
+The summary is the final history endpoint: Arrow Up reopens the latest answer,
+Arrow Down returns from it, and the coloured dots can be selected directly to
+inspect correct answers or mistakes on touch devices. The first-visit screen is
+not part of this history because it contains no answer to review. The wordmark
+never resets an active session. Escape closes an open dialog, or ends the session
+when the learner is on the practice screen.
