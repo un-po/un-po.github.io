@@ -56,19 +56,62 @@ Near-white/charcoal canvases with broad sage and lavender colour fields. Organic
 colour and motion, without imitation paper, objects, or textures. Decoration is
 low contrast; functional text remains readable.
 
-All answers wait for deliberate continuation. Advancing uses a larger, slower
-upward exit and a soft entrance from below. Errors start an upward movement and
-bounce gently back before correction. The person is inferred from the sentence.
+Answers continue after a reading interval, with an option to stay. Advancing uses a larger, slower
+upward exit and a soft entrance from below, shared by correct and incorrect
+answers. Validation keeps the sentence still: a rectangular color wash rises
+from the input underline, then contracts toward its top edge while fading away
+over 600ms. Feedback below fades in over
+200ms and out over 160ms when advancing. The person is inferred from the sentence.
 Supporting text is larger; scoring is hidden and session controls share a quiet
 link row below the primary action. Feedback has reserved space so it does not
 push the sentence around.
-A first-visit introduction offers an optional locally stored name. Returning
-learners see a brief welcome screen with their current level and rank before a
-new session. Respect reduced motion. Light and dark themes are available and
-saved locally.
+Practice opens immediately. First-use instructions and an optional name prompt
+share a reserved row above the sentence with returning-learner greetings and
+level information. Respect reduced motion. Light and dark themes are available
+and saved locally.
 
 This prototype is implemented locally. Dependencies are installed and pinned;
 the production build and unit tests pass. A local development preview is available.
+
+## Practice-first onboarding
+
+New learners answer immediately, with onboarding delivered in a reserved
+space above the sentence rather than a separate introduction screen. Reserve
+space for two rendered sentence lines, including clearance for the infinitive,
+so short and long exercises keep the controls in the same position. The content
+row is half that height. Narrow viewports reserve at least three sentence lines
+to accommodate wrapping; longer text can grow rather than being clipped.
+
+Messages run independently of questions. The component owns a queue: wait four
+seconds after loading, fade a message down from above over 450ms, keep it visible
+for 20 seconds, fade it upward over 350ms, then leave 40 seconds of quiet before
+the next message. The session queues initial content and other features can
+enqueue more without managing the display clock.
+
+New learners receive “Sbagliando, una frase alla volta” with a brief instruction,
+keyboard hints, then an explicitly optional name field. Browser storage records
+each completed message so unfinished onboarding resumes across visits. Existing
+profiles migrate without losing names or replaying completed instructions.
+Returning learners receive a greeting followed by their current level and rank.
+Detailed instructions remain available in “Il resto”. Prompts never take focus
+from the answer or block practice.
+
+History always leaves the content row blank while retaining its height. History,
+the session summary, dialogs, hidden tabs, and name editing pause the clock with
+its remaining time intact. Saving the name records that prompt immediately;
+ignoring it is fine and it expires like any other message.
+
+Four consecutive correct answers or errors have a 50% chance of queuing a short
+streak message. Each kind appears at most once per session, every message gets
+the same quiet interval, and queued streak messages expire after one minute to
+avoid stale encouragement. Typos do not count as an error streak. Encouragement
+acknowledges effort without making accuracy claims or pressuring the learner.
+
+Reminders of past achievements and notice of approaching milestones remain for
+future iterations. The reserved content row can accommodate them later.
+
+The aggregate `session_started` event is emitted on the first submitted answer,
+including “Non lo so ancora”, rather than merely when the page opens.
 
 ## V1 release work
 
@@ -94,7 +137,7 @@ after v1 unless content review or learner feedback makes one essential.
 ## Progress presentation and workflow decisions
 
 Numeric mastery points are hidden everywhere in the learner interface. The
-header stays quiet; level and rank appear on the returning-learner screen. The
+header stays quiet; level and rank follow the greeting in a returning learner’s message queue. The
 session summary leads with an abstract numbered path from its starting position
 to its ending position, retaining the start as a faint marker. Both the ruler
 and session statistics reveal from a shared horizontal seam: the ruler rises
@@ -134,7 +177,7 @@ editable item. A vertical indicator fades at the current exercise, stays visible
 while reviewing, shows at most 20 dots, and reports omitted items above or below.
 The summary is the final history endpoint: Arrow Up reopens the latest answer,
 Arrow Down returns from it, and the coloured dots can be selected directly to
-inspect correct answers or mistakes on touch devices. The first-visit screen is
-not part of this history because it contains no answer to review. The wordmark
+inspect correct answers or mistakes on touch devices. The extra-content row
+stays empty while reviewing historical answers. The wordmark
 never resets an active session. Escape closes an open dialog, or ends the session
 when the learner is on the practice screen.

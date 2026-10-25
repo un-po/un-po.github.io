@@ -396,39 +396,43 @@ kbd {
 .answer-correct .infinitive {
   color: var(--result-correct);
 }
+.answer-correct {
+  --answer-wash-color: var(--result-correct);
+}
+.answer-incorrect {
+  --answer-wash-color: var(--result-wrong);
+}
+.answer-slot input {
+  position: relative;
+  z-index: 1;
+}
+.answer-wash {
+  position: absolute;
+  inset: 0 0 2px;
+  pointer-events: none;
+  background: var(--answer-wash-color);
+  animation: answer-wash 600ms cubic-bezier(0.2, 0.65, 0.3, 1) forwards;
+}
+@keyframes answer-wash {
+  0% {
+    clip-path: inset(97.5% 0 0);
+    opacity: 0.5;
+  }
+  45% {
+    clip-path: inset(0);
+    opacity: 0.22;
+  }
+  100% {
+    clip-path: inset(0 0 100%);
+    opacity: 0;
+  }
+}
 .answer-incorrect .answer-slot input {
   color: var(--result-wrong);
   border-bottom-color: var(--result-wrong);
 }
 .answer-incorrect .infinitive {
   color: var(--result-wrong);
-}
-.answer-bounce {
-  animation: bounce-back 560ms cubic-bezier(0.22, 0.75, 0.3, 1) both;
-}
-.answer-bounce .answer-slot input {
-  color: var(--result-wrong);
-  border-bottom-color: var(--result-wrong);
-}
-@keyframes bounce-back {
-  0% {
-    transform: translateY(0);
-    opacity: 1;
-  }
-  30% {
-    transform: translateY(-15px);
-    opacity: 0.7;
-  }
-  64% {
-    transform: translateY(5px);
-    opacity: 1;
-  }
-  82% {
-    transform: translateY(-2px);
-  }
-  100% {
-    transform: translateY(0);
-  }
 }
 .sentence-leave-active {
   transition:
@@ -454,20 +458,16 @@ kbd {
 .feedback {
   max-width: 510px;
   margin: 18px auto 32px;
-  animation: feedback-in 420ms ease both;
 }
-.feedback:not(.positive-feedback) {
-  animation-delay: 200ms;
+.feedback-enter-active {
+  transition: opacity 200ms ease-out;
 }
-@keyframes feedback-in {
-  from {
-    opacity: 0;
-    transform: translateY(7px);
-  }
-  to {
-    opacity: 1;
-    transform: translateY(0);
-  }
+.feedback-leave-active {
+  transition: opacity 160ms ease-in;
+}
+.feedback-enter-from,
+.feedback-leave-to {
+  opacity: 0;
 }
 .feedback-intro {
   display: flex;
@@ -925,6 +925,8 @@ td {
 }
 .practice {
   margin: 14px auto 0;
+  --sentence-font-size: clamp(27px, 3.2vw, 40px);
+  --sentence-row-height: calc(var(--sentence-font-size) * 4.6 + 42px);
   flex: 1;
   display: flex;
   flex-direction: column;
@@ -937,13 +939,13 @@ td {
   min-height: 0;
 }
 .sentence-window {
-  min-height: 175px;
+  min-height: var(--sentence-row-height);
   position: relative;
   display: grid;
 }
 .sentence-content {
   grid-area: 1 / 1;
-  min-height: 175px;
+  min-height: var(--sentence-row-height);
   padding: 12px 0 30px;
   box-sizing: border-box;
   display: flex;
@@ -952,6 +954,7 @@ td {
 }
 .sentence-text {
   width: 100%;
+  font-size: var(--sentence-font-size);
   line-height: 2.3;
 }
 .infinitive {
@@ -982,32 +985,6 @@ td {
 .dont-know {
   margin: 0;
   font-size: 14px;
-}
-.answer-bounce {
-  animation: none;
-}
-.answer-bounce .sentence-content {
-  animation: bounce-back 850ms cubic-bezier(0.22, 0.75, 0.3, 1) both;
-}
-@keyframes bounce-back {
-  0% {
-    transform: translateY(0);
-    opacity: 1;
-  }
-  30% {
-    transform: translateY(-35px);
-    opacity: 0.55;
-  }
-  64% {
-    transform: translateY(9px);
-    opacity: 1;
-  }
-  82% {
-    transform: translateY(-4px);
-  }
-  100% {
-    transform: translateY(0);
-  }
 }
 .sentence-leave-active {
   transition:
@@ -1201,19 +1178,12 @@ td {
   }
   .practice {
     margin-top: 15px;
+    --sentence-font-size: clamp(25px, 6.3vw, 34px);
+    --sentence-row-height: max(240px, calc(var(--sentence-font-size) * 6.9 + 42px));
   }
   .exercise-meta {
     font-size: 14px;
     margin-bottom: 10px;
-  }
-  .sentence-window {
-    min-height: 240px;
-  }
-  .sentence-content {
-    min-height: 240px;
-  }
-  .sentence-text {
-    font-size: clamp(25px, 6.3vw, 34px);
   }
   .infinitive {
     font-size: 15px;
@@ -1259,14 +1229,6 @@ td {
     margin-top: 20px;
   }
 }
-@media (max-height: 700px) and (pointer: coarse) {
-  .sentence-window {
-    min-height: 190px;
-  }
-  .sentence-content {
-    min-height: 190px;
-  }
-}
 @media (prefers-reduced-motion: reduce) {
   *,
   *::before,
@@ -1292,14 +1254,9 @@ td {
     font-size: 14px;
   }
 }
-/* Give the exercise more breathing room above, especially on taller screens. */
+/* The context row supplies the breathing room above the exercise. */
 .practice {
-  padding-top: clamp(24px, calc((100svh - 580px) * 0.24), 100px);
-}
-@media (max-height: 700px) {
-  .practice {
-    padding-top: 12px;
-  }
+  padding-top: 0;
 }
 
 .summary-stats {

@@ -42,12 +42,13 @@ installation in CI.
 - 100 present-indicative sentence drafts across 10 verbs and all six persons;
   the 82 new examples have had an initial LLM review and still need fluent-speaker
   review.
-- In-sentence typing, deliberate advancement after every answer, a gentle error
-  bounce, and conjugation tables highlighting target and supplied forms.
+- In-sentence typing, timed continuation with an option to stay, a brief answer
+  color wash, and conjugation tables highlighting target and supplied forms.
 - Conservative typo detection, session scoring, and a first-attempt accuracy summary.
 - A persistent adaptive queue with mastery levels and rolling question, verb,
   person, and tense scores.
-- A first-visit introduction with an optional locally saved name.
+- Immediate practice with timed first-use instructions and an optional locally
+  saved name; returning-learner greetings and level information appear inline.
 - Light/dark themes, contextual keyboard hints, reduced motion, and responsive layouts.
 
 The scheduling model has deterministic sanity simulations but is not a claim of
@@ -58,7 +59,8 @@ current exercises each have one. See [the learning model](docs/learning-model.md
 ## Structure
 
 - `src/App.vue`: practice/session flow.
-- `src/components/`: theme control and correction table.
+- `src/components/`: practice prompts, dialogs, theme control, correction tables,
+  and summary animations.
 - `src/content/`: verbs and exercise JSON; `exercises-pilot.json` holds the new
   82-sentence review batch.
 - `src/lib/`: answer grading, review selection, scoring, and storage.
@@ -70,11 +72,11 @@ current exercises each have one. See [the learning model](docs/learning-model.md
 ## Privacy and persistence
 
 There is no application account or server-side learner profile. The versioned
-learning state, an optional first name, introduction completion, and the selected
+learning state, an optional first name, onboarding progress, and the selected
 theme are stored in this browser. Clearing site data removes them. Fonts load from
 this site, with no Google Fonts requests. Umami collects page views and anonymous counts for session starts,
-answer outcomes, and session completion; event data excludes names and typed
-answers. If local storage is unavailable, practice continues and the interface
+answer outcomes, and session completion; a session starts with its first submitted
+answer. Event data excludes names and typed answers. If local storage is unavailable, practice continues and the interface
 reports that results could not be saved.
 
 ## GitHub setup

@@ -6,6 +6,7 @@ import SettingsDialog from './components/SettingsDialog.vue';
 import InformationDialog from './components/InformationDialog.vue';
 import ProgressJourney from './components/ProgressJourney.vue';
 import SessionSummaryStats from './components/SessionSummaryStats.vue';
+import PracticeContext from './components/PracticeContext.vue';
 import rawVerbs from './content/verbs.json';
 import rawExercises from './content/exercises.json';
 import rawPilotExercises from './content/exercises-pilot.json';
@@ -19,6 +20,13 @@ import {
 } from './lib/learning.ts';
 import { clearLearningState, loadLearningState, saveLearningState } from './lib/storage.ts';
 import { loadProfile, saveProfile } from './lib/profile.ts';
+import {
+  initialPracticeMessages,
+  onboardingMessages,
+  streakMessage,
+  type OnboardingMessage,
+  type PracticeMessage,
+} from './lib/practiceContext.ts';
 import { loadTableVisibility, saveTableVisibility } from './lib/preferences.ts';
 import { trackEvent } from './lib/analytics.ts';
 
@@ -32,21 +40,31 @@ const verbs = rawVerbs as Verb[];
 const exercises = [...(rawExercises as Exercise[]), ...(rawPilotExercises as Exercise[])];
 const profile = loadProfile();
 const learnerName = ref(profile.name);
+const seenMessages = ref(profile.seenMessages);
+const initialMessages = initialPracticeMessages(profile.seenMessages, !!profile.name);
 const learning = ref(loadLearningState(exercises));
 const attempts = ref<Attempt[]>([]);
 const showConjugation = ref(loadTableVisibility());
 const firstExercise = nextLearningExercise(learning.value, exercises);
-const sessionItems = ref<SessionItem[]>([{ exercise: firstExercise, answer: '', outcome: null }]);
+const sessionItems = ref<SessionItem[]>([
+  {
+    exercise: firstExercise,
+    answer: '',
+    outcome: null,
+  },
+]);
 const displayedIndex = ref(0);
-const screen = ref<'intro' | 'welcome' | 'practice' | 'summary'>(
-  profile.introduced ? 'welcome' : 'intro',
-);
+const screen = ref<'practice' | 'summary'>('practice');
 const transitioning = ref(false);
 const sentenceVisible = ref(true);
 const reviewingFinishedSession = ref(false);
 const summaryRevisited = ref(false);
 const autoAdvanceActive = ref(false);
 const autoAdvanceDuration = ref(0);
+const freshValidation = ref(false);
+const dialogOpen = ref(false);
+const pageVisible = ref(document.visibilityState !== 'hidden');
+const practiceContext = ref<InstanceType<typeof PracticeContext>>();
 const input = ref<HTMLInputElement>();
 const settings = ref<InstanceType<typeof SettingsDialog>>();
 const information = ref<InstanceType<typeof InformationDialog>>();
@@ -56,6 +74,14 @@ const storageAvailable = ref(true);
 const historyIndicatorVisible = ref(false);
 let indicatorTimer: ReturnType<typeof setTimeout> | undefined;
 let continueTimer: ReturnType<typeof setTimeout> | undefined;
+let sessionStarted = false;
+
+function completeContextMessage(message: PracticeMessage) {
+  if (!onboardingMessages.includes(message as OnboardingMessage)) return;
+  if (!seenMessages.value.includes(message as OnboardingMessage))
+    seenMessages.value.push(message as OnboardingMessage);
+  storageAvailable.value = saveProfile(learnerName.value, seenMessages.value);
+}
 
 function currentProgressPosition(): number {
   const learner = learning.value.learner;
@@ -80,9 +106,6 @@ const isReviewing = computed(
 );
 const stats = computed(() => summarize(attempts.value));
 const progressPosition = computed(currentProgressPosition);
-const rankNumeral = computed(
-  () => ['I', 'II', 'III', 'IV', 'V'][Math.ceil(learning.value.learner.level / 5) - 1],
-);
 const mistakes = computed(() => [
   ...new Set(
     attempts.value
@@ -132,23 +155,6 @@ function historyItemLabel(index: number): string {
   return `Frase ${index + 1}: ${status}`;
 }
 
-function begin() {
-  learnerName.value = learnerName.value.trim().slice(0, 40);
-  storageAvailable.value = saveProfile(learnerName.value);
-  startSession();
-}
-
-function startSession() {
-  sessionStartPosition.value = currentProgressPosition();
-  sessionStartLevel.value = learning.value.learner.level;
-  reviewingFinishedSession.value = false;
-  summaryRevisited.value = false;
-  cancelAutoAdvance();
-  screen.value = 'practice';
-  trackEvent('session_started');
-  focusAnswer();
-}
-
 function focusAnswer() {
   nextTick(() => {
     if (
@@ -195,6 +201,10 @@ function submit(dontKnow = false) {
   }
 
   const result = dontKnow ? 'error' : gradeAnswer(answer.value, exercise.value.answers, verbs);
+  if (!sessionStarted) {
+    trackEvent('session_started');
+    sessionStarted = true;
+  }
   trackEvent(
     result === 'correct'
       ? 'answer_correct'
@@ -203,6 +213,7 @@ function submit(dontKnow = false) {
         : 'answer_incorrect',
   );
   displayedItem.value.outcome = result;
+  freshValidation.value = true;
   const attempt: Attempt = {
     exerciseId: exercise.value.id,
     verb: verb.value.id,
@@ -215,6 +226,8 @@ function submit(dontKnow = false) {
   attempts.value.push(attempt);
   recordLearningOutcome(learning.value, exercise.value, result, exercises);
   storageAvailable.value = saveLearningState(learning.value);
+  const message = streakMessage(attempts.value.map((attempt) => attempt.outcome));
+  if (message) practiceContext.value?.enqueue(message, 60000);
   scheduleAutoAdvance(result);
 }
 
@@ -222,6 +235,7 @@ function advance() {
   if (transitioning.value || isReviewing.value || !outcome.value) return;
   cancelAutoAdvance();
   transitioning.value = true;
+  freshValidation.value = false;
   sentenceVisible.value = false;
 }
 
@@ -229,7 +243,11 @@ function createNextExercise() {
   if (!transitioning.value) return;
   const next = nextLearningExercise(learning.value, exercises);
   storageAvailable.value = saveLearningState(learning.value);
-  sessionItems.value.push({ exercise: next, answer: '', outcome: null });
+  sessionItems.value.push({
+    exercise: next,
+    answer: '',
+    outcome: null,
+  });
   displayedIndex.value = currentIndex.value;
   sentenceVisible.value = true;
 }
@@ -265,6 +283,7 @@ function navigateSession(direction: -1 | 1) {
   const target = Math.max(0, Math.min(finalIndex, displayedIndex.value + direction));
   if (target === displayedIndex.value) return;
   cancelAutoAdvance();
+  freshValidation.value = false;
   displayedIndex.value = target;
   showIndicator();
 }
@@ -275,6 +294,7 @@ function reviewSessionItem(index: number, fromSummary = false) {
   const finalIndex = reviewingSummary ? lastAnsweredIndex.value : currentIndex.value;
   if (index < 0 || index > finalIndex) return;
   cancelAutoAdvance();
+  freshValidation.value = false;
   reviewingFinishedSession.value = reviewingSummary;
   screen.value = 'practice';
   displayedIndex.value = index;
@@ -290,6 +310,14 @@ function returnToSummary() {
 
 function handleSessionKeys(event: KeyboardEvent) {
   if (event.altKey || event.ctrlKey || event.metaKey || event.shiftKey) return;
+  if (document.querySelector('dialog[open]')) return;
+  const target = event.target;
+  if (
+    target instanceof HTMLElement &&
+    target !== input.value &&
+    target.closest('input, textarea, [contenteditable="true"]')
+  )
+    return;
   if (event.key === 'Escape') {
     if (!document.querySelector('dialog[open]') && screen.value === 'practice') finish();
     return;
@@ -309,7 +337,8 @@ function finish() {
     returnToSummary();
     return;
   }
-  trackEvent('session_completed');
+  if (sessionStarted) trackEvent('session_completed');
+  freshValidation.value = false;
   cancelAutoAdvance();
   transitioning.value = false;
   sentenceVisible.value = true;
@@ -321,7 +350,6 @@ function finish() {
 }
 
 function returnToCurrentExercise() {
-  if (screen.value === 'intro' || screen.value === 'welcome') return;
   reviewingFinishedSession.value = false;
   screen.value = 'practice';
   displayedIndex.value = currentIndex.value;
@@ -331,7 +359,13 @@ function returnToCurrentExercise() {
 
 function setName(value: string) {
   learnerName.value = value.trimStart().slice(0, 40);
-  storageAvailable.value = saveProfile(learnerName.value);
+  storageAvailable.value = saveProfile(learnerName.value, seenMessages.value);
+}
+
+function saveInlineName(value: string) {
+  setName(value.trim());
+  completeContextMessage('name');
+  focusAnswer();
 }
 
 function setConjugationVisibility(value: boolean) {
@@ -349,10 +383,18 @@ function resetProgress() {
   learning.value = loadLearningState(exercises);
   attempts.value = [];
   const next = nextLearningExercise(learning.value, exercises);
-  sessionItems.value = [{ exercise: next, answer: '', outcome: null }];
+  sessionStarted = false;
+  sessionItems.value = [
+    {
+      exercise: next,
+      answer: '',
+      outcome: null,
+    },
+  ];
   displayedIndex.value = 0;
   reviewingFinishedSession.value = false;
   summaryRevisited.value = false;
+  freshValidation.value = false;
   cancelAutoAdvance();
   sessionStartPosition.value = currentProgressPosition();
   sessionStartLevel.value = learning.value.learner.level;
@@ -362,24 +404,43 @@ function resetProgress() {
 }
 
 function openPrivacy() {
-  nextTick(() => information.value?.open('privacy'));
+  nextTick(() => {
+    information.value?.open('privacy');
+    refreshDialogState();
+  });
 }
 
 function openInformation() {
   cancelAutoAdvance();
   information.value?.open();
+  refreshDialogState();
 }
 
 function openSettings() {
   cancelAutoAdvance();
   settings.value?.open();
+  refreshDialogState();
+}
+
+function refreshDialogState() {
+  dialogOpen.value = !!document.querySelector('dialog[open]');
+}
+function dialogClosed(trigger?: HTMLButtonElement) {
+  refreshDialogState();
+  if (!dialogOpen.value) trigger?.focus();
+}
+function updateVisibility() {
+  pageVisible.value = document.visibilityState !== 'hidden';
 }
 
 onMounted(() => {
+  storageAvailable.value = saveProfile(learnerName.value, seenMessages.value);
   window.addEventListener('keydown', handleSessionKeys);
+  document.addEventListener('visibilitychange', updateVisibility);
 });
 onBeforeUnmount(() => {
   window.removeEventListener('keydown', handleSessionKeys);
+  document.removeEventListener('visibilitychange', updateVisibility);
   clearTimeout(indicatorTimer);
   clearTimeout(continueTimer);
 });
@@ -428,55 +489,7 @@ focusAnswer();
       </nav>
     </header>
 
-    <main v-if="screen === 'intro'" class="introduction" aria-labelledby="intro-heading">
-      <h1 id="intro-heading">Sbagliando,<br />una frase alla volta.</h1>
-      <p class="intro-tagline">Finché viene naturale.</p>
-      <div class="intro-explanation">
-        <p>
-          Trova il verbo che manca. Scrivi la coniugazione giusta e premi
-          <strong>Invio</strong> per verificare o continuare.
-        </p>
-        <p>
-          Durante la pratica, usa <strong>↑</strong> e <strong>↓</strong> per rivedere le frasi
-          della sessione. La frase successiva arriva da sé, oppure scegli
-          <strong>Resta qui</strong> per fermarti. Se sbagli, guardiamo insieme la coniugazione.
-        </p>
-      </div>
-      <form class="intro-form" @submit.prevent="begin">
-        <label for="learner-name">Piacere! Ops… come ti chiami?</label>
-        <div class="intro-name-row">
-          <input
-            id="learner-name"
-            v-model="learnerName"
-            type="text"
-            autocomplete="given-name"
-            maxlength="40"
-            placeholder="Il tuo nome, se ti va"
-          />
-          <button class="primary-button" type="submit">
-            Cominciamo <span aria-hidden="true">→</span>
-          </button>
-        </div>
-      </form>
-    </main>
-
-    <main v-else-if="screen === 'welcome'" class="welcome" aria-labelledby="welcome-heading">
-      <span class="eyebrow">RIPRENDIAMO DA QUI</span>
-      <h1 id="welcome-heading">
-        {{ learnerName ? `Che bello rivederti, ${learnerName}.` : 'Che bello rivederti.' }}
-      </h1>
-      <p class="welcome-level">
-        Livello <strong>{{ learning.learner.level }}</strong>
-        <span aria-hidden="true">·</span> Grado
-        <strong class="rank-numeral">{{ rankNumeral }}</strong>
-      </p>
-      <p>Una frase alla volta, al tuo ritmo.</p>
-      <button class="primary-button" type="button" @click="startSession">
-        Continuiamo <span aria-hidden="true">→</span>
-      </button>
-    </main>
-
-    <main v-else-if="screen === 'practice'" class="practice" id="main-content">
+    <main v-show="screen === 'practice'" class="practice" id="main-content">
       <aside
         class="history-indicator"
         :class="{ visible: historyIndicatorVisible || isReviewing }"
@@ -509,6 +522,18 @@ focusAnswer();
         ></button>
       </aside>
 
+      <PracticeContext
+        ref="practiceContext"
+        :initial-messages="initialMessages"
+        :paused="screen !== 'practice' || isReviewing || dialogOpen || !pageVisible"
+        :suppressed="isReviewing"
+        :name="learnerName"
+        :level="learning.learner.level"
+        @save-name="saveInlineName"
+        @interact="cancelAutoAdvance"
+        @completed="completeContextMessage"
+      />
+
       <div class="sentence-stage" :aria-busy="transitioning">
         <form
           class="exercise-form"
@@ -516,7 +541,6 @@ focusAnswer();
           :class="{
             'answer-correct': outcome === 'correct',
             'answer-incorrect': outcome === 'error' || outcome === 'typo',
-            'answer-bounce': (outcome === 'error' || outcome === 'typo') && !isReviewing,
           }"
           @submit.prevent="submit()"
         >
@@ -533,6 +557,11 @@ focusAnswer();
                 <h1 class="sentence-text">
                   <span>{{ exercise.before }} </span>
                   <span class="answer-slot" :style="{ '--answer-width': answerWidth }">
+                    <span
+                      v-if="freshValidation && !isReviewing && !transitioning"
+                      class="answer-wash"
+                      aria-hidden="true"
+                    ></span>
                     <input
                       id="verb-answer"
                       ref="input"
@@ -609,48 +638,50 @@ focusAnswer();
       </div>
 
       <div class="feedback-region" aria-live="polite" aria-atomic="true">
-        <section
-          v-if="outcome"
-          id="answer-feedback"
-          class="feedback"
-          :class="{ 'positive-feedback': outcome === 'correct' }"
-          aria-label="Risultato"
-        >
-          <div class="feedback-intro">
-            <span class="feedback-symbol" aria-hidden="true">{{
-              outcome === 'correct' ? '✓' : '↺'
-            }}</span>
-            <h2>{{ feedbackHeading }}</h2>
-          </div>
-          <template v-if="outcome !== 'correct'">
-            <p v-if="answer.trim()" class="answer-comparison">
-              <span
-                >Hai scritto <s>{{ answer }}</s></span
-              >
-              <span aria-hidden="true">→</span><strong>{{ exercise.answers[0] }}</strong>
-            </p>
-            <p v-else class="answer-comparison">
-              La forma corretta è <strong>{{ exercise.answers[0] }}</strong
-              >.
-            </p>
-            <p class="explanation">{{ exercise.explanation }}</p>
-            <div v-if="showConjugation" id="conjugation-details">
-              <ConjugationTable :verb="verb" :exercise="exercise" :answer="answer" />
-              <button
-                class="quiet-button hide-table-link"
-                type="button"
-                @click="setConjugationVisibility(false)"
-              >
-                Non mostrare più questa tabella
-              </button>
+        <Transition name="feedback">
+          <section
+            v-if="outcome && !transitioning"
+            id="answer-feedback"
+            class="feedback"
+            :class="{ 'positive-feedback': outcome === 'correct' }"
+            aria-label="Risultato"
+          >
+            <div class="feedback-intro">
+              <span class="feedback-symbol" aria-hidden="true">{{
+                outcome === 'correct' ? '✓' : '↺'
+              }}</span>
+              <h2>{{ feedbackHeading }}</h2>
             </div>
-          </template>
-          <p v-else class="correct-caption">Un’altra frase, un piccolo passo avanti.</p>
-        </section>
+            <template v-if="outcome !== 'correct'">
+              <p v-if="answer.trim()" class="answer-comparison">
+                <span
+                  >Hai scritto <s>{{ answer }}</s></span
+                >
+                <span aria-hidden="true">→</span><strong>{{ exercise.answers[0] }}</strong>
+              </p>
+              <p v-else class="answer-comparison">
+                La forma corretta è <strong>{{ exercise.answers[0] }}</strong
+                >.
+              </p>
+              <p class="explanation">{{ exercise.explanation }}</p>
+              <div v-if="showConjugation" id="conjugation-details">
+                <ConjugationTable :verb="verb" :exercise="exercise" :answer="answer" />
+                <button
+                  class="quiet-button hide-table-link"
+                  type="button"
+                  @click="setConjugationVisibility(false)"
+                >
+                  Non mostrare più questa tabella
+                </button>
+              </div>
+            </template>
+            <p v-else class="correct-caption">Un’altra frase, un piccolo passo avanti.</p>
+          </section>
+        </Transition>
       </div>
     </main>
 
-    <main v-else class="summary" aria-labelledby="summary-heading">
+    <main v-if="screen === 'summary'" class="summary" aria-labelledby="summary-heading">
       <aside
         v-if="stats.count"
         class="history-indicator summary-history visible"
@@ -720,8 +751,8 @@ focusAnswer();
       @update:show-conjugation="setConjugationVisibility"
       @reset-progress="resetProgress"
       @open-privacy="openPrivacy"
-      @closed="settingsTrigger?.focus()"
+      @closed="dialogClosed(settingsTrigger)"
     />
-    <InformationDialog ref="information" @closed="informationTrigger?.focus()" />
+    <InformationDialog ref="information" @closed="dialogClosed(informationTrigger)" />
   </div>
 </template>
