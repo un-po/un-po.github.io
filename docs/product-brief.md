@@ -129,6 +129,14 @@ in place. Remaining v1 work:
 - **Release checks:** finish cross-browser and accessibility checks, walk through
   first visit, practice, history, settings, reset, and session end, then verify the
   production Pages deployment. CI builds and deploys `main`; Umami is configured.
+- **Session summary:** consider a “Continue” action that resumes the ended
+  session for 15 minutes, then changes to “Play again” to start a fresh session.
+- **Question spacing:** review the queue schedule; questions answered
+  incorrectly are returning too soon.
+- **Answer matching:** review fuzzy-match confidence for ambiguous typos and
+  verify whether an answer is compared against every accepted option.
+- **Browser history:** evaluate adding a session-end history entry so browser
+  Back ends the active session.
 
 Multiple browser-local profiles, milestones, broader tenses, progress
 export/import, and a fully calibrated per-skill learning model are candidates for

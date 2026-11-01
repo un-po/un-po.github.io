@@ -175,7 +175,7 @@ onBeforeUnmount(() => {
   right: calc(50% + 6px);
   width: max(0px, calc(var(--journey-width) - 12px));
   height: 2px;
-  background: var(--accent);
+  background: var(--primary);
   opacity: 0;
   transform: scaleX(0);
   transform-origin: right center;
@@ -196,7 +196,7 @@ onBeforeUnmount(() => {
 }
 .session-start-marker {
   left: var(--track-start);
-  border: 2px solid var(--accent);
+  border: 2px solid var(--primary);
   background: var(--canvas);
   opacity: 0;
 }
@@ -205,7 +205,7 @@ onBeforeUnmount(() => {
 }
 .current-progress-marker {
   left: 50%;
-  background: var(--accent);
+  background: var(--primary);
 }
 .current-progress-marker::after {
   content: '';
@@ -215,7 +215,7 @@ onBeforeUnmount(() => {
   width: 12px;
   height: 12px;
   box-sizing: border-box;
-  border: 1.5px solid var(--accent);
+  border: 1.5px solid var(--primary);
   border-radius: 50%;
   opacity: 0;
   transform: translate(-50%, -50%) scale(0.2);
@@ -282,7 +282,7 @@ onBeforeUnmount(() => {
   text-transform: uppercase;
 }
 .rank-marker.final {
-  color: var(--accent);
+  color: var(--primary);
 }
 @keyframes reveal-from-below {
   from {

@@ -219,7 +219,7 @@ kbd {
   font-size: 16px;
 }
 .context-name-row input:focus {
-  border-bottom-color: var(--accent);
+  border-bottom-color: var(--primary);
   outline: none;
 }
 .context-name-row button:disabled {

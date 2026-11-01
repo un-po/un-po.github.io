@@ -597,10 +597,7 @@ focusAnswer();
               :disabled="isReviewing || transitioning || (!answer.trim() && !outcome)"
             >
               <span>{{ outcome ? 'Prossima frase' : 'Verifica' }}</span>
-              <svg v-if="outcome === 'correct'" viewBox="0 0 24 24" aria-hidden="true">
-                <path d="m5 12 4 4L19 6" />
-              </svg>
-              <svg v-else viewBox="0 0 24 24" aria-hidden="true">
+              <svg viewBox="0 0 24 24" aria-hidden="true">
                 <path d="M4 12h15m-6-6 6 6-6 6" />
               </svg>
             </button>

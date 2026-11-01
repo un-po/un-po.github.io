@@ -16,54 +16,62 @@
 
 :root {
   font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', sans-serif;
-  color: #35453e;
-  background: #f7f8f5;
   font-synthesis: none;
   text-rendering: optimizeLegibility;
   -webkit-font-smoothing: antialiased;
   color-scheme: light;
-  --canvas: #f7f8f5;
-  --ink: #35453e;
-  --muted: #66746c;
-  --faint: #748077;
-  --line: #d8dfd5;
-  --accent: #44624b;
-  --accent-hover: #344f3a;
-  --accent-text: #fff;
-  --wash-one: #c9dbc1;
-  --wash-two: #d8d0e6;
-  --wash-opacity: 0.45;
-  --surface: #f8faf6;
-  --correct: #e6eedf;
-  --wrong: #f2e6d9;
-  --wrong-ink: #80532f;
-  --result-correct: #23814a;
-  --result-wrong: #ad593b;
-  --field-wash: rgba(53, 69, 62, 0.04);
-  --field-line: #bdc7bd;
+  --canvas: #e4f2ef;
+  --ink: #29403e;
+  --muted: #506c67;
+  --faint: #849b97;
+  --line: #c7dad6;
+  --primary: #087d78;
+  --primary-hover: #06655f;
+  --primary-text: #fff;
+  --button-disabled: #d2e2de;
+  --button-disabled-ink: #56716c;
+  --wash-one: #bbddd6;
+  --wash-two: #d2e7d9;
+  --wash-opacity: 0.4;
+  --surface: #eef8f5;
+  --correct: #dcebe1;
+  --wrong: #f0e2df;
+  --wrong-ink: var(--result-wrong);
+  --result-correct: #36754e;
+  --result-wrong: #a64949;
+  --field-wash: rgba(41, 64, 62, 0.035);
+  --field-line: #afc9c3;
+  --sentence: #3d5955;
+  --dialog-backdrop: rgba(20, 40, 39, 0.42);
   --hand: 'Playpen Sans', 'Comic Sans MS', cursive;
+  color: var(--ink);
+  background: var(--canvas);
 }
 :root[data-theme='dark'] {
   color-scheme: dark;
-  --canvas: #1d2322;
-  --ink: #e1e7de;
-  --muted: #adb9af;
-  --faint: #a1aea5;
-  --line: #414c44;
-  --accent: #bdcfb2;
-  --accent-hover: #d2e0c8;
-  --accent-text: #243026;
-  --wash-one: #3e5840;
-  --wash-two: #494058;
-  --wash-opacity: 0.35;
-  --surface: #252e28;
-  --correct: #354832;
-  --wrong: #493e31;
-  --wrong-ink: #e8c5a0;
-  --result-correct: #69d58e;
-  --result-wrong: #eea178;
-  --field-wash: rgba(225, 231, 222, 0.05);
-  --field-line: #58655c;
+  --canvas: #142725;
+  --ink: #e8f2f0;
+  --muted: #b2c8c2;
+  --faint: #819d97;
+  --line: #3b5752;
+  --primary: #4fa89e;
+  --primary-hover: #65b8ae;
+  --primary-text: #142b29;
+  --button-disabled: #304743;
+  --button-disabled-ink: #a1b9b3;
+  --wash-one: #2a544d;
+  --wash-two: #334e3d;
+  --wash-opacity: 0.32;
+  --surface: #1e3330;
+  --correct: #2b4437;
+  --wrong: #493330;
+  --wrong-ink: var(--result-wrong);
+  --result-correct: #8bc99a;
+  --result-wrong: #e4938b;
+  --field-wash: rgba(232, 242, 240, 0.045);
+  --field-line: #607c76;
+  --sentence: #d2dfdb;
+  --dialog-backdrop: rgba(8, 20, 19, 0.76);
 }
 * {
   box-sizing: border-box;
@@ -97,7 +105,7 @@ a {
   touch-action: manipulation;
 }
 :focus-visible {
-  outline: 2px solid var(--accent);
+  outline: 2px solid var(--primary);
   outline-offset: 5px;
 }
 ::selection {
@@ -151,18 +159,18 @@ a {
   border: 0;
   padding: 0;
   background: transparent;
-  color: inherit;
+  color: var(--ink);
   cursor: pointer;
 }
 .wordmark-apostrophe {
-  color: var(--accent);
+  color: var(--primary);
   transform: rotate(12deg);
 }
 .brand-dot {
   height: 6px;
   width: 6px;
   border-radius: 60% 40% 50% 40%;
-  background: var(--accent);
+  background: var(--primary);
   margin-left: 6px;
 }
 .brand-caption {
@@ -238,7 +246,7 @@ a {
 .live-dot {
   width: 6px;
   height: 6px;
-  background: var(--accent);
+  background: var(--primary);
   opacity: 0.7;
   border-radius: 50%;
 }
@@ -267,6 +275,7 @@ a {
 }
 .sentence-text {
   font-family: var(--hand);
+  color: var(--sentence);
   font-size: clamp(27px, 3.2vw, 40px);
   font-weight: 400;
   line-height: 2.15;
@@ -291,12 +300,12 @@ a {
   padding: 0 3px 4px;
   border: none;
   border-radius: 0;
-  border-bottom: 2px solid var(--accent);
+  border-bottom: 2px solid var(--primary);
   outline: none;
   background: transparent;
-  color: var(--accent);
+  color: var(--sentence);
   text-align: center;
-  caret-color: var(--accent);
+  caret-color: var(--primary);
   font-family: inherit;
   font-size: inherit;
   line-height: inherit;
@@ -345,8 +354,8 @@ a {
   padding: 12px 24px;
   border-radius: 100px;
   border: 1px solid transparent;
-  color: var(--accent-text);
-  background: var(--accent);
+  color: var(--primary-text);
+  background: var(--primary);
   font-size: 13px;
   font-weight: 500;
   transition:
@@ -355,15 +364,15 @@ a {
     opacity 180ms;
 }
 .primary-button:hover:not(:disabled) {
-  background: var(--accent-hover);
+  background: var(--primary-hover);
   transform: translateY(-1px);
 }
 .primary-button:active:not(:disabled) {
   transform: translateY(0);
 }
 .primary-button:disabled {
-  background: var(--correct);
-  color: var(--muted);
+  background: var(--button-disabled);
+  color: var(--button-disabled-ink);
 }
 .primary-button svg {
   width: 19px;
@@ -512,7 +521,7 @@ kbd {
   font: 500 20px var(--hand);
 }
 .answer-comparison strong {
-  color: var(--accent);
+  color: var(--result-correct);
 }
 .explanation {
   margin: 4px 0 0;
@@ -558,7 +567,7 @@ td {
   width: 50%;
   text-align: right;
   font-size: 11px;
-  color: var(--accent);
+  color: var(--muted);
 }
 .row-note span {
   margin-left: 8px;
@@ -720,7 +729,7 @@ td {
   color: var(--ink);
 }
 .help-dialog::backdrop {
-  background: #18221d66;
+  background: var(--dialog-backdrop);
   backdrop-filter: blur(6px);
 }
 .help-dialog h2 {
@@ -1319,7 +1328,7 @@ td {
   position: absolute;
   z-index: 0;
   inset: 0;
-  background: var(--accent-hover);
+  background: var(--primary-hover);
   transform: scaleX(0);
   transform-origin: left center;
   animation: auto-advance-sweep var(--auto-advance-duration) linear forwards;
@@ -1404,7 +1413,7 @@ td {
   content: '';
   width: 9px;
   height: 9px;
-  border: 1px solid var(--accent);
+  border: 1px solid var(--primary);
   border-radius: 50%;
   box-sizing: border-box;
   background: var(--canvas);
@@ -1416,7 +1425,7 @@ td {
     box-shadow 180ms ease;
 }
 .history-endpoint.active::before {
-  border-color: color-mix(in srgb, var(--accent) 82%, white);
+  border-color: color-mix(in srgb, var(--primary) 82%, white);
   border-width: 2px;
   filter: brightness(1.18);
   transform: scale(1.5);
@@ -1527,7 +1536,7 @@ td {
 }
 .intro-name-row input:focus,
 .settings-name-row input:focus {
-  border-bottom-color: var(--accent);
+  border-bottom-color: var(--primary);
   outline: none;
 }
 .settings-name-row button:disabled {
@@ -1548,7 +1557,7 @@ td {
   font-size: 14px;
 }
 .theme-chip.selected {
-  border-color: var(--accent);
+  border-color: var(--primary);
   background: var(--correct);
   color: var(--ink);
 }
@@ -1561,7 +1570,7 @@ td {
   line-height: 1.55;
 }
 .checkbox-row input {
-  accent-color: var(--accent);
+  accent-color: var(--primary);
   margin-top: 4px;
 }
 .settings-danger {
