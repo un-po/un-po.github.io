@@ -120,3 +120,10 @@ Within a session, Arrow Up and Arrow Down browse completed and current exercises
 Past answers are read-only and retain their original validation feedback. The
 vertical position indicator shows at most 20 exercises, with counts for omitted
 items.
+
+## Development tools
+
+The local Vite app shows a **Sviluppo** button at the bottom left. Its panel can set a learner
+level, prioritize a tense, or jump to an exact exercise, and inspect saved learning data.
+The first injection saves a backup; **Ripristina progressi originali** restores it. Changes
+reload the page and end the current in-memory session. The panel is excluded from production.

@@ -315,7 +315,7 @@ function handleSessionKeys(event: KeyboardEvent) {
   if (
     target instanceof HTMLElement &&
     target !== input.value &&
-    target.closest('input, textarea, [contenteditable="true"]')
+    target.closest('input, select, textarea, [contenteditable="true"], .dev-tools')
   )
     return;
   if (event.key === 'Escape') {
@@ -434,6 +434,9 @@ function updateVisibility() {
 }
 
 onMounted(() => {
+  if (import.meta.env.DEV) {
+    document.dispatchEvent(new CustomEvent('unpo:development-content', { detail: { exercises } }));
+  }
   storageAvailable.value = saveProfile(learnerName.value, seenMessages.value);
   window.addEventListener('keydown', handleSessionKeys);
   document.addEventListener('visibilitychange', updateVisibility);
