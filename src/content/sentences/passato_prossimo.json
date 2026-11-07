@@ -1,12 +1,11 @@
 [
   {
-    "id": "sent-past-101",
+    "id": "passato_prossimo-0001",
     "textTemplate": "Ieri mattina, per andare in ufficio, io {slot_0} la metropolitana.",
     "primaryTense": "passato_prossimo",
     "level": 9,
     "difficulty": 2,
     "theme": "travel_commuting",
-    "source": "import-revised",
     "target": {
       "slotId": 0,
       "verb": "prendere",
@@ -23,13 +22,12 @@
     "band": 2
   },
   {
-    "id": "sent-past-102",
+    "id": "passato_prossimo-0002",
     "textTemplate": "La settimana scorsa, Maria {slot_0} a Roma per un viaggio di lavoro.",
     "primaryTense": "passato_prossimo",
     "level": 10,
     "difficulty": 2,
     "theme": "travel_commuting",
-    "source": "import-revised",
     "target": {
       "slotId": 0,
       "verb": "andare",
@@ -46,13 +44,12 @@
     "band": 2
   },
   {
-    "id": "sent-past-103",
+    "id": "passato_prossimo-0003",
     "textTemplate": "Ieri sera noi {slot_0} una cena deliziosa tutti insieme.",
     "primaryTense": "passato_prossimo",
     "level": 6,
     "difficulty": 2,
     "theme": "home_lifestyle",
-    "source": "import-revised",
     "target": {
       "slotId": 0,
       "verb": "preparare",
@@ -69,13 +66,12 @@
     "band": 1
   },
   {
-    "id": "sent-past-104",
+    "id": "passato_prossimo-0004",
     "textTemplate": "Stamattina i bambini {slot_0} molto presto per andare a scuola.",
     "primaryTense": "passato_prossimo",
     "level": 10,
     "difficulty": 2,
     "theme": "daily_routine",
-    "source": "import-revised",
     "target": {
       "slotId": 0,
       "verb": "alzarsi",
@@ -92,13 +88,12 @@
     "band": 2
   },
   {
-    "id": "sent-past-105",
+    "id": "passato_prossimo-0005",
     "textTemplate": "Due giorni fa tu {slot_0} a tutte le email importanti.",
     "primaryTense": "passato_prossimo",
     "level": 9,
     "difficulty": 2,
     "theme": "work_office",
-    "source": "import-revised",
     "target": {
       "slotId": 0,
       "verb": "rispondere",
@@ -115,13 +110,12 @@
     "band": 2
   },
   {
-    "id": "sent-past-106",
+    "id": "passato_prossimo-0006",
     "textTemplate": "L'anno scorso voi {slot_0} una vacanza meravigliosa in Spagna.",
     "primaryTense": "passato_prossimo",
     "level": 10,
     "difficulty": 2,
     "theme": "social_life",
-    "source": "import-revised",
     "target": {
       "slotId": 0,
       "verb": "fare",
@@ -138,13 +132,12 @@
     "band": 2
   },
   {
-    "id": "sent-past-107",
+    "id": "passato_prossimo-0007",
     "textTemplate": "Poco fa Luca {slot_0} a casa dopo una lunga giornata.",
     "primaryTense": "passato_prossimo",
     "level": 10,
     "difficulty": 2,
     "theme": "travel_commuting",
-    "source": "import-revised",
     "target": {
       "slotId": 0,
       "verb": "tornare",
@@ -161,13 +154,12 @@
     "band": 2
   },
   {
-    "id": "sent-past-108",
+    "id": "passato_prossimo-0008",
     "textTemplate": "Ieri sera io {slot_0} un libro giallo molto avvincente.",
     "primaryTense": "passato_prossimo",
     "level": 8,
     "difficulty": 2,
     "theme": "leisure",
-    "source": "import-revised",
     "target": {
       "slotId": 0,
       "verb": "leggere",
@@ -184,13 +176,12 @@
     "band": 2
   },
   {
-    "id": "sent-past-109",
+    "id": "passato_prossimo-0009",
     "textTemplate": "Stamattina Anna {slot_0} molto tardi dal letto.",
     "primaryTense": "passato_prossimo",
     "level": 9,
     "difficulty": 2,
     "theme": "home_lifestyle",
-    "source": "import-revised",
     "target": {
       "slotId": 0,
       "verb": "alzarsi",
@@ -207,13 +198,12 @@
     "band": 2
   },
   {
-    "id": "sent-past-110",
+    "id": "passato_prossimo-0010",
     "textTemplate": "Nel 2024 noi {slot_0} un nuovo ufficio nel centro storico.",
     "primaryTense": "passato_prossimo",
     "level": 9,
     "difficulty": 2,
     "theme": "work_office",
-    "source": "import-revised",
     "target": {
       "slotId": 0,
       "verb": "aprire",
@@ -230,13 +220,12 @@
     "band": 2
   },
   {
-    "id": "sent-past-111",
+    "id": "passato_prossimo-0011",
     "textTemplate": "Ieri sera io {slot_0} a teatro con i miei amici.",
     "primaryTense": "passato_prossimo",
     "level": 10,
     "difficulty": 2,
     "theme": "travel_commuting",
-    "source": "import-revised",
     "target": {
       "slotId": 0,
       "verb": "andare",
@@ -259,13 +248,12 @@
     "band": 2
   },
   {
-    "id": "sent-past-112",
+    "id": "passato_prossimo-0012",
     "textTemplate": "La settimana scorsa, i miei genitori {slot_0} a trovarci in città.",
     "primaryTense": "passato_prossimo",
     "level": 7,
     "difficulty": 2,
     "theme": "social_life",
-    "source": "import-revised",
     "target": {
       "slotId": 0,
       "verb": "venire",
@@ -282,13 +270,12 @@
     "band": 1
   },
   {
-    "id": "sent-past-113",
+    "id": "passato_prossimo-0013",
     "textTemplate": "Stamattina presto tu {slot_0} di casa per fare jogging?",
     "primaryTense": "passato_prossimo",
     "level": 8,
     "difficulty": 2,
     "theme": "daily_routine",
-    "source": "import-revised",
     "target": {
       "slotId": 0,
       "verb": "uscire",
@@ -311,13 +298,12 @@
     "band": 2
   },
   {
-    "id": "sent-past-114",
+    "id": "passato_prossimo-0014",
     "textTemplate": "Due giorni fa Chiara {slot_0} in Germania per lavoro.",
     "primaryTense": "passato_prossimo",
     "level": 9,
     "difficulty": 2,
     "theme": "travel_commuting",
-    "source": "import-revised",
     "target": {
       "slotId": 0,
       "verb": "andare",
@@ -334,13 +320,12 @@
     "band": 2
   },
   {
-    "id": "sent-past-115",
+    "id": "passato_prossimo-0015",
     "textTemplate": "Ieri sera noi {slot_0} tardi dalla festa di compleanno.",
     "primaryTense": "passato_prossimo",
     "level": 10,
     "difficulty": 2,
     "theme": "social_life",
-    "source": "import-revised",
     "target": {
       "slotId": 0,
       "verb": "uscire",
@@ -363,13 +348,12 @@
     "band": 2
   },
   {
-    "id": "sent-past-116",
+    "id": "passato_prossimo-0016",
     "textTemplate": "Poco fa un vecchio amico {slot_0} a trovarmi all'improvviso.",
     "primaryTense": "passato_prossimo",
     "level": 7,
     "difficulty": 2,
     "theme": "home_lifestyle",
-    "source": "import-revised",
     "target": {
       "slotId": 0,
       "verb": "venire",
@@ -386,13 +370,12 @@
     "band": 1
   },
   {
-    "id": "sent-past-117",
+    "id": "passato_prossimo-0017",
     "textTemplate": "Quest'estate voi {slot_0} in vacanza al mare?",
     "primaryTense": "passato_prossimo",
     "level": 8,
     "difficulty": 2,
     "theme": "travel_commuting",
-    "source": "import-revised",
     "target": {
       "slotId": 0,
       "verb": "andare",
@@ -415,13 +398,12 @@
     "band": 2
   },
   {
-    "id": "sent-past-118",
+    "id": "passato_prossimo-0018",
     "textTemplate": "Stamattina mia sorella {slot_0} di casa molto presto.",
     "primaryTense": "passato_prossimo",
     "level": 9,
     "difficulty": 2,
     "theme": "daily_routine",
-    "source": "import-revised",
     "target": {
       "slotId": 0,
       "verb": "uscire",
@@ -438,13 +420,12 @@
     "band": 2
   },
   {
-    "id": "sent-past-119",
+    "id": "passato_prossimo-0019",
     "textTemplate": "Ieri sera tu {slot_0} con noi in centro?",
     "primaryTense": "passato_prossimo",
     "level": 10,
     "difficulty": 2,
     "theme": "social_life",
-    "source": "import-revised",
     "target": {
       "slotId": 0,
       "verb": "venire",
@@ -467,13 +448,12 @@
     "band": 2
   },
   {
-    "id": "sent-past-120",
+    "id": "passato_prossimo-0020",
     "textTemplate": "L'anno scorso io {slot_0} in Giappone per la prima volta.",
     "primaryTense": "passato_prossimo",
     "level": 10,
     "difficulty": 2,
     "theme": "travel_commuting",
-    "source": "import-revised",
     "target": {
       "slotId": 0,
       "verb": "andare",
@@ -496,13 +476,12 @@
     "band": 2
   },
   {
-    "id": "sent-past-121",
+    "id": "passato_prossimo-0021",
     "textTemplate": "Ieri pomeriggio io {slot_0} una torta di mele per la famiglia.",
     "primaryTense": "passato_prossimo",
     "level": 7,
     "difficulty": 2,
     "theme": "home_lifestyle",
-    "source": "import-revised",
     "target": {
       "slotId": 0,
       "verb": "fare",
@@ -519,13 +498,12 @@
     "band": 1
   },
   {
-    "id": "sent-past-122",
+    "id": "passato_prossimo-0022",
     "textTemplate": "Durante la riunione, tu {slot_0} tutta la verità al direttore.",
     "primaryTense": "passato_prossimo",
     "level": 8,
     "difficulty": 2,
     "theme": "work_office",
-    "source": "import-revised",
     "target": {
       "slotId": 0,
       "verb": "dire",
@@ -542,13 +520,12 @@
     "band": 2
   },
   {
-    "id": "sent-past-123",
+    "id": "passato_prossimo-0023",
     "textTemplate": "La settimana scorsa noi {slot_0} un film straordinario al cinema.",
     "primaryTense": "passato_prossimo",
     "level": 9,
     "difficulty": 2,
     "theme": "social_life",
-    "source": "import-revised",
     "target": {
       "slotId": 0,
       "verb": "vedere",
@@ -571,13 +548,12 @@
     "band": 2
   },
   {
-    "id": "sent-past-124",
+    "id": "passato_prossimo-0024",
     "textTemplate": "Subito dopo la lezione, Marco {slot_0} il risultato del test.",
     "primaryTense": "passato_prossimo",
     "level": 10,
     "difficulty": 2,
     "theme": "daily_routine",
-    "source": "import-revised",
     "target": {
       "slotId": 0,
       "verb": "sapere",
@@ -594,13 +570,12 @@
     "band": 2
   },
   {
-    "id": "sent-past-125",
+    "id": "passato_prossimo-0025",
     "textTemplate": "Ieri voi {slot_0} molte foto meravigliose durante la gita.",
     "primaryTense": "passato_prossimo",
     "level": 7,
     "difficulty": 2,
     "theme": "travel_commuting",
-    "source": "import-revised",
     "target": {
       "slotId": 0,
       "verb": "fare",
@@ -617,13 +592,12 @@
     "band": 1
   },
   {
-    "id": "sent-past-126",
+    "id": "passato_prossimo-0026",
     "textTemplate": "I colleghi {slot_0} chiaramente che il progetto era pronto.",
     "primaryTense": "passato_prossimo",
     "level": 8,
     "difficulty": 2,
     "theme": "work_office",
-    "source": "import-revised",
     "target": {
       "slotId": 0,
       "verb": "dire",
@@ -640,13 +614,12 @@
     "band": 2
   },
   {
-    "id": "sent-past-127",
+    "id": "passato_prossimo-0027",
     "textTemplate": "Ieri sera io {slot_0} un bellissimo tramonto sul mare.",
     "primaryTense": "passato_prossimo",
     "level": 9,
     "difficulty": 2,
     "theme": "leisure",
-    "source": "import-revised",
     "target": {
       "slotId": 0,
       "verb": "vedere",
@@ -669,13 +642,12 @@
     "band": 2
   },
   {
-    "id": "sent-past-128",
+    "id": "passato_prossimo-0028",
     "textTemplate": "Tu {slot_0} della festa solo quando hai letto il messaggio?",
     "primaryTense": "passato_prossimo",
     "level": 10,
     "difficulty": 2,
     "theme": "home_lifestyle",
-    "source": "import-revised",
     "target": {
       "slotId": 0,
       "verb": "sapere",
@@ -692,13 +664,12 @@
     "band": 2
   },
   {
-    "id": "sent-past-129",
+    "id": "passato_prossimo-0029",
     "textTemplate": "Stamattina noi {slot_0} un ottimo lavoro di squadra.",
     "primaryTense": "passato_prossimo",
     "level": 7,
     "difficulty": 2,
     "theme": "work_office",
-    "source": "import-revised",
     "target": {
       "slotId": 0,
       "verb": "fare",
@@ -715,13 +686,12 @@
     "band": 1
   },
   {
-    "id": "sent-past-130",
+    "id": "passato_prossimo-0030",
     "textTemplate": "Chiara e Luca {slot_0} a tutti che si sarebbero sposati.",
     "primaryTense": "passato_prossimo",
     "level": 7,
     "difficulty": 2,
     "theme": "social_life",
-    "source": "import-revised",
     "target": {
       "slotId": 0,
       "verb": "dire",
@@ -738,13 +708,12 @@
     "band": 1
   },
   {
-    "id": "sent-past-131",
+    "id": "passato_prossimo-0031",
     "textTemplate": "Ieri pomeriggio io {slot_0} a lungo con il cliente al telefono.",
     "primaryTense": "passato_prossimo",
     "level": 7,
     "difficulty": 1,
     "theme": "work_office",
-    "source": "import-revised",
     "target": {
       "slotId": 0,
       "verb": "parlare",
@@ -761,13 +730,12 @@
     "band": 1
   },
   {
-    "id": "sent-past-132",
+    "id": "passato_prossimo-0032",
     "textTemplate": "La settimana scorsa tu {slot_0} una pizza deliziosa in centro.",
     "primaryTense": "passato_prossimo",
     "level": 8,
     "difficulty": 1,
     "theme": "home_lifestyle",
-    "source": "import-revised",
     "target": {
       "slotId": 0,
       "verb": "mangiare",
@@ -784,13 +752,12 @@
     "band": 1
   },
   {
-    "id": "sent-past-133",
+    "id": "passato_prossimo-0033",
     "textTemplate": "Per tutto il fine settimana noi {slot_0} sodo sul nuovo progetto.",
     "primaryTense": "passato_prossimo",
     "level": 9,
     "difficulty": 1,
     "theme": "work_office",
-    "source": "import-revised",
     "target": {
       "slotId": 0,
       "verb": "lavorare",
@@ -807,13 +774,12 @@
     "band": 1
   },
   {
-    "id": "sent-past-134",
+    "id": "passato_prossimo-0034",
     "textTemplate": "Ieri sera Anna {slot_0} un lungo articolo sul suo blog personale.",
     "primaryTense": "passato_prossimo",
     "level": 7,
     "difficulty": 2,
     "theme": "leisure",
-    "source": "import-revised",
     "target": {
       "slotId": 0,
       "verb": "scrivere",
@@ -830,13 +796,12 @@
     "band": 1
   },
   {
-    "id": "sent-past-135",
+    "id": "passato_prossimo-0035",
     "textTemplate": "Durante la conferenza voi {slot_0} con molti esperti internazionali.",
     "primaryTense": "passato_prossimo",
     "level": 6,
     "difficulty": 1,
     "theme": "social_life",
-    "source": "import-revised",
     "target": {
       "slotId": 0,
       "verb": "parlare",
@@ -853,13 +818,12 @@
     "band": 1
   },
   {
-    "id": "sent-past-136",
+    "id": "passato_prossimo-0036",
     "textTemplate": "A mezzogiorno i bambini {slot_0} tutta la pasta nel piatto.",
     "primaryTense": "passato_prossimo",
     "level": 7,
     "difficulty": 1,
     "theme": "daily_routine",
-    "source": "import-revised",
     "target": {
       "slotId": 0,
       "verb": "mangiare",
@@ -876,13 +840,12 @@
     "band": 1
   },
   {
-    "id": "sent-past-137",
+    "id": "passato_prossimo-0037",
     "textTemplate": "L'anno scorso i miei colleghi {slot_0} in una nuova sede aziendale.",
     "primaryTense": "passato_prossimo",
     "level": 8,
     "difficulty": 1,
     "theme": "work_office",
-    "source": "import-revised",
     "target": {
       "slotId": 0,
       "verb": "lavorare",
@@ -899,13 +862,12 @@
     "band": 1
   },
   {
-    "id": "sent-past-138",
+    "id": "passato_prossimo-0038",
     "textTemplate": "Due giorni fa io {slot_0} una lettera formale di ringraziamento.",
     "primaryTense": "passato_prossimo",
     "level": 7,
     "difficulty": 2,
     "theme": "leisure",
-    "source": "import-revised",
     "target": {
       "slotId": 0,
       "verb": "scrivere",
@@ -922,13 +884,12 @@
     "band": 1
   },
   {
-    "id": "sent-past-139",
+    "id": "passato_prossimo-0039",
     "textTemplate": "Stamattina tu {slot_0} con il proprietario di casa per il contratto.",
     "primaryTense": "passato_prossimo",
     "level": 10,
     "difficulty": 1,
     "theme": "home_lifestyle",
-    "source": "import-revised",
     "target": {
       "slotId": 0,
       "verb": "parlare",
@@ -945,13 +906,12 @@
     "band": 1
   },
   {
-    "id": "sent-past-140",
+    "id": "passato_prossimo-0040",
     "textTemplate": "Ieri sera noi {slot_0} insieme in un ristorante tipico toscano.",
     "primaryTense": "passato_prossimo",
     "level": 7,
     "difficulty": 1,
     "theme": "social_life",
-    "source": "import-revised",
     "target": {
       "slotId": 0,
       "verb": "mangiare",
@@ -968,13 +928,12 @@
     "band": 1
   },
   {
-    "id": "sent-past-141",
+    "id": "passato_prossimo-0041",
     "textTemplate": "Durante le vacanze estive io {slot_0} tre romanzi storici.",
     "primaryTense": "passato_prossimo",
     "level": 9,
     "difficulty": 2,
     "theme": "leisure",
-    "source": "import-revised",
     "target": {
       "slotId": 0,
       "verb": "leggere",
@@ -991,13 +950,12 @@
     "band": 2
   },
   {
-    "id": "sent-past-142",
+    "id": "passato_prossimo-0042",
     "textTemplate": "Finalmente tu {slot_0} tutte le regole della nuova normativa.",
     "primaryTense": "passato_prossimo",
     "level": 9,
     "difficulty": 2,
     "theme": "work_office",
-    "source": "import-revised",
     "target": {
       "slotId": 0,
       "verb": "capire",
@@ -1014,13 +972,12 @@
     "band": 2
   },
   {
-    "id": "sent-past-143",
+    "id": "passato_prossimo-0043",
     "textTemplate": "Ieri notte noi {slot_0} per ben otto ore consecutive.",
     "primaryTense": "passato_prossimo",
     "level": 10,
     "difficulty": 2,
     "theme": "daily_routine",
-    "source": "import-revised",
     "target": {
       "slotId": 0,
       "verb": "dormire",
@@ -1037,13 +994,12 @@
     "band": 2
   },
   {
-    "id": "sent-past-144",
+    "id": "passato_prossimo-0044",
     "textTemplate": "L'estate scorsa voi {slot_0} in treno attraverso tutta Europa.",
     "primaryTense": "passato_prossimo",
     "level": 6,
     "difficulty": 2,
     "theme": "travel_commuting",
-    "source": "import-revised",
     "target": {
       "slotId": 0,
       "verb": "viaggiare",
@@ -1060,13 +1016,12 @@
     "band": 1
   },
   {
-    "id": "sent-past-145",
+    "id": "passato_prossimo-0045",
     "textTemplate": "Prima di uscire, Luca {slot_0} tutte le luci di casa.",
     "primaryTense": "passato_prossimo",
     "level": 9,
     "difficulty": 2,
     "theme": "home_lifestyle",
-    "source": "import-revised",
     "target": {
       "slotId": 0,
       "verb": "spegnere",
@@ -1083,13 +1038,12 @@
     "band": 2
   },
   {
-    "id": "sent-past-146",
-    "textTemplate": "Per errore stamattina io {slot_0} le chiavi nell'ufficio chiuso.",
+    "id": "passato_prossimo-0046",
+    "textTemplate": "Stamattina io {slot_0} le chiavi sulla scrivania.",
     "primaryTense": "passato_prossimo",
     "level": 8,
     "difficulty": 2,
     "theme": "work_office",
-    "source": "import-revised",
     "target": {
       "slotId": 0,
       "verb": "dimenticare",
@@ -1106,13 +1060,12 @@
     "band": 2
   },
   {
-    "id": "sent-past-147",
+    "id": "passato_prossimo-0047",
     "textTemplate": "Tra i due film in programmazione, tu quale {slot_0} vedere?",
     "primaryTense": "passato_prossimo",
     "level": 9,
     "difficulty": 2,
     "theme": "leisure",
-    "source": "import-revised",
     "target": {
       "slotId": 0,
       "verb": "preferire",
@@ -1129,13 +1082,12 @@
     "band": 2
   },
   {
-    "id": "sent-past-148",
+    "id": "passato_prossimo-0048",
     "textTemplate": "I nostri ingegneri {slot_0} un nuovo sistema di archiviazione.",
     "primaryTense": "passato_prossimo",
     "level": 10,
     "difficulty": 2,
     "theme": "work_office",
-    "source": "import-revised",
     "target": {
       "slotId": 0,
       "verb": "costruire",
@@ -1152,13 +1104,12 @@
     "band": 2
   },
   {
-    "id": "sent-past-149",
+    "id": "passato_prossimo-0049",
     "textTemplate": "Stamattina la segretaria {slot_0} tutti i pacchi urgenti.",
     "primaryTense": "passato_prossimo",
     "level": 6,
     "difficulty": 2,
     "theme": "daily_routine",
-    "source": "import-revised",
     "target": {
       "slotId": 0,
       "verb": "spedire",
@@ -1175,13 +1126,12 @@
     "band": 1
   },
   {
-    "id": "sent-past-150",
+    "id": "passato_prossimo-0050",
     "textTemplate": "Insieme noi {slot_0} ogni problema sorto durante i lavori.",
     "primaryTense": "passato_prossimo",
     "level": 9,
     "difficulty": 2,
     "theme": "home_lifestyle",
-    "source": "import-revised",
     "target": {
       "slotId": 0,
       "verb": "risolvere",
@@ -1198,13 +1148,12 @@
     "band": 2
   },
   {
-    "id": "sent-past-151",
+    "id": "passato_prossimo-0051",
     "textTemplate": "Ieri mattina, appena arrivato alla stazione, io {slot_0} il treno in orario.",
     "primaryTense": "passato_prossimo",
     "level": 10,
     "difficulty": 2,
     "theme": "travel_commuting",
-    "source": "import-revised",
     "target": {
       "slotId": 0,
       "verb": "prendere",
@@ -1221,13 +1170,12 @@
     "band": 2
   },
   {
-    "id": "sent-past-152",
+    "id": "passato_prossimo-0052",
     "textTemplate": "L'anno scorso mia sorella {slot_0} a vivere da sola in centro.",
     "primaryTense": "passato_prossimo",
     "level": 7,
     "difficulty": 2,
     "theme": "home_lifestyle",
-    "source": "import-revised",
     "target": {
       "slotId": 0,
       "verb": "andare",
@@ -1244,13 +1192,12 @@
     "band": 1
   },
   {
-    "id": "sent-past-153",
+    "id": "passato_prossimo-0053",
     "textTemplate": "Durante la conferenza di ieri, tu {slot_0} una proposta eccellente.",
     "primaryTense": "passato_prossimo",
     "level": 8,
     "difficulty": 2,
     "theme": "work_office",
-    "source": "import-revised",
     "target": {
       "slotId": 0,
       "verb": "fare",
@@ -1267,13 +1214,12 @@
     "band": 2
   },
   {
-    "id": "sent-past-154",
+    "id": "passato_prossimo-0054",
     "textTemplate": "Sabato scorso noi {slot_0} tardi a causa del traffico in tangenziale.",
     "primaryTense": "passato_prossimo",
     "level": 7,
     "difficulty": 2,
     "theme": "social_life",
-    "source": "import-revised",
     "target": {
       "slotId": 0,
       "verb": "arrivare",
@@ -1296,13 +1242,12 @@
     "band": 1
   },
   {
-    "id": "sent-past-155",
+    "id": "passato_prossimo-0055",
     "textTemplate": "Ieri sera i miei amici {slot_0} un film d'azione molto emozionante.",
     "primaryTense": "passato_prossimo",
     "level": 10,
     "difficulty": 2,
     "theme": "leisure",
-    "source": "import-revised",
     "target": {
       "slotId": 0,
       "verb": "vedere",
@@ -1325,13 +1270,12 @@
     "band": 2
   },
   {
-    "id": "sent-past-156",
+    "id": "passato_prossimo-0056",
     "textTemplate": "Stamattina voi {slot_0} troppo tardi per prendere il primo autobus.",
     "primaryTense": "passato_prossimo",
     "level": 8,
     "difficulty": 2,
     "theme": "daily_routine",
-    "source": "import-revised",
     "target": {
       "slotId": 0,
       "verb": "alzarsi",
@@ -1354,13 +1298,12 @@
     "band": 2
   },
   {
-    "id": "sent-past-157",
+    "id": "passato_prossimo-0057",
     "textTemplate": "La settimana scorsa io {slot_0} un contratto molto importante per l'azienda.",
     "primaryTense": "passato_prossimo",
     "level": 10,
     "difficulty": 2,
     "theme": "work_office",
-    "source": "import-revised",
     "target": {
       "slotId": 0,
       "verb": "firmare",
@@ -1377,13 +1320,12 @@
     "band": 2
   },
   {
-    "id": "sent-past-158",
+    "id": "passato_prossimo-0058",
     "textTemplate": "Due giorni fa tu {slot_0} un messaggio importante sul telefono.",
     "primaryTense": "passato_prossimo",
     "level": 6,
     "difficulty": 2,
     "theme": "home_lifestyle",
-    "source": "import-revised",
     "target": {
       "slotId": 0,
       "verb": "ricevere",
@@ -1400,13 +1342,12 @@
     "band": 1
   },
   {
-    "id": "sent-past-159",
+    "id": "passato_prossimo-0059",
     "textTemplate": "Poco fa i nostri ospiti {slot_0} in albergo dopo il volo.",
     "primaryTense": "passato_prossimo",
     "level": 7,
     "difficulty": 2,
     "theme": "travel_commuting",
-    "source": "import-revised",
     "target": {
       "slotId": 0,
       "verb": "tornare",
@@ -1423,13 +1364,12 @@
     "band": 1
   },
   {
-    "id": "sent-past-160",
+    "id": "passato_prossimo-0060",
     "textTemplate": "Ieri sera noi {slot_0} a lungo del nostro futuro professionale.",
     "primaryTense": "passato_prossimo",
     "level": 9,
     "difficulty": 2,
     "theme": "social_life",
-    "source": "import-revised",
     "target": {
       "slotId": 0,
       "verb": "parlare",
@@ -1446,13 +1386,12 @@
     "band": 2
   },
   {
-    "id": "corpus-passato_prossimo-001",
+    "id": "passato_prossimo-0061",
     "textTemplate": "Questa notte io {slot_0} per chiudere la finestra.",
     "primaryTense": "passato_prossimo",
     "level": 9,
     "difficulty": 2,
     "theme": "vita_quotidiana",
-    "source": "authored",
     "target": {
       "slotId": 0,
       "verb": "alzarsi",
@@ -1475,13 +1414,12 @@
     "band": 2
   },
   {
-    "id": "corpus-passato_prossimo-002",
+    "id": "passato_prossimo-0062",
     "textTemplate": "Tu {slot_0} quando è entrata la professoressa?",
     "primaryTense": "passato_prossimo",
     "level": 10,
     "difficulty": 2,
     "theme": "vita_quotidiana",
-    "source": "authored",
     "target": {
       "slotId": 0,
       "verb": "alzarsi",
@@ -1504,13 +1442,12 @@
     "band": 2
   },
   {
-    "id": "corpus-passato_prossimo-003",
+    "id": "passato_prossimo-0063",
     "textTemplate": "Noi {slot_0} dal tavolo solo dopo il dolce.",
     "primaryTense": "passato_prossimo",
     "level": 8,
     "difficulty": 2,
     "theme": "vita_quotidiana",
-    "source": "authored",
     "target": {
       "slotId": 0,
       "verb": "alzarsi",
@@ -1533,13 +1470,12 @@
     "band": 1
   },
   {
-    "id": "corpus-passato_prossimo-004",
+    "id": "passato_prossimo-0064",
     "textTemplate": "Le spettatrici {slot_0} per applaudire alla fine del concerto.",
     "primaryTense": "passato_prossimo",
     "level": 9,
     "difficulty": 2,
     "theme": "vita_quotidiana",
-    "source": "authored",
     "target": {
       "slotId": 0,
       "verb": "alzarsi",
@@ -1556,13 +1492,12 @@
     "band": 2
   },
   {
-    "id": "corpus-passato_prossimo-005",
+    "id": "passato_prossimo-0065",
     "textTemplate": "Io {slot_0} ogni pagina di quel romanzo.",
     "primaryTense": "passato_prossimo",
     "level": 8,
     "difficulty": 2,
     "theme": "vita_quotidiana",
-    "source": "authored",
     "target": {
       "slotId": 0,
       "verb": "amare",
@@ -1579,13 +1514,12 @@
     "band": 1
   },
   {
-    "id": "corpus-passato_prossimo-006",
+    "id": "passato_prossimo-0066",
     "textTemplate": "Tu {slot_0} subito la città in cui ti sei trasferito?",
     "primaryTense": "passato_prossimo",
     "level": 9,
     "difficulty": 2,
     "theme": "vita_quotidiana",
-    "source": "authored",
     "target": {
       "slotId": 0,
       "verb": "amare",
@@ -1602,13 +1536,12 @@
     "band": 2
   },
   {
-    "id": "corpus-passato_prossimo-007",
-    "textTemplate": "Mio nonno {slot_0} il mare per tutta la vita.",
+    "id": "passato_prossimo-0067",
+    "textTemplate": "Mio nonno {slot_0} ogni momento di quel viaggio.",
     "primaryTense": "passato_prossimo",
     "level": 10,
     "difficulty": 2,
     "theme": "vita_quotidiana",
-    "source": "authored",
     "target": {
       "slotId": 0,
       "verb": "amare",
@@ -1625,13 +1558,12 @@
     "band": 2
   },
   {
-    "id": "corpus-passato_prossimo-008",
-    "textTemplate": "Noi {slot_0} molto quel vecchio cane.",
+    "id": "passato_prossimo-0068",
+    "textTemplate": "Noi {slot_0} ogni tappa di quel viaggio.",
     "primaryTense": "passato_prossimo",
     "level": 6,
     "difficulty": 2,
     "theme": "vita_quotidiana",
-    "source": "authored",
     "target": {
       "slotId": 0,
       "verb": "amare",
@@ -1648,13 +1580,12 @@
     "band": 1
   },
   {
-    "id": "corpus-passato_prossimo-009",
+    "id": "passato_prossimo-0069",
     "textTemplate": "Ieri io {slot_0} dal ferramenta a comprare due viti.",
     "primaryTense": "passato_prossimo",
     "level": 8,
     "difficulty": 2,
     "theme": "vita_quotidiana",
-    "source": "authored",
     "target": {
       "slotId": 0,
       "verb": "andare",
@@ -1677,13 +1608,12 @@
     "band": 1
   },
   {
-    "id": "corpus-passato_prossimo-010",
+    "id": "passato_prossimo-0070",
     "textTemplate": "Stamattina Elena {slot_0} a prendere sua figlia a scuola.",
     "primaryTense": "passato_prossimo",
     "level": 8,
     "difficulty": 2,
     "theme": "vita_quotidiana",
-    "source": "authored",
     "target": {
       "slotId": 0,
       "verb": "andare",
@@ -1700,13 +1630,12 @@
     "band": 1
   },
   {
-    "id": "corpus-passato_prossimo-011",
+    "id": "passato_prossimo-0071",
     "textTemplate": "Voi {slot_0} alla mostra di fotografie domenica scorsa?",
     "primaryTense": "passato_prossimo",
     "level": 9,
     "difficulty": 2,
     "theme": "vita_quotidiana",
-    "source": "authored",
     "target": {
       "slotId": 0,
       "verb": "andare",
@@ -1729,13 +1658,12 @@
     "band": 2
   },
   {
-    "id": "corpus-passato_prossimo-012",
+    "id": "passato_prossimo-0072",
     "textTemplate": "I ragazzi {slot_0} in piscina dopo gli esami.",
     "primaryTense": "passato_prossimo",
     "level": 10,
     "difficulty": 2,
     "theme": "vita_quotidiana",
-    "source": "authored",
     "target": {
       "slotId": 0,
       "verb": "andare",
@@ -1752,13 +1680,12 @@
     "band": 2
   },
   {
-    "id": "corpus-passato_prossimo-013",
+    "id": "passato_prossimo-0073",
     "textTemplate": "Tu {slot_0} il preventivo del falegname?",
     "primaryTense": "passato_prossimo",
     "level": 7,
     "difficulty": 2,
     "theme": "vita_quotidiana",
-    "source": "authored",
     "target": {
       "slotId": 0,
       "verb": "approvare",
@@ -1775,13 +1702,12 @@
     "band": 1
   },
   {
-    "id": "corpus-passato_prossimo-014",
+    "id": "passato_prossimo-0074",
     "textTemplate": "Il consiglio {slot_0} il nuovo regolamento ieri sera.",
     "primaryTense": "passato_prossimo",
     "level": 8,
     "difficulty": 2,
     "theme": "vita_quotidiana",
-    "source": "authored",
     "target": {
       "slotId": 0,
       "verb": "approvare",
@@ -1798,13 +1724,12 @@
     "band": 1
   },
   {
-    "id": "corpus-passato_prossimo-015",
+    "id": "passato_prossimo-0075",
     "textTemplate": "Noi {slot_0} la scelta dei colori per la sala.",
     "primaryTense": "passato_prossimo",
     "level": 9,
     "difficulty": 2,
     "theme": "vita_quotidiana",
-    "source": "authored",
     "target": {
       "slotId": 0,
       "verb": "approvare",
@@ -1821,13 +1746,12 @@
     "band": 2
   },
   {
-    "id": "corpus-passato_prossimo-016",
+    "id": "passato_prossimo-0076",
     "textTemplate": "I residenti {slot_0} la proposta di piantare altri alberi.",
     "primaryTense": "passato_prossimo",
     "level": 10,
     "difficulty": 2,
     "theme": "vita_quotidiana",
-    "source": "authored",
     "target": {
       "slotId": 0,
       "verb": "approvare",
@@ -1844,13 +1768,12 @@
     "band": 2
   },
   {
-    "id": "corpus-passato_prossimo-017",
+    "id": "passato_prossimo-0077",
     "textTemplate": "Io {slot_0} la busta pensando che fosse per me.",
     "primaryTense": "passato_prossimo",
     "level": 7,
     "difficulty": 2,
     "theme": "vita_quotidiana",
-    "source": "authored",
     "target": {
       "slotId": 0,
       "verb": "aprire",
@@ -1867,13 +1790,12 @@
     "band": 1
   },
   {
-    "id": "corpus-passato_prossimo-018",
+    "id": "passato_prossimo-0078",
     "textTemplate": "Tu {slot_0} il regalo prima del tuo compleanno?",
     "primaryTense": "passato_prossimo",
     "level": 8,
     "difficulty": 2,
     "theme": "vita_quotidiana",
-    "source": "authored",
     "target": {
       "slotId": 0,
       "verb": "aprire",
@@ -1890,13 +1812,12 @@
     "band": 1
   },
   {
-    "id": "corpus-passato_prossimo-019",
+    "id": "passato_prossimo-0079",
     "textTemplate": "Noi {slot_0} un conto comune per le spese di casa.",
     "primaryTense": "passato_prossimo",
     "level": 9,
     "difficulty": 2,
     "theme": "vita_quotidiana",
-    "source": "authored",
     "target": {
       "slotId": 0,
       "verb": "aprire",
@@ -1913,13 +1834,12 @@
     "band": 2
   },
   {
-    "id": "corpus-passato_prossimo-020",
+    "id": "passato_prossimo-0080",
     "textTemplate": "Voi {slot_0} tutte le scatole del trasloco?",
     "primaryTense": "passato_prossimo",
     "level": 9,
     "difficulty": 2,
     "theme": "vita_quotidiana",
-    "source": "authored",
     "target": {
       "slotId": 0,
       "verb": "aprire",
@@ -1936,13 +1856,12 @@
     "band": 2
   },
   {
-    "id": "corpus-passato_prossimo-021",
+    "id": "passato_prossimo-0081",
     "textTemplate": "Io {slot_0} giusto in tempo per l'ultimo pezzo di torta.",
     "primaryTense": "passato_prossimo",
     "level": 6,
     "difficulty": 2,
     "theme": "vita_quotidiana",
-    "source": "authored",
     "target": {
       "slotId": 0,
       "verb": "arrivare",
@@ -1965,13 +1884,12 @@
     "band": 1
   },
   {
-    "id": "corpus-passato_prossimo-022",
+    "id": "passato_prossimo-0082",
     "textTemplate": "La lettera {slot_0} ieri, dopo due settimane di attesa.",
     "primaryTense": "passato_prossimo",
     "level": 7,
     "difficulty": 2,
     "theme": "vita_quotidiana",
-    "source": "authored",
     "target": {
       "slotId": 0,
       "verb": "arrivare",
@@ -1988,13 +1906,12 @@
     "band": 1
   },
   {
-    "id": "corpus-passato_prossimo-023",
+    "id": "passato_prossimo-0083",
     "textTemplate": "Noi {slot_0} al lago seguendo un sentiero nel bosco.",
     "primaryTense": "passato_prossimo",
     "level": 8,
     "difficulty": 2,
     "theme": "vita_quotidiana",
-    "source": "authored",
     "target": {
       "slotId": 0,
       "verb": "arrivare",
@@ -2017,13 +1934,12 @@
     "band": 1
   },
   {
-    "id": "corpus-passato_prossimo-024",
+    "id": "passato_prossimo-0084",
     "textTemplate": "I primi visitatori {slot_0} prima dell'apertura dei cancelli.",
     "primaryTense": "passato_prossimo",
     "level": 9,
     "difficulty": 2,
     "theme": "vita_quotidiana",
-    "source": "authored",
     "target": {
       "slotId": 0,
       "verb": "arrivare",
@@ -2040,13 +1956,12 @@
     "band": 2
   },
   {
-    "id": "corpus-passato_prossimo-025",
+    "id": "passato_prossimo-0085",
     "textTemplate": "Tu {slot_0} il messaggio che ti ho lasciato ieri?",
     "primaryTense": "passato_prossimo",
     "level": 10,
     "difficulty": 2,
     "theme": "vita_quotidiana",
-    "source": "authored",
     "target": {
       "slotId": 0,
       "verb": "ascoltare",
@@ -2063,13 +1978,12 @@
     "band": 2
   },
   {
-    "id": "corpus-passato_prossimo-026",
+    "id": "passato_prossimo-0086",
     "textTemplate": "Il sindaco {slot_0} le richieste del quartiere.",
     "primaryTense": "passato_prossimo",
     "level": 6,
     "difficulty": 2,
     "theme": "vita_quotidiana",
-    "source": "authored",
     "target": {
       "slotId": 0,
       "verb": "ascoltare",
@@ -2086,13 +2000,12 @@
     "band": 1
   },
   {
-    "id": "corpus-passato_prossimo-027",
+    "id": "passato_prossimo-0087",
     "textTemplate": "Voi {slot_0} tutto il concerto in piedi?",
     "primaryTense": "passato_prossimo",
     "level": 7,
     "difficulty": 2,
     "theme": "vita_quotidiana",
-    "source": "authored",
     "target": {
       "slotId": 0,
       "verb": "ascoltare",
@@ -2109,13 +2022,12 @@
     "band": 1
   },
   {
-    "id": "corpus-passato_prossimo-028",
+    "id": "passato_prossimo-0088",
     "textTemplate": "Gli studenti {slot_0} la testimonianza di un ex alunno.",
     "primaryTense": "passato_prossimo",
     "level": 8,
     "difficulty": 2,
     "theme": "vita_quotidiana",
-    "source": "authored",
     "target": {
       "slotId": 0,
       "verb": "ascoltare",
@@ -2132,13 +2044,12 @@
     "band": 1
   },
   {
-    "id": "corpus-passato_prossimo-029",
+    "id": "passato_prossimo-0089",
     "textTemplate": "Io {slot_0} mezz'ora prima di richiamare.",
     "primaryTense": "passato_prossimo",
     "level": 9,
     "difficulty": 2,
     "theme": "vita_quotidiana",
-    "source": "authored",
     "target": {
       "slotId": 0,
       "verb": "aspettare",
@@ -2155,13 +2066,12 @@
     "band": 2
   },
   {
-    "id": "corpus-passato_prossimo-030",
+    "id": "passato_prossimo-0090",
     "textTemplate": "Tu {slot_0} la fine della pioggia per uscire?",
     "primaryTense": "passato_prossimo",
     "level": 6,
     "difficulty": 2,
     "theme": "vita_quotidiana",
-    "source": "authored",
     "target": {
       "slotId": 0,
       "verb": "aspettare",
@@ -2178,13 +2088,12 @@
     "band": 1
   },
   {
-    "id": "corpus-passato_prossimo-031",
+    "id": "passato_prossimo-0091",
     "textTemplate": "Noi {slot_0} gli altri vicino alla fontana.",
     "primaryTense": "passato_prossimo",
     "level": 7,
     "difficulty": 2,
     "theme": "vita_quotidiana",
-    "source": "authored",
     "target": {
       "slotId": 0,
       "verb": "aspettare",
@@ -2201,13 +2110,12 @@
     "band": 1
   },
   {
-    "id": "corpus-passato_prossimo-032",
+    "id": "passato_prossimo-0092",
     "textTemplate": "I passeggeri {slot_0} notizie per tutta la notte.",
     "primaryTense": "passato_prossimo",
     "level": 8,
     "difficulty": 2,
     "theme": "vita_quotidiana",
-    "source": "authored",
     "target": {
       "slotId": 0,
       "verb": "aspettare",
@@ -2224,13 +2132,12 @@
     "band": 1
   },
   {
-    "id": "corpus-passato_prossimo-033",
+    "id": "passato_prossimo-0093",
     "textTemplate": "Io {slot_0} un'idea mentre lavavo i piatti.",
     "primaryTense": "passato_prossimo",
     "level": 9,
     "difficulty": 2,
     "theme": "vita_quotidiana",
-    "source": "authored",
     "target": {
       "slotId": 0,
       "verb": "avere",
@@ -2247,13 +2154,12 @@
     "band": 2
   },
   {
-    "id": "corpus-passato_prossimo-034",
+    "id": "passato_prossimo-0094",
     "textTemplate": "Il film {slot_0} molto successo nel nostro paese.",
     "primaryTense": "passato_prossimo",
     "level": 10,
     "difficulty": 2,
     "theme": "vita_quotidiana",
-    "source": "authored",
     "target": {
       "slotId": 0,
       "verb": "avere",
@@ -2270,13 +2176,12 @@
     "band": 2
   },
   {
-    "id": "corpus-passato_prossimo-035",
+    "id": "passato_prossimo-0095",
     "textTemplate": "Noi {slot_0} fortuna con il tempo durante la gita.",
     "primaryTense": "passato_prossimo",
     "level": 7,
     "difficulty": 2,
     "theme": "vita_quotidiana",
-    "source": "authored",
     "target": {
       "slotId": 0,
       "verb": "avere",
@@ -2293,13 +2198,12 @@
     "band": 1
   },
   {
-    "id": "corpus-passato_prossimo-036",
+    "id": "passato_prossimo-0096",
     "textTemplate": "Voi {slot_0} difficoltà a trovare l'indirizzo?",
     "primaryTense": "passato_prossimo",
     "level": 8,
     "difficulty": 2,
     "theme": "vita_quotidiana",
-    "source": "authored",
     "target": {
       "slotId": 0,
       "verb": "avere",
@@ -2316,13 +2220,12 @@
     "band": 1
   },
   {
-    "id": "corpus-passato_prossimo-037",
+    "id": "passato_prossimo-0097",
     "textTemplate": "Tu {slot_0} il succo che era in frigorifero?",
     "primaryTense": "passato_prossimo",
     "level": 9,
     "difficulty": 2,
     "theme": "vita_quotidiana",
-    "source": "authored",
     "target": {
       "slotId": 0,
       "verb": "bere",
@@ -2339,13 +2242,12 @@
     "band": 2
   },
   {
-    "id": "corpus-passato_prossimo-038",
+    "id": "passato_prossimo-0098",
     "textTemplate": "Il cane {slot_0} tutta l'acqua della ciotola.",
     "primaryTense": "passato_prossimo",
     "level": 10,
     "difficulty": 2,
     "theme": "vita_quotidiana",
-    "source": "authored",
     "target": {
       "slotId": 0,
       "verb": "bere",
@@ -2362,13 +2264,12 @@
     "band": 2
   },
   {
-    "id": "corpus-passato_prossimo-039",
+    "id": "passato_prossimo-0099",
     "textTemplate": "Noi {slot_0} un caffè al banco prima di partire.",
     "primaryTense": "passato_prossimo",
     "level": 7,
     "difficulty": 2,
     "theme": "vita_quotidiana",
-    "source": "authored",
     "target": {
       "slotId": 0,
       "verb": "bere",
@@ -2385,13 +2286,12 @@
     "band": 1
   },
   {
-    "id": "corpus-passato_prossimo-040",
+    "id": "passato_prossimo-0100",
     "textTemplate": "Gli escursionisti {slot_0} alla fontana del rifugio.",
     "primaryTense": "passato_prossimo",
     "level": 7,
     "difficulty": 2,
     "theme": "vita_quotidiana",
-    "source": "authored",
     "target": {
       "slotId": 0,
       "verb": "bere",
@@ -2408,13 +2308,12 @@
     "band": 1
   },
   {
-    "id": "corpus-passato_prossimo-041",
+    "id": "passato_prossimo-0101",
     "textTemplate": "Io {slot_0} la battuta solo qualche minuto dopo.",
     "primaryTense": "passato_prossimo",
     "level": 8,
     "difficulty": 2,
     "theme": "vita_quotidiana",
-    "source": "authored",
     "target": {
       "slotId": 0,
       "verb": "capire",
@@ -2431,13 +2330,12 @@
     "band": 1
   },
   {
-    "id": "corpus-passato_prossimo-042",
+    "id": "passato_prossimo-0102",
     "textTemplate": "Tu {slot_0} perché il negozio era chiuso?",
     "primaryTense": "passato_prossimo",
     "level": 9,
     "difficulty": 2,
     "theme": "vita_quotidiana",
-    "source": "authored",
     "target": {
       "slotId": 0,
       "verb": "capire",
@@ -2454,13 +2352,12 @@
     "band": 2
   },
   {
-    "id": "corpus-passato_prossimo-043",
+    "id": "passato_prossimo-0103",
     "textTemplate": "Voi {slot_0} le regole del gioco al primo tentativo?",
     "primaryTense": "passato_prossimo",
     "level": 10,
     "difficulty": 2,
     "theme": "vita_quotidiana",
-    "source": "authored",
     "target": {
       "slotId": 0,
       "verb": "capire",
@@ -2477,13 +2374,12 @@
     "band": 2
   },
   {
-    "id": "corpus-passato_prossimo-044",
+    "id": "passato_prossimo-0104",
     "textTemplate": "I bambini {slot_0} subito come usare la macchina fotografica.",
     "primaryTense": "passato_prossimo",
     "level": 6,
     "difficulty": 2,
     "theme": "vita_quotidiana",
-    "source": "authored",
     "target": {
       "slotId": 0,
       "verb": "capire",
@@ -2500,13 +2396,12 @@
     "band": 1
   },
   {
-    "id": "corpus-passato_prossimo-045",
+    "id": "passato_prossimo-0105",
     "textTemplate": "Io {slot_0} questa libreria con mio padre.",
     "primaryTense": "passato_prossimo",
     "level": 7,
     "difficulty": 2,
     "theme": "vita_quotidiana",
-    "source": "authored",
     "target": {
       "slotId": 0,
       "verb": "costruire",
@@ -2523,13 +2418,12 @@
     "band": 1
   },
   {
-    "id": "corpus-passato_prossimo-046",
+    "id": "passato_prossimo-0106",
     "textTemplate": "Il vicino {slot_0} una casetta per il cane.",
     "primaryTense": "passato_prossimo",
     "level": 8,
     "difficulty": 2,
     "theme": "vita_quotidiana",
-    "source": "authored",
     "target": {
       "slotId": 0,
       "verb": "costruire",
@@ -2546,13 +2440,12 @@
     "band": 1
   },
   {
-    "id": "corpus-passato_prossimo-047",
+    "id": "passato_prossimo-0107",
     "textTemplate": "Noi {slot_0} un castello di sabbia enorme.",
     "primaryTense": "passato_prossimo",
     "level": 9,
     "difficulty": 2,
     "theme": "vita_quotidiana",
-    "source": "authored",
     "target": {
       "slotId": 0,
       "verb": "costruire",
@@ -2569,13 +2462,12 @@
     "band": 2
   },
   {
-    "id": "corpus-passato_prossimo-048",
+    "id": "passato_prossimo-0108",
     "textTemplate": "I volontari {slot_0} nuove panchine per il parco.",
     "primaryTense": "passato_prossimo",
     "level": 10,
     "difficulty": 2,
     "theme": "vita_quotidiana",
-    "source": "authored",
     "target": {
       "slotId": 0,
       "verb": "costruire",
@@ -2592,13 +2484,12 @@
     "band": 2
   },
   {
-    "id": "corpus-passato_prossimo-049",
+    "id": "passato_prossimo-0109",
     "textTemplate": "Tu {slot_0} abbastanza riso per tutti?",
     "primaryTense": "passato_prossimo",
     "level": 6,
     "difficulty": 2,
     "theme": "vita_quotidiana",
-    "source": "authored",
     "target": {
       "slotId": 0,
       "verb": "cucinare",
@@ -2615,13 +2506,12 @@
     "band": 1
   },
   {
-    "id": "corpus-passato_prossimo-050",
+    "id": "passato_prossimo-0110",
     "textTemplate": "Carla {slot_0} per dodici persone senza aiuto.",
     "primaryTense": "passato_prossimo",
     "level": 8,
     "difficulty": 2,
     "theme": "vita_quotidiana",
-    "source": "authored",
     "target": {
       "slotId": 0,
       "verb": "cucinare",
@@ -2638,13 +2528,12 @@
     "band": 1
   },
   {
-    "id": "corpus-passato_prossimo-051",
+    "id": "passato_prossimo-0111",
     "textTemplate": "Noi {slot_0} sul fuoco durante il campeggio.",
     "primaryTense": "passato_prossimo",
     "level": 9,
     "difficulty": 2,
     "theme": "vita_quotidiana",
-    "source": "authored",
     "target": {
       "slotId": 0,
       "verb": "cucinare",
@@ -2661,13 +2550,12 @@
     "band": 2
   },
   {
-    "id": "corpus-passato_prossimo-052",
+    "id": "passato_prossimo-0112",
     "textTemplate": "Voi {slot_0} qualcosa con i funghi raccolti ieri?",
     "primaryTense": "passato_prossimo",
     "level": 10,
     "difficulty": 2,
     "theme": "vita_quotidiana",
-    "source": "authored",
     "target": {
       "slotId": 0,
       "verb": "cucinare",
@@ -2684,13 +2572,12 @@
     "band": 2
   },
   {
-    "id": "corpus-passato_prossimo-053",
+    "id": "passato_prossimo-0113",
     "textTemplate": "Io {slot_0} le piante di mia sorella mentre era via.",
     "primaryTense": "passato_prossimo",
     "level": 6,
     "difficulty": 2,
     "theme": "vita_quotidiana",
-    "source": "authored",
     "target": {
       "slotId": 0,
       "verb": "curare",
@@ -2707,13 +2594,12 @@
     "band": 1
   },
   {
-    "id": "corpus-passato_prossimo-054",
+    "id": "passato_prossimo-0114",
     "textTemplate": "Tu {slot_0} il piccolo uccello trovato in giardino?",
     "primaryTense": "passato_prossimo",
     "level": 7,
     "difficulty": 2,
     "theme": "vita_quotidiana",
-    "source": "authored",
     "target": {
       "slotId": 0,
       "verb": "curare",
@@ -2730,13 +2616,12 @@
     "band": 1
   },
   {
-    "id": "corpus-passato_prossimo-055",
+    "id": "passato_prossimo-0115",
     "textTemplate": "Noi {slot_0} la presentazione della mostra.",
     "primaryTense": "passato_prossimo",
     "level": 8,
     "difficulty": 2,
     "theme": "vita_quotidiana",
-    "source": "authored",
     "target": {
       "slotId": 0,
       "verb": "curare",
@@ -2753,13 +2638,12 @@
     "band": 1
   },
   {
-    "id": "corpus-passato_prossimo-056",
-    "textTemplate": "I medici {slot_0} molti feriti dopo l'incidente.",
+    "id": "passato_prossimo-0116",
+    "textTemplate": "I volontari {slot_0} il giardino durante l'estate.",
     "primaryTense": "passato_prossimo",
     "level": 9,
     "difficulty": 2,
     "theme": "vita_quotidiana",
-    "source": "authored",
     "target": {
       "slotId": 0,
       "verb": "curare",
@@ -2776,13 +2660,12 @@
     "band": 2
   },
   {
-    "id": "corpus-passato_prossimo-057",
+    "id": "passato_prossimo-0117",
     "textTemplate": "Io {slot_0} il biglietto sul tavolo della cucina.",
     "primaryTense": "passato_prossimo",
     "level": 10,
     "difficulty": 2,
     "theme": "vita_quotidiana",
-    "source": "authored",
     "target": {
       "slotId": 0,
       "verb": "dimenticare",
@@ -2799,13 +2682,12 @@
     "band": 2
   },
   {
-    "id": "corpus-passato_prossimo-058",
+    "id": "passato_prossimo-0118",
     "textTemplate": "Il cliente {slot_0} una sciarpa al ristorante.",
     "primaryTense": "passato_prossimo",
     "level": 6,
     "difficulty": 2,
     "theme": "vita_quotidiana",
-    "source": "authored",
     "target": {
       "slotId": 0,
       "verb": "dimenticare",
@@ -2822,13 +2704,12 @@
     "band": 1
   },
   {
-    "id": "corpus-passato_prossimo-059",
+    "id": "passato_prossimo-0119",
     "textTemplate": "Voi {slot_0} di avvisare il portiere?",
     "primaryTense": "passato_prossimo",
     "level": 7,
     "difficulty": 2,
     "theme": "vita_quotidiana",
-    "source": "authored",
     "target": {
       "slotId": 0,
       "verb": "dimenticare",
@@ -2845,13 +2726,12 @@
     "band": 1
   },
   {
-    "id": "corpus-passato_prossimo-060",
+    "id": "passato_prossimo-0120",
     "textTemplate": "I bambini {slot_0} i giocattoli in spiaggia.",
     "primaryTense": "passato_prossimo",
     "level": 9,
     "difficulty": 2,
     "theme": "vita_quotidiana",
-    "source": "authored",
     "target": {
       "slotId": 0,
       "verb": "dimenticare",
@@ -2868,13 +2748,12 @@
     "band": 2
   },
   {
-    "id": "corpus-passato_prossimo-061",
+    "id": "passato_prossimo-0121",
     "textTemplate": "Tu {slot_0} alla nonna che arriviamo domani?",
     "primaryTense": "passato_prossimo",
     "level": 10,
     "difficulty": 2,
     "theme": "vita_quotidiana",
-    "source": "authored",
     "target": {
       "slotId": 0,
       "verb": "dire",
@@ -2891,13 +2770,12 @@
     "band": 2
   },
   {
-    "id": "corpus-passato_prossimo-062",
+    "id": "passato_prossimo-0122",
     "textTemplate": "La guida {slot_0} di non toccare gli affreschi.",
     "primaryTense": "passato_prossimo",
     "level": 7,
     "difficulty": 2,
     "theme": "vita_quotidiana",
-    "source": "authored",
     "target": {
       "slotId": 0,
       "verb": "dire",
@@ -2914,13 +2792,12 @@
     "band": 1
   },
   {
-    "id": "corpus-passato_prossimo-063",
+    "id": "passato_prossimo-0123",
     "textTemplate": "Noi {slot_0} tutto quello che ricordavamo.",
     "primaryTense": "passato_prossimo",
     "level": 8,
     "difficulty": 2,
     "theme": "vita_quotidiana",
-    "source": "authored",
     "target": {
       "slotId": 0,
       "verb": "dire",
@@ -2937,13 +2814,12 @@
     "band": 1
   },
   {
-    "id": "corpus-passato_prossimo-064",
+    "id": "passato_prossimo-0124",
     "textTemplate": "I vicini {slot_0} di aver sentito un rumore.",
     "primaryTense": "passato_prossimo",
     "level": 9,
     "difficulty": 2,
     "theme": "vita_quotidiana",
-    "source": "authored",
     "target": {
       "slotId": 0,
       "verb": "dire",
@@ -2960,13 +2836,12 @@
     "band": 2
   },
   {
-    "id": "corpus-passato_prossimo-065",
+    "id": "passato_prossimo-0125",
     "textTemplate": "Io {slot_0} sul divano per lasciare il letto all'ospite.",
     "primaryTense": "passato_prossimo",
     "level": 9,
     "difficulty": 2,
     "theme": "vita_quotidiana",
-    "source": "authored",
     "target": {
       "slotId": 0,
       "verb": "dormire",
@@ -2983,13 +2858,12 @@
     "band": 2
   },
   {
-    "id": "corpus-passato_prossimo-066",
+    "id": "passato_prossimo-0126",
     "textTemplate": "Tu {slot_0} durante tutto il viaggio in treno?",
     "primaryTense": "passato_prossimo",
     "level": 10,
     "difficulty": 2,
     "theme": "vita_quotidiana",
-    "source": "authored",
     "target": {
       "slotId": 0,
       "verb": "dormire",
@@ -3006,13 +2880,12 @@
     "band": 2
   },
   {
-    "id": "corpus-passato_prossimo-067",
+    "id": "passato_prossimo-0127",
     "textTemplate": "Noi {slot_0} poco per il rumore della strada.",
     "primaryTense": "passato_prossimo",
     "level": 6,
     "difficulty": 2,
     "theme": "vita_quotidiana",
-    "source": "authored",
     "target": {
       "slotId": 0,
       "verb": "dormire",
@@ -3029,13 +2902,12 @@
     "band": 1
   },
   {
-    "id": "corpus-passato_prossimo-068",
+    "id": "passato_prossimo-0128",
     "textTemplate": "Voi {slot_0} in un rifugio durante la traversata?",
     "primaryTense": "passato_prossimo",
     "level": 7,
     "difficulty": 2,
     "theme": "vita_quotidiana",
-    "source": "authored",
     "target": {
       "slotId": 0,
       "verb": "dormire",
@@ -3052,13 +2924,12 @@
     "band": 1
   },
   {
-    "id": "corpus-passato_prossimo-069",
+    "id": "passato_prossimo-0129",
     "textTemplate": "Io {slot_0} cambiare la batteria del telefono.",
     "primaryTense": "passato_prossimo",
     "level": 10,
     "difficulty": 2,
     "theme": "vita_quotidiana",
-    "source": "authored",
     "target": {
       "slotId": 0,
       "verb": "dovere",
@@ -3075,13 +2946,12 @@
     "band": 2
   },
   {
-    "id": "corpus-passato_prossimo-070",
+    "id": "passato_prossimo-0130",
     "textTemplate": "Il cuoco {slot_0} rifare la salsa.",
     "primaryTense": "passato_prossimo",
     "level": 10,
     "difficulty": 2,
     "theme": "vita_quotidiana",
-    "source": "authored",
     "target": {
       "slotId": 0,
       "verb": "dovere",
@@ -3098,13 +2968,12 @@
     "band": 2
   },
   {
-    "id": "corpus-passato_prossimo-071",
+    "id": "passato_prossimo-0131",
     "textTemplate": "Noi {slot_0} aspettare il traghetto successivo.",
     "primaryTense": "passato_prossimo",
     "level": 7,
     "difficulty": 2,
     "theme": "vita_quotidiana",
-    "source": "authored",
     "target": {
       "slotId": 0,
       "verb": "dovere",
@@ -3121,13 +2990,12 @@
     "band": 1
   },
   {
-    "id": "corpus-passato_prossimo-072",
+    "id": "passato_prossimo-0132",
     "textTemplate": "Gli organizzatori {slot_0} annullare la gara per il maltempo.",
     "primaryTense": "passato_prossimo",
     "level": 8,
     "difficulty": 2,
     "theme": "vita_quotidiana",
-    "source": "authored",
     "target": {
       "slotId": 0,
       "verb": "dovere",
@@ -3144,13 +3012,12 @@
     "band": 1
   },
   {
-    "id": "corpus-passato_prossimo-073",
+    "id": "passato_prossimo-0133",
     "textTemplate": "Io {slot_0} a Bologna per un corso di cucina.",
     "primaryTense": "passato_prossimo",
     "level": 9,
     "difficulty": 2,
     "theme": "vita_quotidiana",
-    "source": "authored",
     "target": {
       "slotId": 0,
       "verb": "essere",
@@ -3173,13 +3040,12 @@
     "band": 2
   },
   {
-    "id": "corpus-passato_prossimo-074",
+    "id": "passato_prossimo-0134",
     "textTemplate": "Tu {slot_0} in fila per molto tempo?",
     "primaryTense": "passato_prossimo",
     "level": 10,
     "difficulty": 2,
     "theme": "vita_quotidiana",
-    "source": "authored",
     "target": {
       "slotId": 0,
       "verb": "essere",
@@ -3202,13 +3068,12 @@
     "band": 2
   },
   {
-    "id": "corpus-passato_prossimo-075",
+    "id": "passato_prossimo-0135",
     "textTemplate": "Noi {slot_0} felici di ospitarvi.",
     "primaryTense": "passato_prossimo",
     "level": 7,
     "difficulty": 2,
     "theme": "vita_quotidiana",
-    "source": "authored",
     "target": {
       "slotId": 0,
       "verb": "essere",
@@ -3231,13 +3096,12 @@
     "band": 1
   },
   {
-    "id": "corpus-passato_prossimo-076",
+    "id": "passato_prossimo-0136",
     "textTemplate": "Le infermiere {slot_0} molto gentili con mia madre.",
     "primaryTense": "passato_prossimo",
     "level": 8,
     "difficulty": 2,
     "theme": "vita_quotidiana",
-    "source": "authored",
     "target": {
       "slotId": 0,
       "verb": "essere",
@@ -3254,13 +3118,12 @@
     "band": 1
   },
   {
-    "id": "corpus-passato_prossimo-077",
+    "id": "passato_prossimo-0137",
     "textTemplate": "Io {slot_0} una copia delle chiavi per il vicino.",
     "primaryTense": "passato_prossimo",
     "level": 9,
     "difficulty": 2,
     "theme": "vita_quotidiana",
-    "source": "authored",
     "target": {
       "slotId": 0,
       "verb": "fare",
@@ -3277,13 +3140,12 @@
     "band": 2
   },
   {
-    "id": "corpus-passato_prossimo-078",
+    "id": "passato_prossimo-0138",
     "textTemplate": "La pioggia {slot_0} danni al tetto del garage.",
     "primaryTense": "passato_prossimo",
     "level": 10,
     "difficulty": 2,
     "theme": "vita_quotidiana",
-    "source": "authored",
     "target": {
       "slotId": 0,
       "verb": "fare",
@@ -3300,13 +3162,12 @@
     "band": 2
   },
   {
-    "id": "corpus-passato_prossimo-079",
+    "id": "passato_prossimo-0139",
     "textTemplate": "Voi {slot_0} il bagno nel lago questa mattina?",
     "primaryTense": "passato_prossimo",
     "level": 7,
     "difficulty": 2,
     "theme": "vita_quotidiana",
-    "source": "authored",
     "target": {
       "slotId": 0,
       "verb": "fare",
@@ -3323,13 +3184,12 @@
     "band": 1
   },
   {
-    "id": "corpus-passato_prossimo-080",
+    "id": "passato_prossimo-0140",
     "textTemplate": "I ragazzi {slot_0} una sorpresa alla loro allenatrice.",
     "primaryTense": "passato_prossimo",
     "level": 7,
     "difficulty": 2,
     "theme": "vita_quotidiana",
-    "source": "authored",
     "target": {
       "slotId": 0,
       "verb": "fare",
@@ -3346,13 +3206,12 @@
     "band": 1
   },
   {
-    "id": "corpus-passato_prossimo-081",
+    "id": "passato_prossimo-0141",
     "textTemplate": "Tu {slot_0} la sciarpa che stavi lavorando a maglia?",
     "primaryTense": "passato_prossimo",
     "level": 7,
     "difficulty": 2,
     "theme": "vita_quotidiana",
-    "source": "authored",
     "target": {
       "slotId": 0,
       "verb": "finire",
@@ -3369,13 +3228,12 @@
     "band": 1
   },
   {
-    "id": "corpus-passato_prossimo-082",
+    "id": "passato_prossimo-0142",
     "textTemplate": "La pittrice {slot_0} il quadro prima della mostra.",
     "primaryTense": "passato_prossimo",
     "level": 8,
     "difficulty": 2,
     "theme": "vita_quotidiana",
-    "source": "authored",
     "target": {
       "slotId": 0,
       "verb": "finire",
@@ -3392,13 +3250,12 @@
     "band": 1
   },
   {
-    "id": "corpus-passato_prossimo-083",
+    "id": "passato_prossimo-0143",
     "textTemplate": "Noi {slot_0} tutte le scorte di farina.",
     "primaryTense": "passato_prossimo",
     "level": 9,
     "difficulty": 2,
     "theme": "vita_quotidiana",
-    "source": "authored",
     "target": {
       "slotId": 0,
       "verb": "finire",
@@ -3415,13 +3272,12 @@
     "band": 2
   },
   {
-    "id": "corpus-passato_prossimo-084",
+    "id": "passato_prossimo-0144",
     "textTemplate": "Gli studenti {slot_0} l'esercizio senza usare il dizionario.",
     "primaryTense": "passato_prossimo",
     "level": 10,
     "difficulty": 2,
     "theme": "vita_quotidiana",
-    "source": "authored",
     "target": {
       "slotId": 0,
       "verb": "finire",
@@ -3438,13 +3294,12 @@
     "band": 2
   },
   {
-    "id": "corpus-passato_prossimo-085",
+    "id": "passato_prossimo-0145",
     "textTemplate": "Io {slot_0} la petizione per salvare il cinema.",
     "primaryTense": "passato_prossimo",
     "level": 6,
     "difficulty": 2,
     "theme": "vita_quotidiana",
-    "source": "authored",
     "target": {
       "slotId": 0,
       "verb": "firmare",
@@ -3461,13 +3316,12 @@
     "band": 1
   },
   {
-    "id": "corpus-passato_prossimo-086",
+    "id": "passato_prossimo-0146",
     "textTemplate": "Tu {slot_0} il modulo in tutte le pagine?",
     "primaryTense": "passato_prossimo",
     "level": 7,
     "difficulty": 2,
     "theme": "vita_quotidiana",
-    "source": "authored",
     "target": {
       "slotId": 0,
       "verb": "firmare",
@@ -3484,13 +3338,12 @@
     "band": 1
   },
   {
-    "id": "corpus-passato_prossimo-087",
+    "id": "passato_prossimo-0147",
     "textTemplate": "Noi {slot_0} il contratto di affitto stamattina.",
     "primaryTense": "passato_prossimo",
     "level": 8,
     "difficulty": 2,
     "theme": "vita_quotidiana",
-    "source": "authored",
     "target": {
       "slotId": 0,
       "verb": "firmare",
@@ -3507,13 +3360,12 @@
     "band": 1
   },
   {
-    "id": "corpus-passato_prossimo-088",
+    "id": "passato_prossimo-0148",
     "textTemplate": "Voi {slot_0} il biglietto di auguri per Lucia?",
     "primaryTense": "passato_prossimo",
     "level": 9,
     "difficulty": 2,
     "theme": "vita_quotidiana",
-    "source": "authored",
     "target": {
       "slotId": 0,
       "verb": "firmare",
@@ -3530,13 +3382,12 @@
     "band": 2
   },
   {
-    "id": "corpus-passato_prossimo-089",
+    "id": "passato_prossimo-0149",
     "textTemplate": "Io {slot_0} l'orario del negozio per ricordarlo.",
     "primaryTense": "passato_prossimo",
     "level": 10,
     "difficulty": 2,
     "theme": "vita_quotidiana",
-    "source": "authored",
     "target": {
       "slotId": 0,
       "verb": "fotografare",
@@ -3553,13 +3404,12 @@
     "band": 2
   },
   {
-    "id": "corpus-passato_prossimo-090",
+    "id": "passato_prossimo-0150",
     "textTemplate": "Marta {slot_0} un arcobaleno dalla finestra.",
     "primaryTense": "passato_prossimo",
     "level": 7,
     "difficulty": 2,
     "theme": "vita_quotidiana",
-    "source": "authored",
     "target": {
       "slotId": 0,
       "verb": "fotografare",
@@ -3576,13 +3426,12 @@
     "band": 1
   },
   {
-    "id": "corpus-passato_prossimo-091",
+    "id": "passato_prossimo-0151",
     "textTemplate": "Noi {slot_0} tutti i partecipanti prima della partenza.",
     "primaryTense": "passato_prossimo",
     "level": 8,
     "difficulty": 2,
     "theme": "vita_quotidiana",
-    "source": "authored",
     "target": {
       "slotId": 0,
       "verb": "fotografare",
@@ -3599,13 +3448,12 @@
     "band": 1
   },
   {
-    "id": "corpus-passato_prossimo-092",
+    "id": "passato_prossimo-0152",
     "textTemplate": "I giornalisti {slot_0} la piazza piena di gente.",
     "primaryTense": "passato_prossimo",
     "level": 9,
     "difficulty": 2,
     "theme": "vita_quotidiana",
-    "source": "authored",
     "target": {
       "slotId": 0,
       "verb": "fotografare",
@@ -3622,13 +3470,12 @@
     "band": 2
   },
   {
-    "id": "corpus-passato_prossimo-093",
+    "id": "passato_prossimo-0153",
     "textTemplate": "Tu {slot_0} a nascondino con i tuoi nipoti?",
     "primaryTense": "passato_prossimo",
     "level": 10,
     "difficulty": 2,
     "theme": "vita_quotidiana",
-    "source": "authored",
     "target": {
       "slotId": 0,
       "verb": "giocare",
@@ -3645,13 +3492,12 @@
     "band": 2
   },
   {
-    "id": "corpus-passato_prossimo-094",
+    "id": "passato_prossimo-0154",
     "textTemplate": "La nazionale {slot_0} una partita difficile ieri.",
     "primaryTense": "passato_prossimo",
     "level": 6,
     "difficulty": 2,
     "theme": "vita_quotidiana",
-    "source": "authored",
     "target": {
       "slotId": 0,
       "verb": "giocare",
@@ -3668,13 +3514,12 @@
     "band": 1
   },
   {
-    "id": "corpus-passato_prossimo-095",
+    "id": "passato_prossimo-0155",
     "textTemplate": "Voi {slot_0} fino a mezzanotte?",
     "primaryTense": "passato_prossimo",
     "level": 7,
     "difficulty": 2,
     "theme": "vita_quotidiana",
-    "source": "authored",
     "target": {
       "slotId": 0,
       "verb": "giocare",
@@ -3691,13 +3536,12 @@
     "band": 1
   },
   {
-    "id": "corpus-passato_prossimo-096",
+    "id": "passato_prossimo-0156",
     "textTemplate": "I bambini {slot_0} con le scatole invece che con i regali.",
     "primaryTense": "passato_prossimo",
     "level": 8,
     "difficulty": 2,
     "theme": "vita_quotidiana",
-    "source": "authored",
     "target": {
       "slotId": 0,
       "verb": "giocare",
@@ -3714,13 +3558,12 @@
     "band": 1
   },
   {
-    "id": "corpus-passato_prossimo-097",
+    "id": "passato_prossimo-0157",
     "textTemplate": "Io {slot_0} un pomeriggio senza impegni.",
     "primaryTense": "passato_prossimo",
     "level": 9,
     "difficulty": 2,
     "theme": "vita_quotidiana",
-    "source": "authored",
     "target": {
       "slotId": 0,
       "verb": "godersi",
@@ -3743,13 +3586,12 @@
     "band": 2
   },
   {
-    "id": "corpus-passato_prossimo-098",
+    "id": "passato_prossimo-0158",
     "textTemplate": "Tu {slot_0} lo spettacolo anche dall'ultima fila?",
     "primaryTense": "passato_prossimo",
     "level": 10,
     "difficulty": 2,
     "theme": "vita_quotidiana",
-    "source": "authored",
     "target": {
       "slotId": 0,
       "verb": "godersi",
@@ -3772,13 +3614,12 @@
     "band": 2
   },
   {
-    "id": "corpus-passato_prossimo-099",
+    "id": "passato_prossimo-0159",
     "textTemplate": "Noi {slot_0} il panorama dalla cima della torre.",
     "primaryTense": "passato_prossimo",
     "level": 8,
     "difficulty": 2,
     "theme": "vita_quotidiana",
-    "source": "authored",
     "target": {
       "slotId": 0,
       "verb": "godersi",
@@ -3801,13 +3642,12 @@
     "band": 1
   },
   {
-    "id": "corpus-passato_prossimo-100",
+    "id": "passato_prossimo-0160",
     "textTemplate": "Le mie amiche {slot_0} ogni minuto del viaggio.",
     "primaryTense": "passato_prossimo",
     "level": 9,
     "difficulty": 2,
     "theme": "vita_quotidiana",
-    "source": "authored",
     "target": {
       "slotId": 0,
       "verb": "godersi",
@@ -3824,13 +3664,12 @@
     "band": 2
   },
   {
-    "id": "corpus-passato_prossimo-101",
+    "id": "passato_prossimo-0161",
     "textTemplate": "Io {slot_0} il tramonto dalla terrazza dell'albergo.",
     "primaryTense": "passato_prossimo",
     "level": 10,
     "difficulty": 2,
     "theme": "vita_quotidiana",
-    "source": "authored",
     "target": {
       "slotId": 0,
       "verb": "guardare",
@@ -3847,13 +3686,12 @@
     "band": 2
   },
   {
-    "id": "corpus-passato_prossimo-102",
+    "id": "passato_prossimo-0162",
     "textTemplate": "Il meccanico {slot_0} sotto il cofano.",
     "primaryTense": "passato_prossimo",
     "level": 6,
     "difficulty": 2,
     "theme": "vita_quotidiana",
-    "source": "authored",
     "target": {
       "slotId": 0,
       "verb": "guardare",
@@ -3870,13 +3708,12 @@
     "band": 1
   },
   {
-    "id": "corpus-passato_prossimo-103",
+    "id": "passato_prossimo-0163",
     "textTemplate": "Noi {slot_0} un documentario sulle api.",
     "primaryTense": "passato_prossimo",
     "level": 7,
     "difficulty": 2,
     "theme": "vita_quotidiana",
-    "source": "authored",
     "target": {
       "slotId": 0,
       "verb": "guardare",
@@ -3893,13 +3730,12 @@
     "band": 1
   },
   {
-    "id": "corpus-passato_prossimo-104",
+    "id": "passato_prossimo-0164",
     "textTemplate": "Voi {slot_0} bene dentro tutte le tasche?",
     "primaryTense": "passato_prossimo",
     "level": 8,
     "difficulty": 2,
     "theme": "vita_quotidiana",
-    "source": "authored",
     "target": {
       "slotId": 0,
       "verb": "guardare",
@@ -3916,13 +3752,12 @@
     "band": 1
   },
   {
-    "id": "corpus-passato_prossimo-105",
+    "id": "passato_prossimo-0165",
     "textTemplate": "Tu {slot_0} fino al confine senza fermarti?",
     "primaryTense": "passato_prossimo",
     "level": 9,
     "difficulty": 2,
     "theme": "vita_quotidiana",
-    "source": "authored",
     "target": {
       "slotId": 0,
       "verb": "guidare",
@@ -3939,13 +3774,12 @@
     "band": 2
   },
   {
-    "id": "corpus-passato_prossimo-106",
+    "id": "passato_prossimo-0166",
     "textTemplate": "La volontaria {slot_0} il furgone fino al magazzino.",
     "primaryTense": "passato_prossimo",
     "level": 10,
     "difficulty": 2,
     "theme": "vita_quotidiana",
-    "source": "authored",
     "target": {
       "slotId": 0,
       "verb": "guidare",
@@ -3962,13 +3796,12 @@
     "band": 2
   },
   {
-    "id": "corpus-passato_prossimo-107",
+    "id": "passato_prossimo-0167",
     "textTemplate": "Noi {slot_0} per ore sotto una pioggia fortissima.",
     "primaryTense": "passato_prossimo",
     "level": 6,
     "difficulty": 2,
     "theme": "vita_quotidiana",
-    "source": "authored",
     "target": {
       "slotId": 0,
       "verb": "guidare",
@@ -3985,13 +3818,12 @@
     "band": 1
   },
   {
-    "id": "corpus-passato_prossimo-108",
+    "id": "passato_prossimo-0168",
     "textTemplate": "I due fratelli {slot_0} a turno per tutto il viaggio.",
     "primaryTense": "passato_prossimo",
     "level": 7,
     "difficulty": 2,
     "theme": "vita_quotidiana",
-    "source": "authored",
     "target": {
       "slotId": 0,
       "verb": "guidare",
@@ -4008,13 +3840,12 @@
     "band": 1
   },
   {
-    "id": "corpus-passato_prossimo-109",
+    "id": "passato_prossimo-0169",
     "textTemplate": "Io {slot_0} la maestra alla festa di fine anno.",
     "primaryTense": "passato_prossimo",
     "level": 8,
     "difficulty": 2,
     "theme": "vita_quotidiana",
-    "source": "authored",
     "target": {
       "slotId": 0,
       "verb": "invitare",
@@ -4031,13 +3862,12 @@
     "band": 1
   },
   {
-    "id": "corpus-passato_prossimo-110",
+    "id": "passato_prossimo-0170",
     "textTemplate": "Tu {slot_0} anche i nuovi compagni di corso?",
     "primaryTense": "passato_prossimo",
     "level": 10,
     "difficulty": 2,
     "theme": "vita_quotidiana",
-    "source": "authored",
     "target": {
       "slotId": 0,
       "verb": "invitare",
@@ -4054,13 +3884,12 @@
     "band": 2
   },
   {
-    "id": "corpus-passato_prossimo-111",
-    "textTemplate": "Voi {slot_0} troppe persone per questo tavolo.",
+    "id": "passato_prossimo-0171",
+    "textTemplate": "Voi {slot_0} i vicini alla festa in giardino.",
     "primaryTense": "passato_prossimo",
     "level": 6,
     "difficulty": 2,
     "theme": "vita_quotidiana",
-    "source": "authored",
     "target": {
       "slotId": 0,
       "verb": "invitare",
@@ -4077,13 +3906,12 @@
     "band": 1
   },
   {
-    "id": "corpus-passato_prossimo-112",
+    "id": "passato_prossimo-0172",
     "textTemplate": "Gli organizzatori {slot_0} un gruppo musicale del quartiere.",
     "primaryTense": "passato_prossimo",
     "level": 7,
     "difficulty": 2,
     "theme": "vita_quotidiana",
-    "source": "authored",
     "target": {
       "slotId": 0,
       "verb": "invitare",
@@ -4100,13 +3928,12 @@
     "band": 1
   },
   {
-    "id": "corpus-passato_prossimo-113",
+    "id": "passato_prossimo-0173",
     "textTemplate": "Io {slot_0} in un campeggio per due estati.",
     "primaryTense": "passato_prossimo",
     "level": 8,
     "difficulty": 2,
     "theme": "vita_quotidiana",
-    "source": "authored",
     "target": {
       "slotId": 0,
       "verb": "lavorare",
@@ -4123,13 +3950,12 @@
     "band": 1
   },
   {
-    "id": "corpus-passato_prossimo-114",
+    "id": "passato_prossimo-0174",
     "textTemplate": "Il falegname {slot_0} alla porta per tutta la mattina.",
     "primaryTense": "passato_prossimo",
     "level": 9,
     "difficulty": 2,
     "theme": "vita_quotidiana",
-    "source": "authored",
     "target": {
       "slotId": 0,
       "verb": "lavorare",
@@ -4146,13 +3972,12 @@
     "band": 2
   },
   {
-    "id": "corpus-passato_prossimo-115",
+    "id": "passato_prossimo-0175",
     "textTemplate": "Noi {slot_0} insieme al progetto della pista ciclabile.",
     "primaryTense": "passato_prossimo",
     "level": 10,
     "difficulty": 2,
     "theme": "vita_quotidiana",
-    "source": "authored",
     "target": {
       "slotId": 0,
       "verb": "lavorare",
@@ -4169,13 +3994,12 @@
     "band": 2
   },
   {
-    "id": "corpus-passato_prossimo-116",
+    "id": "passato_prossimo-0176",
     "textTemplate": "I tecnici {slot_0} di notte per ripristinare la corrente.",
     "primaryTense": "passato_prossimo",
     "level": 6,
     "difficulty": 2,
     "theme": "vita_quotidiana",
-    "source": "authored",
     "target": {
       "slotId": 0,
       "verb": "lavorare",
@@ -4192,13 +4016,12 @@
     "band": 1
   },
   {
-    "id": "corpus-passato_prossimo-117",
+    "id": "passato_prossimo-0177",
     "textTemplate": "Tu {slot_0} la dedica all'inizio del libro?",
     "primaryTense": "passato_prossimo",
     "level": 8,
     "difficulty": 2,
     "theme": "vita_quotidiana",
-    "source": "authored",
     "target": {
       "slotId": 0,
       "verb": "leggere",
@@ -4215,13 +4038,12 @@
     "band": 1
   },
   {
-    "id": "corpus-passato_prossimo-118",
+    "id": "passato_prossimo-0178",
     "textTemplate": "La maestra {slot_0} una fiaba prima della ricreazione.",
     "primaryTense": "passato_prossimo",
     "level": 9,
     "difficulty": 2,
     "theme": "vita_quotidiana",
-    "source": "authored",
     "target": {
       "slotId": 0,
       "verb": "leggere",
@@ -4238,13 +4060,12 @@
     "band": 2
   },
   {
-    "id": "corpus-passato_prossimo-119",
+    "id": "passato_prossimo-0179",
     "textTemplate": "Noi {slot_0} tutte le recensioni prima di prenotare.",
     "primaryTense": "passato_prossimo",
     "level": 10,
     "difficulty": 2,
     "theme": "vita_quotidiana",
-    "source": "authored",
     "target": {
       "slotId": 0,
       "verb": "leggere",
@@ -4261,13 +4082,12 @@
     "band": 2
   },
   {
-    "id": "corpus-passato_prossimo-120",
+    "id": "passato_prossimo-0180",
     "textTemplate": "Voi {slot_0} il cartello all'ingresso del sentiero?",
     "primaryTense": "passato_prossimo",
     "level": 10,
     "difficulty": 2,
     "theme": "vita_quotidiana",
-    "source": "authored",
     "target": {
       "slotId": 0,
       "verb": "leggere",
@@ -4284,13 +4104,12 @@
     "band": 2
   },
   {
-    "id": "corpus-passato_prossimo-121",
+    "id": "passato_prossimo-0181",
     "textTemplate": "Io {slot_0} l'ultimo biscotto senza accorgermene.",
     "primaryTense": "passato_prossimo",
     "level": 7,
     "difficulty": 2,
     "theme": "vita_quotidiana",
-    "source": "authored",
     "target": {
       "slotId": 0,
       "verb": "mangiare",
@@ -4307,13 +4126,12 @@
     "band": 1
   },
   {
-    "id": "corpus-passato_prossimo-122",
+    "id": "passato_prossimo-0182",
     "textTemplate": "Tu {slot_0} qualcosa prima di prendere la medicina?",
     "primaryTense": "passato_prossimo",
     "level": 8,
     "difficulty": 2,
     "theme": "vita_quotidiana",
-    "source": "authored",
     "target": {
       "slotId": 0,
       "verb": "mangiare",
@@ -4330,13 +4148,12 @@
     "band": 1
   },
   {
-    "id": "corpus-passato_prossimo-123",
+    "id": "passato_prossimo-0183",
     "textTemplate": "Noi {slot_0} fuori per festeggiare il trasloco.",
     "primaryTense": "passato_prossimo",
     "level": 9,
     "difficulty": 2,
     "theme": "vita_quotidiana",
-    "source": "authored",
     "target": {
       "slotId": 0,
       "verb": "mangiare",
@@ -4353,13 +4170,12 @@
     "band": 2
   },
   {
-    "id": "corpus-passato_prossimo-124",
+    "id": "passato_prossimo-0184",
     "textTemplate": "Le capre {slot_0} i fiori vicino al recinto.",
     "primaryTense": "passato_prossimo",
     "level": 10,
     "difficulty": 2,
     "theme": "vita_quotidiana",
-    "source": "authored",
     "target": {
       "slotId": 0,
       "verb": "mangiare",
@@ -4376,13 +4192,12 @@
     "band": 2
   },
   {
-    "id": "corpus-passato_prossimo-125",
+    "id": "passato_prossimo-0185",
     "textTemplate": "Io {slot_0} un pezzo di ricambio per la bicicletta.",
     "primaryTense": "passato_prossimo",
     "level": 6,
     "difficulty": 2,
     "theme": "vita_quotidiana",
-    "source": "authored",
     "target": {
       "slotId": 0,
       "verb": "ordinare",
@@ -4399,13 +4214,12 @@
     "band": 1
   },
   {
-    "id": "corpus-passato_prossimo-126",
+    "id": "passato_prossimo-0186",
     "textTemplate": "Il bibliotecario {slot_0} i volumi per argomento.",
     "primaryTense": "passato_prossimo",
     "level": 7,
     "difficulty": 2,
     "theme": "vita_quotidiana",
-    "source": "authored",
     "target": {
       "slotId": 0,
       "verb": "ordinare",
@@ -4422,13 +4236,12 @@
     "band": 1
   },
   {
-    "id": "corpus-passato_prossimo-127",
+    "id": "passato_prossimo-0187",
     "textTemplate": "Voi {slot_0} due porzioni oppure una da dividere?",
     "primaryTense": "passato_prossimo",
     "level": 8,
     "difficulty": 2,
     "theme": "vita_quotidiana",
-    "source": "authored",
     "target": {
       "slotId": 0,
       "verb": "ordinare",
@@ -4445,13 +4258,12 @@
     "band": 1
   },
   {
-    "id": "corpus-passato_prossimo-128",
+    "id": "passato_prossimo-0188",
     "textTemplate": "I clienti {slot_0} senza guardare il menù.",
     "primaryTense": "passato_prossimo",
     "level": 9,
     "difficulty": 2,
     "theme": "vita_quotidiana",
-    "source": "authored",
     "target": {
       "slotId": 0,
       "verb": "ordinare",
@@ -4468,13 +4280,12 @@
     "band": 2
   },
   {
-    "id": "corpus-passato_prossimo-129",
+    "id": "passato_prossimo-0189",
     "textTemplate": "Tu {slot_0} tutto senza dirci niente?",
     "primaryTense": "passato_prossimo",
     "level": 10,
     "difficulty": 2,
     "theme": "vita_quotidiana",
-    "source": "authored",
     "target": {
       "slotId": 0,
       "verb": "organizzare",
@@ -4491,13 +4302,12 @@
     "band": 2
   },
   {
-    "id": "corpus-passato_prossimo-130",
+    "id": "passato_prossimo-0190",
     "textTemplate": "La scuola {slot_0} una giornata dedicata agli alberi.",
     "primaryTense": "passato_prossimo",
     "level": 7,
     "difficulty": 2,
     "theme": "vita_quotidiana",
-    "source": "authored",
     "target": {
       "slotId": 0,
       "verb": "organizzare",
@@ -4514,13 +4324,12 @@
     "band": 1
   },
   {
-    "id": "corpus-passato_prossimo-131",
+    "id": "passato_prossimo-0191",
     "textTemplate": "Noi {slot_0} una cena per salutare i vicini.",
     "primaryTense": "passato_prossimo",
     "level": 8,
     "difficulty": 2,
     "theme": "vita_quotidiana",
-    "source": "authored",
     "target": {
       "slotId": 0,
       "verb": "organizzare",
@@ -4537,13 +4346,12 @@
     "band": 1
   },
   {
-    "id": "corpus-passato_prossimo-132",
+    "id": "passato_prossimo-0192",
     "textTemplate": "I colleghi {slot_0} una raccolta per il regalo.",
     "primaryTense": "passato_prossimo",
     "level": 9,
     "difficulty": 2,
     "theme": "vita_quotidiana",
-    "source": "authored",
     "target": {
       "slotId": 0,
       "verb": "organizzare",
@@ -4560,13 +4368,12 @@
     "band": 2
   },
   {
-    "id": "corpus-passato_prossimo-133",
+    "id": "passato_prossimo-0193",
     "textTemplate": "Io {slot_0} con il capotreno del bagaglio smarrito.",
     "primaryTense": "passato_prossimo",
     "level": 10,
     "difficulty": 2,
     "theme": "vita_quotidiana",
-    "source": "authored",
     "target": {
       "slotId": 0,
       "verb": "parlare",
@@ -4583,13 +4390,12 @@
     "band": 2
   },
   {
-    "id": "corpus-passato_prossimo-134",
+    "id": "passato_prossimo-0194",
     "textTemplate": "Tu {slot_0} con qualcuno dell'ufficio informazioni?",
     "primaryTense": "passato_prossimo",
     "level": 6,
     "difficulty": 2,
     "theme": "vita_quotidiana",
-    "source": "authored",
     "target": {
       "slotId": 0,
       "verb": "parlare",
@@ -4606,13 +4412,12 @@
     "band": 1
   },
   {
-    "id": "corpus-passato_prossimo-135",
+    "id": "passato_prossimo-0195",
     "textTemplate": "Noi {slot_0} per ore senza guardare l'orologio.",
     "primaryTense": "passato_prossimo",
     "level": 7,
     "difficulty": 2,
     "theme": "vita_quotidiana",
-    "source": "authored",
     "target": {
       "slotId": 0,
       "verb": "parlare",
@@ -4629,13 +4434,12 @@
     "band": 1
   },
   {
-    "id": "corpus-passato_prossimo-136",
+    "id": "passato_prossimo-0196",
     "textTemplate": "Voi {slot_0} del problema durante l'ultima riunione?",
     "primaryTense": "passato_prossimo",
     "level": 8,
     "difficulty": 2,
     "theme": "vita_quotidiana",
-    "source": "authored",
     "target": {
       "slotId": 0,
       "verb": "parlare",
@@ -4652,13 +4456,12 @@
     "band": 1
   },
   {
-    "id": "corpus-passato_prossimo-137",
+    "id": "passato_prossimo-0197",
     "textTemplate": "Io {slot_0} il pomeriggio a sistemare la cantina.",
     "primaryTense": "passato_prossimo",
     "level": 9,
     "difficulty": 2,
     "theme": "vita_quotidiana",
-    "source": "authored",
     "target": {
       "slotId": 0,
       "verb": "passare",
@@ -4675,13 +4478,12 @@
     "band": 2
   },
   {
-    "id": "corpus-passato_prossimo-138",
+    "id": "passato_prossimo-0198",
     "textTemplate": "Il bambino {slot_0} la palla a sua sorella.",
     "primaryTense": "passato_prossimo",
     "level": 10,
     "difficulty": 2,
     "theme": "vita_quotidiana",
-    "source": "authored",
     "target": {
       "slotId": 0,
       "verb": "passare",
@@ -4698,13 +4500,12 @@
     "band": 2
   },
   {
-    "id": "corpus-passato_prossimo-139",
+    "id": "passato_prossimo-0199",
     "textTemplate": "Noi {slot_0} una serata piacevole con i nuovi vicini.",
     "primaryTense": "passato_prossimo",
     "level": 6,
     "difficulty": 2,
     "theme": "vita_quotidiana",
-    "source": "authored",
     "target": {
       "slotId": 0,
       "verb": "passare",
@@ -4721,13 +4522,12 @@
     "band": 1
   },
   {
-    "id": "corpus-passato_prossimo-140",
+    "id": "passato_prossimo-0200",
     "textTemplate": "I turisti {slot_0} tre giorni nel nostro paese.",
     "primaryTense": "passato_prossimo",
     "level": 8,
     "difficulty": 2,
     "theme": "vita_quotidiana",
-    "source": "authored",
     "target": {
       "slotId": 0,
       "verb": "passare",
@@ -4744,13 +4544,12 @@
     "band": 1
   },
   {
-    "id": "corpus-passato_prossimo-141",
+    "id": "passato_prossimo-0201",
     "textTemplate": "Io {slot_0} cercando l'ingresso del parcheggio.",
     "primaryTense": "passato_prossimo",
     "level": 8,
     "difficulty": 2,
     "theme": "vita_quotidiana",
-    "source": "authored",
     "target": {
       "slotId": 0,
       "verb": "perdersi",
@@ -4785,13 +4584,12 @@
     "band": 1
   },
   {
-    "id": "corpus-passato_prossimo-142",
+    "id": "passato_prossimo-0202",
     "textTemplate": "Tu {slot_0} anche con il navigatore acceso?",
     "primaryTense": "passato_prossimo",
     "level": 9,
     "difficulty": 2,
     "theme": "vita_quotidiana",
-    "source": "authored",
     "target": {
       "slotId": 0,
       "verb": "perdersi",
@@ -4826,13 +4624,12 @@
     "band": 2
   },
   {
-    "id": "corpus-passato_prossimo-143",
+    "id": "passato_prossimo-0203",
     "textTemplate": "Noi {slot_0} nel bosco, ma abbiamo ritrovato il sentiero.",
     "primaryTense": "passato_prossimo",
     "level": 10,
     "difficulty": 2,
     "theme": "vita_quotidiana",
-    "source": "authored",
     "target": {
       "slotId": 0,
       "verb": "perdersi",
@@ -4867,13 +4664,12 @@
     "band": 2
   },
   {
-    "id": "corpus-passato_prossimo-144",
+    "id": "passato_prossimo-0204",
     "textTemplate": "I due escursionisti {slot_0} vicino alla cascata.",
     "primaryTense": "passato_prossimo",
     "level": 8,
     "difficulty": 2,
     "theme": "vita_quotidiana",
-    "source": "authored",
     "target": {
       "slotId": 0,
       "verb": "perdersi",
@@ -4896,13 +4692,12 @@
     "band": 1
   },
   {
-    "id": "corpus-passato_prossimo-145",
+    "id": "passato_prossimo-0205",
     "textTemplate": "Io {slot_0} restituire il libro senza pagare una multa.",
     "primaryTense": "passato_prossimo",
     "level": 9,
     "difficulty": 2,
     "theme": "vita_quotidiana",
-    "source": "authored",
     "target": {
       "slotId": 0,
       "verb": "potere",
@@ -4919,13 +4714,12 @@
     "band": 2
   },
   {
-    "id": "corpus-passato_prossimo-146",
+    "id": "passato_prossimo-0206",
     "textTemplate": "Tu {slot_0} vedere la mostra prima della chiusura?",
     "primaryTense": "passato_prossimo",
     "level": 10,
     "difficulty": 2,
     "theme": "vita_quotidiana",
-    "source": "authored",
     "target": {
       "slotId": 0,
       "verb": "potere",
@@ -4942,13 +4736,12 @@
     "band": 2
   },
   {
-    "id": "corpus-passato_prossimo-147",
+    "id": "passato_prossimo-0207",
     "textTemplate": "Noi {slot_0} usare la cucina dell'ostello.",
     "primaryTense": "passato_prossimo",
     "level": 7,
     "difficulty": 2,
     "theme": "vita_quotidiana",
-    "source": "authored",
     "target": {
       "slotId": 0,
       "verb": "potere",
@@ -4965,13 +4758,12 @@
     "band": 1
   },
   {
-    "id": "corpus-passato_prossimo-148",
+    "id": "passato_prossimo-0208",
     "textTemplate": "Voi {slot_0} parlare con il responsabile?",
     "primaryTense": "passato_prossimo",
     "level": 8,
     "difficulty": 2,
     "theme": "vita_quotidiana",
-    "source": "authored",
     "target": {
       "slotId": 0,
       "verb": "potere",
@@ -4988,13 +4780,12 @@
     "band": 1
   },
   {
-    "id": "corpus-passato_prossimo-149",
+    "id": "passato_prossimo-0209",
     "textTemplate": "Io {slot_0} aspettare un treno meno affollato.",
     "primaryTense": "passato_prossimo",
     "level": 7,
     "difficulty": 2,
     "theme": "vita_quotidiana",
-    "source": "authored",
     "target": {
       "slotId": 0,
       "verb": "preferire",
@@ -5011,13 +4802,12 @@
     "band": 1
   },
   {
-    "id": "corpus-passato_prossimo-150",
+    "id": "passato_prossimo-0210",
     "textTemplate": "La bambina {slot_0} il quaderno con la copertina gialla.",
     "primaryTense": "passato_prossimo",
     "level": 9,
     "difficulty": 2,
     "theme": "vita_quotidiana",
-    "source": "authored",
     "target": {
       "slotId": 0,
       "verb": "preferire",
@@ -5034,13 +4824,12 @@
     "band": 2
   },
   {
-    "id": "corpus-passato_prossimo-151",
+    "id": "passato_prossimo-0211",
     "textTemplate": "Noi {slot_0} prenotare un appartamento con la cucina.",
     "primaryTense": "passato_prossimo",
     "level": 10,
     "difficulty": 2,
     "theme": "vita_quotidiana",
-    "source": "authored",
     "target": {
       "slotId": 0,
       "verb": "preferire",
@@ -5057,13 +4846,12 @@
     "band": 2
   },
   {
-    "id": "corpus-passato_prossimo-152",
+    "id": "passato_prossimo-0212",
     "textTemplate": "Gli ospiti {slot_0} il dolce alla frutta.",
     "primaryTense": "passato_prossimo",
     "level": 6,
     "difficulty": 2,
     "theme": "vita_quotidiana",
-    "source": "authored",
     "target": {
       "slotId": 0,
       "verb": "preferire",
@@ -5080,13 +4868,12 @@
     "band": 1
   },
   {
-    "id": "corpus-passato_prossimo-153",
+    "id": "passato_prossimo-0213",
     "textTemplate": "Tu {slot_0} il resto dal banco?",
     "primaryTense": "passato_prossimo",
     "level": 8,
     "difficulty": 2,
     "theme": "vita_quotidiana",
-    "source": "authored",
     "target": {
       "slotId": 0,
       "verb": "prendere",
@@ -5103,13 +4890,12 @@
     "band": 1
   },
   {
-    "id": "corpus-passato_prossimo-154",
+    "id": "passato_prossimo-0214",
     "textTemplate": "Il cane {slot_0} una scarpa e si è nascosto.",
     "primaryTense": "passato_prossimo",
     "level": 9,
     "difficulty": 2,
     "theme": "vita_quotidiana",
-    "source": "authored",
     "target": {
       "slotId": 0,
       "verb": "prendere",
@@ -5126,13 +4912,12 @@
     "band": 2
   },
   {
-    "id": "corpus-passato_prossimo-155",
+    "id": "passato_prossimo-0215",
     "textTemplate": "Voi {slot_0} tutti i bagagli dal treno?",
     "primaryTense": "passato_prossimo",
     "level": 10,
     "difficulty": 2,
     "theme": "vita_quotidiana",
-    "source": "authored",
     "target": {
       "slotId": 0,
       "verb": "prendere",
@@ -5149,13 +4934,12 @@
     "band": 2
   },
   {
-    "id": "corpus-passato_prossimo-156",
+    "id": "passato_prossimo-0216",
     "textTemplate": "I ragazzi {slot_0} un sentiero diverso dal nostro.",
     "primaryTense": "passato_prossimo",
     "level": 7,
     "difficulty": 2,
     "theme": "vita_quotidiana",
-    "source": "authored",
     "target": {
       "slotId": 0,
       "verb": "prendere",
@@ -5172,13 +4956,12 @@
     "band": 1
   },
   {
-    "id": "corpus-passato_prossimo-157",
+    "id": "passato_prossimo-0217",
     "textTemplate": "Io {slot_0} una zuppa con le verdure avanzate.",
     "primaryTense": "passato_prossimo",
     "level": 6,
     "difficulty": 2,
     "theme": "vita_quotidiana",
-    "source": "authored",
     "target": {
       "slotId": 0,
       "verb": "preparare",
@@ -5195,13 +4978,12 @@
     "band": 1
   },
   {
-    "id": "corpus-passato_prossimo-158",
+    "id": "passato_prossimo-0218",
     "textTemplate": "Tu {slot_0} le domande per l'intervista?",
     "primaryTense": "passato_prossimo",
     "level": 7,
     "difficulty": 2,
     "theme": "vita_quotidiana",
-    "source": "authored",
     "target": {
       "slotId": 0,
       "verb": "preparare",
@@ -5218,13 +5000,12 @@
     "band": 1
   },
   {
-    "id": "corpus-passato_prossimo-159",
+    "id": "passato_prossimo-0219",
     "textTemplate": "Noi {slot_0} la stanza per i nostri ospiti.",
     "primaryTense": "passato_prossimo",
     "level": 8,
     "difficulty": 2,
     "theme": "vita_quotidiana",
-    "source": "authored",
     "target": {
       "slotId": 0,
       "verb": "preparare",
@@ -5241,13 +5022,12 @@
     "band": 1
   },
   {
-    "id": "corpus-passato_prossimo-160",
+    "id": "passato_prossimo-0220",
     "textTemplate": "Le volontarie {slot_0} il materiale per il laboratorio.",
     "primaryTense": "passato_prossimo",
     "level": 10,
     "difficulty": 2,
     "theme": "vita_quotidiana",
-    "source": "authored",
     "target": {
       "slotId": 0,
       "verb": "preparare",
@@ -5264,13 +5044,12 @@
     "band": 2
   },
   {
-    "id": "corpus-passato_prossimo-161",
+    "id": "passato_prossimo-0221",
     "textTemplate": "Io {slot_0} di restituire la scala entro sera.",
     "primaryTense": "passato_prossimo",
     "level": 7,
     "difficulty": 2,
     "theme": "vita_quotidiana",
-    "source": "authored",
     "target": {
       "slotId": 0,
       "verb": "promettere",
@@ -5287,13 +5066,12 @@
     "band": 1
   },
   {
-    "id": "corpus-passato_prossimo-162",
+    "id": "passato_prossimo-0222",
     "textTemplate": "Il tecnico {slot_0} una risposta entro domani.",
     "primaryTense": "passato_prossimo",
     "level": 8,
     "difficulty": 2,
     "theme": "vita_quotidiana",
-    "source": "authored",
     "target": {
       "slotId": 0,
       "verb": "promettere",
@@ -5310,13 +5088,12 @@
     "band": 1
   },
   {
-    "id": "corpus-passato_prossimo-163",
+    "id": "passato_prossimo-0223",
     "textTemplate": "Noi {slot_0} ai bambini una gita al mare.",
     "primaryTense": "passato_prossimo",
     "level": 9,
     "difficulty": 2,
     "theme": "vita_quotidiana",
-    "source": "authored",
     "target": {
       "slotId": 0,
       "verb": "promettere",
@@ -5333,13 +5110,12 @@
     "band": 2
   },
   {
-    "id": "corpus-passato_prossimo-164",
+    "id": "passato_prossimo-0224",
     "textTemplate": "Voi {slot_0} di non raccontare il finale del film?",
     "primaryTense": "passato_prossimo",
     "level": 10,
     "difficulty": 2,
     "theme": "vita_quotidiana",
-    "source": "authored",
     "target": {
       "slotId": 0,
       "verb": "promettere",
@@ -5356,13 +5132,12 @@
     "band": 2
   },
   {
-    "id": "corpus-passato_prossimo-165",
+    "id": "passato_prossimo-0225",
     "textTemplate": "Tu {slot_0} il filtro della lavatrice?",
     "primaryTense": "passato_prossimo",
     "level": 10,
     "difficulty": 2,
     "theme": "vita_quotidiana",
-    "source": "authored",
     "target": {
       "slotId": 0,
       "verb": "pulire",
@@ -5379,13 +5154,12 @@
     "band": 2
   },
   {
-    "id": "corpus-passato_prossimo-166",
+    "id": "passato_prossimo-0226",
     "textTemplate": "Il bambino {slot_0} il tavolo dopo aver dipinto.",
     "primaryTense": "passato_prossimo",
     "level": 6,
     "difficulty": 2,
     "theme": "vita_quotidiana",
-    "source": "authored",
     "target": {
       "slotId": 0,
       "verb": "pulire",
@@ -5402,13 +5176,12 @@
     "band": 1
   },
   {
-    "id": "corpus-passato_prossimo-167",
+    "id": "passato_prossimo-0227",
     "textTemplate": "Noi {slot_0} il cortile prima dell'arrivo degli ospiti.",
     "primaryTense": "passato_prossimo",
     "level": 7,
     "difficulty": 2,
     "theme": "vita_quotidiana",
-    "source": "authored",
     "target": {
       "slotId": 0,
       "verb": "pulire",
@@ -5425,13 +5198,12 @@
     "band": 1
   },
   {
-    "id": "corpus-passato_prossimo-168",
+    "id": "passato_prossimo-0228",
     "textTemplate": "I volontari {slot_0} tutto il tratto di spiaggia.",
     "primaryTense": "passato_prossimo",
     "level": 8,
     "difficulty": 2,
     "theme": "vita_quotidiana",
-    "source": "authored",
     "target": {
       "slotId": 0,
       "verb": "pulire",
@@ -5448,13 +5220,12 @@
     "band": 1
   },
   {
-    "id": "corpus-passato_prossimo-169",
+    "id": "passato_prossimo-0229",
     "textTemplate": "Io {slot_0} la sveglia, ma non ho sentito nulla.",
     "primaryTense": "passato_prossimo",
     "level": 9,
     "difficulty": 2,
     "theme": "vita_quotidiana",
-    "source": "authored",
     "target": {
       "slotId": 0,
       "verb": "puntare",
@@ -5471,13 +5242,12 @@
     "band": 2
   },
   {
-    "id": "corpus-passato_prossimo-170",
+    "id": "passato_prossimo-0230",
     "textTemplate": "Tu {slot_0} la macchina fotografica verso la montagna?",
     "primaryTense": "passato_prossimo",
     "level": 6,
     "difficulty": 2,
     "theme": "vita_quotidiana",
-    "source": "authored",
     "target": {
       "slotId": 0,
       "verb": "puntare",
@@ -5494,13 +5264,12 @@
     "band": 1
   },
   {
-    "id": "corpus-passato_prossimo-171",
+    "id": "passato_prossimo-0231",
     "textTemplate": "Voi {slot_0} tutto sulla prima proposta.",
     "primaryTense": "passato_prossimo",
     "level": 7,
     "difficulty": 2,
     "theme": "vita_quotidiana",
-    "source": "authored",
     "target": {
       "slotId": 0,
       "verb": "puntare",
@@ -5517,13 +5286,12 @@
     "band": 1
   },
   {
-    "id": "corpus-passato_prossimo-172",
+    "id": "passato_prossimo-0232",
     "textTemplate": "Gli astronomi {slot_0} gli strumenti verso la cometa.",
     "primaryTense": "passato_prossimo",
     "level": 8,
     "difficulty": 2,
     "theme": "vita_quotidiana",
-    "source": "authored",
     "target": {
       "slotId": 0,
       "verb": "puntare",
@@ -5540,13 +5308,12 @@
     "band": 1
   },
   {
-    "id": "corpus-passato_prossimo-173",
+    "id": "passato_prossimo-0233",
     "textTemplate": "Io {slot_0} una cartolina da un vecchio compagno.",
     "primaryTense": "passato_prossimo",
     "level": 9,
     "difficulty": 2,
     "theme": "vita_quotidiana",
-    "source": "authored",
     "target": {
       "slotId": 0,
       "verb": "ricevere",
@@ -5563,13 +5330,12 @@
     "band": 2
   },
   {
-    "id": "corpus-passato_prossimo-174",
+    "id": "passato_prossimo-0234",
     "textTemplate": "La biblioteca {slot_0} cento libri in regalo.",
     "primaryTense": "passato_prossimo",
     "level": 10,
     "difficulty": 2,
     "theme": "vita_quotidiana",
-    "source": "authored",
     "target": {
       "slotId": 0,
       "verb": "ricevere",
@@ -5586,13 +5352,12 @@
     "band": 2
   },
   {
-    "id": "corpus-passato_prossimo-175",
+    "id": "passato_prossimo-0235",
     "textTemplate": "Noi {slot_0} la conferma della prenotazione ieri.",
     "primaryTense": "passato_prossimo",
     "level": 6,
     "difficulty": 2,
     "theme": "vita_quotidiana",
-    "source": "authored",
     "target": {
       "slotId": 0,
       "verb": "ricevere",
@@ -5609,13 +5374,12 @@
     "band": 1
   },
   {
-    "id": "corpus-passato_prossimo-176",
+    "id": "passato_prossimo-0236",
     "textTemplate": "I vincitori {slot_0} un abbonamento al teatro.",
     "primaryTense": "passato_prossimo",
     "level": 7,
     "difficulty": 2,
     "theme": "vita_quotidiana",
-    "source": "authored",
     "target": {
       "slotId": 0,
       "verb": "ricevere",
@@ -5632,13 +5396,12 @@
     "band": 1
   },
   {
-    "id": "corpus-passato_prossimo-177",
+    "id": "passato_prossimo-0237",
     "textTemplate": "Tu {slot_0} il problema della perdita d'acqua?",
     "primaryTense": "passato_prossimo",
     "level": 10,
     "difficulty": 2,
     "theme": "vita_quotidiana",
-    "source": "authored",
     "target": {
       "slotId": 0,
       "verb": "risolvere",
@@ -5655,13 +5418,12 @@
     "band": 2
   },
   {
-    "id": "corpus-passato_prossimo-178",
+    "id": "passato_prossimo-0238",
     "textTemplate": "Il bambino {slot_0} l'indovinello prima degli adulti.",
     "primaryTense": "passato_prossimo",
     "level": 7,
     "difficulty": 2,
     "theme": "vita_quotidiana",
-    "source": "authored",
     "target": {
       "slotId": 0,
       "verb": "risolvere",
@@ -5678,13 +5440,12 @@
     "band": 1
   },
   {
-    "id": "corpus-passato_prossimo-179",
+    "id": "passato_prossimo-0239",
     "textTemplate": "Noi {slot_0} la questione con una telefonata.",
     "primaryTense": "passato_prossimo",
     "level": 8,
     "difficulty": 2,
     "theme": "vita_quotidiana",
-    "source": "authored",
     "target": {
       "slotId": 0,
       "verb": "risolvere",
@@ -5701,13 +5462,12 @@
     "band": 1
   },
   {
-    "id": "corpus-passato_prossimo-180",
+    "id": "passato_prossimo-0240",
     "textTemplate": "Voi {slot_0} tutti gli esercizi del capitolo?",
     "primaryTense": "passato_prossimo",
     "level": 8,
     "difficulty": 2,
     "theme": "vita_quotidiana",
-    "source": "authored",
     "target": {
       "slotId": 0,
       "verb": "risolvere",
@@ -5724,13 +5484,12 @@
     "band": 1
   },
   {
-    "id": "corpus-passato_prossimo-181",
+    "id": "passato_prossimo-0241",
     "textTemplate": "Io {slot_0} troppo in fretta alla domanda.",
     "primaryTense": "passato_prossimo",
     "level": 9,
     "difficulty": 2,
     "theme": "vita_quotidiana",
-    "source": "authored",
     "target": {
       "slotId": 0,
       "verb": "rispondere",
@@ -5747,13 +5506,12 @@
     "band": 2
   },
   {
-    "id": "corpus-passato_prossimo-182",
+    "id": "passato_prossimo-0242",
     "textTemplate": "Tu {slot_0} al messaggio della proprietaria?",
     "primaryTense": "passato_prossimo",
     "level": 10,
     "difficulty": 2,
     "theme": "vita_quotidiana",
-    "source": "authored",
     "target": {
       "slotId": 0,
       "verb": "rispondere",
@@ -5770,13 +5528,12 @@
     "band": 2
   },
   {
-    "id": "corpus-passato_prossimo-183",
+    "id": "passato_prossimo-0243",
     "textTemplate": "Noi {slot_0} all'invito con una lettera.",
     "primaryTense": "passato_prossimo",
     "level": 7,
     "difficulty": 2,
     "theme": "vita_quotidiana",
-    "source": "authored",
     "target": {
       "slotId": 0,
       "verb": "rispondere",
@@ -5793,13 +5550,12 @@
     "band": 1
   },
   {
-    "id": "corpus-passato_prossimo-184",
+    "id": "passato_prossimo-0244",
     "textTemplate": "Gli spettatori {slot_0} con un lungo applauso.",
     "primaryTense": "passato_prossimo",
     "level": 8,
     "difficulty": 2,
     "theme": "vita_quotidiana",
-    "source": "authored",
     "target": {
       "slotId": 0,
       "verb": "rispondere",
@@ -5816,13 +5572,12 @@
     "band": 1
   },
   {
-    "id": "corpus-passato_prossimo-185",
+    "id": "passato_prossimo-0245",
     "textTemplate": "Io {slot_0} della chiusura solo questa mattina.",
     "primaryTense": "passato_prossimo",
     "level": 9,
     "difficulty": 2,
     "theme": "vita_quotidiana",
-    "source": "authored",
     "target": {
       "slotId": 0,
       "verb": "sapere",
@@ -5839,13 +5594,12 @@
     "band": 2
   },
   {
-    "id": "corpus-passato_prossimo-186",
+    "id": "passato_prossimo-0246",
     "textTemplate": "Il nonno {slot_0} della nascita durante il pranzo.",
     "primaryTense": "passato_prossimo",
     "level": 10,
     "difficulty": 2,
     "theme": "vita_quotidiana",
-    "source": "authored",
     "target": {
       "slotId": 0,
       "verb": "sapere",
@@ -5862,13 +5616,12 @@
     "band": 2
   },
   {
-    "id": "corpus-passato_prossimo-187",
+    "id": "passato_prossimo-0247",
     "textTemplate": "Voi {slot_0} chi ha vinto la gara?",
     "primaryTense": "passato_prossimo",
     "level": 7,
     "difficulty": 2,
     "theme": "vita_quotidiana",
-    "source": "authored",
     "target": {
       "slotId": 0,
       "verb": "sapere",
@@ -5885,13 +5638,12 @@
     "band": 1
   },
   {
-    "id": "corpus-passato_prossimo-188",
+    "id": "passato_prossimo-0248",
     "textTemplate": "I vicini {slot_0} del guasto dalla portiera.",
     "primaryTense": "passato_prossimo",
     "level": 8,
     "difficulty": 2,
     "theme": "vita_quotidiana",
-    "source": "authored",
     "target": {
       "slotId": 0,
       "verb": "sapere",
@@ -5908,13 +5660,12 @@
     "band": 1
   },
   {
-    "id": "corpus-passato_prossimo-189",
+    "id": "passato_prossimo-0249",
     "textTemplate": "Tu {slot_0} il numero di telefono sul retro del biglietto?",
     "primaryTense": "passato_prossimo",
     "level": 9,
     "difficulty": 2,
     "theme": "vita_quotidiana",
-    "source": "authored",
     "target": {
       "slotId": 0,
       "verb": "scrivere",
@@ -5931,13 +5682,12 @@
     "band": 2
   },
   {
-    "id": "corpus-passato_prossimo-190",
+    "id": "passato_prossimo-0250",
     "textTemplate": "Il proprietario {slot_0} le istruzioni per la caldaia.",
     "primaryTense": "passato_prossimo",
     "level": 9,
     "difficulty": 2,
     "theme": "vita_quotidiana",
-    "source": "authored",
     "target": {
       "slotId": 0,
       "verb": "scrivere",
@@ -5954,13 +5704,12 @@
     "band": 2
   },
   {
-    "id": "corpus-passato_prossimo-191",
+    "id": "passato_prossimo-0251",
     "textTemplate": "Noi {slot_0} una canzone per il compleanno della nonna.",
     "primaryTense": "passato_prossimo",
     "level": 10,
     "difficulty": 2,
     "theme": "vita_quotidiana",
-    "source": "authored",
     "target": {
       "slotId": 0,
       "verb": "scrivere",
@@ -5977,13 +5726,12 @@
     "band": 2
   },
   {
-    "id": "corpus-passato_prossimo-192",
+    "id": "passato_prossimo-0252",
     "textTemplate": "Gli alunni {slot_0} i loro desideri su fogli colorati.",
     "primaryTense": "passato_prossimo",
     "level": 7,
     "difficulty": 2,
     "theme": "vita_quotidiana",
-    "source": "authored",
     "target": {
       "slotId": 0,
       "verb": "scrivere",
@@ -6000,13 +5748,12 @@
     "band": 1
   },
   {
-    "id": "corpus-passato_prossimo-193",
+    "id": "passato_prossimo-0253",
     "textTemplate": "Io {slot_0} il regalo con una settimana di anticipo.",
     "primaryTense": "passato_prossimo",
     "level": 6,
     "difficulty": 2,
     "theme": "vita_quotidiana",
-    "source": "authored",
     "target": {
       "slotId": 0,
       "verb": "spedire",
@@ -6023,13 +5770,12 @@
     "band": 1
   },
   {
-    "id": "corpus-passato_prossimo-194",
+    "id": "passato_prossimo-0254",
     "textTemplate": "Tu {slot_0} la domanda entro la scadenza?",
     "primaryTense": "passato_prossimo",
     "level": 7,
     "difficulty": 2,
     "theme": "vita_quotidiana",
-    "source": "authored",
     "target": {
       "slotId": 0,
       "verb": "spedire",
@@ -6046,13 +5792,12 @@
     "band": 1
   },
   {
-    "id": "corpus-passato_prossimo-195",
+    "id": "passato_prossimo-0255",
     "textTemplate": "Noi {slot_0} i documenti con una raccomandata.",
     "primaryTense": "passato_prossimo",
     "level": 8,
     "difficulty": 2,
     "theme": "vita_quotidiana",
-    "source": "authored",
     "target": {
       "slotId": 0,
       "verb": "spedire",
@@ -6069,13 +5814,12 @@
     "band": 1
   },
   {
-    "id": "corpus-passato_prossimo-196",
+    "id": "passato_prossimo-0256",
     "textTemplate": "Voi {slot_0} le cartoline prima di tornare?",
     "primaryTense": "passato_prossimo",
     "level": 9,
     "difficulty": 2,
     "theme": "vita_quotidiana",
-    "source": "authored",
     "target": {
       "slotId": 0,
       "verb": "spedire",
@@ -6092,13 +5836,12 @@
     "band": 2
   },
   {
-    "id": "corpus-passato_prossimo-197",
+    "id": "passato_prossimo-0257",
     "textTemplate": "Io {slot_0} il forno appena ho sentito l'allarme.",
     "primaryTense": "passato_prossimo",
     "level": 8,
     "difficulty": 2,
     "theme": "vita_quotidiana",
-    "source": "authored",
     "target": {
       "slotId": 0,
       "verb": "spegnere",
@@ -6115,13 +5858,12 @@
     "band": 1
   },
   {
-    "id": "corpus-passato_prossimo-198",
+    "id": "passato_prossimo-0258",
     "textTemplate": "La bambina {slot_0} tutte le candeline in un soffio.",
     "primaryTense": "passato_prossimo",
     "level": 9,
     "difficulty": 2,
     "theme": "vita_quotidiana",
-    "source": "authored",
     "target": {
       "slotId": 0,
       "verb": "spegnere",
@@ -6138,13 +5880,12 @@
     "band": 2
   },
   {
-    "id": "corpus-passato_prossimo-199",
+    "id": "passato_prossimo-0259",
     "textTemplate": "Noi {slot_0} la radio per ascoltare il temporale.",
     "primaryTense": "passato_prossimo",
     "level": 10,
     "difficulty": 2,
     "theme": "vita_quotidiana",
-    "source": "authored",
     "target": {
       "slotId": 0,
       "verb": "spegnere",
@@ -6161,13 +5902,12 @@
     "band": 2
   },
   {
-    "id": "corpus-passato_prossimo-200",
+    "id": "passato_prossimo-0260",
     "textTemplate": "Gli addetti {slot_0} l'insegna alla fine della serata.",
     "primaryTense": "passato_prossimo",
     "level": 9,
     "difficulty": 2,
     "theme": "vita_quotidiana",
-    "source": "authored",
     "target": {
       "slotId": 0,
       "verb": "spegnere",
@@ -6184,13 +5924,12 @@
     "band": 2
   },
   {
-    "id": "corpus-passato_prossimo-201",
+    "id": "passato_prossimo-0261",
     "textTemplate": "Io {slot_0} in casa tutto il giorno per il raffreddore.",
     "primaryTense": "passato_prossimo",
     "level": 10,
     "difficulty": 2,
     "theme": "vita_quotidiana",
-    "source": "authored",
     "target": {
       "slotId": 0,
       "verb": "stare",
@@ -6213,13 +5952,12 @@
     "band": 2
   },
   {
-    "id": "corpus-passato_prossimo-202",
+    "id": "passato_prossimo-0262",
     "textTemplate": "Tu {slot_0} bene durante il viaggio in nave?",
     "primaryTense": "passato_prossimo",
     "level": 7,
     "difficulty": 2,
     "theme": "vita_quotidiana",
-    "source": "authored",
     "target": {
       "slotId": 0,
       "verb": "stare",
@@ -6242,13 +5980,12 @@
     "band": 1
   },
   {
-    "id": "corpus-passato_prossimo-203",
-    "textTemplate": "Noi {slot_0} attenti a non svegliare i bambini.",
+    "id": "passato_prossimo-0263",
+    "textTemplate": "Noi {slot_0} in silenzio per ascoltare il canto degli uccelli.",
     "primaryTense": "passato_prossimo",
     "level": 8,
     "difficulty": 2,
     "theme": "vita_quotidiana",
-    "source": "authored",
     "target": {
       "slotId": 0,
       "verb": "stare",
@@ -6271,13 +6008,12 @@
     "band": 1
   },
   {
-    "id": "corpus-passato_prossimo-204",
+    "id": "passato_prossimo-0264",
     "textTemplate": "I ragazzi {slot_0} in silenzio durante la cerimonia.",
     "primaryTense": "passato_prossimo",
     "level": 9,
     "difficulty": 2,
     "theme": "vita_quotidiana",
-    "source": "authored",
     "target": {
       "slotId": 0,
       "verb": "stare",
@@ -6294,13 +6030,12 @@
     "band": 2
   },
   {
-    "id": "corpus-passato_prossimo-205",
+    "id": "passato_prossimo-0265",
     "textTemplate": "Io {slot_0} al matrimonio di mia cugina.",
     "primaryTense": "passato_prossimo",
     "level": 10,
     "difficulty": 2,
     "theme": "vita_quotidiana",
-    "source": "authored",
     "target": {
       "slotId": 0,
       "verb": "suonare",
@@ -6317,13 +6052,12 @@
     "band": 2
   },
   {
-    "id": "corpus-passato_prossimo-206",
+    "id": "passato_prossimo-0266",
     "textTemplate": "Il postino {slot_0} due volte, ma nessuno ha aperto.",
     "primaryTense": "passato_prossimo",
     "level": 6,
     "difficulty": 2,
     "theme": "vita_quotidiana",
-    "source": "authored",
     "target": {
       "slotId": 0,
       "verb": "suonare",
@@ -6340,13 +6074,12 @@
     "band": 1
   },
   {
-    "id": "corpus-passato_prossimo-207",
+    "id": "passato_prossimo-0267",
     "textTemplate": "Voi {slot_0} anche il pezzo che abbiamo richiesto?",
     "primaryTense": "passato_prossimo",
     "level": 7,
     "difficulty": 2,
     "theme": "vita_quotidiana",
-    "source": "authored",
     "target": {
       "slotId": 0,
       "verb": "suonare",
@@ -6363,13 +6096,12 @@
     "band": 1
   },
   {
-    "id": "corpus-passato_prossimo-208",
+    "id": "passato_prossimo-0268",
     "textTemplate": "I musicisti {slot_0} fino all'arrivo della pioggia.",
     "primaryTense": "passato_prossimo",
     "level": 8,
     "difficulty": 2,
     "theme": "vita_quotidiana",
-    "source": "authored",
     "target": {
       "slotId": 0,
       "verb": "suonare",
@@ -6386,13 +6118,12 @@
     "band": 1
   },
   {
-    "id": "corpus-passato_prossimo-209",
+    "id": "passato_prossimo-0269",
     "textTemplate": "Tu {slot_0} la prova pratica della patente?",
     "primaryTense": "passato_prossimo",
     "level": 9,
     "difficulty": 2,
     "theme": "vita_quotidiana",
-    "source": "authored",
     "target": {
       "slotId": 0,
       "verb": "superare",
@@ -6409,13 +6140,12 @@
     "band": 2
   },
   {
-    "id": "corpus-passato_prossimo-210",
+    "id": "passato_prossimo-0270",
     "textTemplate": "L'acqua {slot_0} il livello del marciapiede.",
     "primaryTense": "passato_prossimo",
     "level": 6,
     "difficulty": 2,
     "theme": "vita_quotidiana",
-    "source": "authored",
     "target": {
       "slotId": 0,
       "verb": "superare",
@@ -6432,13 +6162,12 @@
     "band": 1
   },
   {
-    "id": "corpus-passato_prossimo-211",
+    "id": "passato_prossimo-0271",
     "textTemplate": "Noi {slot_0} il limite di peso con questa valigia.",
     "primaryTense": "passato_prossimo",
     "level": 7,
     "difficulty": 2,
     "theme": "vita_quotidiana",
-    "source": "authored",
     "target": {
       "slotId": 0,
       "verb": "superare",
@@ -6455,13 +6184,12 @@
     "band": 1
   },
   {
-    "id": "corpus-passato_prossimo-212",
+    "id": "passato_prossimo-0272",
     "textTemplate": "Le vendite {slot_0} tutte le aspettative.",
     "primaryTense": "passato_prossimo",
     "level": 8,
     "difficulty": 2,
     "theme": "vita_quotidiana",
-    "source": "authored",
     "target": {
       "slotId": 0,
       "verb": "superare",
@@ -6478,13 +6206,12 @@
     "band": 2
   },
   {
-    "id": "corpus-passato_prossimo-213",
+    "id": "passato_prossimo-0273",
     "textTemplate": "Io {slot_0} indietro per cercare il cappello.",
     "primaryTense": "passato_prossimo",
     "level": 9,
     "difficulty": 2,
     "theme": "vita_quotidiana",
-    "source": "authored",
     "target": {
       "slotId": 0,
       "verb": "tornare",
@@ -6507,13 +6234,12 @@
     "band": 2
   },
   {
-    "id": "corpus-passato_prossimo-214",
+    "id": "passato_prossimo-0274",
     "textTemplate": "La gatta {slot_0} a casa dopo due giorni.",
     "primaryTense": "passato_prossimo",
     "level": 10,
     "difficulty": 2,
     "theme": "vita_quotidiana",
-    "source": "authored",
     "target": {
       "slotId": 0,
       "verb": "tornare",
@@ -6530,13 +6256,12 @@
     "band": 2
   },
   {
-    "id": "corpus-passato_prossimo-215",
+    "id": "passato_prossimo-0275",
     "textTemplate": "Noi {slot_0} nello stesso albergo per il nostro anniversario.",
     "primaryTense": "passato_prossimo",
     "level": 6,
     "difficulty": 2,
     "theme": "vita_quotidiana",
-    "source": "authored",
     "target": {
       "slotId": 0,
       "verb": "tornare",
@@ -6559,13 +6284,12 @@
     "band": 1
   },
   {
-    "id": "corpus-passato_prossimo-216",
+    "id": "passato_prossimo-0276",
     "textTemplate": "Voi {slot_0} prima della fine della festa?",
     "primaryTense": "passato_prossimo",
     "level": 7,
     "difficulty": 2,
     "theme": "vita_quotidiana",
-    "source": "authored",
     "target": {
       "slotId": 0,
       "verb": "tornare",
@@ -6588,13 +6312,12 @@
     "band": 1
   },
   {
-    "id": "corpus-passato_prossimo-217",
+    "id": "passato_prossimo-0277",
     "textTemplate": "Tu {slot_0} senza le chiavi anche ieri?",
     "primaryTense": "passato_prossimo",
     "level": 9,
     "difficulty": 2,
     "theme": "vita_quotidiana",
-    "source": "authored",
     "target": {
       "slotId": 0,
       "verb": "uscire",
@@ -6617,13 +6340,12 @@
     "band": 2
   },
   {
-    "id": "corpus-passato_prossimo-218",
+    "id": "passato_prossimo-0278",
     "textTemplate": "Il sole {slot_0} proprio alla fine del temporale.",
     "primaryTense": "passato_prossimo",
     "level": 10,
     "difficulty": 2,
     "theme": "vita_quotidiana",
-    "source": "authored",
     "target": {
       "slotId": 0,
       "verb": "uscire",
@@ -6640,13 +6362,12 @@
     "band": 2
   },
   {
-    "id": "corpus-passato_prossimo-219",
+    "id": "passato_prossimo-0279",
     "textTemplate": "Noi {slot_0} dal museo all'ora di chiusura.",
     "primaryTense": "passato_prossimo",
     "level": 7,
     "difficulty": 2,
     "theme": "vita_quotidiana",
-    "source": "authored",
     "target": {
       "slotId": 0,
       "verb": "uscire",
@@ -6669,13 +6390,12 @@
     "band": 1
   },
   {
-    "id": "corpus-passato_prossimo-220",
+    "id": "passato_prossimo-0280",
     "textTemplate": "Le ragazze {slot_0} insieme dopo la lezione.",
     "primaryTense": "passato_prossimo",
     "level": 7,
     "difficulty": 2,
     "theme": "vita_quotidiana",
-    "source": "authored",
     "target": {
       "slotId": 0,
       "verb": "uscire",
@@ -6692,13 +6412,12 @@
     "band": 1
   },
   {
-    "id": "corpus-passato_prossimo-221",
+    "id": "passato_prossimo-0281",
     "textTemplate": "Io {slot_0} una volpe vicino alla fermata.",
     "primaryTense": "passato_prossimo",
     "level": 8,
     "difficulty": 2,
     "theme": "vita_quotidiana",
-    "source": "authored",
     "target": {
       "slotId": 0,
       "verb": "vedere",
@@ -6721,13 +6440,12 @@
     "band": 2
   },
   {
-    "id": "corpus-passato_prossimo-222",
+    "id": "passato_prossimo-0282",
     "textTemplate": "Tu {slot_0} il messaggio sulla porta del negozio?",
     "primaryTense": "passato_prossimo",
     "level": 9,
     "difficulty": 2,
     "theme": "vita_quotidiana",
-    "source": "authored",
     "target": {
       "slotId": 0,
       "verb": "vedere",
@@ -6750,13 +6468,12 @@
     "band": 2
   },
   {
-    "id": "corpus-passato_prossimo-223",
+    "id": "passato_prossimo-0283",
     "textTemplate": "Voi {slot_0} l'eclissi dalla terrazza?",
     "primaryTense": "passato_prossimo",
     "level": 10,
     "difficulty": 2,
     "theme": "vita_quotidiana",
-    "source": "authored",
     "target": {
       "slotId": 0,
       "verb": "vedere",
@@ -6779,13 +6496,12 @@
     "band": 2
   },
   {
-    "id": "corpus-passato_prossimo-224",
+    "id": "passato_prossimo-0284",
     "textTemplate": "I bambini {slot_0} la neve per la prima volta.",
     "primaryTense": "passato_prossimo",
     "level": 7,
     "difficulty": 2,
     "theme": "vita_quotidiana",
-    "source": "authored",
     "target": {
       "slotId": 0,
       "verb": "vedere",
@@ -6808,13 +6524,12 @@
     "band": 1
   },
   {
-    "id": "corpus-passato_prossimo-225",
+    "id": "passato_prossimo-0285",
     "textTemplate": "Io {slot_0} qui per ritirare un pacco.",
     "primaryTense": "passato_prossimo",
     "level": 8,
     "difficulty": 2,
     "theme": "vita_quotidiana",
-    "source": "authored",
     "target": {
       "slotId": 0,
       "verb": "venire",
@@ -6837,13 +6552,12 @@
     "band": 2
   },
   {
-    "id": "corpus-passato_prossimo-226",
+    "id": "passato_prossimo-0286",
     "textTemplate": "Il vicino {slot_0} ad aiutarci con il divano.",
     "primaryTense": "passato_prossimo",
     "level": 9,
     "difficulty": 2,
     "theme": "vita_quotidiana",
-    "source": "authored",
     "target": {
       "slotId": 0,
       "verb": "venire",
@@ -6860,13 +6574,12 @@
     "band": 2
   },
   {
-    "id": "corpus-passato_prossimo-227",
+    "id": "passato_prossimo-0287",
     "textTemplate": "Noi {slot_0} a piedi dalla stazione.",
     "primaryTense": "passato_prossimo",
     "level": 10,
     "difficulty": 2,
     "theme": "vita_quotidiana",
-    "source": "authored",
     "target": {
       "slotId": 0,
       "verb": "venire",
@@ -6889,13 +6602,12 @@
     "band": 2
   },
   {
-    "id": "corpus-passato_prossimo-228",
+    "id": "passato_prossimo-0288",
     "textTemplate": "Le mie cugine {slot_0} a trovarci per il fine settimana.",
     "primaryTense": "passato_prossimo",
     "level": 7,
     "difficulty": 2,
     "theme": "vita_quotidiana",
-    "source": "authored",
     "target": {
       "slotId": 0,
       "verb": "venire",
@@ -6912,13 +6624,12 @@
     "band": 1
   },
   {
-    "id": "corpus-passato_prossimo-229",
+    "id": "passato_prossimo-0289",
     "textTemplate": "Tu {slot_0} con quel piccolo zaino per un mese?",
     "primaryTense": "passato_prossimo",
     "level": 6,
     "difficulty": 2,
     "theme": "vita_quotidiana",
-    "source": "authored",
     "target": {
       "slotId": 0,
       "verb": "viaggiare",
@@ -6935,13 +6646,12 @@
     "band": 1
   },
   {
-    "id": "corpus-passato_prossimo-230",
+    "id": "passato_prossimo-0290",
     "textTemplate": "La famiglia {slot_0} lungo tutta la costa in treno.",
     "primaryTense": "passato_prossimo",
     "level": 8,
     "difficulty": 2,
     "theme": "vita_quotidiana",
-    "source": "authored",
     "target": {
       "slotId": 0,
       "verb": "viaggiare",
@@ -6958,13 +6668,12 @@
     "band": 2
   },
   {
-    "id": "corpus-passato_prossimo-231",
+    "id": "passato_prossimo-0291",
     "textTemplate": "Noi {slot_0} in seconda classe per risparmiare.",
     "primaryTense": "passato_prossimo",
     "level": 9,
     "difficulty": 2,
     "theme": "vita_quotidiana",
-    "source": "authored",
     "target": {
       "slotId": 0,
       "verb": "viaggiare",
@@ -6981,13 +6690,12 @@
     "band": 2
   },
   {
-    "id": "corpus-passato_prossimo-232",
-    "textTemplate": "Voi {slot_0} mai su un treno notturno?",
+    "id": "passato_prossimo-0292",
+    "textTemplate": "Voi {slot_0} su un treno notturno almeno una volta?",
     "primaryTense": "passato_prossimo",
     "level": 10,
     "difficulty": 2,
     "theme": "vita_quotidiana",
-    "source": "authored",
     "target": {
       "slotId": 0,
       "verb": "viaggiare",
@@ -7004,13 +6712,12 @@
     "band": 2
   },
   {
-    "id": "corpus-passato_prossimo-233",
+    "id": "passato_prossimo-0293",
     "textTemplate": "Io {slot_0} il mulino durante la giornata delle porte aperte.",
     "primaryTense": "passato_prossimo",
     "level": 6,
     "difficulty": 2,
     "theme": "vita_quotidiana",
-    "source": "authored",
     "target": {
       "slotId": 0,
       "verb": "visitare",
@@ -7027,13 +6734,12 @@
     "band": 1
   },
   {
-    "id": "corpus-passato_prossimo-234",
+    "id": "passato_prossimo-0294",
     "textTemplate": "Tu {slot_0} il giardino botanico in primavera?",
     "primaryTense": "passato_prossimo",
     "level": 7,
     "difficulty": 2,
     "theme": "vita_quotidiana",
-    "source": "authored",
     "target": {
       "slotId": 0,
       "verb": "visitare",
@@ -7050,13 +6756,12 @@
     "band": 1
   },
   {
-    "id": "corpus-passato_prossimo-235",
+    "id": "passato_prossimo-0295",
     "textTemplate": "Noi {slot_0} tre appartamenti prima di scegliere questo.",
     "primaryTense": "passato_prossimo",
     "level": 8,
     "difficulty": 2,
     "theme": "vita_quotidiana",
-    "source": "authored",
     "target": {
       "slotId": 0,
       "verb": "visitare",
@@ -7073,13 +6778,12 @@
     "band": 2
   },
   {
-    "id": "corpus-passato_prossimo-236",
+    "id": "passato_prossimo-0296",
     "textTemplate": "I medici {slot_0} tutti i bambini del campo estivo.",
     "primaryTense": "passato_prossimo",
     "level": 9,
     "difficulty": 2,
     "theme": "vita_quotidiana",
-    "source": "authored",
     "target": {
       "slotId": 0,
       "verb": "visitare",
@@ -7096,13 +6800,12 @@
     "band": 2
   },
   {
-    "id": "corpus-passato_prossimo-237",
+    "id": "passato_prossimo-0297",
     "textTemplate": "Io {slot_0} provare una ricetta diversa dal solito.",
     "primaryTense": "passato_prossimo",
     "level": 7,
     "difficulty": 2,
     "theme": "vita_quotidiana",
-    "source": "authored",
     "target": {
       "slotId": 0,
       "verb": "volere",
@@ -7119,13 +6822,12 @@
     "band": 1
   },
   {
-    "id": "corpus-passato_prossimo-238",
+    "id": "passato_prossimo-0298",
     "textTemplate": "Il bambino {slot_0} un palloncino verde.",
     "primaryTense": "passato_prossimo",
     "level": 8,
     "difficulty": 2,
     "theme": "vita_quotidiana",
-    "source": "authored",
     "target": {
       "slotId": 0,
       "verb": "volere",
@@ -7142,13 +6844,12 @@
     "band": 2
   },
   {
-    "id": "corpus-passato_prossimo-239",
+    "id": "passato_prossimo-0299",
     "textTemplate": "Voi {slot_0} pagare anche la nostra parte?",
     "primaryTense": "passato_prossimo",
     "level": 9,
     "difficulty": 2,
     "theme": "vita_quotidiana",
-    "source": "authored",
     "target": {
       "slotId": 0,
       "verb": "volere",
@@ -7165,13 +6866,12 @@
     "band": 2
   },
   {
-    "id": "corpus-passato_prossimo-240",
+    "id": "passato_prossimo-0300",
     "textTemplate": "Gli ospiti {slot_0} conoscere la storia della casa.",
     "primaryTense": "passato_prossimo",
     "level": 9,
     "difficulty": 2,
     "theme": "vita_quotidiana",
-    "source": "authored",
     "target": {
       "slotId": 0,
       "verb": "volere",

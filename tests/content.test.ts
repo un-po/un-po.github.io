@@ -94,24 +94,41 @@ test('independent conjugation fixtures cover irregular stems, spelling, auxiliar
 
 test('import corrections reject wrong person and gender and preserve existential slots', () => {
   const byId = (id: string) => exercises.find((e) => e.id === id)!;
-  assert.equal(gradeExercise('devono', byId('sent-pres-112'), verbs).outcome, 'error');
-  assert.equal(gradeExercise('si sono alzate', byId('sent-past-104'), verbs).outcome, 'error');
-  assert.equal(gradeExercise('sono tornate', byId('sent-past-159'), verbs).outcome, 'error');
-  assert.equal(gradeExercise('godrai', byId('sent-fut-135'), verbs).outcome, 'error');
-  assert.equal(byId('sent-fut-121').person, 'loro');
-  assert.equal(byId('sent-fut-121').after, '?');
-  assert.ok(byId('sent-imp-132').before.endsWith("c'"));
-  assert.deepEqual(byId('sent-imp-132').answers, ['era']);
-  assert.equal(byId('sent-fut-125-v2').verb, 'essere');
+  assert.equal(gradeExercise('devono', byId('presente-0012'), verbs).outcome, 'error');
+  assert.equal(
+    gradeExercise('si sono alzate', byId('passato_prossimo-0004'), verbs).outcome,
+    'error',
+  );
+  assert.equal(
+    gradeExercise('sono tornate', byId('passato_prossimo-0059'), verbs).outcome,
+    'error',
+  );
+  assert.equal(gradeExercise('godrai', byId('futuro_semplice-0035'), verbs).outcome, 'error');
+  assert.equal(byId('futuro_semplice-0021').person, 'loro');
+  assert.equal(byId('futuro_semplice-0021').after, '?');
+  assert.ok(byId('imperfetto-0032').before.endsWith("c'"));
+  assert.deepEqual(byId('imperfetto-0032').answers, ['era']);
+  assert.equal(byId('futuro_semplice-0025').verb, 'essere');
 });
 
-test('each pilot alternative returns its own analysis, regardless of answer order', () => {
-  for (const exercise of exercises.filter((e) => e.id.startsWith('pilot-multi'))) {
+test('each mixed-tense alternative returns its own analysis, regardless of answer order', () => {
+  const mixed = exercises.filter((e) => new Set(answerAnalyses(e).map((a) => a.tense)).size > 1);
+  assert.equal(mixed.length, 5);
+  for (const exercise of mixed) {
     for (const answer of answerAnalyses(exercise)) {
       const result = gradeExercise(`  ${answer.text.toUpperCase()}  `, exercise, verbs);
       assert.equal(result.outcome, 'correct');
       assert.deepEqual(result.matched, answer);
     }
+  }
+});
+
+test('past stare accepts both subject genders with an invariant sentence suffix', () => {
+  const exercise = exercises.find((e) => e.id === 'passato_prossimo-0263')!;
+  assert.deepEqual(exercise.answers, ['siamo stati', 'siamo state']);
+  assert.equal(exercise.after, ' in silenzio per ascoltare il canto degli uccelli.');
+  for (const answer of exercise.answers) {
+    assert.equal(gradeExercise(answer, exercise, verbs).outcome, 'correct');
   }
 });
 
@@ -135,7 +152,7 @@ test('compound grammar errors and ambiguous approximations do not earn typo cred
 });
 
 test('alternative tenses replace the question result and update only their own evidence', () => {
-  const exercise = exercises.find((e) => e.id === 'pilot-multi-004')!;
+  const exercise = exercises.find((e) => e.id === 'imperfetto-0199')!;
   const state = createLearningState(exercises, () => 0.5);
   recordLearningOutcome(state, exercise, 'correct', exercises, () => 0.5, 'passato_prossimo');
   assert.equal(state.contexts.tenses.passato_prossimo?.correct, 1);

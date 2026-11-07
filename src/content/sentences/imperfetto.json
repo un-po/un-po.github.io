@@ -1,12 +1,11 @@
 [
   {
-    "id": "sent-imp-101",
+    "id": "imperfetto-0001",
     "textTemplate": "Da piccolo, io {slot_0} sempre molto timido con gli estranei.",
     "primaryTense": "imperfetto",
     "level": 14,
     "difficulty": 2,
     "theme": "home_lifestyle",
-    "source": "import-revised",
     "target": {
       "slotId": 0,
       "verb": "essere",
@@ -23,13 +22,12 @@
     "band": 2
   },
   {
-    "id": "sent-imp-102",
+    "id": "imperfetto-0002",
     "textTemplate": "Quando abitavo in campagna, tu {slot_0} una bicicletta rossa.",
     "primaryTense": "imperfetto",
     "level": 12,
     "difficulty": 2,
     "theme": "childhood_memories",
-    "source": "import-revised",
     "target": {
       "slotId": 0,
       "verb": "avere",
@@ -46,13 +44,12 @@
     "band": 2
   },
   {
-    "id": "sent-imp-103",
+    "id": "imperfetto-0003",
     "textTemplate": "Da bambina, mia nonna {slot_0} molto timida.",
     "primaryTense": "imperfetto",
     "level": 13,
     "difficulty": 2,
     "theme": "childhood_memories",
-    "source": "import-revised",
     "target": {
       "slotId": 0,
       "verb": "essere",
@@ -69,13 +66,12 @@
     "band": 2
   },
   {
-    "id": "sent-imp-104",
+    "id": "imperfetto-0004",
     "textTemplate": "Negli anni Novanta noi {slot_0} una casa grande vicino al mare.",
     "primaryTense": "imperfetto",
     "level": 14,
     "difficulty": 2,
     "theme": "home_lifestyle",
-    "source": "import-revised",
     "target": {
       "slotId": 0,
       "verb": "avere",
@@ -92,13 +88,12 @@
     "band": 2
   },
   {
-    "id": "sent-imp-105",
+    "id": "imperfetto-0005",
     "textTemplate": "Durante le vacanze scolastiche, voi {slot_0} sempre felici di partire.",
     "primaryTense": "imperfetto",
     "level": 12,
     "difficulty": 2,
     "theme": "childhood_memories",
-    "source": "import-revised",
     "target": {
       "slotId": 0,
       "verb": "essere",
@@ -115,13 +110,12 @@
     "band": 2
   },
   {
-    "id": "sent-imp-106",
+    "id": "imperfetto-0006",
     "textTemplate": "Quando eravamo piccoli, i miei genitori {slot_0} molta pazienza.",
     "primaryTense": "imperfetto",
     "level": 13,
     "difficulty": 2,
     "theme": "home_lifestyle",
-    "source": "import-revised",
     "target": {
       "slotId": 0,
       "verb": "avere",
@@ -138,13 +132,12 @@
     "band": 2
   },
   {
-    "id": "sent-imp-107",
+    "id": "imperfetto-0007",
     "textTemplate": "Da giovane, io {slot_0} spesso in biblioteca a studiare.",
     "primaryTense": "imperfetto",
     "level": 14,
     "difficulty": 2,
     "theme": "childhood_memories",
-    "source": "import-revised",
     "target": {
       "slotId": 0,
       "verb": "andare",
@@ -161,13 +154,12 @@
     "band": 2
   },
   {
-    "id": "sent-imp-108",
+    "id": "imperfetto-0008",
     "textTemplate": "Nel fine settimana tu {slot_0} sempre la colazione al bar.",
     "primaryTense": "imperfetto",
     "level": 12,
     "difficulty": 2,
     "theme": "home_lifestyle",
-    "source": "import-revised",
     "target": {
       "slotId": 0,
       "verb": "fare",
@@ -184,13 +176,12 @@
     "band": 2
   },
   {
-    "id": "sent-imp-109",
+    "id": "imperfetto-0009",
     "textTemplate": "Ogni estate Marco {slot_0} i compiti prima di uscire a giocare.",
     "primaryTense": "imperfetto",
     "level": 11,
     "difficulty": 2,
     "theme": "childhood_memories",
-    "source": "import-revised",
     "target": {
       "slotId": 0,
       "verb": "finire",
@@ -207,13 +198,12 @@
     "band": 1
   },
   {
-    "id": "sent-imp-110",
+    "id": "imperfetto-0010",
     "textTemplate": "Da ragazzi noi {slot_0} spesso la musica rock alla radio.",
     "primaryTense": "imperfetto",
     "level": 11,
     "difficulty": 2,
     "theme": "home_lifestyle",
-    "source": "import-revised",
     "target": {
       "slotId": 0,
       "verb": "ascoltare",
@@ -230,13 +220,12 @@
     "band": 1
   },
   {
-    "id": "sent-imp-111",
+    "id": "imperfetto-0011",
     "textTemplate": "Ogni estate noi {slot_0} in montagna per sfuggire al caldo.",
     "primaryTense": "imperfetto",
     "level": 12,
     "difficulty": 2,
     "theme": "travel_commuting",
-    "source": "import-revised",
     "target": {
       "slotId": 0,
       "verb": "andare",
@@ -253,13 +242,12 @@
     "band": 2
   },
   {
-    "id": "sent-imp-112",
+    "id": "imperfetto-0012",
     "textTemplate": "Di solito tu {slot_0} la spesa nel mercato rionale il sabato.",
     "primaryTense": "imperfetto",
     "level": 13,
     "difficulty": 2,
     "theme": "daily_routine",
-    "source": "import-revised",
     "target": {
       "slotId": 0,
       "verb": "fare",
@@ -276,13 +264,12 @@
     "band": 2
   },
   {
-    "id": "sent-imp-113",
+    "id": "imperfetto-0013",
     "textTemplate": "Da ragazza, mia madre {slot_0} spesso il pianoforte dopo cena.",
     "primaryTense": "imperfetto",
     "level": 14,
     "difficulty": 2,
     "theme": "home_lifestyle",
-    "source": "import-revised",
     "target": {
       "slotId": 0,
       "verb": "suonare",
@@ -299,13 +286,12 @@
     "band": 2
   },
   {
-    "id": "sent-imp-114",
+    "id": "imperfetto-0014",
     "textTemplate": "Negli anni passati i miei colleghi {slot_0} sempre in ufficio alle otto.",
     "primaryTense": "imperfetto",
     "level": 11,
     "difficulty": 2,
     "theme": "work_office",
-    "source": "import-revised",
     "target": {
       "slotId": 0,
       "verb": "arrivare",
@@ -322,13 +308,12 @@
     "band": 1
   },
   {
-    "id": "sent-imp-115",
+    "id": "imperfetto-0015",
     "textTemplate": "Nel fine settimana io {slot_0} sempre un libro giallo sul divano.",
     "primaryTense": "imperfetto",
     "level": 13,
     "difficulty": 2,
     "theme": "leisure",
-    "source": "import-revised",
     "target": {
       "slotId": 0,
       "verb": "leggere",
@@ -345,13 +330,12 @@
     "band": 2
   },
   {
-    "id": "sent-imp-116",
+    "id": "imperfetto-0016",
     "textTemplate": "Ogni mattina tu {slot_0} il caffè con la moka tradizionale.",
     "primaryTense": "imperfetto",
     "level": 13,
     "difficulty": 2,
     "theme": "daily_routine",
-    "source": "import-revised",
     "target": {
       "slotId": 0,
       "verb": "preparare",
@@ -368,13 +352,12 @@
     "band": 2
   },
   {
-    "id": "sent-imp-117",
+    "id": "imperfetto-0017",
     "textTemplate": "Durante l'università noi {slot_0} spesso a mangiare una pizza.",
     "primaryTense": "imperfetto",
     "level": 12,
     "difficulty": 2,
     "theme": "social_life",
-    "source": "import-revised",
     "target": {
       "slotId": 0,
       "verb": "uscire",
@@ -391,13 +374,12 @@
     "band": 2
   },
   {
-    "id": "sent-imp-118",
+    "id": "imperfetto-0018",
     "textTemplate": "Da piccoli voi {slot_0} molte ore a giocare nel giardino di casa.",
     "primaryTense": "imperfetto",
     "level": 11,
     "difficulty": 2,
     "theme": "home_lifestyle",
-    "source": "import-revised",
     "target": {
       "slotId": 0,
       "verb": "passare",
@@ -414,13 +396,12 @@
     "band": 1
   },
   {
-    "id": "sent-imp-119",
+    "id": "imperfetto-0019",
     "textTemplate": "Ogni venerdì pomeriggio il direttore {slot_0} un report dettagliato.",
     "primaryTense": "imperfetto",
     "level": 14,
     "difficulty": 2,
     "theme": "work_office",
-    "source": "import-revised",
     "target": {
       "slotId": 0,
       "verb": "scrivere",
@@ -437,13 +418,12 @@
     "band": 2
   },
   {
-    "id": "sent-imp-120",
+    "id": "imperfetto-0020",
     "textTemplate": "In passato i miei nonni {slot_0} sempre in treno.",
     "primaryTense": "imperfetto",
     "level": 12,
     "difficulty": 2,
     "theme": "travel_commuting",
-    "source": "import-revised",
     "target": {
       "slotId": 0,
       "verb": "viaggiare",
@@ -460,13 +440,12 @@
     "band": 2
   },
   {
-    "id": "sent-imp-121",
+    "id": "imperfetto-0021",
     "textTemplate": "Mentre io {slot_0} la cena, squillò improvvisamente il telefono.",
     "primaryTense": "imperfetto",
     "level": 13,
     "difficulty": 2,
     "theme": "home_lifestyle",
-    "source": "import-revised",
     "target": {
       "slotId": 0,
       "verb": "cucinare",
@@ -483,13 +462,12 @@
     "band": 2
   },
   {
-    "id": "sent-imp-122",
+    "id": "imperfetto-0022",
     "textTemplate": "Mentre tu {slot_0} i documenti, il direttore entrò nell'ufficio.",
     "primaryTense": "imperfetto",
     "level": 14,
     "difficulty": 2,
     "theme": "work_office",
-    "source": "import-revised",
     "target": {
       "slotId": 0,
       "verb": "leggere",
@@ -506,13 +484,12 @@
     "band": 2
   },
   {
-    "id": "sent-imp-123",
+    "id": "imperfetto-0023",
     "textTemplate": "Mentre noi {slot_0} in autostrada, iniziò a piovere forte.",
     "primaryTense": "imperfetto",
     "level": 11,
     "difficulty": 2,
     "theme": "travel_commuting",
-    "source": "import-revised",
     "target": {
       "slotId": 0,
       "verb": "guidare",
@@ -529,13 +506,12 @@
     "band": 2
   },
   {
-    "id": "sent-imp-124",
+    "id": "imperfetto-0024",
     "textTemplate": "Mentre i bambini {slot_0} nel parco, i genitori parlavano seduti.",
     "primaryTense": "imperfetto",
     "level": 12,
     "difficulty": 2,
     "theme": "leisure",
-    "source": "import-revised",
     "target": {
       "slotId": 0,
       "verb": "giocare",
@@ -552,13 +528,12 @@
     "band": 2
   },
   {
-    "id": "sent-imp-125",
+    "id": "imperfetto-0025",
     "textTemplate": "Mentre Anna {slot_0} i documenti per data, Marco preparava il caffè.",
     "primaryTense": "imperfetto",
     "level": 13,
     "difficulty": 2,
     "theme": "home_lifestyle",
-    "source": "import-revised",
     "target": {
       "slotId": 0,
       "verb": "ordinare",
@@ -575,13 +550,12 @@
     "band": 2
   },
   {
-    "id": "sent-imp-126",
+    "id": "imperfetto-0026",
     "textTemplate": "Mentre voi {slot_0} il report, io controllavo i dati finanziari.",
     "primaryTense": "imperfetto",
     "level": 12,
     "difficulty": 2,
     "theme": "work_office",
-    "source": "import-revised",
     "target": {
       "slotId": 0,
       "verb": "scrivere",
@@ -598,13 +572,12 @@
     "band": 2
   },
   {
-    "id": "sent-imp-127",
-    "textTemplate": "Mentre io {slot_0} la doccia, suonò il corriere alla porta.",
+    "id": "imperfetto-0027",
+    "textTemplate": "Mentre io {slot_0} la doccia, il corriere ha suonato alla porta.",
     "primaryTense": "imperfetto",
     "level": 13,
     "difficulty": 2,
     "theme": "daily_routine",
-    "source": "import-revised",
     "target": {
       "slotId": 0,
       "verb": "fare",
@@ -621,13 +594,12 @@
     "band": 2
   },
   {
-    "id": "sent-imp-128",
+    "id": "imperfetto-0028",
     "textTemplate": "Mentre tu {slot_0} con Maria, io ordinavo le pizze al tavolo.",
     "primaryTense": "imperfetto",
     "level": 12,
     "difficulty": 2,
     "theme": "social_life",
-    "source": "import-revised",
     "target": {
       "slotId": 0,
       "verb": "parlare",
@@ -644,13 +616,12 @@
     "band": 2
   },
   {
-    "id": "sent-imp-129",
+    "id": "imperfetto-0029",
     "textTemplate": "Mentre noi {slot_0} la televisione, fuori c'era un temporale.",
     "primaryTense": "imperfetto",
     "level": 13,
     "difficulty": 2,
     "theme": "leisure",
-    "source": "import-revised",
     "target": {
       "slotId": 0,
       "verb": "guardare",
@@ -667,13 +638,12 @@
     "band": 2
   },
   {
-    "id": "sent-imp-130",
+    "id": "imperfetto-0030",
     "textTemplate": "Mentre i vicini {slot_0} una festa, noi cercavamo di dormire.",
     "primaryTense": "imperfetto",
     "level": 13,
     "difficulty": 2,
     "theme": "home_lifestyle",
-    "source": "import-revised",
     "target": {
       "slotId": 0,
       "verb": "fare",
@@ -690,13 +660,12 @@
     "band": 2
   },
   {
-    "id": "sent-imp-131",
+    "id": "imperfetto-0031",
     "textTemplate": "Ieri pomeriggio il cielo {slot_0} grigio e tirava un vento freddo.",
     "primaryTense": "imperfetto",
     "level": 14,
     "difficulty": 2,
     "theme": "travel_commuting",
-    "source": "import-revised",
     "target": {
       "slotId": 0,
       "verb": "essere",
@@ -713,13 +682,12 @@
     "band": 2
   },
   {
-    "id": "sent-imp-132",
+    "id": "imperfetto-0032",
     "textTemplate": "Nella vecchia casa di campagna non c'{slot_0} l'aria condizionata.",
     "primaryTense": "imperfetto",
     "level": 12,
     "difficulty": 2,
     "theme": "home_lifestyle",
-    "source": "import-revised",
     "target": {
       "slotId": 0,
       "verb": "essere",
@@ -736,13 +704,12 @@
     "band": 2
   },
   {
-    "id": "sent-imp-133",
+    "id": "imperfetto-0033",
     "textTemplate": "Alla festa di compleanno c'{slot_0} tantissime persone che ballavano.",
     "primaryTense": "imperfetto",
     "level": 13,
     "difficulty": 2,
     "theme": "social_life",
-    "source": "import-revised",
     "target": {
       "slotId": 0,
       "verb": "essere",
@@ -759,13 +726,12 @@
     "band": 2
   },
   {
-    "id": "sent-imp-134",
+    "id": "imperfetto-0034",
     "textTemplate": "Da ragazzo io {slot_0} collezionare francobolli rari da tutto il mondo.",
     "primaryTense": "imperfetto",
     "level": 13,
     "difficulty": 2,
     "theme": "leisure",
-    "source": "import-revised",
     "target": {
       "slotId": 0,
       "verb": "amare",
@@ -782,13 +748,12 @@
     "band": 2
   },
   {
-    "id": "sent-imp-135",
+    "id": "imperfetto-0035",
     "textTemplate": "Nel vecchio ufficio tu {slot_0} una scrivania molto più grande.",
     "primaryTense": "imperfetto",
     "level": 12,
     "difficulty": 2,
     "theme": "work_office",
-    "source": "import-revised",
     "target": {
       "slotId": 0,
       "verb": "avere",
@@ -805,13 +770,12 @@
     "band": 2
   },
   {
-    "id": "sent-imp-136",
+    "id": "imperfetto-0036",
     "textTemplate": "Prima della riforma aziendale, noi {slot_0} iniziare alle nove in punto.",
     "primaryTense": "imperfetto",
     "level": 13,
     "difficulty": 2,
     "theme": "daily_routine",
-    "source": "import-revised",
     "target": {
       "slotId": 0,
       "verb": "dovere",
@@ -828,13 +792,12 @@
     "band": 2
   },
   {
-    "id": "sent-imp-137",
+    "id": "imperfetto-0037",
     "textTemplate": "Quando viveva in città, Marco {slot_0} viaggiare sempre con i mezzi pubblici.",
     "primaryTense": "imperfetto",
     "level": 14,
     "difficulty": 2,
     "theme": "home_lifestyle",
-    "source": "import-revised",
     "target": {
       "slotId": 0,
       "verb": "volere",
@@ -851,13 +814,12 @@
     "band": 2
   },
   {
-    "id": "sent-imp-138",
+    "id": "imperfetto-0038",
     "textTemplate": "L'estate scorsa le spiagge {slot_0} affollate già dalle prime ore del mattino.",
     "primaryTense": "imperfetto",
     "level": 12,
     "difficulty": 2,
     "theme": "travel_commuting",
-    "source": "import-revised",
     "target": {
       "slotId": 0,
       "verb": "essere",
@@ -874,13 +836,12 @@
     "band": 2
   },
   {
-    "id": "sent-imp-139",
+    "id": "imperfetto-0039",
     "textTemplate": "Ogni volta che andavamo al museo, voi {slot_0} tutte le opere d'arte.",
     "primaryTense": "imperfetto",
     "level": 14,
     "difficulty": 2,
     "theme": "leisure",
-    "source": "import-revised",
     "target": {
       "slotId": 0,
       "verb": "fotografare",
@@ -897,13 +858,12 @@
     "band": 2
   },
   {
-    "id": "sent-imp-140",
+    "id": "imperfetto-0040",
     "textTemplate": "Nel millenovecentonovantanove io {slot_0} in un piccolo negozio di dischi.",
     "primaryTense": "imperfetto",
     "level": 14,
     "difficulty": 2,
     "theme": "work_office",
-    "source": "import-revised",
     "target": {
       "slotId": 0,
       "verb": "lavorare",
@@ -920,13 +880,12 @@
     "band": 2
   },
   {
-    "id": "corpus-imperfetto-001",
+    "id": "imperfetto-0041",
     "textTemplate": "Quando lavoravo al forno, io {slot_0} alle quattro.",
     "primaryTense": "imperfetto",
     "level": 13,
     "difficulty": 1,
     "theme": "vita_quotidiana",
-    "source": "authored",
     "target": {
       "slotId": 0,
       "verb": "alzarsi",
@@ -943,13 +902,12 @@
     "band": 1
   },
   {
-    "id": "corpus-imperfetto-002",
+    "id": "imperfetto-0042",
     "textTemplate": "Da piccolo tu {slot_0} dal letto appena sentivi il cane.",
     "primaryTense": "imperfetto",
     "level": 14,
     "difficulty": 1,
     "theme": "vita_quotidiana",
-    "source": "authored",
     "target": {
       "slotId": 0,
       "verb": "alzarsi",
@@ -966,13 +924,12 @@
     "band": 1
   },
   {
-    "id": "corpus-imperfetto-003",
+    "id": "imperfetto-0043",
     "textTemplate": "Durante le assemblee gli studenti {slot_0} per chiedere la parola.",
     "primaryTense": "imperfetto",
     "level": 13,
     "difficulty": 1,
     "theme": "vita_quotidiana",
-    "source": "authored",
     "target": {
       "slotId": 0,
       "verb": "alzarsi",
@@ -989,13 +946,12 @@
     "band": 1
   },
   {
-    "id": "corpus-imperfetto-004",
+    "id": "imperfetto-0044",
     "textTemplate": "Da adolescente io {slot_0} passare i pomeriggi in biblioteca.",
     "primaryTense": "imperfetto",
     "level": 12,
     "difficulty": 1,
     "theme": "vita_quotidiana",
-    "source": "authored",
     "target": {
       "slotId": 0,
       "verb": "amare",
@@ -1012,13 +968,12 @@
     "band": 1
   },
   {
-    "id": "corpus-imperfetto-005",
+    "id": "imperfetto-0045",
     "textTemplate": "La mia vecchia insegnante {slot_0} le domande difficili.",
     "primaryTense": "imperfetto",
     "level": 13,
     "difficulty": 1,
     "theme": "vita_quotidiana",
-    "source": "authored",
     "target": {
       "slotId": 0,
       "verb": "amare",
@@ -1035,13 +990,12 @@
     "band": 1
   },
   {
-    "id": "corpus-imperfetto-006",
+    "id": "imperfetto-0046",
     "textTemplate": "Quando abitavamo al mare, noi {slot_0} le giornate di vento.",
     "primaryTense": "imperfetto",
     "level": 14,
     "difficulty": 1,
     "theme": "vita_quotidiana",
-    "source": "authored",
     "target": {
       "slotId": 0,
       "verb": "amare",
@@ -1058,13 +1012,12 @@
     "band": 1
   },
   {
-    "id": "corpus-imperfetto-007",
+    "id": "imperfetto-0047",
     "textTemplate": "Quando eri in vacanza dai nonni, tu {slot_0} al fiume ogni giorno.",
     "primaryTense": "imperfetto",
     "level": 13,
     "difficulty": 2,
     "theme": "vita_quotidiana",
-    "source": "authored",
     "target": {
       "slotId": 0,
       "verb": "andare",
@@ -1081,13 +1034,12 @@
     "band": 2
   },
   {
-    "id": "corpus-imperfetto-008",
+    "id": "imperfetto-0048",
     "textTemplate": "Prima del trasloco noi {slot_0} al lavoro in tram.",
     "primaryTense": "imperfetto",
     "level": 14,
     "difficulty": 2,
     "theme": "vita_quotidiana",
-    "source": "authored",
     "target": {
       "slotId": 0,
       "verb": "andare",
@@ -1104,13 +1056,12 @@
     "band": 2
   },
   {
-    "id": "corpus-imperfetto-009",
+    "id": "imperfetto-0049",
     "textTemplate": "Da ragazzi i miei genitori {slot_0} spesso a ballare.",
     "primaryTense": "imperfetto",
     "level": 12,
     "difficulty": 2,
     "theme": "vita_quotidiana",
-    "source": "authored",
     "target": {
       "slotId": 0,
       "verb": "andare",
@@ -1127,13 +1078,12 @@
     "band": 2
   },
   {
-    "id": "corpus-imperfetto-010",
+    "id": "imperfetto-0050",
     "textTemplate": "All'epoca io {slot_0} il progetto, ma poi ho cambiato idea.",
     "primaryTense": "imperfetto",
     "level": 13,
     "difficulty": 1,
     "theme": "vita_quotidiana",
-    "source": "authored",
     "target": {
       "slotId": 0,
       "verb": "approvare",
@@ -1150,13 +1100,12 @@
     "band": 1
   },
   {
-    "id": "corpus-imperfetto-011",
+    "id": "imperfetto-0051",
     "textTemplate": "Durante quegli incontri voi {slot_0} sempre le proposte più semplici.",
     "primaryTense": "imperfetto",
     "level": 14,
     "difficulty": 1,
     "theme": "vita_quotidiana",
-    "source": "authored",
     "target": {
       "slotId": 0,
       "verb": "approvare",
@@ -1173,13 +1122,12 @@
     "band": 1
   },
   {
-    "id": "corpus-imperfetto-012",
+    "id": "imperfetto-0052",
     "textTemplate": "Quando faceva caldo, tu {slot_0} tutte le finestre.",
     "primaryTense": "imperfetto",
     "level": 12,
     "difficulty": 2,
     "theme": "vita_quotidiana",
-    "source": "authored",
     "target": {
       "slotId": 0,
       "verb": "aprire",
@@ -1196,13 +1144,12 @@
     "band": 2
   },
   {
-    "id": "corpus-imperfetto-013",
+    "id": "imperfetto-0053",
     "textTemplate": "Da bambini noi {slot_0} i regali appena svegli.",
     "primaryTense": "imperfetto",
     "level": 13,
     "difficulty": 2,
     "theme": "vita_quotidiana",
-    "source": "authored",
     "target": {
       "slotId": 0,
       "verb": "aprire",
@@ -1219,13 +1166,12 @@
     "band": 2
   },
   {
-    "id": "corpus-imperfetto-014",
+    "id": "imperfetto-0054",
     "textTemplate": "Prima della riforma gli uffici {slot_0} anche il sabato.",
     "primaryTense": "imperfetto",
     "level": 14,
     "difficulty": 2,
     "theme": "vita_quotidiana",
-    "source": "authored",
     "target": {
       "slotId": 0,
       "verb": "aprire",
@@ -1242,13 +1188,12 @@
     "band": 2
   },
   {
-    "id": "corpus-imperfetto-015",
+    "id": "imperfetto-0055",
     "textTemplate": "Quando prendevo il primo treno, io {slot_0} prima di tutti.",
     "primaryTense": "imperfetto",
     "level": 14,
     "difficulty": 1,
     "theme": "vita_quotidiana",
-    "source": "authored",
     "target": {
       "slotId": 0,
       "verb": "arrivare",
@@ -1265,13 +1210,12 @@
     "band": 1
   },
   {
-    "id": "corpus-imperfetto-016",
+    "id": "imperfetto-0056",
     "textTemplate": "In inverno la luce {slot_0} in cucina solo verso mezzogiorno.",
     "primaryTense": "imperfetto",
     "level": 11,
     "difficulty": 1,
     "theme": "vita_quotidiana",
-    "source": "authored",
     "target": {
       "slotId": 0,
       "verb": "arrivare",
@@ -1288,13 +1232,12 @@
     "band": 1
   },
   {
-    "id": "corpus-imperfetto-017",
+    "id": "imperfetto-0057",
     "textTemplate": "A quei tempi voi {slot_0} alla festa sempre con una torta.",
     "primaryTense": "imperfetto",
     "level": 12,
     "difficulty": 1,
     "theme": "vita_quotidiana",
-    "source": "authored",
     "target": {
       "slotId": 0,
       "verb": "arrivare",
@@ -1311,13 +1254,12 @@
     "band": 1
   },
   {
-    "id": "corpus-imperfetto-018",
+    "id": "imperfetto-0058",
     "textTemplate": "Mentre io {slot_0} la radio, mio fratello preparava la cena.",
     "primaryTense": "imperfetto",
     "level": 13,
     "difficulty": 1,
     "theme": "vita_quotidiana",
-    "source": "authored",
     "target": {
       "slotId": 0,
       "verb": "ascoltare",
@@ -1334,13 +1276,12 @@
     "band": 1
   },
   {
-    "id": "corpus-imperfetto-019",
+    "id": "imperfetto-0059",
     "textTemplate": "Da piccolo tu {slot_0} la stessa fiaba ogni sera.",
     "primaryTense": "imperfetto",
     "level": 14,
     "difficulty": 1,
     "theme": "vita_quotidiana",
-    "source": "authored",
     "target": {
       "slotId": 0,
       "verb": "ascoltare",
@@ -1357,13 +1298,12 @@
     "band": 1
   },
   {
-    "id": "corpus-imperfetto-020",
+    "id": "imperfetto-0060",
     "textTemplate": "Durante le lezioni all'aperto noi {slot_0} anche il canto degli uccelli.",
     "primaryTense": "imperfetto",
     "level": 14,
     "difficulty": 1,
     "theme": "vita_quotidiana",
-    "source": "authored",
     "target": {
       "slotId": 0,
       "verb": "ascoltare",
@@ -1380,13 +1320,12 @@
     "band": 1
   },
   {
-    "id": "corpus-imperfetto-021",
+    "id": "imperfetto-0061",
     "textTemplate": "Quando sono entrato, la nonna {slot_0} già vicino alla porta.",
     "primaryTense": "imperfetto",
     "level": 11,
     "difficulty": 1,
     "theme": "vita_quotidiana",
-    "source": "authored",
     "target": {
       "slotId": 0,
       "verb": "aspettare",
@@ -1403,13 +1342,12 @@
     "band": 1
   },
   {
-    "id": "corpus-imperfetto-022",
+    "id": "imperfetto-0062",
     "textTemplate": "Mentre voi {slot_0} il treno, qualcuno ha trovato il portafoglio.",
     "primaryTense": "imperfetto",
     "level": 12,
     "difficulty": 1,
     "theme": "vita_quotidiana",
-    "source": "authored",
     "target": {
       "slotId": 0,
       "verb": "aspettare",
@@ -1426,13 +1364,12 @@
     "band": 1
   },
   {
-    "id": "corpus-imperfetto-023",
+    "id": "imperfetto-0063",
     "textTemplate": "Ogni venerdì i bambini {slot_0} il furgone dei gelati.",
     "primaryTense": "imperfetto",
     "level": 13,
     "difficulty": 1,
     "theme": "vita_quotidiana",
-    "source": "authored",
     "target": {
       "slotId": 0,
       "verb": "aspettare",
@@ -1449,13 +1386,12 @@
     "band": 1
   },
   {
-    "id": "corpus-imperfetto-024",
+    "id": "imperfetto-0064",
     "textTemplate": "Nel vecchio appartamento io {slot_0} una finestra sul cortile.",
     "primaryTense": "imperfetto",
     "level": 12,
     "difficulty": 2,
     "theme": "vita_quotidiana",
-    "source": "authored",
     "target": {
       "slotId": 0,
       "verb": "avere",
@@ -1472,13 +1408,12 @@
     "band": 2
   },
   {
-    "id": "corpus-imperfetto-025",
+    "id": "imperfetto-0065",
     "textTemplate": "Da bambino tu {slot_0} paura dei temporali?",
     "primaryTense": "imperfetto",
     "level": 13,
     "difficulty": 2,
     "theme": "vita_quotidiana",
-    "source": "authored",
     "target": {
       "slotId": 0,
       "verb": "avere",
@@ -1495,13 +1430,12 @@
     "band": 2
   },
   {
-    "id": "corpus-imperfetto-026",
+    "id": "imperfetto-0066",
     "textTemplate": "Quando vivevamo insieme, noi {slot_0} una sola bicicletta.",
     "primaryTense": "imperfetto",
     "level": 14,
     "difficulty": 2,
     "theme": "vita_quotidiana",
-    "source": "authored",
     "target": {
       "slotId": 0,
       "verb": "avere",
@@ -1518,13 +1452,12 @@
     "band": 2
   },
   {
-    "id": "corpus-imperfetto-027",
+    "id": "imperfetto-0067",
     "textTemplate": "Prima di cambiare abitudini, Marco {slot_0} troppo caffè.",
     "primaryTense": "imperfetto",
     "level": 12,
     "difficulty": 2,
     "theme": "vita_quotidiana",
-    "source": "authored",
     "target": {
       "slotId": 0,
       "verb": "bere",
@@ -1541,13 +1474,12 @@
     "band": 2
   },
   {
-    "id": "corpus-imperfetto-028",
+    "id": "imperfetto-0068",
     "textTemplate": "Mentre gli ospiti {slot_0} il tè, fuori cominciava a nevicare.",
     "primaryTense": "imperfetto",
     "level": 13,
     "difficulty": 2,
     "theme": "vita_quotidiana",
-    "source": "authored",
     "target": {
       "slotId": 0,
       "verb": "bere",
@@ -1564,13 +1496,12 @@
     "band": 2
   },
   {
-    "id": "corpus-imperfetto-029",
+    "id": "imperfetto-0069",
     "textTemplate": "All'inizio del corso io {slot_0} solo qualche parola.",
     "primaryTense": "imperfetto",
     "level": 11,
     "difficulty": 1,
     "theme": "vita_quotidiana",
-    "source": "authored",
     "target": {
       "slotId": 0,
       "verb": "capire",
@@ -1587,13 +1518,12 @@
     "band": 1
   },
   {
-    "id": "corpus-imperfetto-030",
+    "id": "imperfetto-0070",
     "textTemplate": "Quando vivevi qui, tu {slot_0} il dialetto del paese?",
     "primaryTense": "imperfetto",
     "level": 11,
     "difficulty": 1,
     "theme": "vita_quotidiana",
-    "source": "authored",
     "target": {
       "slotId": 0,
       "verb": "capire",
@@ -1610,13 +1540,12 @@
     "band": 1
   },
   {
-    "id": "corpus-imperfetto-031",
+    "id": "imperfetto-0071",
     "textTemplate": "Prima della spiegazione voi non {slot_0} il motivo di quella scelta.",
     "primaryTense": "imperfetto",
     "level": 12,
     "difficulty": 1,
     "theme": "vita_quotidiana",
-    "source": "authored",
     "target": {
       "slotId": 0,
       "verb": "capire",
@@ -1633,13 +1562,12 @@
     "band": 1
   },
   {
-    "id": "corpus-imperfetto-032",
+    "id": "imperfetto-0072",
     "textTemplate": "Mentre io {slot_0} la mensola, mia sorella misurava la parete.",
     "primaryTense": "imperfetto",
     "level": 13,
     "difficulty": 1,
     "theme": "vita_quotidiana",
-    "source": "authored",
     "target": {
       "slotId": 0,
       "verb": "costruire",
@@ -1656,13 +1584,12 @@
     "band": 1
   },
   {
-    "id": "corpus-imperfetto-033",
+    "id": "imperfetto-0073",
     "textTemplate": "Da ragazzo mio padre {slot_0} aquiloni con la carta dei giornali.",
     "primaryTense": "imperfetto",
     "level": 14,
     "difficulty": 1,
     "theme": "vita_quotidiana",
-    "source": "authored",
     "target": {
       "slotId": 0,
       "verb": "costruire",
@@ -1679,13 +1606,12 @@
     "band": 1
   },
   {
-    "id": "corpus-imperfetto-034",
+    "id": "imperfetto-0074",
     "textTemplate": "Negli anni Sessanta gli operai {slot_0} il nuovo quartiere.",
     "primaryTense": "imperfetto",
     "level": 11,
     "difficulty": 1,
     "theme": "vita_quotidiana",
-    "source": "authored",
     "target": {
       "slotId": 0,
       "verb": "costruire",
@@ -1702,13 +1628,12 @@
     "band": 1
   },
   {
-    "id": "corpus-imperfetto-035",
+    "id": "imperfetto-0075",
     "textTemplate": "Quando abitavi da solo, tu {slot_0} anche per i vicini.",
     "primaryTense": "imperfetto",
     "level": 12,
     "difficulty": 1,
     "theme": "vita_quotidiana",
-    "source": "authored",
     "target": {
       "slotId": 0,
       "verb": "cucinare",
@@ -1725,13 +1650,12 @@
     "band": 1
   },
   {
-    "id": "corpus-imperfetto-036",
+    "id": "imperfetto-0076",
     "textTemplate": "Durante il campeggio noi {slot_0} su un piccolo fornello.",
     "primaryTense": "imperfetto",
     "level": 13,
     "difficulty": 1,
     "theme": "vita_quotidiana",
-    "source": "authored",
     "target": {
       "slotId": 0,
       "verb": "cucinare",
@@ -1748,13 +1672,12 @@
     "band": 1
   },
   {
-    "id": "corpus-imperfetto-037",
+    "id": "imperfetto-0077",
     "textTemplate": "Mentre voi {slot_0}, io cercavo una tovaglia pulita.",
     "primaryTense": "imperfetto",
     "level": 14,
     "difficulty": 1,
     "theme": "vita_quotidiana",
-    "source": "authored",
     "target": {
       "slotId": 0,
       "verb": "cucinare",
@@ -1771,13 +1694,12 @@
     "band": 1
   },
   {
-    "id": "corpus-imperfetto-038",
-    "textTemplate": "Quando mia madre era via, io {slot_0} il suo orto.",
+    "id": "imperfetto-0078",
+    "textTemplate": "Quando mia madre era in viaggio, io {slot_0} il suo orto.",
     "primaryTense": "imperfetto",
     "level": 11,
     "difficulty": 1,
     "theme": "vita_quotidiana",
-    "source": "authored",
     "target": {
       "slotId": 0,
       "verb": "curare",
@@ -1794,13 +1716,12 @@
     "band": 1
   },
   {
-    "id": "corpus-imperfetto-039",
+    "id": "imperfetto-0079",
     "textTemplate": "Prima della pensione la dottoressa {slot_0} soprattutto bambini.",
     "primaryTense": "imperfetto",
     "level": 12,
     "difficulty": 1,
     "theme": "vita_quotidiana",
-    "source": "authored",
     "target": {
       "slotId": 0,
       "verb": "curare",
@@ -1817,13 +1738,12 @@
     "band": 1
   },
   {
-    "id": "corpus-imperfetto-040",
+    "id": "imperfetto-0080",
     "textTemplate": "Da piccolo tu {slot_0} sempre lo zaino nello spogliatoio.",
     "primaryTense": "imperfetto",
     "level": 12,
     "difficulty": 1,
     "theme": "vita_quotidiana",
-    "source": "authored",
     "target": {
       "slotId": 0,
       "verb": "dimenticare",
@@ -1840,13 +1760,12 @@
     "band": 1
   },
   {
-    "id": "corpus-imperfetto-041",
+    "id": "imperfetto-0081",
     "textTemplate": "Quando eravamo stanchi, noi {slot_0} anche le cose più semplici.",
     "primaryTense": "imperfetto",
     "level": 13,
     "difficulty": 1,
     "theme": "vita_quotidiana",
-    "source": "authored",
     "target": {
       "slotId": 0,
       "verb": "dimenticare",
@@ -1863,13 +1782,12 @@
     "band": 1
   },
   {
-    "id": "corpus-imperfetto-042",
+    "id": "imperfetto-0082",
     "textTemplate": "Prima di usare un calendario, voi {slot_0} spesso gli appuntamenti.",
     "primaryTense": "imperfetto",
     "level": 14,
     "difficulty": 1,
     "theme": "vita_quotidiana",
-    "source": "authored",
     "target": {
       "slotId": 0,
       "verb": "dimenticare",
@@ -1886,13 +1804,12 @@
     "band": 1
   },
   {
-    "id": "corpus-imperfetto-043",
+    "id": "imperfetto-0083",
     "textTemplate": "Da bambino io {slot_0} di voler diventare un esploratore.",
     "primaryTense": "imperfetto",
     "level": 13,
     "difficulty": 2,
     "theme": "vita_quotidiana",
-    "source": "authored",
     "target": {
       "slotId": 0,
       "verb": "dire",
@@ -1909,13 +1826,12 @@
     "band": 2
   },
   {
-    "id": "corpus-imperfetto-044",
+    "id": "imperfetto-0084",
     "textTemplate": "Il vecchio cartello {slot_0} che il ponte era chiuso.",
     "primaryTense": "imperfetto",
     "level": 14,
     "difficulty": 2,
     "theme": "vita_quotidiana",
-    "source": "authored",
     "target": {
       "slotId": 0,
       "verb": "dire",
@@ -1932,13 +1848,12 @@
     "band": 2
   },
   {
-    "id": "corpus-imperfetto-045",
-    "textTemplate": "A quei tempi tutti {slot_0} che il paese sarebbe rimasto vuoto.",
+    "id": "imperfetto-0085",
+    "textTemplate": "A quei tempi tutti {slot_0} che la piazza era il cuore del paese.",
     "primaryTense": "imperfetto",
     "level": 12,
     "difficulty": 2,
     "theme": "vita_quotidiana",
-    "source": "authored",
     "target": {
       "slotId": 0,
       "verb": "dire",
@@ -1955,13 +1870,12 @@
     "band": 2
   },
   {
-    "id": "corpus-imperfetto-046",
+    "id": "imperfetto-0086",
     "textTemplate": "Quando eri piccolo, tu {slot_0} con un peluche enorme.",
     "primaryTense": "imperfetto",
     "level": 14,
     "difficulty": 1,
     "theme": "vita_quotidiana",
-    "source": "authored",
     "target": {
       "slotId": 0,
       "verb": "dormire",
@@ -1978,13 +1892,12 @@
     "band": 1
   },
   {
-    "id": "corpus-imperfetto-047",
+    "id": "imperfetto-0087",
     "textTemplate": "Durante i lavori in casa noi {slot_0} dai nonni.",
     "primaryTense": "imperfetto",
     "level": 11,
     "difficulty": 1,
     "theme": "vita_quotidiana",
-    "source": "authored",
     "target": {
       "slotId": 0,
       "verb": "dormire",
@@ -2001,13 +1914,12 @@
     "band": 1
   },
   {
-    "id": "corpus-imperfetto-048",
+    "id": "imperfetto-0088",
     "textTemplate": "Quando lavoravo in negozio, io {slot_0} indossare una divisa.",
     "primaryTense": "imperfetto",
     "level": 12,
     "difficulty": 2,
     "theme": "vita_quotidiana",
-    "source": "authored",
     "target": {
       "slotId": 0,
       "verb": "dovere",
@@ -2024,13 +1936,12 @@
     "band": 2
   },
   {
-    "id": "corpus-imperfetto-049",
+    "id": "imperfetto-0089",
     "textTemplate": "Prima del rinnovo, il museo {slot_0} chiudere quando pioveva.",
     "primaryTense": "imperfetto",
     "level": 13,
     "difficulty": 2,
     "theme": "vita_quotidiana",
-    "source": "authored",
     "target": {
       "slotId": 0,
       "verb": "dovere",
@@ -2047,13 +1958,12 @@
     "band": 2
   },
   {
-    "id": "corpus-imperfetto-050",
+    "id": "imperfetto-0090",
     "textTemplate": "Da studenti noi {slot_0} dividere tutte le spese.",
     "primaryTense": "imperfetto",
     "level": 14,
     "difficulty": 2,
     "theme": "vita_quotidiana",
-    "source": "authored",
     "target": {
       "slotId": 0,
       "verb": "dovere",
@@ -2070,13 +1980,12 @@
     "band": 2
   },
   {
-    "id": "corpus-imperfetto-051",
+    "id": "imperfetto-0091",
     "textTemplate": "Da bambino tu {slot_0} molto curioso.",
     "primaryTense": "imperfetto",
     "level": 12,
     "difficulty": 2,
     "theme": "vita_quotidiana",
-    "source": "authored",
     "target": {
       "slotId": 0,
       "verb": "essere",
@@ -2093,13 +2002,12 @@
     "band": 2
   },
   {
-    "id": "corpus-imperfetto-052",
+    "id": "imperfetto-0092",
     "textTemplate": "Prima dei lavori questa piazza {slot_0} un parcheggio.",
     "primaryTense": "imperfetto",
     "level": 13,
     "difficulty": 2,
     "theme": "vita_quotidiana",
-    "source": "authored",
     "target": {
       "slotId": 0,
       "verb": "essere",
@@ -2116,13 +2024,12 @@
     "band": 2
   },
   {
-    "id": "corpus-imperfetto-053",
+    "id": "imperfetto-0093",
     "textTemplate": "Quando siamo arrivati, le finestre {slot_0} tutte aperte.",
     "primaryTense": "imperfetto",
     "level": 14,
     "difficulty": 2,
     "theme": "vita_quotidiana",
-    "source": "authored",
     "target": {
       "slotId": 0,
       "verb": "essere",
@@ -2139,13 +2046,12 @@
     "band": 2
   },
   {
-    "id": "corpus-imperfetto-054",
+    "id": "imperfetto-0094",
     "textTemplate": "Ogni estate, da ragazzo, io {slot_0} il bagnino.",
     "primaryTense": "imperfetto",
     "level": 12,
     "difficulty": 2,
     "theme": "vita_quotidiana",
-    "source": "authored",
     "target": {
       "slotId": 0,
       "verb": "fare",
@@ -2162,13 +2068,12 @@
     "band": 2
   },
   {
-    "id": "corpus-imperfetto-055",
+    "id": "imperfetto-0095",
     "textTemplate": "Quando abitavamo in centro, noi {slot_0} la spesa a piedi.",
     "primaryTense": "imperfetto",
     "level": 13,
     "difficulty": 2,
     "theme": "vita_quotidiana",
-    "source": "authored",
     "target": {
       "slotId": 0,
       "verb": "fare",
@@ -2185,13 +2090,12 @@
     "band": 2
   },
   {
-    "id": "corpus-imperfetto-056",
+    "id": "imperfetto-0096",
     "textTemplate": "Mentre voi {slot_0} le foto, la guida raccontava la storia del castello.",
     "primaryTense": "imperfetto",
     "level": 14,
     "difficulty": 2,
     "theme": "vita_quotidiana",
-    "source": "authored",
     "target": {
       "slotId": 0,
       "verb": "fare",
@@ -2208,13 +2112,12 @@
     "band": 2
   },
   {
-    "id": "corpus-imperfetto-057",
+    "id": "imperfetto-0097",
     "textTemplate": "Un tempo la strada {slot_0} proprio qui.",
     "primaryTense": "imperfetto",
     "level": 12,
     "difficulty": 1,
     "theme": "vita_quotidiana",
-    "source": "authored",
     "target": {
       "slotId": 0,
       "verb": "finire",
@@ -2231,13 +2134,12 @@
     "band": 1
   },
   {
-    "id": "corpus-imperfetto-058",
+    "id": "imperfetto-0098",
     "textTemplate": "In quel periodo le riunioni {slot_0} sempre dopo il tramonto.",
     "primaryTense": "imperfetto",
     "level": 13,
     "difficulty": 1,
     "theme": "vita_quotidiana",
-    "source": "authored",
     "target": {
       "slotId": 0,
       "verb": "finire",
@@ -2254,13 +2156,12 @@
     "band": 1
   },
   {
-    "id": "corpus-imperfetto-059",
+    "id": "imperfetto-0099",
     "textTemplate": "Quando consegnavo la merce, io {slot_0} un registro ogni mattina.",
     "primaryTense": "imperfetto",
     "level": 14,
     "difficulty": 1,
     "theme": "vita_quotidiana",
-    "source": "authored",
     "target": {
       "slotId": 0,
       "verb": "firmare",
@@ -2277,13 +2178,12 @@
     "band": 1
   },
   {
-    "id": "corpus-imperfetto-060",
+    "id": "imperfetto-0100",
     "textTemplate": "Da bambini noi {slot_0} i disegni con nomi inventati.",
     "primaryTense": "imperfetto",
     "level": 14,
     "difficulty": 1,
     "theme": "vita_quotidiana",
-    "source": "authored",
     "target": {
       "slotId": 0,
       "verb": "firmare",
@@ -2300,13 +2200,12 @@
     "band": 1
   },
   {
-    "id": "corpus-imperfetto-061",
+    "id": "imperfetto-0101",
     "textTemplate": "Durante quel viaggio tu {slot_0} ogni porta colorata.",
     "primaryTense": "imperfetto",
     "level": 11,
     "difficulty": 1,
     "theme": "vita_quotidiana",
-    "source": "authored",
     "target": {
       "slotId": 0,
       "verb": "fotografare",
@@ -2323,13 +2222,12 @@
     "band": 1
   },
   {
-    "id": "corpus-imperfetto-062",
+    "id": "imperfetto-0102",
     "textTemplate": "Mentre voi {slot_0} il panorama, è arrivata la nebbia.",
     "primaryTense": "imperfetto",
     "level": 12,
     "difficulty": 1,
     "theme": "vita_quotidiana",
-    "source": "authored",
     "target": {
       "slotId": 0,
       "verb": "fotografare",
@@ -2346,13 +2244,12 @@
     "band": 1
   },
   {
-    "id": "corpus-imperfetto-063",
+    "id": "imperfetto-0103",
     "textTemplate": "Prima dei telefoni, i turisti {slot_0} con macchine molto più grandi.",
     "primaryTense": "imperfetto",
     "level": 13,
     "difficulty": 1,
     "theme": "vita_quotidiana",
-    "source": "authored",
     "target": {
       "slotId": 0,
       "verb": "fotografare",
@@ -2369,13 +2266,12 @@
     "band": 1
   },
   {
-    "id": "corpus-imperfetto-064",
+    "id": "imperfetto-0104",
     "textTemplate": "Da bambino io {slot_0} in cortile fino all'ora di cena.",
     "primaryTense": "imperfetto",
     "level": 14,
     "difficulty": 1,
     "theme": "vita_quotidiana",
-    "source": "authored",
     "target": {
       "slotId": 0,
       "verb": "giocare",
@@ -2392,13 +2288,12 @@
     "band": 1
   },
   {
-    "id": "corpus-imperfetto-065",
+    "id": "imperfetto-0105",
     "textTemplate": "Nelle sere d'inverno noi {slot_0} a tombola con i nonni.",
     "primaryTense": "imperfetto",
     "level": 11,
     "difficulty": 1,
     "theme": "vita_quotidiana",
-    "source": "authored",
     "target": {
       "slotId": 0,
       "verb": "giocare",
@@ -2415,13 +2310,12 @@
     "band": 1
   },
   {
-    "id": "corpus-imperfetto-066",
+    "id": "imperfetto-0106",
     "textTemplate": "Mentre tu {slot_0} il sole, io cercavo un posto all'ombra.",
     "primaryTense": "imperfetto",
     "level": 14,
     "difficulty": 2,
     "theme": "vita_quotidiana",
-    "source": "authored",
     "target": {
       "slotId": 0,
       "verb": "godersi",
@@ -2438,13 +2332,12 @@
     "band": 2
   },
   {
-    "id": "corpus-imperfetto-067",
+    "id": "imperfetto-0107",
     "textTemplate": "Durante quelle vacanze noi {slot_0} la calma del paese.",
     "primaryTense": "imperfetto",
     "level": 13,
     "difficulty": 2,
     "theme": "vita_quotidiana",
-    "source": "authored",
     "target": {
       "slotId": 0,
       "verb": "godersi",
@@ -2461,13 +2354,12 @@
     "band": 2
   },
   {
-    "id": "corpus-imperfetto-068",
+    "id": "imperfetto-0108",
     "textTemplate": "Quando è iniziata la pioggia, gli ospiti {slot_0} la cena in giardino.",
     "primaryTense": "imperfetto",
     "level": 14,
     "difficulty": 2,
     "theme": "vita_quotidiana",
-    "source": "authored",
     "target": {
       "slotId": 0,
       "verb": "godersi",
@@ -2484,13 +2376,12 @@
     "band": 2
   },
   {
-    "id": "corpus-imperfetto-069",
+    "id": "imperfetto-0109",
     "textTemplate": "Da piccolo io {slot_0} i treni passare dal balcone.",
     "primaryTense": "imperfetto",
     "level": 11,
     "difficulty": 1,
     "theme": "vita_quotidiana",
-    "source": "authored",
     "target": {
       "slotId": 0,
       "verb": "guardare",
@@ -2507,13 +2398,12 @@
     "band": 1
   },
   {
-    "id": "corpus-imperfetto-070",
+    "id": "imperfetto-0110",
     "textTemplate": "Mentre il cane {slot_0} dalla finestra, il gatto dormiva.",
     "primaryTense": "imperfetto",
     "level": 11,
     "difficulty": 1,
     "theme": "vita_quotidiana",
-    "source": "authored",
     "target": {
       "slotId": 0,
       "verb": "guardare",
@@ -2530,13 +2420,12 @@
     "band": 1
   },
   {
-    "id": "corpus-imperfetto-071",
+    "id": "imperfetto-0111",
     "textTemplate": "Quando è saltata la corrente, voi {slot_0} un film.",
     "primaryTense": "imperfetto",
     "level": 12,
     "difficulty": 1,
     "theme": "vita_quotidiana",
-    "source": "authored",
     "target": {
       "slotId": 0,
       "verb": "guardare",
@@ -2553,13 +2442,12 @@
     "band": 1
   },
   {
-    "id": "corpus-imperfetto-072",
+    "id": "imperfetto-0112",
     "textTemplate": "Prima di trasferirti in città, tu {slot_0} ogni giorno.",
     "primaryTense": "imperfetto",
     "level": 13,
     "difficulty": 1,
     "theme": "vita_quotidiana",
-    "source": "authored",
     "target": {
       "slotId": 0,
       "verb": "guidare",
@@ -2576,13 +2464,12 @@
     "band": 1
   },
   {
-    "id": "corpus-imperfetto-073",
+    "id": "imperfetto-0113",
     "textTemplate": "Durante quel viaggio noi {slot_0} soltanto di giorno.",
     "primaryTense": "imperfetto",
     "level": 14,
     "difficulty": 1,
     "theme": "vita_quotidiana",
-    "source": "authored",
     "target": {
       "slotId": 0,
       "verb": "guidare",
@@ -2599,13 +2486,12 @@
     "band": 1
   },
   {
-    "id": "corpus-imperfetto-074",
+    "id": "imperfetto-0114",
     "textTemplate": "Con la nebbia gli autisti {slot_0} molto lentamente.",
     "primaryTense": "imperfetto",
     "level": 11,
     "difficulty": 1,
     "theme": "vita_quotidiana",
-    "source": "authored",
     "target": {
       "slotId": 0,
       "verb": "guidare",
@@ -2622,13 +2508,12 @@
     "band": 1
   },
   {
-    "id": "corpus-imperfetto-075",
+    "id": "imperfetto-0115",
     "textTemplate": "Quando avevo una casa più grande, io {slot_0} spesso gli amici.",
     "primaryTense": "imperfetto",
     "level": 12,
     "difficulty": 1,
     "theme": "vita_quotidiana",
-    "source": "authored",
     "target": {
       "slotId": 0,
       "verb": "invitare",
@@ -2645,13 +2530,12 @@
     "band": 1
   },
   {
-    "id": "corpus-imperfetto-076",
+    "id": "imperfetto-0116",
     "textTemplate": "Ogni primavera la scuola {slot_0} le famiglie a una festa.",
     "primaryTense": "imperfetto",
     "level": 13,
     "difficulty": 1,
     "theme": "vita_quotidiana",
-    "source": "authored",
     "target": {
       "slotId": 0,
       "verb": "invitare",
@@ -2668,13 +2552,12 @@
     "band": 1
   },
   {
-    "id": "corpus-imperfetto-077",
+    "id": "imperfetto-0117",
     "textTemplate": "Da studenti voi {slot_0} tutti a condividere la cena.",
     "primaryTense": "imperfetto",
     "level": 14,
     "difficulty": 1,
     "theme": "vita_quotidiana",
-    "source": "authored",
     "target": {
       "slotId": 0,
       "verb": "invitare",
@@ -2691,13 +2574,12 @@
     "band": 1
   },
   {
-    "id": "corpus-imperfetto-078",
+    "id": "imperfetto-0118",
     "textTemplate": "Quando ci siamo conosciuti, tu {slot_0} in un teatro.",
     "primaryTense": "imperfetto",
     "level": 11,
     "difficulty": 1,
     "theme": "vita_quotidiana",
-    "source": "authored",
     "target": {
       "slotId": 0,
       "verb": "lavorare",
@@ -2714,13 +2596,12 @@
     "band": 1
   },
   {
-    "id": "corpus-imperfetto-079",
+    "id": "imperfetto-0119",
     "textTemplate": "Prima di avere uno studio, noi {slot_0} in cucina.",
     "primaryTense": "imperfetto",
     "level": 12,
     "difficulty": 1,
     "theme": "vita_quotidiana",
-    "source": "authored",
     "target": {
       "slotId": 0,
       "verb": "lavorare",
@@ -2737,13 +2618,12 @@
     "band": 1
   },
   {
-    "id": "corpus-imperfetto-080",
+    "id": "imperfetto-0120",
     "textTemplate": "Mentre i muratori {slot_0}, i vicini tenevano chiuse le finestre.",
     "primaryTense": "imperfetto",
     "level": 12,
     "difficulty": 1,
     "theme": "vita_quotidiana",
-    "source": "authored",
     "target": {
       "slotId": 0,
       "verb": "lavorare",
@@ -2760,13 +2640,12 @@
     "band": 1
   },
   {
-    "id": "corpus-imperfetto-081",
+    "id": "imperfetto-0121",
     "textTemplate": "Da ragazzo io {slot_0} romanzi nascosto sotto le coperte.",
     "primaryTense": "imperfetto",
     "level": 12,
     "difficulty": 2,
     "theme": "vita_quotidiana",
-    "source": "authored",
     "target": {
       "slotId": 0,
       "verb": "leggere",
@@ -2783,13 +2662,12 @@
     "band": 2
   },
   {
-    "id": "corpus-imperfetto-082",
+    "id": "imperfetto-0122",
     "textTemplate": "Quando sono entrato, il nonno {slot_0} una vecchia lettera.",
     "primaryTense": "imperfetto",
     "level": 13,
     "difficulty": 2,
     "theme": "vita_quotidiana",
-    "source": "authored",
     "target": {
       "slotId": 0,
       "verb": "leggere",
@@ -2806,13 +2684,12 @@
     "band": 2
   },
   {
-    "id": "corpus-imperfetto-083",
+    "id": "imperfetto-0123",
     "textTemplate": "Prima di dormire voi {slot_0} sempre un capitolo ai bambini.",
     "primaryTense": "imperfetto",
     "level": 14,
     "difficulty": 2,
     "theme": "vita_quotidiana",
-    "source": "authored",
     "target": {
       "slotId": 0,
       "verb": "leggere",
@@ -2829,13 +2706,12 @@
     "band": 2
   },
   {
-    "id": "corpus-imperfetto-084",
+    "id": "imperfetto-0124",
     "textTemplate": "Quando eri piccolo, tu {slot_0} solo la parte interna del pane.",
     "primaryTense": "imperfetto",
     "level": 12,
     "difficulty": 1,
     "theme": "vita_quotidiana",
-    "source": "authored",
     "target": {
       "slotId": 0,
       "verb": "mangiare",
@@ -2852,13 +2728,12 @@
     "band": 1
   },
   {
-    "id": "corpus-imperfetto-085",
+    "id": "imperfetto-0125",
     "textTemplate": "Durante le vacanze dai nonni noi {slot_0} spesso in giardino.",
     "primaryTense": "imperfetto",
     "level": 13,
     "difficulty": 1,
     "theme": "vita_quotidiana",
-    "source": "authored",
     "target": {
       "slotId": 0,
       "verb": "mangiare",
@@ -2875,13 +2750,12 @@
     "band": 1
   },
   {
-    "id": "corpus-imperfetto-086",
+    "id": "imperfetto-0126",
     "textTemplate": "Mentre gli altri {slot_0}, il cuoco preparava il dolce.",
     "primaryTense": "imperfetto",
     "level": 14,
     "difficulty": 1,
     "theme": "vita_quotidiana",
-    "source": "authored",
     "target": {
       "slotId": 0,
       "verb": "mangiare",
@@ -2898,13 +2772,12 @@
     "band": 1
   },
   {
-    "id": "corpus-imperfetto-087",
+    "id": "imperfetto-0127",
     "textTemplate": "Mentre io {slot_0} i documenti, è caduta una vecchia fotografia.",
     "primaryTense": "imperfetto",
     "level": 11,
     "difficulty": 1,
     "theme": "vita_quotidiana",
-    "source": "authored",
     "target": {
       "slotId": 0,
       "verb": "ordinare",
@@ -2921,13 +2794,12 @@
     "band": 1
   },
   {
-    "id": "corpus-imperfetto-088",
+    "id": "imperfetto-0128",
     "textTemplate": "Quando andavamo in quel bar, Anna {slot_0} sempre una spremuta.",
     "primaryTense": "imperfetto",
     "level": 12,
     "difficulty": 1,
     "theme": "vita_quotidiana",
-    "source": "authored",
     "target": {
       "slotId": 0,
       "verb": "ordinare",
@@ -2944,13 +2816,12 @@
     "band": 1
   },
   {
-    "id": "corpus-imperfetto-089",
+    "id": "imperfetto-0129",
     "textTemplate": "Ai tempi dell'università tu {slot_0} tutte le nostre gite.",
     "primaryTense": "imperfetto",
     "level": 13,
     "difficulty": 1,
     "theme": "vita_quotidiana",
-    "source": "authored",
     "target": {
       "slotId": 0,
       "verb": "organizzare",
@@ -2967,13 +2838,12 @@
     "band": 1
   },
   {
-    "id": "corpus-imperfetto-090",
+    "id": "imperfetto-0130",
     "textTemplate": "Quando il cinema era ancora aperto, noi {slot_0} serate di discussione.",
     "primaryTense": "imperfetto",
     "level": 13,
     "difficulty": 1,
     "theme": "vita_quotidiana",
-    "source": "authored",
     "target": {
       "slotId": 0,
       "verb": "organizzare",
@@ -2990,13 +2860,12 @@
     "band": 1
   },
   {
-    "id": "corpus-imperfetto-091",
+    "id": "imperfetto-0131",
     "textTemplate": "Mentre gli insegnanti {slot_0} la festa, gli alunni decoravano la sala.",
     "primaryTense": "imperfetto",
     "level": 14,
     "difficulty": 1,
     "theme": "vita_quotidiana",
-    "source": "authored",
     "target": {
       "slotId": 0,
       "verb": "organizzare",
@@ -3013,13 +2882,12 @@
     "band": 1
   },
   {
-    "id": "corpus-imperfetto-092",
+    "id": "imperfetto-0132",
     "textTemplate": "Da piccolo io {slot_0} pochissimo con gli estranei.",
     "primaryTense": "imperfetto",
     "level": 11,
     "difficulty": 1,
     "theme": "vita_quotidiana",
-    "source": "authored",
     "target": {
       "slotId": 0,
       "verb": "parlare",
@@ -3036,13 +2904,12 @@
     "band": 1
   },
   {
-    "id": "corpus-imperfetto-093",
+    "id": "imperfetto-0133",
     "textTemplate": "Quando siamo entrati, la guida {slot_0} del soffitto dipinto.",
     "primaryTense": "imperfetto",
     "level": 12,
     "difficulty": 1,
     "theme": "vita_quotidiana",
-    "source": "authored",
     "target": {
       "slotId": 0,
       "verb": "parlare",
@@ -3059,13 +2926,12 @@
     "band": 1
   },
   {
-    "id": "corpus-imperfetto-094",
+    "id": "imperfetto-0134",
     "textTemplate": "Prima del corso voi {slot_0} già un po' di italiano.",
     "primaryTense": "imperfetto",
     "level": 13,
     "difficulty": 1,
     "theme": "vita_quotidiana",
-    "source": "authored",
     "target": {
       "slotId": 0,
       "verb": "parlare",
@@ -3082,13 +2948,12 @@
     "band": 1
   },
   {
-    "id": "corpus-imperfetto-095",
+    "id": "imperfetto-0135",
     "textTemplate": "Quando lavoravi qui, tu {slot_0} da questa strada ogni giorno.",
     "primaryTense": "imperfetto",
     "level": 14,
     "difficulty": 1,
     "theme": "vita_quotidiana",
-    "source": "authored",
     "target": {
       "slotId": 0,
       "verb": "passare",
@@ -3105,13 +2970,12 @@
     "band": 1
   },
   {
-    "id": "corpus-imperfetto-096",
+    "id": "imperfetto-0136",
     "textTemplate": "Da bambini noi {slot_0} ore a cercare conchiglie.",
     "primaryTense": "imperfetto",
     "level": 11,
     "difficulty": 1,
     "theme": "vita_quotidiana",
-    "source": "authored",
     "target": {
       "slotId": 0,
       "verb": "passare",
@@ -3128,13 +2992,12 @@
     "band": 1
   },
   {
-    "id": "corpus-imperfetto-097",
+    "id": "imperfetto-0137",
     "textTemplate": "Prima della nuova strada, i camion {slot_0} davanti alla scuola.",
     "primaryTense": "imperfetto",
     "level": 12,
     "difficulty": 1,
     "theme": "vita_quotidiana",
-    "source": "authored",
     "target": {
       "slotId": 0,
       "verb": "passare",
@@ -3151,13 +3014,12 @@
     "band": 1
   },
   {
-    "id": "corpus-imperfetto-098",
+    "id": "imperfetto-0138",
     "textTemplate": "Quando non conoscevo la città, io {slot_0} anche vicino a casa.",
     "primaryTense": "imperfetto",
     "level": 13,
     "difficulty": 2,
     "theme": "vita_quotidiana",
-    "source": "authored",
     "target": {
       "slotId": 0,
       "verb": "perdersi",
@@ -3174,13 +3036,12 @@
     "band": 2
   },
   {
-    "id": "corpus-imperfetto-099",
+    "id": "imperfetto-0139",
     "textTemplate": "Da piccolo mio fratello {slot_0} spesso nei suoi pensieri.",
     "primaryTense": "imperfetto",
     "level": 14,
     "difficulty": 2,
     "theme": "vita_quotidiana",
-    "source": "authored",
     "target": {
       "slotId": 0,
       "verb": "perdersi",
@@ -3197,13 +3058,12 @@
     "band": 2
   },
   {
-    "id": "corpus-imperfetto-100",
+    "id": "imperfetto-0140",
     "textTemplate": "Prima di scaricare la mappa, voi {slot_0} in tutte quelle stradine.",
     "primaryTense": "imperfetto",
     "level": 13,
     "difficulty": 2,
     "theme": "vita_quotidiana",
-    "source": "authored",
     "target": {
       "slotId": 0,
       "verb": "perdersi",
@@ -3220,13 +3080,12 @@
     "band": 2
   },
   {
-    "id": "corpus-imperfetto-101",
+    "id": "imperfetto-0141",
     "textTemplate": "Con il vecchio abbonamento tu {slot_0} entrare in tutti i musei.",
     "primaryTense": "imperfetto",
     "level": 14,
     "difficulty": 2,
     "theme": "vita_quotidiana",
-    "source": "authored",
     "target": {
       "slotId": 0,
       "verb": "potere",
@@ -3243,13 +3102,12 @@
     "band": 2
   },
   {
-    "id": "corpus-imperfetto-102",
+    "id": "imperfetto-0142",
     "textTemplate": "Da quella finestra noi {slot_0} vedere le montagne.",
     "primaryTense": "imperfetto",
     "level": 12,
     "difficulty": 2,
     "theme": "vita_quotidiana",
-    "source": "authored",
     "target": {
       "slotId": 0,
       "verb": "potere",
@@ -3266,13 +3124,12 @@
     "band": 2
   },
   {
-    "id": "corpus-imperfetto-103",
+    "id": "imperfetto-0143",
     "textTemplate": "Prima della ristrutturazione i bambini non {slot_0} usare il cortile.",
     "primaryTense": "imperfetto",
     "level": 13,
     "difficulty": 2,
     "theme": "vita_quotidiana",
-    "source": "authored",
     "target": {
       "slotId": 0,
       "verb": "potere",
@@ -3289,13 +3146,12 @@
     "band": 2
   },
   {
-    "id": "corpus-imperfetto-104",
+    "id": "imperfetto-0144",
     "textTemplate": "Da ragazzo io {slot_0} restare sveglio fino a tardi.",
     "primaryTense": "imperfetto",
     "level": 13,
     "difficulty": 1,
     "theme": "vita_quotidiana",
-    "source": "authored",
     "target": {
       "slotId": 0,
       "verb": "preferire",
@@ -3312,13 +3168,12 @@
     "band": 1
   },
   {
-    "id": "corpus-imperfetto-105",
+    "id": "imperfetto-0145",
     "textTemplate": "Quando abitava al mare, mia zia {slot_0} la spiaggia d'inverno.",
     "primaryTense": "imperfetto",
     "level": 14,
     "difficulty": 1,
     "theme": "vita_quotidiana",
-    "source": "authored",
     "target": {
       "slotId": 0,
       "verb": "preferire",
@@ -3335,13 +3190,12 @@
     "band": 1
   },
   {
-    "id": "corpus-imperfetto-106",
+    "id": "imperfetto-0146",
     "textTemplate": "All'epoca voi {slot_0} viaggiare senza prenotare nulla.",
     "primaryTense": "imperfetto",
     "level": 11,
     "difficulty": 1,
     "theme": "vita_quotidiana",
-    "source": "authored",
     "target": {
       "slotId": 0,
       "verb": "preferire",
@@ -3358,13 +3212,12 @@
     "band": 1
   },
   {
-    "id": "corpus-imperfetto-107",
+    "id": "imperfetto-0147",
     "textTemplate": "Quando andavi a scuola, tu {slot_0} sempre il posto vicino al finestrino.",
     "primaryTense": "imperfetto",
     "level": 14,
     "difficulty": 2,
     "theme": "vita_quotidiana",
-    "source": "authored",
     "target": {
       "slotId": 0,
       "verb": "prendere",
@@ -3381,13 +3234,12 @@
     "band": 2
   },
   {
-    "id": "corpus-imperfetto-108",
+    "id": "imperfetto-0148",
     "textTemplate": "Durante quel corso noi {slot_0} appunti su piccoli quaderni.",
     "primaryTense": "imperfetto",
     "level": 12,
     "difficulty": 2,
     "theme": "vita_quotidiana",
-    "source": "authored",
     "target": {
       "slotId": 0,
       "verb": "prendere",
@@ -3404,13 +3256,12 @@
     "band": 2
   },
   {
-    "id": "corpus-imperfetto-109",
+    "id": "imperfetto-0149",
     "textTemplate": "Prima della metropolitana i pendolari {slot_0} due autobus.",
     "primaryTense": "imperfetto",
     "level": 13,
     "difficulty": 2,
     "theme": "vita_quotidiana",
-    "source": "authored",
     "target": {
       "slotId": 0,
       "verb": "prendere",
@@ -3427,13 +3278,12 @@
     "band": 2
   },
   {
-    "id": "corpus-imperfetto-110",
+    "id": "imperfetto-0150",
     "textTemplate": "Mentre io {slot_0} il tè, è suonato il telefono.",
     "primaryTense": "imperfetto",
     "level": 14,
     "difficulty": 1,
     "theme": "vita_quotidiana",
-    "source": "authored",
     "target": {
       "slotId": 0,
       "verb": "preparare",
@@ -3450,13 +3300,12 @@
     "band": 1
   },
   {
-    "id": "corpus-imperfetto-111",
+    "id": "imperfetto-0151",
     "textTemplate": "Ogni domenica la nonna {slot_0} la pasta fresca.",
     "primaryTense": "imperfetto",
     "level": 11,
     "difficulty": 1,
     "theme": "vita_quotidiana",
-    "source": "authored",
     "target": {
       "slotId": 0,
       "verb": "preparare",
@@ -3473,13 +3322,12 @@
     "band": 1
   },
   {
-    "id": "corpus-imperfetto-112",
+    "id": "imperfetto-0152",
     "textTemplate": "Quando è arrivata la notizia, voi {slot_0} le valigie.",
     "primaryTense": "imperfetto",
     "level": 12,
     "difficulty": 1,
     "theme": "vita_quotidiana",
-    "source": "authored",
     "target": {
       "slotId": 0,
       "verb": "preparare",
@@ -3496,13 +3344,12 @@
     "band": 1
   },
   {
-    "id": "corpus-imperfetto-113",
+    "id": "imperfetto-0153",
     "textTemplate": "Da bambino tu {slot_0} sempre di mettere in ordine la stanza.",
     "primaryTense": "imperfetto",
     "level": 14,
     "difficulty": 2,
     "theme": "vita_quotidiana",
-    "source": "authored",
     "target": {
       "slotId": 0,
       "verb": "promettere",
@@ -3519,13 +3366,12 @@
     "band": 2
   },
   {
-    "id": "corpus-imperfetto-114",
+    "id": "imperfetto-0154",
     "textTemplate": "Prima di ogni vacanza noi {slot_0} di scrivere molte cartoline.",
     "primaryTense": "imperfetto",
     "level": 12,
     "difficulty": 2,
     "theme": "vita_quotidiana",
-    "source": "authored",
     "target": {
       "slotId": 0,
       "verb": "promettere",
@@ -3542,13 +3388,12 @@
     "band": 2
   },
   {
-    "id": "corpus-imperfetto-115",
+    "id": "imperfetto-0155",
     "textTemplate": "Le vecchie pubblicità {slot_0} risultati in pochi giorni.",
     "primaryTense": "imperfetto",
     "level": 13,
     "difficulty": 2,
     "theme": "vita_quotidiana",
-    "source": "authored",
     "target": {
       "slotId": 0,
       "verb": "promettere",
@@ -3565,13 +3410,12 @@
     "band": 2
   },
   {
-    "id": "corpus-imperfetto-116",
+    "id": "imperfetto-0156",
     "textTemplate": "Mentre io {slot_0} il vetro, il cane lasciava nuove impronte.",
     "primaryTense": "imperfetto",
     "level": 12,
     "difficulty": 1,
     "theme": "vita_quotidiana",
-    "source": "authored",
     "target": {
       "slotId": 0,
       "verb": "pulire",
@@ -3588,13 +3432,12 @@
     "band": 1
   },
   {
-    "id": "corpus-imperfetto-117",
+    "id": "imperfetto-0157",
     "textTemplate": "Quando lavorava al bar, Luca {slot_0} la macchina del caffè ogni sera.",
     "primaryTense": "imperfetto",
     "level": 13,
     "difficulty": 1,
     "theme": "vita_quotidiana",
-    "source": "authored",
     "target": {
       "slotId": 0,
       "verb": "pulire",
@@ -3611,13 +3454,12 @@
     "band": 1
   },
   {
-    "id": "corpus-imperfetto-118",
+    "id": "imperfetto-0158",
     "textTemplate": "Prima della festa voi {slot_0} sempre anche le scale.",
     "primaryTense": "imperfetto",
     "level": 14,
     "difficulty": 1,
     "theme": "vita_quotidiana",
-    "source": "authored",
     "target": {
       "slotId": 0,
       "verb": "pulire",
@@ -3634,13 +3476,12 @@
     "band": 1
   },
   {
-    "id": "corpus-imperfetto-119",
+    "id": "imperfetto-0159",
     "textTemplate": "Quando dovevi partire presto, tu {slot_0} due sveglie.",
     "primaryTense": "imperfetto",
     "level": 11,
     "difficulty": 1,
     "theme": "vita_quotidiana",
-    "source": "authored",
     "target": {
       "slotId": 0,
       "verb": "puntare",
@@ -3657,13 +3498,12 @@
     "band": 1
   },
   {
-    "id": "corpus-imperfetto-120",
+    "id": "imperfetto-0160",
     "textTemplate": "Durante le osservazioni notturne noi {slot_0} il telescopio verso i pianeti.",
     "primaryTense": "imperfetto",
     "level": 11,
     "difficulty": 1,
     "theme": "vita_quotidiana",
-    "source": "authored",
     "target": {
       "slotId": 0,
       "verb": "puntare",
@@ -3680,13 +3520,12 @@
     "band": 1
   },
   {
-    "id": "corpus-imperfetto-121",
+    "id": "imperfetto-0161",
     "textTemplate": "Da bambino io {slot_0} un libro per ogni compleanno.",
     "primaryTense": "imperfetto",
     "level": 12,
     "difficulty": 1,
     "theme": "vita_quotidiana",
-    "source": "authored",
     "target": {
       "slotId": 0,
       "verb": "ricevere",
@@ -3703,13 +3542,12 @@
     "band": 1
   },
   {
-    "id": "corpus-imperfetto-122",
+    "id": "imperfetto-0162",
     "textTemplate": "Prima del trasloco la dottoressa {slot_0} in centro.",
     "primaryTense": "imperfetto",
     "level": 13,
     "difficulty": 1,
     "theme": "vita_quotidiana",
-    "source": "authored",
     "target": {
       "slotId": 0,
       "verb": "ricevere",
@@ -3726,13 +3564,12 @@
     "band": 1
   },
   {
-    "id": "corpus-imperfetto-123",
+    "id": "imperfetto-0163",
     "textTemplate": "Con il vecchio contratto voi {slot_0} il giornale ogni mattina.",
     "primaryTense": "imperfetto",
     "level": 14,
     "difficulty": 1,
     "theme": "vita_quotidiana",
-    "source": "authored",
     "target": {
       "slotId": 0,
       "verb": "ricevere",
@@ -3749,13 +3586,12 @@
     "band": 1
   },
   {
-    "id": "corpus-imperfetto-124",
+    "id": "imperfetto-0164",
     "textTemplate": "A scuola tu {slot_0} i problemi di matematica senza difficoltà.",
     "primaryTense": "imperfetto",
     "level": 13,
     "difficulty": 2,
     "theme": "vita_quotidiana",
-    "source": "authored",
     "target": {
       "slotId": 0,
       "verb": "risolvere",
@@ -3772,13 +3608,12 @@
     "band": 2
   },
   {
-    "id": "corpus-imperfetto-125",
+    "id": "imperfetto-0165",
     "textTemplate": "Prima di avere internet noi {slot_0} i dubbi consultando l'enciclopedia.",
     "primaryTense": "imperfetto",
     "level": 14,
     "difficulty": 2,
     "theme": "vita_quotidiana",
-    "source": "authored",
     "target": {
       "slotId": 0,
       "verb": "risolvere",
@@ -3795,13 +3630,12 @@
     "band": 2
   },
   {
-    "id": "corpus-imperfetto-126",
+    "id": "imperfetto-0166",
     "textTemplate": "Quando il negozio era piccolo, i proprietari {slot_0} tutto da soli.",
     "primaryTense": "imperfetto",
     "level": 12,
     "difficulty": 2,
     "theme": "vita_quotidiana",
-    "source": "authored",
     "target": {
       "slotId": 0,
       "verb": "risolvere",
@@ -3818,13 +3652,12 @@
     "band": 2
   },
   {
-    "id": "corpus-imperfetto-127",
+    "id": "imperfetto-0167",
     "textTemplate": "Da piccolo io {slot_0} sempre prima di alzare la mano.",
     "primaryTense": "imperfetto",
     "level": 13,
     "difficulty": 2,
     "theme": "vita_quotidiana",
-    "source": "authored",
     "target": {
       "slotId": 0,
       "verb": "rispondere",
@@ -3841,13 +3674,12 @@
     "band": 2
   },
   {
-    "id": "corpus-imperfetto-128",
+    "id": "imperfetto-0168",
     "textTemplate": "Prima delle ferie voi {slot_0} alle richieste entro un giorno.",
     "primaryTense": "imperfetto",
     "level": 14,
     "difficulty": 2,
     "theme": "vita_quotidiana",
-    "source": "authored",
     "target": {
       "slotId": 0,
       "verb": "rispondere",
@@ -3864,13 +3696,12 @@
     "band": 2
   },
   {
-    "id": "corpus-imperfetto-129",
+    "id": "imperfetto-0169",
     "textTemplate": "Prima di partire tu {slot_0} già come raggiungere l'albergo.",
     "primaryTense": "imperfetto",
     "level": 12,
     "difficulty": 2,
     "theme": "vita_quotidiana",
-    "source": "authored",
     "target": {
       "slotId": 0,
       "verb": "sapere",
@@ -3887,13 +3718,12 @@
     "band": 2
   },
   {
-    "id": "corpus-imperfetto-130",
+    "id": "imperfetto-0170",
     "textTemplate": "Quando è arrivata la lettera, noi non {slot_0} ancora nulla.",
     "primaryTense": "imperfetto",
     "level": 13,
     "difficulty": 2,
     "theme": "vita_quotidiana",
-    "source": "authored",
     "target": {
       "slotId": 0,
       "verb": "sapere",
@@ -3910,13 +3740,12 @@
     "band": 2
   },
   {
-    "id": "corpus-imperfetto-131",
+    "id": "imperfetto-0171",
     "textTemplate": "I vecchi pescatori {slot_0} riconoscere il vento dal rumore del mare.",
     "primaryTense": "imperfetto",
     "level": 14,
     "difficulty": 2,
     "theme": "vita_quotidiana",
-    "source": "authored",
     "target": {
       "slotId": 0,
       "verb": "sapere",
@@ -3933,13 +3762,12 @@
     "band": 2
   },
   {
-    "id": "corpus-imperfetto-132",
+    "id": "imperfetto-0172",
     "textTemplate": "Da adolescente io {slot_0} un diario ogni sera.",
     "primaryTense": "imperfetto",
     "level": 12,
     "difficulty": 2,
     "theme": "vita_quotidiana",
-    "source": "authored",
     "target": {
       "slotId": 0,
       "verb": "scrivere",
@@ -3956,13 +3784,12 @@
     "band": 2
   },
   {
-    "id": "corpus-imperfetto-133",
+    "id": "imperfetto-0173",
     "textTemplate": "Mentre la maestra {slot_0} alla lavagna, qualcuno ha bussato.",
     "primaryTense": "imperfetto",
     "level": 13,
     "difficulty": 2,
     "theme": "vita_quotidiana",
-    "source": "authored",
     "target": {
       "slotId": 0,
       "verb": "scrivere",
@@ -3979,13 +3806,12 @@
     "band": 2
   },
   {
-    "id": "corpus-imperfetto-134",
+    "id": "imperfetto-0174",
     "textTemplate": "Prima di avere il telefono voi {slot_0} lettere molto lunghe.",
     "primaryTense": "imperfetto",
     "level": 14,
     "difficulty": 2,
     "theme": "vita_quotidiana",
-    "source": "authored",
     "target": {
       "slotId": 0,
       "verb": "scrivere",
@@ -4002,13 +3828,12 @@
     "band": 2
   },
   {
-    "id": "corpus-imperfetto-135",
+    "id": "imperfetto-0175",
     "textTemplate": "Quando vivevi lontano, tu {slot_0} un pacco ogni Natale.",
     "primaryTense": "imperfetto",
     "level": 13,
     "difficulty": 1,
     "theme": "vita_quotidiana",
-    "source": "authored",
     "target": {
       "slotId": 0,
       "verb": "spedire",
@@ -4025,13 +3850,12 @@
     "band": 1
   },
   {
-    "id": "corpus-imperfetto-136",
+    "id": "imperfetto-0176",
     "textTemplate": "Prima di cambiare magazzino noi {slot_0} gli ordini due volte a settimana.",
     "primaryTense": "imperfetto",
     "level": 14,
     "difficulty": 1,
     "theme": "vita_quotidiana",
-    "source": "authored",
     "target": {
       "slotId": 0,
       "verb": "spedire",
@@ -4048,13 +3872,12 @@
     "band": 1
   },
   {
-    "id": "corpus-imperfetto-137",
+    "id": "imperfetto-0177",
     "textTemplate": "Durante le feste i negozi {slot_0} anche di sabato.",
     "primaryTense": "imperfetto",
     "level": 11,
     "difficulty": 1,
     "theme": "vita_quotidiana",
-    "source": "authored",
     "target": {
       "slotId": 0,
       "verb": "spedire",
@@ -4071,13 +3894,12 @@
     "band": 1
   },
   {
-    "id": "corpus-imperfetto-138",
+    "id": "imperfetto-0178",
     "textTemplate": "Quando uscivo per ultimo, io {slot_0} tutte le luci.",
     "primaryTense": "imperfetto",
     "level": 12,
     "difficulty": 2,
     "theme": "vita_quotidiana",
-    "source": "authored",
     "target": {
       "slotId": 0,
       "verb": "spegnere",
@@ -4094,13 +3916,12 @@
     "band": 2
   },
   {
-    "id": "corpus-imperfetto-139",
+    "id": "imperfetto-0179",
     "textTemplate": "Mentre il custode {slot_0} l'insegna, arrivavano gli ultimi clienti.",
     "primaryTense": "imperfetto",
     "level": 13,
     "difficulty": 2,
     "theme": "vita_quotidiana",
-    "source": "authored",
     "target": {
       "slotId": 0,
       "verb": "spegnere",
@@ -4117,13 +3938,12 @@
     "band": 2
   },
   {
-    "id": "corpus-imperfetto-140",
+    "id": "imperfetto-0180",
     "textTemplate": "Da piccoli voi {slot_0} la luce per raccontare storie di paura.",
     "primaryTense": "imperfetto",
     "level": 14,
     "difficulty": 2,
     "theme": "vita_quotidiana",
-    "source": "authored",
     "target": {
       "slotId": 0,
       "verb": "spegnere",
@@ -4140,13 +3960,12 @@
     "band": 2
   },
   {
-    "id": "corpus-imperfetto-141",
+    "id": "imperfetto-0181",
     "textTemplate": "Quando eri malato, tu {slot_0} sul divano vicino al camino.",
     "primaryTense": "imperfetto",
     "level": 12,
     "difficulty": 2,
     "theme": "vita_quotidiana",
-    "source": "authored",
     "target": {
       "slotId": 0,
       "verb": "stare",
@@ -4163,13 +3982,12 @@
     "band": 2
   },
   {
-    "id": "corpus-imperfetto-142",
+    "id": "imperfetto-0182",
     "textTemplate": "Durante le prove noi {slot_0} in fondo alla sala.",
     "primaryTense": "imperfetto",
     "level": 13,
     "difficulty": 2,
     "theme": "vita_quotidiana",
-    "source": "authored",
     "target": {
       "slotId": 0,
       "verb": "stare",
@@ -4186,13 +4004,12 @@
     "band": 2
   },
   {
-    "id": "corpus-imperfetto-143",
+    "id": "imperfetto-0183",
     "textTemplate": "Prima del temporale gli animali {slot_0} tutti sotto gli alberi.",
     "primaryTense": "imperfetto",
     "level": 14,
     "difficulty": 2,
     "theme": "vita_quotidiana",
-    "source": "authored",
     "target": {
       "slotId": 0,
       "verb": "stare",
@@ -4209,13 +4026,12 @@
     "band": 2
   },
   {
-    "id": "corpus-imperfetto-144",
+    "id": "imperfetto-0184",
     "textTemplate": "Quando vivevo dai miei, io {slot_0} la chitarra in cantina.",
     "primaryTense": "imperfetto",
     "level": 13,
     "difficulty": 1,
     "theme": "vita_quotidiana",
-    "source": "authored",
     "target": {
       "slotId": 0,
       "verb": "suonare",
@@ -4232,13 +4048,12 @@
     "band": 1
   },
   {
-    "id": "corpus-imperfetto-145",
+    "id": "imperfetto-0185",
     "textTemplate": "Da ragazzo tu {slot_0} tutti nella corsa in salita.",
     "primaryTense": "imperfetto",
     "level": 14,
     "difficulty": 1,
     "theme": "vita_quotidiana",
-    "source": "authored",
     "target": {
       "slotId": 0,
       "verb": "superare",
@@ -4255,13 +4070,12 @@
     "band": 1
   },
   {
-    "id": "corpus-imperfetto-146",
+    "id": "imperfetto-0186",
     "textTemplate": "Con quelle valigie noi {slot_0} sempre il peso consentito.",
     "primaryTense": "imperfetto",
     "level": 11,
     "difficulty": 1,
     "theme": "vita_quotidiana",
-    "source": "authored",
     "target": {
       "slotId": 0,
       "verb": "superare",
@@ -4278,13 +4092,12 @@
     "band": 1
   },
   {
-    "id": "corpus-imperfetto-147",
+    "id": "imperfetto-0187",
     "textTemplate": "Quando lavoravo in campagna, io {slot_0} a casa al tramonto.",
     "primaryTense": "imperfetto",
     "level": 12,
     "difficulty": 1,
     "theme": "vita_quotidiana",
-    "source": "authored",
     "target": {
       "slotId": 0,
       "verb": "tornare",
@@ -4301,13 +4114,12 @@
     "band": 1
   },
   {
-    "id": "corpus-imperfetto-148",
+    "id": "imperfetto-0188",
     "textTemplate": "Ogni estate i miei cugini {slot_0} nello stesso campeggio.",
     "primaryTense": "imperfetto",
     "level": 13,
     "difficulty": 1,
     "theme": "vita_quotidiana",
-    "source": "authored",
     "target": {
       "slotId": 0,
       "verb": "tornare",
@@ -4324,13 +4136,12 @@
     "band": 1
   },
   {
-    "id": "corpus-imperfetto-149",
+    "id": "imperfetto-0189",
     "textTemplate": "Prima di costruire quel palazzo tu {slot_0} la collina dalla cucina.",
     "primaryTense": "imperfetto",
     "level": 14,
     "difficulty": 2,
     "theme": "vita_quotidiana",
-    "source": "authored",
     "target": {
       "slotId": 0,
       "verb": "vedere",
@@ -4347,13 +4158,12 @@
     "band": 2
   },
   {
-    "id": "corpus-imperfetto-150",
+    "id": "imperfetto-0190",
     "textTemplate": "Da piccoli noi {slot_0} i nonni quasi tutti i giorni.",
     "primaryTense": "imperfetto",
     "level": 12,
     "difficulty": 2,
     "theme": "vita_quotidiana",
-    "source": "authored",
     "target": {
       "slotId": 0,
       "verb": "vedere",
@@ -4370,13 +4180,12 @@
     "band": 2
   },
   {
-    "id": "corpus-imperfetto-151",
+    "id": "imperfetto-0191",
     "textTemplate": "Quando abitavo qui, io {slot_0} in biblioteca ogni pomeriggio.",
     "primaryTense": "imperfetto",
     "level": 13,
     "difficulty": 2,
     "theme": "vita_quotidiana",
-    "source": "authored",
     "target": {
       "slotId": 0,
       "verb": "venire",
@@ -4393,13 +4202,12 @@
     "band": 2
   },
   {
-    "id": "corpus-imperfetto-152",
+    "id": "imperfetto-0192",
     "textTemplate": "Prima della chiusura i clienti {slot_0} anche dai paesi vicini.",
     "primaryTense": "imperfetto",
     "level": 14,
     "difficulty": 2,
     "theme": "vita_quotidiana",
-    "source": "authored",
     "target": {
       "slotId": 0,
       "verb": "venire",
@@ -4416,13 +4224,12 @@
     "band": 2
   },
   {
-    "id": "corpus-imperfetto-153",
-    "textTemplate": "Prima di sposarsi mia madre {slot_0} spesso da sola.",
+    "id": "imperfetto-0193",
+    "textTemplate": "Quando lavorava come fotografa, mia madre {slot_0} spesso da sola.",
     "primaryTense": "imperfetto",
     "level": 13,
     "difficulty": 1,
     "theme": "vita_quotidiana",
-    "source": "authored",
     "target": {
       "slotId": 0,
       "verb": "viaggiare",
@@ -4439,13 +4246,12 @@
     "band": 1
   },
   {
-    "id": "corpus-imperfetto-154",
+    "id": "imperfetto-0194",
     "textTemplate": "Quando eravate studenti voi {slot_0} con pochi soldi.",
     "primaryTense": "imperfetto",
     "level": 14,
     "difficulty": 1,
     "theme": "vita_quotidiana",
-    "source": "authored",
     "target": {
       "slotId": 0,
       "verb": "viaggiare",
@@ -4462,13 +4268,12 @@
     "band": 1
   },
   {
-    "id": "corpus-imperfetto-155",
+    "id": "imperfetto-0195",
     "textTemplate": "Durante quel soggiorno tu {slot_0} un museo diverso ogni giorno.",
     "primaryTense": "imperfetto",
     "level": 11,
     "difficulty": 1,
     "theme": "vita_quotidiana",
-    "source": "authored",
     "target": {
       "slotId": 0,
       "verb": "visitare",
@@ -4485,13 +4290,12 @@
     "band": 1
   },
   {
-    "id": "corpus-imperfetto-156",
+    "id": "imperfetto-0196",
     "textTemplate": "Da bambini noi {slot_0} i parenti ogni domenica.",
     "primaryTense": "imperfetto",
     "level": 12,
     "difficulty": 1,
     "theme": "vita_quotidiana",
-    "source": "authored",
     "target": {
       "slotId": 0,
       "verb": "visitare",
@@ -4508,13 +4312,12 @@
     "band": 1
   },
   {
-    "id": "corpus-imperfetto-157",
+    "id": "imperfetto-0197",
     "textTemplate": "Da piccolo io {slot_0} una bicicletta rossa.",
     "primaryTense": "imperfetto",
     "level": 13,
     "difficulty": 2,
     "theme": "vita_quotidiana",
-    "source": "authored",
     "target": {
       "slotId": 0,
       "verb": "volere",
@@ -4531,13 +4334,12 @@
     "band": 2
   },
   {
-    "id": "corpus-imperfetto-158",
+    "id": "imperfetto-0198",
     "textTemplate": "Quando è finita la musica, i bambini {slot_0} ancora ballare.",
     "primaryTense": "imperfetto",
     "level": 14,
     "difficulty": 2,
     "theme": "vita_quotidiana",
-    "source": "authored",
     "target": {
       "slotId": 0,
       "verb": "volere",
@@ -4554,7 +4356,7 @@
     "band": 2
   },
   {
-    "id": "pilot-multi-004",
+    "id": "imperfetto-0199",
     "primaryTense": "imperfetto",
     "textTemplate": "L'anno scorso Giulia {slot_0} in una libreria.",
     "target": {
@@ -4581,11 +4383,10 @@
     "level": 11,
     "difficulty": 2,
     "theme": "vita_quotidiana",
-    "source": "authored-multi-tense",
     "band": 1
   },
   {
-    "id": "pilot-multi-005",
+    "id": "imperfetto-0200",
     "primaryTense": "imperfetto",
     "textTemplate": "Durante le vacanze dell'estate scorsa, noi {slot_0} spesso al ristorante.",
     "target": {
@@ -4612,7 +4413,6 @@
     "level": 11,
     "difficulty": 2,
     "theme": "vita_quotidiana",
-    "source": "authored-multi-tense",
     "band": 1
   }
 ]

@@ -8,6 +8,7 @@ import {
   saveLearningState,
 } from '../src/lib/storage.ts';
 import type { Exercise } from '../src/lib/practice.ts';
+import { contentRevision } from '../src/lib/content.ts';
 
 import { exercises } from './content-fixture.ts';
 const starterExercises = exercises.filter((exercise) => exercise.level! <= 2);
@@ -32,6 +33,48 @@ test('round-trips versioned learning state', () => {
   assert.equal(saveLearningState(state), true);
   assert.deepEqual(loadLearningState(exercises, random), state);
   assert.equal(JSON.parse(stored.get(learningStorageKey)!).version, learningStateVersion);
+});
+
+test('renamed pre-release content starts fresh once without touching profile or preferences', () => {
+  installStorage();
+  const state = createLearningState(exercises, random);
+  state.contentRevision = 'corpus-1000-v1';
+  state.queue = ['sent-pres-101'];
+  state.results = { 'sent-pres-101': { outcome: 'correct', tense: 'presente' } };
+  state.curriculum.unlocked = [
+    'presente:1',
+    'presente:2',
+    'passato_prossimo:1',
+    'passato_prossimo:2',
+  ];
+  saveLearningState(state);
+  stored.set('unpo-profile-v1', JSON.stringify({ introduced: true, name: 'Luca' }));
+  stored.set('unpo-theme', 'dark');
+  const otherKeys = [...stored.entries()].filter(([key]) => key !== learningStorageKey);
+
+  const fresh = loadLearningState(exercises, random);
+  assert.equal(fresh.contentRevision, contentRevision);
+  assert.deepEqual(fresh.results, {});
+  assert.equal(fresh.curriculum.unlocked.length, 3);
+  assert.ok(fresh.queue.every((id) => exercises.some((e) => e.id === id)));
+  for (const [key, value] of otherKeys) assert.equal(stored.get(key), value);
+
+  fresh.results[exercises[0]!.id] = { outcome: 'correct', tense: 'presente' };
+  saveLearningState(fresh);
+  assert.deepEqual(loadLearningState(exercises, random), fresh);
+});
+
+test('ordinary content revision updates keep current IDs, results and unlocks', () => {
+  installStorage();
+  const state = createLearningState(exercises, random);
+  state.contentRevision = 'an-earlier-reviewed-revision';
+  state.results[exercises[0]!.id] = { outcome: 'correct', tense: 'presente' };
+  state.curriculum.unlocked.push('passato_prossimo:2');
+  saveLearningState(state);
+  const updated = loadLearningState(exercises, random);
+  assert.equal(updated.contentRevision, contentRevision);
+  assert.deepEqual(updated.results, state.results);
+  assert.deepEqual(updated.curriculum, state.curriculum);
 });
 
 test('rejects corrupt or unknown state versions', () => {

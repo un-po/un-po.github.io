@@ -5,7 +5,7 @@ import { exercises, verbs } from './content-fixture.ts';
 import { createLearningState } from '../src/lib/learning.ts';
 test('each question counts once in one person and one tense-specific regularity cell', () => {
   const state = createLearningState(exercises, () => 0.5);
-  const e = exercises.find((e) => e.id === 'sent-pres-141')!; // leggere: regular present, irregular past
+  const e = exercises.find((e) => e.id === 'presente-0041')!; // leggere: regular present, irregular past
   state.results[e.id] = { outcome: 'correct', tense: 'presente' };
   const row = feedbackRows(state.results, exercises, verbs)[0]!;
   assert.equal(row.cells[0]?.correct, 1);

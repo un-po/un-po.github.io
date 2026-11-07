@@ -474,7 +474,7 @@ test('wrapped sentences leave room between the verb hint and next button', async
   await begin(page);
   await page.evaluate(() => {
     const state = JSON.parse(localStorage.getItem('unpo-learning-state')!);
-    state.queue = ['sent-pres-101', ...state.queue.filter((id: string) => id !== 'sent-pres-101')];
+    state.queue = ['presente-0001', ...state.queue.filter((id: string) => id !== 'presente-0001')];
     localStorage.setItem('unpo-learning-state', JSON.stringify(state));
   });
   await page.reload();
@@ -507,7 +507,7 @@ async function startAt(page: import('@playwright/test').Page, id: string) {
 test('compound answers show the correct tense and context-bound agreement in the table', async ({
   page,
 }) => {
-  await startAt(page, 'sent-past-104');
+  await startAt(page, 'passato_prossimo-0004');
   await expect(page.locator('#tense-cue')).toHaveText('Passato prossimo');
   await page.locator('#verb-answer').fill('si sono alzate');
   await page.getByRole('button', { name: 'Verifica' }).click();
@@ -521,7 +521,7 @@ test('compound answers show the correct tense and context-bound agreement in the
 test('mixed-tense answers credit the chosen tense and preserve its explanation in history', async ({
   page,
 }) => {
-  await startAt(page, 'pilot-multi-004');
+  await startAt(page, 'imperfetto-0199');
   await expect(page.locator('#tense-cue')).toHaveText('Imperfetto o Passato prossimo');
   await page.locator('#verb-answer').fill('ha lavorato');
   await page.keyboard.press('Enter');
@@ -542,7 +542,7 @@ test('mixed-tense answers credit the chosen tense and preserve its explanation i
 
 test('long compound alternatives fit a narrow screen and remain readable', async ({ page }) => {
   await page.setViewportSize({ width: 375, height: 667 });
-  await startAt(page, 'sent-past-156');
+  await startAt(page, 'passato_prossimo-0056');
   await page.locator('#verb-answer').fill('vi siete alzate');
   await page.getByRole('button', { name: 'Verifica' }).click();
   await expect(page.locator('.exercise-form')).toHaveClass(/answer-correct/);

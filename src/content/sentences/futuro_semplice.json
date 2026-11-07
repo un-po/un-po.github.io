@@ -1,12 +1,11 @@
 [
   {
-    "id": "sent-fut-101",
+    "id": "futuro_semplice-0001",
     "textTemplate": "Domani mattina presto io {slot_0} già a Milano per la riunione.",
     "primaryTense": "futuro_semplice",
     "level": 17,
     "difficulty": 2,
     "theme": "travel_commuting",
-    "source": "import-revised",
     "target": {
       "slotId": 0,
       "verb": "essere",
@@ -23,13 +22,12 @@
     "band": 2
   },
   {
-    "id": "sent-fut-102",
+    "id": "futuro_semplice-0002",
     "textTemplate": "La settimana prossima tu {slot_0} abbastanza tempo per finire il progetto.",
     "primaryTense": "futuro_semplice",
     "level": 18,
     "difficulty": 2,
     "theme": "work_office",
-    "source": "import-revised",
     "target": {
       "slotId": 0,
       "verb": "avere",
@@ -46,13 +44,12 @@
     "band": 2
   },
   {
-    "id": "sent-fut-103",
+    "id": "futuro_semplice-0003",
     "textTemplate": "Stasera Marco {slot_0} una cena speciale per festeggiare la promozione.",
     "primaryTense": "futuro_semplice",
     "level": 19,
     "difficulty": 2,
     "theme": "home_lifestyle",
-    "source": "import-revised",
     "target": {
       "slotId": 0,
       "verb": "fare",
@@ -69,13 +66,12 @@
     "band": 2
   },
   {
-    "id": "sent-fut-104",
+    "id": "futuro_semplice-0004",
     "textTemplate": "Domani io vi {slot_0} tutta la verità sulla festa a sorpresa.",
     "primaryTense": "futuro_semplice",
     "level": 16,
     "difficulty": 2,
     "theme": "social_life",
-    "source": "import-revised",
     "target": {
       "slotId": 0,
       "verb": "dire",
@@ -92,13 +88,12 @@
     "band": 2
   },
   {
-    "id": "sent-fut-105",
+    "id": "futuro_semplice-0005",
     "textTemplate": "L'anno prossimo noi {slot_0} in Giappone per le vacanze estive.",
     "primaryTense": "futuro_semplice",
     "level": 17,
     "difficulty": 2,
     "theme": "travel_commuting",
-    "source": "import-revised",
     "target": {
       "slotId": 0,
       "verb": "andare",
@@ -115,13 +110,12 @@
     "band": 2
   },
   {
-    "id": "sent-fut-106",
+    "id": "futuro_semplice-0006",
     "textTemplate": "Presto voi {slot_0} la risposta ufficiale dal dipartimento legale.",
     "primaryTense": "futuro_semplice",
     "level": 18,
     "difficulty": 2,
     "theme": "work_office",
-    "source": "import-revised",
     "target": {
       "slotId": 0,
       "verb": "avere",
@@ -138,13 +132,12 @@
     "band": 2
   },
   {
-    "id": "sent-fut-107",
+    "id": "futuro_semplice-0007",
     "textTemplate": "Tra poco i nostri ospiti {slot_0} qui.",
     "primaryTense": "futuro_semplice",
     "level": 19,
     "difficulty": 2,
     "theme": "home_lifestyle",
-    "source": "import-revised",
     "target": {
       "slotId": 0,
       "verb": "essere",
@@ -161,13 +154,12 @@
     "band": 2
   },
   {
-    "id": "sent-fut-108",
-    "textTemplate": "Se hai dubbi, tu mi {slot_0} tutto quello che pensi.",
+    "id": "futuro_semplice-0008",
+    "textTemplate": "Alla riunione di domani, tu mi {slot_0} cosa pensi del progetto.",
     "primaryTense": "futuro_semplice",
     "level": 16,
     "difficulty": 2,
     "theme": "leisure",
-    "source": "import-revised",
     "target": {
       "slotId": 0,
       "verb": "dire",
@@ -184,13 +176,12 @@
     "band": 2
   },
   {
-    "id": "sent-fut-109",
+    "id": "futuro_semplice-0009",
     "textTemplate": "La settimana entrante i colleghi {slot_0} una riunione straordinaria.",
     "primaryTense": "futuro_semplice",
     "level": 17,
     "difficulty": 2,
     "theme": "work_office",
-    "source": "import-revised",
     "target": {
       "slotId": 0,
       "verb": "fare",
@@ -207,13 +198,12 @@
     "band": 2
   },
   {
-    "id": "sent-fut-110",
+    "id": "futuro_semplice-0010",
     "textTemplate": "Domani io {slot_0} del mio meglio per completare il compito.",
     "primaryTense": "futuro_semplice",
     "level": 17,
     "difficulty": 2,
     "theme": "daily_routine",
-    "source": "import-revised",
     "target": {
       "slotId": 0,
       "verb": "fare",
@@ -230,13 +220,12 @@
     "band": 2
   },
   {
-    "id": "sent-fut-111",
+    "id": "futuro_semplice-0011",
     "textTemplate": "Domani mattina io {slot_0} con il direttore riguardo al nuovo contratto.",
     "primaryTense": "futuro_semplice",
     "level": 19,
     "difficulty": 1,
     "theme": "work_office",
-    "source": "import-revised",
     "target": {
       "slotId": 0,
       "verb": "parlare",
@@ -253,13 +242,12 @@
     "band": 2
   },
   {
-    "id": "sent-fut-112",
+    "id": "futuro_semplice-0012",
     "textTemplate": "La settimana prossima tu {slot_0} il treno ad alta velocità per Roma.",
     "primaryTense": "futuro_semplice",
     "level": 19,
     "difficulty": 1,
     "theme": "travel_commuting",
-    "source": "import-revised",
     "target": {
       "slotId": 0,
       "verb": "prendere",
@@ -276,13 +264,12 @@
     "band": 2
   },
   {
-    "id": "sent-fut-113",
-    "textTemplate": "Entro venerdì prossimo Marco {slot_0} tutti i documenti necessari.",
+    "id": "futuro_semplice-0013",
+    "textTemplate": "Entro venerdì prossimo Marco {slot_0} di preparare i documenti.",
     "primaryTense": "futuro_semplice",
     "level": 16,
     "difficulty": 1,
     "theme": "work_office",
-    "source": "import-revised",
     "target": {
       "slotId": 0,
       "verb": "finire",
@@ -299,13 +286,12 @@
     "band": 1
   },
   {
-    "id": "sent-fut-114",
+    "id": "futuro_semplice-0014",
     "textTemplate": "Nel fine settimana noi {slot_0} la nostra camera da letto.",
     "primaryTense": "futuro_semplice",
     "level": 17,
     "difficulty": 1,
     "theme": "home_lifestyle",
-    "source": "import-revised",
     "target": {
       "slotId": 0,
       "verb": "pulire",
@@ -322,13 +308,12 @@
     "band": 1
   },
   {
-    "id": "sent-fut-115",
+    "id": "futuro_semplice-0015",
     "textTemplate": "Presto voi {slot_0} tutti i vostri parenti alla festa di compleanno.",
     "primaryTense": "futuro_semplice",
     "level": 18,
     "difficulty": 1,
     "theme": "social_life",
-    "source": "import-revised",
     "target": {
       "slotId": 0,
       "verb": "invitare",
@@ -345,13 +330,12 @@
     "band": 1
   },
   {
-    "id": "sent-fut-116",
+    "id": "futuro_semplice-0016",
     "textTemplate": "Domani sera i miei amici {slot_0} un film al cinema all'aperto.",
     "primaryTense": "futuro_semplice",
     "level": 19,
     "difficulty": 1,
     "theme": "leisure",
-    "source": "import-revised",
     "target": {
       "slotId": 0,
       "verb": "vedere",
@@ -368,13 +352,12 @@
     "band": 2
   },
   {
-    "id": "sent-fut-117",
+    "id": "futuro_semplice-0017",
     "textTemplate": "L'anno prossimo io {slot_0} in una nuova e moderna sede aziendale.",
     "primaryTense": "futuro_semplice",
     "level": 15,
     "difficulty": 1,
     "theme": "work_office",
-    "source": "import-revised",
     "target": {
       "slotId": 0,
       "verb": "lavorare",
@@ -391,13 +374,12 @@
     "band": 1
   },
   {
-    "id": "sent-fut-118",
+    "id": "futuro_semplice-0018",
     "textTemplate": "Tra poco tu {slot_0} una decisione importante per il tuo futuro.",
     "primaryTense": "futuro_semplice",
     "level": 17,
     "difficulty": 2,
     "theme": "daily_routine",
-    "source": "import-revised",
     "target": {
       "slotId": 0,
       "verb": "prendere",
@@ -414,13 +396,12 @@
     "band": 2
   },
   {
-    "id": "sent-fut-119",
+    "id": "futuro_semplice-0019",
     "textTemplate": "Stasera noi {slot_0} la cena italiana che ci hai consigliato.",
     "primaryTense": "futuro_semplice",
     "level": 17,
     "difficulty": 1,
     "theme": "home_lifestyle",
-    "source": "import-revised",
     "target": {
       "slotId": 0,
       "verb": "preparare",
@@ -437,13 +418,12 @@
     "band": 1
   },
   {
-    "id": "sent-fut-120",
+    "id": "futuro_semplice-0020",
     "textTemplate": "Nei prossimi giorni i turisti {slot_0} tutte le bellezze della città.",
     "primaryTense": "futuro_semplice",
     "level": 19,
     "difficulty": 1,
     "theme": "travel_commuting",
-    "source": "import-revised",
     "target": {
       "slotId": 0,
       "verb": "visitare",
@@ -460,13 +440,12 @@
     "band": 2
   },
   {
-    "id": "sent-fut-121",
+    "id": "futuro_semplice-0021",
     "textTemplate": "Non trovo le mie chiavi sul tavolo: dove {slot_0}?",
     "primaryTense": "futuro_semplice",
     "level": 19,
     "difficulty": 3,
     "theme": "home_lifestyle",
-    "source": "import-revised",
     "target": {
       "slotId": 0,
       "verb": "essere",
@@ -483,13 +462,12 @@
     "band": 2
   },
   {
-    "id": "sent-fut-122",
+    "id": "futuro_semplice-0022",
     "textTemplate": "Il capo non risponde al telefono: a quest'ora {slot_0} in riunione.",
     "primaryTense": "futuro_semplice",
     "level": 16,
     "difficulty": 3,
     "theme": "work_office",
-    "source": "import-revised",
     "target": {
       "slotId": 0,
       "verb": "essere",
@@ -506,13 +484,12 @@
     "band": 2
   },
   {
-    "id": "sent-fut-123",
+    "id": "futuro_semplice-0023",
     "textTemplate": "Che ore {slot_0} adesso? Credo che siano quasi le dieci.",
     "primaryTense": "futuro_semplice",
     "level": 17,
     "difficulty": 3,
     "theme": "daily_routine",
-    "source": "import-revised",
     "target": {
       "slotId": 0,
       "verb": "essere",
@@ -529,13 +506,12 @@
     "band": 2
   },
   {
-    "id": "sent-fut-124",
+    "id": "futuro_semplice-0024",
     "textTemplate": "Marco è così silenzioso oggi: forse {slot_0} un problema al lavoro.",
     "primaryTense": "futuro_semplice",
     "level": 18,
     "difficulty": 3,
     "theme": "social_life",
-    "source": "import-revised",
     "target": {
       "slotId": 0,
       "verb": "avere",
@@ -552,13 +528,12 @@
     "band": 2
   },
   {
-    "id": "sent-fut-125-v2",
+    "id": "futuro_semplice-0025",
     "textTemplate": "Maria non risponde: probabilmente {slot_0} in metropolitana.",
     "primaryTense": "futuro_semplice",
     "level": 16,
     "difficulty": 3,
     "theme": "leisure",
-    "source": "import-revised",
     "target": {
       "slotId": 0,
       "verb": "essere",
@@ -575,13 +550,12 @@
     "band": 2
   },
   {
-    "id": "sent-fut-126",
+    "id": "futuro_semplice-0026",
     "textTemplate": "Quella torta in cucina ha un profumo delizioso: {slot_0} buonissima!",
     "primaryTense": "futuro_semplice",
     "level": 16,
     "difficulty": 3,
     "theme": "home_lifestyle",
-    "source": "import-revised",
     "target": {
       "slotId": 0,
       "verb": "essere",
@@ -598,13 +572,12 @@
     "band": 2
   },
   {
-    "id": "sent-fut-127",
+    "id": "futuro_semplice-0027",
     "textTemplate": "Quanti dipendenti ci {slot_0} in questa azienda?",
     "primaryTense": "futuro_semplice",
     "level": 17,
     "difficulty": 3,
     "theme": "work_office",
-    "source": "import-revised",
     "target": {
       "slotId": 0,
       "verb": "essere",
@@ -621,13 +594,12 @@
     "band": 2
   },
   {
-    "id": "sent-fut-128",
+    "id": "futuro_semplice-0028",
     "textTemplate": "Il treno è in ritardo di mezz'ora: ci {slot_0} un guasto sulla linea.",
     "primaryTense": "futuro_semplice",
     "level": 18,
     "difficulty": 3,
     "theme": "travel_commuting",
-    "source": "import-revised",
     "target": {
       "slotId": 0,
       "verb": "essere",
@@ -644,13 +616,12 @@
     "band": 2
   },
   {
-    "id": "sent-fut-129",
+    "id": "futuro_semplice-0029",
     "textTemplate": "Luca non risponde ai messaggi: chissà cosa {slot_0} facendo adesso.",
     "primaryTense": "futuro_semplice",
     "level": 19,
     "difficulty": 3,
     "theme": "social_life",
-    "source": "import-revised",
     "target": {
       "slotId": 0,
       "verb": "stare",
@@ -667,13 +638,12 @@
     "band": 2
   },
   {
-    "id": "sent-fut-130",
+    "id": "futuro_semplice-0030",
     "textTemplate": "Chi {slot_0} a suonare alla porta a quest'ora della notte?",
     "primaryTense": "futuro_semplice",
     "level": 19,
     "difficulty": 3,
     "theme": "home_lifestyle",
-    "source": "import-revised",
     "target": {
       "slotId": 0,
       "verb": "essere",
@@ -690,13 +660,12 @@
     "band": 2
   },
   {
-    "id": "sent-fut-131",
+    "id": "futuro_semplice-0031",
     "textTemplate": "Quando andremo in vacanza, noi {slot_0} molte foto ricordo.",
     "primaryTense": "futuro_semplice",
     "level": 16,
     "difficulty": 2,
     "theme": "travel_commuting",
-    "source": "import-revised",
     "target": {
       "slotId": 0,
       "verb": "fare",
@@ -713,13 +682,12 @@
     "band": 2
   },
   {
-    "id": "sent-fut-132",
-    "textTemplate": "Se studi con attenzione, tu {slot_0} sicuramente l'esame di lingua.",
+    "id": "futuro_semplice-0032",
+    "textTemplate": "Durante la passeggiata tu {slot_0} il ponte vicino al mulino.",
     "primaryTense": "futuro_semplice",
     "level": 17,
     "difficulty": 2,
     "theme": "work_office",
-    "source": "import-revised",
     "target": {
       "slotId": 0,
       "verb": "superare",
@@ -736,13 +704,12 @@
     "band": 2
   },
   {
-    "id": "sent-fut-133",
+    "id": "futuro_semplice-0033",
     "textTemplate": "Tra cinque anni io {slot_0} una casa indipendente vicino al mare.",
     "primaryTense": "futuro_semplice",
     "level": 18,
     "difficulty": 2,
     "theme": "home_lifestyle",
-    "source": "import-revised",
     "target": {
       "slotId": 0,
       "verb": "avere",
@@ -759,13 +726,12 @@
     "band": 2
   },
   {
-    "id": "sent-fut-134",
+    "id": "futuro_semplice-0034",
     "textTemplate": "Sabato sera prossimo i nostri amici {slot_0} una festa a sorpresa.",
     "primaryTense": "futuro_semplice",
     "level": 19,
     "difficulty": 2,
     "theme": "social_life",
-    "source": "import-revised",
     "target": {
       "slotId": 0,
       "verb": "organizzare",
@@ -782,13 +748,12 @@
     "band": 2
   },
   {
-    "id": "sent-fut-135",
+    "id": "futuro_semplice-0035",
     "textTemplate": "Nel prossimo fine settimana tu {slot_0} un po' di sano relax.",
     "primaryTense": "futuro_semplice",
     "level": 17,
     "difficulty": 2,
     "theme": "leisure",
-    "source": "import-revised",
     "target": {
       "slotId": 0,
       "verb": "godersi",
@@ -811,13 +776,12 @@
     "band": 2
   },
   {
-    "id": "sent-fut-136",
+    "id": "futuro_semplice-0036",
     "textTemplate": "Il mese prossimo il consiglio di amministrazione {slot_0} nuove direttive.",
     "primaryTense": "futuro_semplice",
     "level": 16,
     "difficulty": 2,
     "theme": "work_office",
-    "source": "import-revised",
     "target": {
       "slotId": 0,
       "verb": "approvare",
@@ -834,13 +798,12 @@
     "band": 2
   },
   {
-    "id": "sent-fut-137",
+    "id": "futuro_semplice-0037",
     "textTemplate": "Stasera noi {slot_0} la sveglia per le sei di domani.",
     "primaryTense": "futuro_semplice",
     "level": 17,
     "difficulty": 2,
     "theme": "daily_routine",
-    "source": "import-revised",
     "target": {
       "slotId": 0,
       "verb": "puntare",
@@ -857,13 +820,12 @@
     "band": 2
   },
   {
-    "id": "sent-fut-138",
+    "id": "futuro_semplice-0038",
     "textTemplate": "Quando arriverai a Firenze, io ti {slot_0} alla stazione centrale.",
     "primaryTense": "futuro_semplice",
     "level": 18,
     "difficulty": 2,
     "theme": "travel_commuting",
-    "source": "import-revised",
     "target": {
       "slotId": 0,
       "verb": "aspettare",
@@ -880,13 +842,12 @@
     "band": 2
   },
   {
-    "id": "sent-fut-139",
+    "id": "futuro_semplice-0039",
     "textTemplate": "Nel giro di pochi anni questa zona {slot_0} completamente trasformata.",
     "primaryTense": "futuro_semplice",
     "level": 16,
     "difficulty": 2,
     "theme": "home_lifestyle",
-    "source": "import-revised",
     "target": {
       "slotId": 0,
       "verb": "essere",
@@ -903,13 +864,12 @@
     "band": 2
   },
   {
-    "id": "sent-fut-140",
+    "id": "futuro_semplice-0040",
     "textTemplate": "Speriamo che il tempo sia bello: domani noi {slot_0} una lunga passeggiata.",
     "primaryTense": "futuro_semplice",
     "level": 16,
     "difficulty": 2,
     "theme": "social_life",
-    "source": "import-revised",
     "target": {
       "slotId": 0,
       "verb": "fare",
@@ -926,13 +886,12 @@
     "band": 2
   },
   {
-    "id": "corpus-futuro_semplice-001",
+    "id": "futuro_semplice-0041",
     "textTemplate": "Domani io {slot_0} presto per vedere l'alba.",
     "primaryTense": "futuro_semplice",
     "level": 19,
     "difficulty": 1,
     "theme": "vita_quotidiana",
-    "source": "authored",
     "target": {
       "slotId": 0,
       "verb": "alzarsi",
@@ -949,13 +908,12 @@
     "band": 1
   },
   {
-    "id": "corpus-futuro_semplice-002",
+    "id": "futuro_semplice-0042",
     "textTemplate": "Tu {slot_0} in tempo per il primo autobus?",
     "primaryTense": "futuro_semplice",
     "level": 17,
     "difficulty": 1,
     "theme": "vita_quotidiana",
-    "source": "authored",
     "target": {
       "slotId": 0,
       "verb": "alzarsi",
@@ -972,13 +930,12 @@
     "band": 1
   },
   {
-    "id": "corpus-futuro_semplice-003",
+    "id": "futuro_semplice-0043",
     "textTemplate": "Domenica noi {slot_0} senza mettere la sveglia.",
     "primaryTense": "futuro_semplice",
     "level": 18,
     "difficulty": 1,
     "theme": "vita_quotidiana",
-    "source": "authored",
     "target": {
       "slotId": 0,
       "verb": "alzarsi",
@@ -995,13 +952,12 @@
     "band": 1
   },
   {
-    "id": "corpus-futuro_semplice-004",
+    "id": "futuro_semplice-0044",
     "textTemplate": "Tu {slot_0} il giardino quando fioriranno le rose.",
     "primaryTense": "futuro_semplice",
     "level": 18,
     "difficulty": 1,
     "theme": "vita_quotidiana",
-    "source": "authored",
     "target": {
       "slotId": 0,
       "verb": "amare",
@@ -1018,13 +974,12 @@
     "band": 1
   },
   {
-    "id": "corpus-futuro_semplice-005",
+    "id": "futuro_semplice-0045",
     "textTemplate": "I bambini {slot_0} questa storia di animali parlanti.",
     "primaryTense": "futuro_semplice",
     "level": 19,
     "difficulty": 1,
     "theme": "vita_quotidiana",
-    "source": "authored",
     "target": {
       "slotId": 0,
       "verb": "amare",
@@ -1041,13 +996,12 @@
     "band": 1
   },
   {
-    "id": "corpus-futuro_semplice-006",
+    "id": "futuro_semplice-0046",
     "textTemplate": "La prossima settimana io {slot_0} a ritirare il passaporto.",
     "primaryTense": "futuro_semplice",
     "level": 18,
     "difficulty": 2,
     "theme": "vita_quotidiana",
-    "source": "authored",
     "target": {
       "slotId": 0,
       "verb": "andare",
@@ -1064,13 +1018,12 @@
     "band": 2
   },
   {
-    "id": "corpus-futuro_semplice-007",
+    "id": "futuro_semplice-0047",
     "textTemplate": "Domani la nonna {slot_0} alla visita con mio fratello.",
     "primaryTense": "futuro_semplice",
     "level": 19,
     "difficulty": 2,
     "theme": "vita_quotidiana",
-    "source": "authored",
     "target": {
       "slotId": 0,
       "verb": "andare",
@@ -1087,13 +1040,12 @@
     "band": 2
   },
   {
-    "id": "corpus-futuro_semplice-008",
+    "id": "futuro_semplice-0048",
     "textTemplate": "Voi {slot_0} al mare anche se farà freddo?",
     "primaryTense": "futuro_semplice",
     "level": 16,
     "difficulty": 2,
     "theme": "vita_quotidiana",
-    "source": "authored",
     "target": {
       "slotId": 0,
       "verb": "andare",
@@ -1110,13 +1062,12 @@
     "band": 2
   },
   {
-    "id": "corpus-futuro_semplice-009",
+    "id": "futuro_semplice-0049",
     "textTemplate": "Tu {slot_0} la bozza prima di mandarla in stampa?",
     "primaryTense": "futuro_semplice",
     "level": 18,
     "difficulty": 1,
     "theme": "vita_quotidiana",
-    "source": "authored",
     "target": {
       "slotId": 0,
       "verb": "approvare",
@@ -1133,13 +1084,12 @@
     "band": 1
   },
   {
-    "id": "corpus-futuro_semplice-010",
+    "id": "futuro_semplice-0050",
     "textTemplate": "Il comune {slot_0} il piano dopo aver ascoltato i residenti.",
     "primaryTense": "futuro_semplice",
     "level": 15,
     "difficulty": 1,
     "theme": "vita_quotidiana",
-    "source": "authored",
     "target": {
       "slotId": 0,
       "verb": "approvare",
@@ -1156,13 +1106,12 @@
     "band": 1
   },
   {
-    "id": "corpus-futuro_semplice-011",
+    "id": "futuro_semplice-0051",
     "textTemplate": "Noi {slot_0} il preventivo soltanto dopo averlo letto insieme.",
     "primaryTense": "futuro_semplice",
     "level": 16,
     "difficulty": 1,
     "theme": "vita_quotidiana",
-    "source": "authored",
     "target": {
       "slotId": 0,
       "verb": "approvare",
@@ -1179,13 +1128,12 @@
     "band": 1
   },
   {
-    "id": "corpus-futuro_semplice-012",
+    "id": "futuro_semplice-0052",
     "textTemplate": "Domani io {slot_0} il negozio mezz'ora prima.",
     "primaryTense": "futuro_semplice",
     "level": 19,
     "difficulty": 2,
     "theme": "vita_quotidiana",
-    "source": "authored",
     "target": {
       "slotId": 0,
       "verb": "aprire",
@@ -1202,13 +1150,12 @@
     "band": 2
   },
   {
-    "id": "corpus-futuro_semplice-013",
+    "id": "futuro_semplice-0053",
     "textTemplate": "Alla fine dei lavori noi {slot_0} il giardino al pubblico.",
     "primaryTense": "futuro_semplice",
     "level": 16,
     "difficulty": 2,
     "theme": "vita_quotidiana",
-    "source": "authored",
     "target": {
       "slotId": 0,
       "verb": "aprire",
@@ -1225,13 +1172,12 @@
     "band": 2
   },
   {
-    "id": "corpus-futuro_semplice-014",
+    "id": "futuro_semplice-0054",
     "textTemplate": "Tu {slot_0} prima degli altri e potrai scegliere il posto.",
     "primaryTense": "futuro_semplice",
     "level": 19,
     "difficulty": 1,
     "theme": "vita_quotidiana",
-    "source": "authored",
     "target": {
       "slotId": 0,
       "verb": "arrivare",
@@ -1248,13 +1194,12 @@
     "band": 1
   },
   {
-    "id": "corpus-futuro_semplice-015",
+    "id": "futuro_semplice-0055",
     "textTemplate": "Il pacco {slot_0} entro la fine della settimana.",
     "primaryTense": "futuro_semplice",
     "level": 15,
     "difficulty": 1,
     "theme": "vita_quotidiana",
-    "source": "authored",
     "target": {
       "slotId": 0,
       "verb": "arrivare",
@@ -1271,13 +1216,12 @@
     "band": 1
   },
   {
-    "id": "corpus-futuro_semplice-016",
+    "id": "futuro_semplice-0056",
     "textTemplate": "Voi {slot_0} dalla strada principale o dal sentiero?",
     "primaryTense": "futuro_semplice",
     "level": 16,
     "difficulty": 1,
     "theme": "vita_quotidiana",
-    "source": "authored",
     "target": {
       "slotId": 0,
       "verb": "arrivare",
@@ -1294,13 +1238,12 @@
     "band": 1
   },
   {
-    "id": "corpus-futuro_semplice-017",
+    "id": "futuro_semplice-0057",
     "textTemplate": "Stasera io {slot_0} il concerto dalla prima fila.",
     "primaryTense": "futuro_semplice",
     "level": 17,
     "difficulty": 1,
     "theme": "vita_quotidiana",
-    "source": "authored",
     "target": {
       "slotId": 0,
       "verb": "ascoltare",
@@ -1317,13 +1260,12 @@
     "band": 1
   },
   {
-    "id": "corpus-futuro_semplice-018",
+    "id": "futuro_semplice-0058",
     "textTemplate": "Durante la visita noi {slot_0} il racconto di un artigiano.",
     "primaryTense": "futuro_semplice",
     "level": 18,
     "difficulty": 1,
     "theme": "vita_quotidiana",
-    "source": "authored",
     "target": {
       "slotId": 0,
       "verb": "ascoltare",
@@ -1340,13 +1282,12 @@
     "band": 1
   },
   {
-    "id": "corpus-futuro_semplice-019",
+    "id": "futuro_semplice-0059",
     "textTemplate": "I responsabili {slot_0} le nostre osservazioni prima di decidere.",
     "primaryTense": "futuro_semplice",
     "level": 19,
     "difficulty": 1,
     "theme": "vita_quotidiana",
-    "source": "authored",
     "target": {
       "slotId": 0,
       "verb": "ascoltare",
@@ -1363,13 +1304,12 @@
     "band": 1
   },
   {
-    "id": "corpus-futuro_semplice-020",
+    "id": "futuro_semplice-0060",
     "textTemplate": "Tu {slot_0} qui mentre io cerco un parcheggio?",
     "primaryTense": "futuro_semplice",
     "level": 16,
     "difficulty": 1,
     "theme": "vita_quotidiana",
-    "source": "authored",
     "target": {
       "slotId": 0,
       "verb": "aspettare",
@@ -1386,13 +1326,12 @@
     "band": 1
   },
   {
-    "id": "corpus-futuro_semplice-021",
+    "id": "futuro_semplice-0061",
     "textTemplate": "Noi {slot_0} una risposta fino a venerdì.",
     "primaryTense": "futuro_semplice",
     "level": 17,
     "difficulty": 1,
     "theme": "vita_quotidiana",
-    "source": "authored",
     "target": {
       "slotId": 0,
       "verb": "aspettare",
@@ -1409,13 +1348,12 @@
     "band": 1
   },
   {
-    "id": "corpus-futuro_semplice-022",
+    "id": "futuro_semplice-0062",
     "textTemplate": "Voi {slot_0} la fine della partita per chiamarmi?",
     "primaryTense": "futuro_semplice",
     "level": 18,
     "difficulty": 1,
     "theme": "vita_quotidiana",
-    "source": "authored",
     "target": {
       "slotId": 0,
       "verb": "aspettare",
@@ -1432,13 +1370,12 @@
     "band": 1
   },
   {
-    "id": "corpus-futuro_semplice-023",
+    "id": "futuro_semplice-0063",
     "textTemplate": "Dopo questo corso io {slot_0} più tempo libero.",
     "primaryTense": "futuro_semplice",
     "level": 17,
     "difficulty": 2,
     "theme": "vita_quotidiana",
-    "source": "authored",
     "target": {
       "slotId": 0,
       "verb": "avere",
@@ -1455,13 +1392,12 @@
     "band": 2
   },
   {
-    "id": "corpus-futuro_semplice-024",
+    "id": "futuro_semplice-0064",
     "textTemplate": "La nuova biblioteca {slot_0} una sala per i bambini.",
     "primaryTense": "futuro_semplice",
     "level": 18,
     "difficulty": 2,
     "theme": "vita_quotidiana",
-    "source": "authored",
     "target": {
       "slotId": 0,
       "verb": "avere",
@@ -1478,13 +1414,12 @@
     "band": 2
   },
   {
-    "id": "corpus-futuro_semplice-025",
+    "id": "futuro_semplice-0065",
     "textTemplate": "Gli ospiti {slot_0} a disposizione due biciclette.",
     "primaryTense": "futuro_semplice",
     "level": 19,
     "difficulty": 2,
     "theme": "vita_quotidiana",
-    "source": "authored",
     "target": {
       "slotId": 0,
       "verb": "avere",
@@ -1501,13 +1436,12 @@
     "band": 2
   },
   {
-    "id": "corpus-futuro_semplice-026",
+    "id": "futuro_semplice-0066",
     "textTemplate": "Tu {slot_0} una tisana prima di andare a letto?",
     "primaryTense": "futuro_semplice",
     "level": 16,
     "difficulty": 2,
     "theme": "vita_quotidiana",
-    "source": "authored",
     "target": {
       "slotId": 0,
       "verb": "bere",
@@ -1524,13 +1458,12 @@
     "band": 2
   },
   {
-    "id": "corpus-futuro_semplice-027",
+    "id": "futuro_semplice-0067",
     "textTemplate": "Dopo la salita noi {slot_0} alla fontana del paese.",
     "primaryTense": "futuro_semplice",
     "level": 17,
     "difficulty": 2,
     "theme": "vita_quotidiana",
-    "source": "authored",
     "target": {
       "slotId": 0,
       "verb": "bere",
@@ -1547,13 +1480,12 @@
     "band": 2
   },
   {
-    "id": "corpus-futuro_semplice-028",
+    "id": "futuro_semplice-0068",
     "textTemplate": "Con un esempio concreto io {slot_0} meglio la regola.",
     "primaryTense": "futuro_semplice",
     "level": 19,
     "difficulty": 1,
     "theme": "vita_quotidiana",
-    "source": "authored",
     "target": {
       "slotId": 0,
       "verb": "capire",
@@ -1570,13 +1502,12 @@
     "band": 1
   },
   {
-    "id": "corpus-futuro_semplice-029",
+    "id": "futuro_semplice-0069",
     "textTemplate": "Un giorno mia figlia {slot_0} perché abbiamo fatto questa scelta.",
     "primaryTense": "futuro_semplice",
     "level": 15,
     "difficulty": 1,
     "theme": "vita_quotidiana",
-    "source": "authored",
     "target": {
       "slotId": 0,
       "verb": "capire",
@@ -1593,13 +1524,12 @@
     "band": 1
   },
   {
-    "id": "corpus-futuro_semplice-030",
+    "id": "futuro_semplice-0070",
     "textTemplate": "Gli spettatori {slot_0} il titolo soltanto alla fine del film.",
     "primaryTense": "futuro_semplice",
     "level": 17,
     "difficulty": 1,
     "theme": "vita_quotidiana",
-    "source": "authored",
     "target": {
       "slotId": 0,
       "verb": "capire",
@@ -1616,13 +1546,12 @@
     "band": 1
   },
   {
-    "id": "corpus-futuro_semplice-031",
+    "id": "futuro_semplice-0071",
     "textTemplate": "Tu {slot_0} la cornice con il legno che è rimasto?",
     "primaryTense": "futuro_semplice",
     "level": 18,
     "difficulty": 1,
     "theme": "vita_quotidiana",
-    "source": "authored",
     "target": {
       "slotId": 0,
       "verb": "costruire",
@@ -1639,13 +1568,12 @@
     "band": 1
   },
   {
-    "id": "corpus-futuro_semplice-032",
+    "id": "futuro_semplice-0072",
     "textTemplate": "In primavera noi {slot_0} una piccola serra.",
     "primaryTense": "futuro_semplice",
     "level": 19,
     "difficulty": 1,
     "theme": "vita_quotidiana",
-    "source": "authored",
     "target": {
       "slotId": 0,
       "verb": "costruire",
@@ -1662,13 +1590,12 @@
     "band": 1
   },
   {
-    "id": "corpus-futuro_semplice-033",
+    "id": "futuro_semplice-0073",
     "textTemplate": "Gli operai {slot_0} il ponte senza interrompere il traffico.",
     "primaryTense": "futuro_semplice",
     "level": 15,
     "difficulty": 1,
     "theme": "vita_quotidiana",
-    "source": "authored",
     "target": {
       "slotId": 0,
       "verb": "costruire",
@@ -1685,13 +1612,12 @@
     "band": 1
   },
   {
-    "id": "corpus-futuro_semplice-034",
+    "id": "futuro_semplice-0074",
     "textTemplate": "Domani io {slot_0} qualcosa che si possa mangiare freddo.",
     "primaryTense": "futuro_semplice",
     "level": 16,
     "difficulty": 1,
     "theme": "vita_quotidiana",
-    "source": "authored",
     "target": {
       "slotId": 0,
       "verb": "cucinare",
@@ -1708,13 +1634,12 @@
     "band": 1
   },
   {
-    "id": "corpus-futuro_semplice-035",
+    "id": "futuro_semplice-0075",
     "textTemplate": "Per la festa Paolo {slot_0} la sua famosa zuppa.",
     "primaryTense": "futuro_semplice",
     "level": 17,
     "difficulty": 1,
     "theme": "vita_quotidiana",
-    "source": "authored",
     "target": {
       "slotId": 0,
       "verb": "cucinare",
@@ -1731,13 +1656,12 @@
     "band": 1
   },
   {
-    "id": "corpus-futuro_semplice-036",
+    "id": "futuro_semplice-0076",
     "textTemplate": "Voi {slot_0} per tutti oppure ognuno porterà qualcosa?",
     "primaryTense": "futuro_semplice",
     "level": 18,
     "difficulty": 1,
     "theme": "vita_quotidiana",
-    "source": "authored",
     "target": {
       "slotId": 0,
       "verb": "cucinare",
@@ -1754,13 +1678,12 @@
     "band": 1
   },
   {
-    "id": "corpus-futuro_semplice-037",
+    "id": "futuro_semplice-0077",
     "textTemplate": "Tu {slot_0} il gatto mentre sarò in viaggio?",
     "primaryTense": "futuro_semplice",
     "level": 19,
     "difficulty": 1,
     "theme": "vita_quotidiana",
-    "source": "authored",
     "target": {
       "slotId": 0,
       "verb": "curare",
@@ -1777,13 +1700,12 @@
     "band": 1
   },
   {
-    "id": "corpus-futuro_semplice-038",
+    "id": "futuro_semplice-0078",
     "textTemplate": "Noi {slot_0} l'orto della scuola durante l'estate.",
     "primaryTense": "futuro_semplice",
     "level": 15,
     "difficulty": 1,
     "theme": "vita_quotidiana",
-    "source": "authored",
     "target": {
       "slotId": 0,
       "verb": "curare",
@@ -1800,13 +1722,12 @@
     "band": 1
   },
   {
-    "id": "corpus-futuro_semplice-039",
+    "id": "futuro_semplice-0079",
     "textTemplate": "I volontari {slot_0} le nuove aiuole della piazza.",
     "primaryTense": "futuro_semplice",
     "level": 16,
     "difficulty": 1,
     "theme": "vita_quotidiana",
-    "source": "authored",
     "target": {
       "slotId": 0,
       "verb": "curare",
@@ -1823,13 +1744,12 @@
     "band": 1
   },
   {
-    "id": "corpus-futuro_semplice-040",
+    "id": "futuro_semplice-0080",
     "textTemplate": "Con questa lista io non {slot_0} niente.",
     "primaryTense": "futuro_semplice",
     "level": 18,
     "difficulty": 1,
     "theme": "vita_quotidiana",
-    "source": "authored",
     "target": {
       "slotId": 0,
       "verb": "dimenticare",
@@ -1846,13 +1766,12 @@
     "band": 1
   },
   {
-    "id": "corpus-futuro_semplice-041",
+    "id": "futuro_semplice-0081",
     "textTemplate": "Mio fratello {slot_0} le chiavi se non le mettiamo vicino alla porta.",
     "primaryTense": "futuro_semplice",
     "level": 19,
     "difficulty": 1,
     "theme": "vita_quotidiana",
-    "source": "authored",
     "target": {
       "slotId": 0,
       "verb": "dimenticare",
@@ -1869,13 +1788,12 @@
     "band": 1
   },
   {
-    "id": "corpus-futuro_semplice-042",
+    "id": "futuro_semplice-0082",
     "textTemplate": "Voi non {slot_0} facilmente il panorama da lassù.",
     "primaryTense": "futuro_semplice",
     "level": 15,
     "difficulty": 1,
     "theme": "vita_quotidiana",
-    "source": "authored",
     "target": {
       "slotId": 0,
       "verb": "dimenticare",
@@ -1892,13 +1810,12 @@
     "band": 1
   },
   {
-    "id": "corpus-futuro_semplice-043",
+    "id": "futuro_semplice-0083",
     "textTemplate": "Tu {slot_0} agli altri dove incontrarci?",
     "primaryTense": "futuro_semplice",
     "level": 19,
     "difficulty": 2,
     "theme": "vita_quotidiana",
-    "source": "authored",
     "target": {
       "slotId": 0,
       "verb": "dire",
@@ -1915,13 +1832,12 @@
     "band": 2
   },
   {
-    "id": "corpus-futuro_semplice-044",
+    "id": "futuro_semplice-0084",
     "textTemplate": "Noi {slot_0} la nostra opinione alla fine dell'incontro.",
     "primaryTense": "futuro_semplice",
     "level": 16,
     "difficulty": 2,
     "theme": "vita_quotidiana",
-    "source": "authored",
     "target": {
       "slotId": 0,
       "verb": "dire",
@@ -1938,13 +1854,12 @@
     "band": 2
   },
   {
-    "id": "corpus-futuro_semplice-045",
+    "id": "futuro_semplice-0085",
     "textTemplate": "I medici {slot_0} quando sarà possibile tornare a casa.",
     "primaryTense": "futuro_semplice",
     "level": 17,
     "difficulty": 2,
     "theme": "vita_quotidiana",
-    "source": "authored",
     "target": {
       "slotId": 0,
       "verb": "dire",
@@ -1961,13 +1876,12 @@
     "band": 2
   },
   {
-    "id": "corpus-futuro_semplice-046",
+    "id": "futuro_semplice-0086",
     "textTemplate": "Stanotte io {slot_0} nella stanza vicino al giardino.",
     "primaryTense": "futuro_semplice",
     "level": 19,
     "difficulty": 1,
     "theme": "vita_quotidiana",
-    "source": "authored",
     "target": {
       "slotId": 0,
       "verb": "dormire",
@@ -1984,13 +1898,12 @@
     "band": 1
   },
   {
-    "id": "corpus-futuro_semplice-047",
+    "id": "futuro_semplice-0087",
     "textTemplate": "Dopo una giornata così il bambino {slot_0} profondamente.",
     "primaryTense": "futuro_semplice",
     "level": 15,
     "difficulty": 1,
     "theme": "vita_quotidiana",
-    "source": "authored",
     "target": {
       "slotId": 0,
       "verb": "dormire",
@@ -2007,13 +1920,12 @@
     "band": 1
   },
   {
-    "id": "corpus-futuro_semplice-048",
+    "id": "futuro_semplice-0088",
     "textTemplate": "Voi {slot_0} in tenda anche in montagna?",
     "primaryTense": "futuro_semplice",
     "level": 16,
     "difficulty": 1,
     "theme": "vita_quotidiana",
-    "source": "authored",
     "target": {
       "slotId": 0,
       "verb": "dormire",
@@ -2030,13 +1942,12 @@
     "band": 1
   },
   {
-    "id": "corpus-futuro_semplice-049",
+    "id": "futuro_semplice-0089",
     "textTemplate": "Per iscriverti tu {slot_0} presentare un documento.",
     "primaryTense": "futuro_semplice",
     "level": 17,
     "difficulty": 2,
     "theme": "vita_quotidiana",
-    "source": "authored",
     "target": {
       "slotId": 0,
       "verb": "dovere",
@@ -2053,13 +1964,12 @@
     "band": 2
   },
   {
-    "id": "corpus-futuro_semplice-050",
+    "id": "futuro_semplice-0090",
     "textTemplate": "Noi {slot_0} dividere il viaggio in due tappe.",
     "primaryTense": "futuro_semplice",
     "level": 17,
     "difficulty": 2,
     "theme": "vita_quotidiana",
-    "source": "authored",
     "target": {
       "slotId": 0,
       "verb": "dovere",
@@ -2076,13 +1986,12 @@
     "band": 2
   },
   {
-    "id": "corpus-futuro_semplice-051",
+    "id": "futuro_semplice-0091",
     "textTemplate": "I visitatori {slot_0} lasciare gli zaini all'ingresso.",
     "primaryTense": "futuro_semplice",
     "level": 18,
     "difficulty": 2,
     "theme": "vita_quotidiana",
-    "source": "authored",
     "target": {
       "slotId": 0,
       "verb": "dovere",
@@ -2099,13 +2008,12 @@
     "band": 2
   },
   {
-    "id": "corpus-futuro_semplice-052",
+    "id": "futuro_semplice-0092",
     "textTemplate": "Domani a quest'ora io {slot_0} sul treno.",
     "primaryTense": "futuro_semplice",
     "level": 19,
     "difficulty": 2,
     "theme": "vita_quotidiana",
-    "source": "authored",
     "target": {
       "slotId": 0,
       "verb": "essere",
@@ -2122,13 +2030,12 @@
     "band": 2
   },
   {
-    "id": "corpus-futuro_semplice-053",
+    "id": "futuro_semplice-0093",
     "textTemplate": "La piscina {slot_0} pronta prima dell'estate.",
     "primaryTense": "futuro_semplice",
     "level": 16,
     "difficulty": 2,
     "theme": "vita_quotidiana",
-    "source": "authored",
     "target": {
       "slotId": 0,
       "verb": "essere",
@@ -2145,13 +2052,12 @@
     "band": 2
   },
   {
-    "id": "corpus-futuro_semplice-054",
+    "id": "futuro_semplice-0094",
     "textTemplate": "Voi {slot_0} i primi a vedere il nuovo laboratorio.",
     "primaryTense": "futuro_semplice",
     "level": 17,
     "difficulty": 2,
     "theme": "vita_quotidiana",
-    "source": "authored",
     "target": {
       "slotId": 0,
       "verb": "essere",
@@ -2168,13 +2074,12 @@
     "band": 2
   },
   {
-    "id": "corpus-futuro_semplice-055",
+    "id": "futuro_semplice-0095",
     "textTemplate": "Tu {slot_0} le foto durante la cerimonia?",
     "primaryTense": "futuro_semplice",
     "level": 18,
     "difficulty": 2,
     "theme": "vita_quotidiana",
-    "source": "authored",
     "target": {
       "slotId": 0,
       "verb": "fare",
@@ -2191,13 +2096,12 @@
     "band": 2
   },
   {
-    "id": "corpus-futuro_semplice-056",
+    "id": "futuro_semplice-0096",
     "textTemplate": "Noi {slot_0} una raccolta di libri per la scuola.",
     "primaryTense": "futuro_semplice",
     "level": 19,
     "difficulty": 2,
     "theme": "vita_quotidiana",
-    "source": "authored",
     "target": {
       "slotId": 0,
       "verb": "fare",
@@ -2214,13 +2118,12 @@
     "band": 2
   },
   {
-    "id": "corpus-futuro_semplice-057",
+    "id": "futuro_semplice-0097",
     "textTemplate": "Gli studenti {slot_0} una prova prima dell'esame.",
     "primaryTense": "futuro_semplice",
     "level": 16,
     "difficulty": 2,
     "theme": "vita_quotidiana",
-    "source": "authored",
     "target": {
       "slotId": 0,
       "verb": "fare",
@@ -2237,13 +2140,12 @@
     "band": 2
   },
   {
-    "id": "corpus-futuro_semplice-058",
+    "id": "futuro_semplice-0098",
     "textTemplate": "Io {slot_0} di dipingere la porta entro domani.",
     "primaryTense": "futuro_semplice",
     "level": 17,
     "difficulty": 1,
     "theme": "vita_quotidiana",
-    "source": "authored",
     "target": {
       "slotId": 0,
       "verb": "finire",
@@ -2260,13 +2162,12 @@
     "band": 1
   },
   {
-    "id": "corpus-futuro_semplice-059",
+    "id": "futuro_semplice-0099",
     "textTemplate": "La festa {slot_0} prima dell'ultimo autobus.",
     "primaryTense": "futuro_semplice",
     "level": 18,
     "difficulty": 1,
     "theme": "vita_quotidiana",
-    "source": "authored",
     "target": {
       "slotId": 0,
       "verb": "finire",
@@ -2283,13 +2184,12 @@
     "band": 1
   },
   {
-    "id": "corpus-futuro_semplice-060",
+    "id": "futuro_semplice-0100",
     "textTemplate": "Voi {slot_0} il percorso prima che faccia buio.",
     "primaryTense": "futuro_semplice",
     "level": 15,
     "difficulty": 1,
     "theme": "vita_quotidiana",
-    "source": "authored",
     "target": {
       "slotId": 0,
       "verb": "finire",
@@ -2306,13 +2206,12 @@
     "band": 1
   },
   {
-    "id": "corpus-futuro_semplice-061",
+    "id": "futuro_semplice-0101",
     "textTemplate": "Tu {slot_0} il modulo quando verrai a ritirare le chiavi.",
     "primaryTense": "futuro_semplice",
     "level": 16,
     "difficulty": 1,
     "theme": "vita_quotidiana",
-    "source": "authored",
     "target": {
       "slotId": 0,
       "verb": "firmare",
@@ -2329,13 +2228,12 @@
     "band": 1
   },
   {
-    "id": "corpus-futuro_semplice-062",
+    "id": "futuro_semplice-0102",
     "textTemplate": "Noi {slot_0} il contratto dopo aver visto l'appartamento.",
     "primaryTense": "futuro_semplice",
     "level": 17,
     "difficulty": 1,
     "theme": "vita_quotidiana",
-    "source": "authored",
     "target": {
       "slotId": 0,
       "verb": "firmare",
@@ -2352,13 +2250,12 @@
     "band": 1
   },
   {
-    "id": "corpus-futuro_semplice-063",
+    "id": "futuro_semplice-0103",
     "textTemplate": "Gli atleti {slot_0} le magliette dei bambini.",
     "primaryTense": "futuro_semplice",
     "level": 18,
     "difficulty": 1,
     "theme": "vita_quotidiana",
-    "source": "authored",
     "target": {
       "slotId": 0,
       "verb": "firmare",
@@ -2375,13 +2272,12 @@
     "band": 1
   },
   {
-    "id": "corpus-futuro_semplice-064",
+    "id": "futuro_semplice-0104",
     "textTemplate": "Durante la gita io {slot_0} soprattutto i paesaggi.",
     "primaryTense": "futuro_semplice",
     "level": 19,
     "difficulty": 1,
     "theme": "vita_quotidiana",
-    "source": "authored",
     "target": {
       "slotId": 0,
       "verb": "fotografare",
@@ -2398,13 +2294,12 @@
     "band": 1
   },
   {
-    "id": "corpus-futuro_semplice-065",
+    "id": "futuro_semplice-0105",
     "textTemplate": "La fotografa {slot_0} la sala prima dell'arrivo degli invitati.",
     "primaryTense": "futuro_semplice",
     "level": 15,
     "difficulty": 1,
     "theme": "vita_quotidiana",
-    "source": "authored",
     "target": {
       "slotId": 0,
       "verb": "fotografare",
@@ -2421,13 +2316,12 @@
     "band": 1
   },
   {
-    "id": "corpus-futuro_semplice-066",
+    "id": "futuro_semplice-0106",
     "textTemplate": "Voi {slot_0} anche i preparativi della festa?",
     "primaryTense": "futuro_semplice",
     "level": 16,
     "difficulty": 1,
     "theme": "vita_quotidiana",
-    "source": "authored",
     "target": {
       "slotId": 0,
       "verb": "fotografare",
@@ -2444,13 +2338,12 @@
     "band": 1
   },
   {
-    "id": "corpus-futuro_semplice-067",
+    "id": "futuro_semplice-0107",
     "textTemplate": "Tu {slot_0} nella stessa squadra di tua sorella?",
     "primaryTense": "futuro_semplice",
     "level": 17,
     "difficulty": 1,
     "theme": "vita_quotidiana",
-    "source": "authored",
     "target": {
       "slotId": 0,
       "verb": "giocare",
@@ -2467,13 +2360,12 @@
     "band": 1
   },
   {
-    "id": "corpus-futuro_semplice-068",
+    "id": "futuro_semplice-0108",
     "textTemplate": "Se pioverà, noi {slot_0} a carte in cucina.",
     "primaryTense": "futuro_semplice",
     "level": 18,
     "difficulty": 1,
     "theme": "vita_quotidiana",
-    "source": "authored",
     "target": {
       "slotId": 0,
       "verb": "giocare",
@@ -2490,13 +2382,12 @@
     "band": 1
   },
   {
-    "id": "corpus-futuro_semplice-069",
+    "id": "futuro_semplice-0109",
     "textTemplate": "Dopo l'esame io {slot_0} una giornata senza programmi.",
     "primaryTense": "futuro_semplice",
     "level": 18,
     "difficulty": 2,
     "theme": "vita_quotidiana",
-    "source": "authored",
     "target": {
       "slotId": 0,
       "verb": "godersi",
@@ -2519,13 +2410,12 @@
     "band": 2
   },
   {
-    "id": "corpus-futuro_semplice-070",
+    "id": "futuro_semplice-0110",
     "textTemplate": "Noi {slot_0} il viaggio anche se non visiteremo tutto.",
     "primaryTense": "futuro_semplice",
     "level": 19,
     "difficulty": 2,
     "theme": "vita_quotidiana",
-    "source": "authored",
     "target": {
       "slotId": 0,
       "verb": "godersi",
@@ -2548,13 +2438,12 @@
     "band": 2
   },
   {
-    "id": "corpus-futuro_semplice-071",
+    "id": "futuro_semplice-0111",
     "textTemplate": "I nonni {slot_0} la compagnia dei nipoti durante le vacanze.",
     "primaryTense": "futuro_semplice",
     "level": 17,
     "difficulty": 2,
     "theme": "vita_quotidiana",
-    "source": "authored",
     "target": {
       "slotId": 0,
       "verb": "godersi",
@@ -2577,13 +2466,12 @@
     "band": 2
   },
   {
-    "id": "corpus-futuro_semplice-072",
+    "id": "futuro_semplice-0112",
     "textTemplate": "Il tecnico {slot_0} la lavatrice domani mattina.",
     "primaryTense": "futuro_semplice",
     "level": 18,
     "difficulty": 1,
     "theme": "vita_quotidiana",
-    "source": "authored",
     "target": {
       "slotId": 0,
       "verb": "guardare",
@@ -2600,13 +2488,12 @@
     "band": 1
   },
   {
-    "id": "corpus-futuro_semplice-073",
+    "id": "futuro_semplice-0113",
     "textTemplate": "Voi {slot_0} il film in lingua originale?",
     "primaryTense": "futuro_semplice",
     "level": 19,
     "difficulty": 1,
     "theme": "vita_quotidiana",
-    "source": "authored",
     "target": {
       "slotId": 0,
       "verb": "guardare",
@@ -2623,13 +2510,12 @@
     "band": 1
   },
   {
-    "id": "corpus-futuro_semplice-074",
+    "id": "futuro_semplice-0114",
     "textTemplate": "Io {slot_0} nella prima parte del viaggio.",
     "primaryTense": "futuro_semplice",
     "level": 15,
     "difficulty": 1,
     "theme": "vita_quotidiana",
-    "source": "authored",
     "target": {
       "slotId": 0,
       "verb": "guidare",
@@ -2646,13 +2532,12 @@
     "band": 1
   },
   {
-    "id": "corpus-futuro_semplice-075",
+    "id": "futuro_semplice-0115",
     "textTemplate": "Noi {slot_0} con calma lungo la strada costiera.",
     "primaryTense": "futuro_semplice",
     "level": 16,
     "difficulty": 1,
     "theme": "vita_quotidiana",
-    "source": "authored",
     "target": {
       "slotId": 0,
       "verb": "guidare",
@@ -2669,13 +2554,12 @@
     "band": 1
   },
   {
-    "id": "corpus-futuro_semplice-076",
+    "id": "futuro_semplice-0116",
     "textTemplate": "I volontari {slot_0} i pulmini fino al campo estivo.",
     "primaryTense": "futuro_semplice",
     "level": 17,
     "difficulty": 1,
     "theme": "vita_quotidiana",
-    "source": "authored",
     "target": {
       "slotId": 0,
       "verb": "guidare",
@@ -2692,13 +2576,12 @@
     "band": 1
   },
   {
-    "id": "corpus-futuro_semplice-077",
+    "id": "futuro_semplice-0117",
     "textTemplate": "Tu {slot_0} anche i tuoi vecchi compagni di scuola?",
     "primaryTense": "futuro_semplice",
     "level": 18,
     "difficulty": 1,
     "theme": "vita_quotidiana",
-    "source": "authored",
     "target": {
       "slotId": 0,
       "verb": "invitare",
@@ -2715,13 +2598,12 @@
     "band": 1
   },
   {
-    "id": "corpus-futuro_semplice-078",
+    "id": "futuro_semplice-0118",
     "textTemplate": "La biblioteca {slot_0} una traduttrice al prossimo incontro.",
     "primaryTense": "futuro_semplice",
     "level": 19,
     "difficulty": 1,
     "theme": "vita_quotidiana",
-    "source": "authored",
     "target": {
       "slotId": 0,
       "verb": "invitare",
@@ -2738,13 +2620,12 @@
     "band": 1
   },
   {
-    "id": "corpus-futuro_semplice-079",
+    "id": "futuro_semplice-0119",
     "textTemplate": "Voi {slot_0} i vicini a vedere la casa rinnovata?",
     "primaryTense": "futuro_semplice",
     "level": 15,
     "difficulty": 1,
     "theme": "vita_quotidiana",
-    "source": "authored",
     "target": {
       "slotId": 0,
       "verb": "invitare",
@@ -2761,13 +2642,12 @@
     "band": 1
   },
   {
-    "id": "corpus-futuro_semplice-080",
+    "id": "futuro_semplice-0120",
     "textTemplate": "Quest'estate io {slot_0} nel negozio di mio zio.",
     "primaryTense": "futuro_semplice",
     "level": 17,
     "difficulty": 1,
     "theme": "vita_quotidiana",
-    "source": "authored",
     "target": {
       "slotId": 0,
       "verb": "lavorare",
@@ -2784,13 +2664,12 @@
     "band": 1
   },
   {
-    "id": "corpus-futuro_semplice-081",
+    "id": "futuro_semplice-0121",
     "textTemplate": "Noi {slot_0} alla scenografia durante il fine settimana.",
     "primaryTense": "futuro_semplice",
     "level": 18,
     "difficulty": 1,
     "theme": "vita_quotidiana",
-    "source": "authored",
     "target": {
       "slotId": 0,
       "verb": "lavorare",
@@ -2807,13 +2686,12 @@
     "band": 1
   },
   {
-    "id": "corpus-futuro_semplice-082",
+    "id": "futuro_semplice-0122",
     "textTemplate": "I restauratori {slot_0} sulla facciata per sei mesi.",
     "primaryTense": "futuro_semplice",
     "level": 19,
     "difficulty": 1,
     "theme": "vita_quotidiana",
-    "source": "authored",
     "target": {
       "slotId": 0,
       "verb": "lavorare",
@@ -2830,13 +2708,12 @@
     "band": 1
   },
   {
-    "id": "corpus-futuro_semplice-083",
+    "id": "futuro_semplice-0123",
     "textTemplate": "Tu {slot_0} il discorso prima della consegna dei premi?",
     "primaryTense": "futuro_semplice",
     "level": 19,
     "difficulty": 2,
     "theme": "vita_quotidiana",
-    "source": "authored",
     "target": {
       "slotId": 0,
       "verb": "leggere",
@@ -2853,13 +2730,12 @@
     "band": 2
   },
   {
-    "id": "corpus-futuro_semplice-084",
+    "id": "futuro_semplice-0124",
     "textTemplate": "La maestra {slot_0} le lettere dei bambini alla festa.",
     "primaryTense": "futuro_semplice",
     "level": 16,
     "difficulty": 2,
     "theme": "vita_quotidiana",
-    "source": "authored",
     "target": {
       "slotId": 0,
       "verb": "leggere",
@@ -2876,13 +2752,12 @@
     "band": 2
   },
   {
-    "id": "corpus-futuro_semplice-085",
+    "id": "futuro_semplice-0125",
     "textTemplate": "Io {slot_0} qualcosa sul treno se avrò fame.",
     "primaryTense": "futuro_semplice",
     "level": 17,
     "difficulty": 1,
     "theme": "vita_quotidiana",
-    "source": "authored",
     "target": {
       "slotId": 0,
       "verb": "mangiare",
@@ -2899,13 +2774,12 @@
     "band": 1
   },
   {
-    "id": "corpus-futuro_semplice-086",
+    "id": "futuro_semplice-0126",
     "textTemplate": "Domenica noi {slot_0} in giardino, se il tempo lo permetterà.",
     "primaryTense": "futuro_semplice",
     "level": 18,
     "difficulty": 1,
     "theme": "vita_quotidiana",
-    "source": "authored",
     "target": {
       "slotId": 0,
       "verb": "mangiare",
@@ -2922,13 +2796,12 @@
     "band": 1
   },
   {
-    "id": "corpus-futuro_semplice-087",
+    "id": "futuro_semplice-0127",
     "textTemplate": "Gli ospiti {slot_0} ai tavoli sotto gli alberi.",
     "primaryTense": "futuro_semplice",
     "level": 19,
     "difficulty": 1,
     "theme": "vita_quotidiana",
-    "source": "authored",
     "target": {
       "slotId": 0,
       "verb": "mangiare",
@@ -2945,13 +2818,12 @@
     "band": 1
   },
   {
-    "id": "corpus-futuro_semplice-088",
+    "id": "futuro_semplice-0128",
     "textTemplate": "Tu {slot_0} il pezzo appena il negozio riaprirà?",
     "primaryTense": "futuro_semplice",
     "level": 15,
     "difficulty": 1,
     "theme": "vita_quotidiana",
-    "source": "authored",
     "target": {
       "slotId": 0,
       "verb": "ordinare",
@@ -2968,13 +2840,12 @@
     "band": 1
   },
   {
-    "id": "corpus-futuro_semplice-089",
+    "id": "futuro_semplice-0129",
     "textTemplate": "Noi {slot_0} soltanto un antipasto da dividere.",
     "primaryTense": "futuro_semplice",
     "level": 16,
     "difficulty": 1,
     "theme": "vita_quotidiana",
-    "source": "authored",
     "target": {
       "slotId": 0,
       "verb": "ordinare",
@@ -2991,13 +2862,12 @@
     "band": 1
   },
   {
-    "id": "corpus-futuro_semplice-090",
+    "id": "futuro_semplice-0130",
     "textTemplate": "Voi {slot_0} i libri per autore o per argomento?",
     "primaryTense": "futuro_semplice",
     "level": 18,
     "difficulty": 1,
     "theme": "vita_quotidiana",
-    "source": "authored",
     "target": {
       "slotId": 0,
       "verb": "ordinare",
@@ -3014,13 +2884,12 @@
     "band": 1
   },
   {
-    "id": "corpus-futuro_semplice-091",
+    "id": "futuro_semplice-0131",
     "textTemplate": "La scuola {slot_0} un incontro per le nuove famiglie.",
     "primaryTense": "futuro_semplice",
     "level": 19,
     "difficulty": 1,
     "theme": "vita_quotidiana",
-    "source": "authored",
     "target": {
       "slotId": 0,
       "verb": "organizzare",
@@ -3037,13 +2906,12 @@
     "band": 1
   },
   {
-    "id": "corpus-futuro_semplice-092",
+    "id": "futuro_semplice-0132",
     "textTemplate": "I residenti {slot_0} una festa per inaugurare il giardino.",
     "primaryTense": "futuro_semplice",
     "level": 15,
     "difficulty": 1,
     "theme": "vita_quotidiana",
-    "source": "authored",
     "target": {
       "slotId": 0,
       "verb": "organizzare",
@@ -3060,13 +2928,12 @@
     "band": 1
   },
   {
-    "id": "corpus-futuro_semplice-093",
+    "id": "futuro_semplice-0133",
     "textTemplate": "Tu {slot_0} con il proprietario del problema del riscaldamento?",
     "primaryTense": "futuro_semplice",
     "level": 16,
     "difficulty": 1,
     "theme": "vita_quotidiana",
-    "source": "authored",
     "target": {
       "slotId": 0,
       "verb": "parlare",
@@ -3083,13 +2950,12 @@
     "band": 1
   },
   {
-    "id": "corpus-futuro_semplice-094",
+    "id": "futuro_semplice-0134",
     "textTemplate": "Noi {slot_0} dei dettagli quando ci vedremo.",
     "primaryTense": "futuro_semplice",
     "level": 17,
     "difficulty": 1,
     "theme": "vita_quotidiana",
-    "source": "authored",
     "target": {
       "slotId": 0,
       "verb": "parlare",
@@ -3106,13 +2972,12 @@
     "band": 1
   },
   {
-    "id": "corpus-futuro_semplice-095",
+    "id": "futuro_semplice-0135",
     "textTemplate": "Voi {slot_0} davanti al pubblico per la prima volta?",
     "primaryTense": "futuro_semplice",
     "level": 18,
     "difficulty": 1,
     "theme": "vita_quotidiana",
-    "source": "authored",
     "target": {
       "slotId": 0,
       "verb": "parlare",
@@ -3129,13 +2994,12 @@
     "band": 1
   },
   {
-    "id": "corpus-futuro_semplice-096",
+    "id": "futuro_semplice-0136",
     "textTemplate": "Domani io {slot_0} a prendere i libri che mi hai prestato.",
     "primaryTense": "futuro_semplice",
     "level": 19,
     "difficulty": 1,
     "theme": "vita_quotidiana",
-    "source": "authored",
     "target": {
       "slotId": 0,
       "verb": "passare",
@@ -3152,13 +3016,12 @@
     "band": 1
   },
   {
-    "id": "corpus-futuro_semplice-097",
+    "id": "futuro_semplice-0137",
     "textTemplate": "Il nuovo percorso {slot_0} vicino al fiume.",
     "primaryTense": "futuro_semplice",
     "level": 15,
     "difficulty": 1,
     "theme": "vita_quotidiana",
-    "source": "authored",
     "target": {
       "slotId": 0,
       "verb": "passare",
@@ -3175,13 +3038,12 @@
     "band": 1
   },
   {
-    "id": "corpus-futuro_semplice-098",
+    "id": "futuro_semplice-0138",
     "textTemplate": "I bambini {slot_0} il pomeriggio con i cugini.",
     "primaryTense": "futuro_semplice",
     "level": 16,
     "difficulty": 1,
     "theme": "vita_quotidiana",
-    "source": "authored",
     "target": {
       "slotId": 0,
       "verb": "passare",
@@ -3198,13 +3060,12 @@
     "band": 1
   },
   {
-    "id": "corpus-futuro_semplice-099",
+    "id": "futuro_semplice-0139",
     "textTemplate": "Tu non {slot_0} se seguirai i cartelli blu.",
     "primaryTense": "futuro_semplice",
     "level": 18,
     "difficulty": 2,
     "theme": "vita_quotidiana",
-    "source": "authored",
     "target": {
       "slotId": 0,
       "verb": "perdersi",
@@ -3221,13 +3082,12 @@
     "band": 2
   },
   {
-    "id": "corpus-futuro_semplice-100",
+    "id": "futuro_semplice-0140",
     "textTemplate": "Senza una mappa noi {slot_0} in questo quartiere.",
     "primaryTense": "futuro_semplice",
     "level": 19,
     "difficulty": 2,
     "theme": "vita_quotidiana",
-    "source": "authored",
     "target": {
       "slotId": 0,
       "verb": "perdersi",
@@ -3244,13 +3104,12 @@
     "band": 2
   },
   {
-    "id": "corpus-futuro_semplice-101",
+    "id": "futuro_semplice-0141",
     "textTemplate": "Dopo le sei io {slot_0} aiutarti a spostare il mobile.",
     "primaryTense": "futuro_semplice",
     "level": 18,
     "difficulty": 2,
     "theme": "vita_quotidiana",
-    "source": "authored",
     "target": {
       "slotId": 0,
       "verb": "potere",
@@ -3267,13 +3126,12 @@
     "band": 2
   },
   {
-    "id": "corpus-futuro_semplice-102",
+    "id": "futuro_semplice-0142",
     "textTemplate": "Con la nuova rampa la nonna {slot_0} entrare più facilmente.",
     "primaryTense": "futuro_semplice",
     "level": 19,
     "difficulty": 2,
     "theme": "vita_quotidiana",
-    "source": "authored",
     "target": {
       "slotId": 0,
       "verb": "potere",
@@ -3290,13 +3148,12 @@
     "band": 2
   },
   {
-    "id": "corpus-futuro_semplice-103",
+    "id": "futuro_semplice-0143",
     "textTemplate": "Voi {slot_0} scegliere il laboratorio al momento dell'iscrizione.",
     "primaryTense": "futuro_semplice",
     "level": 16,
     "difficulty": 2,
     "theme": "vita_quotidiana",
-    "source": "authored",
     "target": {
       "slotId": 0,
       "verb": "potere",
@@ -3313,13 +3170,12 @@
     "band": 2
   },
   {
-    "id": "corpus-futuro_semplice-104",
+    "id": "futuro_semplice-0144",
     "textTemplate": "Dopo tante ore in piedi tu {slot_0} sederti vicino alla finestra.",
     "primaryTense": "futuro_semplice",
     "level": 19,
     "difficulty": 1,
     "theme": "vita_quotidiana",
-    "source": "authored",
     "target": {
       "slotId": 0,
       "verb": "preferire",
@@ -3336,13 +3192,12 @@
     "band": 1
   },
   {
-    "id": "corpus-futuro_semplice-105",
+    "id": "futuro_semplice-0145",
     "textTemplate": "Con questo caldo noi {slot_0} una cena leggera.",
     "primaryTense": "futuro_semplice",
     "level": 15,
     "difficulty": 1,
     "theme": "vita_quotidiana",
-    "source": "authored",
     "target": {
       "slotId": 0,
       "verb": "preferire",
@@ -3359,13 +3214,12 @@
     "band": 1
   },
   {
-    "id": "corpus-futuro_semplice-106",
+    "id": "futuro_semplice-0146",
     "textTemplate": "Forse gli ospiti {slot_0} fare una passeggiata prima di cena.",
     "primaryTense": "futuro_semplice",
     "level": 16,
     "difficulty": 1,
     "theme": "vita_quotidiana",
-    "source": "authored",
     "target": {
       "slotId": 0,
       "verb": "preferire",
@@ -3382,13 +3236,12 @@
     "band": 1
   },
   {
-    "id": "corpus-futuro_semplice-107",
+    "id": "futuro_semplice-0147",
     "textTemplate": "Domani io {slot_0} il treno delle sette.",
     "primaryTense": "futuro_semplice",
     "level": 16,
     "difficulty": 2,
     "theme": "vita_quotidiana",
-    "source": "authored",
     "target": {
       "slotId": 0,
       "verb": "prendere",
@@ -3405,13 +3258,12 @@
     "band": 2
   },
   {
-    "id": "corpus-futuro_semplice-108",
+    "id": "futuro_semplice-0148",
     "textTemplate": "Mio fratello {slot_0} qualche giorno di ferie per il trasloco.",
     "primaryTense": "futuro_semplice",
     "level": 17,
     "difficulty": 2,
     "theme": "vita_quotidiana",
-    "source": "authored",
     "target": {
       "slotId": 0,
       "verb": "prendere",
@@ -3428,13 +3280,12 @@
     "band": 2
   },
   {
-    "id": "corpus-futuro_semplice-109",
+    "id": "futuro_semplice-0149",
     "textTemplate": "Voi {slot_0} la strada lungo il lago?",
     "primaryTense": "futuro_semplice",
     "level": 18,
     "difficulty": 2,
     "theme": "vita_quotidiana",
-    "source": "authored",
     "target": {
       "slotId": 0,
       "verb": "prendere",
@@ -3451,13 +3302,12 @@
     "band": 2
   },
   {
-    "id": "corpus-futuro_semplice-110",
+    "id": "futuro_semplice-0150",
     "textTemplate": "Tu {slot_0} il dolce mentre io sistemo la sala?",
     "primaryTense": "futuro_semplice",
     "level": 16,
     "difficulty": 1,
     "theme": "vita_quotidiana",
-    "source": "authored",
     "target": {
       "slotId": 0,
       "verb": "preparare",
@@ -3474,13 +3324,12 @@
     "band": 1
   },
   {
-    "id": "corpus-futuro_semplice-111",
+    "id": "futuro_semplice-0151",
     "textTemplate": "Noi {slot_0} una lista di domande per la guida.",
     "primaryTense": "futuro_semplice",
     "level": 17,
     "difficulty": 1,
     "theme": "vita_quotidiana",
-    "source": "authored",
     "target": {
       "slotId": 0,
       "verb": "preparare",
@@ -3497,13 +3346,12 @@
     "band": 1
   },
   {
-    "id": "corpus-futuro_semplice-112",
+    "id": "futuro_semplice-0152",
     "textTemplate": "Gli organizzatori {slot_0} un percorso più breve per i bambini.",
     "primaryTense": "futuro_semplice",
     "level": 18,
     "difficulty": 1,
     "theme": "vita_quotidiana",
-    "source": "authored",
     "target": {
       "slotId": 0,
       "verb": "preparare",
@@ -3520,13 +3368,12 @@
     "band": 1
   },
   {
-    "id": "corpus-futuro_semplice-113",
+    "id": "futuro_semplice-0153",
     "textTemplate": "Io non {slot_0} una data finché non saprò quanto lavoro resta.",
     "primaryTense": "futuro_semplice",
     "level": 17,
     "difficulty": 2,
     "theme": "vita_quotidiana",
-    "source": "authored",
     "target": {
       "slotId": 0,
       "verb": "promettere",
@@ -3543,13 +3390,12 @@
     "band": 2
   },
   {
-    "id": "corpus-futuro_semplice-114",
+    "id": "futuro_semplice-0154",
     "textTemplate": "Noi {slot_0} la sala prima di restituire le chiavi.",
     "primaryTense": "futuro_semplice",
     "level": 15,
     "difficulty": 1,
     "theme": "vita_quotidiana",
-    "source": "authored",
     "target": {
       "slotId": 0,
       "verb": "pulire",
@@ -3566,13 +3412,12 @@
     "band": 1
   },
   {
-    "id": "corpus-futuro_semplice-115",
+    "id": "futuro_semplice-0155",
     "textTemplate": "I volontari {slot_0} il parco dopo la festa.",
     "primaryTense": "futuro_semplice",
     "level": 16,
     "difficulty": 1,
     "theme": "vita_quotidiana",
-    "source": "authored",
     "target": {
       "slotId": 0,
       "verb": "pulire",
@@ -3589,13 +3434,12 @@
     "band": 1
   },
   {
-    "id": "corpus-futuro_semplice-116",
+    "id": "futuro_semplice-0156",
     "textTemplate": "Stasera io {slot_0} la sveglia anche sul telefono.",
     "primaryTense": "futuro_semplice",
     "level": 17,
     "difficulty": 1,
     "theme": "vita_quotidiana",
-    "source": "authored",
     "target": {
       "slotId": 0,
       "verb": "puntare",
@@ -3612,13 +3456,12 @@
     "band": 1
   },
   {
-    "id": "corpus-futuro_semplice-117",
+    "id": "futuro_semplice-0157",
     "textTemplate": "Per la nuova collezione noi {slot_0} sui tessuti naturali.",
     "primaryTense": "futuro_semplice",
     "level": 18,
     "difficulty": 1,
     "theme": "vita_quotidiana",
-    "source": "authored",
     "target": {
       "slotId": 0,
       "verb": "puntare",
@@ -3635,13 +3478,12 @@
     "band": 1
   },
   {
-    "id": "corpus-futuro_semplice-118",
+    "id": "futuro_semplice-0158",
     "textTemplate": "Voi {slot_0} la macchina fotografica verso il palco?",
     "primaryTense": "futuro_semplice",
     "level": 19,
     "difficulty": 1,
     "theme": "vita_quotidiana",
-    "source": "authored",
     "target": {
       "slotId": 0,
       "verb": "puntare",
@@ -3658,13 +3500,12 @@
     "band": 1
   },
   {
-    "id": "corpus-futuro_semplice-119",
+    "id": "futuro_semplice-0159",
     "textTemplate": "Tu {slot_0} un messaggio quando il libro sarà disponibile.",
     "primaryTense": "futuro_semplice",
     "level": 15,
     "difficulty": 1,
     "theme": "vita_quotidiana",
-    "source": "authored",
     "target": {
       "slotId": 0,
       "verb": "ricevere",
@@ -3681,13 +3522,12 @@
     "band": 1
   },
   {
-    "id": "corpus-futuro_semplice-120",
+    "id": "futuro_semplice-0160",
     "textTemplate": "Ogni partecipante {slot_0} una mappa del percorso.",
     "primaryTense": "futuro_semplice",
     "level": 17,
     "difficulty": 1,
     "theme": "vita_quotidiana",
-    "source": "authored",
     "target": {
       "slotId": 0,
       "verb": "ricevere",
@@ -3704,13 +3544,12 @@
     "band": 1
   },
   {
-    "id": "corpus-futuro_semplice-121",
+    "id": "futuro_semplice-0161",
     "textTemplate": "I vincitori {slot_0} i premi alla fine della giornata.",
     "primaryTense": "futuro_semplice",
     "level": 18,
     "difficulty": 1,
     "theme": "vita_quotidiana",
-    "source": "authored",
     "target": {
       "slotId": 0,
       "verb": "ricevere",
@@ -3727,13 +3566,12 @@
     "band": 1
   },
   {
-    "id": "corpus-futuro_semplice-122",
+    "id": "futuro_semplice-0162",
     "textTemplate": "Io {slot_0} questo dubbio chiedendo alla bibliotecaria.",
     "primaryTense": "futuro_semplice",
     "level": 17,
     "difficulty": 2,
     "theme": "vita_quotidiana",
-    "source": "authored",
     "target": {
       "slotId": 0,
       "verb": "risolvere",
@@ -3750,13 +3588,12 @@
     "band": 2
   },
   {
-    "id": "corpus-futuro_semplice-123",
+    "id": "futuro_semplice-0163",
     "textTemplate": "Noi {slot_0} la questione prima delle vacanze.",
     "primaryTense": "futuro_semplice",
     "level": 18,
     "difficulty": 2,
     "theme": "vita_quotidiana",
-    "source": "authored",
     "target": {
       "slotId": 0,
       "verb": "risolvere",
@@ -3773,13 +3610,12 @@
     "band": 2
   },
   {
-    "id": "corpus-futuro_semplice-124",
+    "id": "futuro_semplice-0164",
     "textTemplate": "Voi {slot_0} l'indovinello senza guardare gli indizi?",
     "primaryTense": "futuro_semplice",
     "level": 19,
     "difficulty": 2,
     "theme": "vita_quotidiana",
-    "source": "authored",
     "target": {
       "slotId": 0,
       "verb": "risolvere",
@@ -3796,13 +3632,12 @@
     "band": 2
   },
   {
-    "id": "corpus-futuro_semplice-125",
+    "id": "futuro_semplice-0165",
     "textTemplate": "Tu {slot_0} alla lettera prima di partire?",
     "primaryTense": "futuro_semplice",
     "level": 16,
     "difficulty": 2,
     "theme": "vita_quotidiana",
-    "source": "authored",
     "target": {
       "slotId": 0,
       "verb": "rispondere",
@@ -3819,13 +3654,12 @@
     "band": 2
   },
   {
-    "id": "corpus-futuro_semplice-126",
+    "id": "futuro_semplice-0166",
     "textTemplate": "La segreteria {slot_0} alle richieste in ordine di arrivo.",
     "primaryTense": "futuro_semplice",
     "level": 17,
     "difficulty": 2,
     "theme": "vita_quotidiana",
-    "source": "authored",
     "target": {
       "slotId": 0,
       "verb": "rispondere",
@@ -3842,13 +3676,12 @@
     "band": 2
   },
   {
-    "id": "corpus-futuro_semplice-127",
+    "id": "futuro_semplice-0167",
     "textTemplate": "Gli esperti {slot_0} alle domande dopo la presentazione.",
     "primaryTense": "futuro_semplice",
     "level": 18,
     "difficulty": 2,
     "theme": "vita_quotidiana",
-    "source": "authored",
     "target": {
       "slotId": 0,
       "verb": "rispondere",
@@ -3865,13 +3698,12 @@
     "band": 2
   },
   {
-    "id": "corpus-futuro_semplice-128",
+    "id": "futuro_semplice-0168",
     "textTemplate": "Domani io {slot_0} finalmente la data della partenza.",
     "primaryTense": "futuro_semplice",
     "level": 19,
     "difficulty": 2,
     "theme": "vita_quotidiana",
-    "source": "authored",
     "target": {
       "slotId": 0,
       "verb": "sapere",
@@ -3888,13 +3720,12 @@
     "band": 2
   },
   {
-    "id": "corpus-futuro_semplice-129",
+    "id": "futuro_semplice-0169",
     "textTemplate": "Noi {slot_0} il risultato soltanto alla fine della settimana.",
     "primaryTense": "futuro_semplice",
     "level": 16,
     "difficulty": 2,
     "theme": "vita_quotidiana",
-    "source": "authored",
     "target": {
       "slotId": 0,
       "verb": "sapere",
@@ -3911,13 +3742,12 @@
     "band": 2
   },
   {
-    "id": "corpus-futuro_semplice-130",
+    "id": "futuro_semplice-0170",
     "textTemplate": "Dopo il corso voi {slot_0} riconoscere gli alberi più comuni.",
     "primaryTense": "futuro_semplice",
     "level": 16,
     "difficulty": 2,
     "theme": "vita_quotidiana",
-    "source": "authored",
     "target": {
       "slotId": 0,
       "verb": "sapere",
@@ -3934,13 +3764,12 @@
     "band": 2
   },
   {
-    "id": "corpus-futuro_semplice-131",
+    "id": "futuro_semplice-0171",
     "textTemplate": "Tu {slot_0} i nomi degli invitati sui cartoncini?",
     "primaryTense": "futuro_semplice",
     "level": 17,
     "difficulty": 2,
     "theme": "vita_quotidiana",
-    "source": "authored",
     "target": {
       "slotId": 0,
       "verb": "scrivere",
@@ -3957,13 +3786,12 @@
     "band": 2
   },
   {
-    "id": "corpus-futuro_semplice-132",
+    "id": "futuro_semplice-0172",
     "textTemplate": "La nonna {slot_0} le sue ricette in un quaderno per noi.",
     "primaryTense": "futuro_semplice",
     "level": 18,
     "difficulty": 2,
     "theme": "vita_quotidiana",
-    "source": "authored",
     "target": {
       "slotId": 0,
       "verb": "scrivere",
@@ -3980,13 +3808,12 @@
     "band": 2
   },
   {
-    "id": "corpus-futuro_semplice-133",
+    "id": "futuro_semplice-0173",
     "textTemplate": "Gli alunni {slot_0} una storia a partire da una fotografia.",
     "primaryTense": "futuro_semplice",
     "level": 19,
     "difficulty": 2,
     "theme": "vita_quotidiana",
-    "source": "authored",
     "target": {
       "slotId": 0,
       "verb": "scrivere",
@@ -4003,13 +3830,12 @@
     "band": 2
   },
   {
-    "id": "corpus-futuro_semplice-134",
+    "id": "futuro_semplice-0174",
     "textTemplate": "Lunedì io {slot_0} il pacco con il corriere.",
     "primaryTense": "futuro_semplice",
     "level": 17,
     "difficulty": 1,
     "theme": "vita_quotidiana",
-    "source": "authored",
     "target": {
       "slotId": 0,
       "verb": "spedire",
@@ -4026,13 +3852,12 @@
     "band": 1
   },
   {
-    "id": "corpus-futuro_semplice-135",
+    "id": "futuro_semplice-0175",
     "textTemplate": "Voi {slot_0} una copia anche alla biblioteca?",
     "primaryTense": "futuro_semplice",
     "level": 18,
     "difficulty": 1,
     "theme": "vita_quotidiana",
-    "source": "authored",
     "target": {
       "slotId": 0,
       "verb": "spedire",
@@ -4049,13 +3874,12 @@
     "band": 1
   },
   {
-    "id": "corpus-futuro_semplice-136",
+    "id": "futuro_semplice-0176",
     "textTemplate": "Tu {slot_0} le luci dopo l'uscita dell'ultimo ospite.",
     "primaryTense": "futuro_semplice",
     "level": 18,
     "difficulty": 2,
     "theme": "vita_quotidiana",
-    "source": "authored",
     "target": {
       "slotId": 0,
       "verb": "spegnere",
@@ -4072,13 +3896,12 @@
     "band": 2
   },
   {
-    "id": "corpus-futuro_semplice-137",
+    "id": "futuro_semplice-0177",
     "textTemplate": "I tecnici {slot_0} gli impianti durante la manutenzione.",
     "primaryTense": "futuro_semplice",
     "level": 19,
     "difficulty": 2,
     "theme": "vita_quotidiana",
-    "source": "authored",
     "target": {
       "slotId": 0,
       "verb": "spegnere",
@@ -4095,13 +3918,12 @@
     "band": 2
   },
   {
-    "id": "corpus-futuro_semplice-138",
+    "id": "futuro_semplice-0178",
     "textTemplate": "Durante il concerto io {slot_0} vicino all'uscita.",
     "primaryTense": "futuro_semplice",
     "level": 16,
     "difficulty": 2,
     "theme": "vita_quotidiana",
-    "source": "authored",
     "target": {
       "slotId": 0,
       "verb": "stare",
@@ -4118,13 +3940,12 @@
     "band": 2
   },
   {
-    "id": "corpus-futuro_semplice-139",
+    "id": "futuro_semplice-0179",
     "textTemplate": "Noi {slot_0} qui finché non arriveranno gli altri.",
     "primaryTense": "futuro_semplice",
     "level": 17,
     "difficulty": 2,
     "theme": "vita_quotidiana",
-    "source": "authored",
     "target": {
       "slotId": 0,
       "verb": "stare",
@@ -4141,13 +3962,12 @@
     "band": 2
   },
   {
-    "id": "corpus-futuro_semplice-140",
+    "id": "futuro_semplice-0180",
     "textTemplate": "Voi {slot_0} bene in questa casa luminosa.",
     "primaryTense": "futuro_semplice",
     "level": 17,
     "difficulty": 2,
     "theme": "vita_quotidiana",
-    "source": "authored",
     "target": {
       "slotId": 0,
       "verb": "stare",
@@ -4164,13 +3984,12 @@
     "band": 2
   },
   {
-    "id": "corpus-futuro_semplice-141",
+    "id": "futuro_semplice-0181",
     "textTemplate": "Tu {slot_0} il pianoforte durante la lettura?",
     "primaryTense": "futuro_semplice",
     "level": 15,
     "difficulty": 1,
     "theme": "vita_quotidiana",
-    "source": "authored",
     "target": {
       "slotId": 0,
       "verb": "suonare",
@@ -4187,13 +4006,12 @@
     "band": 1
   },
   {
-    "id": "corpus-futuro_semplice-142",
+    "id": "futuro_semplice-0182",
     "textTemplate": "Le campane {slot_0} per annunciare l'inizio della festa.",
     "primaryTense": "futuro_semplice",
     "level": 16,
     "difficulty": 1,
     "theme": "vita_quotidiana",
-    "source": "authored",
     "target": {
       "slotId": 0,
       "verb": "suonare",
@@ -4210,13 +4028,12 @@
     "band": 1
   },
   {
-    "id": "corpus-futuro_semplice-143",
+    "id": "futuro_semplice-0183",
     "textTemplate": "Con un po' di pratica io {slot_0} la paura di parlare in pubblico.",
     "primaryTense": "futuro_semplice",
     "level": 17,
     "difficulty": 1,
     "theme": "vita_quotidiana",
-    "source": "authored",
     "target": {
       "slotId": 0,
       "verb": "superare",
@@ -4233,13 +4050,12 @@
     "band": 1
   },
   {
-    "id": "corpus-futuro_semplice-144",
+    "id": "futuro_semplice-0184",
     "textTemplate": "Noi {slot_0} il ponte prima di fermarci a riposare.",
     "primaryTense": "futuro_semplice",
     "level": 18,
     "difficulty": 1,
     "theme": "vita_quotidiana",
-    "source": "authored",
     "target": {
       "slotId": 0,
       "verb": "superare",
@@ -4256,13 +4072,12 @@
     "band": 1
   },
   {
-    "id": "corpus-futuro_semplice-145",
+    "id": "futuro_semplice-0185",
     "textTemplate": "Il tecnico {slot_0} domani con il pezzo nuovo.",
     "primaryTense": "futuro_semplice",
     "level": 19,
     "difficulty": 1,
     "theme": "vita_quotidiana",
-    "source": "authored",
     "target": {
       "slotId": 0,
       "verb": "tornare",
@@ -4279,13 +4094,12 @@
     "band": 2
   },
   {
-    "id": "corpus-futuro_semplice-146",
+    "id": "futuro_semplice-0186",
     "textTemplate": "Voi {slot_0} nello stesso paese anche l'anno prossimo?",
     "primaryTense": "futuro_semplice",
     "level": 15,
     "difficulty": 1,
     "theme": "vita_quotidiana",
-    "source": "authored",
     "target": {
       "slotId": 0,
       "verb": "tornare",
@@ -4302,13 +4116,12 @@
     "band": 1
   },
   {
-    "id": "corpus-futuro_semplice-147",
+    "id": "futuro_semplice-0187",
     "textTemplate": "Tu {slot_0} dalla porta laterale dopo lo spettacolo.",
     "primaryTense": "futuro_semplice",
     "level": 16,
     "difficulty": 2,
     "theme": "vita_quotidiana",
-    "source": "authored",
     "target": {
       "slotId": 0,
       "verb": "uscire",
@@ -4325,13 +4138,12 @@
     "band": 2
   },
   {
-    "id": "corpus-futuro_semplice-148",
+    "id": "futuro_semplice-0188",
     "textTemplate": "Le nuove guide del museo {slot_0} in primavera.",
     "primaryTense": "futuro_semplice",
     "level": 17,
     "difficulty": 2,
     "theme": "vita_quotidiana",
-    "source": "authored",
     "target": {
       "slotId": 0,
       "verb": "uscire",
@@ -4348,13 +4160,12 @@
     "band": 2
   },
   {
-    "id": "corpus-futuro_semplice-149",
+    "id": "futuro_semplice-0189",
     "textTemplate": "Dalla cima della torre io {slot_0} tutta la valle.",
     "primaryTense": "futuro_semplice",
     "level": 18,
     "difficulty": 2,
     "theme": "vita_quotidiana",
-    "source": "authored",
     "target": {
       "slotId": 0,
       "verb": "vedere",
@@ -4371,13 +4182,12 @@
     "band": 2
   },
   {
-    "id": "corpus-futuro_semplice-150",
+    "id": "futuro_semplice-0190",
     "textTemplate": "Noi {slot_0} i risultati dei lavori tra qualche settimana.",
     "primaryTense": "futuro_semplice",
     "level": 18,
     "difficulty": 2,
     "theme": "vita_quotidiana",
-    "source": "authored",
     "target": {
       "slotId": 0,
       "verb": "vedere",
@@ -4394,13 +4204,12 @@
     "band": 2
   },
   {
-    "id": "corpus-futuro_semplice-151",
+    "id": "futuro_semplice-0191",
     "textTemplate": "Mia sorella {slot_0} a prendere il cane nel pomeriggio.",
     "primaryTense": "futuro_semplice",
     "level": 19,
     "difficulty": 2,
     "theme": "vita_quotidiana",
-    "source": "authored",
     "target": {
       "slotId": 0,
       "verb": "venire",
@@ -4417,13 +4226,12 @@
     "band": 2
   },
   {
-    "id": "corpus-futuro_semplice-152",
+    "id": "futuro_semplice-0192",
     "textTemplate": "Voi {slot_0} con noi al laboratorio di cucina?",
     "primaryTense": "futuro_semplice",
     "level": 16,
     "difficulty": 2,
     "theme": "vita_quotidiana",
-    "source": "authored",
     "target": {
       "slotId": 0,
       "verb": "venire",
@@ -4440,13 +4248,12 @@
     "band": 2
   },
   {
-    "id": "corpus-futuro_semplice-153",
+    "id": "futuro_semplice-0193",
     "textTemplate": "Tu {slot_0} con il gruppo oppure ci raggiungerai dopo?",
     "primaryTense": "futuro_semplice",
     "level": 18,
     "difficulty": 1,
     "theme": "vita_quotidiana",
-    "source": "authored",
     "target": {
       "slotId": 0,
       "verb": "viaggiare",
@@ -4463,13 +4270,12 @@
     "band": 1
   },
   {
-    "id": "corpus-futuro_semplice-154",
+    "id": "futuro_semplice-0194",
     "textTemplate": "I musicisti {slot_0} in treno per tutta la tournée.",
     "primaryTense": "futuro_semplice",
     "level": 19,
     "difficulty": 1,
     "theme": "vita_quotidiana",
-    "source": "authored",
     "target": {
       "slotId": 0,
       "verb": "viaggiare",
@@ -4486,13 +4292,12 @@
     "band": 2
   },
   {
-    "id": "corpus-futuro_semplice-155",
+    "id": "futuro_semplice-0195",
     "textTemplate": "Durante il soggiorno io {slot_0} anche il vecchio porto.",
     "primaryTense": "futuro_semplice",
     "level": 15,
     "difficulty": 1,
     "theme": "vita_quotidiana",
-    "source": "authored",
     "target": {
       "slotId": 0,
       "verb": "visitare",
@@ -4509,13 +4314,12 @@
     "band": 1
   },
   {
-    "id": "corpus-futuro_semplice-156",
+    "id": "futuro_semplice-0196",
     "textTemplate": "Noi {slot_0} il museo appena riaprirà.",
     "primaryTense": "futuro_semplice",
     "level": 16,
     "difficulty": 1,
     "theme": "vita_quotidiana",
-    "source": "authored",
     "target": {
       "slotId": 0,
       "verb": "visitare",
@@ -4532,13 +4336,12 @@
     "band": 1
   },
   {
-    "id": "corpus-futuro_semplice-157",
+    "id": "futuro_semplice-0197",
     "textTemplate": "Dopo la passeggiata il cane {slot_0} riposare all'ombra.",
     "primaryTense": "futuro_semplice",
     "level": 17,
     "difficulty": 2,
     "theme": "vita_quotidiana",
-    "source": "authored",
     "target": {
       "slotId": 0,
       "verb": "volere",
@@ -4555,7 +4358,7 @@
     "band": 2
   },
   {
-    "id": "pilot-multi-001",
+    "id": "futuro_semplice-0198",
     "primaryTense": "futuro_semplice",
     "textTemplate": "Domani io {slot_0} da casa.",
     "target": {
@@ -4582,11 +4385,10 @@
     "level": 15,
     "difficulty": 2,
     "theme": "vita_quotidiana",
-    "source": "authored-multi-tense",
     "band": 2
   },
   {
-    "id": "pilot-multi-002",
+    "id": "futuro_semplice-0199",
     "primaryTense": "futuro_semplice",
     "textTemplate": "Stasera noi {slot_0} a casa di Marta.",
     "target": {
@@ -4613,11 +4415,10 @@
     "level": 15,
     "difficulty": 2,
     "theme": "vita_quotidiana",
-    "source": "authored-multi-tense",
     "band": 2
   },
   {
-    "id": "pilot-multi-003",
+    "id": "futuro_semplice-0200",
     "primaryTense": "futuro_semplice",
     "textTemplate": "Domenica prossima tu {slot_0} a pranzo da noi?",
     "target": {
@@ -4644,7 +4445,6 @@
     "level": 15,
     "difficulty": 2,
     "theme": "vita_quotidiana",
-    "source": "authored-multi-tense",
     "band": 2
   }
 ]

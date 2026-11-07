@@ -1,12 +1,11 @@
 [
   {
-    "id": "sent-pres-101",
+    "id": "presente-0001",
     "textTemplate": "Ogni mattina, prima di uscire, io {slot_0} un caffè veloce.",
     "primaryTense": "presente",
     "level": 2,
     "difficulty": 2,
     "theme": "daily_routine",
-    "source": "import-revised",
     "target": {
       "slotId": 0,
       "verb": "bere",
@@ -23,13 +22,12 @@
     "band": 2
   },
   {
-    "id": "sent-pres-102",
+    "id": "presente-0002",
     "textTemplate": "Nel mio ufficio, tu {slot_0} italiano molto chiaramente.",
     "primaryTense": "presente",
     "level": 2,
     "difficulty": 1,
     "theme": "work_office",
-    "source": "import-revised",
     "target": {
       "slotId": 0,
       "verb": "parlare",
@@ -46,13 +44,12 @@
     "band": 1
   },
   {
-    "id": "sent-pres-103",
+    "id": "presente-0003",
     "textTemplate": "Oggi noi {slot_0} liberi tutto il pomeriggio.",
     "primaryTense": "presente",
     "level": 4,
     "difficulty": 2,
     "theme": "home_lifestyle",
-    "source": "import-revised",
     "target": {
       "slotId": 0,
       "verb": "essere",
@@ -69,13 +66,12 @@
     "band": 2
   },
   {
-    "id": "sent-pres-104",
+    "id": "presente-0004",
     "textTemplate": "I gatti dei miei vicini {slot_0} sempre sul divano del soggiorno.",
     "primaryTense": "presente",
     "level": 4,
     "difficulty": 1,
     "theme": "social_life",
-    "source": "import-revised",
     "target": {
       "slotId": 0,
       "verb": "dormire",
@@ -92,13 +88,12 @@
     "band": 1
   },
   {
-    "id": "sent-pres-105",
+    "id": "presente-0005",
     "textTemplate": "Voi {slot_0} un giardino bellissimo dietro casa.",
     "primaryTense": "presente",
     "level": 2,
     "difficulty": 2,
     "theme": "home_lifestyle",
-    "source": "import-revised",
     "target": {
       "slotId": 0,
       "verb": "avere",
@@ -115,13 +110,12 @@
     "band": 2
   },
   {
-    "id": "sent-pres-106",
+    "id": "presente-0006",
     "textTemplate": "Ogni sera dopo cena, Giulia {slot_0} un capitolo di un libro.",
     "primaryTense": "presente",
     "level": 3,
     "difficulty": 1,
     "theme": "daily_routine",
-    "source": "import-revised",
     "target": {
       "slotId": 0,
       "verb": "leggere",
@@ -138,13 +132,12 @@
     "band": 1
   },
   {
-    "id": "sent-pres-107",
+    "id": "presente-0007",
     "textTemplate": "Di solito tu {slot_0} al mercato rionale ogni sabato mattina.",
     "primaryTense": "presente",
     "level": 4,
     "difficulty": 2,
     "theme": "travel_commuting",
-    "source": "import-revised",
     "target": {
       "slotId": 0,
       "verb": "andare",
@@ -161,13 +154,12 @@
     "band": 2
   },
   {
-    "id": "sent-pres-108",
+    "id": "presente-0008",
     "textTemplate": "Finalmente io {slot_0} questa regola grammaticale.",
     "primaryTense": "presente",
     "level": 3,
     "difficulty": 2,
     "theme": "work_office",
-    "source": "import-revised",
     "target": {
       "slotId": 0,
       "verb": "capire",
@@ -184,13 +176,12 @@
     "band": 2
   },
   {
-    "id": "sent-pres-109",
+    "id": "presente-0009",
     "textTemplate": "La domenica i miei amici {slot_0} sempre una lunga passeggiata.",
     "primaryTense": "presente",
     "level": 2,
     "difficulty": 2,
     "theme": "leisure",
-    "source": "import-revised",
     "target": {
       "slotId": 0,
       "verb": "fare",
@@ -207,13 +198,12 @@
     "band": 2
   },
   {
-    "id": "sent-pres-110",
+    "id": "presente-0010",
     "textTemplate": "Mentre guidiamo in autostrada, noi {slot_0} sempre la radio.",
     "primaryTense": "presente",
     "level": 1,
     "difficulty": 1,
     "theme": "travel_commuting",
-    "source": "import-revised",
     "target": {
       "slotId": 0,
       "verb": "ascoltare",
@@ -230,13 +220,12 @@
     "band": 1
   },
   {
-    "id": "sent-pres-111",
+    "id": "presente-0011",
     "textTemplate": "Scusa, mi {slot_0} che ore sono?",
     "primaryTense": "presente",
     "level": 3,
     "difficulty": 2,
     "theme": "daily_routine",
-    "source": "import-revised",
     "target": {
       "slotId": 0,
       "verb": "dire",
@@ -253,13 +242,12 @@
     "band": 2
   },
   {
-    "id": "sent-pres-112",
+    "id": "presente-0012",
     "textTemplate": "Domani mattina io {slot_0} finire questo report in anticipo.",
     "primaryTense": "presente",
     "level": 4,
     "difficulty": 2,
     "theme": "work_office",
-    "source": "import-revised",
     "target": {
       "slotId": 0,
       "verb": "dovere",
@@ -282,13 +270,12 @@
     "band": 2
   },
   {
-    "id": "sent-pres-113",
+    "id": "presente-0013",
     "textTemplate": "Tu {slot_0} venire con noi al cinema stasera se vuoi.",
     "primaryTense": "presente",
     "level": 5,
     "difficulty": 2,
     "theme": "home_lifestyle",
-    "source": "import-revised",
     "target": {
       "slotId": 0,
       "verb": "potere",
@@ -305,13 +292,12 @@
     "band": 2
   },
   {
-    "id": "sent-pres-114",
+    "id": "presente-0014",
     "textTemplate": "Noi {slot_0} organizzare una festa per il compleanno di Marco.",
     "primaryTense": "presente",
     "level": 2,
     "difficulty": 2,
     "theme": "social_life",
-    "source": "import-revised",
     "target": {
       "slotId": 0,
       "verb": "volere",
@@ -328,13 +314,12 @@
     "band": 2
   },
   {
-    "id": "sent-pres-115",
+    "id": "presente-0015",
     "textTemplate": "I passeggeri {slot_0} esibire il biglietto prima di salire a bordo.",
     "primaryTense": "presente",
     "level": 3,
     "difficulty": 2,
     "theme": "travel_commuting",
-    "source": "import-revised",
     "target": {
       "slotId": 0,
       "verb": "dovere",
@@ -357,13 +342,12 @@
     "band": 2
   },
   {
-    "id": "sent-pres-116",
-    "textTemplate": "Cosa {slot_0} tu di questa nuova proposta di progetto?",
+    "id": "presente-0016",
+    "textTemplate": "Tu cosa {slot_0} della proposta per la nuova biblioteca?",
     "primaryTense": "presente",
     "level": 4,
     "difficulty": 2,
     "theme": "work_office",
-    "source": "import-revised",
     "target": {
       "slotId": 0,
       "verb": "dire",
@@ -380,13 +364,12 @@
     "band": 2
   },
   {
-    "id": "sent-pres-117",
+    "id": "presente-0017",
     "textTemplate": "Voi non {slot_0} entrare in questa stanza senza permesso.",
     "primaryTense": "presente",
     "level": 5,
     "difficulty": 2,
     "theme": "daily_routine",
-    "source": "import-revised",
     "target": {
       "slotId": 0,
       "verb": "potere",
@@ -403,13 +386,12 @@
     "band": 2
   },
   {
-    "id": "sent-pres-118",
+    "id": "presente-0018",
     "textTemplate": "Luca {slot_0} comprare un'auto nuova quest'anno.",
     "primaryTense": "presente",
     "level": 2,
     "difficulty": 2,
     "theme": "home_lifestyle",
-    "source": "import-revised",
     "target": {
       "slotId": 0,
       "verb": "volere",
@@ -426,13 +408,12 @@
     "band": 2
   },
   {
-    "id": "sent-pres-119",
+    "id": "presente-0019",
     "textTemplate": "Io {slot_0} sempre la verità ai miei amici più cari.",
     "primaryTense": "presente",
     "level": 3,
     "difficulty": 2,
     "theme": "social_life",
-    "source": "import-revised",
     "target": {
       "slotId": 0,
       "verb": "dire",
@@ -449,13 +430,12 @@
     "band": 2
   },
   {
-    "id": "sent-pres-120",
+    "id": "presente-0020",
     "textTemplate": "Se hai tempo, tu {slot_0} riposarti un po' nel pomeriggio.",
     "primaryTense": "presente",
     "level": 3,
     "difficulty": 2,
     "theme": "leisure",
-    "source": "import-revised",
     "target": {
       "slotId": 0,
       "verb": "potere",
@@ -472,13 +452,12 @@
     "band": 2
   },
   {
-    "id": "sent-pres-121",
+    "id": "presente-0021",
     "textTemplate": "Io non {slot_0} a che ora comincia lo spettacolo stasera.",
     "primaryTense": "presente",
     "level": 4,
     "difficulty": 2,
     "theme": "social_life",
-    "source": "import-revised",
     "target": {
       "slotId": 0,
       "verb": "sapere",
@@ -495,13 +474,12 @@
     "band": 2
   },
   {
-    "id": "sent-pres-122",
-    "textTemplate": "Come {slot_0} tu oggi dopo la lunga camminata di ieri?",
+    "id": "presente-0022",
+    "textTemplate": "Tu come {slot_0} dopo la lunga camminata di ieri?",
     "primaryTense": "presente",
     "level": 5,
     "difficulty": 2,
     "theme": "home_lifestyle",
-    "source": "import-revised",
     "target": {
       "slotId": 0,
       "verb": "stare",
@@ -518,13 +496,12 @@
     "band": 2
   },
   {
-    "id": "sent-pres-123",
+    "id": "presente-0023",
     "textTemplate": "Domani sera voi {slot_0} alla festa di compleanno di Chiara?",
     "primaryTense": "presente",
     "level": 2,
     "difficulty": 2,
     "theme": "social_life",
-    "source": "import-revised",
     "target": {
       "slotId": 0,
       "verb": "venire",
@@ -541,13 +518,12 @@
     "band": 2
   },
   {
-    "id": "sent-pres-124",
+    "id": "presente-0024",
     "textTemplate": "Di solito i miei colleghi {slot_0} dall'ufficio verso le diciotto.",
     "primaryTense": "presente",
     "level": 3,
     "difficulty": 2,
     "theme": "daily_routine",
-    "source": "import-revised",
     "target": {
       "slotId": 0,
       "verb": "uscire",
@@ -564,13 +540,12 @@
     "band": 2
   },
   {
-    "id": "sent-pres-125",
+    "id": "presente-0025",
     "textTemplate": "Tu {slot_0} perfettamente come risolvere questo problema informatico.",
     "primaryTense": "presente",
     "level": 4,
     "difficulty": 2,
     "theme": "work_office",
-    "source": "import-revised",
     "target": {
       "slotId": 0,
       "verb": "sapere",
@@ -587,13 +562,12 @@
     "band": 2
   },
   {
-    "id": "sent-pres-126",
+    "id": "presente-0026",
     "textTemplate": "Io {slot_0} molto bene quando cucino piatti tradizionali.",
     "primaryTense": "presente",
     "level": 5,
     "difficulty": 2,
     "theme": "home_lifestyle",
-    "source": "import-revised",
     "target": {
       "slotId": 0,
       "verb": "stare",
@@ -610,13 +584,12 @@
     "band": 2
   },
   {
-    "id": "sent-pres-127",
+    "id": "presente-0027",
     "textTemplate": "Anche tu {slot_0} con noi al concerto sabato prossimo?",
     "primaryTense": "presente",
     "level": 2,
     "difficulty": 2,
     "theme": "social_life",
-    "source": "import-revised",
     "target": {
       "slotId": 0,
       "verb": "venire",
@@ -633,13 +606,12 @@
     "band": 2
   },
   {
-    "id": "sent-pres-128",
+    "id": "presente-0028",
     "textTemplate": "Quando fa bel tempo, noi {slot_0} volentieri a fare una passeggiata.",
     "primaryTense": "presente",
     "level": 3,
     "difficulty": 2,
     "theme": "leisure",
-    "source": "import-revised",
     "target": {
       "slotId": 0,
       "verb": "uscire",
@@ -656,13 +628,12 @@
     "band": 2
   },
   {
-    "id": "sent-pres-129",
+    "id": "presente-0029",
     "textTemplate": "I nostri clienti {slot_0} già tutti i dettagli del contratto.",
     "primaryTense": "presente",
     "level": 4,
     "difficulty": 2,
     "theme": "work_office",
-    "source": "import-revised",
     "target": {
       "slotId": 0,
       "verb": "sapere",
@@ -679,13 +650,12 @@
     "band": 2
   },
   {
-    "id": "sent-pres-130",
+    "id": "presente-0030",
     "textTemplate": "Marco {slot_0} a casa a studiare per l'esame universitario.",
     "primaryTense": "presente",
     "level": 4,
     "difficulty": 2,
     "theme": "daily_routine",
-    "source": "import-revised",
     "target": {
       "slotId": 0,
       "verb": "stare",
@@ -702,13 +672,12 @@
     "band": 2
   },
   {
-    "id": "sent-pres-131",
+    "id": "presente-0031",
     "textTemplate": "Durante le riunioni, io {slot_0} dei progetti in corso.",
     "primaryTense": "presente",
     "level": 4,
     "difficulty": 1,
     "theme": "work_office",
-    "source": "import-revised",
     "target": {
       "slotId": 0,
       "verb": "parlare",
@@ -725,13 +694,12 @@
     "band": 1
   },
   {
-    "id": "sent-pres-132",
+    "id": "presente-0032",
     "textTemplate": "Stasera noi {slot_0} una pizza fatta in casa con gli amici.",
     "primaryTense": "presente",
     "level": 5,
     "difficulty": 1,
     "theme": "home_lifestyle",
-    "source": "import-revised",
     "target": {
       "slotId": 0,
       "verb": "mangiare",
@@ -748,13 +716,12 @@
     "band": 2
   },
   {
-    "id": "sent-pres-133",
+    "id": "presente-0033",
     "textTemplate": "I miei colleghi {slot_0} in un ufficio moderno vicino al centro.",
     "primaryTense": "presente",
     "level": 1,
     "difficulty": 1,
     "theme": "work_office",
-    "source": "import-revised",
     "target": {
       "slotId": 0,
       "verb": "lavorare",
@@ -771,13 +738,12 @@
     "band": 1
   },
   {
-    "id": "sent-pres-134",
+    "id": "presente-0034",
     "textTemplate": "Ogni settimana tu {slot_0} un articolo interessante per il blog.",
     "primaryTense": "presente",
     "level": 4,
     "difficulty": 1,
     "theme": "home_lifestyle",
-    "source": "import-revised",
     "target": {
       "slotId": 0,
       "verb": "scrivere",
@@ -794,13 +760,12 @@
     "band": 1
   },
   {
-    "id": "sent-pres-135",
-    "textTemplate": "La direttrice {slot_0} tre lingue straniere fluentemente nel suo lavoro.",
+    "id": "presente-0035",
+    "textTemplate": "La direttrice {slot_0} correntemente tre lingue straniere.",
     "primaryTense": "presente",
     "level": 3,
     "difficulty": 1,
     "theme": "work_office",
-    "source": "import-revised",
     "target": {
       "slotId": 0,
       "verb": "parlare",
@@ -817,13 +782,12 @@
     "band": 1
   },
   {
-    "id": "sent-pres-136",
+    "id": "presente-0036",
     "textTemplate": "Tu {slot_0} sempre frutta fresca dopo i pasti principali.",
     "primaryTense": "presente",
     "level": 4,
     "difficulty": 1,
     "theme": "daily_routine",
-    "source": "import-revised",
     "target": {
       "slotId": 0,
       "verb": "mangiare",
@@ -840,13 +804,12 @@
     "band": 1
   },
   {
-    "id": "sent-pres-137",
-    "textTemplate": "Voi {slot_0} troppo al computer senza fare una pausa.",
+    "id": "presente-0037",
+    "textTemplate": "Voi {slot_0} al progetto della nuova biblioteca.",
     "primaryTense": "presente",
     "level": 5,
     "difficulty": 1,
     "theme": "work_office",
-    "source": "import-revised",
     "target": {
       "slotId": 0,
       "verb": "lavorare",
@@ -863,13 +826,12 @@
     "band": 2
   },
   {
-    "id": "sent-pres-138",
+    "id": "presente-0038",
     "textTemplate": "Io {slot_0} spesso email ai miei vecchi amici d'infanzia.",
     "primaryTense": "presente",
     "level": 4,
     "difficulty": 1,
     "theme": "leisure",
-    "source": "import-revised",
     "target": {
       "slotId": 0,
       "verb": "scrivere",
@@ -886,13 +848,12 @@
     "band": 1
   },
   {
-    "id": "sent-pres-139",
+    "id": "presente-0039",
     "textTemplate": "Noi {slot_0} volentieri con chiunque condivida le nostre passioni.",
     "primaryTense": "presente",
     "level": 2,
     "difficulty": 1,
     "theme": "social_life",
-    "source": "import-revised",
     "target": {
       "slotId": 0,
       "verb": "parlare",
@@ -909,13 +870,12 @@
     "band": 1
   },
   {
-    "id": "sent-pres-140",
+    "id": "presente-0040",
     "textTemplate": "A mezzogiorno i bambini {slot_0} la pasta alla bolognese a scuola.",
     "primaryTense": "presente",
     "level": 4,
     "difficulty": 1,
     "theme": "daily_routine",
-    "source": "import-revised",
     "target": {
       "slotId": 0,
       "verb": "mangiare",
@@ -932,13 +892,12 @@
     "band": 1
   },
   {
-    "id": "sent-pres-141",
+    "id": "presente-0041",
     "textTemplate": "Durante il fine settimana, io {slot_0} romanzi storici sul divano.",
     "primaryTense": "presente",
     "level": 2,
     "difficulty": 1,
     "theme": "leisure",
-    "source": "import-revised",
     "target": {
       "slotId": 0,
       "verb": "leggere",
@@ -955,13 +914,12 @@
     "band": 1
   },
   {
-    "id": "sent-pres-142",
+    "id": "presente-0042",
     "textTemplate": "Quando il professore spiega la lezione, gli studenti {slot_0} tutto subito.",
     "primaryTense": "presente",
     "level": 1,
     "difficulty": 2,
     "theme": "work_office",
-    "source": "import-revised",
     "target": {
       "slotId": 0,
       "verb": "capire",
@@ -978,13 +936,12 @@
     "band": 2
   },
   {
-    "id": "sent-pres-143",
+    "id": "presente-0043",
     "textTemplate": "Dopo una lunga giornata di lavoro, tu {slot_0} almeno otto ore.",
     "primaryTense": "presente",
     "level": 2,
     "difficulty": 1,
     "theme": "daily_routine",
-    "source": "import-revised",
     "target": {
       "slotId": 0,
       "verb": "dormire",
@@ -1001,13 +958,12 @@
     "band": 1
   },
   {
-    "id": "sent-pres-144",
+    "id": "presente-0044",
     "textTemplate": "Spesso noi {slot_0} in treno per visitare le città d'arte italiane.",
     "primaryTense": "presente",
     "level": 3,
     "difficulty": 1,
     "theme": "travel_commuting",
-    "source": "import-revised",
     "target": {
       "slotId": 0,
       "verb": "viaggiare",
@@ -1024,13 +980,12 @@
     "band": 1
   },
   {
-    "id": "sent-pres-145",
+    "id": "presente-0045",
     "textTemplate": "Mio padre {slot_0} sempre il giornale cartaceo ogni mattina.",
     "primaryTense": "presente",
     "level": 2,
     "difficulty": 1,
     "theme": "home_lifestyle",
-    "source": "import-revised",
     "target": {
       "slotId": 0,
       "verb": "leggere",
@@ -1047,13 +1002,12 @@
     "band": 1
   },
   {
-    "id": "sent-pres-146",
+    "id": "presente-0046",
     "textTemplate": "Tu {slot_0} sempre molto rapidamente le istruzioni tecniche.",
     "primaryTense": "presente",
     "level": 5,
     "difficulty": 2,
     "theme": "work_office",
-    "source": "import-revised",
     "target": {
       "slotId": 0,
       "verb": "capire",
@@ -1070,13 +1024,12 @@
     "band": 2
   },
   {
-    "id": "sent-pres-147",
+    "id": "presente-0047",
     "textTemplate": "Nel fine settimana i miei gatti {slot_0} beatamente vicino alla finestra.",
     "primaryTense": "presente",
     "level": 1,
     "difficulty": 1,
     "theme": "leisure",
-    "source": "import-revised",
     "target": {
       "slotId": 0,
       "verb": "dormire",
@@ -1093,13 +1046,12 @@
     "band": 1
   },
   {
-    "id": "sent-pres-148",
+    "id": "presente-0048",
     "textTemplate": "Ogni estate voi {slot_0} all'estero per scoprire nuove culture.",
     "primaryTense": "presente",
     "level": 2,
     "difficulty": 1,
     "theme": "travel_commuting",
-    "source": "import-revised",
     "target": {
       "slotId": 0,
       "verb": "viaggiare",
@@ -1116,13 +1068,12 @@
     "band": 1
   },
   {
-    "id": "sent-pres-149",
+    "id": "presente-0049",
     "textTemplate": "Noi {slot_0} molti articoli scientifici per curiosità personale.",
     "primaryTense": "presente",
     "level": 2,
     "difficulty": 1,
     "theme": "leisure",
-    "source": "import-revised",
     "target": {
       "slotId": 0,
       "verb": "leggere",
@@ -1139,13 +1090,12 @@
     "band": 1
   },
   {
-    "id": "sent-pres-150",
+    "id": "presente-0050",
     "textTemplate": "Io {slot_0} benissimo anche quando c'è un po' di rumore intorno.",
     "primaryTense": "presente",
     "level": 5,
     "difficulty": 1,
     "theme": "daily_routine",
-    "source": "import-revised",
     "target": {
       "slotId": 0,
       "verb": "dormire",
@@ -1162,13 +1112,12 @@
     "band": 2
   },
   {
-    "id": "sent-pres-151",
+    "id": "presente-0051",
     "textTemplate": "Prima di uscire di casa, io {slot_0} tutte le luci delle stanze.",
     "primaryTense": "presente",
     "level": 3,
     "difficulty": 2,
     "theme": "home_lifestyle",
-    "source": "import-revised",
     "target": {
       "slotId": 0,
       "verb": "spegnere",
@@ -1185,13 +1134,12 @@
     "band": 2
   },
   {
-    "id": "sent-pres-152",
+    "id": "presente-0052",
     "textTemplate": "Spesso noi {slot_0} dove abbiamo messo le chiavi dell'archivio.",
     "primaryTense": "presente",
     "level": 2,
     "difficulty": 2,
     "theme": "work_office",
-    "source": "import-revised",
     "target": {
       "slotId": 0,
       "verb": "dimenticare",
@@ -1208,13 +1156,12 @@
     "band": 2
   },
   {
-    "id": "sent-pres-153",
+    "id": "presente-0053",
     "textTemplate": "Tra questi due romanzi, tu quale {slot_0} leggere per primo?",
     "primaryTense": "presente",
     "level": 3,
     "difficulty": 2,
     "theme": "leisure",
-    "source": "import-revised",
     "target": {
       "slotId": 0,
       "verb": "preferire",
@@ -1231,13 +1178,12 @@
     "band": 2
   },
   {
-    "id": "sent-pres-154",
+    "id": "presente-0054",
     "textTemplate": "Nel tempo libero, i miei colleghi {slot_0} modellini di case in legno.",
     "primaryTense": "presente",
     "level": 4,
     "difficulty": 2,
     "theme": "work_office",
-    "source": "import-revised",
     "target": {
       "slotId": 0,
       "verb": "costruire",
@@ -1254,13 +1200,12 @@
     "band": 2
   },
   {
-    "id": "sent-pres-155",
+    "id": "presente-0055",
     "textTemplate": "Ogni lunedì mattina la segretaria {slot_0} i documenti ufficiali ai clienti.",
     "primaryTense": "presente",
     "level": 5,
     "difficulty": 2,
     "theme": "daily_routine",
-    "source": "import-revised",
     "target": {
       "slotId": 0,
       "verb": "spedire",
@@ -1277,13 +1222,12 @@
     "band": 2
   },
   {
-    "id": "sent-pres-156",
+    "id": "presente-0056",
     "textTemplate": "Insieme noi {slot_0} sempre ogni dubbio prima di prendere decisioni.",
     "primaryTense": "presente",
     "level": 4,
     "difficulty": 2,
     "theme": "home_lifestyle",
-    "source": "import-revised",
     "target": {
       "slotId": 0,
       "verb": "risolvere",
@@ -1300,13 +1244,12 @@
     "band": 2
   },
   {
-    "id": "sent-pres-157",
-    "textTemplate": "Quando viaggi in estate, tu {slot_0} tutte le luci del terrazzo?",
+    "id": "presente-0057",
+    "textTemplate": "Prima di andare a dormire, tu {slot_0} le luci del terrazzo?",
     "primaryTense": "presente",
     "level": 5,
     "difficulty": 2,
     "theme": "travel_commuting",
-    "source": "import-revised",
     "target": {
       "slotId": 0,
       "verb": "spegnere",
@@ -1323,13 +1266,12 @@
     "band": 2
   },
   {
-    "id": "sent-pres-158",
+    "id": "presente-0058",
     "textTemplate": "Io non {slot_0} mai dove ho messo gli occhiali da sole.",
     "primaryTense": "presente",
     "level": 3,
     "difficulty": 2,
     "theme": "leisure",
-    "source": "import-revised",
     "target": {
       "slotId": 0,
       "verb": "dimenticare",
@@ -1346,13 +1288,12 @@
     "band": 2
   },
   {
-    "id": "sent-pres-159",
+    "id": "presente-0059",
     "textTemplate": "I nostri amici {slot_0} di passare a trovarci domani pomeriggio.",
     "primaryTense": "presente",
     "level": 3,
     "difficulty": 1,
     "theme": "social_life",
-    "source": "import-revised",
     "target": {
       "slotId": 0,
       "verb": "promettere",
@@ -1369,13 +1310,12 @@
     "band": 1
   },
   {
-    "id": "sent-pres-160",
+    "id": "presente-0060",
     "textTemplate": "Tu {slot_0} sempre ogni dettaglio del progetto.",
     "primaryTense": "presente",
     "level": 1,
     "difficulty": 2,
     "theme": "work_office",
-    "source": "import-revised",
     "target": {
       "slotId": 0,
       "verb": "curare",
@@ -1392,13 +1332,12 @@
     "band": 2
   },
   {
-    "id": "corpus-presente-001",
+    "id": "presente-0061",
     "textTemplate": "Nei giorni di mercato io {slot_0} prima dell'alba.",
     "primaryTense": "presente",
     "level": 3,
     "difficulty": 1,
     "theme": "vita_quotidiana",
-    "source": "authored",
     "target": {
       "slotId": 0,
       "verb": "alzarsi",
@@ -1415,13 +1354,12 @@
     "band": 1
   },
   {
-    "id": "corpus-presente-002",
+    "id": "presente-0062",
     "textTemplate": "Tu {slot_0} subito quando suona la sveglia?",
     "primaryTense": "presente",
     "level": 4,
     "difficulty": 1,
     "theme": "vita_quotidiana",
-    "source": "authored",
     "target": {
       "slotId": 0,
       "verb": "alzarsi",
@@ -1438,13 +1376,12 @@
     "band": 1
   },
   {
-    "id": "corpus-presente-003",
+    "id": "presente-0063",
     "textTemplate": "Noi {slot_0} in piedi per salutare la nonna.",
     "primaryTense": "presente",
     "level": 5,
     "difficulty": 1,
     "theme": "vita_quotidiana",
-    "source": "authored",
     "target": {
       "slotId": 0,
       "verb": "alzarsi",
@@ -1461,13 +1398,12 @@
     "band": 1
   },
   {
-    "id": "corpus-presente-004",
+    "id": "presente-0064",
     "textTemplate": "I musicisti {slot_0} per ricevere gli applausi.",
     "primaryTense": "presente",
     "level": 3,
     "difficulty": 1,
     "theme": "vita_quotidiana",
-    "source": "authored",
     "target": {
       "slotId": 0,
       "verb": "alzarsi",
@@ -1484,13 +1420,12 @@
     "band": 1
   },
   {
-    "id": "corpus-presente-005",
+    "id": "presente-0065",
     "textTemplate": "Io {slot_0} il profumo del pane appena sfornato.",
     "primaryTense": "presente",
     "level": 3,
     "difficulty": 1,
     "theme": "vita_quotidiana",
-    "source": "authored",
     "target": {
       "slotId": 0,
       "verb": "amare",
@@ -1507,13 +1442,12 @@
     "band": 1
   },
   {
-    "id": "corpus-presente-006",
+    "id": "presente-0066",
     "textTemplate": "Mio fratello {slot_0} i film senza un lieto fine.",
     "primaryTense": "presente",
     "level": 4,
     "difficulty": 1,
     "theme": "vita_quotidiana",
-    "source": "authored",
     "target": {
       "slotId": 0,
       "verb": "amare",
@@ -1530,13 +1464,12 @@
     "band": 1
   },
   {
-    "id": "corpus-presente-007",
+    "id": "presente-0067",
     "textTemplate": "Voi {slot_0} camminare anche sotto la pioggia?",
     "primaryTense": "presente",
     "level": 5,
     "difficulty": 1,
     "theme": "vita_quotidiana",
-    "source": "authored",
     "target": {
       "slotId": 0,
       "verb": "amare",
@@ -1553,13 +1486,12 @@
     "band": 1
   },
   {
-    "id": "corpus-presente-008",
+    "id": "presente-0068",
     "textTemplate": "Le mie zie {slot_0} raccontare storie di famiglia.",
     "primaryTense": "presente",
     "level": 1,
     "difficulty": 1,
     "theme": "vita_quotidiana",
-    "source": "authored",
     "target": {
       "slotId": 0,
       "verb": "amare",
@@ -1576,13 +1508,12 @@
     "band": 1
   },
   {
-    "id": "corpus-presente-009",
+    "id": "presente-0069",
     "textTemplate": "Tu {slot_0} dal dentista anche se non hai male?",
     "primaryTense": "presente",
     "level": 3,
     "difficulty": 2,
     "theme": "vita_quotidiana",
-    "source": "authored",
     "target": {
       "slotId": 0,
       "verb": "andare",
@@ -1599,13 +1530,12 @@
     "band": 2
   },
   {
-    "id": "corpus-presente-010",
+    "id": "presente-0070",
     "textTemplate": "La pista ciclabile {slot_0} fino alla spiaggia.",
     "primaryTense": "presente",
     "level": 3,
     "difficulty": 2,
     "theme": "vita_quotidiana",
-    "source": "authored",
     "target": {
       "slotId": 0,
       "verb": "andare",
@@ -1622,13 +1552,12 @@
     "band": 2
   },
   {
-    "id": "corpus-presente-011",
+    "id": "presente-0071",
     "textTemplate": "Noi {slot_0} a piedi quando il tempo è bello.",
     "primaryTense": "presente",
     "level": 4,
     "difficulty": 2,
     "theme": "vita_quotidiana",
-    "source": "authored",
     "target": {
       "slotId": 0,
       "verb": "andare",
@@ -1645,13 +1574,12 @@
     "band": 2
   },
   {
-    "id": "corpus-presente-012",
+    "id": "presente-0072",
     "textTemplate": "Voi {slot_0} spesso a trovare i vostri cugini?",
     "primaryTense": "presente",
     "level": 5,
     "difficulty": 2,
     "theme": "vita_quotidiana",
-    "source": "authored",
     "target": {
       "slotId": 0,
       "verb": "andare",
@@ -1668,13 +1596,12 @@
     "band": 2
   },
   {
-    "id": "corpus-presente-013",
+    "id": "presente-0073",
     "textTemplate": "Io {slot_0} questa proposta perché aiuta tutti.",
     "primaryTense": "presente",
     "level": 2,
     "difficulty": 1,
     "theme": "vita_quotidiana",
-    "source": "authored",
     "target": {
       "slotId": 0,
       "verb": "approvare",
@@ -1691,13 +1618,12 @@
     "band": 1
   },
   {
-    "id": "corpus-presente-014",
+    "id": "presente-0074",
     "textTemplate": "Tu {slot_0} la scelta di chiudere la strada alle auto?",
     "primaryTense": "presente",
     "level": 3,
     "difficulty": 1,
     "theme": "vita_quotidiana",
-    "source": "authored",
     "target": {
       "slotId": 0,
       "verb": "approvare",
@@ -1714,13 +1640,12 @@
     "band": 1
   },
   {
-    "id": "corpus-presente-015",
+    "id": "presente-0075",
     "textTemplate": "Il comune {slot_0} il progetto per la nuova biblioteca.",
     "primaryTense": "presente",
     "level": 4,
     "difficulty": 1,
     "theme": "vita_quotidiana",
-    "source": "authored",
     "target": {
       "slotId": 0,
       "verb": "approvare",
@@ -1737,13 +1662,12 @@
     "band": 1
   },
   {
-    "id": "corpus-presente-016",
+    "id": "presente-0076",
     "textTemplate": "I soci {slot_0} il bilancio durante l'assemblea.",
     "primaryTense": "presente",
     "level": 5,
     "difficulty": 1,
     "theme": "vita_quotidiana",
-    "source": "authored",
     "target": {
       "slotId": 0,
       "verb": "approvare",
@@ -1760,13 +1684,12 @@
     "band": 1
   },
   {
-    "id": "corpus-presente-017",
+    "id": "presente-0077",
     "textTemplate": "Io {slot_0} le finestre per cambiare aria.",
     "primaryTense": "presente",
     "level": 2,
     "difficulty": 2,
     "theme": "vita_quotidiana",
-    "source": "authored",
     "target": {
       "slotId": 0,
       "verb": "aprire",
@@ -1783,13 +1706,12 @@
     "band": 2
   },
   {
-    "id": "corpus-presente-018",
+    "id": "presente-0078",
     "textTemplate": "Tu {slot_0} il bar anche nei giorni festivi?",
     "primaryTense": "presente",
     "level": 3,
     "difficulty": 2,
     "theme": "vita_quotidiana",
-    "source": "authored",
     "target": {
       "slotId": 0,
       "verb": "aprire",
@@ -1806,13 +1728,12 @@
     "band": 2
   },
   {
-    "id": "corpus-presente-019",
+    "id": "presente-0079",
     "textTemplate": "Noi {slot_0} le lettere solo dopo colazione.",
     "primaryTense": "presente",
     "level": 4,
     "difficulty": 2,
     "theme": "vita_quotidiana",
-    "source": "authored",
     "target": {
       "slotId": 0,
       "verb": "aprire",
@@ -1829,13 +1750,12 @@
     "band": 2
   },
   {
-    "id": "corpus-presente-020",
+    "id": "presente-0080",
     "textTemplate": "I negozi del centro {slot_0} più tardi la domenica.",
     "primaryTense": "presente",
     "level": 4,
     "difficulty": 2,
     "theme": "vita_quotidiana",
-    "source": "authored",
     "target": {
       "slotId": 0,
       "verb": "aprire",
@@ -1852,13 +1772,12 @@
     "band": 2
   },
   {
-    "id": "corpus-presente-021",
+    "id": "presente-0081",
     "textTemplate": "Tu {slot_0} sempre proprio quando il caffè è pronto.",
     "primaryTense": "presente",
     "level": 1,
     "difficulty": 1,
     "theme": "vita_quotidiana",
-    "source": "authored",
     "target": {
       "slotId": 0,
       "verb": "arrivare",
@@ -1875,13 +1794,12 @@
     "band": 1
   },
   {
-    "id": "corpus-presente-022",
+    "id": "presente-0082",
     "textTemplate": "L'autobus {slot_0} sul lato opposto della piazza.",
     "primaryTense": "presente",
     "level": 2,
     "difficulty": 1,
     "theme": "vita_quotidiana",
-    "source": "authored",
     "target": {
       "slotId": 0,
       "verb": "arrivare",
@@ -1898,13 +1816,12 @@
     "band": 1
   },
   {
-    "id": "corpus-presente-023",
+    "id": "presente-0083",
     "textTemplate": "Noi {slot_0} fino al rifugio senza fermarci.",
     "primaryTense": "presente",
     "level": 3,
     "difficulty": 1,
     "theme": "vita_quotidiana",
-    "source": "authored",
     "target": {
       "slotId": 0,
       "verb": "arrivare",
@@ -1921,13 +1838,12 @@
     "band": 1
   },
   {
-    "id": "corpus-presente-024",
+    "id": "presente-0084",
     "textTemplate": "Voi {slot_0} da una città grande o da un paese?",
     "primaryTense": "presente",
     "level": 4,
     "difficulty": 1,
     "theme": "vita_quotidiana",
-    "source": "authored",
     "target": {
       "slotId": 0,
       "verb": "arrivare",
@@ -1944,13 +1860,12 @@
     "band": 1
   },
   {
-    "id": "corpus-presente-025",
+    "id": "presente-0085",
     "textTemplate": "Io {slot_0} le notizie mentre preparo lo zaino.",
     "primaryTense": "presente",
     "level": 5,
     "difficulty": 1,
     "theme": "vita_quotidiana",
-    "source": "authored",
     "target": {
       "slotId": 0,
       "verb": "ascoltare",
@@ -1967,13 +1882,12 @@
     "band": 1
   },
   {
-    "id": "corpus-presente-026",
+    "id": "presente-0086",
     "textTemplate": "Il cane {slot_0} la voce del padrone al telefono.",
     "primaryTense": "presente",
     "level": 1,
     "difficulty": 1,
     "theme": "vita_quotidiana",
-    "source": "authored",
     "target": {
       "slotId": 0,
       "verb": "ascoltare",
@@ -1990,13 +1904,12 @@
     "band": 1
   },
   {
-    "id": "corpus-presente-027",
+    "id": "presente-0087",
     "textTemplate": "Noi {slot_0} il rumore delle onde dalla terrazza.",
     "primaryTense": "presente",
     "level": 2,
     "difficulty": 1,
     "theme": "vita_quotidiana",
-    "source": "authored",
     "target": {
       "slotId": 0,
       "verb": "ascoltare",
@@ -2013,13 +1926,12 @@
     "band": 1
   },
   {
-    "id": "corpus-presente-028",
+    "id": "presente-0088",
     "textTemplate": "Gli alunni {slot_0} la guida senza interromperla.",
     "primaryTense": "presente",
     "level": 3,
     "difficulty": 1,
     "theme": "vita_quotidiana",
-    "source": "authored",
     "target": {
       "slotId": 0,
       "verb": "ascoltare",
@@ -2036,13 +1948,12 @@
     "band": 1
   },
   {
-    "id": "corpus-presente-029",
+    "id": "presente-0089",
     "textTemplate": "Io {slot_0} il mio turno vicino alla porta.",
     "primaryTense": "presente",
     "level": 4,
     "difficulty": 1,
     "theme": "vita_quotidiana",
-    "source": "authored",
     "target": {
       "slotId": 0,
       "verb": "aspettare",
@@ -2059,13 +1970,12 @@
     "band": 1
   },
   {
-    "id": "corpus-presente-030",
+    "id": "presente-0090",
     "textTemplate": "Tu {slot_0} qualcuno o sei qui per il concerto?",
     "primaryTense": "presente",
     "level": 1,
     "difficulty": 1,
     "theme": "vita_quotidiana",
-    "source": "authored",
     "target": {
       "slotId": 0,
       "verb": "aspettare",
@@ -2082,13 +1992,12 @@
     "band": 1
   },
   {
-    "id": "corpus-presente-031",
+    "id": "presente-0091",
     "textTemplate": "Voi {slot_0} il semaforo verde prima di attraversare.",
     "primaryTense": "presente",
     "level": 2,
     "difficulty": 1,
     "theme": "vita_quotidiana",
-    "source": "authored",
     "target": {
       "slotId": 0,
       "verb": "aspettare",
@@ -2105,13 +2014,12 @@
     "band": 1
   },
   {
-    "id": "corpus-presente-032",
+    "id": "presente-0092",
     "textTemplate": "I bambini {slot_0} con impazienza la prima neve.",
     "primaryTense": "presente",
     "level": 3,
     "difficulty": 1,
     "theme": "vita_quotidiana",
-    "source": "authored",
     "target": {
       "slotId": 0,
       "verb": "aspettare",
@@ -2128,13 +2036,12 @@
     "band": 1
   },
   {
-    "id": "corpus-presente-033",
+    "id": "presente-0093",
     "textTemplate": "Io {slot_0} ancora la chiave della vecchia casa.",
     "primaryTense": "presente",
     "level": 4,
     "difficulty": 2,
     "theme": "vita_quotidiana",
-    "source": "authored",
     "target": {
       "slotId": 0,
       "verb": "avere",
@@ -2151,13 +2058,12 @@
     "band": 2
   },
   {
-    "id": "corpus-presente-034",
+    "id": "presente-0094",
     "textTemplate": "Tu {slot_0} un sacchetto per queste mele?",
     "primaryTense": "presente",
     "level": 5,
     "difficulty": 2,
     "theme": "vita_quotidiana",
-    "source": "authored",
     "target": {
       "slotId": 0,
       "verb": "avere",
@@ -2174,13 +2080,12 @@
     "band": 2
   },
   {
-    "id": "corpus-presente-035",
+    "id": "presente-0095",
     "textTemplate": "Questa giacca {slot_0} due tasche interne.",
     "primaryTense": "presente",
     "level": 2,
     "difficulty": 2,
     "theme": "vita_quotidiana",
-    "source": "authored",
     "target": {
       "slotId": 0,
       "verb": "avere",
@@ -2197,13 +2102,12 @@
     "band": 2
   },
   {
-    "id": "corpus-presente-036",
+    "id": "presente-0096",
     "textTemplate": "Noi {slot_0} fame dopo la passeggiata.",
     "primaryTense": "presente",
     "level": 3,
     "difficulty": 2,
     "theme": "vita_quotidiana",
-    "source": "authored",
     "target": {
       "slotId": 0,
       "verb": "avere",
@@ -2220,13 +2124,12 @@
     "band": 2
   },
   {
-    "id": "corpus-presente-037",
+    "id": "presente-0097",
     "textTemplate": "Io {slot_0} il tè senza zucchero.",
     "primaryTense": "presente",
     "level": 4,
     "difficulty": 2,
     "theme": "vita_quotidiana",
-    "source": "authored",
     "target": {
       "slotId": 0,
       "verb": "bere",
@@ -2243,13 +2146,12 @@
     "band": 2
   },
   {
-    "id": "corpus-presente-038",
+    "id": "presente-0098",
     "textTemplate": "Il gatto {slot_0} solo dalla ciotola blu.",
     "primaryTense": "presente",
     "level": 5,
     "difficulty": 2,
     "theme": "vita_quotidiana",
-    "source": "authored",
     "target": {
       "slotId": 0,
       "verb": "bere",
@@ -2266,13 +2168,12 @@
     "band": 2
   },
   {
-    "id": "corpus-presente-039",
+    "id": "presente-0099",
     "textTemplate": "Voi {slot_0} abbastanza acqua durante la corsa?",
     "primaryTense": "presente",
     "level": 2,
     "difficulty": 2,
     "theme": "vita_quotidiana",
-    "source": "authored",
     "target": {
       "slotId": 0,
       "verb": "bere",
@@ -2289,13 +2190,12 @@
     "band": 2
   },
   {
-    "id": "corpus-presente-040",
+    "id": "presente-0100",
     "textTemplate": "I miei amici {slot_0} una tisana prima di dormire.",
     "primaryTense": "presente",
     "level": 2,
     "difficulty": 2,
     "theme": "vita_quotidiana",
-    "source": "authored",
     "target": {
       "slotId": 0,
       "verb": "bere",
@@ -2312,13 +2212,12 @@
     "band": 2
   },
   {
-    "id": "corpus-presente-041",
+    "id": "presente-0101",
     "textTemplate": "Tu {slot_0} cosa significa questo cartello?",
     "primaryTense": "presente",
     "level": 3,
     "difficulty": 1,
     "theme": "vita_quotidiana",
-    "source": "authored",
     "target": {
       "slotId": 0,
       "verb": "capire",
@@ -2335,13 +2234,12 @@
     "band": 1
   },
   {
-    "id": "corpus-presente-042",
+    "id": "presente-0102",
     "textTemplate": "La bambina {slot_0} già molte parole in italiano.",
     "primaryTense": "presente",
     "level": 4,
     "difficulty": 1,
     "theme": "vita_quotidiana",
-    "source": "authored",
     "target": {
       "slotId": 0,
       "verb": "capire",
@@ -2358,13 +2256,12 @@
     "band": 1
   },
   {
-    "id": "corpus-presente-043",
+    "id": "presente-0103",
     "textTemplate": "Noi {slot_0} il problema, ma non sappiamo risolverlo.",
     "primaryTense": "presente",
     "level": 5,
     "difficulty": 1,
     "theme": "vita_quotidiana",
-    "source": "authored",
     "target": {
       "slotId": 0,
       "verb": "capire",
@@ -2381,13 +2278,12 @@
     "band": 1
   },
   {
-    "id": "corpus-presente-044",
+    "id": "presente-0104",
     "textTemplate": "Voi {slot_0} la differenza tra queste due tariffe?",
     "primaryTense": "presente",
     "level": 1,
     "difficulty": 1,
     "theme": "vita_quotidiana",
-    "source": "authored",
     "target": {
       "slotId": 0,
       "verb": "capire",
@@ -2404,13 +2300,12 @@
     "band": 1
   },
   {
-    "id": "corpus-presente-045",
+    "id": "presente-0105",
     "textTemplate": "Io {slot_0} una mensola con il legno avanzato.",
     "primaryTense": "presente",
     "level": 2,
     "difficulty": 1,
     "theme": "vita_quotidiana",
-    "source": "authored",
     "target": {
       "slotId": 0,
       "verb": "costruire",
@@ -2427,13 +2322,12 @@
     "band": 1
   },
   {
-    "id": "corpus-presente-046",
+    "id": "presente-0106",
     "textTemplate": "Tu {slot_0} ancora modellini di navi?",
     "primaryTense": "presente",
     "level": 3,
     "difficulty": 1,
     "theme": "vita_quotidiana",
-    "source": "authored",
     "target": {
       "slotId": 0,
       "verb": "costruire",
@@ -2450,13 +2344,12 @@
     "band": 1
   },
   {
-    "id": "corpus-presente-047",
+    "id": "presente-0107",
     "textTemplate": "Noi {slot_0} un piccolo riparo per gli uccelli.",
     "primaryTense": "presente",
     "level": 4,
     "difficulty": 1,
     "theme": "vita_quotidiana",
-    "source": "authored",
     "target": {
       "slotId": 0,
       "verb": "costruire",
@@ -2473,13 +2366,12 @@
     "band": 1
   },
   {
-    "id": "corpus-presente-048",
+    "id": "presente-0108",
     "textTemplate": "Gli operai {slot_0} un passaggio sicuro per i pedoni.",
     "primaryTense": "presente",
     "level": 5,
     "difficulty": 1,
     "theme": "vita_quotidiana",
-    "source": "authored",
     "target": {
       "slotId": 0,
       "verb": "costruire",
@@ -2496,13 +2388,12 @@
     "band": 1
   },
   {
-    "id": "corpus-presente-049",
+    "id": "presente-0109",
     "textTemplate": "Io {slot_0} poco quando sono da solo.",
     "primaryTense": "presente",
     "level": 1,
     "difficulty": 1,
     "theme": "vita_quotidiana",
-    "source": "authored",
     "target": {
       "slotId": 0,
       "verb": "cucinare",
@@ -2519,13 +2410,12 @@
     "band": 1
   },
   {
-    "id": "corpus-presente-050",
+    "id": "presente-0110",
     "textTemplate": "Nostra zia {slot_0} il pesce al forno con le patate.",
     "primaryTense": "presente",
     "level": 3,
     "difficulty": 1,
     "theme": "vita_quotidiana",
-    "source": "authored",
     "target": {
       "slotId": 0,
       "verb": "cucinare",
@@ -2542,13 +2432,12 @@
     "band": 1
   },
   {
-    "id": "corpus-presente-051",
+    "id": "presente-0111",
     "textTemplate": "Voi {slot_0} insieme oppure vi alternate?",
     "primaryTense": "presente",
     "level": 4,
     "difficulty": 1,
     "theme": "vita_quotidiana",
-    "source": "authored",
     "target": {
       "slotId": 0,
       "verb": "cucinare",
@@ -2565,13 +2454,12 @@
     "band": 1
   },
   {
-    "id": "corpus-presente-052",
+    "id": "presente-0112",
     "textTemplate": "I ragazzi {slot_0} per raccogliere fondi per la scuola.",
     "primaryTense": "presente",
     "level": 5,
     "difficulty": 1,
     "theme": "vita_quotidiana",
-    "source": "authored",
     "target": {
       "slotId": 0,
       "verb": "cucinare",
@@ -2588,13 +2476,12 @@
     "band": 1
   },
   {
-    "id": "corpus-presente-053",
+    "id": "presente-0113",
     "textTemplate": "Tu {slot_0} le piante del balcone con molta pazienza.",
     "primaryTense": "presente",
     "level": 1,
     "difficulty": 1,
     "theme": "vita_quotidiana",
-    "source": "authored",
     "target": {
       "slotId": 0,
       "verb": "curare",
@@ -2611,13 +2498,12 @@
     "band": 1
   },
   {
-    "id": "corpus-presente-054",
+    "id": "presente-0114",
     "textTemplate": "Il veterinario {slot_0} anche gli animali selvatici.",
     "primaryTense": "presente",
     "level": 2,
     "difficulty": 1,
     "theme": "vita_quotidiana",
-    "source": "authored",
     "target": {
       "slotId": 0,
       "verb": "curare",
@@ -2634,13 +2520,12 @@
     "band": 1
   },
   {
-    "id": "corpus-presente-055",
+    "id": "presente-0115",
     "textTemplate": "Noi {slot_0} il giardino condiviso del palazzo.",
     "primaryTense": "presente",
     "level": 3,
     "difficulty": 1,
     "theme": "vita_quotidiana",
-    "source": "authored",
     "target": {
       "slotId": 0,
       "verb": "curare",
@@ -2657,13 +2542,12 @@
     "band": 1
   },
   {
-    "id": "corpus-presente-056",
+    "id": "presente-0116",
     "textTemplate": "Gli infermieri {slot_0} i pazienti con attenzione.",
     "primaryTense": "presente",
     "level": 4,
     "difficulty": 1,
     "theme": "vita_quotidiana",
-    "source": "authored",
     "target": {
       "slotId": 0,
       "verb": "curare",
@@ -2680,13 +2564,12 @@
     "band": 1
   },
   {
-    "id": "corpus-presente-057",
+    "id": "presente-0117",
     "textTemplate": "Io {slot_0} sempre la borsa della spesa in macchina.",
     "primaryTense": "presente",
     "level": 5,
     "difficulty": 1,
     "theme": "vita_quotidiana",
-    "source": "authored",
     "target": {
       "slotId": 0,
       "verb": "dimenticare",
@@ -2703,13 +2586,12 @@
     "band": 1
   },
   {
-    "id": "corpus-presente-058",
+    "id": "presente-0118",
     "textTemplate": "Tu {slot_0} mai il compleanno dei tuoi amici?",
     "primaryTense": "presente",
     "level": 1,
     "difficulty": 1,
     "theme": "vita_quotidiana",
-    "source": "authored",
     "target": {
       "slotId": 0,
       "verb": "dimenticare",
@@ -2726,13 +2608,12 @@
     "band": 1
   },
   {
-    "id": "corpus-presente-059",
+    "id": "presente-0119",
     "textTemplate": "Noi {slot_0} facilmente i nomi, ma ricordiamo i volti.",
     "primaryTense": "presente",
     "level": 2,
     "difficulty": 1,
     "theme": "vita_quotidiana",
-    "source": "authored",
     "target": {
       "slotId": 0,
       "verb": "dimenticare",
@@ -2749,13 +2630,12 @@
     "band": 1
   },
   {
-    "id": "corpus-presente-060",
+    "id": "presente-0120",
     "textTemplate": "Voi {slot_0} di chiudere il cancello quando uscite.",
     "primaryTense": "presente",
     "level": 4,
     "difficulty": 1,
     "theme": "vita_quotidiana",
-    "source": "authored",
     "target": {
       "slotId": 0,
       "verb": "dimenticare",
@@ -2772,13 +2652,12 @@
     "band": 1
   },
   {
-    "id": "corpus-presente-061",
+    "id": "presente-0121",
     "textTemplate": "Io {slot_0} di sì solo quando sono davvero convinto.",
     "primaryTense": "presente",
     "level": 5,
     "difficulty": 2,
     "theme": "vita_quotidiana",
-    "source": "authored",
     "target": {
       "slotId": 0,
       "verb": "dire",
@@ -2795,13 +2674,12 @@
     "band": 2
   },
   {
-    "id": "corpus-presente-062",
+    "id": "presente-0122",
     "textTemplate": "L'etichetta {slot_0} di lavare il maglione a mano.",
     "primaryTense": "presente",
     "level": 2,
     "difficulty": 2,
     "theme": "vita_quotidiana",
-    "source": "authored",
     "target": {
       "slotId": 0,
       "verb": "dire",
@@ -2818,13 +2696,12 @@
     "band": 2
   },
   {
-    "id": "corpus-presente-063",
+    "id": "presente-0123",
     "textTemplate": "Noi {slot_0} grazie anche per i piccoli gesti.",
     "primaryTense": "presente",
     "level": 3,
     "difficulty": 2,
     "theme": "vita_quotidiana",
-    "source": "authored",
     "target": {
       "slotId": 0,
       "verb": "dire",
@@ -2841,13 +2718,12 @@
     "band": 2
   },
   {
-    "id": "corpus-presente-064",
+    "id": "presente-0124",
     "textTemplate": "I vicini {slot_0} che il quartiere è molto tranquillo.",
     "primaryTense": "presente",
     "level": 4,
     "difficulty": 2,
     "theme": "vita_quotidiana",
-    "source": "authored",
     "target": {
       "slotId": 0,
       "verb": "dire",
@@ -2864,13 +2740,12 @@
     "band": 2
   },
   {
-    "id": "corpus-presente-065",
+    "id": "presente-0125",
     "textTemplate": "Tu {slot_0} meglio con la finestra aperta?",
     "primaryTense": "presente",
     "level": 4,
     "difficulty": 1,
     "theme": "vita_quotidiana",
-    "source": "authored",
     "target": {
       "slotId": 0,
       "verb": "dormire",
@@ -2887,13 +2762,12 @@
     "band": 1
   },
   {
-    "id": "corpus-presente-066",
+    "id": "presente-0126",
     "textTemplate": "Il bambino {slot_0} anche se fuori c'è rumore.",
     "primaryTense": "presente",
     "level": 5,
     "difficulty": 1,
     "theme": "vita_quotidiana",
-    "source": "authored",
     "target": {
       "slotId": 0,
       "verb": "dormire",
@@ -2910,13 +2784,12 @@
     "band": 1
   },
   {
-    "id": "corpus-presente-067",
+    "id": "presente-0127",
     "textTemplate": "Noi {slot_0} in una tenda quando andiamo in montagna.",
     "primaryTense": "presente",
     "level": 1,
     "difficulty": 1,
     "theme": "vita_quotidiana",
-    "source": "authored",
     "target": {
       "slotId": 0,
       "verb": "dormire",
@@ -2933,13 +2806,12 @@
     "band": 1
   },
   {
-    "id": "corpus-presente-068",
+    "id": "presente-0128",
     "textTemplate": "Voi {slot_0} poco la notte prima di un viaggio?",
     "primaryTense": "presente",
     "level": 2,
     "difficulty": 1,
     "theme": "vita_quotidiana",
-    "source": "authored",
     "target": {
       "slotId": 0,
       "verb": "dormire",
@@ -2956,13 +2828,12 @@
     "band": 1
   },
   {
-    "id": "corpus-presente-069",
+    "id": "presente-0129",
     "textTemplate": "Io {slot_0} portare questi libri in biblioteca.",
     "primaryTense": "presente",
     "level": 5,
     "difficulty": 2,
     "theme": "vita_quotidiana",
-    "source": "authored",
     "target": {
       "slotId": 0,
       "verb": "dovere",
@@ -2985,13 +2856,12 @@
     "band": 2
   },
   {
-    "id": "corpus-presente-070",
+    "id": "presente-0130",
     "textTemplate": "Tu {slot_0} chiamare prima di venire?",
     "primaryTense": "presente",
     "level": 5,
     "difficulty": 2,
     "theme": "vita_quotidiana",
-    "source": "authored",
     "target": {
       "slotId": 0,
       "verb": "dovere",
@@ -3008,13 +2878,12 @@
     "band": 2
   },
   {
-    "id": "corpus-presente-071",
+    "id": "presente-0131",
     "textTemplate": "Il pane {slot_0} restare in forno altri dieci minuti.",
     "primaryTense": "presente",
     "level": 2,
     "difficulty": 2,
     "theme": "vita_quotidiana",
-    "source": "authored",
     "target": {
       "slotId": 0,
       "verb": "dovere",
@@ -3031,13 +2900,12 @@
     "band": 2
   },
   {
-    "id": "corpus-presente-072",
+    "id": "presente-0132",
     "textTemplate": "Noi {slot_0} scendere alla prossima fermata.",
     "primaryTense": "presente",
     "level": 3,
     "difficulty": 2,
     "theme": "vita_quotidiana",
-    "source": "authored",
     "target": {
       "slotId": 0,
       "verb": "dovere",
@@ -3054,13 +2922,12 @@
     "band": 2
   },
   {
-    "id": "corpus-presente-073",
+    "id": "presente-0133",
     "textTemplate": "Io {slot_0} curioso di conoscere i nuovi vicini.",
     "primaryTense": "presente",
     "level": 4,
     "difficulty": 2,
     "theme": "vita_quotidiana",
-    "source": "authored",
     "target": {
       "slotId": 0,
       "verb": "essere",
@@ -3077,13 +2944,12 @@
     "band": 2
   },
   {
-    "id": "corpus-presente-074",
+    "id": "presente-0134",
     "textTemplate": "Tu {slot_0} pronto per la visita al museo?",
     "primaryTense": "presente",
     "level": 5,
     "difficulty": 2,
     "theme": "vita_quotidiana",
-    "source": "authored",
     "target": {
       "slotId": 0,
       "verb": "essere",
@@ -3100,13 +2966,12 @@
     "band": 2
   },
   {
-    "id": "corpus-presente-075",
+    "id": "presente-0135",
     "textTemplate": "La farmacia {slot_0} dietro la chiesa.",
     "primaryTense": "presente",
     "level": 2,
     "difficulty": 2,
     "theme": "vita_quotidiana",
-    "source": "authored",
     "target": {
       "slotId": 0,
       "verb": "essere",
@@ -3123,13 +2988,12 @@
     "band": 2
   },
   {
-    "id": "corpus-presente-076",
+    "id": "presente-0136",
     "textTemplate": "Queste scarpe {slot_0} troppo strette per me.",
     "primaryTense": "presente",
     "level": 3,
     "difficulty": 2,
     "theme": "vita_quotidiana",
-    "source": "authored",
     "target": {
       "slotId": 0,
       "verb": "essere",
@@ -3146,13 +3010,12 @@
     "band": 2
   },
   {
-    "id": "corpus-presente-077",
+    "id": "presente-0137",
     "textTemplate": "Io {slot_0} la fila mentre tu cerchi un tavolo.",
     "primaryTense": "presente",
     "level": 4,
     "difficulty": 2,
     "theme": "vita_quotidiana",
-    "source": "authored",
     "target": {
       "slotId": 0,
       "verb": "fare",
@@ -3169,13 +3032,12 @@
     "band": 2
   },
   {
-    "id": "corpus-presente-078",
+    "id": "presente-0138",
     "textTemplate": "Tu {slot_0} ancora colazione con latte e biscotti?",
     "primaryTense": "presente",
     "level": 5,
     "difficulty": 2,
     "theme": "vita_quotidiana",
-    "source": "authored",
     "target": {
       "slotId": 0,
       "verb": "fare",
@@ -3192,13 +3054,12 @@
     "band": 2
   },
   {
-    "id": "corpus-presente-079",
+    "id": "presente-0139",
     "textTemplate": "Noi {slot_0} una pausa ogni due ore.",
     "primaryTense": "presente",
     "level": 2,
     "difficulty": 2,
     "theme": "vita_quotidiana",
-    "source": "authored",
     "target": {
       "slotId": 0,
       "verb": "fare",
@@ -3215,13 +3076,12 @@
     "band": 2
   },
   {
-    "id": "corpus-presente-080",
+    "id": "presente-0140",
     "textTemplate": "Voi {slot_0} parte del gruppo di lettura?",
     "primaryTense": "presente",
     "level": 2,
     "difficulty": 2,
     "theme": "vita_quotidiana",
-    "source": "authored",
     "target": {
       "slotId": 0,
       "verb": "fare",
@@ -3238,13 +3098,12 @@
     "band": 2
   },
   {
-    "id": "corpus-presente-081",
+    "id": "presente-0141",
     "textTemplate": "Io {slot_0} il turno alle cinque del pomeriggio.",
     "primaryTense": "presente",
     "level": 2,
     "difficulty": 1,
     "theme": "vita_quotidiana",
-    "source": "authored",
     "target": {
       "slotId": 0,
       "verb": "finire",
@@ -3261,13 +3120,12 @@
     "band": 1
   },
   {
-    "id": "corpus-presente-082",
+    "id": "presente-0142",
     "textTemplate": "Il sentiero {slot_0} davanti a una cascata.",
     "primaryTense": "presente",
     "level": 3,
     "difficulty": 1,
     "theme": "vita_quotidiana",
-    "source": "authored",
     "target": {
       "slotId": 0,
       "verb": "finire",
@@ -3284,13 +3142,12 @@
     "band": 1
   },
   {
-    "id": "corpus-presente-083",
+    "id": "presente-0143",
     "textTemplate": "Noi {slot_0} sempre il pane prima del secondo.",
     "primaryTense": "presente",
     "level": 4,
     "difficulty": 1,
     "theme": "vita_quotidiana",
-    "source": "authored",
     "target": {
       "slotId": 0,
       "verb": "finire",
@@ -3307,13 +3164,12 @@
     "band": 1
   },
   {
-    "id": "corpus-presente-084",
+    "id": "presente-0144",
     "textTemplate": "Le lezioni {slot_0} un po' prima il venerdì.",
     "primaryTense": "presente",
     "level": 5,
     "difficulty": 1,
     "theme": "vita_quotidiana",
-    "source": "authored",
     "target": {
       "slotId": 0,
       "verb": "finire",
@@ -3330,13 +3186,12 @@
     "band": 1
   },
   {
-    "id": "corpus-presente-085",
+    "id": "presente-0145",
     "textTemplate": "Tu {slot_0} i tuoi disegni sul retro?",
     "primaryTense": "presente",
     "level": 1,
     "difficulty": 1,
     "theme": "vita_quotidiana",
-    "source": "authored",
     "target": {
       "slotId": 0,
       "verb": "firmare",
@@ -3353,13 +3208,12 @@
     "band": 1
   },
   {
-    "id": "corpus-presente-086",
+    "id": "presente-0146",
     "textTemplate": "Il medico {slot_0} il certificato dopo la visita.",
     "primaryTense": "presente",
     "level": 2,
     "difficulty": 1,
     "theme": "vita_quotidiana",
-    "source": "authored",
     "target": {
       "slotId": 0,
       "verb": "firmare",
@@ -3376,13 +3230,12 @@
     "band": 1
   },
   {
-    "id": "corpus-presente-087",
+    "id": "presente-0147",
     "textTemplate": "Voi {slot_0} qui per confermare la consegna.",
     "primaryTense": "presente",
     "level": 3,
     "difficulty": 1,
     "theme": "vita_quotidiana",
-    "source": "authored",
     "target": {
       "slotId": 0,
       "verb": "firmare",
@@ -3399,13 +3252,12 @@
     "band": 1
   },
   {
-    "id": "corpus-presente-088",
+    "id": "presente-0148",
     "textTemplate": "Gli autori {slot_0} le copie dei loro libri.",
     "primaryTense": "presente",
     "level": 4,
     "difficulty": 1,
     "theme": "vita_quotidiana",
-    "source": "authored",
     "target": {
       "slotId": 0,
       "verb": "firmare",
@@ -3422,13 +3274,12 @@
     "band": 1
   },
   {
-    "id": "corpus-presente-089",
+    "id": "presente-0149",
     "textTemplate": "Io {slot_0} le insegne curiose che incontro per strada.",
     "primaryTense": "presente",
     "level": 5,
     "difficulty": 1,
     "theme": "vita_quotidiana",
-    "source": "authored",
     "target": {
       "slotId": 0,
       "verb": "fotografare",
@@ -3445,13 +3296,12 @@
     "band": 1
   },
   {
-    "id": "corpus-presente-090",
+    "id": "presente-0150",
     "textTemplate": "Tu {slot_0} i piatti prima di mangiare?",
     "primaryTense": "presente",
     "level": 2,
     "difficulty": 1,
     "theme": "vita_quotidiana",
-    "source": "authored",
     "target": {
       "slotId": 0,
       "verb": "fotografare",
@@ -3468,13 +3318,12 @@
     "band": 1
   },
   {
-    "id": "corpus-presente-091",
+    "id": "presente-0151",
     "textTemplate": "Noi {slot_0} lo stesso albero in ogni stagione.",
     "primaryTense": "presente",
     "level": 3,
     "difficulty": 1,
     "theme": "vita_quotidiana",
-    "source": "authored",
     "target": {
       "slotId": 0,
       "verb": "fotografare",
@@ -3491,13 +3340,12 @@
     "band": 1
   },
   {
-    "id": "corpus-presente-092",
+    "id": "presente-0152",
     "textTemplate": "I visitatori {slot_0} la facciata del palazzo.",
     "primaryTense": "presente",
     "level": 4,
     "difficulty": 1,
     "theme": "vita_quotidiana",
-    "source": "authored",
     "target": {
       "slotId": 0,
       "verb": "fotografare",
@@ -3514,13 +3362,12 @@
     "band": 1
   },
   {
-    "id": "corpus-presente-093",
+    "id": "presente-0153",
     "textTemplate": "Io {slot_0} a carte con mio nonno la domenica.",
     "primaryTense": "presente",
     "level": 5,
     "difficulty": 1,
     "theme": "vita_quotidiana",
-    "source": "authored",
     "target": {
       "slotId": 0,
       "verb": "giocare",
@@ -3537,13 +3384,12 @@
     "band": 1
   },
   {
-    "id": "corpus-presente-094",
+    "id": "presente-0154",
     "textTemplate": "La squadra {slot_0} in casa questo sabato.",
     "primaryTense": "presente",
     "level": 1,
     "difficulty": 1,
     "theme": "vita_quotidiana",
-    "source": "authored",
     "target": {
       "slotId": 0,
       "verb": "giocare",
@@ -3560,13 +3406,12 @@
     "band": 1
   },
   {
-    "id": "corpus-presente-095",
+    "id": "presente-0155",
     "textTemplate": "Voi {slot_0} a scacchi durante la pausa pranzo?",
     "primaryTense": "presente",
     "level": 2,
     "difficulty": 1,
     "theme": "vita_quotidiana",
-    "source": "authored",
     "target": {
       "slotId": 0,
       "verb": "giocare",
@@ -3583,13 +3428,12 @@
     "band": 1
   },
   {
-    "id": "corpus-presente-096",
+    "id": "presente-0156",
     "textTemplate": "I cuccioli {slot_0} insieme sotto il tavolo.",
     "primaryTense": "presente",
     "level": 3,
     "difficulty": 1,
     "theme": "vita_quotidiana",
-    "source": "authored",
     "target": {
       "slotId": 0,
       "verb": "giocare",
@@ -3606,13 +3450,12 @@
     "band": 1
   },
   {
-    "id": "corpus-presente-097",
+    "id": "presente-0157",
     "textTemplate": "Io {slot_0} il silenzio prima che si sveglino tutti.",
     "primaryTense": "presente",
     "level": 3,
     "difficulty": 2,
     "theme": "vita_quotidiana",
-    "source": "authored",
     "target": {
       "slotId": 0,
       "verb": "godersi",
@@ -3629,13 +3472,12 @@
     "band": 2
   },
   {
-    "id": "corpus-presente-098",
+    "id": "presente-0158",
     "textTemplate": "Tu {slot_0} la vacanza senza controllare le email?",
     "primaryTense": "presente",
     "level": 4,
     "difficulty": 2,
     "theme": "vita_quotidiana",
-    "source": "authored",
     "target": {
       "slotId": 0,
       "verb": "godersi",
@@ -3652,13 +3494,12 @@
     "band": 2
   },
   {
-    "id": "corpus-presente-099",
+    "id": "presente-0159",
     "textTemplate": "Noi {slot_0} gli ultimi raggi di sole in giardino.",
     "primaryTense": "presente",
     "level": 5,
     "difficulty": 2,
     "theme": "vita_quotidiana",
-    "source": "authored",
     "target": {
       "slotId": 0,
       "verb": "godersi",
@@ -3675,13 +3516,12 @@
     "band": 2
   },
   {
-    "id": "corpus-presente-100",
+    "id": "presente-0160",
     "textTemplate": "I nonni {slot_0} una passeggiata lungo il fiume.",
     "primaryTense": "presente",
     "level": 3,
     "difficulty": 2,
     "theme": "vita_quotidiana",
-    "source": "authored",
     "target": {
       "slotId": 0,
       "verb": "godersi",
@@ -3698,13 +3538,12 @@
     "band": 2
   },
   {
-    "id": "corpus-presente-101",
+    "id": "presente-0161",
     "textTemplate": "Tu {slot_0} il prezzo prima di scegliere?",
     "primaryTense": "presente",
     "level": 5,
     "difficulty": 1,
     "theme": "vita_quotidiana",
-    "source": "authored",
     "target": {
       "slotId": 0,
       "verb": "guardare",
@@ -3721,13 +3560,12 @@
     "band": 1
   },
   {
-    "id": "corpus-presente-102",
+    "id": "presente-0162",
     "textTemplate": "La bambina {slot_0} le formiche sul marciapiede.",
     "primaryTense": "presente",
     "level": 1,
     "difficulty": 1,
     "theme": "vita_quotidiana",
-    "source": "authored",
     "target": {
       "slotId": 0,
       "verb": "guardare",
@@ -3744,13 +3582,12 @@
     "band": 1
   },
   {
-    "id": "corpus-presente-103",
+    "id": "presente-0163",
     "textTemplate": "Noi {slot_0} le stelle dalla finestra della cucina.",
     "primaryTense": "presente",
     "level": 2,
     "difficulty": 1,
     "theme": "vita_quotidiana",
-    "source": "authored",
     "target": {
       "slotId": 0,
       "verb": "guardare",
@@ -3767,13 +3604,12 @@
     "band": 1
   },
   {
-    "id": "corpus-presente-104",
+    "id": "presente-0164",
     "textTemplate": "Voi {slot_0} ancora i film in televisione?",
     "primaryTense": "presente",
     "level": 3,
     "difficulty": 1,
     "theme": "vita_quotidiana",
-    "source": "authored",
     "target": {
       "slotId": 0,
       "verb": "guardare",
@@ -3790,13 +3626,12 @@
     "band": 1
   },
   {
-    "id": "corpus-presente-105",
+    "id": "presente-0165",
     "textTemplate": "Io {slot_0} piano nelle strade di campagna.",
     "primaryTense": "presente",
     "level": 4,
     "difficulty": 1,
     "theme": "vita_quotidiana",
-    "source": "authored",
     "target": {
       "slotId": 0,
       "verb": "guidare",
@@ -3813,13 +3648,12 @@
     "band": 1
   },
   {
-    "id": "corpus-presente-106",
+    "id": "presente-0166",
     "textTemplate": "Tu {slot_0} anche quando nevica?",
     "primaryTense": "presente",
     "level": 5,
     "difficulty": 1,
     "theme": "vita_quotidiana",
-    "source": "authored",
     "target": {
       "slotId": 0,
       "verb": "guidare",
@@ -3836,13 +3670,12 @@
     "band": 2
   },
   {
-    "id": "corpus-presente-107",
+    "id": "presente-0167",
     "textTemplate": "Noi {slot_0} a turno durante i viaggi lunghi.",
     "primaryTense": "presente",
     "level": 1,
     "difficulty": 1,
     "theme": "vita_quotidiana",
-    "source": "authored",
     "target": {
       "slotId": 0,
       "verb": "guidare",
@@ -3859,13 +3692,12 @@
     "band": 1
   },
   {
-    "id": "corpus-presente-108",
+    "id": "presente-0168",
     "textTemplate": "Gli autisti {slot_0} con prudenza vicino alle scuole.",
     "primaryTense": "presente",
     "level": 2,
     "difficulty": 1,
     "theme": "vita_quotidiana",
-    "source": "authored",
     "target": {
       "slotId": 0,
       "verb": "guidare",
@@ -3882,13 +3714,12 @@
     "band": 1
   },
   {
-    "id": "corpus-presente-109",
+    "id": "presente-0169",
     "textTemplate": "Io {slot_0} i vicini a prendere un caffè.",
     "primaryTense": "presente",
     "level": 3,
     "difficulty": 1,
     "theme": "vita_quotidiana",
-    "source": "authored",
     "target": {
       "slotId": 0,
       "verb": "invitare",
@@ -3905,13 +3736,12 @@
     "band": 1
   },
   {
-    "id": "corpus-presente-110",
+    "id": "presente-0170",
     "textTemplate": "La biblioteca {slot_0} un autore diverso ogni mese.",
     "primaryTense": "presente",
     "level": 5,
     "difficulty": 1,
     "theme": "vita_quotidiana",
-    "source": "authored",
     "target": {
       "slotId": 0,
       "verb": "invitare",
@@ -3928,13 +3758,12 @@
     "band": 2
   },
   {
-    "id": "corpus-presente-111",
+    "id": "presente-0171",
     "textTemplate": "Voi {slot_0} anche i bambini alla festa?",
     "primaryTense": "presente",
     "level": 1,
     "difficulty": 1,
     "theme": "vita_quotidiana",
-    "source": "authored",
     "target": {
       "slotId": 0,
       "verb": "invitare",
@@ -3951,13 +3780,12 @@
     "band": 1
   },
   {
-    "id": "corpus-presente-112",
+    "id": "presente-0172",
     "textTemplate": "Le associazioni {slot_0} tutti a partecipare alla pulizia del parco.",
     "primaryTense": "presente",
     "level": 2,
     "difficulty": 1,
     "theme": "vita_quotidiana",
-    "source": "authored",
     "target": {
       "slotId": 0,
       "verb": "invitare",
@@ -3974,13 +3802,12 @@
     "band": 1
   },
   {
-    "id": "corpus-presente-113",
+    "id": "presente-0173",
     "textTemplate": "Tu {slot_0} meglio al mattino o alla sera?",
     "primaryTense": "presente",
     "level": 3,
     "difficulty": 1,
     "theme": "vita_quotidiana",
-    "source": "authored",
     "target": {
       "slotId": 0,
       "verb": "lavorare",
@@ -3997,13 +3824,12 @@
     "band": 1
   },
   {
-    "id": "corpus-presente-114",
+    "id": "presente-0174",
     "textTemplate": "Mia sorella {slot_0} in una piccola libreria.",
     "primaryTense": "presente",
     "level": 4,
     "difficulty": 1,
     "theme": "vita_quotidiana",
-    "source": "authored",
     "target": {
       "slotId": 0,
       "verb": "lavorare",
@@ -4020,13 +3846,12 @@
     "band": 1
   },
   {
-    "id": "corpus-presente-115",
+    "id": "presente-0175",
     "textTemplate": "Noi {slot_0} con materiali riciclati.",
     "primaryTense": "presente",
     "level": 5,
     "difficulty": 1,
     "theme": "vita_quotidiana",
-    "source": "authored",
     "target": {
       "slotId": 0,
       "verb": "lavorare",
@@ -4043,13 +3868,12 @@
     "band": 2
   },
   {
-    "id": "corpus-presente-116",
+    "id": "presente-0176",
     "textTemplate": "I panettieri {slot_0} mentre il quartiere dorme.",
     "primaryTense": "presente",
     "level": 1,
     "difficulty": 1,
     "theme": "vita_quotidiana",
-    "source": "authored",
     "target": {
       "slotId": 0,
       "verb": "lavorare",
@@ -4066,13 +3890,12 @@
     "band": 1
   },
   {
-    "id": "corpus-presente-117",
+    "id": "presente-0177",
     "textTemplate": "Io {slot_0} le istruzioni prima di montare un mobile.",
     "primaryTense": "presente",
     "level": 3,
     "difficulty": 2,
     "theme": "vita_quotidiana",
-    "source": "authored",
     "target": {
       "slotId": 0,
       "verb": "leggere",
@@ -4089,13 +3912,12 @@
     "band": 2
   },
   {
-    "id": "corpus-presente-118",
+    "id": "presente-0178",
     "textTemplate": "Tu {slot_0} ancora il giornale di carta?",
     "primaryTense": "presente",
     "level": 4,
     "difficulty": 2,
     "theme": "vita_quotidiana",
-    "source": "authored",
     "target": {
       "slotId": 0,
       "verb": "leggere",
@@ -4112,13 +3934,12 @@
     "band": 2
   },
   {
-    "id": "corpus-presente-119",
+    "id": "presente-0179",
     "textTemplate": "Noi {slot_0} una poesia all'inizio di ogni incontro.",
     "primaryTense": "presente",
     "level": 5,
     "difficulty": 2,
     "theme": "vita_quotidiana",
-    "source": "authored",
     "target": {
       "slotId": 0,
       "verb": "leggere",
@@ -4135,13 +3956,12 @@
     "band": 2
   },
   {
-    "id": "corpus-presente-120",
+    "id": "presente-0180",
     "textTemplate": "Voi {slot_0} i sottotitoli anche quando capite il film?",
     "primaryTense": "presente",
     "level": 5,
     "difficulty": 2,
     "theme": "vita_quotidiana",
-    "source": "authored",
     "target": {
       "slotId": 0,
       "verb": "leggere",
@@ -4158,13 +3978,12 @@
     "band": 2
   },
   {
-    "id": "corpus-presente-121",
+    "id": "presente-0181",
     "textTemplate": "Io {slot_0} una mela prima di uscire.",
     "primaryTense": "presente",
     "level": 2,
     "difficulty": 1,
     "theme": "vita_quotidiana",
-    "source": "authored",
     "target": {
       "slotId": 0,
       "verb": "mangiare",
@@ -4181,13 +4000,12 @@
     "band": 1
   },
   {
-    "id": "corpus-presente-122",
+    "id": "presente-0182",
     "textTemplate": "Il coniglio {slot_0} le foglie di insalata.",
     "primaryTense": "presente",
     "level": 3,
     "difficulty": 1,
     "theme": "vita_quotidiana",
-    "source": "authored",
     "target": {
       "slotId": 0,
       "verb": "mangiare",
@@ -4204,13 +4022,12 @@
     "band": 1
   },
   {
-    "id": "corpus-presente-123",
+    "id": "presente-0183",
     "textTemplate": "Voi {slot_0} in mensa oppure portate il pranzo?",
     "primaryTense": "presente",
     "level": 4,
     "difficulty": 1,
     "theme": "vita_quotidiana",
-    "source": "authored",
     "target": {
       "slotId": 0,
       "verb": "mangiare",
@@ -4227,13 +4044,12 @@
     "band": 1
   },
   {
-    "id": "corpus-presente-124",
+    "id": "presente-0184",
     "textTemplate": "I miei nipoti {slot_0} volentieri le verdure dell'orto.",
     "primaryTense": "presente",
     "level": 5,
     "difficulty": 1,
     "theme": "vita_quotidiana",
-    "source": "authored",
     "target": {
       "slotId": 0,
       "verb": "mangiare",
@@ -4250,13 +4066,12 @@
     "band": 2
   },
   {
-    "id": "corpus-presente-125",
+    "id": "presente-0185",
     "textTemplate": "Tu {slot_0} sempre lo stesso gusto di gelato?",
     "primaryTense": "presente",
     "level": 1,
     "difficulty": 1,
     "theme": "vita_quotidiana",
-    "source": "authored",
     "target": {
       "slotId": 0,
       "verb": "ordinare",
@@ -4273,13 +4088,12 @@
     "band": 1
   },
   {
-    "id": "corpus-presente-126",
+    "id": "presente-0186",
     "textTemplate": "La cliente {slot_0} un cappuccino senza cacao.",
     "primaryTense": "presente",
     "level": 2,
     "difficulty": 1,
     "theme": "vita_quotidiana",
-    "source": "authored",
     "target": {
       "slotId": 0,
       "verb": "ordinare",
@@ -4296,13 +4110,12 @@
     "band": 1
   },
   {
-    "id": "corpus-presente-127",
+    "id": "presente-0187",
     "textTemplate": "Noi {slot_0} i documenti per data.",
     "primaryTense": "presente",
     "level": 3,
     "difficulty": 1,
     "theme": "vita_quotidiana",
-    "source": "authored",
     "target": {
       "slotId": 0,
       "verb": "ordinare",
@@ -4319,13 +4132,12 @@
     "band": 1
   },
   {
-    "id": "corpus-presente-128",
+    "id": "presente-0188",
     "textTemplate": "Gli ospiti {slot_0} il dolce dopo il caffè.",
     "primaryTense": "presente",
     "level": 4,
     "difficulty": 1,
     "theme": "vita_quotidiana",
-    "source": "authored",
     "target": {
       "slotId": 0,
       "verb": "ordinare",
@@ -4342,13 +4154,12 @@
     "band": 1
   },
   {
-    "id": "corpus-presente-129",
+    "id": "presente-0189",
     "textTemplate": "Io {slot_0} le foto in cartelle separate.",
     "primaryTense": "presente",
     "level": 5,
     "difficulty": 1,
     "theme": "vita_quotidiana",
-    "source": "authored",
     "target": {
       "slotId": 0,
       "verb": "organizzare",
@@ -4365,13 +4176,12 @@
     "band": 2
   },
   {
-    "id": "corpus-presente-130",
+    "id": "presente-0190",
     "textTemplate": "Tu {slot_0} la cena e io penso alla musica.",
     "primaryTense": "presente",
     "level": 2,
     "difficulty": 1,
     "theme": "vita_quotidiana",
-    "source": "authored",
     "target": {
       "slotId": 0,
       "verb": "organizzare",
@@ -4388,13 +4198,12 @@
     "band": 1
   },
   {
-    "id": "corpus-presente-131",
+    "id": "presente-0191",
     "textTemplate": "Noi {slot_0} una raccolta di vestiti per il quartiere.",
     "primaryTense": "presente",
     "level": 3,
     "difficulty": 1,
     "theme": "vita_quotidiana",
-    "source": "authored",
     "target": {
       "slotId": 0,
       "verb": "organizzare",
@@ -4411,13 +4220,12 @@
     "band": 1
   },
   {
-    "id": "corpus-presente-132",
+    "id": "presente-0192",
     "textTemplate": "Voi {slot_0} gite anche per chi non ha la macchina?",
     "primaryTense": "presente",
     "level": 4,
     "difficulty": 1,
     "theme": "vita_quotidiana",
-    "source": "authored",
     "target": {
       "slotId": 0,
       "verb": "organizzare",
@@ -4434,13 +4242,12 @@
     "band": 1
   },
   {
-    "id": "corpus-presente-133",
+    "id": "presente-0193",
     "textTemplate": "Io {slot_0} piano quando il bambino dorme.",
     "primaryTense": "presente",
     "level": 5,
     "difficulty": 1,
     "theme": "vita_quotidiana",
-    "source": "authored",
     "target": {
       "slotId": 0,
       "verb": "parlare",
@@ -4457,13 +4264,12 @@
     "band": 2
   },
   {
-    "id": "corpus-presente-134",
+    "id": "presente-0194",
     "textTemplate": "La guida {slot_0} anche portoghese.",
     "primaryTense": "presente",
     "level": 1,
     "difficulty": 1,
     "theme": "vita_quotidiana",
-    "source": "authored",
     "target": {
       "slotId": 0,
       "verb": "parlare",
@@ -4480,13 +4286,12 @@
     "band": 1
   },
   {
-    "id": "corpus-presente-135",
+    "id": "presente-0195",
     "textTemplate": "Noi {slot_0} del più e del meno mentre aspettiamo.",
     "primaryTense": "presente",
     "level": 2,
     "difficulty": 1,
     "theme": "vita_quotidiana",
-    "source": "authored",
     "target": {
       "slotId": 0,
       "verb": "parlare",
@@ -4503,13 +4308,12 @@
     "band": 1
   },
   {
-    "id": "corpus-presente-136",
+    "id": "presente-0196",
     "textTemplate": "I miei cugini {slot_0} spesso dei loro viaggi.",
     "primaryTense": "presente",
     "level": 3,
     "difficulty": 1,
     "theme": "vita_quotidiana",
-    "source": "authored",
     "target": {
       "slotId": 0,
       "verb": "parlare",
@@ -4526,13 +4330,12 @@
     "band": 1
   },
   {
-    "id": "corpus-presente-137",
+    "id": "presente-0197",
     "textTemplate": "Tu {slot_0} davanti alla biblioteca per tornare a casa?",
     "primaryTense": "presente",
     "level": 4,
     "difficulty": 1,
     "theme": "vita_quotidiana",
-    "source": "authored",
     "target": {
       "slotId": 0,
       "verb": "passare",
@@ -4549,13 +4352,12 @@
     "band": 1
   },
   {
-    "id": "corpus-presente-138",
+    "id": "presente-0198",
     "textTemplate": "Il tempo {slot_0} in fretta quando siamo insieme.",
     "primaryTense": "presente",
     "level": 5,
     "difficulty": 1,
     "theme": "vita_quotidiana",
-    "source": "authored",
     "target": {
       "slotId": 0,
       "verb": "passare",
@@ -4572,13 +4374,12 @@
     "band": 2
   },
   {
-    "id": "corpus-presente-139",
+    "id": "presente-0199",
     "textTemplate": "Voi {slot_0} le vacanze con i vostri genitori?",
     "primaryTense": "presente",
     "level": 1,
     "difficulty": 1,
     "theme": "vita_quotidiana",
-    "source": "authored",
     "target": {
       "slotId": 0,
       "verb": "passare",
@@ -4595,13 +4396,12 @@
     "band": 1
   },
   {
-    "id": "corpus-presente-140",
+    "id": "presente-0200",
     "textTemplate": "Le rondini {slot_0} sopra i tetti del paese.",
     "primaryTense": "presente",
     "level": 3,
     "difficulty": 1,
     "theme": "vita_quotidiana",
-    "source": "authored",
     "target": {
       "slotId": 0,
       "verb": "passare",
@@ -4618,13 +4418,12 @@
     "band": 1
   },
   {
-    "id": "corpus-presente-141",
+    "id": "presente-0201",
     "textTemplate": "Io {slot_0} facilmente nei centri commerciali.",
     "primaryTense": "presente",
     "level": 5,
     "difficulty": 2,
     "theme": "vita_quotidiana",
-    "source": "authored",
     "target": {
       "slotId": 0,
       "verb": "perdersi",
@@ -4641,13 +4440,12 @@
     "band": 2
   },
   {
-    "id": "corpus-presente-142",
+    "id": "presente-0202",
     "textTemplate": "Tu {slot_0} nei pensieri quando ascolti questa canzone.",
     "primaryTense": "presente",
     "level": 3,
     "difficulty": 2,
     "theme": "vita_quotidiana",
-    "source": "authored",
     "target": {
       "slotId": 0,
       "verb": "perdersi",
@@ -4664,13 +4462,12 @@
     "band": 2
   },
   {
-    "id": "corpus-presente-143",
+    "id": "presente-0203",
     "textTemplate": "Noi {slot_0} se non seguiamo i cartelli.",
     "primaryTense": "presente",
     "level": 4,
     "difficulty": 2,
     "theme": "vita_quotidiana",
-    "source": "authored",
     "target": {
       "slotId": 0,
       "verb": "perdersi",
@@ -4687,13 +4484,12 @@
     "band": 2
   },
   {
-    "id": "corpus-presente-144",
+    "id": "presente-0204",
     "textTemplate": "I turisti {slot_0} spesso nelle stradine del centro.",
     "primaryTense": "presente",
     "level": 5,
     "difficulty": 2,
     "theme": "vita_quotidiana",
-    "source": "authored",
     "target": {
       "slotId": 0,
       "verb": "perdersi",
@@ -4710,13 +4506,12 @@
     "band": 2
   },
   {
-    "id": "corpus-presente-145",
+    "id": "presente-0205",
     "textTemplate": "Io {slot_0} aiutarti dopo pranzo.",
     "primaryTense": "presente",
     "level": 4,
     "difficulty": 2,
     "theme": "vita_quotidiana",
-    "source": "authored",
     "target": {
       "slotId": 0,
       "verb": "potere",
@@ -4733,13 +4528,12 @@
     "band": 2
   },
   {
-    "id": "corpus-presente-146",
+    "id": "presente-0206",
     "textTemplate": "Tu {slot_0} tenere aperta la porta un momento?",
     "primaryTense": "presente",
     "level": 5,
     "difficulty": 2,
     "theme": "vita_quotidiana",
-    "source": "authored",
     "target": {
       "slotId": 0,
       "verb": "potere",
@@ -4756,13 +4550,12 @@
     "band": 2
   },
   {
-    "id": "corpus-presente-147",
+    "id": "presente-0207",
     "textTemplate": "Noi {slot_0} usare la sala fino alle otto.",
     "primaryTense": "presente",
     "level": 2,
     "difficulty": 2,
     "theme": "vita_quotidiana",
-    "source": "authored",
     "target": {
       "slotId": 0,
       "verb": "potere",
@@ -4779,13 +4572,12 @@
     "band": 2
   },
   {
-    "id": "corpus-presente-148",
+    "id": "presente-0208",
     "textTemplate": "Voi {slot_0} lasciare le biciclette in cortile.",
     "primaryTense": "presente",
     "level": 3,
     "difficulty": 2,
     "theme": "vita_quotidiana",
-    "source": "authored",
     "target": {
       "slotId": 0,
       "verb": "potere",
@@ -4802,13 +4594,12 @@
     "band": 2
   },
   {
-    "id": "corpus-presente-149",
+    "id": "presente-0209",
     "textTemplate": "Io {slot_0} il pane ancora caldo.",
     "primaryTense": "presente",
     "level": 2,
     "difficulty": 1,
     "theme": "vita_quotidiana",
-    "source": "authored",
     "target": {
       "slotId": 0,
       "verb": "preferire",
@@ -4825,13 +4616,12 @@
     "band": 1
   },
   {
-    "id": "corpus-presente-150",
+    "id": "presente-0210",
     "textTemplate": "Mia madre {slot_0} viaggiare senza troppi bagagli.",
     "primaryTense": "presente",
     "level": 4,
     "difficulty": 1,
     "theme": "vita_quotidiana",
-    "source": "authored",
     "target": {
       "slotId": 0,
       "verb": "preferire",
@@ -4848,13 +4638,12 @@
     "band": 1
   },
   {
-    "id": "corpus-presente-151",
+    "id": "presente-0211",
     "textTemplate": "Noi {slot_0} un tavolo lontano dalla porta.",
     "primaryTense": "presente",
     "level": 5,
     "difficulty": 1,
     "theme": "vita_quotidiana",
-    "source": "authored",
     "target": {
       "slotId": 0,
       "verb": "preferire",
@@ -4871,13 +4660,12 @@
     "band": 2
   },
   {
-    "id": "corpus-presente-152",
+    "id": "presente-0212",
     "textTemplate": "I bambini {slot_0} disegnare sul pavimento.",
     "primaryTense": "presente",
     "level": 1,
     "difficulty": 1,
     "theme": "vita_quotidiana",
-    "source": "authored",
     "target": {
       "slotId": 0,
       "verb": "preferire",
@@ -4894,13 +4682,12 @@
     "band": 1
   },
   {
-    "id": "corpus-presente-153",
+    "id": "presente-0213",
     "textTemplate": "Tu {slot_0} l'ombrello anche se c'è il sole?",
     "primaryTense": "presente",
     "level": 3,
     "difficulty": 2,
     "theme": "vita_quotidiana",
-    "source": "authored",
     "target": {
       "slotId": 0,
       "verb": "prendere",
@@ -4917,13 +4704,12 @@
     "band": 2
   },
   {
-    "id": "corpus-presente-154",
+    "id": "presente-0214",
     "textTemplate": "La nonna {slot_0} l'autobus per andare al mercato.",
     "primaryTense": "presente",
     "level": 4,
     "difficulty": 2,
     "theme": "vita_quotidiana",
-    "source": "authored",
     "target": {
       "slotId": 0,
       "verb": "prendere",
@@ -4940,13 +4726,12 @@
     "band": 2
   },
   {
-    "id": "corpus-presente-155",
+    "id": "presente-0215",
     "textTemplate": "Noi {slot_0} appunti durante la visita guidata.",
     "primaryTense": "presente",
     "level": 5,
     "difficulty": 2,
     "theme": "vita_quotidiana",
-    "source": "authored",
     "target": {
       "slotId": 0,
       "verb": "prendere",
@@ -4963,13 +4748,12 @@
     "band": 2
   },
   {
-    "id": "corpus-presente-156",
+    "id": "presente-0216",
     "textTemplate": "Voi {slot_0} il caffè prima o dopo il dolce?",
     "primaryTense": "presente",
     "level": 2,
     "difficulty": 2,
     "theme": "vita_quotidiana",
-    "source": "authored",
     "target": {
       "slotId": 0,
       "verb": "prendere",
@@ -4986,13 +4770,12 @@
     "band": 2
   },
   {
-    "id": "corpus-presente-157",
+    "id": "presente-0217",
     "textTemplate": "Io {slot_0} lo zaino la sera prima.",
     "primaryTense": "presente",
     "level": 1,
     "difficulty": 1,
     "theme": "vita_quotidiana",
-    "source": "authored",
     "target": {
       "slotId": 0,
       "verb": "preparare",
@@ -5009,13 +4792,12 @@
     "band": 1
   },
   {
-    "id": "corpus-presente-158",
+    "id": "presente-0218",
     "textTemplate": "Tu {slot_0} la tavola mentre io taglio il pane?",
     "primaryTense": "presente",
     "level": 2,
     "difficulty": 1,
     "theme": "vita_quotidiana",
-    "source": "authored",
     "target": {
       "slotId": 0,
       "verb": "preparare",
@@ -5032,13 +4814,12 @@
     "band": 1
   },
   {
-    "id": "corpus-presente-159",
+    "id": "presente-0219",
     "textTemplate": "Noi {slot_0} biscotti da regalare ai vicini.",
     "primaryTense": "presente",
     "level": 3,
     "difficulty": 1,
     "theme": "vita_quotidiana",
-    "source": "authored",
     "target": {
       "slotId": 0,
       "verb": "preparare",
@@ -5055,13 +4836,12 @@
     "band": 1
   },
   {
-    "id": "corpus-presente-160",
+    "id": "presente-0220",
     "textTemplate": "Gli studenti {slot_0} una mostra sulla storia del quartiere.",
     "primaryTense": "presente",
     "level": 5,
     "difficulty": 1,
     "theme": "vita_quotidiana",
-    "source": "authored",
     "target": {
       "slotId": 0,
       "verb": "preparare",
@@ -5078,13 +4858,12 @@
     "band": 2
   },
   {
-    "id": "corpus-presente-161",
+    "id": "presente-0221",
     "textTemplate": "Io {slot_0} soltanto ciò che posso mantenere.",
     "primaryTense": "presente",
     "level": 2,
     "difficulty": 2,
     "theme": "vita_quotidiana",
-    "source": "authored",
     "target": {
       "slotId": 0,
       "verb": "promettere",
@@ -5101,13 +4880,12 @@
     "band": 2
   },
   {
-    "id": "corpus-presente-162",
+    "id": "presente-0222",
     "textTemplate": "Il cielo {slot_0} pioggia per tutta la giornata.",
     "primaryTense": "presente",
     "level": 3,
     "difficulty": 2,
     "theme": "vita_quotidiana",
-    "source": "authored",
     "target": {
       "slotId": 0,
       "verb": "promettere",
@@ -5124,13 +4902,12 @@
     "band": 2
   },
   {
-    "id": "corpus-presente-163",
+    "id": "presente-0223",
     "textTemplate": "Voi {slot_0} di scrivere appena arrivate?",
     "primaryTense": "presente",
     "level": 4,
     "difficulty": 2,
     "theme": "vita_quotidiana",
-    "source": "authored",
     "target": {
       "slotId": 0,
       "verb": "promettere",
@@ -5147,13 +4924,12 @@
     "band": 2
   },
   {
-    "id": "corpus-presente-164",
+    "id": "presente-0224",
     "textTemplate": "I candidati {slot_0} nuovi spazi verdi.",
     "primaryTense": "presente",
     "level": 5,
     "difficulty": 2,
     "theme": "vita_quotidiana",
-    "source": "authored",
     "target": {
       "slotId": 0,
       "verb": "promettere",
@@ -5170,13 +4946,12 @@
     "band": 2
   },
   {
-    "id": "corpus-presente-165",
+    "id": "presente-0225",
     "textTemplate": "Tu {slot_0} gli occhiali con un panno morbido?",
     "primaryTense": "presente",
     "level": 5,
     "difficulty": 1,
     "theme": "vita_quotidiana",
-    "source": "authored",
     "target": {
       "slotId": 0,
       "verb": "pulire",
@@ -5193,13 +4968,12 @@
     "band": 2
   },
   {
-    "id": "corpus-presente-166",
+    "id": "presente-0226",
     "textTemplate": "Il cuoco {slot_0} il banco dopo ogni preparazione.",
     "primaryTense": "presente",
     "level": 1,
     "difficulty": 1,
     "theme": "vita_quotidiana",
-    "source": "authored",
     "target": {
       "slotId": 0,
       "verb": "pulire",
@@ -5216,13 +4990,12 @@
     "band": 1
   },
   {
-    "id": "corpus-presente-167",
+    "id": "presente-0227",
     "textTemplate": "Noi {slot_0} la spiaggia prima dell'arrivo dei bagnanti.",
     "primaryTense": "presente",
     "level": 2,
     "difficulty": 1,
     "theme": "vita_quotidiana",
-    "source": "authored",
     "target": {
       "slotId": 0,
       "verb": "pulire",
@@ -5239,13 +5012,12 @@
     "band": 1
   },
   {
-    "id": "corpus-presente-168",
+    "id": "presente-0228",
     "textTemplate": "I volontari {slot_0} i sentieri dopo il temporale.",
     "primaryTense": "presente",
     "level": 3,
     "difficulty": 1,
     "theme": "vita_quotidiana",
-    "source": "authored",
     "target": {
       "slotId": 0,
       "verb": "pulire",
@@ -5262,13 +5034,12 @@
     "band": 1
   },
   {
-    "id": "corpus-presente-169",
+    "id": "presente-0229",
     "textTemplate": "Io {slot_0} la sveglia dieci minuti prima del necessario.",
     "primaryTense": "presente",
     "level": 4,
     "difficulty": 1,
     "theme": "vita_quotidiana",
-    "source": "authored",
     "target": {
       "slotId": 0,
       "verb": "puntare",
@@ -5285,13 +5056,12 @@
     "band": 1
   },
   {
-    "id": "corpus-presente-170",
-    "textTemplate": "Tu {slot_0} il dito sulla strada giusta nella mappa.",
+    "id": "presente-0230",
+    "textTemplate": "Tu {slot_0} il dito sulla mappa per indicare la strada.",
     "primaryTense": "presente",
     "level": 1,
     "difficulty": 1,
     "theme": "vita_quotidiana",
-    "source": "authored",
     "target": {
       "slotId": 0,
       "verb": "puntare",
@@ -5308,13 +5078,12 @@
     "band": 1
   },
   {
-    "id": "corpus-presente-171",
+    "id": "presente-0231",
     "textTemplate": "Noi {slot_0} sulla qualità degli ingredienti.",
     "primaryTense": "presente",
     "level": 2,
     "difficulty": 1,
     "theme": "vita_quotidiana",
-    "source": "authored",
     "target": {
       "slotId": 0,
       "verb": "puntare",
@@ -5331,13 +5100,12 @@
     "band": 1
   },
   {
-    "id": "corpus-presente-172",
+    "id": "presente-0232",
     "textTemplate": "Voi {slot_0} il telescopio verso la luna?",
     "primaryTense": "presente",
     "level": 3,
     "difficulty": 1,
     "theme": "vita_quotidiana",
-    "source": "authored",
     "target": {
       "slotId": 0,
       "verb": "puntare",
@@ -5354,13 +5122,12 @@
     "band": 1
   },
   {
-    "id": "corpus-presente-173",
+    "id": "presente-0233",
     "textTemplate": "Io {slot_0} troppe notifiche sul telefono.",
     "primaryTense": "presente",
     "level": 4,
     "difficulty": 1,
     "theme": "vita_quotidiana",
-    "source": "authored",
     "target": {
       "slotId": 0,
       "verb": "ricevere",
@@ -5377,13 +5144,12 @@
     "band": 1
   },
   {
-    "id": "corpus-presente-174",
+    "id": "presente-0234",
     "textTemplate": "Il negozio {slot_0} la merce il martedì.",
     "primaryTense": "presente",
     "level": 5,
     "difficulty": 1,
     "theme": "vita_quotidiana",
-    "source": "authored",
     "target": {
       "slotId": 0,
       "verb": "ricevere",
@@ -5400,13 +5166,12 @@
     "band": 2
   },
   {
-    "id": "corpus-presente-175",
+    "id": "presente-0235",
     "textTemplate": "Noi {slot_0} gli ospiti all'ingresso del cortile.",
     "primaryTense": "presente",
     "level": 1,
     "difficulty": 1,
     "theme": "vita_quotidiana",
-    "source": "authored",
     "target": {
       "slotId": 0,
       "verb": "ricevere",
@@ -5423,13 +5188,12 @@
     "band": 1
   },
   {
-    "id": "corpus-presente-176",
+    "id": "presente-0236",
     "textTemplate": "Gli studenti {slot_0} un messaggio quando il corso è completo.",
     "primaryTense": "presente",
     "level": 2,
     "difficulty": 1,
     "theme": "vita_quotidiana",
-    "source": "authored",
     "target": {
       "slotId": 0,
       "verb": "ricevere",
@@ -5446,13 +5210,12 @@
     "band": 1
   },
   {
-    "id": "corpus-presente-177",
+    "id": "presente-0237",
     "textTemplate": "Tu {slot_0} i cruciverba senza cercare le risposte?",
     "primaryTense": "presente",
     "level": 5,
     "difficulty": 2,
     "theme": "vita_quotidiana",
-    "source": "authored",
     "target": {
       "slotId": 0,
       "verb": "risolvere",
@@ -5469,13 +5232,12 @@
     "band": 2
   },
   {
-    "id": "corpus-presente-178",
+    "id": "presente-0238",
     "textTemplate": "Questa piccola modifica {slot_0} il problema del rumore.",
     "primaryTense": "presente",
     "level": 2,
     "difficulty": 2,
     "theme": "vita_quotidiana",
-    "source": "authored",
     "target": {
       "slotId": 0,
       "verb": "risolvere",
@@ -5492,13 +5254,12 @@
     "band": 2
   },
   {
-    "id": "corpus-presente-179",
+    "id": "presente-0239",
     "textTemplate": "Voi {slot_0} i dubbi discutendo insieme.",
     "primaryTense": "presente",
     "level": 3,
     "difficulty": 2,
     "theme": "vita_quotidiana",
-    "source": "authored",
     "target": {
       "slotId": 0,
       "verb": "risolvere",
@@ -5515,13 +5276,12 @@
     "band": 2
   },
   {
-    "id": "corpus-presente-180",
+    "id": "presente-0240",
     "textTemplate": "I tecnici {slot_0} molti problemi già al telefono.",
     "primaryTense": "presente",
     "level": 3,
     "difficulty": 2,
     "theme": "vita_quotidiana",
-    "source": "authored",
     "target": {
       "slotId": 0,
       "verb": "risolvere",
@@ -5538,13 +5298,12 @@
     "band": 2
   },
   {
-    "id": "corpus-presente-181",
+    "id": "presente-0241",
     "textTemplate": "Io {slot_0} alle email dopo aver fatto colazione.",
     "primaryTense": "presente",
     "level": 4,
     "difficulty": 2,
     "theme": "vita_quotidiana",
-    "source": "authored",
     "target": {
       "slotId": 0,
       "verb": "rispondere",
@@ -5561,13 +5320,12 @@
     "band": 2
   },
   {
-    "id": "corpus-presente-182",
+    "id": "presente-0242",
     "textTemplate": "Tu {slot_0} anche ai numeri che non conosci?",
     "primaryTense": "presente",
     "level": 5,
     "difficulty": 2,
     "theme": "vita_quotidiana",
-    "source": "authored",
     "target": {
       "slotId": 0,
       "verb": "rispondere",
@@ -5584,13 +5342,12 @@
     "band": 2
   },
   {
-    "id": "corpus-presente-183",
+    "id": "presente-0243",
     "textTemplate": "Noi {slot_0} a tutte le domande alla fine dell'incontro.",
     "primaryTense": "presente",
     "level": 2,
     "difficulty": 2,
     "theme": "vita_quotidiana",
-    "source": "authored",
     "target": {
       "slotId": 0,
       "verb": "rispondere",
@@ -5607,13 +5364,12 @@
     "band": 2
   },
   {
-    "id": "corpus-presente-184",
+    "id": "presente-0244",
     "textTemplate": "Le persone {slot_0} meglio a una richiesta gentile.",
     "primaryTense": "presente",
     "level": 3,
     "difficulty": 2,
     "theme": "vita_quotidiana",
-    "source": "authored",
     "target": {
       "slotId": 0,
       "verb": "rispondere",
@@ -5630,13 +5386,12 @@
     "band": 2
   },
   {
-    "id": "corpus-presente-185",
+    "id": "presente-0245",
     "textTemplate": "Io {slot_0} dove si trova la fermata del tram.",
     "primaryTense": "presente",
     "level": 4,
     "difficulty": 2,
     "theme": "vita_quotidiana",
-    "source": "authored",
     "target": {
       "slotId": 0,
       "verb": "sapere",
@@ -5653,13 +5408,12 @@
     "band": 2
   },
   {
-    "id": "corpus-presente-186",
+    "id": "presente-0246",
     "textTemplate": "Il portiere {slot_0} a chi appartiene questa bicicletta.",
     "primaryTense": "presente",
     "level": 5,
     "difficulty": 2,
     "theme": "vita_quotidiana",
-    "source": "authored",
     "target": {
       "slotId": 0,
       "verb": "sapere",
@@ -5676,13 +5430,12 @@
     "band": 2
   },
   {
-    "id": "corpus-presente-187",
+    "id": "presente-0247",
     "textTemplate": "Noi {slot_0} come tornare senza usare il navigatore.",
     "primaryTense": "presente",
     "level": 2,
     "difficulty": 2,
     "theme": "vita_quotidiana",
-    "source": "authored",
     "target": {
       "slotId": 0,
       "verb": "sapere",
@@ -5699,13 +5452,12 @@
     "band": 2
   },
   {
-    "id": "corpus-presente-188",
+    "id": "presente-0248",
     "textTemplate": "Voi {slot_0} cucire un bottone?",
     "primaryTense": "presente",
     "level": 3,
     "difficulty": 2,
     "theme": "vita_quotidiana",
-    "source": "authored",
     "target": {
       "slotId": 0,
       "verb": "sapere",
@@ -5722,13 +5474,12 @@
     "band": 2
   },
   {
-    "id": "corpus-presente-189",
+    "id": "presente-0249",
     "textTemplate": "Tu {slot_0} ancora cartoline quando sei in viaggio?",
     "primaryTense": "presente",
     "level": 4,
     "difficulty": 2,
     "theme": "vita_quotidiana",
-    "source": "authored",
     "target": {
       "slotId": 0,
       "verb": "scrivere",
@@ -5745,13 +5496,12 @@
     "band": 2
   },
   {
-    "id": "corpus-presente-190",
+    "id": "presente-0250",
     "textTemplate": "Mio padre {slot_0} la lista della spesa su una busta.",
     "primaryTense": "presente",
     "level": 4,
     "difficulty": 2,
     "theme": "vita_quotidiana",
-    "source": "authored",
     "target": {
       "slotId": 0,
       "verb": "scrivere",
@@ -5768,13 +5518,12 @@
     "band": 2
   },
   {
-    "id": "corpus-presente-191",
+    "id": "presente-0251",
     "textTemplate": "Noi {slot_0} i nomi sulle scatole prima del trasloco.",
     "primaryTense": "presente",
     "level": 5,
     "difficulty": 2,
     "theme": "vita_quotidiana",
-    "source": "authored",
     "target": {
       "slotId": 0,
       "verb": "scrivere",
@@ -5791,13 +5540,12 @@
     "band": 2
   },
   {
-    "id": "corpus-presente-192",
+    "id": "presente-0252",
     "textTemplate": "I bambini {slot_0} una lettera alla loro maestra.",
     "primaryTense": "presente",
     "level": 2,
     "difficulty": 2,
     "theme": "vita_quotidiana",
-    "source": "authored",
     "target": {
       "slotId": 0,
       "verb": "scrivere",
@@ -5814,13 +5562,12 @@
     "band": 2
   },
   {
-    "id": "corpus-presente-193",
+    "id": "presente-0253",
     "textTemplate": "Io {slot_0} il pacco dall'ufficio postale vicino a casa.",
     "primaryTense": "presente",
     "level": 1,
     "difficulty": 1,
     "theme": "vita_quotidiana",
-    "source": "authored",
     "target": {
       "slotId": 0,
       "verb": "spedire",
@@ -5837,13 +5584,12 @@
     "band": 1
   },
   {
-    "id": "corpus-presente-194",
+    "id": "presente-0254",
     "textTemplate": "Tu {slot_0} i libri in una scatola resistente?",
     "primaryTense": "presente",
     "level": 2,
     "difficulty": 1,
     "theme": "vita_quotidiana",
-    "source": "authored",
     "target": {
       "slotId": 0,
       "verb": "spedire",
@@ -5860,13 +5606,12 @@
     "band": 1
   },
   {
-    "id": "corpus-presente-195",
+    "id": "presente-0255",
     "textTemplate": "Voi {slot_0} gli ordini anche all'estero?",
     "primaryTense": "presente",
     "level": 3,
     "difficulty": 1,
     "theme": "vita_quotidiana",
-    "source": "authored",
     "target": {
       "slotId": 0,
       "verb": "spedire",
@@ -5883,13 +5628,12 @@
     "band": 1
   },
   {
-    "id": "corpus-presente-196",
+    "id": "presente-0256",
     "textTemplate": "I produttori {slot_0} la frutta direttamente ai clienti.",
     "primaryTense": "presente",
     "level": 4,
     "difficulty": 1,
     "theme": "vita_quotidiana",
-    "source": "authored",
     "target": {
       "slotId": 0,
       "verb": "spedire",
@@ -5906,13 +5650,12 @@
     "band": 1
   },
   {
-    "id": "corpus-presente-197",
+    "id": "presente-0257",
     "textTemplate": "Tu {slot_0} il telefono quando entri in teatro?",
     "primaryTense": "presente",
     "level": 3,
     "difficulty": 2,
     "theme": "vita_quotidiana",
-    "source": "authored",
     "target": {
       "slotId": 0,
       "verb": "spegnere",
@@ -5929,13 +5672,12 @@
     "band": 2
   },
   {
-    "id": "corpus-presente-198",
+    "id": "presente-0258",
     "textTemplate": "Il custode {slot_0} le luci del museo.",
     "primaryTense": "presente",
     "level": 4,
     "difficulty": 2,
     "theme": "vita_quotidiana",
-    "source": "authored",
     "target": {
       "slotId": 0,
       "verb": "spegnere",
@@ -5952,13 +5694,12 @@
     "band": 2
   },
   {
-    "id": "corpus-presente-199",
+    "id": "presente-0259",
     "textTemplate": "Noi {slot_0} il motore mentre aspettiamo.",
     "primaryTense": "presente",
     "level": 5,
     "difficulty": 2,
     "theme": "vita_quotidiana",
-    "source": "authored",
     "target": {
       "slotId": 0,
       "verb": "spegnere",
@@ -5975,13 +5716,12 @@
     "band": 2
   },
   {
-    "id": "corpus-presente-200",
+    "id": "presente-0260",
     "textTemplate": "I vigili del fuoco {slot_0} l'incendio nel bosco.",
     "primaryTense": "presente",
     "level": 4,
     "difficulty": 2,
     "theme": "vita_quotidiana",
-    "source": "authored",
     "target": {
       "slotId": 0,
       "verb": "spegnere",
@@ -5998,13 +5738,12 @@
     "band": 2
   },
   {
-    "id": "corpus-presente-201",
+    "id": "presente-0261",
     "textTemplate": "Io {slot_0} bene qui, vicino alla finestra.",
     "primaryTense": "presente",
     "level": 5,
     "difficulty": 2,
     "theme": "vita_quotidiana",
-    "source": "authored",
     "target": {
       "slotId": 0,
       "verb": "stare",
@@ -6021,13 +5760,12 @@
     "band": 2
   },
   {
-    "id": "corpus-presente-202",
+    "id": "presente-0262",
     "textTemplate": "Tu {slot_0} attento quando attraversi questa strada?",
     "primaryTense": "presente",
     "level": 2,
     "difficulty": 2,
     "theme": "vita_quotidiana",
-    "source": "authored",
     "target": {
       "slotId": 0,
       "verb": "stare",
@@ -6044,13 +5782,12 @@
     "band": 2
   },
   {
-    "id": "corpus-presente-203",
+    "id": "presente-0263",
     "textTemplate": "Noi {slot_0} in silenzio per ascoltare gli uccelli.",
     "primaryTense": "presente",
     "level": 3,
     "difficulty": 2,
     "theme": "vita_quotidiana",
-    "source": "authored",
     "target": {
       "slotId": 0,
       "verb": "stare",
@@ -6067,13 +5804,12 @@
     "band": 2
   },
   {
-    "id": "corpus-presente-204",
+    "id": "presente-0264",
     "textTemplate": "Voi {slot_0} ancora nello stesso appartamento?",
     "primaryTense": "presente",
     "level": 4,
     "difficulty": 2,
     "theme": "vita_quotidiana",
-    "source": "authored",
     "target": {
       "slotId": 0,
       "verb": "stare",
@@ -6090,13 +5826,12 @@
     "band": 2
   },
   {
-    "id": "corpus-presente-205",
+    "id": "presente-0265",
     "textTemplate": "Io {slot_0} il flauto da quando ero bambino.",
     "primaryTense": "presente",
     "level": 5,
     "difficulty": 1,
     "theme": "vita_quotidiana",
-    "source": "authored",
     "target": {
       "slotId": 0,
       "verb": "suonare",
@@ -6113,13 +5848,12 @@
     "band": 2
   },
   {
-    "id": "corpus-presente-206",
+    "id": "presente-0266",
     "textTemplate": "Il campanello {slot_0} ogni volta che entra un cliente.",
     "primaryTense": "presente",
     "level": 1,
     "difficulty": 1,
     "theme": "vita_quotidiana",
-    "source": "authored",
     "target": {
       "slotId": 0,
       "verb": "suonare",
@@ -6136,13 +5870,12 @@
     "band": 1
   },
   {
-    "id": "corpus-presente-207",
+    "id": "presente-0267",
     "textTemplate": "Voi {slot_0} insieme nella banda del paese?",
     "primaryTense": "presente",
     "level": 2,
     "difficulty": 1,
     "theme": "vita_quotidiana",
-    "source": "authored",
     "target": {
       "slotId": 0,
       "verb": "suonare",
@@ -6159,13 +5892,12 @@
     "band": 1
   },
   {
-    "id": "corpus-presente-208",
+    "id": "presente-0268",
     "textTemplate": "Le campane {slot_0} a mezzogiorno.",
     "primaryTense": "presente",
     "level": 3,
     "difficulty": 1,
     "theme": "vita_quotidiana",
-    "source": "authored",
     "target": {
       "slotId": 0,
       "verb": "suonare",
@@ -6182,13 +5914,12 @@
     "band": 1
   },
   {
-    "id": "corpus-presente-209",
+    "id": "presente-0269",
     "textTemplate": "Tu {slot_0} la paura dell'acqua poco alla volta.",
     "primaryTense": "presente",
     "level": 4,
     "difficulty": 1,
     "theme": "vita_quotidiana",
-    "source": "authored",
     "target": {
       "slotId": 0,
       "verb": "superare",
@@ -6205,13 +5936,12 @@
     "band": 1
   },
   {
-    "id": "corpus-presente-210",
+    "id": "presente-0270",
     "textTemplate": "Questo armadio {slot_0} i due metri di altezza.",
     "primaryTense": "presente",
     "level": 1,
     "difficulty": 1,
     "theme": "vita_quotidiana",
-    "source": "authored",
     "target": {
       "slotId": 0,
       "verb": "superare",
@@ -6228,13 +5958,12 @@
     "band": 1
   },
   {
-    "id": "corpus-presente-211",
+    "id": "presente-0271",
     "textTemplate": "Noi {slot_0} il ponte e poi giriamo a destra.",
     "primaryTense": "presente",
     "level": 2,
     "difficulty": 1,
     "theme": "vita_quotidiana",
-    "source": "authored",
     "target": {
       "slotId": 0,
       "verb": "superare",
@@ -6251,13 +5980,12 @@
     "band": 1
   },
   {
-    "id": "corpus-presente-212",
+    "id": "presente-0272",
     "textTemplate": "Le atlete {slot_0} l'ultimo ostacolo senza rallentare.",
     "primaryTense": "presente",
     "level": 3,
     "difficulty": 1,
     "theme": "vita_quotidiana",
-    "source": "authored",
     "target": {
       "slotId": 0,
       "verb": "superare",
@@ -6274,13 +6002,12 @@
     "band": 1
   },
   {
-    "id": "corpus-presente-213",
+    "id": "presente-0273",
     "textTemplate": "Io {slot_0} a casa per dare da mangiare al gatto.",
     "primaryTense": "presente",
     "level": 4,
     "difficulty": 1,
     "theme": "vita_quotidiana",
-    "source": "authored",
     "target": {
       "slotId": 0,
       "verb": "tornare",
@@ -6297,13 +6024,12 @@
     "band": 1
   },
   {
-    "id": "corpus-presente-214",
+    "id": "presente-0274",
     "textTemplate": "Tu {slot_0} mai nei posti dove vivevi da piccolo?",
     "primaryTense": "presente",
     "level": 5,
     "difficulty": 1,
     "theme": "vita_quotidiana",
-    "source": "authored",
     "target": {
       "slotId": 0,
       "verb": "tornare",
@@ -6320,13 +6046,12 @@
     "band": 2
   },
   {
-    "id": "corpus-presente-215",
-    "textTemplate": "Noi {slot_0} al mercato quando finisce la folla.",
+    "id": "presente-0275",
+    "textTemplate": "Noi {slot_0} al mercato quando c'è meno gente.",
     "primaryTense": "presente",
     "level": 1,
     "difficulty": 1,
     "theme": "vita_quotidiana",
-    "source": "authored",
     "target": {
       "slotId": 0,
       "verb": "tornare",
@@ -6343,13 +6068,12 @@
     "band": 1
   },
   {
-    "id": "corpus-presente-216",
+    "id": "presente-0276",
     "textTemplate": "Voi {slot_0} in treno oppure vi accompagna qualcuno?",
     "primaryTense": "presente",
     "level": 2,
     "difficulty": 1,
     "theme": "vita_quotidiana",
-    "source": "authored",
     "target": {
       "slotId": 0,
       "verb": "tornare",
@@ -6366,13 +6090,12 @@
     "band": 1
   },
   {
-    "id": "corpus-presente-217",
+    "id": "presente-0277",
     "textTemplate": "Io {slot_0} di casa con qualche minuto di anticipo.",
     "primaryTense": "presente",
     "level": 4,
     "difficulty": 2,
     "theme": "vita_quotidiana",
-    "source": "authored",
     "target": {
       "slotId": 0,
       "verb": "uscire",
@@ -6389,13 +6112,12 @@
     "band": 2
   },
   {
-    "id": "corpus-presente-218",
+    "id": "presente-0278",
     "textTemplate": "Il giornale locale {slot_0} una volta alla settimana.",
     "primaryTense": "presente",
     "level": 5,
     "difficulty": 2,
     "theme": "vita_quotidiana",
-    "source": "authored",
     "target": {
       "slotId": 0,
       "verb": "uscire",
@@ -6412,13 +6134,12 @@
     "band": 2
   },
   {
-    "id": "corpus-presente-219",
+    "id": "presente-0279",
     "textTemplate": "Noi {slot_0} dalla porta sul retro.",
     "primaryTense": "presente",
     "level": 2,
     "difficulty": 2,
     "theme": "vita_quotidiana",
-    "source": "authored",
     "target": {
       "slotId": 0,
       "verb": "uscire",
@@ -6435,13 +6156,12 @@
     "band": 2
   },
   {
-    "id": "corpus-presente-220",
+    "id": "presente-0280",
     "textTemplate": "Gli spettatori {slot_0} dalla sala in silenzio.",
     "primaryTense": "presente",
     "level": 2,
     "difficulty": 2,
     "theme": "vita_quotidiana",
-    "source": "authored",
     "target": {
       "slotId": 0,
       "verb": "uscire",
@@ -6458,13 +6178,12 @@
     "band": 2
   },
   {
-    "id": "corpus-presente-221",
+    "id": "presente-0281",
     "textTemplate": "Tu {slot_0} il mare dalla tua finestra?",
     "primaryTense": "presente",
     "level": 3,
     "difficulty": 2,
     "theme": "vita_quotidiana",
-    "source": "authored",
     "target": {
       "slotId": 0,
       "verb": "vedere",
@@ -6481,13 +6200,12 @@
     "band": 2
   },
   {
-    "id": "corpus-presente-222",
+    "id": "presente-0282",
     "textTemplate": "La bambina {slot_0} una farfalla sul fiore.",
     "primaryTense": "presente",
     "level": 4,
     "difficulty": 2,
     "theme": "vita_quotidiana",
-    "source": "authored",
     "target": {
       "slotId": 0,
       "verb": "vedere",
@@ -6504,13 +6222,12 @@
     "band": 2
   },
   {
-    "id": "corpus-presente-223",
+    "id": "presente-0283",
     "textTemplate": "Noi {slot_0} i nostri amici soprattutto nel fine settimana.",
     "primaryTense": "presente",
     "level": 5,
     "difficulty": 2,
     "theme": "vita_quotidiana",
-    "source": "authored",
     "target": {
       "slotId": 0,
       "verb": "vedere",
@@ -6527,13 +6244,12 @@
     "band": 2
   },
   {
-    "id": "corpus-presente-224",
+    "id": "presente-0284",
     "textTemplate": "Voi {slot_0} bene anche senza occhiali?",
     "primaryTense": "presente",
     "level": 2,
     "difficulty": 2,
     "theme": "vita_quotidiana",
-    "source": "authored",
     "target": {
       "slotId": 0,
       "verb": "vedere",
@@ -6550,13 +6266,12 @@
     "band": 2
   },
   {
-    "id": "corpus-presente-225",
+    "id": "presente-0285",
     "textTemplate": "Io {slot_0} volentieri se c'è posto anche per me.",
     "primaryTense": "presente",
     "level": 3,
     "difficulty": 2,
     "theme": "vita_quotidiana",
-    "source": "authored",
     "target": {
       "slotId": 0,
       "verb": "venire",
@@ -6573,13 +6288,12 @@
     "band": 2
   },
   {
-    "id": "corpus-presente-226",
+    "id": "presente-0286",
     "textTemplate": "Tu {slot_0} da noi dopo la lezione?",
     "primaryTense": "presente",
     "level": 4,
     "difficulty": 2,
     "theme": "vita_quotidiana",
-    "source": "authored",
     "target": {
       "slotId": 0,
       "verb": "venire",
@@ -6596,13 +6310,12 @@
     "band": 2
   },
   {
-    "id": "corpus-presente-227",
+    "id": "presente-0287",
     "textTemplate": "Voi {slot_0} al corso per imparare a dipingere?",
     "primaryTense": "presente",
     "level": 5,
     "difficulty": 2,
     "theme": "vita_quotidiana",
-    "source": "authored",
     "target": {
       "slotId": 0,
       "verb": "venire",
@@ -6619,13 +6332,12 @@
     "band": 2
   },
   {
-    "id": "corpus-presente-228",
+    "id": "presente-0288",
     "textTemplate": "Le verdure di questo negozio {slot_0} da aziende vicine.",
     "primaryTense": "presente",
     "level": 2,
     "difficulty": 2,
     "theme": "vita_quotidiana",
-    "source": "authored",
     "target": {
       "slotId": 0,
       "verb": "venire",
@@ -6642,13 +6354,12 @@
     "band": 2
   },
   {
-    "id": "corpus-presente-229",
+    "id": "presente-0289",
     "textTemplate": "Io {slot_0} leggero, con uno zaino solo.",
     "primaryTense": "presente",
     "level": 1,
     "difficulty": 1,
     "theme": "vita_quotidiana",
-    "source": "authored",
     "target": {
       "slotId": 0,
       "verb": "viaggiare",
@@ -6665,13 +6376,12 @@
     "band": 1
   },
   {
-    "id": "corpus-presente-230",
+    "id": "presente-0290",
     "textTemplate": "Mia cugina {slot_0} spesso per lavoro.",
     "primaryTense": "presente",
     "level": 3,
     "difficulty": 1,
     "theme": "vita_quotidiana",
-    "source": "authored",
     "target": {
       "slotId": 0,
       "verb": "viaggiare",
@@ -6688,13 +6398,12 @@
     "band": 1
   },
   {
-    "id": "corpus-presente-231",
+    "id": "presente-0291",
     "textTemplate": "Noi {slot_0} di notte per evitare il traffico.",
     "primaryTense": "presente",
     "level": 4,
     "difficulty": 1,
     "theme": "vita_quotidiana",
-    "source": "authored",
     "target": {
       "slotId": 0,
       "verb": "viaggiare",
@@ -6711,13 +6420,12 @@
     "band": 1
   },
   {
-    "id": "corpus-presente-232",
+    "id": "presente-0292",
     "textTemplate": "I musicisti {slot_0} insieme su un piccolo autobus.",
     "primaryTense": "presente",
     "level": 5,
     "difficulty": 1,
     "theme": "vita_quotidiana",
-    "source": "authored",
     "target": {
       "slotId": 0,
       "verb": "viaggiare",
@@ -6734,13 +6442,12 @@
     "band": 2
   },
   {
-    "id": "corpus-presente-233",
+    "id": "presente-0293",
     "textTemplate": "Tu {slot_0} i musei da solo o con una guida?",
     "primaryTense": "presente",
     "level": 1,
     "difficulty": 1,
     "theme": "vita_quotidiana",
-    "source": "authored",
     "target": {
       "slotId": 0,
       "verb": "visitare",
@@ -6757,13 +6464,12 @@
     "band": 1
   },
   {
-    "id": "corpus-presente-234",
+    "id": "presente-0294",
     "textTemplate": "Il medico {slot_0} i pazienti anche a domicilio.",
     "primaryTense": "presente",
     "level": 2,
     "difficulty": 1,
     "theme": "vita_quotidiana",
-    "source": "authored",
     "target": {
       "slotId": 0,
       "verb": "visitare",
@@ -6780,13 +6486,12 @@
     "band": 1
   },
   {
-    "id": "corpus-presente-235",
+    "id": "presente-0295",
     "textTemplate": "Voi {slot_0} i vostri parenti durante le feste?",
     "primaryTense": "presente",
     "level": 3,
     "difficulty": 1,
     "theme": "vita_quotidiana",
-    "source": "authored",
     "target": {
       "slotId": 0,
       "verb": "visitare",
@@ -6803,13 +6508,12 @@
     "band": 1
   },
   {
-    "id": "corpus-presente-236",
+    "id": "presente-0296",
     "textTemplate": "Le scolaresche {slot_0} il castello in primavera.",
     "primaryTense": "presente",
     "level": 4,
     "difficulty": 1,
     "theme": "vita_quotidiana",
-    "source": "authored",
     "target": {
       "slotId": 0,
       "verb": "visitare",
@@ -6826,13 +6530,12 @@
     "band": 1
   },
   {
-    "id": "corpus-presente-237",
+    "id": "presente-0297",
     "textTemplate": "Io {slot_0} imparare a fare il pane in casa.",
     "primaryTense": "presente",
     "level": 2,
     "difficulty": 2,
     "theme": "vita_quotidiana",
-    "source": "authored",
     "target": {
       "slotId": 0,
       "verb": "volere",
@@ -6849,13 +6552,12 @@
     "band": 2
   },
   {
-    "id": "corpus-presente-238",
+    "id": "presente-0298",
     "textTemplate": "Tu {slot_0} ancora un po' di minestra?",
     "primaryTense": "presente",
     "level": 3,
     "difficulty": 2,
     "theme": "vita_quotidiana",
-    "source": "authored",
     "target": {
       "slotId": 0,
       "verb": "volere",
@@ -6872,13 +6574,12 @@
     "band": 2
   },
   {
-    "id": "corpus-presente-239",
+    "id": "presente-0299",
     "textTemplate": "Noi {slot_0} un posto dove parlare con calma.",
     "primaryTense": "presente",
     "level": 4,
     "difficulty": 2,
     "theme": "vita_quotidiana",
-    "source": "authored",
     "target": {
       "slotId": 0,
       "verb": "volere",
@@ -6895,13 +6596,12 @@
     "band": 2
   },
   {
-    "id": "corpus-presente-240",
+    "id": "presente-0300",
     "textTemplate": "I bambini {slot_0} restare al parco fino a sera.",
     "primaryTense": "presente",
     "level": 4,
     "difficulty": 2,
     "theme": "vita_quotidiana",
-    "source": "authored",
     "target": {
       "slotId": 0,
       "verb": "volere",

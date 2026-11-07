@@ -82,8 +82,15 @@ the initial three bands. Queue order is retained where still eligible, with new 
 
 Old best-ever mastery and aggregate question statistics cannot establish a latest tense-aware
 answer. The new matrix therefore starts without inferred evidence after migration. Version-3
-results and unlocks round-trip without a reset. The local development panel can set unlocked
+results and unlocks round-trip without a reset, except for the explicitly retired pre-release
+dataset described below. The local development panel can set unlocked
 band count, prioritize a tense, select a question, inspect band readiness, and restore a backup.
+
+The linguistic review replaced source-based exercise IDs with permanent tense-number IDs.
+As agreed for a fresh v1 start, loading the pre-release `corpus-1000-v1` dataset starts new
+learning state once, with the initial three bands. Profile, name, theme, and other preferences
+are untouched. The reviewed dataset revision is `2026-11-reviewed`; ordinary future revision
+changes still merge questions and preserve evidence and unlocks. Storage format remains v3.
 
 ## Simulation results
 

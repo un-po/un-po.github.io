@@ -9,7 +9,7 @@ import {
   type Verb,
 } from './practice.ts';
 
-export const contentRevision = 'corpus-1000-v1';
+export const contentRevision = '2026-11-reviewed';
 export const tenseMinimumLevel: Record<Tense, number> = {
   presente: 1,
   passato_prossimo: 6,
@@ -24,7 +24,6 @@ export interface SentenceRecord {
   level: number;
   difficulty: number;
   theme: string;
-  source: string;
   target: { slotId: number; verb: string; person: Person; acceptedAnswers: AcceptedAnswer[] };
 }
 
@@ -121,7 +120,7 @@ export function loadContent(
           Number(raw.difficulty) <= 5,
         `${raw.id}: difficulty`,
       );
-      requireValue(text(raw.theme) && text(raw.source), `${raw.id}: provenance and theme`);
+      requireValue(text(raw.theme), `${raw.id}: theme`);
       requireValue(raw.band === 1 || raw.band === 2, `${raw.id}: band`);
       const target = raw.target;
       requireValue(

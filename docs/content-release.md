@@ -8,10 +8,15 @@ per-tense regularity metadata.
 
 The 200 supplied unique examples were edited; 795 further examples and five mixed-tense pilots
 were authored. Imported originals, provenance hashes, and initial findings are preserved under
-`content-import/source/`. The content has received the coding assistant's editorial pass and
-automated checks. It has not received an independent fluent-speaker review. Use
+`content-import/source/`. The content has received the coding assistant's editorial pass,
+focused linguistic review, and automated checks. The focused review corrected 21 templates
+for contextual agreement, tone, and naturalness; see [the review record](content-review.md).
+It has not received an independent fluent-speaker review. Use
 `npm run content:review` to export the four sentence sheets and verb tables to
-`.local/content-review/` for that focused review. JSON remains the source of truth.
+`.local/content-review/` for further review. JSON remains the source of truth. Production
+records use neutral tense-number IDs and omit authoring-source labels. Historical imports
+retain their original provenance. New IDs are permanent: append new IDs rather than
+renumbering existing exercises when inserting, removing, or reordering content.
 
 The learner-facing progression now uses eight explicit bands, coverage/accuracy unlocks,
 and a rolling four-band window, starting with three. The summary shows accuracy by tense,

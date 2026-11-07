@@ -138,7 +138,9 @@ export function loadLearningState(
         results: {},
       };
     }
-    if (validLearningState(stored)) {
+    // Pre-release exercise IDs were replaced during the linguistic review. Start
+    // that dataset fresh once; later revisions still merge through synchronization.
+    if (validLearningState(stored) && stored.contentRevision !== 'corpus-1000-v1') {
       synchronizeLearningState(stored, exercises, random);
       saveLearningState(stored);
       return stored;
