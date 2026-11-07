@@ -26,7 +26,12 @@ import {
   type OnboardingMessage,
   type PracticeMessage,
 } from './lib/practiceContext.ts';
-import { loadTableVisibility, saveTableVisibility } from './lib/preferences.ts';
+import {
+  loadTableVisibility,
+  saveTableVisibility,
+  loadTenseVisibility,
+  saveTenseVisibility,
+} from './lib/preferences.ts';
 import { trackEvent } from './lib/analytics.ts';
 
 interface SessionItem {
@@ -43,6 +48,7 @@ const initialMessages = initialPracticeMessages(profile.seenMessages, !!profile.
 const learning = ref(loadLearningState(exercises));
 const attempts = ref<Attempt[]>([]);
 const showConjugation = ref(loadTableVisibility());
+const showTense = ref(loadTenseVisibility());
 const firstExercise = nextLearningExercise(learning.value, exercises);
 const sessionItems = ref<SessionItem[]>([
   {
@@ -385,6 +391,12 @@ function setConjugationVisibility(value: boolean) {
   saveTableVisibility(value);
 }
 
+function setTenseVisibility(value: boolean) {
+  showTense.value = value;
+  saveTenseVisibility(value);
+  if (!dialogOpen.value && !outcome.value) focusAnswer();
+}
+
 function resetProgress() {
   storageAvailable.value = clearLearningState();
   if (!storageAvailable.value) {
@@ -584,7 +596,18 @@ focusAnswer();
           }"
           @submit.prevent="submit()"
         >
-          <p id="tense-cue" class="tense-cue">{{ tenseCue }}</p>
+          <div class="tense-cue-row">
+            <p v-show="showTense" id="tense-cue" class="tense-cue">{{ tenseCue }}</p>
+            <button
+              v-show="showTense"
+              class="quiet-button hide-tense-link"
+              type="button"
+              aria-label="Nascondi il tempo verbale"
+              @click="setTenseVisibility(false)"
+            >
+              Nascondi
+            </button>
+          </div>
           <div class="sentence-window">
             <Transition
               name="sentence"
@@ -614,7 +637,8 @@ focusAnswer();
                       :readonly="isReviewing || !!outcome || transitioning"
                       :aria-invalid="outcome === 'error' || outcome === 'typo'"
                       :aria-describedby="
-                        outcome ? 'tense-cue answer-feedback' : 'tense-cue verb-hint'
+                        (showTense ? 'tense-cue ' : '') +
+                        (outcome ? 'answer-feedback' : 'verb-hint')
                       "
                       type="text"
                       autocomplete="off"
@@ -801,8 +825,10 @@ focusAnswer();
       ref="settings"
       :name="learnerName"
       :show-conjugation="showConjugation"
+      :show-tense="showTense"
       @update:name="setName"
       @update:show-conjugation="setConjugationVisibility"
+      @update:show-tense="setTenseVisibility"
       @reset-progress="resetProgress"
       @open-privacy="openPrivacy"
       @closed="dialogClosed(settingsTrigger)"

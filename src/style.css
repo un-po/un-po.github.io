@@ -280,6 +280,25 @@ a {
   margin: 0 0 12px;
   min-height: 1.6em;
 }
+.tense-cue-row {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  gap: 12px;
+  min-height: 20.8px;
+  margin-bottom: 12px;
+}
+.tense-cue-row .tense-cue {
+  margin: 0;
+}
+.tense-cue-row .hide-tense-link {
+  padding: 0;
+  color: var(--muted);
+  font-size: 12px;
+  line-height: 1.6;
+  text-decoration: underline;
+  text-underline-offset: 3px;
+}
 .sentence-text {
   font-family: var(--hand);
   color: var(--sentence);

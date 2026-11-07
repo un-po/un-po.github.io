@@ -298,6 +298,39 @@ test('table starts open, can be retired, and can be restored in settings', async
   await expect(page.getByRole('table')).toBeVisible();
 });
 
+test('tense hints can be hidden without shifting the sentence and restored across visits', async ({
+  page,
+  isMobile,
+}) => {
+  await page.emulateMedia({ reducedMotion: 'reduce' });
+  await startAt(page, 'imperfetto-0199');
+  const cue = page.locator('#tense-cue');
+  await expect(cue).toHaveText('Imperfetto o Passato prossimo');
+  const before = await page.locator('.sentence-window').boundingBox();
+  await page.getByRole('button', { name: 'Nascondi il tempo verbale' }).focus();
+  await page.keyboard.press('Enter');
+  await expect(cue).toBeHidden();
+  if (!isMobile) await expect(page.locator('#verb-answer')).toBeFocused();
+  await expect(page.locator('#verb-answer')).toHaveAttribute('aria-describedby', 'verb-hint');
+  expect((await page.locator('.sentence-window').boundingBox())!.y).toBe(before!.y);
+
+  await page.reload();
+  await expect(cue).toBeHidden();
+  await page.locator('#verb-answer').fill('ha lavorato');
+  await page.keyboard.press('Enter');
+  await expect(page.locator('.exercise-form')).toHaveClass(/answer-correct/);
+  await expect(page.locator('.correct-caption')).toContainText('esperienza conclusa');
+  await page.getByRole('button', { name: 'Apri le impostazioni' }).click();
+  const tense = page.getByRole('checkbox', { name: 'Mostra il tempo verbale sopra la frase' });
+  await expect(tense).not.toBeChecked();
+  await expect(page.getByRole('checkbox', { name: /Mostra la tabella/ })).toBeChecked();
+  await tense.check();
+  await page.keyboard.press('Escape');
+  await expect(cue).toBeVisible();
+  await page.reload();
+  await expect(cue).toBeVisible();
+});
+
 test('settings edit the name, offer three themes, and reset progress', async ({ page }) => {
   await begin(page, 'Rico');
   await answerCurrent(page);

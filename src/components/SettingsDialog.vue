@@ -2,10 +2,11 @@
 import { ref } from 'vue';
 import { setTheme, themeMode, type ThemeMode } from '../lib/theme.ts';
 
-const props = defineProps<{ name: string; showConjugation: boolean }>();
+const props = defineProps<{ name: string; showConjugation: boolean; showTense: boolean }>();
 const emit = defineEmits<{
   'update:name': [value: string];
   'update:showConjugation': [value: boolean];
+  'update:showTense': [value: boolean];
   resetProgress: [];
   openPrivacy: [];
   closed: [];
@@ -90,6 +91,17 @@ defineExpose({ open, close });
           {{ option === 'auto' ? 'Sistema' : option === 'light' ? 'Chiaro' : 'Scuro' }}
         </button>
       </div>
+    </section>
+
+    <section class="settings-section">
+      <label class="checkbox-row">
+        <input
+          type="checkbox"
+          :checked="props.showTense"
+          @change="emit('update:showTense', ($event.target as HTMLInputElement).checked)"
+        />
+        <span>Mostra il tempo verbale sopra la frase</span>
+      </label>
     </section>
 
     <section class="settings-section">

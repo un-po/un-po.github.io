@@ -42,7 +42,8 @@ defineExpose({ open, close });
       </p>
       <p>
         Il tempo da usare è indicato sopra la frase. Se ne trovi due, entrambe le possibilità sono
-        valide: scegli tu. Nei tempi composti scrivi anche l’ausiliare.
+        valide: scegli tu. Puoi nascondere l’indicazione del tempo e ripristinarla nelle
+        impostazioni. Nei tempi composti scrivi anche l’ausiliare.
       </p>
       <p>
         Dopo il risultato, la frase successiva arriva da sé. Scegli <strong>Resta qui</strong> se
