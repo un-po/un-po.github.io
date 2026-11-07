@@ -1,5 +1,6 @@
 <script setup lang="ts">
 import { computed, onBeforeUnmount, onMounted, ref, shallowRef, watch } from 'vue';
+import { isUnlockMessage, unlockCopy } from '../lib/practiceUnlocks.ts';
 import {
   contextTiming,
   PracticeMessageQueue,
@@ -12,7 +13,6 @@ const props = defineProps<{
   paused: boolean;
   suppressed: boolean;
   name: string;
-  practiceLabel: string;
 }>();
 const emit = defineEmits<{
   saveName: [name: string];
@@ -22,15 +22,16 @@ const emit = defineEmits<{
 const draftName = ref(props.name);
 const editing = ref(false);
 const state = shallowRef<MessageQueueState>({ phase: 'idle', message: null });
-const practiceLabel = ref(props.practiceLabel);
 const message = computed(() =>
   ['entering', 'visible', 'leaving'].includes(state.value.phase) ? state.value.message : null,
+);
+const unlock = computed(() =>
+  message.value && isUnlockMessage(message.value) ? unlockCopy[message.value] : null,
 );
 const paused = computed(() => props.paused || editing.value);
 const queue = new PracticeMessageQueue(
   (snapshot) => {
     state.value = snapshot;
-    if (snapshot.phase === 'entering') practiceLabel.value = props.practiceLabel;
   },
   (message) => emit('completed', message),
 );
@@ -120,9 +121,9 @@ defineExpose({ enqueue });
       <h2 v-else-if="message === 'welcome'">
         {{ name ? `Che bello rivederti, ${name}.` : 'Che bello rivederti.' }}
       </h2>
-      <template v-else-if="message === 'level'">
-        <p>{{ practiceLabel }}</p>
-        <p>Una frase alla volta, al tuo ritmo.</p>
+      <template v-else-if="unlock">
+        <h2>{{ unlock.heading }}</h2>
+        <p>{{ unlock.description }}</p>
       </template>
       <template v-else-if="message === 'encouragement'">
         <h2>Un po’ alla volta.</h2>
@@ -177,24 +178,6 @@ p {
 kbd {
   font: inherit;
   color: var(--ink);
-}
-.context-level {
-  color: var(--ink);
-  font-size: 16px;
-}
-.context-level strong {
-  margin-left: 5px;
-  font: 500 23px/1 var(--hand);
-}
-.context-level strong.rank-numeral {
-  font:
-    400 21px/1 'Times New Roman',
-    Times,
-    serif;
-}
-.context-level span {
-  margin: 0 9px;
-  color: var(--faint);
 }
 .context-name-row {
   display: flex;

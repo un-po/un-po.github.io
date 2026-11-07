@@ -43,13 +43,9 @@ function harness() {
 test('initial queue resumes only unfinished prompts and skips asking an existing name', () => {
   assert.deepEqual(initialPracticeMessages([], false), ['introduction', 'keyboard', 'name']);
   assert.deepEqual(initialPracticeMessages(['introduction'], false), ['keyboard', 'name']);
-  assert.deepEqual(initialPracticeMessages(['introduction', 'keyboard'], true), [
-    'welcome',
-    'level',
-  ]);
+  assert.deepEqual(initialPracticeMessages(['introduction', 'keyboard'], true), ['welcome']);
   assert.deepEqual(initialPracticeMessages(['introduction', 'keyboard', 'name'], false), [
     'welcome',
-    'level',
   ]);
 });
 test('messages wait four seconds, reveal, stay twenty seconds, leave, and rest forty seconds', () => {
@@ -74,7 +70,7 @@ test('messages wait four seconds, reveal, stay twenty seconds, leave, and rest f
 });
 test('pausing preserves the remaining time through long interruptions in every phase', () => {
   const { queue, advance } = harness();
-  queue.enqueue(['welcome', 'level']);
+  queue.enqueue(['welcome', 'keyboard']);
   for (const [duration, nextPhase] of [
     [4000, 'entering'],
     [450, 'visible'],
@@ -97,13 +93,13 @@ test('deduplicates producers, retains the quiet period when new content arrives,
   queue.enqueue('welcome');
   queue.enqueue('welcome');
   advance(24800);
-  queue.enqueue('level');
+  queue.enqueue('keyboard');
   queue.enqueue('momentum', 1000);
   advance(40000);
-  assert.equal(queue.state.message, 'level');
+  assert.equal(queue.state.message, 'keyboard');
   advance(60800);
   assert.equal(queue.state.phase, 'idle');
-  assert.deepEqual(completed, ['welcome', 'level']);
+  assert.deepEqual(completed, ['welcome', 'keyboard']);
   queue.enqueue('momentum', 60000);
   assert.equal(queue.state.message, 'momentum');
   queue.dispose();
@@ -131,4 +127,23 @@ test('streak messages require four matching outcomes and remain occasional', () 
     streakMessage(['error', 'error', 'error'], () => 0),
     null,
   );
+});
+
+test('unlock celebrations precede queued streaks without interrupting or repeating messages', () => {
+  const { queue, completed, advance } = harness();
+  queue.enqueue('welcome');
+  advance(4000);
+  queue.enqueue('momentum');
+  queue.enqueue('unlock:imperfetto');
+  queue.enqueue('unlock:imperfetto');
+  assert.equal(queue.state.message, 'welcome');
+  advance(60800);
+  assert.equal(queue.state.message, 'unlock:imperfetto');
+  advance(60800);
+  assert.equal(queue.state.message, 'momentum');
+  assert.deepEqual(completed, ['welcome', 'unlock:imperfetto']);
+  advance(60800);
+  queue.enqueue('unlock:imperfetto');
+  assert.equal(queue.state.phase, 'idle');
+  assert.deepEqual(completed, ['welcome', 'unlock:imperfetto', 'momentum']);
 });

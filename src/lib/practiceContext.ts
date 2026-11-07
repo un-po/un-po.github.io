@@ -1,9 +1,10 @@
 import type { Outcome } from './practice.ts';
+import { isUnlockMessage, type UnlockMessage } from './practiceUnlocks.ts';
 
 export const onboardingMessages = ['introduction', 'keyboard', 'name'] as const;
 export type OnboardingMessage = (typeof onboardingMessages)[number];
 export type PracticeMessage =
-  OnboardingMessage | 'welcome' | 'level' | 'encouragement' | 'momentum';
+  OnboardingMessage | 'welcome' | 'encouragement' | 'momentum' | UnlockMessage;
 
 export function initialPracticeMessages(
   seen: OnboardingMessage[],
@@ -12,7 +13,7 @@ export function initialPracticeMessages(
   const pending = onboardingMessages.filter(
     (message) => !seen.includes(message) && !(message === 'name' && hasName),
   );
-  return pending.length ? pending : ['welcome', 'level'];
+  return pending.length ? pending : ['welcome'];
 }
 
 export function streakMessage(
@@ -81,10 +82,17 @@ export class PracticeMessageQueue {
     for (const message of Array.isArray(messages) ? messages : [messages]) {
       if (this.queued.has(message)) continue;
       this.queued.add(message);
-      this.pending.push({
+      const entry = {
         message,
         expiresAt: expiresIn === undefined ? undefined : this.clock.now() + expiresIn,
-      });
+      };
+      const firstStreak = isUnlockMessage(message)
+        ? this.pending.findIndex(
+            (item) => item.message === 'momentum' || item.message === 'encouragement',
+          )
+        : -1;
+      if (firstStreak >= 0) this.pending.splice(firstStreak, 0, entry);
+      else this.pending.push(entry);
     }
     if (!this.pending.length || this.state.phase !== 'idle') return;
     if (!this.started) {

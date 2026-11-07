@@ -52,6 +52,12 @@ test('session analytics start on the first submitted answer rather than page loa
     'answer_correct',
     'session_completed',
   ]);
+  await page.getByRole('button', { name: 'Ancora un po’', exact: true }).click();
+  await answerCurrent(page);
+  await page.getByRole('button', { name: 'Verifica', exact: true }).click();
+  expect((await events()).slice(-2)).toEqual(['session_started', 'answer_correct']);
+  await page.getByRole('button', { name: 'Concludi la sessione' }).click();
+  expect((await events()).filter((event: string) => event === 'session_completed')).toHaveLength(2);
 });
 
 test('editing the optional name pauses both clocks and Enter only saves the name', async ({
@@ -143,9 +149,7 @@ test('only fully displayed onboarding messages are remembered across visits', as
   await expect(page.locator('.practice-context')).toHaveAttribute('data-message', 'keyboard');
 });
 
-test('returning learners get a greeting and available tenses without advancing questions', async ({
-  page,
-}) => {
+test('returning learners get a greeting without a competing tense banner', async ({ page }) => {
   await page.clock.install();
   await page.addInitScript(() =>
     localStorage.setItem('unpo-profile-v1', JSON.stringify({ introduced: true, name: 'Rico' })),
@@ -160,9 +164,10 @@ test('returning learners get a greeting and available tenses without advancing q
   await page.clock.runFor(400);
   await page.clock.fastForward(40000);
   await page.clock.runFor(500);
-  await expect(page.locator('.practice-context')).toContainText('Presente indicativo');
-  await expect(page.locator('.practice-context')).toContainText('Passato prossimo');
-  await expect(page.locator('.practice-context')).not.toContainText(/Livello|Grado/);
+  await expect(page.locator('.practice-context')).toHaveAttribute('data-message', 'empty');
+  await expect(page.locator('.practice-context')).toBeEmpty();
+  await expect(page.locator('#verb-answer')).toBeEditable();
+  await expect(page.locator('#tense-cue')).toBeVisible();
 });
 
 test('history is blank and the content clock pauses for history, dialogs, hidden tabs, and summaries', async ({
@@ -282,6 +287,94 @@ test('next auto-advances after an animated interval and can be cancelled', async
     'data-exercise-id',
     secondExerciseId!,
   );
+});
+
+test('summary starts fresh sessions after an idle day while retaining learning progress', async ({
+  page,
+}) => {
+  await page.emulateMedia({ reducedMotion: 'reduce' });
+  await begin(page, 'Rico');
+  await page.clock.install();
+  // An empty session also has an obvious route back to practice.
+  await page.getByRole('button', { name: 'Concludi la sessione' }).click();
+  await page.getByRole('button', { name: 'Ancora un po’', exact: true }).click();
+  await expect(page.locator('#verb-answer')).toBeEditable();
+  await answerCurrent(page);
+  await page.getByRole('button', { name: 'Verifica', exact: true }).click();
+  await page.getByRole('button', { name: 'Concludi la sessione' }).click();
+  await expect(page.locator('.session-count')).toHaveText('1 frase praticata.');
+  const saved = await page.evaluate(() => JSON.parse(localStorage.getItem('unpo-learning-state')!));
+  await page.clock.fastForward(24 * 60 * 60 * 1000);
+  await page.getByRole('button', { name: 'Ancora un po’', exact: true }).click();
+  await expect(page.locator('#verb-answer')).toBeEditable();
+  await expect(page.locator('#verb-answer')).toHaveValue('');
+  await page.keyboard.press('ArrowUp');
+  await expect(page.locator('#verb-answer')).toBeEditable();
+  await expect(page.locator('.history-dot.correct')).toHaveCount(0);
+  expect(
+    await page.evaluate(() => JSON.parse(localStorage.getItem('unpo-learning-state')!)),
+  ).toEqual(saved);
+
+  await answerCurrent(page);
+  await page.getByRole('button', { name: 'Verifica', exact: true }).click();
+  await page.getByRole('button', { name: 'Concludi la sessione' }).click();
+  await expect(page.locator('#summary-heading')).toHaveText('Un passo avanti, Rico.');
+  await expect(page.locator('.session-count')).toHaveText('1 frase praticata.');
+  const results = await page.evaluate(
+    () => JSON.parse(localStorage.getItem('unpo-learning-state')!).results,
+  );
+  expect(Object.keys(results)).toHaveLength(Object.keys(saved.results).length + 1);
+});
+
+test('new tense celebrations survive summaries and reloads until fully shown, then stay dismissed', async ({
+  page,
+}) => {
+  const state = createLearningState(exercises, () => 0.5);
+  const bands = curriculumBands(exercises);
+  state.curriculum.unlocked = bands.slice(0, 4).map((band) => band.id);
+  for (const question of bands[0]!.questions.slice(0, 90)) {
+    state.results[question.id] = { outcome: 'correct', tense: bands[0]!.tense };
+  }
+  for (const question of bands[3]!.questions.slice(0, 89)) {
+    state.results[question.id] = { outcome: 'correct', tense: bands[3]!.tense };
+  }
+  synchronizeLearningState(state, exercises, () => 0.5);
+  const next = bands[3]!.questions[89]!;
+  state.queue = [next.id, ...state.queue.filter((id) => id !== next.id)];
+  await page.addInitScript((saved) => {
+    if (!localStorage.getItem('unpo-learning-state')) {
+      localStorage.setItem('unpo-learning-state', JSON.stringify(saved));
+      localStorage.setItem('unpo-profile-v1', JSON.stringify({ introduced: true, name: 'Rico' }));
+    }
+  }, state);
+  await page.emulateMedia({ reducedMotion: 'reduce' });
+  await page.clock.install();
+  await begin(page);
+  await expect(page.locator('.exercise-form')).toHaveAttribute('data-exercise-id', next.id);
+  await answerCurrent(page);
+  await page.getByRole('button', { name: 'Verifica', exact: true }).click();
+  expect(
+    await page.evaluate(
+      () => JSON.parse(localStorage.getItem('unpo-learning-state')!).curriculum.unlocked,
+    ),
+  ).toContain('imperfetto:1');
+  const pending = () =>
+    page.evaluate(() => JSON.parse(localStorage.getItem('unpo-pending-unlocks-v1') ?? '[]'));
+  expect(await pending()).toEqual(['unlock:imperfetto']);
+
+  await page.getByRole('button', { name: 'Concludi la sessione' }).click();
+  await page.getByRole('button', { name: 'Ancora un po’', exact: true }).click();
+  await page.clock.runFor(65000);
+  await expect(page.locator('.practice-context')).toContainText('Hai sbloccato l’imperfetto!');
+  expect(await pending()).toEqual(['unlock:imperfetto']);
+  await page.reload();
+  await page.clock.runFor(65000);
+  await expect(page.locator('.practice-context')).toContainText('Hai sbloccato l’imperfetto!');
+  await page.clock.runFor(21000);
+  expect(await pending()).toEqual([]);
+  await page.reload();
+  await page.clock.runFor(90000);
+  await expect(page.locator('.practice-context')).toHaveAttribute('data-message', 'empty');
 });
 
 test('table starts open, can be retired, and can be restored in settings', async ({ page }) => {
@@ -604,5 +697,33 @@ test('summary arrows compare saved accuracy with the session baseline', async ({
   const cell = page.locator('.accuracy-matrix tbody tr').first().locator('td').first();
   await expect(cell).toContainText('100%');
   await expect(cell.locator('.accuracy-up')).toHaveText('↑');
+  expect(await page.evaluate(() => document.documentElement.scrollWidth <= innerWidth)).toBe(true);
+});
+
+test('summary gives persons and verb types uniform tracks with equal group gaps', async ({
+  page,
+}) => {
+  await page.emulateMedia({ reducedMotion: 'reduce' });
+  await begin(page);
+  await answerCurrent(page);
+  await page.getByRole('button', { name: 'Verifica', exact: true }).click();
+  await page.getByRole('button', { name: 'Concludi la sessione' }).click();
+  const geometry = await page.locator('.accuracy-matrix thead th').evaluateAll((headers) =>
+    headers.map((header) => {
+      const style = getComputedStyle(header);
+      const paddingLeft = parseFloat(style.paddingLeft);
+      return {
+        contentWidth:
+          header.getBoundingClientRect().width - paddingLeft - parseFloat(style.paddingRight),
+        paddingLeft,
+      };
+    }),
+  );
+  const people = geometry.slice(1, 7).map((cell) => cell.contentWidth);
+  expect(Math.max(...people) - Math.min(...people)).toBeLessThan(1);
+  expect(Math.abs(geometry[7]!.contentWidth - geometry[8]!.contentWidth)).toBeLessThan(1);
+  expect(geometry[1]!.paddingLeft - geometry[2]!.paddingLeft).toBe(56);
+  expect(geometry[7]!.paddingLeft - geometry[8]!.paddingLeft).toBe(56);
+  expect((await page.locator('.accuracy-matrix').boundingBox())!.width).toBe(856);
   expect(await page.evaluate(() => document.documentElement.scrollWidth <= innerWidth)).toBe(true);
 });

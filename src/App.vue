@@ -13,10 +13,9 @@ import {
   exerciseTenseCue,
   normalize,
   summarize,
-  tenseLabels,
 } from './lib/practice.ts';
 import type { AcceptedAnswer, Attempt, Exercise, Outcome } from './lib/practice.ts';
-import { activeBands, nextLearningExercise, recordLearningOutcome } from './lib/learning.ts';
+import { nextLearningExercise, recordLearningOutcome } from './lib/learning.ts';
 import { clearLearningState, loadLearningState, saveLearningState } from './lib/storage.ts';
 import { loadProfile, saveProfile } from './lib/profile.ts';
 import {
@@ -33,6 +32,12 @@ import {
   saveTenseVisibility,
 } from './lib/preferences.ts';
 import { trackEvent } from './lib/analytics.ts';
+import {
+  isUnlockMessage,
+  newTenseMessages,
+  loadPendingUnlocks,
+  savePendingUnlocks,
+} from './lib/practiceUnlocks.ts';
 
 interface SessionItem {
   exercise: Exercise;
@@ -44,7 +49,12 @@ interface SessionItem {
 const profile = loadProfile();
 const learnerName = ref(profile.name);
 const seenMessages = ref(profile.seenMessages);
-const initialMessages = initialPracticeMessages(profile.seenMessages, !!profile.name);
+const pendingUnlocks = ref(loadPendingUnlocks());
+const initialMessages = ref<PracticeMessage[]>([
+  ...initialPracticeMessages(profile.seenMessages, !!profile.name),
+  ...pendingUnlocks.value,
+]);
+const sessionRun = ref(0);
 const learning = ref(loadLearningState(exercises));
 const attempts = ref<Attempt[]>([]);
 const showConjugation = ref(loadTableVisibility());
@@ -82,6 +92,11 @@ let continueTimer: ReturnType<typeof setTimeout> | undefined;
 let sessionStarted = false;
 
 function completeContextMessage(message: PracticeMessage) {
+  if (isUnlockMessage(message)) {
+    pendingUnlocks.value = pendingUnlocks.value.filter((pending) => pending !== message);
+    savePendingUnlocks(pendingUnlocks.value);
+    return;
+  }
   if (!onboardingMessages.includes(message as OnboardingMessage)) return;
   if (!seenMessages.value.includes(message as OnboardingMessage))
     seenMessages.value.push(message as OnboardingMessage);
@@ -89,9 +104,6 @@ function completeContextMessage(message: PracticeMessage) {
 }
 
 const sessionBaseline = ref(JSON.parse(JSON.stringify(learning.value.results)));
-const practiceLabel = computed(() =>
-  [...new Set(activeBands(learning.value, exercises).map((b) => tenseLabels[b.tense]))].join(' · '),
-);
 
 const currentIndex = computed(() => sessionItems.value.length - 1);
 const displayedItem = computed(() => sessionItems.value[displayedIndex.value]!);
@@ -234,6 +246,7 @@ function submit(dontKnow = false) {
     matchedAnswer: grading.matched?.text,
   };
   attempts.value.push(attempt);
+  const previouslyUnlocked = [...learning.value.curriculum.unlocked];
   recordLearningOutcome(
     learning.value,
     exercise.value,
@@ -243,6 +256,12 @@ function submit(dontKnow = false) {
     grading.matched?.tense ?? (isMultiTense.value ? null : (exercise.value.tense ?? 'presente')),
   );
   storageAvailable.value = saveLearningState(learning.value);
+  const unlocks = newTenseMessages(previouslyUnlocked, learning.value.curriculum.unlocked);
+  if (unlocks.length) {
+    pendingUnlocks.value = [...new Set([...pendingUnlocks.value, ...unlocks])];
+    savePendingUnlocks(pendingUnlocks.value);
+    practiceContext.value?.enqueue(unlocks);
+  }
   const message = streakMessage(attempts.value.map((attempt) => attempt.outcome));
   if (message) practiceContext.value?.enqueue(message, 60000);
   scheduleAutoAdvance(result);
@@ -397,12 +416,9 @@ function setTenseVisibility(value: boolean) {
   if (!dialogOpen.value && !outcome.value) focusAnswer();
 }
 
-function resetProgress() {
-  storageAvailable.value = clearLearningState();
-  if (!storageAvailable.value) {
-    window.alert('Il browser non permette di cancellare i progressi salvati.');
-    return;
-  }
+function startNewSession() {
+  cancelAutoAdvance();
+  clearTimeout(indicatorTimer);
   learning.value = loadLearningState(exercises);
   attempts.value = [];
   const next = nextLearningExercise(learning.value, exercises);
@@ -417,12 +433,30 @@ function resetProgress() {
   displayedIndex.value = 0;
   reviewingFinishedSession.value = false;
   freshValidation.value = false;
-  cancelAutoAdvance();
-  sessionBaseline.value = {};
+  historyIndicatorVisible.value = false;
+  transitioning.value = false;
+  sentenceVisible.value = true;
+  sessionBaseline.value = JSON.parse(JSON.stringify(learning.value.results));
   summaryRevisited.value = false;
+  initialMessages.value = [
+    ...initialPracticeMessages(seenMessages.value, !!learnerName.value),
+    ...pendingUnlocks.value,
+  ];
+  sessionRun.value++;
   screen.value = 'practice';
-  settings.value?.close();
   focusAnswer();
+}
+
+function resetProgress() {
+  storageAvailable.value = clearLearningState();
+  if (!storageAvailable.value) {
+    window.alert('Il browser non permette di cancellare i progressi salvati.');
+    return;
+  }
+  settings.value?.close();
+  pendingUnlocks.value = [];
+  savePendingUnlocks([]);
+  startNewSession();
 }
 
 function openPrivacy() {
@@ -575,12 +609,12 @@ focusAnswer();
       </aside>
 
       <PracticeContext
+        :key="sessionRun"
         ref="practiceContext"
         :initial-messages="initialMessages"
         :paused="screen !== 'practice' || isReviewing || dialogOpen || !pageVisible"
         :suppressed="isReviewing"
         :name="learnerName"
-        :practice-label="practiceLabel"
         @save-name="saveInlineName"
         @interact="cancelAutoAdvance"
         @completed="completeContextMessage"
@@ -819,6 +853,12 @@ focusAnswer();
         <p>{{ mistakes.join(' · ') }}</p>
         <span>Questi verbi torneranno durante la pratica.</span>
       </section>
+      <button class="primary-button" type="button" @click="startNewSession">
+        <span>Ancora un po’</span>
+        <svg viewBox="0 0 24 24" aria-hidden="true">
+          <path d="M4 12h15m-6-6 6 6-6 6" />
+        </svg>
+      </button>
     </main>
 
     <SettingsDialog

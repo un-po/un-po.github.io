@@ -66,6 +66,13 @@ muted circular dot. Locks indicate never-unlocked tenses, not tenses that have l
 Small changes may display the same rounded percentage; tooltips provide counts and the prior
 percentage. On narrow screens only the matrix scrolls horizontally.
 
+When an answer unlocks an entirely new tense, the practice message area celebrates it once.
+Opening another difficulty band of an already available tense does not trigger a message.
+Celebrations move ahead of queued streak messages without interrupting the current message
+or the normal quiet interval. Pending celebrations are stored locally until their full reveal
+finishes, so ending a session or reloading does not lose them. Resetting progress clears them.
+Returning learners receive a welcome rather than a routine list of available tenses.
+
 For a mixed-tense question, accepted answers carry their own tense and explanation. Success
 updates the demonstrated tense. An unrecognized error has no inferred tense, so it is reported
 separately instead of assigning an invented matrix cell. Either outcome still counts once

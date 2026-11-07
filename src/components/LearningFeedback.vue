@@ -41,6 +41,19 @@ const unknown = computed(
           Accuratezza salvata. Un punto indica che non ci sono ancora risposte; un lucchetto indica
           un tempo da sbloccare.
         </caption>
+        <colgroup>
+          <col class="tense-column" />
+          <col
+            v-for="(label, index) in labels"
+            :key="label"
+            :class="{
+              'person-column': index < 6,
+              'person-start': index === 0,
+              'regularity-column': index >= 6,
+              'regularity-start': index === 6,
+            }"
+          />
+        </colgroup>
         <thead>
           <tr>
             <th scope="col">Tempo</th>
@@ -48,7 +61,7 @@ const unknown = computed(
               v-for="(label, index) in labels"
               :key="label"
               scope="col"
-              :class="{ 'regularity-start': index === 6 }"
+              :class="{ 'person-start': index === 0, 'regularity-start': index === 6 }"
             >
               {{ label }}
             </th>
@@ -60,7 +73,7 @@ const unknown = computed(
             <td
               v-for="(cell, index) in row.cells"
               :key="index"
-              :class="{ 'regularity-start': index === 6 }"
+              :class="{ 'person-start': index === 0, 'regularity-start': index === 6 }"
             >
               <svg
                 v-if="!unlocked(row.tense)"
@@ -145,10 +158,33 @@ const unknown = computed(
 }
 .accuracy-matrix {
   --accuracy-row-height: 64px;
-  width: 100%;
-  min-width: 660px;
+  --group-gap: 56px;
+  --tense-width: 160px;
+  --regularity-width: 94px;
+  --person-width: 66px;
+  table-layout: fixed;
+  width: calc(
+    var(--tense-width) + 6 * var(--person-width) + 2 * var(--regularity-width) + 2 *
+      var(--group-gap)
+  );
+  margin-inline: auto;
   font-size: 13px;
   font-variant-numeric: tabular-nums;
+}
+.tense-column {
+  width: var(--tense-width);
+}
+.person-column {
+  width: var(--person-width);
+}
+.person-column.person-start {
+  width: calc(var(--person-width) + var(--group-gap));
+}
+.regularity-column {
+  width: var(--regularity-width);
+}
+.regularity-column.regularity-start {
+  width: calc(var(--regularity-width) + var(--group-gap));
 }
 .accuracy-matrix th,
 .accuracy-matrix td {
@@ -168,12 +204,14 @@ const unknown = computed(
   text-align: center;
 }
 .accuracy-matrix tbody th {
-  min-width: 130px;
-  padding-right: 28px;
   color: var(--ink);
 }
-.accuracy-matrix .regularity-start {
-  padding-left: 32px;
+/* Leading cells include the group gap; every content track keeps its shared width. */
+.accuracy-matrix th.person-start,
+.accuracy-matrix td.person-start,
+.accuracy-matrix th.regularity-start,
+.accuracy-matrix td.regularity-start {
+  padding-left: calc(6px + var(--group-gap));
 }
 .accuracy-lock {
   width: 14px;
