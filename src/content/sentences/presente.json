@@ -1,0 +1,6920 @@
+[
+  {
+    "id": "sent-pres-101",
+    "textTemplate": "Ogni mattina, prima di uscire, io {slot_0} un caffè veloce.",
+    "primaryTense": "presente",
+    "level": 2,
+    "difficulty": 2,
+    "theme": "daily_routine",
+    "source": "import-revised",
+    "target": {
+      "slotId": 0,
+      "verb": "bere",
+      "person": "io",
+      "acceptedAnswers": [
+        {
+          "text": "bevo",
+          "tense": "presente",
+          "person": "io",
+          "explanation": "Con io, bere al presente si coniuga bevo."
+        }
+      ]
+    },
+    "band": 2
+  },
+  {
+    "id": "sent-pres-102",
+    "textTemplate": "Nel mio ufficio, tu {slot_0} italiano molto chiaramente.",
+    "primaryTense": "presente",
+    "level": 2,
+    "difficulty": 1,
+    "theme": "work_office",
+    "source": "import-revised",
+    "target": {
+      "slotId": 0,
+      "verb": "parlare",
+      "person": "tu",
+      "acceptedAnswers": [
+        {
+          "text": "parli",
+          "tense": "presente",
+          "person": "tu",
+          "explanation": "Con tu, parlare al presente si coniuga parli."
+        }
+      ]
+    },
+    "band": 1
+  },
+  {
+    "id": "sent-pres-103",
+    "textTemplate": "Oggi noi {slot_0} liberi tutto il pomeriggio.",
+    "primaryTense": "presente",
+    "level": 4,
+    "difficulty": 2,
+    "theme": "home_lifestyle",
+    "source": "import-revised",
+    "target": {
+      "slotId": 0,
+      "verb": "essere",
+      "person": "noi",
+      "acceptedAnswers": [
+        {
+          "text": "siamo",
+          "tense": "presente",
+          "person": "noi",
+          "explanation": "Con noi, essere al presente si coniuga siamo."
+        }
+      ]
+    },
+    "band": 2
+  },
+  {
+    "id": "sent-pres-104",
+    "textTemplate": "I gatti dei miei vicini {slot_0} sempre sul divano del soggiorno.",
+    "primaryTense": "presente",
+    "level": 4,
+    "difficulty": 1,
+    "theme": "social_life",
+    "source": "import-revised",
+    "target": {
+      "slotId": 0,
+      "verb": "dormire",
+      "person": "loro",
+      "acceptedAnswers": [
+        {
+          "text": "dormono",
+          "tense": "presente",
+          "person": "loro",
+          "explanation": "Con loro, dormire al presente si coniuga dormono."
+        }
+      ]
+    },
+    "band": 1
+  },
+  {
+    "id": "sent-pres-105",
+    "textTemplate": "Voi {slot_0} un giardino bellissimo dietro casa.",
+    "primaryTense": "presente",
+    "level": 2,
+    "difficulty": 2,
+    "theme": "home_lifestyle",
+    "source": "import-revised",
+    "target": {
+      "slotId": 0,
+      "verb": "avere",
+      "person": "voi",
+      "acceptedAnswers": [
+        {
+          "text": "avete",
+          "tense": "presente",
+          "person": "voi",
+          "explanation": "Con voi, avere al presente si coniuga avete."
+        }
+      ]
+    },
+    "band": 2
+  },
+  {
+    "id": "sent-pres-106",
+    "textTemplate": "Ogni sera dopo cena, Giulia {slot_0} un capitolo di un libro.",
+    "primaryTense": "presente",
+    "level": 3,
+    "difficulty": 1,
+    "theme": "daily_routine",
+    "source": "import-revised",
+    "target": {
+      "slotId": 0,
+      "verb": "leggere",
+      "person": "lui/lei",
+      "acceptedAnswers": [
+        {
+          "text": "legge",
+          "tense": "presente",
+          "person": "lui/lei",
+          "explanation": "Con lui o lei, leggere al presente si coniuga legge."
+        }
+      ]
+    },
+    "band": 1
+  },
+  {
+    "id": "sent-pres-107",
+    "textTemplate": "Di solito tu {slot_0} al mercato rionale ogni sabato mattina.",
+    "primaryTense": "presente",
+    "level": 4,
+    "difficulty": 2,
+    "theme": "travel_commuting",
+    "source": "import-revised",
+    "target": {
+      "slotId": 0,
+      "verb": "andare",
+      "person": "tu",
+      "acceptedAnswers": [
+        {
+          "text": "vai",
+          "tense": "presente",
+          "person": "tu",
+          "explanation": "Con tu, andare al presente si coniuga vai."
+        }
+      ]
+    },
+    "band": 2
+  },
+  {
+    "id": "sent-pres-108",
+    "textTemplate": "Finalmente io {slot_0} questa regola grammaticale.",
+    "primaryTense": "presente",
+    "level": 3,
+    "difficulty": 2,
+    "theme": "work_office",
+    "source": "import-revised",
+    "target": {
+      "slotId": 0,
+      "verb": "capire",
+      "person": "io",
+      "acceptedAnswers": [
+        {
+          "text": "capisco",
+          "tense": "presente",
+          "person": "io",
+          "explanation": "Con io, capire al presente si coniuga capisco."
+        }
+      ]
+    },
+    "band": 2
+  },
+  {
+    "id": "sent-pres-109",
+    "textTemplate": "La domenica i miei amici {slot_0} sempre una lunga passeggiata.",
+    "primaryTense": "presente",
+    "level": 2,
+    "difficulty": 2,
+    "theme": "leisure",
+    "source": "import-revised",
+    "target": {
+      "slotId": 0,
+      "verb": "fare",
+      "person": "loro",
+      "acceptedAnswers": [
+        {
+          "text": "fanno",
+          "tense": "presente",
+          "person": "loro",
+          "explanation": "Con loro, fare al presente si coniuga fanno."
+        }
+      ]
+    },
+    "band": 2
+  },
+  {
+    "id": "sent-pres-110",
+    "textTemplate": "Mentre guidiamo in autostrada, noi {slot_0} sempre la radio.",
+    "primaryTense": "presente",
+    "level": 1,
+    "difficulty": 1,
+    "theme": "travel_commuting",
+    "source": "import-revised",
+    "target": {
+      "slotId": 0,
+      "verb": "ascoltare",
+      "person": "noi",
+      "acceptedAnswers": [
+        {
+          "text": "ascoltiamo",
+          "tense": "presente",
+          "person": "noi",
+          "explanation": "Con noi, ascoltare al presente si coniuga ascoltiamo."
+        }
+      ]
+    },
+    "band": 1
+  },
+  {
+    "id": "sent-pres-111",
+    "textTemplate": "Scusa, mi {slot_0} che ore sono?",
+    "primaryTense": "presente",
+    "level": 3,
+    "difficulty": 2,
+    "theme": "daily_routine",
+    "source": "import-revised",
+    "target": {
+      "slotId": 0,
+      "verb": "dire",
+      "person": "tu",
+      "acceptedAnswers": [
+        {
+          "text": "dici",
+          "tense": "presente",
+          "person": "tu",
+          "explanation": "Con tu, dire al presente si coniuga dici."
+        }
+      ]
+    },
+    "band": 2
+  },
+  {
+    "id": "sent-pres-112",
+    "textTemplate": "Domani mattina io {slot_0} finire questo report in anticipo.",
+    "primaryTense": "presente",
+    "level": 4,
+    "difficulty": 2,
+    "theme": "work_office",
+    "source": "import-revised",
+    "target": {
+      "slotId": 0,
+      "verb": "dovere",
+      "person": "io",
+      "acceptedAnswers": [
+        {
+          "text": "devo",
+          "tense": "presente",
+          "person": "io",
+          "explanation": "Con io, dovere al presente si coniuga devo."
+        },
+        {
+          "text": "debbo",
+          "tense": "presente",
+          "person": "io",
+          "explanation": "Con io, dovere al presente si coniuga debbo."
+        }
+      ]
+    },
+    "band": 2
+  },
+  {
+    "id": "sent-pres-113",
+    "textTemplate": "Tu {slot_0} venire con noi al cinema stasera se vuoi.",
+    "primaryTense": "presente",
+    "level": 5,
+    "difficulty": 2,
+    "theme": "home_lifestyle",
+    "source": "import-revised",
+    "target": {
+      "slotId": 0,
+      "verb": "potere",
+      "person": "tu",
+      "acceptedAnswers": [
+        {
+          "text": "puoi",
+          "tense": "presente",
+          "person": "tu",
+          "explanation": "Con tu, potere al presente si coniuga puoi."
+        }
+      ]
+    },
+    "band": 2
+  },
+  {
+    "id": "sent-pres-114",
+    "textTemplate": "Noi {slot_0} organizzare una festa per il compleanno di Marco.",
+    "primaryTense": "presente",
+    "level": 2,
+    "difficulty": 2,
+    "theme": "social_life",
+    "source": "import-revised",
+    "target": {
+      "slotId": 0,
+      "verb": "volere",
+      "person": "noi",
+      "acceptedAnswers": [
+        {
+          "text": "vogliamo",
+          "tense": "presente",
+          "person": "noi",
+          "explanation": "Con noi, volere al presente si coniuga vogliamo."
+        }
+      ]
+    },
+    "band": 2
+  },
+  {
+    "id": "sent-pres-115",
+    "textTemplate": "I passeggeri {slot_0} esibire il biglietto prima di salire a bordo.",
+    "primaryTense": "presente",
+    "level": 3,
+    "difficulty": 2,
+    "theme": "travel_commuting",
+    "source": "import-revised",
+    "target": {
+      "slotId": 0,
+      "verb": "dovere",
+      "person": "loro",
+      "acceptedAnswers": [
+        {
+          "text": "devono",
+          "tense": "presente",
+          "person": "loro",
+          "explanation": "Con loro, dovere al presente si coniuga devono."
+        },
+        {
+          "text": "debbono",
+          "tense": "presente",
+          "person": "loro",
+          "explanation": "Con loro, dovere al presente si coniuga debbono."
+        }
+      ]
+    },
+    "band": 2
+  },
+  {
+    "id": "sent-pres-116",
+    "textTemplate": "Cosa {slot_0} tu di questa nuova proposta di progetto?",
+    "primaryTense": "presente",
+    "level": 4,
+    "difficulty": 2,
+    "theme": "work_office",
+    "source": "import-revised",
+    "target": {
+      "slotId": 0,
+      "verb": "dire",
+      "person": "tu",
+      "acceptedAnswers": [
+        {
+          "text": "dici",
+          "tense": "presente",
+          "person": "tu",
+          "explanation": "Con tu, dire al presente si coniuga dici."
+        }
+      ]
+    },
+    "band": 2
+  },
+  {
+    "id": "sent-pres-117",
+    "textTemplate": "Voi non {slot_0} entrare in questa stanza senza permesso.",
+    "primaryTense": "presente",
+    "level": 5,
+    "difficulty": 2,
+    "theme": "daily_routine",
+    "source": "import-revised",
+    "target": {
+      "slotId": 0,
+      "verb": "potere",
+      "person": "voi",
+      "acceptedAnswers": [
+        {
+          "text": "potete",
+          "tense": "presente",
+          "person": "voi",
+          "explanation": "Con voi, potere al presente si coniuga potete."
+        }
+      ]
+    },
+    "band": 2
+  },
+  {
+    "id": "sent-pres-118",
+    "textTemplate": "Luca {slot_0} comprare un'auto nuova quest'anno.",
+    "primaryTense": "presente",
+    "level": 2,
+    "difficulty": 2,
+    "theme": "home_lifestyle",
+    "source": "import-revised",
+    "target": {
+      "slotId": 0,
+      "verb": "volere",
+      "person": "lui/lei",
+      "acceptedAnswers": [
+        {
+          "text": "vuole",
+          "tense": "presente",
+          "person": "lui/lei",
+          "explanation": "Con lui o lei, volere al presente si coniuga vuole."
+        }
+      ]
+    },
+    "band": 2
+  },
+  {
+    "id": "sent-pres-119",
+    "textTemplate": "Io {slot_0} sempre la verità ai miei amici più cari.",
+    "primaryTense": "presente",
+    "level": 3,
+    "difficulty": 2,
+    "theme": "social_life",
+    "source": "import-revised",
+    "target": {
+      "slotId": 0,
+      "verb": "dire",
+      "person": "io",
+      "acceptedAnswers": [
+        {
+          "text": "dico",
+          "tense": "presente",
+          "person": "io",
+          "explanation": "Con io, dire al presente si coniuga dico."
+        }
+      ]
+    },
+    "band": 2
+  },
+  {
+    "id": "sent-pres-120",
+    "textTemplate": "Se hai tempo, tu {slot_0} riposarti un po' nel pomeriggio.",
+    "primaryTense": "presente",
+    "level": 3,
+    "difficulty": 2,
+    "theme": "leisure",
+    "source": "import-revised",
+    "target": {
+      "slotId": 0,
+      "verb": "potere",
+      "person": "tu",
+      "acceptedAnswers": [
+        {
+          "text": "puoi",
+          "tense": "presente",
+          "person": "tu",
+          "explanation": "Con tu, potere al presente si coniuga puoi."
+        }
+      ]
+    },
+    "band": 2
+  },
+  {
+    "id": "sent-pres-121",
+    "textTemplate": "Io non {slot_0} a che ora comincia lo spettacolo stasera.",
+    "primaryTense": "presente",
+    "level": 4,
+    "difficulty": 2,
+    "theme": "social_life",
+    "source": "import-revised",
+    "target": {
+      "slotId": 0,
+      "verb": "sapere",
+      "person": "io",
+      "acceptedAnswers": [
+        {
+          "text": "so",
+          "tense": "presente",
+          "person": "io",
+          "explanation": "Con io, sapere al presente si coniuga so."
+        }
+      ]
+    },
+    "band": 2
+  },
+  {
+    "id": "sent-pres-122",
+    "textTemplate": "Come {slot_0} tu oggi dopo la lunga camminata di ieri?",
+    "primaryTense": "presente",
+    "level": 5,
+    "difficulty": 2,
+    "theme": "home_lifestyle",
+    "source": "import-revised",
+    "target": {
+      "slotId": 0,
+      "verb": "stare",
+      "person": "tu",
+      "acceptedAnswers": [
+        {
+          "text": "stai",
+          "tense": "presente",
+          "person": "tu",
+          "explanation": "Con tu, stare al presente si coniuga stai."
+        }
+      ]
+    },
+    "band": 2
+  },
+  {
+    "id": "sent-pres-123",
+    "textTemplate": "Domani sera voi {slot_0} alla festa di compleanno di Chiara?",
+    "primaryTense": "presente",
+    "level": 2,
+    "difficulty": 2,
+    "theme": "social_life",
+    "source": "import-revised",
+    "target": {
+      "slotId": 0,
+      "verb": "venire",
+      "person": "voi",
+      "acceptedAnswers": [
+        {
+          "text": "venite",
+          "tense": "presente",
+          "person": "voi",
+          "explanation": "Con voi, venire al presente si coniuga venite."
+        }
+      ]
+    },
+    "band": 2
+  },
+  {
+    "id": "sent-pres-124",
+    "textTemplate": "Di solito i miei colleghi {slot_0} dall'ufficio verso le diciotto.",
+    "primaryTense": "presente",
+    "level": 3,
+    "difficulty": 2,
+    "theme": "daily_routine",
+    "source": "import-revised",
+    "target": {
+      "slotId": 0,
+      "verb": "uscire",
+      "person": "loro",
+      "acceptedAnswers": [
+        {
+          "text": "escono",
+          "tense": "presente",
+          "person": "loro",
+          "explanation": "Con loro, uscire al presente si coniuga escono."
+        }
+      ]
+    },
+    "band": 2
+  },
+  {
+    "id": "sent-pres-125",
+    "textTemplate": "Tu {slot_0} perfettamente come risolvere questo problema informatico.",
+    "primaryTense": "presente",
+    "level": 4,
+    "difficulty": 2,
+    "theme": "work_office",
+    "source": "import-revised",
+    "target": {
+      "slotId": 0,
+      "verb": "sapere",
+      "person": "tu",
+      "acceptedAnswers": [
+        {
+          "text": "sai",
+          "tense": "presente",
+          "person": "tu",
+          "explanation": "Con tu, sapere al presente si coniuga sai."
+        }
+      ]
+    },
+    "band": 2
+  },
+  {
+    "id": "sent-pres-126",
+    "textTemplate": "Io {slot_0} molto bene quando cucino piatti tradizionali.",
+    "primaryTense": "presente",
+    "level": 5,
+    "difficulty": 2,
+    "theme": "home_lifestyle",
+    "source": "import-revised",
+    "target": {
+      "slotId": 0,
+      "verb": "stare",
+      "person": "io",
+      "acceptedAnswers": [
+        {
+          "text": "sto",
+          "tense": "presente",
+          "person": "io",
+          "explanation": "Con io, stare al presente si coniuga sto."
+        }
+      ]
+    },
+    "band": 2
+  },
+  {
+    "id": "sent-pres-127",
+    "textTemplate": "Anche tu {slot_0} con noi al concerto sabato prossimo?",
+    "primaryTense": "presente",
+    "level": 2,
+    "difficulty": 2,
+    "theme": "social_life",
+    "source": "import-revised",
+    "target": {
+      "slotId": 0,
+      "verb": "venire",
+      "person": "tu",
+      "acceptedAnswers": [
+        {
+          "text": "vieni",
+          "tense": "presente",
+          "person": "tu",
+          "explanation": "Con tu, venire al presente si coniuga vieni."
+        }
+      ]
+    },
+    "band": 2
+  },
+  {
+    "id": "sent-pres-128",
+    "textTemplate": "Quando fa bel tempo, noi {slot_0} volentieri a fare una passeggiata.",
+    "primaryTense": "presente",
+    "level": 3,
+    "difficulty": 2,
+    "theme": "leisure",
+    "source": "import-revised",
+    "target": {
+      "slotId": 0,
+      "verb": "uscire",
+      "person": "noi",
+      "acceptedAnswers": [
+        {
+          "text": "usciamo",
+          "tense": "presente",
+          "person": "noi",
+          "explanation": "Con noi, uscire al presente si coniuga usciamo."
+        }
+      ]
+    },
+    "band": 2
+  },
+  {
+    "id": "sent-pres-129",
+    "textTemplate": "I nostri clienti {slot_0} già tutti i dettagli del contratto.",
+    "primaryTense": "presente",
+    "level": 4,
+    "difficulty": 2,
+    "theme": "work_office",
+    "source": "import-revised",
+    "target": {
+      "slotId": 0,
+      "verb": "sapere",
+      "person": "loro",
+      "acceptedAnswers": [
+        {
+          "text": "sanno",
+          "tense": "presente",
+          "person": "loro",
+          "explanation": "Con loro, sapere al presente si coniuga sanno."
+        }
+      ]
+    },
+    "band": 2
+  },
+  {
+    "id": "sent-pres-130",
+    "textTemplate": "Marco {slot_0} a casa a studiare per l'esame universitario.",
+    "primaryTense": "presente",
+    "level": 4,
+    "difficulty": 2,
+    "theme": "daily_routine",
+    "source": "import-revised",
+    "target": {
+      "slotId": 0,
+      "verb": "stare",
+      "person": "lui/lei",
+      "acceptedAnswers": [
+        {
+          "text": "sta",
+          "tense": "presente",
+          "person": "lui/lei",
+          "explanation": "Con lui o lei, stare al presente si coniuga sta."
+        }
+      ]
+    },
+    "band": 2
+  },
+  {
+    "id": "sent-pres-131",
+    "textTemplate": "Durante le riunioni, io {slot_0} dei progetti in corso.",
+    "primaryTense": "presente",
+    "level": 4,
+    "difficulty": 1,
+    "theme": "work_office",
+    "source": "import-revised",
+    "target": {
+      "slotId": 0,
+      "verb": "parlare",
+      "person": "io",
+      "acceptedAnswers": [
+        {
+          "text": "parlo",
+          "tense": "presente",
+          "person": "io",
+          "explanation": "Con io, parlare al presente si coniuga parlo."
+        }
+      ]
+    },
+    "band": 1
+  },
+  {
+    "id": "sent-pres-132",
+    "textTemplate": "Stasera noi {slot_0} una pizza fatta in casa con gli amici.",
+    "primaryTense": "presente",
+    "level": 5,
+    "difficulty": 1,
+    "theme": "home_lifestyle",
+    "source": "import-revised",
+    "target": {
+      "slotId": 0,
+      "verb": "mangiare",
+      "person": "noi",
+      "acceptedAnswers": [
+        {
+          "text": "mangiamo",
+          "tense": "presente",
+          "person": "noi",
+          "explanation": "Con noi, mangiare al presente si coniuga mangiamo."
+        }
+      ]
+    },
+    "band": 2
+  },
+  {
+    "id": "sent-pres-133",
+    "textTemplate": "I miei colleghi {slot_0} in un ufficio moderno vicino al centro.",
+    "primaryTense": "presente",
+    "level": 1,
+    "difficulty": 1,
+    "theme": "work_office",
+    "source": "import-revised",
+    "target": {
+      "slotId": 0,
+      "verb": "lavorare",
+      "person": "loro",
+      "acceptedAnswers": [
+        {
+          "text": "lavorano",
+          "tense": "presente",
+          "person": "loro",
+          "explanation": "Con loro, lavorare al presente si coniuga lavorano."
+        }
+      ]
+    },
+    "band": 1
+  },
+  {
+    "id": "sent-pres-134",
+    "textTemplate": "Ogni settimana tu {slot_0} un articolo interessante per il blog.",
+    "primaryTense": "presente",
+    "level": 4,
+    "difficulty": 1,
+    "theme": "home_lifestyle",
+    "source": "import-revised",
+    "target": {
+      "slotId": 0,
+      "verb": "scrivere",
+      "person": "tu",
+      "acceptedAnswers": [
+        {
+          "text": "scrivi",
+          "tense": "presente",
+          "person": "tu",
+          "explanation": "Con tu, scrivere al presente si coniuga scrivi."
+        }
+      ]
+    },
+    "band": 1
+  },
+  {
+    "id": "sent-pres-135",
+    "textTemplate": "La direttrice {slot_0} tre lingue straniere fluentemente nel suo lavoro.",
+    "primaryTense": "presente",
+    "level": 3,
+    "difficulty": 1,
+    "theme": "work_office",
+    "source": "import-revised",
+    "target": {
+      "slotId": 0,
+      "verb": "parlare",
+      "person": "lui/lei",
+      "acceptedAnswers": [
+        {
+          "text": "parla",
+          "tense": "presente",
+          "person": "lui/lei",
+          "explanation": "Con lui o lei, parlare al presente si coniuga parla."
+        }
+      ]
+    },
+    "band": 1
+  },
+  {
+    "id": "sent-pres-136",
+    "textTemplate": "Tu {slot_0} sempre frutta fresca dopo i pasti principali.",
+    "primaryTense": "presente",
+    "level": 4,
+    "difficulty": 1,
+    "theme": "daily_routine",
+    "source": "import-revised",
+    "target": {
+      "slotId": 0,
+      "verb": "mangiare",
+      "person": "tu",
+      "acceptedAnswers": [
+        {
+          "text": "mangi",
+          "tense": "presente",
+          "person": "tu",
+          "explanation": "Con tu, mangiare al presente si coniuga mangi."
+        }
+      ]
+    },
+    "band": 1
+  },
+  {
+    "id": "sent-pres-137",
+    "textTemplate": "Voi {slot_0} troppo al computer senza fare una pausa.",
+    "primaryTense": "presente",
+    "level": 5,
+    "difficulty": 1,
+    "theme": "work_office",
+    "source": "import-revised",
+    "target": {
+      "slotId": 0,
+      "verb": "lavorare",
+      "person": "voi",
+      "acceptedAnswers": [
+        {
+          "text": "lavorate",
+          "tense": "presente",
+          "person": "voi",
+          "explanation": "Con voi, lavorare al presente si coniuga lavorate."
+        }
+      ]
+    },
+    "band": 2
+  },
+  {
+    "id": "sent-pres-138",
+    "textTemplate": "Io {slot_0} spesso email ai miei vecchi amici d'infanzia.",
+    "primaryTense": "presente",
+    "level": 4,
+    "difficulty": 1,
+    "theme": "leisure",
+    "source": "import-revised",
+    "target": {
+      "slotId": 0,
+      "verb": "scrivere",
+      "person": "io",
+      "acceptedAnswers": [
+        {
+          "text": "scrivo",
+          "tense": "presente",
+          "person": "io",
+          "explanation": "Con io, scrivere al presente si coniuga scrivo."
+        }
+      ]
+    },
+    "band": 1
+  },
+  {
+    "id": "sent-pres-139",
+    "textTemplate": "Noi {slot_0} volentieri con chiunque condivida le nostre passioni.",
+    "primaryTense": "presente",
+    "level": 2,
+    "difficulty": 1,
+    "theme": "social_life",
+    "source": "import-revised",
+    "target": {
+      "slotId": 0,
+      "verb": "parlare",
+      "person": "noi",
+      "acceptedAnswers": [
+        {
+          "text": "parliamo",
+          "tense": "presente",
+          "person": "noi",
+          "explanation": "Con noi, parlare al presente si coniuga parliamo."
+        }
+      ]
+    },
+    "band": 1
+  },
+  {
+    "id": "sent-pres-140",
+    "textTemplate": "A mezzogiorno i bambini {slot_0} la pasta alla bolognese a scuola.",
+    "primaryTense": "presente",
+    "level": 4,
+    "difficulty": 1,
+    "theme": "daily_routine",
+    "source": "import-revised",
+    "target": {
+      "slotId": 0,
+      "verb": "mangiare",
+      "person": "loro",
+      "acceptedAnswers": [
+        {
+          "text": "mangiano",
+          "tense": "presente",
+          "person": "loro",
+          "explanation": "Con loro, mangiare al presente si coniuga mangiano."
+        }
+      ]
+    },
+    "band": 1
+  },
+  {
+    "id": "sent-pres-141",
+    "textTemplate": "Durante il fine settimana, io {slot_0} romanzi storici sul divano.",
+    "primaryTense": "presente",
+    "level": 2,
+    "difficulty": 1,
+    "theme": "leisure",
+    "source": "import-revised",
+    "target": {
+      "slotId": 0,
+      "verb": "leggere",
+      "person": "io",
+      "acceptedAnswers": [
+        {
+          "text": "leggo",
+          "tense": "presente",
+          "person": "io",
+          "explanation": "Con io, leggere al presente si coniuga leggo."
+        }
+      ]
+    },
+    "band": 1
+  },
+  {
+    "id": "sent-pres-142",
+    "textTemplate": "Quando il professore spiega la lezione, gli studenti {slot_0} tutto subito.",
+    "primaryTense": "presente",
+    "level": 1,
+    "difficulty": 2,
+    "theme": "work_office",
+    "source": "import-revised",
+    "target": {
+      "slotId": 0,
+      "verb": "capire",
+      "person": "loro",
+      "acceptedAnswers": [
+        {
+          "text": "capiscono",
+          "tense": "presente",
+          "person": "loro",
+          "explanation": "Con loro, capire al presente si coniuga capiscono."
+        }
+      ]
+    },
+    "band": 2
+  },
+  {
+    "id": "sent-pres-143",
+    "textTemplate": "Dopo una lunga giornata di lavoro, tu {slot_0} almeno otto ore.",
+    "primaryTense": "presente",
+    "level": 2,
+    "difficulty": 1,
+    "theme": "daily_routine",
+    "source": "import-revised",
+    "target": {
+      "slotId": 0,
+      "verb": "dormire",
+      "person": "tu",
+      "acceptedAnswers": [
+        {
+          "text": "dormi",
+          "tense": "presente",
+          "person": "tu",
+          "explanation": "Con tu, dormire al presente si coniuga dormi."
+        }
+      ]
+    },
+    "band": 1
+  },
+  {
+    "id": "sent-pres-144",
+    "textTemplate": "Spesso noi {slot_0} in treno per visitare le città d'arte italiane.",
+    "primaryTense": "presente",
+    "level": 3,
+    "difficulty": 1,
+    "theme": "travel_commuting",
+    "source": "import-revised",
+    "target": {
+      "slotId": 0,
+      "verb": "viaggiare",
+      "person": "noi",
+      "acceptedAnswers": [
+        {
+          "text": "viaggiamo",
+          "tense": "presente",
+          "person": "noi",
+          "explanation": "Con noi, viaggiare al presente si coniuga viaggiamo."
+        }
+      ]
+    },
+    "band": 1
+  },
+  {
+    "id": "sent-pres-145",
+    "textTemplate": "Mio padre {slot_0} sempre il giornale cartaceo ogni mattina.",
+    "primaryTense": "presente",
+    "level": 2,
+    "difficulty": 1,
+    "theme": "home_lifestyle",
+    "source": "import-revised",
+    "target": {
+      "slotId": 0,
+      "verb": "leggere",
+      "person": "lui/lei",
+      "acceptedAnswers": [
+        {
+          "text": "legge",
+          "tense": "presente",
+          "person": "lui/lei",
+          "explanation": "Con lui o lei, leggere al presente si coniuga legge."
+        }
+      ]
+    },
+    "band": 1
+  },
+  {
+    "id": "sent-pres-146",
+    "textTemplate": "Tu {slot_0} sempre molto rapidamente le istruzioni tecniche.",
+    "primaryTense": "presente",
+    "level": 5,
+    "difficulty": 2,
+    "theme": "work_office",
+    "source": "import-revised",
+    "target": {
+      "slotId": 0,
+      "verb": "capire",
+      "person": "tu",
+      "acceptedAnswers": [
+        {
+          "text": "capisci",
+          "tense": "presente",
+          "person": "tu",
+          "explanation": "Con tu, capire al presente si coniuga capisci."
+        }
+      ]
+    },
+    "band": 2
+  },
+  {
+    "id": "sent-pres-147",
+    "textTemplate": "Nel fine settimana i miei gatti {slot_0} beatamente vicino alla finestra.",
+    "primaryTense": "presente",
+    "level": 1,
+    "difficulty": 1,
+    "theme": "leisure",
+    "source": "import-revised",
+    "target": {
+      "slotId": 0,
+      "verb": "dormire",
+      "person": "loro",
+      "acceptedAnswers": [
+        {
+          "text": "dormono",
+          "tense": "presente",
+          "person": "loro",
+          "explanation": "Con loro, dormire al presente si coniuga dormono."
+        }
+      ]
+    },
+    "band": 1
+  },
+  {
+    "id": "sent-pres-148",
+    "textTemplate": "Ogni estate voi {slot_0} all'estero per scoprire nuove culture.",
+    "primaryTense": "presente",
+    "level": 2,
+    "difficulty": 1,
+    "theme": "travel_commuting",
+    "source": "import-revised",
+    "target": {
+      "slotId": 0,
+      "verb": "viaggiare",
+      "person": "voi",
+      "acceptedAnswers": [
+        {
+          "text": "viaggiate",
+          "tense": "presente",
+          "person": "voi",
+          "explanation": "Con voi, viaggiare al presente si coniuga viaggiate."
+        }
+      ]
+    },
+    "band": 1
+  },
+  {
+    "id": "sent-pres-149",
+    "textTemplate": "Noi {slot_0} molti articoli scientifici per curiosità personale.",
+    "primaryTense": "presente",
+    "level": 2,
+    "difficulty": 1,
+    "theme": "leisure",
+    "source": "import-revised",
+    "target": {
+      "slotId": 0,
+      "verb": "leggere",
+      "person": "noi",
+      "acceptedAnswers": [
+        {
+          "text": "leggiamo",
+          "tense": "presente",
+          "person": "noi",
+          "explanation": "Con noi, leggere al presente si coniuga leggiamo."
+        }
+      ]
+    },
+    "band": 1
+  },
+  {
+    "id": "sent-pres-150",
+    "textTemplate": "Io {slot_0} benissimo anche quando c'è un po' di rumore intorno.",
+    "primaryTense": "presente",
+    "level": 5,
+    "difficulty": 1,
+    "theme": "daily_routine",
+    "source": "import-revised",
+    "target": {
+      "slotId": 0,
+      "verb": "dormire",
+      "person": "io",
+      "acceptedAnswers": [
+        {
+          "text": "dormo",
+          "tense": "presente",
+          "person": "io",
+          "explanation": "Con io, dormire al presente si coniuga dormo."
+        }
+      ]
+    },
+    "band": 2
+  },
+  {
+    "id": "sent-pres-151",
+    "textTemplate": "Prima di uscire di casa, io {slot_0} tutte le luci delle stanze.",
+    "primaryTense": "presente",
+    "level": 3,
+    "difficulty": 2,
+    "theme": "home_lifestyle",
+    "source": "import-revised",
+    "target": {
+      "slotId": 0,
+      "verb": "spegnere",
+      "person": "io",
+      "acceptedAnswers": [
+        {
+          "text": "spengo",
+          "tense": "presente",
+          "person": "io",
+          "explanation": "Con io, spegnere al presente si coniuga spengo."
+        }
+      ]
+    },
+    "band": 2
+  },
+  {
+    "id": "sent-pres-152",
+    "textTemplate": "Spesso noi {slot_0} dove abbiamo messo le chiavi dell'archivio.",
+    "primaryTense": "presente",
+    "level": 2,
+    "difficulty": 2,
+    "theme": "work_office",
+    "source": "import-revised",
+    "target": {
+      "slotId": 0,
+      "verb": "dimenticare",
+      "person": "noi",
+      "acceptedAnswers": [
+        {
+          "text": "dimentichiamo",
+          "tense": "presente",
+          "person": "noi",
+          "explanation": "Con noi, dimenticare al presente si coniuga dimentichiamo."
+        }
+      ]
+    },
+    "band": 2
+  },
+  {
+    "id": "sent-pres-153",
+    "textTemplate": "Tra questi due romanzi, tu quale {slot_0} leggere per primo?",
+    "primaryTense": "presente",
+    "level": 3,
+    "difficulty": 2,
+    "theme": "leisure",
+    "source": "import-revised",
+    "target": {
+      "slotId": 0,
+      "verb": "preferire",
+      "person": "tu",
+      "acceptedAnswers": [
+        {
+          "text": "preferisci",
+          "tense": "presente",
+          "person": "tu",
+          "explanation": "Con tu, preferire al presente si coniuga preferisci."
+        }
+      ]
+    },
+    "band": 2
+  },
+  {
+    "id": "sent-pres-154",
+    "textTemplate": "Nel tempo libero, i miei colleghi {slot_0} modellini di case in legno.",
+    "primaryTense": "presente",
+    "level": 4,
+    "difficulty": 2,
+    "theme": "work_office",
+    "source": "import-revised",
+    "target": {
+      "slotId": 0,
+      "verb": "costruire",
+      "person": "loro",
+      "acceptedAnswers": [
+        {
+          "text": "costruiscono",
+          "tense": "presente",
+          "person": "loro",
+          "explanation": "Con loro, costruire al presente si coniuga costruiscono."
+        }
+      ]
+    },
+    "band": 2
+  },
+  {
+    "id": "sent-pres-155",
+    "textTemplate": "Ogni lunedì mattina la segretaria {slot_0} i documenti ufficiali ai clienti.",
+    "primaryTense": "presente",
+    "level": 5,
+    "difficulty": 2,
+    "theme": "daily_routine",
+    "source": "import-revised",
+    "target": {
+      "slotId": 0,
+      "verb": "spedire",
+      "person": "lui/lei",
+      "acceptedAnswers": [
+        {
+          "text": "spedisce",
+          "tense": "presente",
+          "person": "lui/lei",
+          "explanation": "Con lui o lei, spedire al presente si coniuga spedisce."
+        }
+      ]
+    },
+    "band": 2
+  },
+  {
+    "id": "sent-pres-156",
+    "textTemplate": "Insieme noi {slot_0} sempre ogni dubbio prima di prendere decisioni.",
+    "primaryTense": "presente",
+    "level": 4,
+    "difficulty": 2,
+    "theme": "home_lifestyle",
+    "source": "import-revised",
+    "target": {
+      "slotId": 0,
+      "verb": "risolvere",
+      "person": "noi",
+      "acceptedAnswers": [
+        {
+          "text": "risolviamo",
+          "tense": "presente",
+          "person": "noi",
+          "explanation": "Con noi, risolvere al presente si coniuga risolviamo."
+        }
+      ]
+    },
+    "band": 2
+  },
+  {
+    "id": "sent-pres-157",
+    "textTemplate": "Quando viaggi in estate, tu {slot_0} tutte le luci del terrazzo?",
+    "primaryTense": "presente",
+    "level": 5,
+    "difficulty": 2,
+    "theme": "travel_commuting",
+    "source": "import-revised",
+    "target": {
+      "slotId": 0,
+      "verb": "spegnere",
+      "person": "tu",
+      "acceptedAnswers": [
+        {
+          "text": "spegni",
+          "tense": "presente",
+          "person": "tu",
+          "explanation": "Con tu, spegnere al presente si coniuga spegni."
+        }
+      ]
+    },
+    "band": 2
+  },
+  {
+    "id": "sent-pres-158",
+    "textTemplate": "Io non {slot_0} mai dove ho messo gli occhiali da sole.",
+    "primaryTense": "presente",
+    "level": 3,
+    "difficulty": 2,
+    "theme": "leisure",
+    "source": "import-revised",
+    "target": {
+      "slotId": 0,
+      "verb": "dimenticare",
+      "person": "io",
+      "acceptedAnswers": [
+        {
+          "text": "dimentico",
+          "tense": "presente",
+          "person": "io",
+          "explanation": "Con io, dimenticare al presente si coniuga dimentico."
+        }
+      ]
+    },
+    "band": 2
+  },
+  {
+    "id": "sent-pres-159",
+    "textTemplate": "I nostri amici {slot_0} di passare a trovarci domani pomeriggio.",
+    "primaryTense": "presente",
+    "level": 3,
+    "difficulty": 1,
+    "theme": "social_life",
+    "source": "import-revised",
+    "target": {
+      "slotId": 0,
+      "verb": "promettere",
+      "person": "loro",
+      "acceptedAnswers": [
+        {
+          "text": "promettono",
+          "tense": "presente",
+          "person": "loro",
+          "explanation": "Con loro, promettere al presente si coniuga promettono."
+        }
+      ]
+    },
+    "band": 1
+  },
+  {
+    "id": "sent-pres-160",
+    "textTemplate": "Tu {slot_0} sempre ogni dettaglio del progetto.",
+    "primaryTense": "presente",
+    "level": 1,
+    "difficulty": 2,
+    "theme": "work_office",
+    "source": "import-revised",
+    "target": {
+      "slotId": 0,
+      "verb": "curare",
+      "person": "tu",
+      "acceptedAnswers": [
+        {
+          "text": "curi",
+          "tense": "presente",
+          "person": "tu",
+          "explanation": "Con tu, curare al presente si coniuga curi."
+        }
+      ]
+    },
+    "band": 2
+  },
+  {
+    "id": "corpus-presente-001",
+    "textTemplate": "Nei giorni di mercato io {slot_0} prima dell'alba.",
+    "primaryTense": "presente",
+    "level": 3,
+    "difficulty": 1,
+    "theme": "vita_quotidiana",
+    "source": "authored",
+    "target": {
+      "slotId": 0,
+      "verb": "alzarsi",
+      "person": "io",
+      "acceptedAnswers": [
+        {
+          "text": "mi alzo",
+          "tense": "presente",
+          "person": "io",
+          "explanation": "Con io, alzarsi al presente si coniuga mi alzo."
+        }
+      ]
+    },
+    "band": 1
+  },
+  {
+    "id": "corpus-presente-002",
+    "textTemplate": "Tu {slot_0} subito quando suona la sveglia?",
+    "primaryTense": "presente",
+    "level": 4,
+    "difficulty": 1,
+    "theme": "vita_quotidiana",
+    "source": "authored",
+    "target": {
+      "slotId": 0,
+      "verb": "alzarsi",
+      "person": "tu",
+      "acceptedAnswers": [
+        {
+          "text": "ti alzi",
+          "tense": "presente",
+          "person": "tu",
+          "explanation": "Con tu, alzarsi al presente si coniuga ti alzi."
+        }
+      ]
+    },
+    "band": 1
+  },
+  {
+    "id": "corpus-presente-003",
+    "textTemplate": "Noi {slot_0} in piedi per salutare la nonna.",
+    "primaryTense": "presente",
+    "level": 5,
+    "difficulty": 1,
+    "theme": "vita_quotidiana",
+    "source": "authored",
+    "target": {
+      "slotId": 0,
+      "verb": "alzarsi",
+      "person": "noi",
+      "acceptedAnswers": [
+        {
+          "text": "ci alziamo",
+          "tense": "presente",
+          "person": "noi",
+          "explanation": "Con noi, alzarsi al presente si coniuga ci alziamo."
+        }
+      ]
+    },
+    "band": 1
+  },
+  {
+    "id": "corpus-presente-004",
+    "textTemplate": "I musicisti {slot_0} per ricevere gli applausi.",
+    "primaryTense": "presente",
+    "level": 3,
+    "difficulty": 1,
+    "theme": "vita_quotidiana",
+    "source": "authored",
+    "target": {
+      "slotId": 0,
+      "verb": "alzarsi",
+      "person": "loro",
+      "acceptedAnswers": [
+        {
+          "text": "si alzano",
+          "tense": "presente",
+          "person": "loro",
+          "explanation": "Con loro, alzarsi al presente si coniuga si alzano."
+        }
+      ]
+    },
+    "band": 1
+  },
+  {
+    "id": "corpus-presente-005",
+    "textTemplate": "Io {slot_0} il profumo del pane appena sfornato.",
+    "primaryTense": "presente",
+    "level": 3,
+    "difficulty": 1,
+    "theme": "vita_quotidiana",
+    "source": "authored",
+    "target": {
+      "slotId": 0,
+      "verb": "amare",
+      "person": "io",
+      "acceptedAnswers": [
+        {
+          "text": "amo",
+          "tense": "presente",
+          "person": "io",
+          "explanation": "Con io, amare al presente si coniuga amo."
+        }
+      ]
+    },
+    "band": 1
+  },
+  {
+    "id": "corpus-presente-006",
+    "textTemplate": "Mio fratello {slot_0} i film senza un lieto fine.",
+    "primaryTense": "presente",
+    "level": 4,
+    "difficulty": 1,
+    "theme": "vita_quotidiana",
+    "source": "authored",
+    "target": {
+      "slotId": 0,
+      "verb": "amare",
+      "person": "lui/lei",
+      "acceptedAnswers": [
+        {
+          "text": "ama",
+          "tense": "presente",
+          "person": "lui/lei",
+          "explanation": "Con lui o lei, amare al presente si coniuga ama."
+        }
+      ]
+    },
+    "band": 1
+  },
+  {
+    "id": "corpus-presente-007",
+    "textTemplate": "Voi {slot_0} camminare anche sotto la pioggia?",
+    "primaryTense": "presente",
+    "level": 5,
+    "difficulty": 1,
+    "theme": "vita_quotidiana",
+    "source": "authored",
+    "target": {
+      "slotId": 0,
+      "verb": "amare",
+      "person": "voi",
+      "acceptedAnswers": [
+        {
+          "text": "amate",
+          "tense": "presente",
+          "person": "voi",
+          "explanation": "Con voi, amare al presente si coniuga amate."
+        }
+      ]
+    },
+    "band": 1
+  },
+  {
+    "id": "corpus-presente-008",
+    "textTemplate": "Le mie zie {slot_0} raccontare storie di famiglia.",
+    "primaryTense": "presente",
+    "level": 1,
+    "difficulty": 1,
+    "theme": "vita_quotidiana",
+    "source": "authored",
+    "target": {
+      "slotId": 0,
+      "verb": "amare",
+      "person": "loro",
+      "acceptedAnswers": [
+        {
+          "text": "amano",
+          "tense": "presente",
+          "person": "loro",
+          "explanation": "Con loro, amare al presente si coniuga amano."
+        }
+      ]
+    },
+    "band": 1
+  },
+  {
+    "id": "corpus-presente-009",
+    "textTemplate": "Tu {slot_0} dal dentista anche se non hai male?",
+    "primaryTense": "presente",
+    "level": 3,
+    "difficulty": 2,
+    "theme": "vita_quotidiana",
+    "source": "authored",
+    "target": {
+      "slotId": 0,
+      "verb": "andare",
+      "person": "tu",
+      "acceptedAnswers": [
+        {
+          "text": "vai",
+          "tense": "presente",
+          "person": "tu",
+          "explanation": "Con tu, andare al presente si coniuga vai."
+        }
+      ]
+    },
+    "band": 2
+  },
+  {
+    "id": "corpus-presente-010",
+    "textTemplate": "La pista ciclabile {slot_0} fino alla spiaggia.",
+    "primaryTense": "presente",
+    "level": 3,
+    "difficulty": 2,
+    "theme": "vita_quotidiana",
+    "source": "authored",
+    "target": {
+      "slotId": 0,
+      "verb": "andare",
+      "person": "lui/lei",
+      "acceptedAnswers": [
+        {
+          "text": "va",
+          "tense": "presente",
+          "person": "lui/lei",
+          "explanation": "Con lui o lei, andare al presente si coniuga va."
+        }
+      ]
+    },
+    "band": 2
+  },
+  {
+    "id": "corpus-presente-011",
+    "textTemplate": "Noi {slot_0} a piedi quando il tempo è bello.",
+    "primaryTense": "presente",
+    "level": 4,
+    "difficulty": 2,
+    "theme": "vita_quotidiana",
+    "source": "authored",
+    "target": {
+      "slotId": 0,
+      "verb": "andare",
+      "person": "noi",
+      "acceptedAnswers": [
+        {
+          "text": "andiamo",
+          "tense": "presente",
+          "person": "noi",
+          "explanation": "Con noi, andare al presente si coniuga andiamo."
+        }
+      ]
+    },
+    "band": 2
+  },
+  {
+    "id": "corpus-presente-012",
+    "textTemplate": "Voi {slot_0} spesso a trovare i vostri cugini?",
+    "primaryTense": "presente",
+    "level": 5,
+    "difficulty": 2,
+    "theme": "vita_quotidiana",
+    "source": "authored",
+    "target": {
+      "slotId": 0,
+      "verb": "andare",
+      "person": "voi",
+      "acceptedAnswers": [
+        {
+          "text": "andate",
+          "tense": "presente",
+          "person": "voi",
+          "explanation": "Con voi, andare al presente si coniuga andate."
+        }
+      ]
+    },
+    "band": 2
+  },
+  {
+    "id": "corpus-presente-013",
+    "textTemplate": "Io {slot_0} questa proposta perché aiuta tutti.",
+    "primaryTense": "presente",
+    "level": 2,
+    "difficulty": 1,
+    "theme": "vita_quotidiana",
+    "source": "authored",
+    "target": {
+      "slotId": 0,
+      "verb": "approvare",
+      "person": "io",
+      "acceptedAnswers": [
+        {
+          "text": "approvo",
+          "tense": "presente",
+          "person": "io",
+          "explanation": "Con io, approvare al presente si coniuga approvo."
+        }
+      ]
+    },
+    "band": 1
+  },
+  {
+    "id": "corpus-presente-014",
+    "textTemplate": "Tu {slot_0} la scelta di chiudere la strada alle auto?",
+    "primaryTense": "presente",
+    "level": 3,
+    "difficulty": 1,
+    "theme": "vita_quotidiana",
+    "source": "authored",
+    "target": {
+      "slotId": 0,
+      "verb": "approvare",
+      "person": "tu",
+      "acceptedAnswers": [
+        {
+          "text": "approvi",
+          "tense": "presente",
+          "person": "tu",
+          "explanation": "Con tu, approvare al presente si coniuga approvi."
+        }
+      ]
+    },
+    "band": 1
+  },
+  {
+    "id": "corpus-presente-015",
+    "textTemplate": "Il comune {slot_0} il progetto per la nuova biblioteca.",
+    "primaryTense": "presente",
+    "level": 4,
+    "difficulty": 1,
+    "theme": "vita_quotidiana",
+    "source": "authored",
+    "target": {
+      "slotId": 0,
+      "verb": "approvare",
+      "person": "lui/lei",
+      "acceptedAnswers": [
+        {
+          "text": "approva",
+          "tense": "presente",
+          "person": "lui/lei",
+          "explanation": "Con lui o lei, approvare al presente si coniuga approva."
+        }
+      ]
+    },
+    "band": 1
+  },
+  {
+    "id": "corpus-presente-016",
+    "textTemplate": "I soci {slot_0} il bilancio durante l'assemblea.",
+    "primaryTense": "presente",
+    "level": 5,
+    "difficulty": 1,
+    "theme": "vita_quotidiana",
+    "source": "authored",
+    "target": {
+      "slotId": 0,
+      "verb": "approvare",
+      "person": "loro",
+      "acceptedAnswers": [
+        {
+          "text": "approvano",
+          "tense": "presente",
+          "person": "loro",
+          "explanation": "Con loro, approvare al presente si coniuga approvano."
+        }
+      ]
+    },
+    "band": 1
+  },
+  {
+    "id": "corpus-presente-017",
+    "textTemplate": "Io {slot_0} le finestre per cambiare aria.",
+    "primaryTense": "presente",
+    "level": 2,
+    "difficulty": 2,
+    "theme": "vita_quotidiana",
+    "source": "authored",
+    "target": {
+      "slotId": 0,
+      "verb": "aprire",
+      "person": "io",
+      "acceptedAnswers": [
+        {
+          "text": "apro",
+          "tense": "presente",
+          "person": "io",
+          "explanation": "Con io, aprire al presente si coniuga apro."
+        }
+      ]
+    },
+    "band": 2
+  },
+  {
+    "id": "corpus-presente-018",
+    "textTemplate": "Tu {slot_0} il bar anche nei giorni festivi?",
+    "primaryTense": "presente",
+    "level": 3,
+    "difficulty": 2,
+    "theme": "vita_quotidiana",
+    "source": "authored",
+    "target": {
+      "slotId": 0,
+      "verb": "aprire",
+      "person": "tu",
+      "acceptedAnswers": [
+        {
+          "text": "apri",
+          "tense": "presente",
+          "person": "tu",
+          "explanation": "Con tu, aprire al presente si coniuga apri."
+        }
+      ]
+    },
+    "band": 2
+  },
+  {
+    "id": "corpus-presente-019",
+    "textTemplate": "Noi {slot_0} le lettere solo dopo colazione.",
+    "primaryTense": "presente",
+    "level": 4,
+    "difficulty": 2,
+    "theme": "vita_quotidiana",
+    "source": "authored",
+    "target": {
+      "slotId": 0,
+      "verb": "aprire",
+      "person": "noi",
+      "acceptedAnswers": [
+        {
+          "text": "apriamo",
+          "tense": "presente",
+          "person": "noi",
+          "explanation": "Con noi, aprire al presente si coniuga apriamo."
+        }
+      ]
+    },
+    "band": 2
+  },
+  {
+    "id": "corpus-presente-020",
+    "textTemplate": "I negozi del centro {slot_0} più tardi la domenica.",
+    "primaryTense": "presente",
+    "level": 4,
+    "difficulty": 2,
+    "theme": "vita_quotidiana",
+    "source": "authored",
+    "target": {
+      "slotId": 0,
+      "verb": "aprire",
+      "person": "loro",
+      "acceptedAnswers": [
+        {
+          "text": "aprono",
+          "tense": "presente",
+          "person": "loro",
+          "explanation": "Con loro, aprire al presente si coniuga aprono."
+        }
+      ]
+    },
+    "band": 2
+  },
+  {
+    "id": "corpus-presente-021",
+    "textTemplate": "Tu {slot_0} sempre proprio quando il caffè è pronto.",
+    "primaryTense": "presente",
+    "level": 1,
+    "difficulty": 1,
+    "theme": "vita_quotidiana",
+    "source": "authored",
+    "target": {
+      "slotId": 0,
+      "verb": "arrivare",
+      "person": "tu",
+      "acceptedAnswers": [
+        {
+          "text": "arrivi",
+          "tense": "presente",
+          "person": "tu",
+          "explanation": "Con tu, arrivare al presente si coniuga arrivi."
+        }
+      ]
+    },
+    "band": 1
+  },
+  {
+    "id": "corpus-presente-022",
+    "textTemplate": "L'autobus {slot_0} sul lato opposto della piazza.",
+    "primaryTense": "presente",
+    "level": 2,
+    "difficulty": 1,
+    "theme": "vita_quotidiana",
+    "source": "authored",
+    "target": {
+      "slotId": 0,
+      "verb": "arrivare",
+      "person": "lui/lei",
+      "acceptedAnswers": [
+        {
+          "text": "arriva",
+          "tense": "presente",
+          "person": "lui/lei",
+          "explanation": "Con lui o lei, arrivare al presente si coniuga arriva."
+        }
+      ]
+    },
+    "band": 1
+  },
+  {
+    "id": "corpus-presente-023",
+    "textTemplate": "Noi {slot_0} fino al rifugio senza fermarci.",
+    "primaryTense": "presente",
+    "level": 3,
+    "difficulty": 1,
+    "theme": "vita_quotidiana",
+    "source": "authored",
+    "target": {
+      "slotId": 0,
+      "verb": "arrivare",
+      "person": "noi",
+      "acceptedAnswers": [
+        {
+          "text": "arriviamo",
+          "tense": "presente",
+          "person": "noi",
+          "explanation": "Con noi, arrivare al presente si coniuga arriviamo."
+        }
+      ]
+    },
+    "band": 1
+  },
+  {
+    "id": "corpus-presente-024",
+    "textTemplate": "Voi {slot_0} da una città grande o da un paese?",
+    "primaryTense": "presente",
+    "level": 4,
+    "difficulty": 1,
+    "theme": "vita_quotidiana",
+    "source": "authored",
+    "target": {
+      "slotId": 0,
+      "verb": "arrivare",
+      "person": "voi",
+      "acceptedAnswers": [
+        {
+          "text": "arrivate",
+          "tense": "presente",
+          "person": "voi",
+          "explanation": "Con voi, arrivare al presente si coniuga arrivate."
+        }
+      ]
+    },
+    "band": 1
+  },
+  {
+    "id": "corpus-presente-025",
+    "textTemplate": "Io {slot_0} le notizie mentre preparo lo zaino.",
+    "primaryTense": "presente",
+    "level": 5,
+    "difficulty": 1,
+    "theme": "vita_quotidiana",
+    "source": "authored",
+    "target": {
+      "slotId": 0,
+      "verb": "ascoltare",
+      "person": "io",
+      "acceptedAnswers": [
+        {
+          "text": "ascolto",
+          "tense": "presente",
+          "person": "io",
+          "explanation": "Con io, ascoltare al presente si coniuga ascolto."
+        }
+      ]
+    },
+    "band": 1
+  },
+  {
+    "id": "corpus-presente-026",
+    "textTemplate": "Il cane {slot_0} la voce del padrone al telefono.",
+    "primaryTense": "presente",
+    "level": 1,
+    "difficulty": 1,
+    "theme": "vita_quotidiana",
+    "source": "authored",
+    "target": {
+      "slotId": 0,
+      "verb": "ascoltare",
+      "person": "lui/lei",
+      "acceptedAnswers": [
+        {
+          "text": "ascolta",
+          "tense": "presente",
+          "person": "lui/lei",
+          "explanation": "Con lui o lei, ascoltare al presente si coniuga ascolta."
+        }
+      ]
+    },
+    "band": 1
+  },
+  {
+    "id": "corpus-presente-027",
+    "textTemplate": "Noi {slot_0} il rumore delle onde dalla terrazza.",
+    "primaryTense": "presente",
+    "level": 2,
+    "difficulty": 1,
+    "theme": "vita_quotidiana",
+    "source": "authored",
+    "target": {
+      "slotId": 0,
+      "verb": "ascoltare",
+      "person": "noi",
+      "acceptedAnswers": [
+        {
+          "text": "ascoltiamo",
+          "tense": "presente",
+          "person": "noi",
+          "explanation": "Con noi, ascoltare al presente si coniuga ascoltiamo."
+        }
+      ]
+    },
+    "band": 1
+  },
+  {
+    "id": "corpus-presente-028",
+    "textTemplate": "Gli alunni {slot_0} la guida senza interromperla.",
+    "primaryTense": "presente",
+    "level": 3,
+    "difficulty": 1,
+    "theme": "vita_quotidiana",
+    "source": "authored",
+    "target": {
+      "slotId": 0,
+      "verb": "ascoltare",
+      "person": "loro",
+      "acceptedAnswers": [
+        {
+          "text": "ascoltano",
+          "tense": "presente",
+          "person": "loro",
+          "explanation": "Con loro, ascoltare al presente si coniuga ascoltano."
+        }
+      ]
+    },
+    "band": 1
+  },
+  {
+    "id": "corpus-presente-029",
+    "textTemplate": "Io {slot_0} il mio turno vicino alla porta.",
+    "primaryTense": "presente",
+    "level": 4,
+    "difficulty": 1,
+    "theme": "vita_quotidiana",
+    "source": "authored",
+    "target": {
+      "slotId": 0,
+      "verb": "aspettare",
+      "person": "io",
+      "acceptedAnswers": [
+        {
+          "text": "aspetto",
+          "tense": "presente",
+          "person": "io",
+          "explanation": "Con io, aspettare al presente si coniuga aspetto."
+        }
+      ]
+    },
+    "band": 1
+  },
+  {
+    "id": "corpus-presente-030",
+    "textTemplate": "Tu {slot_0} qualcuno o sei qui per il concerto?",
+    "primaryTense": "presente",
+    "level": 1,
+    "difficulty": 1,
+    "theme": "vita_quotidiana",
+    "source": "authored",
+    "target": {
+      "slotId": 0,
+      "verb": "aspettare",
+      "person": "tu",
+      "acceptedAnswers": [
+        {
+          "text": "aspetti",
+          "tense": "presente",
+          "person": "tu",
+          "explanation": "Con tu, aspettare al presente si coniuga aspetti."
+        }
+      ]
+    },
+    "band": 1
+  },
+  {
+    "id": "corpus-presente-031",
+    "textTemplate": "Voi {slot_0} il semaforo verde prima di attraversare.",
+    "primaryTense": "presente",
+    "level": 2,
+    "difficulty": 1,
+    "theme": "vita_quotidiana",
+    "source": "authored",
+    "target": {
+      "slotId": 0,
+      "verb": "aspettare",
+      "person": "voi",
+      "acceptedAnswers": [
+        {
+          "text": "aspettate",
+          "tense": "presente",
+          "person": "voi",
+          "explanation": "Con voi, aspettare al presente si coniuga aspettate."
+        }
+      ]
+    },
+    "band": 1
+  },
+  {
+    "id": "corpus-presente-032",
+    "textTemplate": "I bambini {slot_0} con impazienza la prima neve.",
+    "primaryTense": "presente",
+    "level": 3,
+    "difficulty": 1,
+    "theme": "vita_quotidiana",
+    "source": "authored",
+    "target": {
+      "slotId": 0,
+      "verb": "aspettare",
+      "person": "loro",
+      "acceptedAnswers": [
+        {
+          "text": "aspettano",
+          "tense": "presente",
+          "person": "loro",
+          "explanation": "Con loro, aspettare al presente si coniuga aspettano."
+        }
+      ]
+    },
+    "band": 1
+  },
+  {
+    "id": "corpus-presente-033",
+    "textTemplate": "Io {slot_0} ancora la chiave della vecchia casa.",
+    "primaryTense": "presente",
+    "level": 4,
+    "difficulty": 2,
+    "theme": "vita_quotidiana",
+    "source": "authored",
+    "target": {
+      "slotId": 0,
+      "verb": "avere",
+      "person": "io",
+      "acceptedAnswers": [
+        {
+          "text": "ho",
+          "tense": "presente",
+          "person": "io",
+          "explanation": "Con io, avere al presente si coniuga ho."
+        }
+      ]
+    },
+    "band": 2
+  },
+  {
+    "id": "corpus-presente-034",
+    "textTemplate": "Tu {slot_0} un sacchetto per queste mele?",
+    "primaryTense": "presente",
+    "level": 5,
+    "difficulty": 2,
+    "theme": "vita_quotidiana",
+    "source": "authored",
+    "target": {
+      "slotId": 0,
+      "verb": "avere",
+      "person": "tu",
+      "acceptedAnswers": [
+        {
+          "text": "hai",
+          "tense": "presente",
+          "person": "tu",
+          "explanation": "Con tu, avere al presente si coniuga hai."
+        }
+      ]
+    },
+    "band": 2
+  },
+  {
+    "id": "corpus-presente-035",
+    "textTemplate": "Questa giacca {slot_0} due tasche interne.",
+    "primaryTense": "presente",
+    "level": 2,
+    "difficulty": 2,
+    "theme": "vita_quotidiana",
+    "source": "authored",
+    "target": {
+      "slotId": 0,
+      "verb": "avere",
+      "person": "lui/lei",
+      "acceptedAnswers": [
+        {
+          "text": "ha",
+          "tense": "presente",
+          "person": "lui/lei",
+          "explanation": "Con lui o lei, avere al presente si coniuga ha."
+        }
+      ]
+    },
+    "band": 2
+  },
+  {
+    "id": "corpus-presente-036",
+    "textTemplate": "Noi {slot_0} fame dopo la passeggiata.",
+    "primaryTense": "presente",
+    "level": 3,
+    "difficulty": 2,
+    "theme": "vita_quotidiana",
+    "source": "authored",
+    "target": {
+      "slotId": 0,
+      "verb": "avere",
+      "person": "noi",
+      "acceptedAnswers": [
+        {
+          "text": "abbiamo",
+          "tense": "presente",
+          "person": "noi",
+          "explanation": "Con noi, avere al presente si coniuga abbiamo."
+        }
+      ]
+    },
+    "band": 2
+  },
+  {
+    "id": "corpus-presente-037",
+    "textTemplate": "Io {slot_0} il tè senza zucchero.",
+    "primaryTense": "presente",
+    "level": 4,
+    "difficulty": 2,
+    "theme": "vita_quotidiana",
+    "source": "authored",
+    "target": {
+      "slotId": 0,
+      "verb": "bere",
+      "person": "io",
+      "acceptedAnswers": [
+        {
+          "text": "bevo",
+          "tense": "presente",
+          "person": "io",
+          "explanation": "Con io, bere al presente si coniuga bevo."
+        }
+      ]
+    },
+    "band": 2
+  },
+  {
+    "id": "corpus-presente-038",
+    "textTemplate": "Il gatto {slot_0} solo dalla ciotola blu.",
+    "primaryTense": "presente",
+    "level": 5,
+    "difficulty": 2,
+    "theme": "vita_quotidiana",
+    "source": "authored",
+    "target": {
+      "slotId": 0,
+      "verb": "bere",
+      "person": "lui/lei",
+      "acceptedAnswers": [
+        {
+          "text": "beve",
+          "tense": "presente",
+          "person": "lui/lei",
+          "explanation": "Con lui o lei, bere al presente si coniuga beve."
+        }
+      ]
+    },
+    "band": 2
+  },
+  {
+    "id": "corpus-presente-039",
+    "textTemplate": "Voi {slot_0} abbastanza acqua durante la corsa?",
+    "primaryTense": "presente",
+    "level": 2,
+    "difficulty": 2,
+    "theme": "vita_quotidiana",
+    "source": "authored",
+    "target": {
+      "slotId": 0,
+      "verb": "bere",
+      "person": "voi",
+      "acceptedAnswers": [
+        {
+          "text": "bevete",
+          "tense": "presente",
+          "person": "voi",
+          "explanation": "Con voi, bere al presente si coniuga bevete."
+        }
+      ]
+    },
+    "band": 2
+  },
+  {
+    "id": "corpus-presente-040",
+    "textTemplate": "I miei amici {slot_0} una tisana prima di dormire.",
+    "primaryTense": "presente",
+    "level": 2,
+    "difficulty": 2,
+    "theme": "vita_quotidiana",
+    "source": "authored",
+    "target": {
+      "slotId": 0,
+      "verb": "bere",
+      "person": "loro",
+      "acceptedAnswers": [
+        {
+          "text": "bevono",
+          "tense": "presente",
+          "person": "loro",
+          "explanation": "Con loro, bere al presente si coniuga bevono."
+        }
+      ]
+    },
+    "band": 2
+  },
+  {
+    "id": "corpus-presente-041",
+    "textTemplate": "Tu {slot_0} cosa significa questo cartello?",
+    "primaryTense": "presente",
+    "level": 3,
+    "difficulty": 1,
+    "theme": "vita_quotidiana",
+    "source": "authored",
+    "target": {
+      "slotId": 0,
+      "verb": "capire",
+      "person": "tu",
+      "acceptedAnswers": [
+        {
+          "text": "capisci",
+          "tense": "presente",
+          "person": "tu",
+          "explanation": "Con tu, capire al presente si coniuga capisci."
+        }
+      ]
+    },
+    "band": 1
+  },
+  {
+    "id": "corpus-presente-042",
+    "textTemplate": "La bambina {slot_0} già molte parole in italiano.",
+    "primaryTense": "presente",
+    "level": 4,
+    "difficulty": 1,
+    "theme": "vita_quotidiana",
+    "source": "authored",
+    "target": {
+      "slotId": 0,
+      "verb": "capire",
+      "person": "lui/lei",
+      "acceptedAnswers": [
+        {
+          "text": "capisce",
+          "tense": "presente",
+          "person": "lui/lei",
+          "explanation": "Con lui o lei, capire al presente si coniuga capisce."
+        }
+      ]
+    },
+    "band": 1
+  },
+  {
+    "id": "corpus-presente-043",
+    "textTemplate": "Noi {slot_0} il problema, ma non sappiamo risolverlo.",
+    "primaryTense": "presente",
+    "level": 5,
+    "difficulty": 1,
+    "theme": "vita_quotidiana",
+    "source": "authored",
+    "target": {
+      "slotId": 0,
+      "verb": "capire",
+      "person": "noi",
+      "acceptedAnswers": [
+        {
+          "text": "capiamo",
+          "tense": "presente",
+          "person": "noi",
+          "explanation": "Con noi, capire al presente si coniuga capiamo."
+        }
+      ]
+    },
+    "band": 1
+  },
+  {
+    "id": "corpus-presente-044",
+    "textTemplate": "Voi {slot_0} la differenza tra queste due tariffe?",
+    "primaryTense": "presente",
+    "level": 1,
+    "difficulty": 1,
+    "theme": "vita_quotidiana",
+    "source": "authored",
+    "target": {
+      "slotId": 0,
+      "verb": "capire",
+      "person": "voi",
+      "acceptedAnswers": [
+        {
+          "text": "capite",
+          "tense": "presente",
+          "person": "voi",
+          "explanation": "Con voi, capire al presente si coniuga capite."
+        }
+      ]
+    },
+    "band": 1
+  },
+  {
+    "id": "corpus-presente-045",
+    "textTemplate": "Io {slot_0} una mensola con il legno avanzato.",
+    "primaryTense": "presente",
+    "level": 2,
+    "difficulty": 1,
+    "theme": "vita_quotidiana",
+    "source": "authored",
+    "target": {
+      "slotId": 0,
+      "verb": "costruire",
+      "person": "io",
+      "acceptedAnswers": [
+        {
+          "text": "costruisco",
+          "tense": "presente",
+          "person": "io",
+          "explanation": "Con io, costruire al presente si coniuga costruisco."
+        }
+      ]
+    },
+    "band": 1
+  },
+  {
+    "id": "corpus-presente-046",
+    "textTemplate": "Tu {slot_0} ancora modellini di navi?",
+    "primaryTense": "presente",
+    "level": 3,
+    "difficulty": 1,
+    "theme": "vita_quotidiana",
+    "source": "authored",
+    "target": {
+      "slotId": 0,
+      "verb": "costruire",
+      "person": "tu",
+      "acceptedAnswers": [
+        {
+          "text": "costruisci",
+          "tense": "presente",
+          "person": "tu",
+          "explanation": "Con tu, costruire al presente si coniuga costruisci."
+        }
+      ]
+    },
+    "band": 1
+  },
+  {
+    "id": "corpus-presente-047",
+    "textTemplate": "Noi {slot_0} un piccolo riparo per gli uccelli.",
+    "primaryTense": "presente",
+    "level": 4,
+    "difficulty": 1,
+    "theme": "vita_quotidiana",
+    "source": "authored",
+    "target": {
+      "slotId": 0,
+      "verb": "costruire",
+      "person": "noi",
+      "acceptedAnswers": [
+        {
+          "text": "costruiamo",
+          "tense": "presente",
+          "person": "noi",
+          "explanation": "Con noi, costruire al presente si coniuga costruiamo."
+        }
+      ]
+    },
+    "band": 1
+  },
+  {
+    "id": "corpus-presente-048",
+    "textTemplate": "Gli operai {slot_0} un passaggio sicuro per i pedoni.",
+    "primaryTense": "presente",
+    "level": 5,
+    "difficulty": 1,
+    "theme": "vita_quotidiana",
+    "source": "authored",
+    "target": {
+      "slotId": 0,
+      "verb": "costruire",
+      "person": "loro",
+      "acceptedAnswers": [
+        {
+          "text": "costruiscono",
+          "tense": "presente",
+          "person": "loro",
+          "explanation": "Con loro, costruire al presente si coniuga costruiscono."
+        }
+      ]
+    },
+    "band": 1
+  },
+  {
+    "id": "corpus-presente-049",
+    "textTemplate": "Io {slot_0} poco quando sono da solo.",
+    "primaryTense": "presente",
+    "level": 1,
+    "difficulty": 1,
+    "theme": "vita_quotidiana",
+    "source": "authored",
+    "target": {
+      "slotId": 0,
+      "verb": "cucinare",
+      "person": "io",
+      "acceptedAnswers": [
+        {
+          "text": "cucino",
+          "tense": "presente",
+          "person": "io",
+          "explanation": "Con io, cucinare al presente si coniuga cucino."
+        }
+      ]
+    },
+    "band": 1
+  },
+  {
+    "id": "corpus-presente-050",
+    "textTemplate": "Nostra zia {slot_0} il pesce al forno con le patate.",
+    "primaryTense": "presente",
+    "level": 3,
+    "difficulty": 1,
+    "theme": "vita_quotidiana",
+    "source": "authored",
+    "target": {
+      "slotId": 0,
+      "verb": "cucinare",
+      "person": "lui/lei",
+      "acceptedAnswers": [
+        {
+          "text": "cucina",
+          "tense": "presente",
+          "person": "lui/lei",
+          "explanation": "Con lui o lei, cucinare al presente si coniuga cucina."
+        }
+      ]
+    },
+    "band": 1
+  },
+  {
+    "id": "corpus-presente-051",
+    "textTemplate": "Voi {slot_0} insieme oppure vi alternate?",
+    "primaryTense": "presente",
+    "level": 4,
+    "difficulty": 1,
+    "theme": "vita_quotidiana",
+    "source": "authored",
+    "target": {
+      "slotId": 0,
+      "verb": "cucinare",
+      "person": "voi",
+      "acceptedAnswers": [
+        {
+          "text": "cucinate",
+          "tense": "presente",
+          "person": "voi",
+          "explanation": "Con voi, cucinare al presente si coniuga cucinate."
+        }
+      ]
+    },
+    "band": 1
+  },
+  {
+    "id": "corpus-presente-052",
+    "textTemplate": "I ragazzi {slot_0} per raccogliere fondi per la scuola.",
+    "primaryTense": "presente",
+    "level": 5,
+    "difficulty": 1,
+    "theme": "vita_quotidiana",
+    "source": "authored",
+    "target": {
+      "slotId": 0,
+      "verb": "cucinare",
+      "person": "loro",
+      "acceptedAnswers": [
+        {
+          "text": "cucinano",
+          "tense": "presente",
+          "person": "loro",
+          "explanation": "Con loro, cucinare al presente si coniuga cucinano."
+        }
+      ]
+    },
+    "band": 1
+  },
+  {
+    "id": "corpus-presente-053",
+    "textTemplate": "Tu {slot_0} le piante del balcone con molta pazienza.",
+    "primaryTense": "presente",
+    "level": 1,
+    "difficulty": 1,
+    "theme": "vita_quotidiana",
+    "source": "authored",
+    "target": {
+      "slotId": 0,
+      "verb": "curare",
+      "person": "tu",
+      "acceptedAnswers": [
+        {
+          "text": "curi",
+          "tense": "presente",
+          "person": "tu",
+          "explanation": "Con tu, curare al presente si coniuga curi."
+        }
+      ]
+    },
+    "band": 1
+  },
+  {
+    "id": "corpus-presente-054",
+    "textTemplate": "Il veterinario {slot_0} anche gli animali selvatici.",
+    "primaryTense": "presente",
+    "level": 2,
+    "difficulty": 1,
+    "theme": "vita_quotidiana",
+    "source": "authored",
+    "target": {
+      "slotId": 0,
+      "verb": "curare",
+      "person": "lui/lei",
+      "acceptedAnswers": [
+        {
+          "text": "cura",
+          "tense": "presente",
+          "person": "lui/lei",
+          "explanation": "Con lui o lei, curare al presente si coniuga cura."
+        }
+      ]
+    },
+    "band": 1
+  },
+  {
+    "id": "corpus-presente-055",
+    "textTemplate": "Noi {slot_0} il giardino condiviso del palazzo.",
+    "primaryTense": "presente",
+    "level": 3,
+    "difficulty": 1,
+    "theme": "vita_quotidiana",
+    "source": "authored",
+    "target": {
+      "slotId": 0,
+      "verb": "curare",
+      "person": "noi",
+      "acceptedAnswers": [
+        {
+          "text": "curiamo",
+          "tense": "presente",
+          "person": "noi",
+          "explanation": "Con noi, curare al presente si coniuga curiamo."
+        }
+      ]
+    },
+    "band": 1
+  },
+  {
+    "id": "corpus-presente-056",
+    "textTemplate": "Gli infermieri {slot_0} i pazienti con attenzione.",
+    "primaryTense": "presente",
+    "level": 4,
+    "difficulty": 1,
+    "theme": "vita_quotidiana",
+    "source": "authored",
+    "target": {
+      "slotId": 0,
+      "verb": "curare",
+      "person": "loro",
+      "acceptedAnswers": [
+        {
+          "text": "curano",
+          "tense": "presente",
+          "person": "loro",
+          "explanation": "Con loro, curare al presente si coniuga curano."
+        }
+      ]
+    },
+    "band": 1
+  },
+  {
+    "id": "corpus-presente-057",
+    "textTemplate": "Io {slot_0} sempre la borsa della spesa in macchina.",
+    "primaryTense": "presente",
+    "level": 5,
+    "difficulty": 1,
+    "theme": "vita_quotidiana",
+    "source": "authored",
+    "target": {
+      "slotId": 0,
+      "verb": "dimenticare",
+      "person": "io",
+      "acceptedAnswers": [
+        {
+          "text": "dimentico",
+          "tense": "presente",
+          "person": "io",
+          "explanation": "Con io, dimenticare al presente si coniuga dimentico."
+        }
+      ]
+    },
+    "band": 1
+  },
+  {
+    "id": "corpus-presente-058",
+    "textTemplate": "Tu {slot_0} mai il compleanno dei tuoi amici?",
+    "primaryTense": "presente",
+    "level": 1,
+    "difficulty": 1,
+    "theme": "vita_quotidiana",
+    "source": "authored",
+    "target": {
+      "slotId": 0,
+      "verb": "dimenticare",
+      "person": "tu",
+      "acceptedAnswers": [
+        {
+          "text": "dimentichi",
+          "tense": "presente",
+          "person": "tu",
+          "explanation": "Con tu, dimenticare al presente si coniuga dimentichi."
+        }
+      ]
+    },
+    "band": 1
+  },
+  {
+    "id": "corpus-presente-059",
+    "textTemplate": "Noi {slot_0} facilmente i nomi, ma ricordiamo i volti.",
+    "primaryTense": "presente",
+    "level": 2,
+    "difficulty": 1,
+    "theme": "vita_quotidiana",
+    "source": "authored",
+    "target": {
+      "slotId": 0,
+      "verb": "dimenticare",
+      "person": "noi",
+      "acceptedAnswers": [
+        {
+          "text": "dimentichiamo",
+          "tense": "presente",
+          "person": "noi",
+          "explanation": "Con noi, dimenticare al presente si coniuga dimentichiamo."
+        }
+      ]
+    },
+    "band": 1
+  },
+  {
+    "id": "corpus-presente-060",
+    "textTemplate": "Voi {slot_0} di chiudere il cancello quando uscite.",
+    "primaryTense": "presente",
+    "level": 4,
+    "difficulty": 1,
+    "theme": "vita_quotidiana",
+    "source": "authored",
+    "target": {
+      "slotId": 0,
+      "verb": "dimenticare",
+      "person": "voi",
+      "acceptedAnswers": [
+        {
+          "text": "dimenticate",
+          "tense": "presente",
+          "person": "voi",
+          "explanation": "Con voi, dimenticare al presente si coniuga dimenticate."
+        }
+      ]
+    },
+    "band": 1
+  },
+  {
+    "id": "corpus-presente-061",
+    "textTemplate": "Io {slot_0} di sì solo quando sono davvero convinto.",
+    "primaryTense": "presente",
+    "level": 5,
+    "difficulty": 2,
+    "theme": "vita_quotidiana",
+    "source": "authored",
+    "target": {
+      "slotId": 0,
+      "verb": "dire",
+      "person": "io",
+      "acceptedAnswers": [
+        {
+          "text": "dico",
+          "tense": "presente",
+          "person": "io",
+          "explanation": "Con io, dire al presente si coniuga dico."
+        }
+      ]
+    },
+    "band": 2
+  },
+  {
+    "id": "corpus-presente-062",
+    "textTemplate": "L'etichetta {slot_0} di lavare il maglione a mano.",
+    "primaryTense": "presente",
+    "level": 2,
+    "difficulty": 2,
+    "theme": "vita_quotidiana",
+    "source": "authored",
+    "target": {
+      "slotId": 0,
+      "verb": "dire",
+      "person": "lui/lei",
+      "acceptedAnswers": [
+        {
+          "text": "dice",
+          "tense": "presente",
+          "person": "lui/lei",
+          "explanation": "Con lui o lei, dire al presente si coniuga dice."
+        }
+      ]
+    },
+    "band": 2
+  },
+  {
+    "id": "corpus-presente-063",
+    "textTemplate": "Noi {slot_0} grazie anche per i piccoli gesti.",
+    "primaryTense": "presente",
+    "level": 3,
+    "difficulty": 2,
+    "theme": "vita_quotidiana",
+    "source": "authored",
+    "target": {
+      "slotId": 0,
+      "verb": "dire",
+      "person": "noi",
+      "acceptedAnswers": [
+        {
+          "text": "diciamo",
+          "tense": "presente",
+          "person": "noi",
+          "explanation": "Con noi, dire al presente si coniuga diciamo."
+        }
+      ]
+    },
+    "band": 2
+  },
+  {
+    "id": "corpus-presente-064",
+    "textTemplate": "I vicini {slot_0} che il quartiere è molto tranquillo.",
+    "primaryTense": "presente",
+    "level": 4,
+    "difficulty": 2,
+    "theme": "vita_quotidiana",
+    "source": "authored",
+    "target": {
+      "slotId": 0,
+      "verb": "dire",
+      "person": "loro",
+      "acceptedAnswers": [
+        {
+          "text": "dicono",
+          "tense": "presente",
+          "person": "loro",
+          "explanation": "Con loro, dire al presente si coniuga dicono."
+        }
+      ]
+    },
+    "band": 2
+  },
+  {
+    "id": "corpus-presente-065",
+    "textTemplate": "Tu {slot_0} meglio con la finestra aperta?",
+    "primaryTense": "presente",
+    "level": 4,
+    "difficulty": 1,
+    "theme": "vita_quotidiana",
+    "source": "authored",
+    "target": {
+      "slotId": 0,
+      "verb": "dormire",
+      "person": "tu",
+      "acceptedAnswers": [
+        {
+          "text": "dormi",
+          "tense": "presente",
+          "person": "tu",
+          "explanation": "Con tu, dormire al presente si coniuga dormi."
+        }
+      ]
+    },
+    "band": 1
+  },
+  {
+    "id": "corpus-presente-066",
+    "textTemplate": "Il bambino {slot_0} anche se fuori c'è rumore.",
+    "primaryTense": "presente",
+    "level": 5,
+    "difficulty": 1,
+    "theme": "vita_quotidiana",
+    "source": "authored",
+    "target": {
+      "slotId": 0,
+      "verb": "dormire",
+      "person": "lui/lei",
+      "acceptedAnswers": [
+        {
+          "text": "dorme",
+          "tense": "presente",
+          "person": "lui/lei",
+          "explanation": "Con lui o lei, dormire al presente si coniuga dorme."
+        }
+      ]
+    },
+    "band": 1
+  },
+  {
+    "id": "corpus-presente-067",
+    "textTemplate": "Noi {slot_0} in una tenda quando andiamo in montagna.",
+    "primaryTense": "presente",
+    "level": 1,
+    "difficulty": 1,
+    "theme": "vita_quotidiana",
+    "source": "authored",
+    "target": {
+      "slotId": 0,
+      "verb": "dormire",
+      "person": "noi",
+      "acceptedAnswers": [
+        {
+          "text": "dormiamo",
+          "tense": "presente",
+          "person": "noi",
+          "explanation": "Con noi, dormire al presente si coniuga dormiamo."
+        }
+      ]
+    },
+    "band": 1
+  },
+  {
+    "id": "corpus-presente-068",
+    "textTemplate": "Voi {slot_0} poco la notte prima di un viaggio?",
+    "primaryTense": "presente",
+    "level": 2,
+    "difficulty": 1,
+    "theme": "vita_quotidiana",
+    "source": "authored",
+    "target": {
+      "slotId": 0,
+      "verb": "dormire",
+      "person": "voi",
+      "acceptedAnswers": [
+        {
+          "text": "dormite",
+          "tense": "presente",
+          "person": "voi",
+          "explanation": "Con voi, dormire al presente si coniuga dormite."
+        }
+      ]
+    },
+    "band": 1
+  },
+  {
+    "id": "corpus-presente-069",
+    "textTemplate": "Io {slot_0} portare questi libri in biblioteca.",
+    "primaryTense": "presente",
+    "level": 5,
+    "difficulty": 2,
+    "theme": "vita_quotidiana",
+    "source": "authored",
+    "target": {
+      "slotId": 0,
+      "verb": "dovere",
+      "person": "io",
+      "acceptedAnswers": [
+        {
+          "text": "devo",
+          "tense": "presente",
+          "person": "io",
+          "explanation": "Con io, dovere al presente si coniuga devo."
+        },
+        {
+          "text": "debbo",
+          "tense": "presente",
+          "person": "io",
+          "explanation": "Con io, dovere al presente si coniuga debbo."
+        }
+      ]
+    },
+    "band": 2
+  },
+  {
+    "id": "corpus-presente-070",
+    "textTemplate": "Tu {slot_0} chiamare prima di venire?",
+    "primaryTense": "presente",
+    "level": 5,
+    "difficulty": 2,
+    "theme": "vita_quotidiana",
+    "source": "authored",
+    "target": {
+      "slotId": 0,
+      "verb": "dovere",
+      "person": "tu",
+      "acceptedAnswers": [
+        {
+          "text": "devi",
+          "tense": "presente",
+          "person": "tu",
+          "explanation": "Con tu, dovere al presente si coniuga devi."
+        }
+      ]
+    },
+    "band": 2
+  },
+  {
+    "id": "corpus-presente-071",
+    "textTemplate": "Il pane {slot_0} restare in forno altri dieci minuti.",
+    "primaryTense": "presente",
+    "level": 2,
+    "difficulty": 2,
+    "theme": "vita_quotidiana",
+    "source": "authored",
+    "target": {
+      "slotId": 0,
+      "verb": "dovere",
+      "person": "lui/lei",
+      "acceptedAnswers": [
+        {
+          "text": "deve",
+          "tense": "presente",
+          "person": "lui/lei",
+          "explanation": "Con lui o lei, dovere al presente si coniuga deve."
+        }
+      ]
+    },
+    "band": 2
+  },
+  {
+    "id": "corpus-presente-072",
+    "textTemplate": "Noi {slot_0} scendere alla prossima fermata.",
+    "primaryTense": "presente",
+    "level": 3,
+    "difficulty": 2,
+    "theme": "vita_quotidiana",
+    "source": "authored",
+    "target": {
+      "slotId": 0,
+      "verb": "dovere",
+      "person": "noi",
+      "acceptedAnswers": [
+        {
+          "text": "dobbiamo",
+          "tense": "presente",
+          "person": "noi",
+          "explanation": "Con noi, dovere al presente si coniuga dobbiamo."
+        }
+      ]
+    },
+    "band": 2
+  },
+  {
+    "id": "corpus-presente-073",
+    "textTemplate": "Io {slot_0} curioso di conoscere i nuovi vicini.",
+    "primaryTense": "presente",
+    "level": 4,
+    "difficulty": 2,
+    "theme": "vita_quotidiana",
+    "source": "authored",
+    "target": {
+      "slotId": 0,
+      "verb": "essere",
+      "person": "io",
+      "acceptedAnswers": [
+        {
+          "text": "sono",
+          "tense": "presente",
+          "person": "io",
+          "explanation": "Con io, essere al presente si coniuga sono."
+        }
+      ]
+    },
+    "band": 2
+  },
+  {
+    "id": "corpus-presente-074",
+    "textTemplate": "Tu {slot_0} pronto per la visita al museo?",
+    "primaryTense": "presente",
+    "level": 5,
+    "difficulty": 2,
+    "theme": "vita_quotidiana",
+    "source": "authored",
+    "target": {
+      "slotId": 0,
+      "verb": "essere",
+      "person": "tu",
+      "acceptedAnswers": [
+        {
+          "text": "sei",
+          "tense": "presente",
+          "person": "tu",
+          "explanation": "Con tu, essere al presente si coniuga sei."
+        }
+      ]
+    },
+    "band": 2
+  },
+  {
+    "id": "corpus-presente-075",
+    "textTemplate": "La farmacia {slot_0} dietro la chiesa.",
+    "primaryTense": "presente",
+    "level": 2,
+    "difficulty": 2,
+    "theme": "vita_quotidiana",
+    "source": "authored",
+    "target": {
+      "slotId": 0,
+      "verb": "essere",
+      "person": "lui/lei",
+      "acceptedAnswers": [
+        {
+          "text": "è",
+          "tense": "presente",
+          "person": "lui/lei",
+          "explanation": "Con lui o lei, essere al presente si coniuga è."
+        }
+      ]
+    },
+    "band": 2
+  },
+  {
+    "id": "corpus-presente-076",
+    "textTemplate": "Queste scarpe {slot_0} troppo strette per me.",
+    "primaryTense": "presente",
+    "level": 3,
+    "difficulty": 2,
+    "theme": "vita_quotidiana",
+    "source": "authored",
+    "target": {
+      "slotId": 0,
+      "verb": "essere",
+      "person": "loro",
+      "acceptedAnswers": [
+        {
+          "text": "sono",
+          "tense": "presente",
+          "person": "loro",
+          "explanation": "Con loro, essere al presente si coniuga sono."
+        }
+      ]
+    },
+    "band": 2
+  },
+  {
+    "id": "corpus-presente-077",
+    "textTemplate": "Io {slot_0} la fila mentre tu cerchi un tavolo.",
+    "primaryTense": "presente",
+    "level": 4,
+    "difficulty": 2,
+    "theme": "vita_quotidiana",
+    "source": "authored",
+    "target": {
+      "slotId": 0,
+      "verb": "fare",
+      "person": "io",
+      "acceptedAnswers": [
+        {
+          "text": "faccio",
+          "tense": "presente",
+          "person": "io",
+          "explanation": "Con io, fare al presente si coniuga faccio."
+        }
+      ]
+    },
+    "band": 2
+  },
+  {
+    "id": "corpus-presente-078",
+    "textTemplate": "Tu {slot_0} ancora colazione con latte e biscotti?",
+    "primaryTense": "presente",
+    "level": 5,
+    "difficulty": 2,
+    "theme": "vita_quotidiana",
+    "source": "authored",
+    "target": {
+      "slotId": 0,
+      "verb": "fare",
+      "person": "tu",
+      "acceptedAnswers": [
+        {
+          "text": "fai",
+          "tense": "presente",
+          "person": "tu",
+          "explanation": "Con tu, fare al presente si coniuga fai."
+        }
+      ]
+    },
+    "band": 2
+  },
+  {
+    "id": "corpus-presente-079",
+    "textTemplate": "Noi {slot_0} una pausa ogni due ore.",
+    "primaryTense": "presente",
+    "level": 2,
+    "difficulty": 2,
+    "theme": "vita_quotidiana",
+    "source": "authored",
+    "target": {
+      "slotId": 0,
+      "verb": "fare",
+      "person": "noi",
+      "acceptedAnswers": [
+        {
+          "text": "facciamo",
+          "tense": "presente",
+          "person": "noi",
+          "explanation": "Con noi, fare al presente si coniuga facciamo."
+        }
+      ]
+    },
+    "band": 2
+  },
+  {
+    "id": "corpus-presente-080",
+    "textTemplate": "Voi {slot_0} parte del gruppo di lettura?",
+    "primaryTense": "presente",
+    "level": 2,
+    "difficulty": 2,
+    "theme": "vita_quotidiana",
+    "source": "authored",
+    "target": {
+      "slotId": 0,
+      "verb": "fare",
+      "person": "voi",
+      "acceptedAnswers": [
+        {
+          "text": "fate",
+          "tense": "presente",
+          "person": "voi",
+          "explanation": "Con voi, fare al presente si coniuga fate."
+        }
+      ]
+    },
+    "band": 2
+  },
+  {
+    "id": "corpus-presente-081",
+    "textTemplate": "Io {slot_0} il turno alle cinque del pomeriggio.",
+    "primaryTense": "presente",
+    "level": 2,
+    "difficulty": 1,
+    "theme": "vita_quotidiana",
+    "source": "authored",
+    "target": {
+      "slotId": 0,
+      "verb": "finire",
+      "person": "io",
+      "acceptedAnswers": [
+        {
+          "text": "finisco",
+          "tense": "presente",
+          "person": "io",
+          "explanation": "Con io, finire al presente si coniuga finisco."
+        }
+      ]
+    },
+    "band": 1
+  },
+  {
+    "id": "corpus-presente-082",
+    "textTemplate": "Il sentiero {slot_0} davanti a una cascata.",
+    "primaryTense": "presente",
+    "level": 3,
+    "difficulty": 1,
+    "theme": "vita_quotidiana",
+    "source": "authored",
+    "target": {
+      "slotId": 0,
+      "verb": "finire",
+      "person": "lui/lei",
+      "acceptedAnswers": [
+        {
+          "text": "finisce",
+          "tense": "presente",
+          "person": "lui/lei",
+          "explanation": "Con lui o lei, finire al presente si coniuga finisce."
+        }
+      ]
+    },
+    "band": 1
+  },
+  {
+    "id": "corpus-presente-083",
+    "textTemplate": "Noi {slot_0} sempre il pane prima del secondo.",
+    "primaryTense": "presente",
+    "level": 4,
+    "difficulty": 1,
+    "theme": "vita_quotidiana",
+    "source": "authored",
+    "target": {
+      "slotId": 0,
+      "verb": "finire",
+      "person": "noi",
+      "acceptedAnswers": [
+        {
+          "text": "finiamo",
+          "tense": "presente",
+          "person": "noi",
+          "explanation": "Con noi, finire al presente si coniuga finiamo."
+        }
+      ]
+    },
+    "band": 1
+  },
+  {
+    "id": "corpus-presente-084",
+    "textTemplate": "Le lezioni {slot_0} un po' prima il venerdì.",
+    "primaryTense": "presente",
+    "level": 5,
+    "difficulty": 1,
+    "theme": "vita_quotidiana",
+    "source": "authored",
+    "target": {
+      "slotId": 0,
+      "verb": "finire",
+      "person": "loro",
+      "acceptedAnswers": [
+        {
+          "text": "finiscono",
+          "tense": "presente",
+          "person": "loro",
+          "explanation": "Con loro, finire al presente si coniuga finiscono."
+        }
+      ]
+    },
+    "band": 1
+  },
+  {
+    "id": "corpus-presente-085",
+    "textTemplate": "Tu {slot_0} i tuoi disegni sul retro?",
+    "primaryTense": "presente",
+    "level": 1,
+    "difficulty": 1,
+    "theme": "vita_quotidiana",
+    "source": "authored",
+    "target": {
+      "slotId": 0,
+      "verb": "firmare",
+      "person": "tu",
+      "acceptedAnswers": [
+        {
+          "text": "firmi",
+          "tense": "presente",
+          "person": "tu",
+          "explanation": "Con tu, firmare al presente si coniuga firmi."
+        }
+      ]
+    },
+    "band": 1
+  },
+  {
+    "id": "corpus-presente-086",
+    "textTemplate": "Il medico {slot_0} il certificato dopo la visita.",
+    "primaryTense": "presente",
+    "level": 2,
+    "difficulty": 1,
+    "theme": "vita_quotidiana",
+    "source": "authored",
+    "target": {
+      "slotId": 0,
+      "verb": "firmare",
+      "person": "lui/lei",
+      "acceptedAnswers": [
+        {
+          "text": "firma",
+          "tense": "presente",
+          "person": "lui/lei",
+          "explanation": "Con lui o lei, firmare al presente si coniuga firma."
+        }
+      ]
+    },
+    "band": 1
+  },
+  {
+    "id": "corpus-presente-087",
+    "textTemplate": "Voi {slot_0} qui per confermare la consegna.",
+    "primaryTense": "presente",
+    "level": 3,
+    "difficulty": 1,
+    "theme": "vita_quotidiana",
+    "source": "authored",
+    "target": {
+      "slotId": 0,
+      "verb": "firmare",
+      "person": "voi",
+      "acceptedAnswers": [
+        {
+          "text": "firmate",
+          "tense": "presente",
+          "person": "voi",
+          "explanation": "Con voi, firmare al presente si coniuga firmate."
+        }
+      ]
+    },
+    "band": 1
+  },
+  {
+    "id": "corpus-presente-088",
+    "textTemplate": "Gli autori {slot_0} le copie dei loro libri.",
+    "primaryTense": "presente",
+    "level": 4,
+    "difficulty": 1,
+    "theme": "vita_quotidiana",
+    "source": "authored",
+    "target": {
+      "slotId": 0,
+      "verb": "firmare",
+      "person": "loro",
+      "acceptedAnswers": [
+        {
+          "text": "firmano",
+          "tense": "presente",
+          "person": "loro",
+          "explanation": "Con loro, firmare al presente si coniuga firmano."
+        }
+      ]
+    },
+    "band": 1
+  },
+  {
+    "id": "corpus-presente-089",
+    "textTemplate": "Io {slot_0} le insegne curiose che incontro per strada.",
+    "primaryTense": "presente",
+    "level": 5,
+    "difficulty": 1,
+    "theme": "vita_quotidiana",
+    "source": "authored",
+    "target": {
+      "slotId": 0,
+      "verb": "fotografare",
+      "person": "io",
+      "acceptedAnswers": [
+        {
+          "text": "fotografo",
+          "tense": "presente",
+          "person": "io",
+          "explanation": "Con io, fotografare al presente si coniuga fotografo."
+        }
+      ]
+    },
+    "band": 1
+  },
+  {
+    "id": "corpus-presente-090",
+    "textTemplate": "Tu {slot_0} i piatti prima di mangiare?",
+    "primaryTense": "presente",
+    "level": 2,
+    "difficulty": 1,
+    "theme": "vita_quotidiana",
+    "source": "authored",
+    "target": {
+      "slotId": 0,
+      "verb": "fotografare",
+      "person": "tu",
+      "acceptedAnswers": [
+        {
+          "text": "fotografi",
+          "tense": "presente",
+          "person": "tu",
+          "explanation": "Con tu, fotografare al presente si coniuga fotografi."
+        }
+      ]
+    },
+    "band": 1
+  },
+  {
+    "id": "corpus-presente-091",
+    "textTemplate": "Noi {slot_0} lo stesso albero in ogni stagione.",
+    "primaryTense": "presente",
+    "level": 3,
+    "difficulty": 1,
+    "theme": "vita_quotidiana",
+    "source": "authored",
+    "target": {
+      "slotId": 0,
+      "verb": "fotografare",
+      "person": "noi",
+      "acceptedAnswers": [
+        {
+          "text": "fotografiamo",
+          "tense": "presente",
+          "person": "noi",
+          "explanation": "Con noi, fotografare al presente si coniuga fotografiamo."
+        }
+      ]
+    },
+    "band": 1
+  },
+  {
+    "id": "corpus-presente-092",
+    "textTemplate": "I visitatori {slot_0} la facciata del palazzo.",
+    "primaryTense": "presente",
+    "level": 4,
+    "difficulty": 1,
+    "theme": "vita_quotidiana",
+    "source": "authored",
+    "target": {
+      "slotId": 0,
+      "verb": "fotografare",
+      "person": "loro",
+      "acceptedAnswers": [
+        {
+          "text": "fotografano",
+          "tense": "presente",
+          "person": "loro",
+          "explanation": "Con loro, fotografare al presente si coniuga fotografano."
+        }
+      ]
+    },
+    "band": 1
+  },
+  {
+    "id": "corpus-presente-093",
+    "textTemplate": "Io {slot_0} a carte con mio nonno la domenica.",
+    "primaryTense": "presente",
+    "level": 5,
+    "difficulty": 1,
+    "theme": "vita_quotidiana",
+    "source": "authored",
+    "target": {
+      "slotId": 0,
+      "verb": "giocare",
+      "person": "io",
+      "acceptedAnswers": [
+        {
+          "text": "gioco",
+          "tense": "presente",
+          "person": "io",
+          "explanation": "Con io, giocare al presente si coniuga gioco."
+        }
+      ]
+    },
+    "band": 1
+  },
+  {
+    "id": "corpus-presente-094",
+    "textTemplate": "La squadra {slot_0} in casa questo sabato.",
+    "primaryTense": "presente",
+    "level": 1,
+    "difficulty": 1,
+    "theme": "vita_quotidiana",
+    "source": "authored",
+    "target": {
+      "slotId": 0,
+      "verb": "giocare",
+      "person": "lui/lei",
+      "acceptedAnswers": [
+        {
+          "text": "gioca",
+          "tense": "presente",
+          "person": "lui/lei",
+          "explanation": "Con lui o lei, giocare al presente si coniuga gioca."
+        }
+      ]
+    },
+    "band": 1
+  },
+  {
+    "id": "corpus-presente-095",
+    "textTemplate": "Voi {slot_0} a scacchi durante la pausa pranzo?",
+    "primaryTense": "presente",
+    "level": 2,
+    "difficulty": 1,
+    "theme": "vita_quotidiana",
+    "source": "authored",
+    "target": {
+      "slotId": 0,
+      "verb": "giocare",
+      "person": "voi",
+      "acceptedAnswers": [
+        {
+          "text": "giocate",
+          "tense": "presente",
+          "person": "voi",
+          "explanation": "Con voi, giocare al presente si coniuga giocate."
+        }
+      ]
+    },
+    "band": 1
+  },
+  {
+    "id": "corpus-presente-096",
+    "textTemplate": "I cuccioli {slot_0} insieme sotto il tavolo.",
+    "primaryTense": "presente",
+    "level": 3,
+    "difficulty": 1,
+    "theme": "vita_quotidiana",
+    "source": "authored",
+    "target": {
+      "slotId": 0,
+      "verb": "giocare",
+      "person": "loro",
+      "acceptedAnswers": [
+        {
+          "text": "giocano",
+          "tense": "presente",
+          "person": "loro",
+          "explanation": "Con loro, giocare al presente si coniuga giocano."
+        }
+      ]
+    },
+    "band": 1
+  },
+  {
+    "id": "corpus-presente-097",
+    "textTemplate": "Io {slot_0} il silenzio prima che si sveglino tutti.",
+    "primaryTense": "presente",
+    "level": 3,
+    "difficulty": 2,
+    "theme": "vita_quotidiana",
+    "source": "authored",
+    "target": {
+      "slotId": 0,
+      "verb": "godersi",
+      "person": "io",
+      "acceptedAnswers": [
+        {
+          "text": "mi godo",
+          "tense": "presente",
+          "person": "io",
+          "explanation": "Con io, godersi al presente si coniuga mi godo."
+        }
+      ]
+    },
+    "band": 2
+  },
+  {
+    "id": "corpus-presente-098",
+    "textTemplate": "Tu {slot_0} la vacanza senza controllare le email?",
+    "primaryTense": "presente",
+    "level": 4,
+    "difficulty": 2,
+    "theme": "vita_quotidiana",
+    "source": "authored",
+    "target": {
+      "slotId": 0,
+      "verb": "godersi",
+      "person": "tu",
+      "acceptedAnswers": [
+        {
+          "text": "ti godi",
+          "tense": "presente",
+          "person": "tu",
+          "explanation": "Con tu, godersi al presente si coniuga ti godi."
+        }
+      ]
+    },
+    "band": 2
+  },
+  {
+    "id": "corpus-presente-099",
+    "textTemplate": "Noi {slot_0} gli ultimi raggi di sole in giardino.",
+    "primaryTense": "presente",
+    "level": 5,
+    "difficulty": 2,
+    "theme": "vita_quotidiana",
+    "source": "authored",
+    "target": {
+      "slotId": 0,
+      "verb": "godersi",
+      "person": "noi",
+      "acceptedAnswers": [
+        {
+          "text": "ci godiamo",
+          "tense": "presente",
+          "person": "noi",
+          "explanation": "Con noi, godersi al presente si coniuga ci godiamo."
+        }
+      ]
+    },
+    "band": 2
+  },
+  {
+    "id": "corpus-presente-100",
+    "textTemplate": "I nonni {slot_0} una passeggiata lungo il fiume.",
+    "primaryTense": "presente",
+    "level": 3,
+    "difficulty": 2,
+    "theme": "vita_quotidiana",
+    "source": "authored",
+    "target": {
+      "slotId": 0,
+      "verb": "godersi",
+      "person": "loro",
+      "acceptedAnswers": [
+        {
+          "text": "si godono",
+          "tense": "presente",
+          "person": "loro",
+          "explanation": "Con loro, godersi al presente si coniuga si godono."
+        }
+      ]
+    },
+    "band": 2
+  },
+  {
+    "id": "corpus-presente-101",
+    "textTemplate": "Tu {slot_0} il prezzo prima di scegliere?",
+    "primaryTense": "presente",
+    "level": 5,
+    "difficulty": 1,
+    "theme": "vita_quotidiana",
+    "source": "authored",
+    "target": {
+      "slotId": 0,
+      "verb": "guardare",
+      "person": "tu",
+      "acceptedAnswers": [
+        {
+          "text": "guardi",
+          "tense": "presente",
+          "person": "tu",
+          "explanation": "Con tu, guardare al presente si coniuga guardi."
+        }
+      ]
+    },
+    "band": 1
+  },
+  {
+    "id": "corpus-presente-102",
+    "textTemplate": "La bambina {slot_0} le formiche sul marciapiede.",
+    "primaryTense": "presente",
+    "level": 1,
+    "difficulty": 1,
+    "theme": "vita_quotidiana",
+    "source": "authored",
+    "target": {
+      "slotId": 0,
+      "verb": "guardare",
+      "person": "lui/lei",
+      "acceptedAnswers": [
+        {
+          "text": "guarda",
+          "tense": "presente",
+          "person": "lui/lei",
+          "explanation": "Con lui o lei, guardare al presente si coniuga guarda."
+        }
+      ]
+    },
+    "band": 1
+  },
+  {
+    "id": "corpus-presente-103",
+    "textTemplate": "Noi {slot_0} le stelle dalla finestra della cucina.",
+    "primaryTense": "presente",
+    "level": 2,
+    "difficulty": 1,
+    "theme": "vita_quotidiana",
+    "source": "authored",
+    "target": {
+      "slotId": 0,
+      "verb": "guardare",
+      "person": "noi",
+      "acceptedAnswers": [
+        {
+          "text": "guardiamo",
+          "tense": "presente",
+          "person": "noi",
+          "explanation": "Con noi, guardare al presente si coniuga guardiamo."
+        }
+      ]
+    },
+    "band": 1
+  },
+  {
+    "id": "corpus-presente-104",
+    "textTemplate": "Voi {slot_0} ancora i film in televisione?",
+    "primaryTense": "presente",
+    "level": 3,
+    "difficulty": 1,
+    "theme": "vita_quotidiana",
+    "source": "authored",
+    "target": {
+      "slotId": 0,
+      "verb": "guardare",
+      "person": "voi",
+      "acceptedAnswers": [
+        {
+          "text": "guardate",
+          "tense": "presente",
+          "person": "voi",
+          "explanation": "Con voi, guardare al presente si coniuga guardate."
+        }
+      ]
+    },
+    "band": 1
+  },
+  {
+    "id": "corpus-presente-105",
+    "textTemplate": "Io {slot_0} piano nelle strade di campagna.",
+    "primaryTense": "presente",
+    "level": 4,
+    "difficulty": 1,
+    "theme": "vita_quotidiana",
+    "source": "authored",
+    "target": {
+      "slotId": 0,
+      "verb": "guidare",
+      "person": "io",
+      "acceptedAnswers": [
+        {
+          "text": "guido",
+          "tense": "presente",
+          "person": "io",
+          "explanation": "Con io, guidare al presente si coniuga guido."
+        }
+      ]
+    },
+    "band": 1
+  },
+  {
+    "id": "corpus-presente-106",
+    "textTemplate": "Tu {slot_0} anche quando nevica?",
+    "primaryTense": "presente",
+    "level": 5,
+    "difficulty": 1,
+    "theme": "vita_quotidiana",
+    "source": "authored",
+    "target": {
+      "slotId": 0,
+      "verb": "guidare",
+      "person": "tu",
+      "acceptedAnswers": [
+        {
+          "text": "guidi",
+          "tense": "presente",
+          "person": "tu",
+          "explanation": "Con tu, guidare al presente si coniuga guidi."
+        }
+      ]
+    },
+    "band": 2
+  },
+  {
+    "id": "corpus-presente-107",
+    "textTemplate": "Noi {slot_0} a turno durante i viaggi lunghi.",
+    "primaryTense": "presente",
+    "level": 1,
+    "difficulty": 1,
+    "theme": "vita_quotidiana",
+    "source": "authored",
+    "target": {
+      "slotId": 0,
+      "verb": "guidare",
+      "person": "noi",
+      "acceptedAnswers": [
+        {
+          "text": "guidiamo",
+          "tense": "presente",
+          "person": "noi",
+          "explanation": "Con noi, guidare al presente si coniuga guidiamo."
+        }
+      ]
+    },
+    "band": 1
+  },
+  {
+    "id": "corpus-presente-108",
+    "textTemplate": "Gli autisti {slot_0} con prudenza vicino alle scuole.",
+    "primaryTense": "presente",
+    "level": 2,
+    "difficulty": 1,
+    "theme": "vita_quotidiana",
+    "source": "authored",
+    "target": {
+      "slotId": 0,
+      "verb": "guidare",
+      "person": "loro",
+      "acceptedAnswers": [
+        {
+          "text": "guidano",
+          "tense": "presente",
+          "person": "loro",
+          "explanation": "Con loro, guidare al presente si coniuga guidano."
+        }
+      ]
+    },
+    "band": 1
+  },
+  {
+    "id": "corpus-presente-109",
+    "textTemplate": "Io {slot_0} i vicini a prendere un caffè.",
+    "primaryTense": "presente",
+    "level": 3,
+    "difficulty": 1,
+    "theme": "vita_quotidiana",
+    "source": "authored",
+    "target": {
+      "slotId": 0,
+      "verb": "invitare",
+      "person": "io",
+      "acceptedAnswers": [
+        {
+          "text": "invito",
+          "tense": "presente",
+          "person": "io",
+          "explanation": "Con io, invitare al presente si coniuga invito."
+        }
+      ]
+    },
+    "band": 1
+  },
+  {
+    "id": "corpus-presente-110",
+    "textTemplate": "La biblioteca {slot_0} un autore diverso ogni mese.",
+    "primaryTense": "presente",
+    "level": 5,
+    "difficulty": 1,
+    "theme": "vita_quotidiana",
+    "source": "authored",
+    "target": {
+      "slotId": 0,
+      "verb": "invitare",
+      "person": "lui/lei",
+      "acceptedAnswers": [
+        {
+          "text": "invita",
+          "tense": "presente",
+          "person": "lui/lei",
+          "explanation": "Con lui o lei, invitare al presente si coniuga invita."
+        }
+      ]
+    },
+    "band": 2
+  },
+  {
+    "id": "corpus-presente-111",
+    "textTemplate": "Voi {slot_0} anche i bambini alla festa?",
+    "primaryTense": "presente",
+    "level": 1,
+    "difficulty": 1,
+    "theme": "vita_quotidiana",
+    "source": "authored",
+    "target": {
+      "slotId": 0,
+      "verb": "invitare",
+      "person": "voi",
+      "acceptedAnswers": [
+        {
+          "text": "invitate",
+          "tense": "presente",
+          "person": "voi",
+          "explanation": "Con voi, invitare al presente si coniuga invitate."
+        }
+      ]
+    },
+    "band": 1
+  },
+  {
+    "id": "corpus-presente-112",
+    "textTemplate": "Le associazioni {slot_0} tutti a partecipare alla pulizia del parco.",
+    "primaryTense": "presente",
+    "level": 2,
+    "difficulty": 1,
+    "theme": "vita_quotidiana",
+    "source": "authored",
+    "target": {
+      "slotId": 0,
+      "verb": "invitare",
+      "person": "loro",
+      "acceptedAnswers": [
+        {
+          "text": "invitano",
+          "tense": "presente",
+          "person": "loro",
+          "explanation": "Con loro, invitare al presente si coniuga invitano."
+        }
+      ]
+    },
+    "band": 1
+  },
+  {
+    "id": "corpus-presente-113",
+    "textTemplate": "Tu {slot_0} meglio al mattino o alla sera?",
+    "primaryTense": "presente",
+    "level": 3,
+    "difficulty": 1,
+    "theme": "vita_quotidiana",
+    "source": "authored",
+    "target": {
+      "slotId": 0,
+      "verb": "lavorare",
+      "person": "tu",
+      "acceptedAnswers": [
+        {
+          "text": "lavori",
+          "tense": "presente",
+          "person": "tu",
+          "explanation": "Con tu, lavorare al presente si coniuga lavori."
+        }
+      ]
+    },
+    "band": 1
+  },
+  {
+    "id": "corpus-presente-114",
+    "textTemplate": "Mia sorella {slot_0} in una piccola libreria.",
+    "primaryTense": "presente",
+    "level": 4,
+    "difficulty": 1,
+    "theme": "vita_quotidiana",
+    "source": "authored",
+    "target": {
+      "slotId": 0,
+      "verb": "lavorare",
+      "person": "lui/lei",
+      "acceptedAnswers": [
+        {
+          "text": "lavora",
+          "tense": "presente",
+          "person": "lui/lei",
+          "explanation": "Con lui o lei, lavorare al presente si coniuga lavora."
+        }
+      ]
+    },
+    "band": 1
+  },
+  {
+    "id": "corpus-presente-115",
+    "textTemplate": "Noi {slot_0} con materiali riciclati.",
+    "primaryTense": "presente",
+    "level": 5,
+    "difficulty": 1,
+    "theme": "vita_quotidiana",
+    "source": "authored",
+    "target": {
+      "slotId": 0,
+      "verb": "lavorare",
+      "person": "noi",
+      "acceptedAnswers": [
+        {
+          "text": "lavoriamo",
+          "tense": "presente",
+          "person": "noi",
+          "explanation": "Con noi, lavorare al presente si coniuga lavoriamo."
+        }
+      ]
+    },
+    "band": 2
+  },
+  {
+    "id": "corpus-presente-116",
+    "textTemplate": "I panettieri {slot_0} mentre il quartiere dorme.",
+    "primaryTense": "presente",
+    "level": 1,
+    "difficulty": 1,
+    "theme": "vita_quotidiana",
+    "source": "authored",
+    "target": {
+      "slotId": 0,
+      "verb": "lavorare",
+      "person": "loro",
+      "acceptedAnswers": [
+        {
+          "text": "lavorano",
+          "tense": "presente",
+          "person": "loro",
+          "explanation": "Con loro, lavorare al presente si coniuga lavorano."
+        }
+      ]
+    },
+    "band": 1
+  },
+  {
+    "id": "corpus-presente-117",
+    "textTemplate": "Io {slot_0} le istruzioni prima di montare un mobile.",
+    "primaryTense": "presente",
+    "level": 3,
+    "difficulty": 2,
+    "theme": "vita_quotidiana",
+    "source": "authored",
+    "target": {
+      "slotId": 0,
+      "verb": "leggere",
+      "person": "io",
+      "acceptedAnswers": [
+        {
+          "text": "leggo",
+          "tense": "presente",
+          "person": "io",
+          "explanation": "Con io, leggere al presente si coniuga leggo."
+        }
+      ]
+    },
+    "band": 2
+  },
+  {
+    "id": "corpus-presente-118",
+    "textTemplate": "Tu {slot_0} ancora il giornale di carta?",
+    "primaryTense": "presente",
+    "level": 4,
+    "difficulty": 2,
+    "theme": "vita_quotidiana",
+    "source": "authored",
+    "target": {
+      "slotId": 0,
+      "verb": "leggere",
+      "person": "tu",
+      "acceptedAnswers": [
+        {
+          "text": "leggi",
+          "tense": "presente",
+          "person": "tu",
+          "explanation": "Con tu, leggere al presente si coniuga leggi."
+        }
+      ]
+    },
+    "band": 2
+  },
+  {
+    "id": "corpus-presente-119",
+    "textTemplate": "Noi {slot_0} una poesia all'inizio di ogni incontro.",
+    "primaryTense": "presente",
+    "level": 5,
+    "difficulty": 2,
+    "theme": "vita_quotidiana",
+    "source": "authored",
+    "target": {
+      "slotId": 0,
+      "verb": "leggere",
+      "person": "noi",
+      "acceptedAnswers": [
+        {
+          "text": "leggiamo",
+          "tense": "presente",
+          "person": "noi",
+          "explanation": "Con noi, leggere al presente si coniuga leggiamo."
+        }
+      ]
+    },
+    "band": 2
+  },
+  {
+    "id": "corpus-presente-120",
+    "textTemplate": "Voi {slot_0} i sottotitoli anche quando capite il film?",
+    "primaryTense": "presente",
+    "level": 5,
+    "difficulty": 2,
+    "theme": "vita_quotidiana",
+    "source": "authored",
+    "target": {
+      "slotId": 0,
+      "verb": "leggere",
+      "person": "voi",
+      "acceptedAnswers": [
+        {
+          "text": "leggete",
+          "tense": "presente",
+          "person": "voi",
+          "explanation": "Con voi, leggere al presente si coniuga leggete."
+        }
+      ]
+    },
+    "band": 2
+  },
+  {
+    "id": "corpus-presente-121",
+    "textTemplate": "Io {slot_0} una mela prima di uscire.",
+    "primaryTense": "presente",
+    "level": 2,
+    "difficulty": 1,
+    "theme": "vita_quotidiana",
+    "source": "authored",
+    "target": {
+      "slotId": 0,
+      "verb": "mangiare",
+      "person": "io",
+      "acceptedAnswers": [
+        {
+          "text": "mangio",
+          "tense": "presente",
+          "person": "io",
+          "explanation": "Con io, mangiare al presente si coniuga mangio."
+        }
+      ]
+    },
+    "band": 1
+  },
+  {
+    "id": "corpus-presente-122",
+    "textTemplate": "Il coniglio {slot_0} le foglie di insalata.",
+    "primaryTense": "presente",
+    "level": 3,
+    "difficulty": 1,
+    "theme": "vita_quotidiana",
+    "source": "authored",
+    "target": {
+      "slotId": 0,
+      "verb": "mangiare",
+      "person": "lui/lei",
+      "acceptedAnswers": [
+        {
+          "text": "mangia",
+          "tense": "presente",
+          "person": "lui/lei",
+          "explanation": "Con lui o lei, mangiare al presente si coniuga mangia."
+        }
+      ]
+    },
+    "band": 1
+  },
+  {
+    "id": "corpus-presente-123",
+    "textTemplate": "Voi {slot_0} in mensa oppure portate il pranzo?",
+    "primaryTense": "presente",
+    "level": 4,
+    "difficulty": 1,
+    "theme": "vita_quotidiana",
+    "source": "authored",
+    "target": {
+      "slotId": 0,
+      "verb": "mangiare",
+      "person": "voi",
+      "acceptedAnswers": [
+        {
+          "text": "mangiate",
+          "tense": "presente",
+          "person": "voi",
+          "explanation": "Con voi, mangiare al presente si coniuga mangiate."
+        }
+      ]
+    },
+    "band": 1
+  },
+  {
+    "id": "corpus-presente-124",
+    "textTemplate": "I miei nipoti {slot_0} volentieri le verdure dell'orto.",
+    "primaryTense": "presente",
+    "level": 5,
+    "difficulty": 1,
+    "theme": "vita_quotidiana",
+    "source": "authored",
+    "target": {
+      "slotId": 0,
+      "verb": "mangiare",
+      "person": "loro",
+      "acceptedAnswers": [
+        {
+          "text": "mangiano",
+          "tense": "presente",
+          "person": "loro",
+          "explanation": "Con loro, mangiare al presente si coniuga mangiano."
+        }
+      ]
+    },
+    "band": 2
+  },
+  {
+    "id": "corpus-presente-125",
+    "textTemplate": "Tu {slot_0} sempre lo stesso gusto di gelato?",
+    "primaryTense": "presente",
+    "level": 1,
+    "difficulty": 1,
+    "theme": "vita_quotidiana",
+    "source": "authored",
+    "target": {
+      "slotId": 0,
+      "verb": "ordinare",
+      "person": "tu",
+      "acceptedAnswers": [
+        {
+          "text": "ordini",
+          "tense": "presente",
+          "person": "tu",
+          "explanation": "Con tu, ordinare al presente si coniuga ordini."
+        }
+      ]
+    },
+    "band": 1
+  },
+  {
+    "id": "corpus-presente-126",
+    "textTemplate": "La cliente {slot_0} un cappuccino senza cacao.",
+    "primaryTense": "presente",
+    "level": 2,
+    "difficulty": 1,
+    "theme": "vita_quotidiana",
+    "source": "authored",
+    "target": {
+      "slotId": 0,
+      "verb": "ordinare",
+      "person": "lui/lei",
+      "acceptedAnswers": [
+        {
+          "text": "ordina",
+          "tense": "presente",
+          "person": "lui/lei",
+          "explanation": "Con lui o lei, ordinare al presente si coniuga ordina."
+        }
+      ]
+    },
+    "band": 1
+  },
+  {
+    "id": "corpus-presente-127",
+    "textTemplate": "Noi {slot_0} i documenti per data.",
+    "primaryTense": "presente",
+    "level": 3,
+    "difficulty": 1,
+    "theme": "vita_quotidiana",
+    "source": "authored",
+    "target": {
+      "slotId": 0,
+      "verb": "ordinare",
+      "person": "noi",
+      "acceptedAnswers": [
+        {
+          "text": "ordiniamo",
+          "tense": "presente",
+          "person": "noi",
+          "explanation": "Con noi, ordinare al presente si coniuga ordiniamo."
+        }
+      ]
+    },
+    "band": 1
+  },
+  {
+    "id": "corpus-presente-128",
+    "textTemplate": "Gli ospiti {slot_0} il dolce dopo il caffè.",
+    "primaryTense": "presente",
+    "level": 4,
+    "difficulty": 1,
+    "theme": "vita_quotidiana",
+    "source": "authored",
+    "target": {
+      "slotId": 0,
+      "verb": "ordinare",
+      "person": "loro",
+      "acceptedAnswers": [
+        {
+          "text": "ordinano",
+          "tense": "presente",
+          "person": "loro",
+          "explanation": "Con loro, ordinare al presente si coniuga ordinano."
+        }
+      ]
+    },
+    "band": 1
+  },
+  {
+    "id": "corpus-presente-129",
+    "textTemplate": "Io {slot_0} le foto in cartelle separate.",
+    "primaryTense": "presente",
+    "level": 5,
+    "difficulty": 1,
+    "theme": "vita_quotidiana",
+    "source": "authored",
+    "target": {
+      "slotId": 0,
+      "verb": "organizzare",
+      "person": "io",
+      "acceptedAnswers": [
+        {
+          "text": "organizzo",
+          "tense": "presente",
+          "person": "io",
+          "explanation": "Con io, organizzare al presente si coniuga organizzo."
+        }
+      ]
+    },
+    "band": 2
+  },
+  {
+    "id": "corpus-presente-130",
+    "textTemplate": "Tu {slot_0} la cena e io penso alla musica.",
+    "primaryTense": "presente",
+    "level": 2,
+    "difficulty": 1,
+    "theme": "vita_quotidiana",
+    "source": "authored",
+    "target": {
+      "slotId": 0,
+      "verb": "organizzare",
+      "person": "tu",
+      "acceptedAnswers": [
+        {
+          "text": "organizzi",
+          "tense": "presente",
+          "person": "tu",
+          "explanation": "Con tu, organizzare al presente si coniuga organizzi."
+        }
+      ]
+    },
+    "band": 1
+  },
+  {
+    "id": "corpus-presente-131",
+    "textTemplate": "Noi {slot_0} una raccolta di vestiti per il quartiere.",
+    "primaryTense": "presente",
+    "level": 3,
+    "difficulty": 1,
+    "theme": "vita_quotidiana",
+    "source": "authored",
+    "target": {
+      "slotId": 0,
+      "verb": "organizzare",
+      "person": "noi",
+      "acceptedAnswers": [
+        {
+          "text": "organizziamo",
+          "tense": "presente",
+          "person": "noi",
+          "explanation": "Con noi, organizzare al presente si coniuga organizziamo."
+        }
+      ]
+    },
+    "band": 1
+  },
+  {
+    "id": "corpus-presente-132",
+    "textTemplate": "Voi {slot_0} gite anche per chi non ha la macchina?",
+    "primaryTense": "presente",
+    "level": 4,
+    "difficulty": 1,
+    "theme": "vita_quotidiana",
+    "source": "authored",
+    "target": {
+      "slotId": 0,
+      "verb": "organizzare",
+      "person": "voi",
+      "acceptedAnswers": [
+        {
+          "text": "organizzate",
+          "tense": "presente",
+          "person": "voi",
+          "explanation": "Con voi, organizzare al presente si coniuga organizzate."
+        }
+      ]
+    },
+    "band": 1
+  },
+  {
+    "id": "corpus-presente-133",
+    "textTemplate": "Io {slot_0} piano quando il bambino dorme.",
+    "primaryTense": "presente",
+    "level": 5,
+    "difficulty": 1,
+    "theme": "vita_quotidiana",
+    "source": "authored",
+    "target": {
+      "slotId": 0,
+      "verb": "parlare",
+      "person": "io",
+      "acceptedAnswers": [
+        {
+          "text": "parlo",
+          "tense": "presente",
+          "person": "io",
+          "explanation": "Con io, parlare al presente si coniuga parlo."
+        }
+      ]
+    },
+    "band": 2
+  },
+  {
+    "id": "corpus-presente-134",
+    "textTemplate": "La guida {slot_0} anche portoghese.",
+    "primaryTense": "presente",
+    "level": 1,
+    "difficulty": 1,
+    "theme": "vita_quotidiana",
+    "source": "authored",
+    "target": {
+      "slotId": 0,
+      "verb": "parlare",
+      "person": "lui/lei",
+      "acceptedAnswers": [
+        {
+          "text": "parla",
+          "tense": "presente",
+          "person": "lui/lei",
+          "explanation": "Con lui o lei, parlare al presente si coniuga parla."
+        }
+      ]
+    },
+    "band": 1
+  },
+  {
+    "id": "corpus-presente-135",
+    "textTemplate": "Noi {slot_0} del più e del meno mentre aspettiamo.",
+    "primaryTense": "presente",
+    "level": 2,
+    "difficulty": 1,
+    "theme": "vita_quotidiana",
+    "source": "authored",
+    "target": {
+      "slotId": 0,
+      "verb": "parlare",
+      "person": "noi",
+      "acceptedAnswers": [
+        {
+          "text": "parliamo",
+          "tense": "presente",
+          "person": "noi",
+          "explanation": "Con noi, parlare al presente si coniuga parliamo."
+        }
+      ]
+    },
+    "band": 1
+  },
+  {
+    "id": "corpus-presente-136",
+    "textTemplate": "I miei cugini {slot_0} spesso dei loro viaggi.",
+    "primaryTense": "presente",
+    "level": 3,
+    "difficulty": 1,
+    "theme": "vita_quotidiana",
+    "source": "authored",
+    "target": {
+      "slotId": 0,
+      "verb": "parlare",
+      "person": "loro",
+      "acceptedAnswers": [
+        {
+          "text": "parlano",
+          "tense": "presente",
+          "person": "loro",
+          "explanation": "Con loro, parlare al presente si coniuga parlano."
+        }
+      ]
+    },
+    "band": 1
+  },
+  {
+    "id": "corpus-presente-137",
+    "textTemplate": "Tu {slot_0} davanti alla biblioteca per tornare a casa?",
+    "primaryTense": "presente",
+    "level": 4,
+    "difficulty": 1,
+    "theme": "vita_quotidiana",
+    "source": "authored",
+    "target": {
+      "slotId": 0,
+      "verb": "passare",
+      "person": "tu",
+      "acceptedAnswers": [
+        {
+          "text": "passi",
+          "tense": "presente",
+          "person": "tu",
+          "explanation": "Con tu, passare al presente si coniuga passi."
+        }
+      ]
+    },
+    "band": 1
+  },
+  {
+    "id": "corpus-presente-138",
+    "textTemplate": "Il tempo {slot_0} in fretta quando siamo insieme.",
+    "primaryTense": "presente",
+    "level": 5,
+    "difficulty": 1,
+    "theme": "vita_quotidiana",
+    "source": "authored",
+    "target": {
+      "slotId": 0,
+      "verb": "passare",
+      "person": "lui/lei",
+      "acceptedAnswers": [
+        {
+          "text": "passa",
+          "tense": "presente",
+          "person": "lui/lei",
+          "explanation": "Con lui o lei, passare al presente si coniuga passa."
+        }
+      ]
+    },
+    "band": 2
+  },
+  {
+    "id": "corpus-presente-139",
+    "textTemplate": "Voi {slot_0} le vacanze con i vostri genitori?",
+    "primaryTense": "presente",
+    "level": 1,
+    "difficulty": 1,
+    "theme": "vita_quotidiana",
+    "source": "authored",
+    "target": {
+      "slotId": 0,
+      "verb": "passare",
+      "person": "voi",
+      "acceptedAnswers": [
+        {
+          "text": "passate",
+          "tense": "presente",
+          "person": "voi",
+          "explanation": "Con voi, passare al presente si coniuga passate."
+        }
+      ]
+    },
+    "band": 1
+  },
+  {
+    "id": "corpus-presente-140",
+    "textTemplate": "Le rondini {slot_0} sopra i tetti del paese.",
+    "primaryTense": "presente",
+    "level": 3,
+    "difficulty": 1,
+    "theme": "vita_quotidiana",
+    "source": "authored",
+    "target": {
+      "slotId": 0,
+      "verb": "passare",
+      "person": "loro",
+      "acceptedAnswers": [
+        {
+          "text": "passano",
+          "tense": "presente",
+          "person": "loro",
+          "explanation": "Con loro, passare al presente si coniuga passano."
+        }
+      ]
+    },
+    "band": 1
+  },
+  {
+    "id": "corpus-presente-141",
+    "textTemplate": "Io {slot_0} facilmente nei centri commerciali.",
+    "primaryTense": "presente",
+    "level": 5,
+    "difficulty": 2,
+    "theme": "vita_quotidiana",
+    "source": "authored",
+    "target": {
+      "slotId": 0,
+      "verb": "perdersi",
+      "person": "io",
+      "acceptedAnswers": [
+        {
+          "text": "mi perdo",
+          "tense": "presente",
+          "person": "io",
+          "explanation": "Con io, perdersi al presente si coniuga mi perdo."
+        }
+      ]
+    },
+    "band": 2
+  },
+  {
+    "id": "corpus-presente-142",
+    "textTemplate": "Tu {slot_0} nei pensieri quando ascolti questa canzone.",
+    "primaryTense": "presente",
+    "level": 3,
+    "difficulty": 2,
+    "theme": "vita_quotidiana",
+    "source": "authored",
+    "target": {
+      "slotId": 0,
+      "verb": "perdersi",
+      "person": "tu",
+      "acceptedAnswers": [
+        {
+          "text": "ti perdi",
+          "tense": "presente",
+          "person": "tu",
+          "explanation": "Con tu, perdersi al presente si coniuga ti perdi."
+        }
+      ]
+    },
+    "band": 2
+  },
+  {
+    "id": "corpus-presente-143",
+    "textTemplate": "Noi {slot_0} se non seguiamo i cartelli.",
+    "primaryTense": "presente",
+    "level": 4,
+    "difficulty": 2,
+    "theme": "vita_quotidiana",
+    "source": "authored",
+    "target": {
+      "slotId": 0,
+      "verb": "perdersi",
+      "person": "noi",
+      "acceptedAnswers": [
+        {
+          "text": "ci perdiamo",
+          "tense": "presente",
+          "person": "noi",
+          "explanation": "Con noi, perdersi al presente si coniuga ci perdiamo."
+        }
+      ]
+    },
+    "band": 2
+  },
+  {
+    "id": "corpus-presente-144",
+    "textTemplate": "I turisti {slot_0} spesso nelle stradine del centro.",
+    "primaryTense": "presente",
+    "level": 5,
+    "difficulty": 2,
+    "theme": "vita_quotidiana",
+    "source": "authored",
+    "target": {
+      "slotId": 0,
+      "verb": "perdersi",
+      "person": "loro",
+      "acceptedAnswers": [
+        {
+          "text": "si perdono",
+          "tense": "presente",
+          "person": "loro",
+          "explanation": "Con loro, perdersi al presente si coniuga si perdono."
+        }
+      ]
+    },
+    "band": 2
+  },
+  {
+    "id": "corpus-presente-145",
+    "textTemplate": "Io {slot_0} aiutarti dopo pranzo.",
+    "primaryTense": "presente",
+    "level": 4,
+    "difficulty": 2,
+    "theme": "vita_quotidiana",
+    "source": "authored",
+    "target": {
+      "slotId": 0,
+      "verb": "potere",
+      "person": "io",
+      "acceptedAnswers": [
+        {
+          "text": "posso",
+          "tense": "presente",
+          "person": "io",
+          "explanation": "Con io, potere al presente si coniuga posso."
+        }
+      ]
+    },
+    "band": 2
+  },
+  {
+    "id": "corpus-presente-146",
+    "textTemplate": "Tu {slot_0} tenere aperta la porta un momento?",
+    "primaryTense": "presente",
+    "level": 5,
+    "difficulty": 2,
+    "theme": "vita_quotidiana",
+    "source": "authored",
+    "target": {
+      "slotId": 0,
+      "verb": "potere",
+      "person": "tu",
+      "acceptedAnswers": [
+        {
+          "text": "puoi",
+          "tense": "presente",
+          "person": "tu",
+          "explanation": "Con tu, potere al presente si coniuga puoi."
+        }
+      ]
+    },
+    "band": 2
+  },
+  {
+    "id": "corpus-presente-147",
+    "textTemplate": "Noi {slot_0} usare la sala fino alle otto.",
+    "primaryTense": "presente",
+    "level": 2,
+    "difficulty": 2,
+    "theme": "vita_quotidiana",
+    "source": "authored",
+    "target": {
+      "slotId": 0,
+      "verb": "potere",
+      "person": "noi",
+      "acceptedAnswers": [
+        {
+          "text": "possiamo",
+          "tense": "presente",
+          "person": "noi",
+          "explanation": "Con noi, potere al presente si coniuga possiamo."
+        }
+      ]
+    },
+    "band": 2
+  },
+  {
+    "id": "corpus-presente-148",
+    "textTemplate": "Voi {slot_0} lasciare le biciclette in cortile.",
+    "primaryTense": "presente",
+    "level": 3,
+    "difficulty": 2,
+    "theme": "vita_quotidiana",
+    "source": "authored",
+    "target": {
+      "slotId": 0,
+      "verb": "potere",
+      "person": "voi",
+      "acceptedAnswers": [
+        {
+          "text": "potete",
+          "tense": "presente",
+          "person": "voi",
+          "explanation": "Con voi, potere al presente si coniuga potete."
+        }
+      ]
+    },
+    "band": 2
+  },
+  {
+    "id": "corpus-presente-149",
+    "textTemplate": "Io {slot_0} il pane ancora caldo.",
+    "primaryTense": "presente",
+    "level": 2,
+    "difficulty": 1,
+    "theme": "vita_quotidiana",
+    "source": "authored",
+    "target": {
+      "slotId": 0,
+      "verb": "preferire",
+      "person": "io",
+      "acceptedAnswers": [
+        {
+          "text": "preferisco",
+          "tense": "presente",
+          "person": "io",
+          "explanation": "Con io, preferire al presente si coniuga preferisco."
+        }
+      ]
+    },
+    "band": 1
+  },
+  {
+    "id": "corpus-presente-150",
+    "textTemplate": "Mia madre {slot_0} viaggiare senza troppi bagagli.",
+    "primaryTense": "presente",
+    "level": 4,
+    "difficulty": 1,
+    "theme": "vita_quotidiana",
+    "source": "authored",
+    "target": {
+      "slotId": 0,
+      "verb": "preferire",
+      "person": "lui/lei",
+      "acceptedAnswers": [
+        {
+          "text": "preferisce",
+          "tense": "presente",
+          "person": "lui/lei",
+          "explanation": "Con lui o lei, preferire al presente si coniuga preferisce."
+        }
+      ]
+    },
+    "band": 1
+  },
+  {
+    "id": "corpus-presente-151",
+    "textTemplate": "Noi {slot_0} un tavolo lontano dalla porta.",
+    "primaryTense": "presente",
+    "level": 5,
+    "difficulty": 1,
+    "theme": "vita_quotidiana",
+    "source": "authored",
+    "target": {
+      "slotId": 0,
+      "verb": "preferire",
+      "person": "noi",
+      "acceptedAnswers": [
+        {
+          "text": "preferiamo",
+          "tense": "presente",
+          "person": "noi",
+          "explanation": "Con noi, preferire al presente si coniuga preferiamo."
+        }
+      ]
+    },
+    "band": 2
+  },
+  {
+    "id": "corpus-presente-152",
+    "textTemplate": "I bambini {slot_0} disegnare sul pavimento.",
+    "primaryTense": "presente",
+    "level": 1,
+    "difficulty": 1,
+    "theme": "vita_quotidiana",
+    "source": "authored",
+    "target": {
+      "slotId": 0,
+      "verb": "preferire",
+      "person": "loro",
+      "acceptedAnswers": [
+        {
+          "text": "preferiscono",
+          "tense": "presente",
+          "person": "loro",
+          "explanation": "Con loro, preferire al presente si coniuga preferiscono."
+        }
+      ]
+    },
+    "band": 1
+  },
+  {
+    "id": "corpus-presente-153",
+    "textTemplate": "Tu {slot_0} l'ombrello anche se c'è il sole?",
+    "primaryTense": "presente",
+    "level": 3,
+    "difficulty": 2,
+    "theme": "vita_quotidiana",
+    "source": "authored",
+    "target": {
+      "slotId": 0,
+      "verb": "prendere",
+      "person": "tu",
+      "acceptedAnswers": [
+        {
+          "text": "prendi",
+          "tense": "presente",
+          "person": "tu",
+          "explanation": "Con tu, prendere al presente si coniuga prendi."
+        }
+      ]
+    },
+    "band": 2
+  },
+  {
+    "id": "corpus-presente-154",
+    "textTemplate": "La nonna {slot_0} l'autobus per andare al mercato.",
+    "primaryTense": "presente",
+    "level": 4,
+    "difficulty": 2,
+    "theme": "vita_quotidiana",
+    "source": "authored",
+    "target": {
+      "slotId": 0,
+      "verb": "prendere",
+      "person": "lui/lei",
+      "acceptedAnswers": [
+        {
+          "text": "prende",
+          "tense": "presente",
+          "person": "lui/lei",
+          "explanation": "Con lui o lei, prendere al presente si coniuga prende."
+        }
+      ]
+    },
+    "band": 2
+  },
+  {
+    "id": "corpus-presente-155",
+    "textTemplate": "Noi {slot_0} appunti durante la visita guidata.",
+    "primaryTense": "presente",
+    "level": 5,
+    "difficulty": 2,
+    "theme": "vita_quotidiana",
+    "source": "authored",
+    "target": {
+      "slotId": 0,
+      "verb": "prendere",
+      "person": "noi",
+      "acceptedAnswers": [
+        {
+          "text": "prendiamo",
+          "tense": "presente",
+          "person": "noi",
+          "explanation": "Con noi, prendere al presente si coniuga prendiamo."
+        }
+      ]
+    },
+    "band": 2
+  },
+  {
+    "id": "corpus-presente-156",
+    "textTemplate": "Voi {slot_0} il caffè prima o dopo il dolce?",
+    "primaryTense": "presente",
+    "level": 2,
+    "difficulty": 2,
+    "theme": "vita_quotidiana",
+    "source": "authored",
+    "target": {
+      "slotId": 0,
+      "verb": "prendere",
+      "person": "voi",
+      "acceptedAnswers": [
+        {
+          "text": "prendete",
+          "tense": "presente",
+          "person": "voi",
+          "explanation": "Con voi, prendere al presente si coniuga prendete."
+        }
+      ]
+    },
+    "band": 2
+  },
+  {
+    "id": "corpus-presente-157",
+    "textTemplate": "Io {slot_0} lo zaino la sera prima.",
+    "primaryTense": "presente",
+    "level": 1,
+    "difficulty": 1,
+    "theme": "vita_quotidiana",
+    "source": "authored",
+    "target": {
+      "slotId": 0,
+      "verb": "preparare",
+      "person": "io",
+      "acceptedAnswers": [
+        {
+          "text": "preparo",
+          "tense": "presente",
+          "person": "io",
+          "explanation": "Con io, preparare al presente si coniuga preparo."
+        }
+      ]
+    },
+    "band": 1
+  },
+  {
+    "id": "corpus-presente-158",
+    "textTemplate": "Tu {slot_0} la tavola mentre io taglio il pane?",
+    "primaryTense": "presente",
+    "level": 2,
+    "difficulty": 1,
+    "theme": "vita_quotidiana",
+    "source": "authored",
+    "target": {
+      "slotId": 0,
+      "verb": "preparare",
+      "person": "tu",
+      "acceptedAnswers": [
+        {
+          "text": "prepari",
+          "tense": "presente",
+          "person": "tu",
+          "explanation": "Con tu, preparare al presente si coniuga prepari."
+        }
+      ]
+    },
+    "band": 1
+  },
+  {
+    "id": "corpus-presente-159",
+    "textTemplate": "Noi {slot_0} biscotti da regalare ai vicini.",
+    "primaryTense": "presente",
+    "level": 3,
+    "difficulty": 1,
+    "theme": "vita_quotidiana",
+    "source": "authored",
+    "target": {
+      "slotId": 0,
+      "verb": "preparare",
+      "person": "noi",
+      "acceptedAnswers": [
+        {
+          "text": "prepariamo",
+          "tense": "presente",
+          "person": "noi",
+          "explanation": "Con noi, preparare al presente si coniuga prepariamo."
+        }
+      ]
+    },
+    "band": 1
+  },
+  {
+    "id": "corpus-presente-160",
+    "textTemplate": "Gli studenti {slot_0} una mostra sulla storia del quartiere.",
+    "primaryTense": "presente",
+    "level": 5,
+    "difficulty": 1,
+    "theme": "vita_quotidiana",
+    "source": "authored",
+    "target": {
+      "slotId": 0,
+      "verb": "preparare",
+      "person": "loro",
+      "acceptedAnswers": [
+        {
+          "text": "preparano",
+          "tense": "presente",
+          "person": "loro",
+          "explanation": "Con loro, preparare al presente si coniuga preparano."
+        }
+      ]
+    },
+    "band": 2
+  },
+  {
+    "id": "corpus-presente-161",
+    "textTemplate": "Io {slot_0} soltanto ciò che posso mantenere.",
+    "primaryTense": "presente",
+    "level": 2,
+    "difficulty": 2,
+    "theme": "vita_quotidiana",
+    "source": "authored",
+    "target": {
+      "slotId": 0,
+      "verb": "promettere",
+      "person": "io",
+      "acceptedAnswers": [
+        {
+          "text": "prometto",
+          "tense": "presente",
+          "person": "io",
+          "explanation": "Con io, promettere al presente si coniuga prometto."
+        }
+      ]
+    },
+    "band": 2
+  },
+  {
+    "id": "corpus-presente-162",
+    "textTemplate": "Il cielo {slot_0} pioggia per tutta la giornata.",
+    "primaryTense": "presente",
+    "level": 3,
+    "difficulty": 2,
+    "theme": "vita_quotidiana",
+    "source": "authored",
+    "target": {
+      "slotId": 0,
+      "verb": "promettere",
+      "person": "lui/lei",
+      "acceptedAnswers": [
+        {
+          "text": "promette",
+          "tense": "presente",
+          "person": "lui/lei",
+          "explanation": "Con lui o lei, promettere al presente si coniuga promette."
+        }
+      ]
+    },
+    "band": 2
+  },
+  {
+    "id": "corpus-presente-163",
+    "textTemplate": "Voi {slot_0} di scrivere appena arrivate?",
+    "primaryTense": "presente",
+    "level": 4,
+    "difficulty": 2,
+    "theme": "vita_quotidiana",
+    "source": "authored",
+    "target": {
+      "slotId": 0,
+      "verb": "promettere",
+      "person": "voi",
+      "acceptedAnswers": [
+        {
+          "text": "promettete",
+          "tense": "presente",
+          "person": "voi",
+          "explanation": "Con voi, promettere al presente si coniuga promettete."
+        }
+      ]
+    },
+    "band": 2
+  },
+  {
+    "id": "corpus-presente-164",
+    "textTemplate": "I candidati {slot_0} nuovi spazi verdi.",
+    "primaryTense": "presente",
+    "level": 5,
+    "difficulty": 2,
+    "theme": "vita_quotidiana",
+    "source": "authored",
+    "target": {
+      "slotId": 0,
+      "verb": "promettere",
+      "person": "loro",
+      "acceptedAnswers": [
+        {
+          "text": "promettono",
+          "tense": "presente",
+          "person": "loro",
+          "explanation": "Con loro, promettere al presente si coniuga promettono."
+        }
+      ]
+    },
+    "band": 2
+  },
+  {
+    "id": "corpus-presente-165",
+    "textTemplate": "Tu {slot_0} gli occhiali con un panno morbido?",
+    "primaryTense": "presente",
+    "level": 5,
+    "difficulty": 1,
+    "theme": "vita_quotidiana",
+    "source": "authored",
+    "target": {
+      "slotId": 0,
+      "verb": "pulire",
+      "person": "tu",
+      "acceptedAnswers": [
+        {
+          "text": "pulisci",
+          "tense": "presente",
+          "person": "tu",
+          "explanation": "Con tu, pulire al presente si coniuga pulisci."
+        }
+      ]
+    },
+    "band": 2
+  },
+  {
+    "id": "corpus-presente-166",
+    "textTemplate": "Il cuoco {slot_0} il banco dopo ogni preparazione.",
+    "primaryTense": "presente",
+    "level": 1,
+    "difficulty": 1,
+    "theme": "vita_quotidiana",
+    "source": "authored",
+    "target": {
+      "slotId": 0,
+      "verb": "pulire",
+      "person": "lui/lei",
+      "acceptedAnswers": [
+        {
+          "text": "pulisce",
+          "tense": "presente",
+          "person": "lui/lei",
+          "explanation": "Con lui o lei, pulire al presente si coniuga pulisce."
+        }
+      ]
+    },
+    "band": 1
+  },
+  {
+    "id": "corpus-presente-167",
+    "textTemplate": "Noi {slot_0} la spiaggia prima dell'arrivo dei bagnanti.",
+    "primaryTense": "presente",
+    "level": 2,
+    "difficulty": 1,
+    "theme": "vita_quotidiana",
+    "source": "authored",
+    "target": {
+      "slotId": 0,
+      "verb": "pulire",
+      "person": "noi",
+      "acceptedAnswers": [
+        {
+          "text": "puliamo",
+          "tense": "presente",
+          "person": "noi",
+          "explanation": "Con noi, pulire al presente si coniuga puliamo."
+        }
+      ]
+    },
+    "band": 1
+  },
+  {
+    "id": "corpus-presente-168",
+    "textTemplate": "I volontari {slot_0} i sentieri dopo il temporale.",
+    "primaryTense": "presente",
+    "level": 3,
+    "difficulty": 1,
+    "theme": "vita_quotidiana",
+    "source": "authored",
+    "target": {
+      "slotId": 0,
+      "verb": "pulire",
+      "person": "loro",
+      "acceptedAnswers": [
+        {
+          "text": "puliscono",
+          "tense": "presente",
+          "person": "loro",
+          "explanation": "Con loro, pulire al presente si coniuga puliscono."
+        }
+      ]
+    },
+    "band": 1
+  },
+  {
+    "id": "corpus-presente-169",
+    "textTemplate": "Io {slot_0} la sveglia dieci minuti prima del necessario.",
+    "primaryTense": "presente",
+    "level": 4,
+    "difficulty": 1,
+    "theme": "vita_quotidiana",
+    "source": "authored",
+    "target": {
+      "slotId": 0,
+      "verb": "puntare",
+      "person": "io",
+      "acceptedAnswers": [
+        {
+          "text": "punto",
+          "tense": "presente",
+          "person": "io",
+          "explanation": "Con io, puntare al presente si coniuga punto."
+        }
+      ]
+    },
+    "band": 1
+  },
+  {
+    "id": "corpus-presente-170",
+    "textTemplate": "Tu {slot_0} il dito sulla strada giusta nella mappa.",
+    "primaryTense": "presente",
+    "level": 1,
+    "difficulty": 1,
+    "theme": "vita_quotidiana",
+    "source": "authored",
+    "target": {
+      "slotId": 0,
+      "verb": "puntare",
+      "person": "tu",
+      "acceptedAnswers": [
+        {
+          "text": "punti",
+          "tense": "presente",
+          "person": "tu",
+          "explanation": "Con tu, puntare al presente si coniuga punti."
+        }
+      ]
+    },
+    "band": 1
+  },
+  {
+    "id": "corpus-presente-171",
+    "textTemplate": "Noi {slot_0} sulla qualità degli ingredienti.",
+    "primaryTense": "presente",
+    "level": 2,
+    "difficulty": 1,
+    "theme": "vita_quotidiana",
+    "source": "authored",
+    "target": {
+      "slotId": 0,
+      "verb": "puntare",
+      "person": "noi",
+      "acceptedAnswers": [
+        {
+          "text": "puntiamo",
+          "tense": "presente",
+          "person": "noi",
+          "explanation": "Con noi, puntare al presente si coniuga puntiamo."
+        }
+      ]
+    },
+    "band": 1
+  },
+  {
+    "id": "corpus-presente-172",
+    "textTemplate": "Voi {slot_0} il telescopio verso la luna?",
+    "primaryTense": "presente",
+    "level": 3,
+    "difficulty": 1,
+    "theme": "vita_quotidiana",
+    "source": "authored",
+    "target": {
+      "slotId": 0,
+      "verb": "puntare",
+      "person": "voi",
+      "acceptedAnswers": [
+        {
+          "text": "puntate",
+          "tense": "presente",
+          "person": "voi",
+          "explanation": "Con voi, puntare al presente si coniuga puntate."
+        }
+      ]
+    },
+    "band": 1
+  },
+  {
+    "id": "corpus-presente-173",
+    "textTemplate": "Io {slot_0} troppe notifiche sul telefono.",
+    "primaryTense": "presente",
+    "level": 4,
+    "difficulty": 1,
+    "theme": "vita_quotidiana",
+    "source": "authored",
+    "target": {
+      "slotId": 0,
+      "verb": "ricevere",
+      "person": "io",
+      "acceptedAnswers": [
+        {
+          "text": "ricevo",
+          "tense": "presente",
+          "person": "io",
+          "explanation": "Con io, ricevere al presente si coniuga ricevo."
+        }
+      ]
+    },
+    "band": 1
+  },
+  {
+    "id": "corpus-presente-174",
+    "textTemplate": "Il negozio {slot_0} la merce il martedì.",
+    "primaryTense": "presente",
+    "level": 5,
+    "difficulty": 1,
+    "theme": "vita_quotidiana",
+    "source": "authored",
+    "target": {
+      "slotId": 0,
+      "verb": "ricevere",
+      "person": "lui/lei",
+      "acceptedAnswers": [
+        {
+          "text": "riceve",
+          "tense": "presente",
+          "person": "lui/lei",
+          "explanation": "Con lui o lei, ricevere al presente si coniuga riceve."
+        }
+      ]
+    },
+    "band": 2
+  },
+  {
+    "id": "corpus-presente-175",
+    "textTemplate": "Noi {slot_0} gli ospiti all'ingresso del cortile.",
+    "primaryTense": "presente",
+    "level": 1,
+    "difficulty": 1,
+    "theme": "vita_quotidiana",
+    "source": "authored",
+    "target": {
+      "slotId": 0,
+      "verb": "ricevere",
+      "person": "noi",
+      "acceptedAnswers": [
+        {
+          "text": "riceviamo",
+          "tense": "presente",
+          "person": "noi",
+          "explanation": "Con noi, ricevere al presente si coniuga riceviamo."
+        }
+      ]
+    },
+    "band": 1
+  },
+  {
+    "id": "corpus-presente-176",
+    "textTemplate": "Gli studenti {slot_0} un messaggio quando il corso è completo.",
+    "primaryTense": "presente",
+    "level": 2,
+    "difficulty": 1,
+    "theme": "vita_quotidiana",
+    "source": "authored",
+    "target": {
+      "slotId": 0,
+      "verb": "ricevere",
+      "person": "loro",
+      "acceptedAnswers": [
+        {
+          "text": "ricevono",
+          "tense": "presente",
+          "person": "loro",
+          "explanation": "Con loro, ricevere al presente si coniuga ricevono."
+        }
+      ]
+    },
+    "band": 1
+  },
+  {
+    "id": "corpus-presente-177",
+    "textTemplate": "Tu {slot_0} i cruciverba senza cercare le risposte?",
+    "primaryTense": "presente",
+    "level": 5,
+    "difficulty": 2,
+    "theme": "vita_quotidiana",
+    "source": "authored",
+    "target": {
+      "slotId": 0,
+      "verb": "risolvere",
+      "person": "tu",
+      "acceptedAnswers": [
+        {
+          "text": "risolvi",
+          "tense": "presente",
+          "person": "tu",
+          "explanation": "Con tu, risolvere al presente si coniuga risolvi."
+        }
+      ]
+    },
+    "band": 2
+  },
+  {
+    "id": "corpus-presente-178",
+    "textTemplate": "Questa piccola modifica {slot_0} il problema del rumore.",
+    "primaryTense": "presente",
+    "level": 2,
+    "difficulty": 2,
+    "theme": "vita_quotidiana",
+    "source": "authored",
+    "target": {
+      "slotId": 0,
+      "verb": "risolvere",
+      "person": "lui/lei",
+      "acceptedAnswers": [
+        {
+          "text": "risolve",
+          "tense": "presente",
+          "person": "lui/lei",
+          "explanation": "Con lui o lei, risolvere al presente si coniuga risolve."
+        }
+      ]
+    },
+    "band": 2
+  },
+  {
+    "id": "corpus-presente-179",
+    "textTemplate": "Voi {slot_0} i dubbi discutendo insieme.",
+    "primaryTense": "presente",
+    "level": 3,
+    "difficulty": 2,
+    "theme": "vita_quotidiana",
+    "source": "authored",
+    "target": {
+      "slotId": 0,
+      "verb": "risolvere",
+      "person": "voi",
+      "acceptedAnswers": [
+        {
+          "text": "risolvete",
+          "tense": "presente",
+          "person": "voi",
+          "explanation": "Con voi, risolvere al presente si coniuga risolvete."
+        }
+      ]
+    },
+    "band": 2
+  },
+  {
+    "id": "corpus-presente-180",
+    "textTemplate": "I tecnici {slot_0} molti problemi già al telefono.",
+    "primaryTense": "presente",
+    "level": 3,
+    "difficulty": 2,
+    "theme": "vita_quotidiana",
+    "source": "authored",
+    "target": {
+      "slotId": 0,
+      "verb": "risolvere",
+      "person": "loro",
+      "acceptedAnswers": [
+        {
+          "text": "risolvono",
+          "tense": "presente",
+          "person": "loro",
+          "explanation": "Con loro, risolvere al presente si coniuga risolvono."
+        }
+      ]
+    },
+    "band": 2
+  },
+  {
+    "id": "corpus-presente-181",
+    "textTemplate": "Io {slot_0} alle email dopo aver fatto colazione.",
+    "primaryTense": "presente",
+    "level": 4,
+    "difficulty": 2,
+    "theme": "vita_quotidiana",
+    "source": "authored",
+    "target": {
+      "slotId": 0,
+      "verb": "rispondere",
+      "person": "io",
+      "acceptedAnswers": [
+        {
+          "text": "rispondo",
+          "tense": "presente",
+          "person": "io",
+          "explanation": "Con io, rispondere al presente si coniuga rispondo."
+        }
+      ]
+    },
+    "band": 2
+  },
+  {
+    "id": "corpus-presente-182",
+    "textTemplate": "Tu {slot_0} anche ai numeri che non conosci?",
+    "primaryTense": "presente",
+    "level": 5,
+    "difficulty": 2,
+    "theme": "vita_quotidiana",
+    "source": "authored",
+    "target": {
+      "slotId": 0,
+      "verb": "rispondere",
+      "person": "tu",
+      "acceptedAnswers": [
+        {
+          "text": "rispondi",
+          "tense": "presente",
+          "person": "tu",
+          "explanation": "Con tu, rispondere al presente si coniuga rispondi."
+        }
+      ]
+    },
+    "band": 2
+  },
+  {
+    "id": "corpus-presente-183",
+    "textTemplate": "Noi {slot_0} a tutte le domande alla fine dell'incontro.",
+    "primaryTense": "presente",
+    "level": 2,
+    "difficulty": 2,
+    "theme": "vita_quotidiana",
+    "source": "authored",
+    "target": {
+      "slotId": 0,
+      "verb": "rispondere",
+      "person": "noi",
+      "acceptedAnswers": [
+        {
+          "text": "rispondiamo",
+          "tense": "presente",
+          "person": "noi",
+          "explanation": "Con noi, rispondere al presente si coniuga rispondiamo."
+        }
+      ]
+    },
+    "band": 2
+  },
+  {
+    "id": "corpus-presente-184",
+    "textTemplate": "Le persone {slot_0} meglio a una richiesta gentile.",
+    "primaryTense": "presente",
+    "level": 3,
+    "difficulty": 2,
+    "theme": "vita_quotidiana",
+    "source": "authored",
+    "target": {
+      "slotId": 0,
+      "verb": "rispondere",
+      "person": "loro",
+      "acceptedAnswers": [
+        {
+          "text": "rispondono",
+          "tense": "presente",
+          "person": "loro",
+          "explanation": "Con loro, rispondere al presente si coniuga rispondono."
+        }
+      ]
+    },
+    "band": 2
+  },
+  {
+    "id": "corpus-presente-185",
+    "textTemplate": "Io {slot_0} dove si trova la fermata del tram.",
+    "primaryTense": "presente",
+    "level": 4,
+    "difficulty": 2,
+    "theme": "vita_quotidiana",
+    "source": "authored",
+    "target": {
+      "slotId": 0,
+      "verb": "sapere",
+      "person": "io",
+      "acceptedAnswers": [
+        {
+          "text": "so",
+          "tense": "presente",
+          "person": "io",
+          "explanation": "Con io, sapere al presente si coniuga so."
+        }
+      ]
+    },
+    "band": 2
+  },
+  {
+    "id": "corpus-presente-186",
+    "textTemplate": "Il portiere {slot_0} a chi appartiene questa bicicletta.",
+    "primaryTense": "presente",
+    "level": 5,
+    "difficulty": 2,
+    "theme": "vita_quotidiana",
+    "source": "authored",
+    "target": {
+      "slotId": 0,
+      "verb": "sapere",
+      "person": "lui/lei",
+      "acceptedAnswers": [
+        {
+          "text": "sa",
+          "tense": "presente",
+          "person": "lui/lei",
+          "explanation": "Con lui o lei, sapere al presente si coniuga sa."
+        }
+      ]
+    },
+    "band": 2
+  },
+  {
+    "id": "corpus-presente-187",
+    "textTemplate": "Noi {slot_0} come tornare senza usare il navigatore.",
+    "primaryTense": "presente",
+    "level": 2,
+    "difficulty": 2,
+    "theme": "vita_quotidiana",
+    "source": "authored",
+    "target": {
+      "slotId": 0,
+      "verb": "sapere",
+      "person": "noi",
+      "acceptedAnswers": [
+        {
+          "text": "sappiamo",
+          "tense": "presente",
+          "person": "noi",
+          "explanation": "Con noi, sapere al presente si coniuga sappiamo."
+        }
+      ]
+    },
+    "band": 2
+  },
+  {
+    "id": "corpus-presente-188",
+    "textTemplate": "Voi {slot_0} cucire un bottone?",
+    "primaryTense": "presente",
+    "level": 3,
+    "difficulty": 2,
+    "theme": "vita_quotidiana",
+    "source": "authored",
+    "target": {
+      "slotId": 0,
+      "verb": "sapere",
+      "person": "voi",
+      "acceptedAnswers": [
+        {
+          "text": "sapete",
+          "tense": "presente",
+          "person": "voi",
+          "explanation": "Con voi, sapere al presente si coniuga sapete."
+        }
+      ]
+    },
+    "band": 2
+  },
+  {
+    "id": "corpus-presente-189",
+    "textTemplate": "Tu {slot_0} ancora cartoline quando sei in viaggio?",
+    "primaryTense": "presente",
+    "level": 4,
+    "difficulty": 2,
+    "theme": "vita_quotidiana",
+    "source": "authored",
+    "target": {
+      "slotId": 0,
+      "verb": "scrivere",
+      "person": "tu",
+      "acceptedAnswers": [
+        {
+          "text": "scrivi",
+          "tense": "presente",
+          "person": "tu",
+          "explanation": "Con tu, scrivere al presente si coniuga scrivi."
+        }
+      ]
+    },
+    "band": 2
+  },
+  {
+    "id": "corpus-presente-190",
+    "textTemplate": "Mio padre {slot_0} la lista della spesa su una busta.",
+    "primaryTense": "presente",
+    "level": 4,
+    "difficulty": 2,
+    "theme": "vita_quotidiana",
+    "source": "authored",
+    "target": {
+      "slotId": 0,
+      "verb": "scrivere",
+      "person": "lui/lei",
+      "acceptedAnswers": [
+        {
+          "text": "scrive",
+          "tense": "presente",
+          "person": "lui/lei",
+          "explanation": "Con lui o lei, scrivere al presente si coniuga scrive."
+        }
+      ]
+    },
+    "band": 2
+  },
+  {
+    "id": "corpus-presente-191",
+    "textTemplate": "Noi {slot_0} i nomi sulle scatole prima del trasloco.",
+    "primaryTense": "presente",
+    "level": 5,
+    "difficulty": 2,
+    "theme": "vita_quotidiana",
+    "source": "authored",
+    "target": {
+      "slotId": 0,
+      "verb": "scrivere",
+      "person": "noi",
+      "acceptedAnswers": [
+        {
+          "text": "scriviamo",
+          "tense": "presente",
+          "person": "noi",
+          "explanation": "Con noi, scrivere al presente si coniuga scriviamo."
+        }
+      ]
+    },
+    "band": 2
+  },
+  {
+    "id": "corpus-presente-192",
+    "textTemplate": "I bambini {slot_0} una lettera alla loro maestra.",
+    "primaryTense": "presente",
+    "level": 2,
+    "difficulty": 2,
+    "theme": "vita_quotidiana",
+    "source": "authored",
+    "target": {
+      "slotId": 0,
+      "verb": "scrivere",
+      "person": "loro",
+      "acceptedAnswers": [
+        {
+          "text": "scrivono",
+          "tense": "presente",
+          "person": "loro",
+          "explanation": "Con loro, scrivere al presente si coniuga scrivono."
+        }
+      ]
+    },
+    "band": 2
+  },
+  {
+    "id": "corpus-presente-193",
+    "textTemplate": "Io {slot_0} il pacco dall'ufficio postale vicino a casa.",
+    "primaryTense": "presente",
+    "level": 1,
+    "difficulty": 1,
+    "theme": "vita_quotidiana",
+    "source": "authored",
+    "target": {
+      "slotId": 0,
+      "verb": "spedire",
+      "person": "io",
+      "acceptedAnswers": [
+        {
+          "text": "spedisco",
+          "tense": "presente",
+          "person": "io",
+          "explanation": "Con io, spedire al presente si coniuga spedisco."
+        }
+      ]
+    },
+    "band": 1
+  },
+  {
+    "id": "corpus-presente-194",
+    "textTemplate": "Tu {slot_0} i libri in una scatola resistente?",
+    "primaryTense": "presente",
+    "level": 2,
+    "difficulty": 1,
+    "theme": "vita_quotidiana",
+    "source": "authored",
+    "target": {
+      "slotId": 0,
+      "verb": "spedire",
+      "person": "tu",
+      "acceptedAnswers": [
+        {
+          "text": "spedisci",
+          "tense": "presente",
+          "person": "tu",
+          "explanation": "Con tu, spedire al presente si coniuga spedisci."
+        }
+      ]
+    },
+    "band": 1
+  },
+  {
+    "id": "corpus-presente-195",
+    "textTemplate": "Voi {slot_0} gli ordini anche all'estero?",
+    "primaryTense": "presente",
+    "level": 3,
+    "difficulty": 1,
+    "theme": "vita_quotidiana",
+    "source": "authored",
+    "target": {
+      "slotId": 0,
+      "verb": "spedire",
+      "person": "voi",
+      "acceptedAnswers": [
+        {
+          "text": "spedite",
+          "tense": "presente",
+          "person": "voi",
+          "explanation": "Con voi, spedire al presente si coniuga spedite."
+        }
+      ]
+    },
+    "band": 1
+  },
+  {
+    "id": "corpus-presente-196",
+    "textTemplate": "I produttori {slot_0} la frutta direttamente ai clienti.",
+    "primaryTense": "presente",
+    "level": 4,
+    "difficulty": 1,
+    "theme": "vita_quotidiana",
+    "source": "authored",
+    "target": {
+      "slotId": 0,
+      "verb": "spedire",
+      "person": "loro",
+      "acceptedAnswers": [
+        {
+          "text": "spediscono",
+          "tense": "presente",
+          "person": "loro",
+          "explanation": "Con loro, spedire al presente si coniuga spediscono."
+        }
+      ]
+    },
+    "band": 1
+  },
+  {
+    "id": "corpus-presente-197",
+    "textTemplate": "Tu {slot_0} il telefono quando entri in teatro?",
+    "primaryTense": "presente",
+    "level": 3,
+    "difficulty": 2,
+    "theme": "vita_quotidiana",
+    "source": "authored",
+    "target": {
+      "slotId": 0,
+      "verb": "spegnere",
+      "person": "tu",
+      "acceptedAnswers": [
+        {
+          "text": "spegni",
+          "tense": "presente",
+          "person": "tu",
+          "explanation": "Con tu, spegnere al presente si coniuga spegni."
+        }
+      ]
+    },
+    "band": 2
+  },
+  {
+    "id": "corpus-presente-198",
+    "textTemplate": "Il custode {slot_0} le luci del museo.",
+    "primaryTense": "presente",
+    "level": 4,
+    "difficulty": 2,
+    "theme": "vita_quotidiana",
+    "source": "authored",
+    "target": {
+      "slotId": 0,
+      "verb": "spegnere",
+      "person": "lui/lei",
+      "acceptedAnswers": [
+        {
+          "text": "spegne",
+          "tense": "presente",
+          "person": "lui/lei",
+          "explanation": "Con lui o lei, spegnere al presente si coniuga spegne."
+        }
+      ]
+    },
+    "band": 2
+  },
+  {
+    "id": "corpus-presente-199",
+    "textTemplate": "Noi {slot_0} il motore mentre aspettiamo.",
+    "primaryTense": "presente",
+    "level": 5,
+    "difficulty": 2,
+    "theme": "vita_quotidiana",
+    "source": "authored",
+    "target": {
+      "slotId": 0,
+      "verb": "spegnere",
+      "person": "noi",
+      "acceptedAnswers": [
+        {
+          "text": "spegniamo",
+          "tense": "presente",
+          "person": "noi",
+          "explanation": "Con noi, spegnere al presente si coniuga spegniamo."
+        }
+      ]
+    },
+    "band": 2
+  },
+  {
+    "id": "corpus-presente-200",
+    "textTemplate": "I vigili del fuoco {slot_0} l'incendio nel bosco.",
+    "primaryTense": "presente",
+    "level": 4,
+    "difficulty": 2,
+    "theme": "vita_quotidiana",
+    "source": "authored",
+    "target": {
+      "slotId": 0,
+      "verb": "spegnere",
+      "person": "loro",
+      "acceptedAnswers": [
+        {
+          "text": "spengono",
+          "tense": "presente",
+          "person": "loro",
+          "explanation": "Con loro, spegnere al presente si coniuga spengono."
+        }
+      ]
+    },
+    "band": 2
+  },
+  {
+    "id": "corpus-presente-201",
+    "textTemplate": "Io {slot_0} bene qui, vicino alla finestra.",
+    "primaryTense": "presente",
+    "level": 5,
+    "difficulty": 2,
+    "theme": "vita_quotidiana",
+    "source": "authored",
+    "target": {
+      "slotId": 0,
+      "verb": "stare",
+      "person": "io",
+      "acceptedAnswers": [
+        {
+          "text": "sto",
+          "tense": "presente",
+          "person": "io",
+          "explanation": "Con io, stare al presente si coniuga sto."
+        }
+      ]
+    },
+    "band": 2
+  },
+  {
+    "id": "corpus-presente-202",
+    "textTemplate": "Tu {slot_0} attento quando attraversi questa strada?",
+    "primaryTense": "presente",
+    "level": 2,
+    "difficulty": 2,
+    "theme": "vita_quotidiana",
+    "source": "authored",
+    "target": {
+      "slotId": 0,
+      "verb": "stare",
+      "person": "tu",
+      "acceptedAnswers": [
+        {
+          "text": "stai",
+          "tense": "presente",
+          "person": "tu",
+          "explanation": "Con tu, stare al presente si coniuga stai."
+        }
+      ]
+    },
+    "band": 2
+  },
+  {
+    "id": "corpus-presente-203",
+    "textTemplate": "Noi {slot_0} in silenzio per ascoltare gli uccelli.",
+    "primaryTense": "presente",
+    "level": 3,
+    "difficulty": 2,
+    "theme": "vita_quotidiana",
+    "source": "authored",
+    "target": {
+      "slotId": 0,
+      "verb": "stare",
+      "person": "noi",
+      "acceptedAnswers": [
+        {
+          "text": "stiamo",
+          "tense": "presente",
+          "person": "noi",
+          "explanation": "Con noi, stare al presente si coniuga stiamo."
+        }
+      ]
+    },
+    "band": 2
+  },
+  {
+    "id": "corpus-presente-204",
+    "textTemplate": "Voi {slot_0} ancora nello stesso appartamento?",
+    "primaryTense": "presente",
+    "level": 4,
+    "difficulty": 2,
+    "theme": "vita_quotidiana",
+    "source": "authored",
+    "target": {
+      "slotId": 0,
+      "verb": "stare",
+      "person": "voi",
+      "acceptedAnswers": [
+        {
+          "text": "state",
+          "tense": "presente",
+          "person": "voi",
+          "explanation": "Con voi, stare al presente si coniuga state."
+        }
+      ]
+    },
+    "band": 2
+  },
+  {
+    "id": "corpus-presente-205",
+    "textTemplate": "Io {slot_0} il flauto da quando ero bambino.",
+    "primaryTense": "presente",
+    "level": 5,
+    "difficulty": 1,
+    "theme": "vita_quotidiana",
+    "source": "authored",
+    "target": {
+      "slotId": 0,
+      "verb": "suonare",
+      "person": "io",
+      "acceptedAnswers": [
+        {
+          "text": "suono",
+          "tense": "presente",
+          "person": "io",
+          "explanation": "Con io, suonare al presente si coniuga suono."
+        }
+      ]
+    },
+    "band": 2
+  },
+  {
+    "id": "corpus-presente-206",
+    "textTemplate": "Il campanello {slot_0} ogni volta che entra un cliente.",
+    "primaryTense": "presente",
+    "level": 1,
+    "difficulty": 1,
+    "theme": "vita_quotidiana",
+    "source": "authored",
+    "target": {
+      "slotId": 0,
+      "verb": "suonare",
+      "person": "lui/lei",
+      "acceptedAnswers": [
+        {
+          "text": "suona",
+          "tense": "presente",
+          "person": "lui/lei",
+          "explanation": "Con lui o lei, suonare al presente si coniuga suona."
+        }
+      ]
+    },
+    "band": 1
+  },
+  {
+    "id": "corpus-presente-207",
+    "textTemplate": "Voi {slot_0} insieme nella banda del paese?",
+    "primaryTense": "presente",
+    "level": 2,
+    "difficulty": 1,
+    "theme": "vita_quotidiana",
+    "source": "authored",
+    "target": {
+      "slotId": 0,
+      "verb": "suonare",
+      "person": "voi",
+      "acceptedAnswers": [
+        {
+          "text": "suonate",
+          "tense": "presente",
+          "person": "voi",
+          "explanation": "Con voi, suonare al presente si coniuga suonate."
+        }
+      ]
+    },
+    "band": 1
+  },
+  {
+    "id": "corpus-presente-208",
+    "textTemplate": "Le campane {slot_0} a mezzogiorno.",
+    "primaryTense": "presente",
+    "level": 3,
+    "difficulty": 1,
+    "theme": "vita_quotidiana",
+    "source": "authored",
+    "target": {
+      "slotId": 0,
+      "verb": "suonare",
+      "person": "loro",
+      "acceptedAnswers": [
+        {
+          "text": "suonano",
+          "tense": "presente",
+          "person": "loro",
+          "explanation": "Con loro, suonare al presente si coniuga suonano."
+        }
+      ]
+    },
+    "band": 1
+  },
+  {
+    "id": "corpus-presente-209",
+    "textTemplate": "Tu {slot_0} la paura dell'acqua poco alla volta.",
+    "primaryTense": "presente",
+    "level": 4,
+    "difficulty": 1,
+    "theme": "vita_quotidiana",
+    "source": "authored",
+    "target": {
+      "slotId": 0,
+      "verb": "superare",
+      "person": "tu",
+      "acceptedAnswers": [
+        {
+          "text": "superi",
+          "tense": "presente",
+          "person": "tu",
+          "explanation": "Con tu, superare al presente si coniuga superi."
+        }
+      ]
+    },
+    "band": 1
+  },
+  {
+    "id": "corpus-presente-210",
+    "textTemplate": "Questo armadio {slot_0} i due metri di altezza.",
+    "primaryTense": "presente",
+    "level": 1,
+    "difficulty": 1,
+    "theme": "vita_quotidiana",
+    "source": "authored",
+    "target": {
+      "slotId": 0,
+      "verb": "superare",
+      "person": "lui/lei",
+      "acceptedAnswers": [
+        {
+          "text": "supera",
+          "tense": "presente",
+          "person": "lui/lei",
+          "explanation": "Con lui o lei, superare al presente si coniuga supera."
+        }
+      ]
+    },
+    "band": 1
+  },
+  {
+    "id": "corpus-presente-211",
+    "textTemplate": "Noi {slot_0} il ponte e poi giriamo a destra.",
+    "primaryTense": "presente",
+    "level": 2,
+    "difficulty": 1,
+    "theme": "vita_quotidiana",
+    "source": "authored",
+    "target": {
+      "slotId": 0,
+      "verb": "superare",
+      "person": "noi",
+      "acceptedAnswers": [
+        {
+          "text": "superiamo",
+          "tense": "presente",
+          "person": "noi",
+          "explanation": "Con noi, superare al presente si coniuga superiamo."
+        }
+      ]
+    },
+    "band": 1
+  },
+  {
+    "id": "corpus-presente-212",
+    "textTemplate": "Le atlete {slot_0} l'ultimo ostacolo senza rallentare.",
+    "primaryTense": "presente",
+    "level": 3,
+    "difficulty": 1,
+    "theme": "vita_quotidiana",
+    "source": "authored",
+    "target": {
+      "slotId": 0,
+      "verb": "superare",
+      "person": "loro",
+      "acceptedAnswers": [
+        {
+          "text": "superano",
+          "tense": "presente",
+          "person": "loro",
+          "explanation": "Con loro, superare al presente si coniuga superano."
+        }
+      ]
+    },
+    "band": 1
+  },
+  {
+    "id": "corpus-presente-213",
+    "textTemplate": "Io {slot_0} a casa per dare da mangiare al gatto.",
+    "primaryTense": "presente",
+    "level": 4,
+    "difficulty": 1,
+    "theme": "vita_quotidiana",
+    "source": "authored",
+    "target": {
+      "slotId": 0,
+      "verb": "tornare",
+      "person": "io",
+      "acceptedAnswers": [
+        {
+          "text": "torno",
+          "tense": "presente",
+          "person": "io",
+          "explanation": "Con io, tornare al presente si coniuga torno."
+        }
+      ]
+    },
+    "band": 1
+  },
+  {
+    "id": "corpus-presente-214",
+    "textTemplate": "Tu {slot_0} mai nei posti dove vivevi da piccolo?",
+    "primaryTense": "presente",
+    "level": 5,
+    "difficulty": 1,
+    "theme": "vita_quotidiana",
+    "source": "authored",
+    "target": {
+      "slotId": 0,
+      "verb": "tornare",
+      "person": "tu",
+      "acceptedAnswers": [
+        {
+          "text": "torni",
+          "tense": "presente",
+          "person": "tu",
+          "explanation": "Con tu, tornare al presente si coniuga torni."
+        }
+      ]
+    },
+    "band": 2
+  },
+  {
+    "id": "corpus-presente-215",
+    "textTemplate": "Noi {slot_0} al mercato quando finisce la folla.",
+    "primaryTense": "presente",
+    "level": 1,
+    "difficulty": 1,
+    "theme": "vita_quotidiana",
+    "source": "authored",
+    "target": {
+      "slotId": 0,
+      "verb": "tornare",
+      "person": "noi",
+      "acceptedAnswers": [
+        {
+          "text": "torniamo",
+          "tense": "presente",
+          "person": "noi",
+          "explanation": "Con noi, tornare al presente si coniuga torniamo."
+        }
+      ]
+    },
+    "band": 1
+  },
+  {
+    "id": "corpus-presente-216",
+    "textTemplate": "Voi {slot_0} in treno oppure vi accompagna qualcuno?",
+    "primaryTense": "presente",
+    "level": 2,
+    "difficulty": 1,
+    "theme": "vita_quotidiana",
+    "source": "authored",
+    "target": {
+      "slotId": 0,
+      "verb": "tornare",
+      "person": "voi",
+      "acceptedAnswers": [
+        {
+          "text": "tornate",
+          "tense": "presente",
+          "person": "voi",
+          "explanation": "Con voi, tornare al presente si coniuga tornate."
+        }
+      ]
+    },
+    "band": 1
+  },
+  {
+    "id": "corpus-presente-217",
+    "textTemplate": "Io {slot_0} di casa con qualche minuto di anticipo.",
+    "primaryTense": "presente",
+    "level": 4,
+    "difficulty": 2,
+    "theme": "vita_quotidiana",
+    "source": "authored",
+    "target": {
+      "slotId": 0,
+      "verb": "uscire",
+      "person": "io",
+      "acceptedAnswers": [
+        {
+          "text": "esco",
+          "tense": "presente",
+          "person": "io",
+          "explanation": "Con io, uscire al presente si coniuga esco."
+        }
+      ]
+    },
+    "band": 2
+  },
+  {
+    "id": "corpus-presente-218",
+    "textTemplate": "Il giornale locale {slot_0} una volta alla settimana.",
+    "primaryTense": "presente",
+    "level": 5,
+    "difficulty": 2,
+    "theme": "vita_quotidiana",
+    "source": "authored",
+    "target": {
+      "slotId": 0,
+      "verb": "uscire",
+      "person": "lui/lei",
+      "acceptedAnswers": [
+        {
+          "text": "esce",
+          "tense": "presente",
+          "person": "lui/lei",
+          "explanation": "Con lui o lei, uscire al presente si coniuga esce."
+        }
+      ]
+    },
+    "band": 2
+  },
+  {
+    "id": "corpus-presente-219",
+    "textTemplate": "Noi {slot_0} dalla porta sul retro.",
+    "primaryTense": "presente",
+    "level": 2,
+    "difficulty": 2,
+    "theme": "vita_quotidiana",
+    "source": "authored",
+    "target": {
+      "slotId": 0,
+      "verb": "uscire",
+      "person": "noi",
+      "acceptedAnswers": [
+        {
+          "text": "usciamo",
+          "tense": "presente",
+          "person": "noi",
+          "explanation": "Con noi, uscire al presente si coniuga usciamo."
+        }
+      ]
+    },
+    "band": 2
+  },
+  {
+    "id": "corpus-presente-220",
+    "textTemplate": "Gli spettatori {slot_0} dalla sala in silenzio.",
+    "primaryTense": "presente",
+    "level": 2,
+    "difficulty": 2,
+    "theme": "vita_quotidiana",
+    "source": "authored",
+    "target": {
+      "slotId": 0,
+      "verb": "uscire",
+      "person": "loro",
+      "acceptedAnswers": [
+        {
+          "text": "escono",
+          "tense": "presente",
+          "person": "loro",
+          "explanation": "Con loro, uscire al presente si coniuga escono."
+        }
+      ]
+    },
+    "band": 2
+  },
+  {
+    "id": "corpus-presente-221",
+    "textTemplate": "Tu {slot_0} il mare dalla tua finestra?",
+    "primaryTense": "presente",
+    "level": 3,
+    "difficulty": 2,
+    "theme": "vita_quotidiana",
+    "source": "authored",
+    "target": {
+      "slotId": 0,
+      "verb": "vedere",
+      "person": "tu",
+      "acceptedAnswers": [
+        {
+          "text": "vedi",
+          "tense": "presente",
+          "person": "tu",
+          "explanation": "Con tu, vedere al presente si coniuga vedi."
+        }
+      ]
+    },
+    "band": 2
+  },
+  {
+    "id": "corpus-presente-222",
+    "textTemplate": "La bambina {slot_0} una farfalla sul fiore.",
+    "primaryTense": "presente",
+    "level": 4,
+    "difficulty": 2,
+    "theme": "vita_quotidiana",
+    "source": "authored",
+    "target": {
+      "slotId": 0,
+      "verb": "vedere",
+      "person": "lui/lei",
+      "acceptedAnswers": [
+        {
+          "text": "vede",
+          "tense": "presente",
+          "person": "lui/lei",
+          "explanation": "Con lui o lei, vedere al presente si coniuga vede."
+        }
+      ]
+    },
+    "band": 2
+  },
+  {
+    "id": "corpus-presente-223",
+    "textTemplate": "Noi {slot_0} i nostri amici soprattutto nel fine settimana.",
+    "primaryTense": "presente",
+    "level": 5,
+    "difficulty": 2,
+    "theme": "vita_quotidiana",
+    "source": "authored",
+    "target": {
+      "slotId": 0,
+      "verb": "vedere",
+      "person": "noi",
+      "acceptedAnswers": [
+        {
+          "text": "vediamo",
+          "tense": "presente",
+          "person": "noi",
+          "explanation": "Con noi, vedere al presente si coniuga vediamo."
+        }
+      ]
+    },
+    "band": 2
+  },
+  {
+    "id": "corpus-presente-224",
+    "textTemplate": "Voi {slot_0} bene anche senza occhiali?",
+    "primaryTense": "presente",
+    "level": 2,
+    "difficulty": 2,
+    "theme": "vita_quotidiana",
+    "source": "authored",
+    "target": {
+      "slotId": 0,
+      "verb": "vedere",
+      "person": "voi",
+      "acceptedAnswers": [
+        {
+          "text": "vedete",
+          "tense": "presente",
+          "person": "voi",
+          "explanation": "Con voi, vedere al presente si coniuga vedete."
+        }
+      ]
+    },
+    "band": 2
+  },
+  {
+    "id": "corpus-presente-225",
+    "textTemplate": "Io {slot_0} volentieri se c'è posto anche per me.",
+    "primaryTense": "presente",
+    "level": 3,
+    "difficulty": 2,
+    "theme": "vita_quotidiana",
+    "source": "authored",
+    "target": {
+      "slotId": 0,
+      "verb": "venire",
+      "person": "io",
+      "acceptedAnswers": [
+        {
+          "text": "vengo",
+          "tense": "presente",
+          "person": "io",
+          "explanation": "Con io, venire al presente si coniuga vengo."
+        }
+      ]
+    },
+    "band": 2
+  },
+  {
+    "id": "corpus-presente-226",
+    "textTemplate": "Tu {slot_0} da noi dopo la lezione?",
+    "primaryTense": "presente",
+    "level": 4,
+    "difficulty": 2,
+    "theme": "vita_quotidiana",
+    "source": "authored",
+    "target": {
+      "slotId": 0,
+      "verb": "venire",
+      "person": "tu",
+      "acceptedAnswers": [
+        {
+          "text": "vieni",
+          "tense": "presente",
+          "person": "tu",
+          "explanation": "Con tu, venire al presente si coniuga vieni."
+        }
+      ]
+    },
+    "band": 2
+  },
+  {
+    "id": "corpus-presente-227",
+    "textTemplate": "Voi {slot_0} al corso per imparare a dipingere?",
+    "primaryTense": "presente",
+    "level": 5,
+    "difficulty": 2,
+    "theme": "vita_quotidiana",
+    "source": "authored",
+    "target": {
+      "slotId": 0,
+      "verb": "venire",
+      "person": "voi",
+      "acceptedAnswers": [
+        {
+          "text": "venite",
+          "tense": "presente",
+          "person": "voi",
+          "explanation": "Con voi, venire al presente si coniuga venite."
+        }
+      ]
+    },
+    "band": 2
+  },
+  {
+    "id": "corpus-presente-228",
+    "textTemplate": "Le verdure di questo negozio {slot_0} da aziende vicine.",
+    "primaryTense": "presente",
+    "level": 2,
+    "difficulty": 2,
+    "theme": "vita_quotidiana",
+    "source": "authored",
+    "target": {
+      "slotId": 0,
+      "verb": "venire",
+      "person": "loro",
+      "acceptedAnswers": [
+        {
+          "text": "vengono",
+          "tense": "presente",
+          "person": "loro",
+          "explanation": "Con loro, venire al presente si coniuga vengono."
+        }
+      ]
+    },
+    "band": 2
+  },
+  {
+    "id": "corpus-presente-229",
+    "textTemplate": "Io {slot_0} leggero, con uno zaino solo.",
+    "primaryTense": "presente",
+    "level": 1,
+    "difficulty": 1,
+    "theme": "vita_quotidiana",
+    "source": "authored",
+    "target": {
+      "slotId": 0,
+      "verb": "viaggiare",
+      "person": "io",
+      "acceptedAnswers": [
+        {
+          "text": "viaggio",
+          "tense": "presente",
+          "person": "io",
+          "explanation": "Con io, viaggiare al presente si coniuga viaggio."
+        }
+      ]
+    },
+    "band": 1
+  },
+  {
+    "id": "corpus-presente-230",
+    "textTemplate": "Mia cugina {slot_0} spesso per lavoro.",
+    "primaryTense": "presente",
+    "level": 3,
+    "difficulty": 1,
+    "theme": "vita_quotidiana",
+    "source": "authored",
+    "target": {
+      "slotId": 0,
+      "verb": "viaggiare",
+      "person": "lui/lei",
+      "acceptedAnswers": [
+        {
+          "text": "viaggia",
+          "tense": "presente",
+          "person": "lui/lei",
+          "explanation": "Con lui o lei, viaggiare al presente si coniuga viaggia."
+        }
+      ]
+    },
+    "band": 1
+  },
+  {
+    "id": "corpus-presente-231",
+    "textTemplate": "Noi {slot_0} di notte per evitare il traffico.",
+    "primaryTense": "presente",
+    "level": 4,
+    "difficulty": 1,
+    "theme": "vita_quotidiana",
+    "source": "authored",
+    "target": {
+      "slotId": 0,
+      "verb": "viaggiare",
+      "person": "noi",
+      "acceptedAnswers": [
+        {
+          "text": "viaggiamo",
+          "tense": "presente",
+          "person": "noi",
+          "explanation": "Con noi, viaggiare al presente si coniuga viaggiamo."
+        }
+      ]
+    },
+    "band": 1
+  },
+  {
+    "id": "corpus-presente-232",
+    "textTemplate": "I musicisti {slot_0} insieme su un piccolo autobus.",
+    "primaryTense": "presente",
+    "level": 5,
+    "difficulty": 1,
+    "theme": "vita_quotidiana",
+    "source": "authored",
+    "target": {
+      "slotId": 0,
+      "verb": "viaggiare",
+      "person": "loro",
+      "acceptedAnswers": [
+        {
+          "text": "viaggiano",
+          "tense": "presente",
+          "person": "loro",
+          "explanation": "Con loro, viaggiare al presente si coniuga viaggiano."
+        }
+      ]
+    },
+    "band": 2
+  },
+  {
+    "id": "corpus-presente-233",
+    "textTemplate": "Tu {slot_0} i musei da solo o con una guida?",
+    "primaryTense": "presente",
+    "level": 1,
+    "difficulty": 1,
+    "theme": "vita_quotidiana",
+    "source": "authored",
+    "target": {
+      "slotId": 0,
+      "verb": "visitare",
+      "person": "tu",
+      "acceptedAnswers": [
+        {
+          "text": "visiti",
+          "tense": "presente",
+          "person": "tu",
+          "explanation": "Con tu, visitare al presente si coniuga visiti."
+        }
+      ]
+    },
+    "band": 1
+  },
+  {
+    "id": "corpus-presente-234",
+    "textTemplate": "Il medico {slot_0} i pazienti anche a domicilio.",
+    "primaryTense": "presente",
+    "level": 2,
+    "difficulty": 1,
+    "theme": "vita_quotidiana",
+    "source": "authored",
+    "target": {
+      "slotId": 0,
+      "verb": "visitare",
+      "person": "lui/lei",
+      "acceptedAnswers": [
+        {
+          "text": "visita",
+          "tense": "presente",
+          "person": "lui/lei",
+          "explanation": "Con lui o lei, visitare al presente si coniuga visita."
+        }
+      ]
+    },
+    "band": 1
+  },
+  {
+    "id": "corpus-presente-235",
+    "textTemplate": "Voi {slot_0} i vostri parenti durante le feste?",
+    "primaryTense": "presente",
+    "level": 3,
+    "difficulty": 1,
+    "theme": "vita_quotidiana",
+    "source": "authored",
+    "target": {
+      "slotId": 0,
+      "verb": "visitare",
+      "person": "voi",
+      "acceptedAnswers": [
+        {
+          "text": "visitate",
+          "tense": "presente",
+          "person": "voi",
+          "explanation": "Con voi, visitare al presente si coniuga visitate."
+        }
+      ]
+    },
+    "band": 1
+  },
+  {
+    "id": "corpus-presente-236",
+    "textTemplate": "Le scolaresche {slot_0} il castello in primavera.",
+    "primaryTense": "presente",
+    "level": 4,
+    "difficulty": 1,
+    "theme": "vita_quotidiana",
+    "source": "authored",
+    "target": {
+      "slotId": 0,
+      "verb": "visitare",
+      "person": "loro",
+      "acceptedAnswers": [
+        {
+          "text": "visitano",
+          "tense": "presente",
+          "person": "loro",
+          "explanation": "Con loro, visitare al presente si coniuga visitano."
+        }
+      ]
+    },
+    "band": 1
+  },
+  {
+    "id": "corpus-presente-237",
+    "textTemplate": "Io {slot_0} imparare a fare il pane in casa.",
+    "primaryTense": "presente",
+    "level": 2,
+    "difficulty": 2,
+    "theme": "vita_quotidiana",
+    "source": "authored",
+    "target": {
+      "slotId": 0,
+      "verb": "volere",
+      "person": "io",
+      "acceptedAnswers": [
+        {
+          "text": "voglio",
+          "tense": "presente",
+          "person": "io",
+          "explanation": "Con io, volere al presente si coniuga voglio."
+        }
+      ]
+    },
+    "band": 2
+  },
+  {
+    "id": "corpus-presente-238",
+    "textTemplate": "Tu {slot_0} ancora un po' di minestra?",
+    "primaryTense": "presente",
+    "level": 3,
+    "difficulty": 2,
+    "theme": "vita_quotidiana",
+    "source": "authored",
+    "target": {
+      "slotId": 0,
+      "verb": "volere",
+      "person": "tu",
+      "acceptedAnswers": [
+        {
+          "text": "vuoi",
+          "tense": "presente",
+          "person": "tu",
+          "explanation": "Con tu, volere al presente si coniuga vuoi."
+        }
+      ]
+    },
+    "band": 2
+  },
+  {
+    "id": "corpus-presente-239",
+    "textTemplate": "Noi {slot_0} un posto dove parlare con calma.",
+    "primaryTense": "presente",
+    "level": 4,
+    "difficulty": 2,
+    "theme": "vita_quotidiana",
+    "source": "authored",
+    "target": {
+      "slotId": 0,
+      "verb": "volere",
+      "person": "noi",
+      "acceptedAnswers": [
+        {
+          "text": "vogliamo",
+          "tense": "presente",
+          "person": "noi",
+          "explanation": "Con noi, volere al presente si coniuga vogliamo."
+        }
+      ]
+    },
+    "band": 2
+  },
+  {
+    "id": "corpus-presente-240",
+    "textTemplate": "I bambini {slot_0} restare al parco fino a sera.",
+    "primaryTense": "presente",
+    "level": 4,
+    "difficulty": 2,
+    "theme": "vita_quotidiana",
+    "source": "authored",
+    "target": {
+      "slotId": 0,
+      "verb": "volere",
+      "person": "loro",
+      "acceptedAnswers": [
+        {
+          "text": "vogliono",
+          "tense": "presente",
+          "person": "loro",
+          "explanation": "Con loro, volere al presente si coniuga vogliono."
+        }
+      ]
+    },
+    "band": 2
+  }
+]

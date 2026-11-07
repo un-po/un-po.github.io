@@ -1,12 +1,28 @@
-import type { Exercise, Outcome, Person } from './practice.ts';
+import {
+  persons,
+  tenses,
+  type Exercise,
+  type Outcome,
+  type Person,
+  type Tense,
+} from './practice.ts';
+import { contentRevision } from './content.ts';
 
-export const learningStateVersion = 1 as const;
-export const maximumLearnerLevel = 25;
-export const italianoVeroLevel = 21;
-
+export const learningStateVersion = 3 as const;
 const contextLearningRate = 0.25;
 const neutralContextScore = 1;
-const minimumReturnGap = 3;
+const minimumReturnGap = 8;
+export type RandomSource = () => number;
+export interface QuestionResult {
+  outcome: Outcome;
+  tense: Tense | null;
+}
+export interface Band {
+  id: string;
+  tense: Tense;
+  part: 1 | 2;
+  questions: Exercise[];
+}
 
 export interface ContextScore {
   score: number;
@@ -25,6 +41,7 @@ export interface MasteryRecord {
 
 export interface LearningState {
   version: typeof learningStateVersion;
+  contentRevision: string;
   learner: {
     level: number;
     levelProgress: number;
@@ -36,6 +53,8 @@ export interface LearningState {
       persons: Person[];
     };
   };
+  curriculum: { unlocked: string[] };
+  results: Record<string, QuestionResult>;
   queue: string[];
   contexts: {
     questions: Record<string, ContextScore>;
@@ -47,54 +66,75 @@ export interface LearningState {
   missStreaks: Record<string, number>;
 }
 
-export type RandomSource = () => number;
-
-export function exerciseLevel(exercise: Exercise): number {
-  return Math.max(1, Math.min(maximumLearnerLevel, exercise.level ?? exercise.difficulty));
+const poolBands = new WeakMap<Exercise[], Band[]>();
+export function curriculumBands(exercises: Exercise[]): Band[] {
+  let bands = poolBands.get(exercises);
+  if (!bands) {
+    bands = tenses
+      .flatMap((tense) =>
+        ([1, 2] as const).map((part) => ({
+          id: `${tense}:${part}`,
+          tense,
+          part,
+          questions: exercises.filter((e) => exerciseTense(e) === tense && (e.band ?? 1) === part),
+        })),
+      )
+      .filter((band) => band.questions.length > 0);
+    poolBands.set(exercises, bands);
+  }
+  return bands;
 }
-
-export function exerciseTense(exercise: Exercise): string {
-  return exercise.tense ?? 'presente';
+export function exerciseTense(exercise: Exercise): Tense {
+  return (exercise.tense ?? 'presente') as Tense;
 }
-
-export function masteryValue(outcome: Outcome): number {
-  return outcome === 'correct' ? 1 : outcome === 'typo' ? 0.4 : 0;
+export function bandProgress(band: Band, results: LearningState['results']) {
+  let covered = 0,
+    correct = 0;
+  for (const question of band.questions) {
+    const result = results[question.id];
+    if (result) {
+      covered++;
+      if (result.outcome === 'correct') correct++;
+    }
+  }
+  const total = band.questions.length;
+  const coverage = total ? covered / total : 0;
+  const accuracy = covered ? correct / covered : 0;
+  // Integer comparisons avoid rounding an almost-passing percentage into an unlock.
+  const ready =
+    covered > 0 &&
+    ((covered === total && correct * 100 >= covered * 70) ||
+      (covered * 100 >= total * 80 && correct * 100 >= covered * 85) ||
+      (covered * 100 >= total * 60 && correct === covered));
+  return { total, covered, correct, coverage, accuracy, ready };
 }
-
-export function masteryTarget(level: number): number {
-  return level === 1 ? 6 : level === 2 ? 8 : 10;
+export function activeBands(state: LearningState, exercises: Exercise[]): Band[] {
+  return curriculumBands(exercises)
+    .filter((b) => state.curriculum.unlocked.includes(b.id))
+    .slice(-4);
 }
-
-export function activeLevelRange(level: number, exercises: Exercise[]) {
-  const highestQuestionLevel = Math.max(1, ...exercises.map(exerciseLevel));
-  return {
-    minimum: Math.min(Math.max(1, level - 4), highestQuestionLevel),
-    maximum: Math.min(maximumLearnerLevel, level + 1),
-  };
+function available(exercise: Exercise, state: LearningState, exercises: Exercise[]): boolean {
+  const bands = activeBands(state, exercises);
+  return (
+    bands.some((b) => b.id === `${exerciseTense(exercise)}:${exercise.band ?? 1}`) &&
+    (exercise.acceptedAnswers ?? []).every((a) =>
+      curriculumBands(exercises).some(
+        (b) => b.tense === a.tense && state.curriculum.unlocked.includes(b.id),
+      ),
+    )
+  );
 }
-
-export function maximumReachableLevel(exercises: Exercise[]): number {
-  const highestQuestionLevel = Math.max(1, ...exercises.map(exerciseLevel));
-  return Math.min(maximumLearnerLevel, highestQuestionLevel + 4);
-}
-
 function emptyContext(): ContextScore {
-  return {
-    score: neutralContextScore,
-    samples: 0,
-    attempts: 0,
-    correct: 0,
-    typos: 0,
-    errors: 0,
-  };
+  return { score: 1, samples: 0, attempts: 0, correct: 0, typos: 0, errors: 0 };
 }
-
 export function createLearningState(
   exercises: Exercise[],
   random: RandomSource = Math.random,
 ): LearningState {
   const state: LearningState = {
     version: learningStateVersion,
+    contentRevision,
+    // Archived legacy records remain intact for migration and future ruler work.
     learner: {
       level: 1,
       levelProgress: 0,
@@ -102,77 +142,96 @@ export function createLearningState(
       missedMastery: 0,
       levelEvidence: { questions: [], verbs: [], persons: [] },
     },
+    mastery: {},
+    curriculum: {
+      unlocked: curriculumBands(exercises)
+        .slice(0, 3)
+        .map((b) => b.id),
+    },
+    results: {},
     queue: [],
     contexts: { questions: {}, verbs: {}, persons: {}, tenses: {} },
-    mastery: {},
     missStreaks: {},
   };
-  synchronizeLearningState(state, exercises, random);
-  return state;
+  return synchronizeLearningState(state, exercises, random);
 }
-
-function isEligible(exercise: Exercise, range: ReturnType<typeof activeLevelRange>): boolean {
-  const level = exerciseLevel(exercise);
-  return level >= range.minimum && level <= range.maximum;
-}
-
-function insertionIndex(
-  exercise: Exercise,
-  state: LearningState,
-  exercises: Exercise[],
-  random: RandomSource,
-): number {
-  if (!state.queue.length) return 0;
-  const range = activeLevelRange(state.learner.level, exercises);
-  const span = Math.max(1, range.maximum - range.minimum);
-  const levelBias = ((exerciseLevel(exercise) - range.minimum) / span) * 0.35;
-  const percentile = Math.min(1, (random() + levelBias) / 1.35);
-  return Math.round(percentile * state.queue.length);
-}
-
 export function synchronizeLearningState(
   state: LearningState,
   exercises: Exercise[],
   random: RandomSource = Math.random,
 ): LearningState {
-  const exerciseById = new Map(exercises.map((exercise) => [exercise.id, exercise]));
-  const range = activeLevelRange(state.learner.level, exercises);
-
-  for (const [exerciseId, record] of Object.entries(state.mastery)) {
-    if (record.status !== 'active') continue;
-    const exercise = exerciseById.get(exerciseId);
-    if (!exercise) {
-      record.status = 'removed';
-    } else if (exerciseLevel(exercise) < range.minimum) {
-      state.learner.missedMastery += 1 - record.earned;
-      record.status = 'retired';
-    }
-  }
-
+  state.contentRevision = contentRevision;
+  const bands = curriculumBands(exercises);
+  // Canonical order prevents imported/debug unlock lists changing the rolling window.
+  state.curriculum.unlocked = bands
+    .filter((b, index) => index < 3 || state.curriculum.unlocked.includes(b.id))
+    .map((b) => b.id);
+  const allowed = new Set(exercises.filter((e) => available(e, state, exercises)).map((e) => e.id));
   const seen = new Set<string>();
-  state.queue = state.queue.filter((exerciseId) => {
-    const exercise = exerciseById.get(exerciseId);
-    const isUnseenCarryover =
-      exercise && !state.mastery[exerciseId] && exerciseLevel(exercise) < range.minimum;
-    if (!exercise || seen.has(exerciseId) || (!isEligible(exercise, range) && !isUnseenCarryover))
-      return false;
-    seen.add(exerciseId);
+  state.queue = state.queue.filter((id) => {
+    if (!allowed.has(id) || seen.has(id)) return false;
+    seen.add(id);
     return true;
   });
-
-  for (const exercise of exercises) {
-    if (!isEligible(exercise, range)) continue;
-    if (!seen.has(exercise.id)) {
-      state.queue.splice(insertionIndex(exercise, state, exercises, random), 0, exercise.id);
-      seen.add(exercise.id);
-    }
+  const additions = [...allowed].filter((id) => !seen.has(id));
+  for (let i = additions.length - 1; i > 0; i--) {
+    const j = Math.floor(random() * (i + 1));
+    [additions[i], additions[j]] = [additions[j]!, additions[i]!];
   }
+  // Preserve existing relative order while blending newly eligible items.
+  for (const id of additions)
+    state.queue.splice(Math.floor(random() * (state.queue.length + 1)), 0, id);
   return state;
 }
-
+function unlockNext(state: LearningState, exercises: Exercise[], random: RandomSource) {
+  const bands = curriculumBands(exercises);
+  const unlocked = bands.filter((b) => state.curriculum.unlocked.includes(b.id));
+  const frontier = unlocked.at(-1);
+  const next = bands.find((b) => !state.curriculum.unlocked.includes(b.id));
+  const outgoing = unlocked.length >= 4 ? unlocked.at(-4) : undefined;
+  if (
+    frontier &&
+    next &&
+    bandProgress(frontier, state.results).ready &&
+    (!outgoing || bandProgress(outgoing, state.results).ready)
+  ) {
+    state.curriculum.unlocked.push(next.id);
+    synchronizeLearningState(state, exercises, random);
+  }
+}
+export function recordLearningOutcome(
+  state: LearningState,
+  exercise: Exercise,
+  outcome: Outcome,
+  exercises: Exercise[],
+  random: RandomSource = Math.random,
+  demonstratedTense: string | null = exerciseTense(exercise),
+): LearningState {
+  updateContexts(state, exercise, outcome, demonstratedTense);
+  state.results[exercise.id] = { outcome, tense: demonstratedTense as Tense | null };
+  if (available(exercise, state, exercises))
+    reinsertAnsweredExercise(state, exercise, outcome, random);
+  else state.queue = state.queue.filter((id) => id !== exercise.id);
+  unlockNext(state, exercises, random);
+  return state;
+}
+export function nextLearningExercise(
+  state: LearningState,
+  exercises: Exercise[],
+  random: RandomSource = Math.random,
+): Exercise {
+  const byId = new Map(exercises.map((e) => [e.id, e]));
+  let next = state.queue.map((id) => byId.get(id)).find(Boolean);
+  if (!next) {
+    synchronizeLearningState(state, exercises, random);
+    next = state.queue.map((id) => byId.get(id)).find(Boolean);
+  }
+  if (!next) throw new Error('No eligible exercises available');
+  return next;
+}
 function updateContext(record: ContextScore | undefined, outcome: Outcome): ContextScore {
   const next = record ?? emptyContext();
-  const value = masteryValue(outcome);
+  const value = outcome === 'correct' ? 1 : outcome === 'typo' ? 0.4 : 0;
   next.score = next.score * (1 - contextLearningRate) + value * contextLearningRate;
   next.samples += 1;
   next.attempts += 1;
@@ -200,10 +259,6 @@ function contextualStrength(state: LearningState, exercise: Exercise): number {
   return weightedScore / totalWeight;
 }
 
-function randomInteger(minimum: number, maximum: number, random: RandomSource): number {
-  return minimum + Math.floor(random() * (maximum - minimum + 1));
-}
-
 function baseReturnDistance(
   state: LearningState,
   exercise: Exercise,
@@ -217,12 +272,12 @@ function baseReturnDistance(
   if (outcome === 'typo') {
     const streak = (state.missStreaks[exercise.id] ?? 0) + 1;
     state.missStreaks[exercise.id] = streak;
-    const center = 10 * 2 ** (streak - 1);
+    const center = 20 * 2 ** Math.min(10, streak - 1);
     return Math.max(minimumReturnGap, Math.round(center * (0.8 + random() * 0.4)));
   }
   const streak = (state.missStreaks[exercise.id] ?? 0) + 1;
   state.missStreaks[exercise.id] = streak;
-  const center = 4 * 2 ** (streak - 1);
+  const center = 12 * 2 ** Math.min(10, streak - 1);
   return Math.max(minimumReturnGap, Math.round(center * (0.8 + random() * 0.4)));
 }
 
@@ -243,7 +298,12 @@ function reinsertAnsweredExercise(
   state.queue.splice(distance, 0, exercise.id);
 }
 
-function updateContexts(state: LearningState, exercise: Exercise, outcome: Outcome): void {
+function updateContexts(
+  state: LearningState,
+  exercise: Exercise,
+  outcome: Outcome,
+  demonstratedTense: string | null,
+): void {
   state.contexts.questions[exercise.id] = updateContext(
     state.contexts.questions[exercise.id],
     outcome,
@@ -253,103 +313,10 @@ function updateContexts(state: LearningState, exercise: Exercise, outcome: Outco
     state.contexts.persons[exercise.person],
     outcome,
   );
-  const tense = exerciseTense(exercise);
-  state.contexts.tenses[tense] = updateContext(state.contexts.tenses[tense], outcome);
-}
-
-function awardMastery(state: LearningState, exercise: Exercise, outcome: Outcome): void {
-  const record = (state.mastery[exercise.id] ??= {
-    earned: 0,
-    offeredAtLevel: state.learner.level,
-    status: 'active',
-  });
-  if (!record || record.status !== 'active') return;
-  const improvement = Math.max(0, masteryValue(outcome) - record.earned);
-  record.earned += improvement;
-  state.learner.levelProgress += improvement;
-  state.learner.totalMastery += improvement;
-  if (improvement > 0) {
-    if (!state.learner.levelEvidence.questions.includes(exercise.id))
-      state.learner.levelEvidence.questions.push(exercise.id);
-    if (!state.learner.levelEvidence.verbs.includes(exercise.verb))
-      state.learner.levelEvidence.verbs.push(exercise.verb);
-    if (!state.learner.levelEvidence.persons.includes(exercise.person))
-      state.learner.levelEvidence.persons.push(exercise.person);
-  }
-}
-
-function hasLevelBreadth(state: LearningState, exercises: Exercise[]): boolean {
-  const range = activeLevelRange(state.learner.level, exercises);
-  const available = exercises.filter((exercise) => isEligible(exercise, range));
-  const requiredVerbs = Math.min(3, new Set(available.map((exercise) => exercise.verb)).size);
-  const requiredPersons = Math.min(3, new Set(available.map((exercise) => exercise.person)).size);
-  return (
-    state.learner.levelEvidence.verbs.length >= requiredVerbs &&
-    state.learner.levelEvidence.persons.length >= requiredPersons
-  );
-}
-
-function advanceLevel(state: LearningState, exercises: Exercise[], random: RandomSource): void {
-  const cap = maximumReachableLevel(exercises);
-  while (
-    state.learner.level < cap &&
-    state.learner.levelProgress >= masteryTarget(state.learner.level) &&
-    hasLevelBreadth(state, exercises)
-  ) {
-    state.learner.levelProgress -= masteryTarget(state.learner.level);
-    state.learner.level += 1;
-    state.learner.levelEvidence = { questions: [], verbs: [], persons: [] };
-    synchronizeLearningState(state, exercises, random);
-  }
-  if (state.learner.level >= cap) {
-    state.learner.levelProgress = Math.min(
-      state.learner.levelProgress,
-      masteryTarget(state.learner.level),
+  if (demonstratedTense !== null) {
+    state.contexts.tenses[demonstratedTense] = updateContext(
+      state.contexts.tenses[demonstratedTense],
+      outcome,
     );
   }
-}
-
-export function recordLearningOutcome(
-  state: LearningState,
-  exercise: Exercise,
-  outcome: Outcome,
-  exercises: Exercise[],
-  random: RandomSource = Math.random,
-): LearningState {
-  updateContexts(state, exercise, outcome);
-  awardMastery(state, exercise, outcome);
-  reinsertAnsweredExercise(state, exercise, outcome, random);
-  advanceLevel(state, exercises, random);
-  const range = activeLevelRange(state.learner.level, exercises);
-  if (!isEligible(exercise, range)) synchronizeLearningState(state, exercises, random);
-  return state;
-}
-
-export function nextLearningExercise(
-  state: LearningState,
-  exercises: Exercise[],
-  random: RandomSource = Math.random,
-): Exercise {
-  const exerciseById = new Map(exercises.map((exercise) => [exercise.id, exercise]));
-  let next = state.queue.map((exerciseId) => exerciseById.get(exerciseId)).find(Boolean);
-  if (!next) {
-    synchronizeLearningState(state, exercises, random);
-    next = state.queue.map((exerciseId) => exerciseById.get(exerciseId)).find(Boolean);
-  }
-  if (!next) throw new Error('No eligible exercises available');
-  return next;
-}
-
-export function levelProgress(state: LearningState, exercises: Exercise[]) {
-  const atContentLimit = state.learner.level >= maximumReachableLevel(exercises);
-  return {
-    current: state.learner.levelProgress,
-    target: masteryTarget(state.learner.level),
-    nextLevel: Math.min(maximumLearnerLevel, state.learner.level + 1),
-    atContentLimit,
-    nextRankLevel:
-      state.learner.level >= italianoVeroLevel
-        ? null
-        : Math.min(italianoVeroLevel, Math.floor((state.learner.level - 1) / 5) * 5 + 6),
-  };
 }

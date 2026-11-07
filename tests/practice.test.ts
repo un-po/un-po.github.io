@@ -1,16 +1,8 @@
 import test from 'node:test';
 import assert from 'node:assert/strict';
-import { readFileSync } from 'node:fs';
 import { gradeAnswer, normalize, persons, summarize } from '../src/lib/practice.ts';
-import type { Attempt, Exercise, Verb } from '../src/lib/practice.ts';
-const verbs: Verb[] = JSON.parse(
-  readFileSync(new URL('../src/content/verbs.json', import.meta.url), 'utf8'),
-);
-const exercises: Exercise[] = JSON.parse(
-  readFileSync(new URL('../src/content/exercises.json', import.meta.url), 'utf8'),
-).concat(
-  JSON.parse(readFileSync(new URL('../src/content/exercises-pilot.json', import.meta.url), 'utf8')),
-);
+import type { Attempt, Exercise } from '../src/lib/practice.ts';
+import { verbs, exercises } from './content-fixture.ts';
 function attempt(exercise: Exercise, outcome: Attempt['outcome'] = 'correct'): Attempt {
   return {
     exerciseId: exercise.id,
@@ -55,10 +47,12 @@ test('all sentences reference a real verb and its target person', () => {
     const verb = verbs.find((v) => v.id === exercise.verb);
     assert.ok(verb, exercise.id);
     assert.ok(exercise.answers.length && exercise.before && exercise.after && exercise.explanation);
-    assert.ok(
-      exercise.answers.includes(verb.forms[persons.indexOf(exercise.person)]!),
-      exercise.id,
-    );
+    for (const answer of exercise.acceptedAnswers!) {
+      assert.ok(
+        verb.paradigms![answer.tense][persons.indexOf(answer.person)]!.includes(answer.text),
+        exercise.id,
+      );
+    }
     for (const answer of exercise.answers)
       assert.equal(gradeAnswer(answer, exercise.answers, verbs), 'correct');
     assert.ok((exercise.level ?? exercise.difficulty) >= 1);
@@ -70,7 +64,7 @@ test('all sentences reference a real verb and its target person', () => {
       person,
     );
 });
-test('summary keeps first-attempt accuracy separate from typo points', () => {
+test('summary counts only fully correct answers toward accuracy', () => {
   const correct = attempt(exercises[0]!);
   const typo = attempt(exercises[1]!, 'typo');
   const error = attempt(exercises[2]!, 'error');
@@ -78,8 +72,8 @@ test('summary keeps first-attempt accuracy separate from typo points', () => {
     count: 3,
     accuracy: 33,
     typos: 1,
-    score: 24,
-    difficulty: 5 / 3,
+    difficulty:
+      (exercises[0]!.difficulty + exercises[1]!.difficulty + exercises[2]!.difficulty) / 3,
   });
-  assert.deepEqual(summarize([]), { count: 0, accuracy: 0, typos: 0, score: 0, difficulty: 0 });
+  assert.deepEqual(summarize([]), { count: 0, accuracy: 0, typos: 0, difficulty: 0 });
 });

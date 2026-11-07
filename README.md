@@ -18,7 +18,7 @@ views and practice events in production.
 
 ```sh
 npm test               # Answer grading, content validation, review scheduling, storage
-npm run content:review # Regenerate the Markdown exercise review sheet from JSON
+npm run content:review # Export four tense review sheets and verb tables to .local/content-review/
 npm run simulate:scheduler # Run deterministic scheduler sanity scenarios
 npm run build          # Type-check Vue/TypeScript and produce static files in dist/
 npm run check          # Run formatting, unit, desktop/mobile browser, and build checks
@@ -39,35 +39,36 @@ installation in CI.
 
 ## Current scope
 
-- 100 present-indicative sentence drafts across 10 verbs and all six persons;
-  the 82 new examples have had an initial LLM review and still need fluent-speaker
-  review.
+- 1,000 sentences across 60 verbs: 300 present, 300 passato prossimo, 200 imperfetto,
+  and 200 future, including five questions accepting two tenses. Complete paradigms
+  cover all six persons; visible cues specify the permitted tense(s).
 - In-sentence typing, timed continuation with an option to stay, a brief answer
   color wash, and conjugation tables highlighting target and supplied forms.
-- Conservative typo detection, session scoring, and a first-attempt accuracy summary.
-- A persistent adaptive queue with mastery levels and rolling question, verb,
-  person, and tense scores.
+- Conservative typo detection and saved accuracy by tense, person, and regularity.
+- A persistent adaptive queue with eight curriculum bands, coverage/accuracy unlocks,
+  and a rolling window of four bands, starting with three.
 - Immediate practice with timed first-use instructions and an optional locally
-  saved name; returning-learner greetings and level information appear inline.
+  saved name; returning-learner greetings and available tenses appear inline.
 - Light/dark themes, contextual keyboard hints, reduced motion, and responsive layouts.
 
 The scheduling model has deterministic sanity simulations but is not a claim of
-learning effectiveness. Broader tenses, calibration from real use, and progress
-export/import are future work. Content supports multiple accepted answers;
-current exercises each have one. See [the learning model](docs/learning-model.md).
+learning effectiveness. Additional tenses, calibration from real use, multiple blanks,
+and progress export/import remain future work. See [the learning model](docs/learning-model.md)
+and [content implementation report](docs/content-release.md), including linguistic review scope.
 
 ## Structure
 
 - `src/App.vue`: practice/session flow.
 - `src/components/`: practice prompts, dialogs, theme control, correction tables,
   and summary animations.
-- `src/content/`: verbs and exercise JSON; `exercises-pilot.json` holds the new
-  82-sentence review batch.
-- `src/lib/`: answer grading, review selection, scoring, and storage.
+- `src/content/`: full verb paradigms and four JSON sentence partitions, loaded through
+  `src/lib/content.ts`. Each accepted answer carries its own tense and explanation.
+- `src/lib/`: answer grading, review selection, band progression, feedback, and storage.
 - `src/style.css`: design tokens, both themes, motion, and responsive styles.
 - `tests/`: unit/content tests; `tests/browser/`: Playwright interaction tests.
 - `docs/product-brief.md`: agreed direction and outstanding decisions.
-- `docs/exercise-review.md`: generated review copy for all current exercises.
+- `docs/content-import/source/`: the preserved original import and its provenance manifest.
+- `.local/content-review/`: generated, ignored review sheets for the current corpus.
 
 ## Privacy and persistence
 
@@ -112,8 +113,9 @@ Settings allow learners to edit or clear their name, choose the system/light/dar
 theme, restore conjugation tables, and reset their saved progress. “Il resto”
 explains the practice flow, project motivation, and local-only data model.
 
-Points are computed internally but never shown to learners. Milestones are deferred
-until after v1. The correction table starts open; “Non mostrare più questa tabella”
+The session summary shows latest-answer accuracy per distinct question and changes since
+session start. Session points, numeric levels, and mastery-point advancement are retired.
+Milestones are deferred until after v1. The correction table starts open; “Non mostrare più questa tabella”
 hides it until the learner restores it in settings.
 
 Within a session, Arrow Up and Arrow Down browse completed and current exercises.
@@ -124,6 +126,11 @@ items.
 ## Development tools
 
 The local Vite app shows a **Sviluppo** button at the bottom left. Its panel can set a learner
-level, prioritize a tense, or jump to an exact exercise, and inspect saved learning data.
+unlocked-band count, prioritize a tense, or jump to an exact exercise, and inspect saved learning data.
 The first injection saves a backup; **Ripristina progressi originali** restores it. Changes
 reload the page and end the current in-memory session. The panel is excluded from production.
+
+With the development panel open, the app uses the remaining desktop width; on narrow screens
+the panel is stacked above it. **Corretta**, **Refuso**, and **Sbagliata** fill and submit
+the current question through normal grading. A typo is generated only when the grader can
+actually recognize one; short or ambiguous forms may not permit it.

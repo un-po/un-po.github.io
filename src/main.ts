@@ -6,11 +6,12 @@ if (import.meta.env.DEV) {
   document.addEventListener(
     'unpo:development-content',
     (event) => {
-      const { exercises } = (event as CustomEvent).detail;
+      const panelProps = (event as CustomEvent).detail;
       void import('./components/DevelopmentPanel.vue').then(({ default: panel }) => {
         const container = document.createElement('div');
-        document.body.append(container);
-        createApp(panel, { exercises }).mount(container);
+        container.className = 'dev-panel-host';
+        document.body.prepend(container);
+        createApp(panel, panelProps).mount(container);
       });
     },
     { once: true },

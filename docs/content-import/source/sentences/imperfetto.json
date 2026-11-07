@@ -1,0 +1,762 @@
+[
+  {
+    "id": "sent-imp-101",
+    "context_theme": "home_lifestyle",
+    "text_template": "Da piccolo, io {slot_0} sempre molto timido con gli estranei.",
+    "constraint_type": "temporal_anchor",
+    "difficulty_level": 2,
+    "targets": [
+      {
+        "slot_id": 0,
+        "token_index": 4,
+        "verb": "essere",
+        "mood": "indicativo",
+        "tense": "imperfetto",
+        "person": "io",
+        "accepted_answers": ["ero"],
+        "explanation": "L'imperfetto del verbo essere alla prima persona singolare (io) è ero."
+      }
+    ]
+  },
+  {
+    "id": "sent-imp-102",
+    "context_theme": "childhood_memories",
+    "text_template": "Quando abitavo in campagna, tu {slot_0} una bicicletta rossa.",
+    "constraint_type": "temporal_anchor",
+    "difficulty_level": 2,
+    "targets": [
+      {
+        "slot_id": 0,
+        "token_index": 6,
+        "verb": "avere",
+        "mood": "indicativo",
+        "tense": "imperfetto",
+        "person": "tu",
+        "accepted_answers": ["avevi"],
+        "explanation": "L'imperfetto del verbo avere alla seconda persona singolare (tu) è avevi."
+      }
+    ]
+  },
+  {
+    "id": "sent-imp-103",
+    "context_theme": "childhood_memories",
+    "text_template": "Da bambina, mia nonna {slot_0} sempre una persona molto dolce.",
+    "constraint_type": "temporal_anchor",
+    "difficulty_level": 2,
+    "targets": [
+      {
+        "slot_id": 0,
+        "token_index": 5,
+        "verb": "essere",
+        "mood": "indicativo",
+        "tense": "imperfetto",
+        "person": "lui_lei",
+        "accepted_answers": ["era"],
+        "explanation": "L'imperfetto del verbo essere alla terza persona singolare (lui/lei) è era."
+      }
+    ]
+  },
+  {
+    "id": "sent-imp-104",
+    "context_theme": "home_lifestyle",
+    "text_template": "Negli anni Novanta noi {slot_0} una casa grande vicino al mare.",
+    "constraint_type": "temporal_anchor",
+    "difficulty_level": 2,
+    "targets": [
+      {
+        "slot_id": 0,
+        "token_index": 5,
+        "verb": "avere",
+        "mood": "indicativo",
+        "tense": "imperfetto",
+        "person": "noi",
+        "accepted_answers": ["avevamo"],
+        "explanation": "L'imperfetto del verbo avere alla prima persona plurale (noi) è avevamo."
+      }
+    ]
+  },
+  {
+    "id": "sent-imp-105",
+    "context_theme": "childhood_memories",
+    "text_template": "Durante le vacanze scolastiche, voi {slot_0} sempre felici di partire.",
+    "constraint_type": "temporal_anchor",
+    "difficulty_level": 2,
+    "targets": [
+      {
+        "slot_id": 0,
+        "token_index": 6,
+        "verb": "essere",
+        "mood": "indicativo",
+        "tense": "imperfetto",
+        "person": "voi",
+        "accepted_answers": ["eravate"],
+        "explanation": "L'imperfetto del verbo essere alla seconda persona plurale (voi) è eravate."
+      }
+    ]
+  },
+  {
+    "id": "sent-imp-106",
+    "context_theme": "home_lifestyle",
+    "text_template": "Quando eravamo piccoli, i miei genitori {slot_0} molta pazienza.",
+    "constraint_type": "temporal_anchor",
+    "difficulty_level": 2,
+    "targets": [
+      {
+        "slot_id": 0,
+        "token_index": 7,
+        "verb": "avere",
+        "mood": "indicativo",
+        "tense": "imperfetto",
+        "person": "loro",
+        "accepted_answers": ["avevano"],
+        "explanation": "L'imperfetto del verbo avere alla terza persona plurale (loro) è avevano."
+      }
+    ]
+  },
+  {
+    "id": "sent-imp-107",
+    "context_theme": "childhood_memories",
+    "text_template": "Da giovane, io {slot_0} spesso in biblioteca a studiare.",
+    "constraint_type": "temporal_anchor",
+    "difficulty_level": 2,
+    "targets": [
+      {
+        "slot_id": 0,
+        "token_index": 4,
+        "verb": "andare",
+        "mood": "indicativo",
+        "tense": "imperfetto",
+        "person": "io",
+        "accepted_answers": ["andavo"],
+        "explanation": "I verbi regolari in -are all'imperfetto prendono la desinenza -avo per la prima persona singolare (io andavo)."
+      }
+    ]
+  },
+  {
+    "id": "sent-imp-108",
+    "context_theme": "home_lifestyle",
+    "text_template": "Nel fine settimana tu {slot_0} sempre la colazione al bar.",
+    "constraint_type": "temporal_anchor",
+    "difficulty_level": 2,
+    "targets": [
+      {
+        "slot_id": 0,
+        "token_index": 5,
+        "verb": "fare",
+        "mood": "indicativo",
+        "tense": "imperfetto",
+        "person": "tu",
+        "accepted_answers": ["facevi"],
+        "explanation": "Il verbo fare all'imperfetto mantiene la radice antica fac- e fa facevi alla seconda persona singolare (tu)."
+      }
+    ]
+  },
+  {
+    "id": "sent-imp-109",
+    "context_theme": "childhood_memories",
+    "text_template": "Ogni estate Marco {slot_0} i compiti prima di uscire a giocare.",
+    "constraint_type": "temporal_anchor",
+    "difficulty_level": 2,
+    "targets": [
+      {
+        "slot_id": 0,
+        "token_index": 4,
+        "verb": "finire",
+        "mood": "indicativo",
+        "tense": "imperfetto",
+        "person": "lui_lei",
+        "accepted_answers": ["finiva"],
+        "explanation": "I verbi regolari in -ire all'imperfetto usano l'infisso -iv- (lui/lei finiva)."
+      }
+    ]
+  },
+  {
+    "id": "sent-imp-110",
+    "context_theme": "home_lifestyle",
+    "text_template": "Da ragazzi noi {slot_0} spesso la musica rock alla radio.",
+    "constraint_type": "temporal_anchor",
+    "difficulty_level": 2,
+    "targets": [
+      {
+        "slot_id": 0,
+        "token_index": 4,
+        "verb": "ascoltare",
+        "mood": "indicativo",
+        "tense": "imperfetto",
+        "person": "noi",
+        "accepted_answers": ["ascoltavamo"],
+        "explanation": "L'imperfetto della prima persona plurale (noi) per i verbi in -are termina in -avamo (ascoltavamo)."
+      }
+    ]
+  },
+  {
+    "id": "sent-imp-111",
+    "context_theme": "travel_commuting",
+    "text_template": "Ogni estate noi {slot_0} in montagna per sfuggire al caldo.",
+    "constraint_type": "temporal_anchor",
+    "difficulty_level": 2,
+    "targets": [
+      {
+        "slot_id": 0,
+        "token_index": 4,
+        "verb": "andare",
+        "mood": "indicativo",
+        "tense": "imperfetto",
+        "person": "noi",
+        "accepted_answers": ["andavamo"],
+        "explanation": "L'imperfetto del verbo regolare in -are andare alla prima persona plurale (noi) è andavamo."
+      }
+    ]
+  },
+  {
+    "id": "sent-imp-112",
+    "context_theme": "daily_routine",
+    "text_template": "Di solito tu {slot_0} la spesa nel mercato rionale il sabato.",
+    "constraint_type": "temporal_anchor",
+    "difficulty_level": 2,
+    "targets": [
+      {
+        "slot_id": 0,
+        "token_index": 4,
+        "verb": "fare",
+        "mood": "indicativo",
+        "tense": "imperfetto",
+        "person": "tu",
+        "accepted_answers": ["facevi"],
+        "explanation": "Il verbo fare all'imperfetto alla seconda persona singolare (tu) si coniuga con facevi."
+      }
+    ]
+  },
+  {
+    "id": "sent-imp-113",
+    "context_theme": "home_lifestyle",
+    "text_template": "Da ragazza, mia madre {slot_0} spesso il pianoforte dopo cena.",
+    "constraint_type": "temporal_anchor",
+    "difficulty_level": 2,
+    "targets": [
+      {
+        "slot_id": 0,
+        "token_index": 6,
+        "verb": "suonare",
+        "mood": "indicativo",
+        "tense": "imperfetto",
+        "person": "lui_lei",
+        "accepted_answers": ["suonava"],
+        "explanation": "I verbi in -are alla terza persona singolare (lui/lei) formano l'imperfetto con la desinenza -ava (suonava)."
+      }
+    ]
+  },
+  {
+    "id": "sent-imp-114",
+    "context_theme": "work_office",
+    "text_template": "Negli anni passati i miei colleghi {slot_0} sempre in ufficio alle otto.",
+    "constraint_type": "temporal_anchor",
+    "difficulty_level": 2,
+    "targets": [
+      {
+        "slot_id": 0,
+        "token_index": 6,
+        "verb": "arrivare",
+        "mood": "indicativo",
+        "tense": "imperfetto",
+        "person": "loro",
+        "accepted_answers": ["arrivavano"],
+        "explanation": "La terza persona plurale (loro) dei verbi in -are all'imperfetto termina in -avano (arrivavano)."
+      }
+    ]
+  },
+  {
+    "id": "sent-imp-115",
+    "context_theme": "leisure",
+    "text_template": "Nel fine settimana io {slot_0} sempre un libro giallo sul divano.",
+    "constraint_type": "temporal_anchor",
+    "difficulty_level": 2,
+    "targets": [
+      {
+        "slot_id": 0,
+        "token_index": 5,
+        "verb": "leggere",
+        "mood": "indicativo",
+        "tense": "imperfetto",
+        "person": "io",
+        "accepted_answers": ["leggevo"],
+        "explanation": "I verbi della seconda coniugazione in -ere all'imperfetto usano l'infisso -ev- (io leggevo)."
+      }
+    ]
+  },
+  {
+    "id": "sent-imp-116",
+    "context_theme": "daily_routine",
+    "text_template": "Ogni mattina tu {slot_0} il caffè con la moka tradizionale.",
+    "constraint_type": "temporal_anchor",
+    "difficulty_level": 2,
+    "targets": [
+      {
+        "slot_id": 0,
+        "token_index": 4,
+        "verb": "preparare",
+        "mood": "indicativo",
+        "tense": "imperfetto",
+        "person": "tu",
+        "accepted_answers": ["preparavi"],
+        "explanation": "La seconda persona singolare (tu) dei verbi in -are all'imperfetto prende la desinenza -avi (preparavi)."
+      }
+    ]
+  },
+  {
+    "id": "sent-imp-117",
+    "context_theme": "social_life",
+    "text_template": "Durante l'università noi {slot_0} spesso in pizzeria con i compagni.",
+    "constraint_type": "temporal_anchor",
+    "difficulty_level": 2,
+    "targets": [
+      {
+        "slot_id": 0,
+        "token_index": 5,
+        "verb": "uscire",
+        "mood": "indicativo",
+        "tense": "imperfetto",
+        "person": "noi",
+        "accepted_answers": ["uscivamo"],
+        "explanation": "I verbi della terza coniugazione in -ire all'imperfetto prendono l'infisso -iv- (noi uscivamo)."
+      }
+    ]
+  },
+  {
+    "id": "sent-imp-118",
+    "context_theme": "home_lifestyle",
+    "text_template": "Da piccoli voi {slot_0} molte ore a giocare nel giardino di casa.",
+    "constraint_type": "temporal_anchor",
+    "difficulty_level": 2,
+    "targets": [
+      {
+        "slot_id": 0,
+        "token_index": 4,
+        "verb": "passare",
+        "mood": "indicativo",
+        "tense": "imperfetto",
+        "person": "voi",
+        "accepted_answers": ["passavate"],
+        "explanation": "La seconda persona plurale (voi) dei verbi in -are all'imperfetto termina in -avate (passavate)."
+      }
+    ]
+  },
+  {
+    "id": "sent-imp-119",
+    "context_theme": "work_office",
+    "text_template": "Ogni venerdì pomeriggio il direttore {slot_0} un report dettagliato.",
+    "constraint_type": "temporal_anchor",
+    "difficulty_level": 2,
+    "targets": [
+      {
+        "slot_id": 0,
+        "token_index": 7,
+        "verb": "scrivere",
+        "mood": "indicativo",
+        "tense": "imperfetto",
+        "person": "lui_lei",
+        "accepted_answers": ["scriveva"],
+        "explanation": "La terza persona singolare (lui/lei) dei verbi in -ere all'imperfetto termina in -eva (scriveva)."
+      }
+    ]
+  },
+  {
+    "id": "sent-imp-120",
+    "context_theme": "travel_commuting",
+    "text_template": "Nel passato i miei nonni {slot_0} sempre in treno per viaggiare.",
+    "constraint_type": "temporal_anchor",
+    "difficulty_level": 2,
+    "targets": [
+      {
+        "slot_id": 0,
+        "token_index": 6,
+        "verb": "viaggiare",
+        "mood": "indicativo",
+        "tense": "imperfetto",
+        "person": "loro",
+        "accepted_answers": ["viaggiavano"],
+        "explanation": "L'imperfetto plurale per la terza persona (loro) di viaggiare è viaggiavano."
+      }
+    ]
+  },
+  {
+    "id": "sent-imp-121",
+    "context_theme": "home_lifestyle",
+    "text_template": "Mentre io {slot_0} la cena, squillò improvvisamente il telefono.",
+    "constraint_type": "lexical_trigger",
+    "difficulty_level": 2,
+    "targets": [
+      {
+        "slot_id": 0,
+        "token_index": 3,
+        "verb": "cucinare",
+        "mood": "indicativo",
+        "tense": "imperfetto",
+        "person": "io",
+        "accepted_answers": ["cucinavo"],
+        "explanation": "Nelle clausole introdotte da 'mentre', l'azione di background in corso usa l'imperfetto (io cucinavo)."
+      }
+    ]
+  },
+  {
+    "id": "sent-imp-122",
+    "context_theme": "work_office",
+    "text_template": "Mentre tu {slot_0} i documenti, il direttore entrò nell'ufficio.",
+    "constraint_type": "lexical_trigger",
+    "difficulty_level": 2,
+    "targets": [
+      {
+        "slot_id": 0,
+        "token_index": 3,
+        "verb": "leggere",
+        "mood": "indicativo",
+        "tense": "imperfetto",
+        "person": "tu",
+        "accepted_answers": ["leggevi"],
+        "explanation": "L'azione continua in background con il pronome tu richiede l'imperfetto leggevi."
+      }
+    ]
+  },
+  {
+    "id": "sent-imp-123",
+    "context_theme": "travel_commuting",
+    "text_template": "Mentre noi {slot_0} in autostrada, iniziò a piovere forte.",
+    "constraint_type": "lexical_trigger",
+    "difficulty_level": 2,
+    "targets": [
+      {
+        "slot_id": 0,
+        "token_index": 3,
+        "verb": "guidare",
+        "mood": "indicativo",
+        "tense": "imperfetto",
+        "person": "noi",
+        "accepted_answers": ["guidavamo"],
+        "explanation": "Per esprimere un'azione simultanea in progressione con noi, si usa l'imperfetto guidavamo."
+      }
+    ]
+  },
+  {
+    "id": "sent-imp-124",
+    "context_theme": "leisure",
+    "text_template": "Mentre i bambini {slot_0} nel parco, i genitori parlavano seduti.",
+    "constraint_type": "lexical_trigger",
+    "difficulty_level": 2,
+    "targets": [
+      {
+        "slot_id": 0,
+        "token_index": 4,
+        "verb": "giocare",
+        "mood": "indicativo",
+        "tense": "imperfetto",
+        "person": "loro",
+        "accepted_answers": ["giocavano"],
+        "explanation": "Con il soggetto plurale loro, l'azione di sfondo simultanea richiede giocavano."
+      }
+    ]
+  },
+  {
+    "id": "sent-imp-125",
+    "context_theme": "home_lifestyle",
+    "text_template": "Mentre Anna {slot_0} la stanza, Marco preparava il caffè.",
+    "constraint_type": "lexical_trigger",
+    "difficulty_level": 2,
+    "targets": [
+      {
+        "slot_id": 0,
+        "token_index": 3,
+        "verb": "ordinare",
+        "mood": "indicativo",
+        "tense": "imperfetto",
+        "person": "lui_lei",
+        "accepted_answers": ["ordinava"],
+        "explanation": "Per la terza persona singolare (Anna), l'imperfetto di ordinare è ordinava."
+      }
+    ]
+  },
+  {
+    "id": "sent-imp-126",
+    "context_theme": "work_office",
+    "text_template": "Mentre voi {slot_0} il report, io controllavo i dati finanziari.",
+    "constraint_type": "lexical_trigger",
+    "difficulty_level": 2,
+    "targets": [
+      {
+        "slot_id": 0,
+        "token_index": 3,
+        "verb": "scrivere",
+        "mood": "indicativo",
+        "tense": "imperfetto",
+        "person": "voi",
+        "accepted_answers": ["scrivevate"],
+        "explanation": "Con il pronome voi, l'imperfetto del verbo scrivere è scrivevate."
+      }
+    ]
+  },
+  {
+    "id": "sent-imp-127",
+    "context_theme": "daily_routine",
+    "text_template": "Mentre io {slot_0} la doccia, suonò il corriere alla porta.",
+    "constraint_type": "lexical_trigger",
+    "difficulty_level": 2,
+    "targets": [
+      {
+        "slot_id": 0,
+        "token_index": 3,
+        "verb": "fare",
+        "mood": "indicativo",
+        "tense": "imperfetto",
+        "person": "io",
+        "accepted_answers": ["facevo"],
+        "explanation": "La prima persona singolare dell'imperfetto del verbo fare è facevo."
+      }
+    ]
+  },
+  {
+    "id": "sent-imp-128",
+    "context_theme": "social_life",
+    "text_template": "Mentre tu {slot_0} con Maria, io ordinavo le pizze al tavolo.",
+    "constraint_type": "lexical_trigger",
+    "difficulty_level": 2,
+    "targets": [
+      {
+        "slot_id": 0,
+        "token_index": 3,
+        "verb": "parlare",
+        "mood": "indicativo",
+        "tense": "imperfetto",
+        "person": "tu",
+        "accepted_answers": ["parlavi"],
+        "explanation": "Per la seconda persona singolare tu, l'imperfetto di parlare è parlavi."
+      }
+    ]
+  },
+  {
+    "id": "sent-imp-129",
+    "context_theme": "leisure",
+    "text_template": "Mentre noi {slot_0} la televisione, fuori c'era un temporale.",
+    "constraint_type": "lexical_trigger",
+    "difficulty_level": 2,
+    "targets": [
+      {
+        "slot_id": 0,
+        "token_index": 3,
+        "verb": "guardare",
+        "mood": "indicativo",
+        "tense": "imperfetto",
+        "person": "noi",
+        "accepted_answers": ["guardavamo"],
+        "explanation": "Per la prima persona plurale noi, l'imperfetto di guardare è guardavamo."
+      }
+    ]
+  },
+  {
+    "id": "sent-imp-130",
+    "context_theme": "home_lifestyle",
+    "text_template": "Mentre i vicini {slot_0} una festa, noi cercavamo di dormire.",
+    "constraint_type": "lexical_trigger",
+    "difficulty_level": 2,
+    "targets": [
+      {
+        "slot_id": 0,
+        "token_index": 3,
+        "verb": "fare",
+        "mood": "indicativo",
+        "tense": "imperfetto",
+        "person": "loro",
+        "accepted_answers": ["facevano"],
+        "explanation": "La terza persona plurale dell'imperfetto del verbo fare è facevano."
+      }
+    ]
+  },
+  {
+    "id": "sent-imp-131",
+    "context_theme": "travel_commuting",
+    "text_template": "Ieri pomeriggio il cielo {slot_0} grigio e tirava un vento freddo.",
+    "constraint_type": "temporal_anchor",
+    "difficulty_level": 2,
+    "targets": [
+      {
+        "slot_id": 0,
+        "token_index": 4,
+        "verb": "essere",
+        "mood": "indicativo",
+        "tense": "imperfetto",
+        "person": "lui_lei",
+        "accepted_answers": ["era"],
+        "explanation": "Nelle descrizioni ambientali e atmosferiche del passato si usa l'imperfetto del verbo essere (era)."
+      }
+    ]
+  },
+  {
+    "id": "sent-imp-132",
+    "context_theme": "home_lifestyle",
+    "text_template": "Nella vecchia casa di campagna non {slot_0} l'aria condizionata.",
+    "constraint_type": "none",
+    "difficulty_level": 2,
+    "targets": [
+      {
+        "slot_id": 0,
+        "token_index": 7,
+        "verb": "essere",
+        "mood": "indicativo",
+        "tense": "imperfetto",
+        "person": "lui_lei",
+        "accepted_answers": ["c'era"],
+        "explanation": "L'espressione impersonale 'c'è' all'imperfetto diventa c'era per il singolare."
+      }
+    ]
+  },
+  {
+    "id": "sent-imp-133",
+    "context_theme": "social_life",
+    "text_template": "Alla festa di compleanno {slot_0} tantissime persone che ballavano.",
+    "constraint_type": "temporal_anchor",
+    "difficulty_level": 2,
+    "targets": [
+      {
+        "slot_id": 0,
+        "token_index": 4,
+        "verb": "essere",
+        "mood": "indicativo",
+        "tense": "imperfetto",
+        "person": "loro",
+        "accepted_answers": ["c'erano"],
+        "explanation": "Con un soggetto plurale (tantissime persone), l'espressione impersonale richiede il plurale c'erano."
+      }
+    ]
+  },
+  {
+    "id": "sent-imp-134",
+    "context_theme": "leisure",
+    "text_template": "Da ragazzo io {slot_0} collezionare francobolli rari da tutto il mondo.",
+    "constraint_type": "temporal_anchor",
+    "difficulty_level": 2,
+    "targets": [
+      {
+        "slot_id": 0,
+        "token_index": 4,
+        "verb": "amare",
+        "mood": "indicativo",
+        "tense": "imperfetto",
+        "person": "io",
+        "accepted_answers": ["amavo"],
+        "explanation": "Per esprimere passioni o stati d'animo duraturi nel passato si usa l'imperfetto (io amavo)."
+      }
+    ]
+  },
+  {
+    "id": "sent-imp-135",
+    "context_theme": "work_office",
+    "text_template": "Nel vecchio ufficio tu {slot_0} una scrivania molto più grande.",
+    "constraint_type": "none",
+    "difficulty_level": 2,
+    "targets": [
+      {
+        "slot_id": 0,
+        "token_index": 4,
+        "verb": "avere",
+        "mood": "indicativo",
+        "tense": "imperfetto",
+        "person": "tu",
+        "accepted_answers": ["avevi"],
+        "explanation": "Per descrivere possesso o condizioni passate stabili si usa l'imperfetto avevi."
+      }
+    ]
+  },
+  {
+    "id": "sent-imp-136",
+    "context_theme": "daily_routine",
+    "text_template": "Prima della riforma aziendale, noi {slot_0} iniziare alle nove in punto.",
+    "constraint_type": "temporal_anchor",
+    "difficulty_level": 2,
+    "targets": [
+      {
+        "slot_id": 0,
+        "token_index": 6,
+        "verb": "dovere",
+        "mood": "indicativo",
+        "tense": "imperfetto",
+        "person": "noi",
+        "accepted_answers": ["dovevamo"],
+        "explanation": "L'imperfetto del verbo servile dovere alla prima persona plurale è dovevamo."
+      }
+    ]
+  },
+  {
+    "id": "sent-imp-137",
+    "context_theme": "home_lifestyle",
+    "text_template": "Quando viveva in città, Marco {slot_0} viaggiare sempre con i mezzi pubblici.",
+    "constraint_type": "none",
+    "difficulty_level": 2,
+    "targets": [
+      {
+        "slot_id": 0,
+        "token_index": 6,
+        "verb": "volere",
+        "mood": "indicativo",
+        "tense": "imperfetto",
+        "person": "lui_lei",
+        "accepted_answers": ["voleva"],
+        "explanation": "L'imperfetto del verbo volere alla terza persona singolare è voleva."
+      }
+    ]
+  },
+  {
+    "id": "sent-imp-138",
+    "context_theme": "travel_commuting",
+    "text_template": "L'estate scorsa le spiagge {slot_0} affollate già dalle prime ore del mattino.",
+    "constraint_type": "temporal_anchor",
+    "difficulty_level": 2,
+    "targets": [
+      {
+        "slot_id": 0,
+        "token_index": 4,
+        "verb": "essere",
+        "mood": "indicativo",
+        "tense": "imperfetto",
+        "person": "loro",
+        "accepted_answers": ["erano"],
+        "explanation": "Con il soggetto plurale femminile (le spiagge), il verbo essere all'imperfetto fa erano."
+      }
+    ]
+  },
+  {
+    "id": "sent-imp-139",
+    "context_theme": "leisure",
+    "text_template": "Ogni volta che andavamo al museo, voi {slot_0} tutte le opere d'arte.",
+    "constraint_type": "temporal_anchor",
+    "difficulty_level": 2,
+    "targets": [
+      {
+        "slot_id": 0,
+        "token_index": 9,
+        "verb": "fotografare",
+        "mood": "indicativo",
+        "tense": "imperfetto",
+        "person": "voi",
+        "accepted_answers": ["fotografavate"],
+        "explanation": "La seconda persona plurale (voi) dei verbi in -are all'imperfetto termina in -avate (fotografavate)."
+      }
+    ]
+  },
+  {
+    "id": "sent-imp-140",
+    "context_theme": "work_office",
+    "text_template": "Nel millenovecentonovantanove io {slot_0} in un piccolo negozio di dischi.",
+    "constraint_type": "temporal_anchor",
+    "difficulty_level": 2,
+    "targets": [
+      {
+        "slot_id": 0,
+        "token_index": 4,
+        "verb": "lavorare",
+        "mood": "indicativo",
+        "tense": "imperfetto",
+        "person": "io",
+        "accepted_answers": ["lavoravo"],
+        "explanation": "Per descrivere un'occupazione di sfondo o un abitudine nel passato si usa lavoravo."
+      }
+    ]
+  }
+]

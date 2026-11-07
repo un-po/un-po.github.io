@@ -1,156 +1,134 @@
 import assert from 'node:assert/strict';
+import { readFileSync } from 'node:fs';
+import { loadContent } from '../src/lib/content.ts';
+import { tenses, type Exercise, type Outcome } from '../src/lib/practice.ts';
 import {
   createLearningState,
-  italianoVeroLevel,
+  curriculumBands,
+  activeBands,
+  bandProgress,
   nextLearningExercise,
   recordLearningOutcome,
   synchronizeLearningState,
+  type LearningState,
 } from '../src/lib/learning.ts';
-import type { LearningState, RandomSource } from '../src/lib/learning.ts';
-import type { Exercise, Outcome, Person } from '../src/lib/practice.ts';
-
-const people: Person[] = ['io', 'tu', 'lui/lei', 'noi', 'voi', 'loro'];
-const tenses = ['presente', 'passato-prossimo', 'imperfetto'];
-
-function seededRandom(seed: number): RandomSource {
+const { exercises } = loadContent(
+  JSON.parse(readFileSync(new URL('../src/content/verbs.json', import.meta.url), 'utf8')),
+  tenses.map((tense) =>
+    JSON.parse(
+      readFileSync(new URL(`../src/content/sentences/${tense}.json`, import.meta.url), 'utf8'),
+    ),
+  ),
+);
+function seeded(seed: number) {
   return () => {
     seed |= 0;
     seed = (seed + 0x6d2b79f5) | 0;
-    let value = Math.imul(seed ^ (seed >>> 15), 1 | seed);
-    value = (value + Math.imul(value ^ (value >>> 7), 61 | value)) ^ value;
-    return ((value ^ (value >>> 14)) >>> 0) / 4294967296;
+    let v = Math.imul(seed ^ (seed >>> 15), 1 | seed);
+    v = (v + Math.imul(v ^ (v >>> 7), 61 | v)) ^ v;
+    return ((v ^ (v >>> 14)) >>> 0) / 4294967296;
   };
 }
-
-export function syntheticPool(size = 500, highestLevel = 15): Exercise[] {
-  return Array.from({ length: size }, (_, index) => {
-    const level = (index % highestLevel) + 1;
-    return {
-      id: `simulation-${String(index + 1).padStart(3, '0')}`,
-      verb: `verbo-${index % 20}`,
-      person: people[index % people.length]!,
-      tense: tenses[Math.floor((level - 1) / 5)] ?? tenses.at(-1)!,
-      before: 'Prima',
-      after: 'dopo.',
-      answers: ['forma'],
-      explanation: 'Spiegazione.',
-      difficulty: level,
-      level,
-    };
-  });
-}
-
-interface SimulationResult {
-  state: LearningState;
-  seen: Set<string>;
-  exposure: Map<string, number>;
-}
-
-export function simulate(
-  exercises: Exercise[],
-  steps: number,
-  outcome: (exercise: Exercise, occurrence: number) => Outcome,
-  seed = 1,
-  initialState?: LearningState,
-): SimulationResult {
-  const random = seededRandom(seed);
-  const state = initialState ?? createLearningState(exercises, random);
-  const seen = new Set<string>();
-  const exposure = new Map<string, number>();
-  for (let step = 0; step < steps; step += 1) {
-    const exercise = nextLearningExercise(state, exercises, random);
-    const occurrence = (exposure.get(exercise.id) ?? 0) + 1;
-    exposure.set(exercise.id, occurrence);
-    seen.add(exercise.id);
-    recordLearningOutcome(state, exercise, outcome(exercise, occurrence), exercises, random);
+function run(
+  name: string,
+  behavior: (e: Exercise, occurrence: number) => Outcome,
+  seed: number,
+  steps = 5000,
+) {
+  const random = seeded(seed),
+    state = createLearningState(exercises, random),
+    exposure = new Map<string, number>();
+  const transitions: {
+    attempt: number;
+    unlocked: string;
+    window: string[];
+    frontierCoverage: number;
+    frontierAccuracy: number;
+  }[] = [];
+  let correct = 0;
+  for (let attempt = 1; attempt <= steps; attempt++) {
+    const e = nextLearningExercise(state, exercises, random);
+    const count = (exposure.get(e.id) ?? 0) + 1;
+    exposure.set(e.id, count);
+    const outcome = behavior(e, count);
+    if (outcome === 'correct') correct++;
+    const before = state.curriculum.unlocked.length;
+    const frontier = curriculumBands(exercises).find(
+      (b) => b.id === state.curriculum.unlocked.at(-1),
+    )!;
+    recordLearningOutcome(state, e, outcome, exercises, random);
+    if (state.curriculum.unlocked.length > before) {
+      const progress = bandProgress(frontier, state.results);
+      assert.ok(progress.ready);
+      transitions.push({
+        attempt,
+        unlocked: state.curriculum.unlocked.at(-1)!,
+        window: activeBands(state, exercises).map((b) => b.id),
+        frontierCoverage: Math.round(progress.coverage * 100),
+        frontierAccuracy: Math.round(progress.accuracy * 100),
+      });
+    }
+    assert.ok(activeBands(state, exercises).length <= 4);
   }
-  return { state, seen, exposure };
-}
-
-function summary(result: SimulationResult) {
+  const latest = Object.values(state.results),
+    correctLatest = latest.filter((r) => r.outcome === 'correct').length;
   return {
-    level: result.state.learner.level,
-    levelProgress: Number(result.state.learner.levelProgress.toFixed(1)),
-    totalMastery: Number(result.state.learner.totalMastery.toFixed(1)),
-    missedMastery: Number(result.state.learner.missedMastery.toFixed(1)),
-    uniqueQuestions: result.seen.size,
+    state,
+    report: {
+      name,
+      attempts: steps,
+      unlocked: state.curriculum.unlocked.length,
+      distinct: exposure.size,
+      currentAccuracy: Math.round((100 * correctLatest) / latest.length),
+      attemptAccuracy: Math.round((100 * correct) / steps),
+      transitions,
+    },
   };
 }
-
-const pool = syntheticPool();
-const perfect = simulate(pool, 2000, () => 'correct', 11);
-assert.equal(perfect.state.learner.level, 19);
-assert.ok(perfect.state.learner.level < italianoVeroLevel);
-assert.equal(perfect.state.learner.totalMastery, 500);
-
-const neverCorrect = simulate(pool, 2000, () => 'error', 12);
-assert.equal(neverCorrect.state.learner.level, 1);
-assert.equal(neverCorrect.state.learner.totalMastery, 0);
-assert.ok(neverCorrect.seen.size >= 60);
-
-const typoOnly = simulate(pool, 2500, () => 'typo', 13);
-assert.ok(typoOnly.state.learner.level > 1);
-assert.ok(typoOnly.state.learner.level < italianoVeroLevel);
-assert.ok(typoOnly.state.learner.totalMastery < perfect.state.learner.totalMastery);
-
-const recovering = simulate(
-  pool,
-  2000,
-  (_exercise, occurrence) => (occurrence <= 2 ? 'error' : 'correct'),
-  14,
+const perfect = run('Always correct', () => 'correct', 31);
+assert.equal(perfect.state.curriculum.unlocked.length, 8);
+const errors = run('Always wrong', () => 'error', 32);
+const typos = run('Always a typo', () => 'typo', 33);
+for (const result of [errors, typos]) {
+  assert.equal(result.state.curriculum.unlocked.length, 3);
+  assert.equal(Object.keys(result.state.results).length, 450);
+}
+const past = run(
+  'Always wrong on passato prossimo',
+  (e) => (e.tense === 'passato_prossimo' ? 'error' : 'correct'),
+  34,
 );
-assert.ok(recovering.state.learner.level > 1);
-assert.ok(
-  recovering.state.learner.totalMastery > 150,
-  `recovery mastery was ${recovering.state.learner.totalMastery}`,
+assert.equal(past.state.curriculum.unlocked.length, 3);
+const recovery = run(
+  'Two errors, then correct',
+  (_e, n) => (n <= 2 ? 'error' : 'correct'),
+  35,
+  10000,
 );
-
-const personWeakness = simulate(
-  pool,
-  1500,
-  (exercise) => (exercise.person === 'loro' ? 'error' : 'correct'),
-  15,
-);
-const loroExposure = [...personWeakness.exposure]
-  .filter(([id]) => pool.find((exercise) => exercise.id === id)?.person === 'loro')
-  .reduce((total, [, count]) => total + count, 0);
-assert.ok(loroExposure / 1500 > 1 / people.length);
-assert.ok(loroExposure / 1500 < 0.5);
-
-const firstBatch = pool.filter((exercise) => exercise.level! <= 6);
-const beforeGrowth = simulate(firstBatch, 800, () => 'correct', 16);
-const levelBeforeGrowth = beforeGrowth.state.learner.level;
-const masteryBeforeGrowth = beforeGrowth.state.learner.totalMastery;
-const queuePrefix = beforeGrowth.state.queue
-  .slice(0, 10)
-  .filter((id) => firstBatch.some((exercise) => exercise.id === id));
-const growthRandom = seededRandom(17);
-synchronizeLearningState(beforeGrowth.state, pool, growthRandom);
-assert.equal(beforeGrowth.state.learner.level, levelBeforeGrowth);
-assert.equal(beforeGrowth.state.learner.totalMastery, masteryBeforeGrowth);
-assert.deepEqual(
-  beforeGrowth.state.queue.filter((id) => queuePrefix.includes(id)).slice(0, queuePrefix.length),
-  queuePrefix,
-);
-const afterGrowth = simulate(pool, 1800, () => 'correct', 18, beforeGrowth.state);
-assert.ok(afterGrowth.state.learner.level > levelBeforeGrowth);
-assert.ok(afterGrowth.state.learner.level < italianoVeroLevel);
-
+assert.equal(recovery.state.curriculum.unlocked.length, 8);
+const person = run('Always wrong on loro', (e) => (e.person === 'loro' ? 'error' : 'correct'), 36);
+const random = seeded(37),
+  growing = createLearningState(exercises, random);
+for (const e of exercises.slice(0, 20))
+  recordLearningOutcome(growing, e, 'correct', exercises, random);
+const results = JSON.stringify(growing.results),
+  unlocks = [...growing.curriculum.unlocked];
+const addition = { ...exercises[0]!, id: 'simulation-new-item' };
+synchronizeLearningState(growing, [...exercises, addition], random);
+assert.equal(JSON.stringify(growing.results), results);
+assert.deepEqual(growing.curriculum.unlocked, unlocks);
+assert.ok(growing.queue.includes(addition.id));
+// Restored progress cannot grow coverage by repeating the same sentence.
+const repeated = createLearningState(exercises, random);
+for (let n = 0; n < 100; n++)
+  recordLearningOutcome(repeated, exercises[0]!, 'correct', exercises, random);
+assert.equal(Object.keys(repeated.results).length, 1);
+assert.equal(repeated.curriculum.unlocked.length, 3);
 console.log(
   JSON.stringify(
     {
-      perfect: summary(perfect),
-      neverCorrect: summary(neverCorrect),
-      typoOnly: summary(typoOnly),
-      recovery: summary(recovering),
-      personWeakness: {
-        ...summary(personWeakness),
-        loroExposurePercent: Math.round((loroExposure / 1500) * 100),
-      },
-      poolGrowth: {
-        before: { level: levelBeforeGrowth, mastery: masteryBeforeGrowth },
-        after: summary(afterGrowth),
-      },
+      bands: curriculumBands(exercises).map((b) => ({ id: b.id, questions: b.questions.length })),
+      scenarios: [perfect, errors, typos, past, recovery, person].map((r) => r.report),
     },
     null,
     2,

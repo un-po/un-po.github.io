@@ -41,12 +41,35 @@ defineExpose({ open, close });
         frasi della sessione.
       </p>
       <p>
+        Il tempo da usare è indicato sopra la frase. Se ne trovi due, entrambe le possibilità sono
+        valide: scegli tu. Nei tempi composti scrivi anche l’ausiliare.
+      </p>
+      <p>
         Dopo il risultato, la frase successiva arriva da sé. Scegli <strong>Resta qui</strong> se
         vuoi più tempo per rileggere la spiegazione.
       </p>
       <p>
         Gli errori tornano dopo qualche frase. La pratica si adatta poco alla volta a ciò che
         riconosci con sicurezza e a ciò che merita ancora un giro.
+      </p>
+    </section>
+
+    <section>
+      <h3>I progressi</h3>
+      <p>
+        Nel riepilogo trovi l’accuratezza per tempo, persona e verbi regolari o irregolari. Conta
+        l’ultima risposta a ogni frase: correggere un errore migliora la percentuale, ripetere una
+        risposta già corretta non la aumenta. I refusi non contano come risposte corrette.
+      </p>
+      <p>
+        Un punto indica che non ci sono ancora risposte; un lucchetto indica un tempo da sbloccare.
+        Le frecce mostrano se una percentuale è salita o scesa durante la sessione. Le prime
+        risposte e le percentuali rimaste uguali non hanno freccia.
+      </p>
+      <p>
+        I tempi si aprono poco alla volta, in base alle frasi provate e alle risposte corrette. Le
+        frasi mancanti sono una stima: conta risposte corrette a frasi nuove o da correggere, anche
+        nei passaggi intermedi. Errori e ripetizioni già corrette possono allungare il percorso.
       </p>
     </section>
 

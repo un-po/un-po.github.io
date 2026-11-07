@@ -12,7 +12,7 @@ const props = defineProps<{
   paused: boolean;
   suppressed: boolean;
   name: string;
-  level: number;
+  practiceLabel: string;
 }>();
 const emit = defineEmits<{
   saveName: [name: string];
@@ -22,8 +22,7 @@ const emit = defineEmits<{
 const draftName = ref(props.name);
 const editing = ref(false);
 const state = shallowRef<MessageQueueState>({ phase: 'idle', message: null });
-const level = ref(props.level);
-const rank = computed(() => ['I', 'II', 'III', 'IV', 'V'][Math.ceil(level.value / 5) - 1]);
+const practiceLabel = ref(props.practiceLabel);
 const message = computed(() =>
   ['entering', 'visible', 'leaving'].includes(state.value.phase) ? state.value.message : null,
 );
@@ -31,7 +30,7 @@ const paused = computed(() => props.paused || editing.value);
 const queue = new PracticeMessageQueue(
   (snapshot) => {
     state.value = snapshot;
-    if (snapshot.phase === 'entering') level.value = props.level;
+    if (snapshot.phase === 'entering') practiceLabel.value = props.practiceLabel;
   },
   (message) => emit('completed', message),
 );
@@ -122,10 +121,7 @@ defineExpose({ enqueue });
         {{ name ? `Che bello rivederti, ${name}.` : 'Che bello rivederti.' }}
       </h2>
       <template v-else-if="message === 'level'">
-        <p class="context-level">
-          Livello <strong>{{ level }}</strong> <span aria-hidden="true">·</span> Grado
-          <strong class="rank-numeral">{{ rank }}</strong>
-        </p>
+        <p>{{ practiceLabel }}</p>
         <p>Una frase alla volta, al tuo ritmo.</p>
       </template>
       <template v-else-if="message === 'encouragement'">

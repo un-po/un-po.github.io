@@ -1,0 +1,4618 @@
+[
+  {
+    "id": "sent-imp-101",
+    "textTemplate": "Da piccolo, io {slot_0} sempre molto timido con gli estranei.",
+    "primaryTense": "imperfetto",
+    "level": 14,
+    "difficulty": 2,
+    "theme": "home_lifestyle",
+    "source": "import-revised",
+    "target": {
+      "slotId": 0,
+      "verb": "essere",
+      "person": "io",
+      "acceptedAnswers": [
+        {
+          "text": "ero",
+          "tense": "imperfetto",
+          "person": "io",
+          "explanation": "Con io, essere all'imperfetto si coniuga ero."
+        }
+      ]
+    },
+    "band": 2
+  },
+  {
+    "id": "sent-imp-102",
+    "textTemplate": "Quando abitavo in campagna, tu {slot_0} una bicicletta rossa.",
+    "primaryTense": "imperfetto",
+    "level": 12,
+    "difficulty": 2,
+    "theme": "childhood_memories",
+    "source": "import-revised",
+    "target": {
+      "slotId": 0,
+      "verb": "avere",
+      "person": "tu",
+      "acceptedAnswers": [
+        {
+          "text": "avevi",
+          "tense": "imperfetto",
+          "person": "tu",
+          "explanation": "Con tu, avere all'imperfetto si coniuga avevi."
+        }
+      ]
+    },
+    "band": 2
+  },
+  {
+    "id": "sent-imp-103",
+    "textTemplate": "Da bambina, mia nonna {slot_0} molto timida.",
+    "primaryTense": "imperfetto",
+    "level": 13,
+    "difficulty": 2,
+    "theme": "childhood_memories",
+    "source": "import-revised",
+    "target": {
+      "slotId": 0,
+      "verb": "essere",
+      "person": "lui/lei",
+      "acceptedAnswers": [
+        {
+          "text": "era",
+          "tense": "imperfetto",
+          "person": "lui/lei",
+          "explanation": "Con lui o lei, essere all'imperfetto si coniuga era."
+        }
+      ]
+    },
+    "band": 2
+  },
+  {
+    "id": "sent-imp-104",
+    "textTemplate": "Negli anni Novanta noi {slot_0} una casa grande vicino al mare.",
+    "primaryTense": "imperfetto",
+    "level": 14,
+    "difficulty": 2,
+    "theme": "home_lifestyle",
+    "source": "import-revised",
+    "target": {
+      "slotId": 0,
+      "verb": "avere",
+      "person": "noi",
+      "acceptedAnswers": [
+        {
+          "text": "avevamo",
+          "tense": "imperfetto",
+          "person": "noi",
+          "explanation": "Con noi, avere all'imperfetto si coniuga avevamo."
+        }
+      ]
+    },
+    "band": 2
+  },
+  {
+    "id": "sent-imp-105",
+    "textTemplate": "Durante le vacanze scolastiche, voi {slot_0} sempre felici di partire.",
+    "primaryTense": "imperfetto",
+    "level": 12,
+    "difficulty": 2,
+    "theme": "childhood_memories",
+    "source": "import-revised",
+    "target": {
+      "slotId": 0,
+      "verb": "essere",
+      "person": "voi",
+      "acceptedAnswers": [
+        {
+          "text": "eravate",
+          "tense": "imperfetto",
+          "person": "voi",
+          "explanation": "Con voi, essere all'imperfetto si coniuga eravate."
+        }
+      ]
+    },
+    "band": 2
+  },
+  {
+    "id": "sent-imp-106",
+    "textTemplate": "Quando eravamo piccoli, i miei genitori {slot_0} molta pazienza.",
+    "primaryTense": "imperfetto",
+    "level": 13,
+    "difficulty": 2,
+    "theme": "home_lifestyle",
+    "source": "import-revised",
+    "target": {
+      "slotId": 0,
+      "verb": "avere",
+      "person": "loro",
+      "acceptedAnswers": [
+        {
+          "text": "avevano",
+          "tense": "imperfetto",
+          "person": "loro",
+          "explanation": "Con loro, avere all'imperfetto si coniuga avevano."
+        }
+      ]
+    },
+    "band": 2
+  },
+  {
+    "id": "sent-imp-107",
+    "textTemplate": "Da giovane, io {slot_0} spesso in biblioteca a studiare.",
+    "primaryTense": "imperfetto",
+    "level": 14,
+    "difficulty": 2,
+    "theme": "childhood_memories",
+    "source": "import-revised",
+    "target": {
+      "slotId": 0,
+      "verb": "andare",
+      "person": "io",
+      "acceptedAnswers": [
+        {
+          "text": "andavo",
+          "tense": "imperfetto",
+          "person": "io",
+          "explanation": "Con io, andare all'imperfetto si coniuga andavo."
+        }
+      ]
+    },
+    "band": 2
+  },
+  {
+    "id": "sent-imp-108",
+    "textTemplate": "Nel fine settimana tu {slot_0} sempre la colazione al bar.",
+    "primaryTense": "imperfetto",
+    "level": 12,
+    "difficulty": 2,
+    "theme": "home_lifestyle",
+    "source": "import-revised",
+    "target": {
+      "slotId": 0,
+      "verb": "fare",
+      "person": "tu",
+      "acceptedAnswers": [
+        {
+          "text": "facevi",
+          "tense": "imperfetto",
+          "person": "tu",
+          "explanation": "Con tu, fare all'imperfetto si coniuga facevi."
+        }
+      ]
+    },
+    "band": 2
+  },
+  {
+    "id": "sent-imp-109",
+    "textTemplate": "Ogni estate Marco {slot_0} i compiti prima di uscire a giocare.",
+    "primaryTense": "imperfetto",
+    "level": 11,
+    "difficulty": 2,
+    "theme": "childhood_memories",
+    "source": "import-revised",
+    "target": {
+      "slotId": 0,
+      "verb": "finire",
+      "person": "lui/lei",
+      "acceptedAnswers": [
+        {
+          "text": "finiva",
+          "tense": "imperfetto",
+          "person": "lui/lei",
+          "explanation": "Con lui o lei, finire all'imperfetto si coniuga finiva."
+        }
+      ]
+    },
+    "band": 1
+  },
+  {
+    "id": "sent-imp-110",
+    "textTemplate": "Da ragazzi noi {slot_0} spesso la musica rock alla radio.",
+    "primaryTense": "imperfetto",
+    "level": 11,
+    "difficulty": 2,
+    "theme": "home_lifestyle",
+    "source": "import-revised",
+    "target": {
+      "slotId": 0,
+      "verb": "ascoltare",
+      "person": "noi",
+      "acceptedAnswers": [
+        {
+          "text": "ascoltavamo",
+          "tense": "imperfetto",
+          "person": "noi",
+          "explanation": "Con noi, ascoltare all'imperfetto si coniuga ascoltavamo."
+        }
+      ]
+    },
+    "band": 1
+  },
+  {
+    "id": "sent-imp-111",
+    "textTemplate": "Ogni estate noi {slot_0} in montagna per sfuggire al caldo.",
+    "primaryTense": "imperfetto",
+    "level": 12,
+    "difficulty": 2,
+    "theme": "travel_commuting",
+    "source": "import-revised",
+    "target": {
+      "slotId": 0,
+      "verb": "andare",
+      "person": "noi",
+      "acceptedAnswers": [
+        {
+          "text": "andavamo",
+          "tense": "imperfetto",
+          "person": "noi",
+          "explanation": "Con noi, andare all'imperfetto si coniuga andavamo."
+        }
+      ]
+    },
+    "band": 2
+  },
+  {
+    "id": "sent-imp-112",
+    "textTemplate": "Di solito tu {slot_0} la spesa nel mercato rionale il sabato.",
+    "primaryTense": "imperfetto",
+    "level": 13,
+    "difficulty": 2,
+    "theme": "daily_routine",
+    "source": "import-revised",
+    "target": {
+      "slotId": 0,
+      "verb": "fare",
+      "person": "tu",
+      "acceptedAnswers": [
+        {
+          "text": "facevi",
+          "tense": "imperfetto",
+          "person": "tu",
+          "explanation": "Con tu, fare all'imperfetto si coniuga facevi."
+        }
+      ]
+    },
+    "band": 2
+  },
+  {
+    "id": "sent-imp-113",
+    "textTemplate": "Da ragazza, mia madre {slot_0} spesso il pianoforte dopo cena.",
+    "primaryTense": "imperfetto",
+    "level": 14,
+    "difficulty": 2,
+    "theme": "home_lifestyle",
+    "source": "import-revised",
+    "target": {
+      "slotId": 0,
+      "verb": "suonare",
+      "person": "lui/lei",
+      "acceptedAnswers": [
+        {
+          "text": "suonava",
+          "tense": "imperfetto",
+          "person": "lui/lei",
+          "explanation": "Con lui o lei, suonare all'imperfetto si coniuga suonava."
+        }
+      ]
+    },
+    "band": 2
+  },
+  {
+    "id": "sent-imp-114",
+    "textTemplate": "Negli anni passati i miei colleghi {slot_0} sempre in ufficio alle otto.",
+    "primaryTense": "imperfetto",
+    "level": 11,
+    "difficulty": 2,
+    "theme": "work_office",
+    "source": "import-revised",
+    "target": {
+      "slotId": 0,
+      "verb": "arrivare",
+      "person": "loro",
+      "acceptedAnswers": [
+        {
+          "text": "arrivavano",
+          "tense": "imperfetto",
+          "person": "loro",
+          "explanation": "Con loro, arrivare all'imperfetto si coniuga arrivavano."
+        }
+      ]
+    },
+    "band": 1
+  },
+  {
+    "id": "sent-imp-115",
+    "textTemplate": "Nel fine settimana io {slot_0} sempre un libro giallo sul divano.",
+    "primaryTense": "imperfetto",
+    "level": 13,
+    "difficulty": 2,
+    "theme": "leisure",
+    "source": "import-revised",
+    "target": {
+      "slotId": 0,
+      "verb": "leggere",
+      "person": "io",
+      "acceptedAnswers": [
+        {
+          "text": "leggevo",
+          "tense": "imperfetto",
+          "person": "io",
+          "explanation": "Con io, leggere all'imperfetto si coniuga leggevo."
+        }
+      ]
+    },
+    "band": 2
+  },
+  {
+    "id": "sent-imp-116",
+    "textTemplate": "Ogni mattina tu {slot_0} il caffè con la moka tradizionale.",
+    "primaryTense": "imperfetto",
+    "level": 13,
+    "difficulty": 2,
+    "theme": "daily_routine",
+    "source": "import-revised",
+    "target": {
+      "slotId": 0,
+      "verb": "preparare",
+      "person": "tu",
+      "acceptedAnswers": [
+        {
+          "text": "preparavi",
+          "tense": "imperfetto",
+          "person": "tu",
+          "explanation": "Con tu, preparare all'imperfetto si coniuga preparavi."
+        }
+      ]
+    },
+    "band": 2
+  },
+  {
+    "id": "sent-imp-117",
+    "textTemplate": "Durante l'università noi {slot_0} spesso a mangiare una pizza.",
+    "primaryTense": "imperfetto",
+    "level": 12,
+    "difficulty": 2,
+    "theme": "social_life",
+    "source": "import-revised",
+    "target": {
+      "slotId": 0,
+      "verb": "uscire",
+      "person": "noi",
+      "acceptedAnswers": [
+        {
+          "text": "uscivamo",
+          "tense": "imperfetto",
+          "person": "noi",
+          "explanation": "Con noi, uscire all'imperfetto si coniuga uscivamo."
+        }
+      ]
+    },
+    "band": 2
+  },
+  {
+    "id": "sent-imp-118",
+    "textTemplate": "Da piccoli voi {slot_0} molte ore a giocare nel giardino di casa.",
+    "primaryTense": "imperfetto",
+    "level": 11,
+    "difficulty": 2,
+    "theme": "home_lifestyle",
+    "source": "import-revised",
+    "target": {
+      "slotId": 0,
+      "verb": "passare",
+      "person": "voi",
+      "acceptedAnswers": [
+        {
+          "text": "passavate",
+          "tense": "imperfetto",
+          "person": "voi",
+          "explanation": "Con voi, passare all'imperfetto si coniuga passavate."
+        }
+      ]
+    },
+    "band": 1
+  },
+  {
+    "id": "sent-imp-119",
+    "textTemplate": "Ogni venerdì pomeriggio il direttore {slot_0} un report dettagliato.",
+    "primaryTense": "imperfetto",
+    "level": 14,
+    "difficulty": 2,
+    "theme": "work_office",
+    "source": "import-revised",
+    "target": {
+      "slotId": 0,
+      "verb": "scrivere",
+      "person": "lui/lei",
+      "acceptedAnswers": [
+        {
+          "text": "scriveva",
+          "tense": "imperfetto",
+          "person": "lui/lei",
+          "explanation": "Con lui o lei, scrivere all'imperfetto si coniuga scriveva."
+        }
+      ]
+    },
+    "band": 2
+  },
+  {
+    "id": "sent-imp-120",
+    "textTemplate": "In passato i miei nonni {slot_0} sempre in treno.",
+    "primaryTense": "imperfetto",
+    "level": 12,
+    "difficulty": 2,
+    "theme": "travel_commuting",
+    "source": "import-revised",
+    "target": {
+      "slotId": 0,
+      "verb": "viaggiare",
+      "person": "loro",
+      "acceptedAnswers": [
+        {
+          "text": "viaggiavano",
+          "tense": "imperfetto",
+          "person": "loro",
+          "explanation": "Con loro, viaggiare all'imperfetto si coniuga viaggiavano."
+        }
+      ]
+    },
+    "band": 2
+  },
+  {
+    "id": "sent-imp-121",
+    "textTemplate": "Mentre io {slot_0} la cena, squillò improvvisamente il telefono.",
+    "primaryTense": "imperfetto",
+    "level": 13,
+    "difficulty": 2,
+    "theme": "home_lifestyle",
+    "source": "import-revised",
+    "target": {
+      "slotId": 0,
+      "verb": "cucinare",
+      "person": "io",
+      "acceptedAnswers": [
+        {
+          "text": "cucinavo",
+          "tense": "imperfetto",
+          "person": "io",
+          "explanation": "Con io, cucinare all'imperfetto si coniuga cucinavo."
+        }
+      ]
+    },
+    "band": 2
+  },
+  {
+    "id": "sent-imp-122",
+    "textTemplate": "Mentre tu {slot_0} i documenti, il direttore entrò nell'ufficio.",
+    "primaryTense": "imperfetto",
+    "level": 14,
+    "difficulty": 2,
+    "theme": "work_office",
+    "source": "import-revised",
+    "target": {
+      "slotId": 0,
+      "verb": "leggere",
+      "person": "tu",
+      "acceptedAnswers": [
+        {
+          "text": "leggevi",
+          "tense": "imperfetto",
+          "person": "tu",
+          "explanation": "Con tu, leggere all'imperfetto si coniuga leggevi."
+        }
+      ]
+    },
+    "band": 2
+  },
+  {
+    "id": "sent-imp-123",
+    "textTemplate": "Mentre noi {slot_0} in autostrada, iniziò a piovere forte.",
+    "primaryTense": "imperfetto",
+    "level": 11,
+    "difficulty": 2,
+    "theme": "travel_commuting",
+    "source": "import-revised",
+    "target": {
+      "slotId": 0,
+      "verb": "guidare",
+      "person": "noi",
+      "acceptedAnswers": [
+        {
+          "text": "guidavamo",
+          "tense": "imperfetto",
+          "person": "noi",
+          "explanation": "Con noi, guidare all'imperfetto si coniuga guidavamo."
+        }
+      ]
+    },
+    "band": 2
+  },
+  {
+    "id": "sent-imp-124",
+    "textTemplate": "Mentre i bambini {slot_0} nel parco, i genitori parlavano seduti.",
+    "primaryTense": "imperfetto",
+    "level": 12,
+    "difficulty": 2,
+    "theme": "leisure",
+    "source": "import-revised",
+    "target": {
+      "slotId": 0,
+      "verb": "giocare",
+      "person": "loro",
+      "acceptedAnswers": [
+        {
+          "text": "giocavano",
+          "tense": "imperfetto",
+          "person": "loro",
+          "explanation": "Con loro, giocare all'imperfetto si coniuga giocavano."
+        }
+      ]
+    },
+    "band": 2
+  },
+  {
+    "id": "sent-imp-125",
+    "textTemplate": "Mentre Anna {slot_0} i documenti per data, Marco preparava il caffè.",
+    "primaryTense": "imperfetto",
+    "level": 13,
+    "difficulty": 2,
+    "theme": "home_lifestyle",
+    "source": "import-revised",
+    "target": {
+      "slotId": 0,
+      "verb": "ordinare",
+      "person": "lui/lei",
+      "acceptedAnswers": [
+        {
+          "text": "ordinava",
+          "tense": "imperfetto",
+          "person": "lui/lei",
+          "explanation": "Con lui o lei, ordinare all'imperfetto si coniuga ordinava."
+        }
+      ]
+    },
+    "band": 2
+  },
+  {
+    "id": "sent-imp-126",
+    "textTemplate": "Mentre voi {slot_0} il report, io controllavo i dati finanziari.",
+    "primaryTense": "imperfetto",
+    "level": 12,
+    "difficulty": 2,
+    "theme": "work_office",
+    "source": "import-revised",
+    "target": {
+      "slotId": 0,
+      "verb": "scrivere",
+      "person": "voi",
+      "acceptedAnswers": [
+        {
+          "text": "scrivevate",
+          "tense": "imperfetto",
+          "person": "voi",
+          "explanation": "Con voi, scrivere all'imperfetto si coniuga scrivevate."
+        }
+      ]
+    },
+    "band": 2
+  },
+  {
+    "id": "sent-imp-127",
+    "textTemplate": "Mentre io {slot_0} la doccia, suonò il corriere alla porta.",
+    "primaryTense": "imperfetto",
+    "level": 13,
+    "difficulty": 2,
+    "theme": "daily_routine",
+    "source": "import-revised",
+    "target": {
+      "slotId": 0,
+      "verb": "fare",
+      "person": "io",
+      "acceptedAnswers": [
+        {
+          "text": "facevo",
+          "tense": "imperfetto",
+          "person": "io",
+          "explanation": "Con io, fare all'imperfetto si coniuga facevo."
+        }
+      ]
+    },
+    "band": 2
+  },
+  {
+    "id": "sent-imp-128",
+    "textTemplate": "Mentre tu {slot_0} con Maria, io ordinavo le pizze al tavolo.",
+    "primaryTense": "imperfetto",
+    "level": 12,
+    "difficulty": 2,
+    "theme": "social_life",
+    "source": "import-revised",
+    "target": {
+      "slotId": 0,
+      "verb": "parlare",
+      "person": "tu",
+      "acceptedAnswers": [
+        {
+          "text": "parlavi",
+          "tense": "imperfetto",
+          "person": "tu",
+          "explanation": "Con tu, parlare all'imperfetto si coniuga parlavi."
+        }
+      ]
+    },
+    "band": 2
+  },
+  {
+    "id": "sent-imp-129",
+    "textTemplate": "Mentre noi {slot_0} la televisione, fuori c'era un temporale.",
+    "primaryTense": "imperfetto",
+    "level": 13,
+    "difficulty": 2,
+    "theme": "leisure",
+    "source": "import-revised",
+    "target": {
+      "slotId": 0,
+      "verb": "guardare",
+      "person": "noi",
+      "acceptedAnswers": [
+        {
+          "text": "guardavamo",
+          "tense": "imperfetto",
+          "person": "noi",
+          "explanation": "Con noi, guardare all'imperfetto si coniuga guardavamo."
+        }
+      ]
+    },
+    "band": 2
+  },
+  {
+    "id": "sent-imp-130",
+    "textTemplate": "Mentre i vicini {slot_0} una festa, noi cercavamo di dormire.",
+    "primaryTense": "imperfetto",
+    "level": 13,
+    "difficulty": 2,
+    "theme": "home_lifestyle",
+    "source": "import-revised",
+    "target": {
+      "slotId": 0,
+      "verb": "fare",
+      "person": "loro",
+      "acceptedAnswers": [
+        {
+          "text": "facevano",
+          "tense": "imperfetto",
+          "person": "loro",
+          "explanation": "Con loro, fare all'imperfetto si coniuga facevano."
+        }
+      ]
+    },
+    "band": 2
+  },
+  {
+    "id": "sent-imp-131",
+    "textTemplate": "Ieri pomeriggio il cielo {slot_0} grigio e tirava un vento freddo.",
+    "primaryTense": "imperfetto",
+    "level": 14,
+    "difficulty": 2,
+    "theme": "travel_commuting",
+    "source": "import-revised",
+    "target": {
+      "slotId": 0,
+      "verb": "essere",
+      "person": "lui/lei",
+      "acceptedAnswers": [
+        {
+          "text": "era",
+          "tense": "imperfetto",
+          "person": "lui/lei",
+          "explanation": "Con lui o lei, essere all'imperfetto si coniuga era."
+        }
+      ]
+    },
+    "band": 2
+  },
+  {
+    "id": "sent-imp-132",
+    "textTemplate": "Nella vecchia casa di campagna non c'{slot_0} l'aria condizionata.",
+    "primaryTense": "imperfetto",
+    "level": 12,
+    "difficulty": 2,
+    "theme": "home_lifestyle",
+    "source": "import-revised",
+    "target": {
+      "slotId": 0,
+      "verb": "essere",
+      "person": "lui/lei",
+      "acceptedAnswers": [
+        {
+          "text": "era",
+          "tense": "imperfetto",
+          "person": "lui/lei",
+          "explanation": "Con lui o lei, essere all'imperfetto si coniuga era."
+        }
+      ]
+    },
+    "band": 2
+  },
+  {
+    "id": "sent-imp-133",
+    "textTemplate": "Alla festa di compleanno c'{slot_0} tantissime persone che ballavano.",
+    "primaryTense": "imperfetto",
+    "level": 13,
+    "difficulty": 2,
+    "theme": "social_life",
+    "source": "import-revised",
+    "target": {
+      "slotId": 0,
+      "verb": "essere",
+      "person": "loro",
+      "acceptedAnswers": [
+        {
+          "text": "erano",
+          "tense": "imperfetto",
+          "person": "loro",
+          "explanation": "Con loro, essere all'imperfetto si coniuga erano."
+        }
+      ]
+    },
+    "band": 2
+  },
+  {
+    "id": "sent-imp-134",
+    "textTemplate": "Da ragazzo io {slot_0} collezionare francobolli rari da tutto il mondo.",
+    "primaryTense": "imperfetto",
+    "level": 13,
+    "difficulty": 2,
+    "theme": "leisure",
+    "source": "import-revised",
+    "target": {
+      "slotId": 0,
+      "verb": "amare",
+      "person": "io",
+      "acceptedAnswers": [
+        {
+          "text": "amavo",
+          "tense": "imperfetto",
+          "person": "io",
+          "explanation": "Con io, amare all'imperfetto si coniuga amavo."
+        }
+      ]
+    },
+    "band": 2
+  },
+  {
+    "id": "sent-imp-135",
+    "textTemplate": "Nel vecchio ufficio tu {slot_0} una scrivania molto più grande.",
+    "primaryTense": "imperfetto",
+    "level": 12,
+    "difficulty": 2,
+    "theme": "work_office",
+    "source": "import-revised",
+    "target": {
+      "slotId": 0,
+      "verb": "avere",
+      "person": "tu",
+      "acceptedAnswers": [
+        {
+          "text": "avevi",
+          "tense": "imperfetto",
+          "person": "tu",
+          "explanation": "Con tu, avere all'imperfetto si coniuga avevi."
+        }
+      ]
+    },
+    "band": 2
+  },
+  {
+    "id": "sent-imp-136",
+    "textTemplate": "Prima della riforma aziendale, noi {slot_0} iniziare alle nove in punto.",
+    "primaryTense": "imperfetto",
+    "level": 13,
+    "difficulty": 2,
+    "theme": "daily_routine",
+    "source": "import-revised",
+    "target": {
+      "slotId": 0,
+      "verb": "dovere",
+      "person": "noi",
+      "acceptedAnswers": [
+        {
+          "text": "dovevamo",
+          "tense": "imperfetto",
+          "person": "noi",
+          "explanation": "Con noi, dovere all'imperfetto si coniuga dovevamo."
+        }
+      ]
+    },
+    "band": 2
+  },
+  {
+    "id": "sent-imp-137",
+    "textTemplate": "Quando viveva in città, Marco {slot_0} viaggiare sempre con i mezzi pubblici.",
+    "primaryTense": "imperfetto",
+    "level": 14,
+    "difficulty": 2,
+    "theme": "home_lifestyle",
+    "source": "import-revised",
+    "target": {
+      "slotId": 0,
+      "verb": "volere",
+      "person": "lui/lei",
+      "acceptedAnswers": [
+        {
+          "text": "voleva",
+          "tense": "imperfetto",
+          "person": "lui/lei",
+          "explanation": "Con lui o lei, volere all'imperfetto si coniuga voleva."
+        }
+      ]
+    },
+    "band": 2
+  },
+  {
+    "id": "sent-imp-138",
+    "textTemplate": "L'estate scorsa le spiagge {slot_0} affollate già dalle prime ore del mattino.",
+    "primaryTense": "imperfetto",
+    "level": 12,
+    "difficulty": 2,
+    "theme": "travel_commuting",
+    "source": "import-revised",
+    "target": {
+      "slotId": 0,
+      "verb": "essere",
+      "person": "loro",
+      "acceptedAnswers": [
+        {
+          "text": "erano",
+          "tense": "imperfetto",
+          "person": "loro",
+          "explanation": "Con loro, essere all'imperfetto si coniuga erano."
+        }
+      ]
+    },
+    "band": 2
+  },
+  {
+    "id": "sent-imp-139",
+    "textTemplate": "Ogni volta che andavamo al museo, voi {slot_0} tutte le opere d'arte.",
+    "primaryTense": "imperfetto",
+    "level": 14,
+    "difficulty": 2,
+    "theme": "leisure",
+    "source": "import-revised",
+    "target": {
+      "slotId": 0,
+      "verb": "fotografare",
+      "person": "voi",
+      "acceptedAnswers": [
+        {
+          "text": "fotografavate",
+          "tense": "imperfetto",
+          "person": "voi",
+          "explanation": "Con voi, fotografare all'imperfetto si coniuga fotografavate."
+        }
+      ]
+    },
+    "band": 2
+  },
+  {
+    "id": "sent-imp-140",
+    "textTemplate": "Nel millenovecentonovantanove io {slot_0} in un piccolo negozio di dischi.",
+    "primaryTense": "imperfetto",
+    "level": 14,
+    "difficulty": 2,
+    "theme": "work_office",
+    "source": "import-revised",
+    "target": {
+      "slotId": 0,
+      "verb": "lavorare",
+      "person": "io",
+      "acceptedAnswers": [
+        {
+          "text": "lavoravo",
+          "tense": "imperfetto",
+          "person": "io",
+          "explanation": "Con io, lavorare all'imperfetto si coniuga lavoravo."
+        }
+      ]
+    },
+    "band": 2
+  },
+  {
+    "id": "corpus-imperfetto-001",
+    "textTemplate": "Quando lavoravo al forno, io {slot_0} alle quattro.",
+    "primaryTense": "imperfetto",
+    "level": 13,
+    "difficulty": 1,
+    "theme": "vita_quotidiana",
+    "source": "authored",
+    "target": {
+      "slotId": 0,
+      "verb": "alzarsi",
+      "person": "io",
+      "acceptedAnswers": [
+        {
+          "text": "mi alzavo",
+          "tense": "imperfetto",
+          "person": "io",
+          "explanation": "Con io, alzarsi all'imperfetto si coniuga mi alzavo."
+        }
+      ]
+    },
+    "band": 1
+  },
+  {
+    "id": "corpus-imperfetto-002",
+    "textTemplate": "Da piccolo tu {slot_0} dal letto appena sentivi il cane.",
+    "primaryTense": "imperfetto",
+    "level": 14,
+    "difficulty": 1,
+    "theme": "vita_quotidiana",
+    "source": "authored",
+    "target": {
+      "slotId": 0,
+      "verb": "alzarsi",
+      "person": "tu",
+      "acceptedAnswers": [
+        {
+          "text": "ti alzavi",
+          "tense": "imperfetto",
+          "person": "tu",
+          "explanation": "Con tu, alzarsi all'imperfetto si coniuga ti alzavi."
+        }
+      ]
+    },
+    "band": 1
+  },
+  {
+    "id": "corpus-imperfetto-003",
+    "textTemplate": "Durante le assemblee gli studenti {slot_0} per chiedere la parola.",
+    "primaryTense": "imperfetto",
+    "level": 13,
+    "difficulty": 1,
+    "theme": "vita_quotidiana",
+    "source": "authored",
+    "target": {
+      "slotId": 0,
+      "verb": "alzarsi",
+      "person": "loro",
+      "acceptedAnswers": [
+        {
+          "text": "si alzavano",
+          "tense": "imperfetto",
+          "person": "loro",
+          "explanation": "Con loro, alzarsi all'imperfetto si coniuga si alzavano."
+        }
+      ]
+    },
+    "band": 1
+  },
+  {
+    "id": "corpus-imperfetto-004",
+    "textTemplate": "Da adolescente io {slot_0} passare i pomeriggi in biblioteca.",
+    "primaryTense": "imperfetto",
+    "level": 12,
+    "difficulty": 1,
+    "theme": "vita_quotidiana",
+    "source": "authored",
+    "target": {
+      "slotId": 0,
+      "verb": "amare",
+      "person": "io",
+      "acceptedAnswers": [
+        {
+          "text": "amavo",
+          "tense": "imperfetto",
+          "person": "io",
+          "explanation": "Con io, amare all'imperfetto si coniuga amavo."
+        }
+      ]
+    },
+    "band": 1
+  },
+  {
+    "id": "corpus-imperfetto-005",
+    "textTemplate": "La mia vecchia insegnante {slot_0} le domande difficili.",
+    "primaryTense": "imperfetto",
+    "level": 13,
+    "difficulty": 1,
+    "theme": "vita_quotidiana",
+    "source": "authored",
+    "target": {
+      "slotId": 0,
+      "verb": "amare",
+      "person": "lui/lei",
+      "acceptedAnswers": [
+        {
+          "text": "amava",
+          "tense": "imperfetto",
+          "person": "lui/lei",
+          "explanation": "Con lui o lei, amare all'imperfetto si coniuga amava."
+        }
+      ]
+    },
+    "band": 1
+  },
+  {
+    "id": "corpus-imperfetto-006",
+    "textTemplate": "Quando abitavamo al mare, noi {slot_0} le giornate di vento.",
+    "primaryTense": "imperfetto",
+    "level": 14,
+    "difficulty": 1,
+    "theme": "vita_quotidiana",
+    "source": "authored",
+    "target": {
+      "slotId": 0,
+      "verb": "amare",
+      "person": "noi",
+      "acceptedAnswers": [
+        {
+          "text": "amavamo",
+          "tense": "imperfetto",
+          "person": "noi",
+          "explanation": "Con noi, amare all'imperfetto si coniuga amavamo."
+        }
+      ]
+    },
+    "band": 1
+  },
+  {
+    "id": "corpus-imperfetto-007",
+    "textTemplate": "Quando eri in vacanza dai nonni, tu {slot_0} al fiume ogni giorno.",
+    "primaryTense": "imperfetto",
+    "level": 13,
+    "difficulty": 2,
+    "theme": "vita_quotidiana",
+    "source": "authored",
+    "target": {
+      "slotId": 0,
+      "verb": "andare",
+      "person": "tu",
+      "acceptedAnswers": [
+        {
+          "text": "andavi",
+          "tense": "imperfetto",
+          "person": "tu",
+          "explanation": "Con tu, andare all'imperfetto si coniuga andavi."
+        }
+      ]
+    },
+    "band": 2
+  },
+  {
+    "id": "corpus-imperfetto-008",
+    "textTemplate": "Prima del trasloco noi {slot_0} al lavoro in tram.",
+    "primaryTense": "imperfetto",
+    "level": 14,
+    "difficulty": 2,
+    "theme": "vita_quotidiana",
+    "source": "authored",
+    "target": {
+      "slotId": 0,
+      "verb": "andare",
+      "person": "noi",
+      "acceptedAnswers": [
+        {
+          "text": "andavamo",
+          "tense": "imperfetto",
+          "person": "noi",
+          "explanation": "Con noi, andare all'imperfetto si coniuga andavamo."
+        }
+      ]
+    },
+    "band": 2
+  },
+  {
+    "id": "corpus-imperfetto-009",
+    "textTemplate": "Da ragazzi i miei genitori {slot_0} spesso a ballare.",
+    "primaryTense": "imperfetto",
+    "level": 12,
+    "difficulty": 2,
+    "theme": "vita_quotidiana",
+    "source": "authored",
+    "target": {
+      "slotId": 0,
+      "verb": "andare",
+      "person": "loro",
+      "acceptedAnswers": [
+        {
+          "text": "andavano",
+          "tense": "imperfetto",
+          "person": "loro",
+          "explanation": "Con loro, andare all'imperfetto si coniuga andavano."
+        }
+      ]
+    },
+    "band": 2
+  },
+  {
+    "id": "corpus-imperfetto-010",
+    "textTemplate": "All'epoca io {slot_0} il progetto, ma poi ho cambiato idea.",
+    "primaryTense": "imperfetto",
+    "level": 13,
+    "difficulty": 1,
+    "theme": "vita_quotidiana",
+    "source": "authored",
+    "target": {
+      "slotId": 0,
+      "verb": "approvare",
+      "person": "io",
+      "acceptedAnswers": [
+        {
+          "text": "approvavo",
+          "tense": "imperfetto",
+          "person": "io",
+          "explanation": "Con io, approvare all'imperfetto si coniuga approvavo."
+        }
+      ]
+    },
+    "band": 1
+  },
+  {
+    "id": "corpus-imperfetto-011",
+    "textTemplate": "Durante quegli incontri voi {slot_0} sempre le proposte più semplici.",
+    "primaryTense": "imperfetto",
+    "level": 14,
+    "difficulty": 1,
+    "theme": "vita_quotidiana",
+    "source": "authored",
+    "target": {
+      "slotId": 0,
+      "verb": "approvare",
+      "person": "voi",
+      "acceptedAnswers": [
+        {
+          "text": "approvavate",
+          "tense": "imperfetto",
+          "person": "voi",
+          "explanation": "Con voi, approvare all'imperfetto si coniuga approvavate."
+        }
+      ]
+    },
+    "band": 1
+  },
+  {
+    "id": "corpus-imperfetto-012",
+    "textTemplate": "Quando faceva caldo, tu {slot_0} tutte le finestre.",
+    "primaryTense": "imperfetto",
+    "level": 12,
+    "difficulty": 2,
+    "theme": "vita_quotidiana",
+    "source": "authored",
+    "target": {
+      "slotId": 0,
+      "verb": "aprire",
+      "person": "tu",
+      "acceptedAnswers": [
+        {
+          "text": "aprivi",
+          "tense": "imperfetto",
+          "person": "tu",
+          "explanation": "Con tu, aprire all'imperfetto si coniuga aprivi."
+        }
+      ]
+    },
+    "band": 2
+  },
+  {
+    "id": "corpus-imperfetto-013",
+    "textTemplate": "Da bambini noi {slot_0} i regali appena svegli.",
+    "primaryTense": "imperfetto",
+    "level": 13,
+    "difficulty": 2,
+    "theme": "vita_quotidiana",
+    "source": "authored",
+    "target": {
+      "slotId": 0,
+      "verb": "aprire",
+      "person": "noi",
+      "acceptedAnswers": [
+        {
+          "text": "aprivamo",
+          "tense": "imperfetto",
+          "person": "noi",
+          "explanation": "Con noi, aprire all'imperfetto si coniuga aprivamo."
+        }
+      ]
+    },
+    "band": 2
+  },
+  {
+    "id": "corpus-imperfetto-014",
+    "textTemplate": "Prima della riforma gli uffici {slot_0} anche il sabato.",
+    "primaryTense": "imperfetto",
+    "level": 14,
+    "difficulty": 2,
+    "theme": "vita_quotidiana",
+    "source": "authored",
+    "target": {
+      "slotId": 0,
+      "verb": "aprire",
+      "person": "loro",
+      "acceptedAnswers": [
+        {
+          "text": "aprivano",
+          "tense": "imperfetto",
+          "person": "loro",
+          "explanation": "Con loro, aprire all'imperfetto si coniuga aprivano."
+        }
+      ]
+    },
+    "band": 2
+  },
+  {
+    "id": "corpus-imperfetto-015",
+    "textTemplate": "Quando prendevo il primo treno, io {slot_0} prima di tutti.",
+    "primaryTense": "imperfetto",
+    "level": 14,
+    "difficulty": 1,
+    "theme": "vita_quotidiana",
+    "source": "authored",
+    "target": {
+      "slotId": 0,
+      "verb": "arrivare",
+      "person": "io",
+      "acceptedAnswers": [
+        {
+          "text": "arrivavo",
+          "tense": "imperfetto",
+          "person": "io",
+          "explanation": "Con io, arrivare all'imperfetto si coniuga arrivavo."
+        }
+      ]
+    },
+    "band": 1
+  },
+  {
+    "id": "corpus-imperfetto-016",
+    "textTemplate": "In inverno la luce {slot_0} in cucina solo verso mezzogiorno.",
+    "primaryTense": "imperfetto",
+    "level": 11,
+    "difficulty": 1,
+    "theme": "vita_quotidiana",
+    "source": "authored",
+    "target": {
+      "slotId": 0,
+      "verb": "arrivare",
+      "person": "lui/lei",
+      "acceptedAnswers": [
+        {
+          "text": "arrivava",
+          "tense": "imperfetto",
+          "person": "lui/lei",
+          "explanation": "Con lui o lei, arrivare all'imperfetto si coniuga arrivava."
+        }
+      ]
+    },
+    "band": 1
+  },
+  {
+    "id": "corpus-imperfetto-017",
+    "textTemplate": "A quei tempi voi {slot_0} alla festa sempre con una torta.",
+    "primaryTense": "imperfetto",
+    "level": 12,
+    "difficulty": 1,
+    "theme": "vita_quotidiana",
+    "source": "authored",
+    "target": {
+      "slotId": 0,
+      "verb": "arrivare",
+      "person": "voi",
+      "acceptedAnswers": [
+        {
+          "text": "arrivavate",
+          "tense": "imperfetto",
+          "person": "voi",
+          "explanation": "Con voi, arrivare all'imperfetto si coniuga arrivavate."
+        }
+      ]
+    },
+    "band": 1
+  },
+  {
+    "id": "corpus-imperfetto-018",
+    "textTemplate": "Mentre io {slot_0} la radio, mio fratello preparava la cena.",
+    "primaryTense": "imperfetto",
+    "level": 13,
+    "difficulty": 1,
+    "theme": "vita_quotidiana",
+    "source": "authored",
+    "target": {
+      "slotId": 0,
+      "verb": "ascoltare",
+      "person": "io",
+      "acceptedAnswers": [
+        {
+          "text": "ascoltavo",
+          "tense": "imperfetto",
+          "person": "io",
+          "explanation": "Con io, ascoltare all'imperfetto si coniuga ascoltavo."
+        }
+      ]
+    },
+    "band": 1
+  },
+  {
+    "id": "corpus-imperfetto-019",
+    "textTemplate": "Da piccolo tu {slot_0} la stessa fiaba ogni sera.",
+    "primaryTense": "imperfetto",
+    "level": 14,
+    "difficulty": 1,
+    "theme": "vita_quotidiana",
+    "source": "authored",
+    "target": {
+      "slotId": 0,
+      "verb": "ascoltare",
+      "person": "tu",
+      "acceptedAnswers": [
+        {
+          "text": "ascoltavi",
+          "tense": "imperfetto",
+          "person": "tu",
+          "explanation": "Con tu, ascoltare all'imperfetto si coniuga ascoltavi."
+        }
+      ]
+    },
+    "band": 1
+  },
+  {
+    "id": "corpus-imperfetto-020",
+    "textTemplate": "Durante le lezioni all'aperto noi {slot_0} anche il canto degli uccelli.",
+    "primaryTense": "imperfetto",
+    "level": 14,
+    "difficulty": 1,
+    "theme": "vita_quotidiana",
+    "source": "authored",
+    "target": {
+      "slotId": 0,
+      "verb": "ascoltare",
+      "person": "noi",
+      "acceptedAnswers": [
+        {
+          "text": "ascoltavamo",
+          "tense": "imperfetto",
+          "person": "noi",
+          "explanation": "Con noi, ascoltare all'imperfetto si coniuga ascoltavamo."
+        }
+      ]
+    },
+    "band": 1
+  },
+  {
+    "id": "corpus-imperfetto-021",
+    "textTemplate": "Quando sono entrato, la nonna {slot_0} già vicino alla porta.",
+    "primaryTense": "imperfetto",
+    "level": 11,
+    "difficulty": 1,
+    "theme": "vita_quotidiana",
+    "source": "authored",
+    "target": {
+      "slotId": 0,
+      "verb": "aspettare",
+      "person": "lui/lei",
+      "acceptedAnswers": [
+        {
+          "text": "aspettava",
+          "tense": "imperfetto",
+          "person": "lui/lei",
+          "explanation": "Con lui o lei, aspettare all'imperfetto si coniuga aspettava."
+        }
+      ]
+    },
+    "band": 1
+  },
+  {
+    "id": "corpus-imperfetto-022",
+    "textTemplate": "Mentre voi {slot_0} il treno, qualcuno ha trovato il portafoglio.",
+    "primaryTense": "imperfetto",
+    "level": 12,
+    "difficulty": 1,
+    "theme": "vita_quotidiana",
+    "source": "authored",
+    "target": {
+      "slotId": 0,
+      "verb": "aspettare",
+      "person": "voi",
+      "acceptedAnswers": [
+        {
+          "text": "aspettavate",
+          "tense": "imperfetto",
+          "person": "voi",
+          "explanation": "Con voi, aspettare all'imperfetto si coniuga aspettavate."
+        }
+      ]
+    },
+    "band": 1
+  },
+  {
+    "id": "corpus-imperfetto-023",
+    "textTemplate": "Ogni venerdì i bambini {slot_0} il furgone dei gelati.",
+    "primaryTense": "imperfetto",
+    "level": 13,
+    "difficulty": 1,
+    "theme": "vita_quotidiana",
+    "source": "authored",
+    "target": {
+      "slotId": 0,
+      "verb": "aspettare",
+      "person": "loro",
+      "acceptedAnswers": [
+        {
+          "text": "aspettavano",
+          "tense": "imperfetto",
+          "person": "loro",
+          "explanation": "Con loro, aspettare all'imperfetto si coniuga aspettavano."
+        }
+      ]
+    },
+    "band": 1
+  },
+  {
+    "id": "corpus-imperfetto-024",
+    "textTemplate": "Nel vecchio appartamento io {slot_0} una finestra sul cortile.",
+    "primaryTense": "imperfetto",
+    "level": 12,
+    "difficulty": 2,
+    "theme": "vita_quotidiana",
+    "source": "authored",
+    "target": {
+      "slotId": 0,
+      "verb": "avere",
+      "person": "io",
+      "acceptedAnswers": [
+        {
+          "text": "avevo",
+          "tense": "imperfetto",
+          "person": "io",
+          "explanation": "Con io, avere all'imperfetto si coniuga avevo."
+        }
+      ]
+    },
+    "band": 2
+  },
+  {
+    "id": "corpus-imperfetto-025",
+    "textTemplate": "Da bambino tu {slot_0} paura dei temporali?",
+    "primaryTense": "imperfetto",
+    "level": 13,
+    "difficulty": 2,
+    "theme": "vita_quotidiana",
+    "source": "authored",
+    "target": {
+      "slotId": 0,
+      "verb": "avere",
+      "person": "tu",
+      "acceptedAnswers": [
+        {
+          "text": "avevi",
+          "tense": "imperfetto",
+          "person": "tu",
+          "explanation": "Con tu, avere all'imperfetto si coniuga avevi."
+        }
+      ]
+    },
+    "band": 2
+  },
+  {
+    "id": "corpus-imperfetto-026",
+    "textTemplate": "Quando vivevamo insieme, noi {slot_0} una sola bicicletta.",
+    "primaryTense": "imperfetto",
+    "level": 14,
+    "difficulty": 2,
+    "theme": "vita_quotidiana",
+    "source": "authored",
+    "target": {
+      "slotId": 0,
+      "verb": "avere",
+      "person": "noi",
+      "acceptedAnswers": [
+        {
+          "text": "avevamo",
+          "tense": "imperfetto",
+          "person": "noi",
+          "explanation": "Con noi, avere all'imperfetto si coniuga avevamo."
+        }
+      ]
+    },
+    "band": 2
+  },
+  {
+    "id": "corpus-imperfetto-027",
+    "textTemplate": "Prima di cambiare abitudini, Marco {slot_0} troppo caffè.",
+    "primaryTense": "imperfetto",
+    "level": 12,
+    "difficulty": 2,
+    "theme": "vita_quotidiana",
+    "source": "authored",
+    "target": {
+      "slotId": 0,
+      "verb": "bere",
+      "person": "lui/lei",
+      "acceptedAnswers": [
+        {
+          "text": "beveva",
+          "tense": "imperfetto",
+          "person": "lui/lei",
+          "explanation": "Con lui o lei, bere all'imperfetto si coniuga beveva."
+        }
+      ]
+    },
+    "band": 2
+  },
+  {
+    "id": "corpus-imperfetto-028",
+    "textTemplate": "Mentre gli ospiti {slot_0} il tè, fuori cominciava a nevicare.",
+    "primaryTense": "imperfetto",
+    "level": 13,
+    "difficulty": 2,
+    "theme": "vita_quotidiana",
+    "source": "authored",
+    "target": {
+      "slotId": 0,
+      "verb": "bere",
+      "person": "loro",
+      "acceptedAnswers": [
+        {
+          "text": "bevevano",
+          "tense": "imperfetto",
+          "person": "loro",
+          "explanation": "Con loro, bere all'imperfetto si coniuga bevevano."
+        }
+      ]
+    },
+    "band": 2
+  },
+  {
+    "id": "corpus-imperfetto-029",
+    "textTemplate": "All'inizio del corso io {slot_0} solo qualche parola.",
+    "primaryTense": "imperfetto",
+    "level": 11,
+    "difficulty": 1,
+    "theme": "vita_quotidiana",
+    "source": "authored",
+    "target": {
+      "slotId": 0,
+      "verb": "capire",
+      "person": "io",
+      "acceptedAnswers": [
+        {
+          "text": "capivo",
+          "tense": "imperfetto",
+          "person": "io",
+          "explanation": "Con io, capire all'imperfetto si coniuga capivo."
+        }
+      ]
+    },
+    "band": 1
+  },
+  {
+    "id": "corpus-imperfetto-030",
+    "textTemplate": "Quando vivevi qui, tu {slot_0} il dialetto del paese?",
+    "primaryTense": "imperfetto",
+    "level": 11,
+    "difficulty": 1,
+    "theme": "vita_quotidiana",
+    "source": "authored",
+    "target": {
+      "slotId": 0,
+      "verb": "capire",
+      "person": "tu",
+      "acceptedAnswers": [
+        {
+          "text": "capivi",
+          "tense": "imperfetto",
+          "person": "tu",
+          "explanation": "Con tu, capire all'imperfetto si coniuga capivi."
+        }
+      ]
+    },
+    "band": 1
+  },
+  {
+    "id": "corpus-imperfetto-031",
+    "textTemplate": "Prima della spiegazione voi non {slot_0} il motivo di quella scelta.",
+    "primaryTense": "imperfetto",
+    "level": 12,
+    "difficulty": 1,
+    "theme": "vita_quotidiana",
+    "source": "authored",
+    "target": {
+      "slotId": 0,
+      "verb": "capire",
+      "person": "voi",
+      "acceptedAnswers": [
+        {
+          "text": "capivate",
+          "tense": "imperfetto",
+          "person": "voi",
+          "explanation": "Con voi, capire all'imperfetto si coniuga capivate."
+        }
+      ]
+    },
+    "band": 1
+  },
+  {
+    "id": "corpus-imperfetto-032",
+    "textTemplate": "Mentre io {slot_0} la mensola, mia sorella misurava la parete.",
+    "primaryTense": "imperfetto",
+    "level": 13,
+    "difficulty": 1,
+    "theme": "vita_quotidiana",
+    "source": "authored",
+    "target": {
+      "slotId": 0,
+      "verb": "costruire",
+      "person": "io",
+      "acceptedAnswers": [
+        {
+          "text": "costruivo",
+          "tense": "imperfetto",
+          "person": "io",
+          "explanation": "Con io, costruire all'imperfetto si coniuga costruivo."
+        }
+      ]
+    },
+    "band": 1
+  },
+  {
+    "id": "corpus-imperfetto-033",
+    "textTemplate": "Da ragazzo mio padre {slot_0} aquiloni con la carta dei giornali.",
+    "primaryTense": "imperfetto",
+    "level": 14,
+    "difficulty": 1,
+    "theme": "vita_quotidiana",
+    "source": "authored",
+    "target": {
+      "slotId": 0,
+      "verb": "costruire",
+      "person": "lui/lei",
+      "acceptedAnswers": [
+        {
+          "text": "costruiva",
+          "tense": "imperfetto",
+          "person": "lui/lei",
+          "explanation": "Con lui o lei, costruire all'imperfetto si coniuga costruiva."
+        }
+      ]
+    },
+    "band": 1
+  },
+  {
+    "id": "corpus-imperfetto-034",
+    "textTemplate": "Negli anni Sessanta gli operai {slot_0} il nuovo quartiere.",
+    "primaryTense": "imperfetto",
+    "level": 11,
+    "difficulty": 1,
+    "theme": "vita_quotidiana",
+    "source": "authored",
+    "target": {
+      "slotId": 0,
+      "verb": "costruire",
+      "person": "loro",
+      "acceptedAnswers": [
+        {
+          "text": "costruivano",
+          "tense": "imperfetto",
+          "person": "loro",
+          "explanation": "Con loro, costruire all'imperfetto si coniuga costruivano."
+        }
+      ]
+    },
+    "band": 1
+  },
+  {
+    "id": "corpus-imperfetto-035",
+    "textTemplate": "Quando abitavi da solo, tu {slot_0} anche per i vicini.",
+    "primaryTense": "imperfetto",
+    "level": 12,
+    "difficulty": 1,
+    "theme": "vita_quotidiana",
+    "source": "authored",
+    "target": {
+      "slotId": 0,
+      "verb": "cucinare",
+      "person": "tu",
+      "acceptedAnswers": [
+        {
+          "text": "cucinavi",
+          "tense": "imperfetto",
+          "person": "tu",
+          "explanation": "Con tu, cucinare all'imperfetto si coniuga cucinavi."
+        }
+      ]
+    },
+    "band": 1
+  },
+  {
+    "id": "corpus-imperfetto-036",
+    "textTemplate": "Durante il campeggio noi {slot_0} su un piccolo fornello.",
+    "primaryTense": "imperfetto",
+    "level": 13,
+    "difficulty": 1,
+    "theme": "vita_quotidiana",
+    "source": "authored",
+    "target": {
+      "slotId": 0,
+      "verb": "cucinare",
+      "person": "noi",
+      "acceptedAnswers": [
+        {
+          "text": "cucinavamo",
+          "tense": "imperfetto",
+          "person": "noi",
+          "explanation": "Con noi, cucinare all'imperfetto si coniuga cucinavamo."
+        }
+      ]
+    },
+    "band": 1
+  },
+  {
+    "id": "corpus-imperfetto-037",
+    "textTemplate": "Mentre voi {slot_0}, io cercavo una tovaglia pulita.",
+    "primaryTense": "imperfetto",
+    "level": 14,
+    "difficulty": 1,
+    "theme": "vita_quotidiana",
+    "source": "authored",
+    "target": {
+      "slotId": 0,
+      "verb": "cucinare",
+      "person": "voi",
+      "acceptedAnswers": [
+        {
+          "text": "cucinavate",
+          "tense": "imperfetto",
+          "person": "voi",
+          "explanation": "Con voi, cucinare all'imperfetto si coniuga cucinavate."
+        }
+      ]
+    },
+    "band": 1
+  },
+  {
+    "id": "corpus-imperfetto-038",
+    "textTemplate": "Quando mia madre era via, io {slot_0} il suo orto.",
+    "primaryTense": "imperfetto",
+    "level": 11,
+    "difficulty": 1,
+    "theme": "vita_quotidiana",
+    "source": "authored",
+    "target": {
+      "slotId": 0,
+      "verb": "curare",
+      "person": "io",
+      "acceptedAnswers": [
+        {
+          "text": "curavo",
+          "tense": "imperfetto",
+          "person": "io",
+          "explanation": "Con io, curare all'imperfetto si coniuga curavo."
+        }
+      ]
+    },
+    "band": 1
+  },
+  {
+    "id": "corpus-imperfetto-039",
+    "textTemplate": "Prima della pensione la dottoressa {slot_0} soprattutto bambini.",
+    "primaryTense": "imperfetto",
+    "level": 12,
+    "difficulty": 1,
+    "theme": "vita_quotidiana",
+    "source": "authored",
+    "target": {
+      "slotId": 0,
+      "verb": "curare",
+      "person": "lui/lei",
+      "acceptedAnswers": [
+        {
+          "text": "curava",
+          "tense": "imperfetto",
+          "person": "lui/lei",
+          "explanation": "Con lui o lei, curare all'imperfetto si coniuga curava."
+        }
+      ]
+    },
+    "band": 1
+  },
+  {
+    "id": "corpus-imperfetto-040",
+    "textTemplate": "Da piccolo tu {slot_0} sempre lo zaino nello spogliatoio.",
+    "primaryTense": "imperfetto",
+    "level": 12,
+    "difficulty": 1,
+    "theme": "vita_quotidiana",
+    "source": "authored",
+    "target": {
+      "slotId": 0,
+      "verb": "dimenticare",
+      "person": "tu",
+      "acceptedAnswers": [
+        {
+          "text": "dimenticavi",
+          "tense": "imperfetto",
+          "person": "tu",
+          "explanation": "Con tu, dimenticare all'imperfetto si coniuga dimenticavi."
+        }
+      ]
+    },
+    "band": 1
+  },
+  {
+    "id": "corpus-imperfetto-041",
+    "textTemplate": "Quando eravamo stanchi, noi {slot_0} anche le cose più semplici.",
+    "primaryTense": "imperfetto",
+    "level": 13,
+    "difficulty": 1,
+    "theme": "vita_quotidiana",
+    "source": "authored",
+    "target": {
+      "slotId": 0,
+      "verb": "dimenticare",
+      "person": "noi",
+      "acceptedAnswers": [
+        {
+          "text": "dimenticavamo",
+          "tense": "imperfetto",
+          "person": "noi",
+          "explanation": "Con noi, dimenticare all'imperfetto si coniuga dimenticavamo."
+        }
+      ]
+    },
+    "band": 1
+  },
+  {
+    "id": "corpus-imperfetto-042",
+    "textTemplate": "Prima di usare un calendario, voi {slot_0} spesso gli appuntamenti.",
+    "primaryTense": "imperfetto",
+    "level": 14,
+    "difficulty": 1,
+    "theme": "vita_quotidiana",
+    "source": "authored",
+    "target": {
+      "slotId": 0,
+      "verb": "dimenticare",
+      "person": "voi",
+      "acceptedAnswers": [
+        {
+          "text": "dimenticavate",
+          "tense": "imperfetto",
+          "person": "voi",
+          "explanation": "Con voi, dimenticare all'imperfetto si coniuga dimenticavate."
+        }
+      ]
+    },
+    "band": 1
+  },
+  {
+    "id": "corpus-imperfetto-043",
+    "textTemplate": "Da bambino io {slot_0} di voler diventare un esploratore.",
+    "primaryTense": "imperfetto",
+    "level": 13,
+    "difficulty": 2,
+    "theme": "vita_quotidiana",
+    "source": "authored",
+    "target": {
+      "slotId": 0,
+      "verb": "dire",
+      "person": "io",
+      "acceptedAnswers": [
+        {
+          "text": "dicevo",
+          "tense": "imperfetto",
+          "person": "io",
+          "explanation": "Con io, dire all'imperfetto si coniuga dicevo."
+        }
+      ]
+    },
+    "band": 2
+  },
+  {
+    "id": "corpus-imperfetto-044",
+    "textTemplate": "Il vecchio cartello {slot_0} che il ponte era chiuso.",
+    "primaryTense": "imperfetto",
+    "level": 14,
+    "difficulty": 2,
+    "theme": "vita_quotidiana",
+    "source": "authored",
+    "target": {
+      "slotId": 0,
+      "verb": "dire",
+      "person": "lui/lei",
+      "acceptedAnswers": [
+        {
+          "text": "diceva",
+          "tense": "imperfetto",
+          "person": "lui/lei",
+          "explanation": "Con lui o lei, dire all'imperfetto si coniuga diceva."
+        }
+      ]
+    },
+    "band": 2
+  },
+  {
+    "id": "corpus-imperfetto-045",
+    "textTemplate": "A quei tempi tutti {slot_0} che il paese sarebbe rimasto vuoto.",
+    "primaryTense": "imperfetto",
+    "level": 12,
+    "difficulty": 2,
+    "theme": "vita_quotidiana",
+    "source": "authored",
+    "target": {
+      "slotId": 0,
+      "verb": "dire",
+      "person": "loro",
+      "acceptedAnswers": [
+        {
+          "text": "dicevano",
+          "tense": "imperfetto",
+          "person": "loro",
+          "explanation": "Con loro, dire all'imperfetto si coniuga dicevano."
+        }
+      ]
+    },
+    "band": 2
+  },
+  {
+    "id": "corpus-imperfetto-046",
+    "textTemplate": "Quando eri piccolo, tu {slot_0} con un peluche enorme.",
+    "primaryTense": "imperfetto",
+    "level": 14,
+    "difficulty": 1,
+    "theme": "vita_quotidiana",
+    "source": "authored",
+    "target": {
+      "slotId": 0,
+      "verb": "dormire",
+      "person": "tu",
+      "acceptedAnswers": [
+        {
+          "text": "dormivi",
+          "tense": "imperfetto",
+          "person": "tu",
+          "explanation": "Con tu, dormire all'imperfetto si coniuga dormivi."
+        }
+      ]
+    },
+    "band": 1
+  },
+  {
+    "id": "corpus-imperfetto-047",
+    "textTemplate": "Durante i lavori in casa noi {slot_0} dai nonni.",
+    "primaryTense": "imperfetto",
+    "level": 11,
+    "difficulty": 1,
+    "theme": "vita_quotidiana",
+    "source": "authored",
+    "target": {
+      "slotId": 0,
+      "verb": "dormire",
+      "person": "noi",
+      "acceptedAnswers": [
+        {
+          "text": "dormivamo",
+          "tense": "imperfetto",
+          "person": "noi",
+          "explanation": "Con noi, dormire all'imperfetto si coniuga dormivamo."
+        }
+      ]
+    },
+    "band": 1
+  },
+  {
+    "id": "corpus-imperfetto-048",
+    "textTemplate": "Quando lavoravo in negozio, io {slot_0} indossare una divisa.",
+    "primaryTense": "imperfetto",
+    "level": 12,
+    "difficulty": 2,
+    "theme": "vita_quotidiana",
+    "source": "authored",
+    "target": {
+      "slotId": 0,
+      "verb": "dovere",
+      "person": "io",
+      "acceptedAnswers": [
+        {
+          "text": "dovevo",
+          "tense": "imperfetto",
+          "person": "io",
+          "explanation": "Con io, dovere all'imperfetto si coniuga dovevo."
+        }
+      ]
+    },
+    "band": 2
+  },
+  {
+    "id": "corpus-imperfetto-049",
+    "textTemplate": "Prima del rinnovo, il museo {slot_0} chiudere quando pioveva.",
+    "primaryTense": "imperfetto",
+    "level": 13,
+    "difficulty": 2,
+    "theme": "vita_quotidiana",
+    "source": "authored",
+    "target": {
+      "slotId": 0,
+      "verb": "dovere",
+      "person": "lui/lei",
+      "acceptedAnswers": [
+        {
+          "text": "doveva",
+          "tense": "imperfetto",
+          "person": "lui/lei",
+          "explanation": "Con lui o lei, dovere all'imperfetto si coniuga doveva."
+        }
+      ]
+    },
+    "band": 2
+  },
+  {
+    "id": "corpus-imperfetto-050",
+    "textTemplate": "Da studenti noi {slot_0} dividere tutte le spese.",
+    "primaryTense": "imperfetto",
+    "level": 14,
+    "difficulty": 2,
+    "theme": "vita_quotidiana",
+    "source": "authored",
+    "target": {
+      "slotId": 0,
+      "verb": "dovere",
+      "person": "noi",
+      "acceptedAnswers": [
+        {
+          "text": "dovevamo",
+          "tense": "imperfetto",
+          "person": "noi",
+          "explanation": "Con noi, dovere all'imperfetto si coniuga dovevamo."
+        }
+      ]
+    },
+    "band": 2
+  },
+  {
+    "id": "corpus-imperfetto-051",
+    "textTemplate": "Da bambino tu {slot_0} molto curioso.",
+    "primaryTense": "imperfetto",
+    "level": 12,
+    "difficulty": 2,
+    "theme": "vita_quotidiana",
+    "source": "authored",
+    "target": {
+      "slotId": 0,
+      "verb": "essere",
+      "person": "tu",
+      "acceptedAnswers": [
+        {
+          "text": "eri",
+          "tense": "imperfetto",
+          "person": "tu",
+          "explanation": "Con tu, essere all'imperfetto si coniuga eri."
+        }
+      ]
+    },
+    "band": 2
+  },
+  {
+    "id": "corpus-imperfetto-052",
+    "textTemplate": "Prima dei lavori questa piazza {slot_0} un parcheggio.",
+    "primaryTense": "imperfetto",
+    "level": 13,
+    "difficulty": 2,
+    "theme": "vita_quotidiana",
+    "source": "authored",
+    "target": {
+      "slotId": 0,
+      "verb": "essere",
+      "person": "lui/lei",
+      "acceptedAnswers": [
+        {
+          "text": "era",
+          "tense": "imperfetto",
+          "person": "lui/lei",
+          "explanation": "Con lui o lei, essere all'imperfetto si coniuga era."
+        }
+      ]
+    },
+    "band": 2
+  },
+  {
+    "id": "corpus-imperfetto-053",
+    "textTemplate": "Quando siamo arrivati, le finestre {slot_0} tutte aperte.",
+    "primaryTense": "imperfetto",
+    "level": 14,
+    "difficulty": 2,
+    "theme": "vita_quotidiana",
+    "source": "authored",
+    "target": {
+      "slotId": 0,
+      "verb": "essere",
+      "person": "loro",
+      "acceptedAnswers": [
+        {
+          "text": "erano",
+          "tense": "imperfetto",
+          "person": "loro",
+          "explanation": "Con loro, essere all'imperfetto si coniuga erano."
+        }
+      ]
+    },
+    "band": 2
+  },
+  {
+    "id": "corpus-imperfetto-054",
+    "textTemplate": "Ogni estate, da ragazzo, io {slot_0} il bagnino.",
+    "primaryTense": "imperfetto",
+    "level": 12,
+    "difficulty": 2,
+    "theme": "vita_quotidiana",
+    "source": "authored",
+    "target": {
+      "slotId": 0,
+      "verb": "fare",
+      "person": "io",
+      "acceptedAnswers": [
+        {
+          "text": "facevo",
+          "tense": "imperfetto",
+          "person": "io",
+          "explanation": "Con io, fare all'imperfetto si coniuga facevo."
+        }
+      ]
+    },
+    "band": 2
+  },
+  {
+    "id": "corpus-imperfetto-055",
+    "textTemplate": "Quando abitavamo in centro, noi {slot_0} la spesa a piedi.",
+    "primaryTense": "imperfetto",
+    "level": 13,
+    "difficulty": 2,
+    "theme": "vita_quotidiana",
+    "source": "authored",
+    "target": {
+      "slotId": 0,
+      "verb": "fare",
+      "person": "noi",
+      "acceptedAnswers": [
+        {
+          "text": "facevamo",
+          "tense": "imperfetto",
+          "person": "noi",
+          "explanation": "Con noi, fare all'imperfetto si coniuga facevamo."
+        }
+      ]
+    },
+    "band": 2
+  },
+  {
+    "id": "corpus-imperfetto-056",
+    "textTemplate": "Mentre voi {slot_0} le foto, la guida raccontava la storia del castello.",
+    "primaryTense": "imperfetto",
+    "level": 14,
+    "difficulty": 2,
+    "theme": "vita_quotidiana",
+    "source": "authored",
+    "target": {
+      "slotId": 0,
+      "verb": "fare",
+      "person": "voi",
+      "acceptedAnswers": [
+        {
+          "text": "facevate",
+          "tense": "imperfetto",
+          "person": "voi",
+          "explanation": "Con voi, fare all'imperfetto si coniuga facevate."
+        }
+      ]
+    },
+    "band": 2
+  },
+  {
+    "id": "corpus-imperfetto-057",
+    "textTemplate": "Un tempo la strada {slot_0} proprio qui.",
+    "primaryTense": "imperfetto",
+    "level": 12,
+    "difficulty": 1,
+    "theme": "vita_quotidiana",
+    "source": "authored",
+    "target": {
+      "slotId": 0,
+      "verb": "finire",
+      "person": "lui/lei",
+      "acceptedAnswers": [
+        {
+          "text": "finiva",
+          "tense": "imperfetto",
+          "person": "lui/lei",
+          "explanation": "Con lui o lei, finire all'imperfetto si coniuga finiva."
+        }
+      ]
+    },
+    "band": 1
+  },
+  {
+    "id": "corpus-imperfetto-058",
+    "textTemplate": "In quel periodo le riunioni {slot_0} sempre dopo il tramonto.",
+    "primaryTense": "imperfetto",
+    "level": 13,
+    "difficulty": 1,
+    "theme": "vita_quotidiana",
+    "source": "authored",
+    "target": {
+      "slotId": 0,
+      "verb": "finire",
+      "person": "loro",
+      "acceptedAnswers": [
+        {
+          "text": "finivano",
+          "tense": "imperfetto",
+          "person": "loro",
+          "explanation": "Con loro, finire all'imperfetto si coniuga finivano."
+        }
+      ]
+    },
+    "band": 1
+  },
+  {
+    "id": "corpus-imperfetto-059",
+    "textTemplate": "Quando consegnavo la merce, io {slot_0} un registro ogni mattina.",
+    "primaryTense": "imperfetto",
+    "level": 14,
+    "difficulty": 1,
+    "theme": "vita_quotidiana",
+    "source": "authored",
+    "target": {
+      "slotId": 0,
+      "verb": "firmare",
+      "person": "io",
+      "acceptedAnswers": [
+        {
+          "text": "firmavo",
+          "tense": "imperfetto",
+          "person": "io",
+          "explanation": "Con io, firmare all'imperfetto si coniuga firmavo."
+        }
+      ]
+    },
+    "band": 1
+  },
+  {
+    "id": "corpus-imperfetto-060",
+    "textTemplate": "Da bambini noi {slot_0} i disegni con nomi inventati.",
+    "primaryTense": "imperfetto",
+    "level": 14,
+    "difficulty": 1,
+    "theme": "vita_quotidiana",
+    "source": "authored",
+    "target": {
+      "slotId": 0,
+      "verb": "firmare",
+      "person": "noi",
+      "acceptedAnswers": [
+        {
+          "text": "firmavamo",
+          "tense": "imperfetto",
+          "person": "noi",
+          "explanation": "Con noi, firmare all'imperfetto si coniuga firmavamo."
+        }
+      ]
+    },
+    "band": 1
+  },
+  {
+    "id": "corpus-imperfetto-061",
+    "textTemplate": "Durante quel viaggio tu {slot_0} ogni porta colorata.",
+    "primaryTense": "imperfetto",
+    "level": 11,
+    "difficulty": 1,
+    "theme": "vita_quotidiana",
+    "source": "authored",
+    "target": {
+      "slotId": 0,
+      "verb": "fotografare",
+      "person": "tu",
+      "acceptedAnswers": [
+        {
+          "text": "fotografavi",
+          "tense": "imperfetto",
+          "person": "tu",
+          "explanation": "Con tu, fotografare all'imperfetto si coniuga fotografavi."
+        }
+      ]
+    },
+    "band": 1
+  },
+  {
+    "id": "corpus-imperfetto-062",
+    "textTemplate": "Mentre voi {slot_0} il panorama, è arrivata la nebbia.",
+    "primaryTense": "imperfetto",
+    "level": 12,
+    "difficulty": 1,
+    "theme": "vita_quotidiana",
+    "source": "authored",
+    "target": {
+      "slotId": 0,
+      "verb": "fotografare",
+      "person": "voi",
+      "acceptedAnswers": [
+        {
+          "text": "fotografavate",
+          "tense": "imperfetto",
+          "person": "voi",
+          "explanation": "Con voi, fotografare all'imperfetto si coniuga fotografavate."
+        }
+      ]
+    },
+    "band": 1
+  },
+  {
+    "id": "corpus-imperfetto-063",
+    "textTemplate": "Prima dei telefoni, i turisti {slot_0} con macchine molto più grandi.",
+    "primaryTense": "imperfetto",
+    "level": 13,
+    "difficulty": 1,
+    "theme": "vita_quotidiana",
+    "source": "authored",
+    "target": {
+      "slotId": 0,
+      "verb": "fotografare",
+      "person": "loro",
+      "acceptedAnswers": [
+        {
+          "text": "fotografavano",
+          "tense": "imperfetto",
+          "person": "loro",
+          "explanation": "Con loro, fotografare all'imperfetto si coniuga fotografavano."
+        }
+      ]
+    },
+    "band": 1
+  },
+  {
+    "id": "corpus-imperfetto-064",
+    "textTemplate": "Da bambino io {slot_0} in cortile fino all'ora di cena.",
+    "primaryTense": "imperfetto",
+    "level": 14,
+    "difficulty": 1,
+    "theme": "vita_quotidiana",
+    "source": "authored",
+    "target": {
+      "slotId": 0,
+      "verb": "giocare",
+      "person": "io",
+      "acceptedAnswers": [
+        {
+          "text": "giocavo",
+          "tense": "imperfetto",
+          "person": "io",
+          "explanation": "Con io, giocare all'imperfetto si coniuga giocavo."
+        }
+      ]
+    },
+    "band": 1
+  },
+  {
+    "id": "corpus-imperfetto-065",
+    "textTemplate": "Nelle sere d'inverno noi {slot_0} a tombola con i nonni.",
+    "primaryTense": "imperfetto",
+    "level": 11,
+    "difficulty": 1,
+    "theme": "vita_quotidiana",
+    "source": "authored",
+    "target": {
+      "slotId": 0,
+      "verb": "giocare",
+      "person": "noi",
+      "acceptedAnswers": [
+        {
+          "text": "giocavamo",
+          "tense": "imperfetto",
+          "person": "noi",
+          "explanation": "Con noi, giocare all'imperfetto si coniuga giocavamo."
+        }
+      ]
+    },
+    "band": 1
+  },
+  {
+    "id": "corpus-imperfetto-066",
+    "textTemplate": "Mentre tu {slot_0} il sole, io cercavo un posto all'ombra.",
+    "primaryTense": "imperfetto",
+    "level": 14,
+    "difficulty": 2,
+    "theme": "vita_quotidiana",
+    "source": "authored",
+    "target": {
+      "slotId": 0,
+      "verb": "godersi",
+      "person": "tu",
+      "acceptedAnswers": [
+        {
+          "text": "ti godevi",
+          "tense": "imperfetto",
+          "person": "tu",
+          "explanation": "Con tu, godersi all'imperfetto si coniuga ti godevi."
+        }
+      ]
+    },
+    "band": 2
+  },
+  {
+    "id": "corpus-imperfetto-067",
+    "textTemplate": "Durante quelle vacanze noi {slot_0} la calma del paese.",
+    "primaryTense": "imperfetto",
+    "level": 13,
+    "difficulty": 2,
+    "theme": "vita_quotidiana",
+    "source": "authored",
+    "target": {
+      "slotId": 0,
+      "verb": "godersi",
+      "person": "noi",
+      "acceptedAnswers": [
+        {
+          "text": "ci godevamo",
+          "tense": "imperfetto",
+          "person": "noi",
+          "explanation": "Con noi, godersi all'imperfetto si coniuga ci godevamo."
+        }
+      ]
+    },
+    "band": 2
+  },
+  {
+    "id": "corpus-imperfetto-068",
+    "textTemplate": "Quando è iniziata la pioggia, gli ospiti {slot_0} la cena in giardino.",
+    "primaryTense": "imperfetto",
+    "level": 14,
+    "difficulty": 2,
+    "theme": "vita_quotidiana",
+    "source": "authored",
+    "target": {
+      "slotId": 0,
+      "verb": "godersi",
+      "person": "loro",
+      "acceptedAnswers": [
+        {
+          "text": "si godevano",
+          "tense": "imperfetto",
+          "person": "loro",
+          "explanation": "Con loro, godersi all'imperfetto si coniuga si godevano."
+        }
+      ]
+    },
+    "band": 2
+  },
+  {
+    "id": "corpus-imperfetto-069",
+    "textTemplate": "Da piccolo io {slot_0} i treni passare dal balcone.",
+    "primaryTense": "imperfetto",
+    "level": 11,
+    "difficulty": 1,
+    "theme": "vita_quotidiana",
+    "source": "authored",
+    "target": {
+      "slotId": 0,
+      "verb": "guardare",
+      "person": "io",
+      "acceptedAnswers": [
+        {
+          "text": "guardavo",
+          "tense": "imperfetto",
+          "person": "io",
+          "explanation": "Con io, guardare all'imperfetto si coniuga guardavo."
+        }
+      ]
+    },
+    "band": 1
+  },
+  {
+    "id": "corpus-imperfetto-070",
+    "textTemplate": "Mentre il cane {slot_0} dalla finestra, il gatto dormiva.",
+    "primaryTense": "imperfetto",
+    "level": 11,
+    "difficulty": 1,
+    "theme": "vita_quotidiana",
+    "source": "authored",
+    "target": {
+      "slotId": 0,
+      "verb": "guardare",
+      "person": "lui/lei",
+      "acceptedAnswers": [
+        {
+          "text": "guardava",
+          "tense": "imperfetto",
+          "person": "lui/lei",
+          "explanation": "Con lui o lei, guardare all'imperfetto si coniuga guardava."
+        }
+      ]
+    },
+    "band": 1
+  },
+  {
+    "id": "corpus-imperfetto-071",
+    "textTemplate": "Quando è saltata la corrente, voi {slot_0} un film.",
+    "primaryTense": "imperfetto",
+    "level": 12,
+    "difficulty": 1,
+    "theme": "vita_quotidiana",
+    "source": "authored",
+    "target": {
+      "slotId": 0,
+      "verb": "guardare",
+      "person": "voi",
+      "acceptedAnswers": [
+        {
+          "text": "guardavate",
+          "tense": "imperfetto",
+          "person": "voi",
+          "explanation": "Con voi, guardare all'imperfetto si coniuga guardavate."
+        }
+      ]
+    },
+    "band": 1
+  },
+  {
+    "id": "corpus-imperfetto-072",
+    "textTemplate": "Prima di trasferirti in città, tu {slot_0} ogni giorno.",
+    "primaryTense": "imperfetto",
+    "level": 13,
+    "difficulty": 1,
+    "theme": "vita_quotidiana",
+    "source": "authored",
+    "target": {
+      "slotId": 0,
+      "verb": "guidare",
+      "person": "tu",
+      "acceptedAnswers": [
+        {
+          "text": "guidavi",
+          "tense": "imperfetto",
+          "person": "tu",
+          "explanation": "Con tu, guidare all'imperfetto si coniuga guidavi."
+        }
+      ]
+    },
+    "band": 1
+  },
+  {
+    "id": "corpus-imperfetto-073",
+    "textTemplate": "Durante quel viaggio noi {slot_0} soltanto di giorno.",
+    "primaryTense": "imperfetto",
+    "level": 14,
+    "difficulty": 1,
+    "theme": "vita_quotidiana",
+    "source": "authored",
+    "target": {
+      "slotId": 0,
+      "verb": "guidare",
+      "person": "noi",
+      "acceptedAnswers": [
+        {
+          "text": "guidavamo",
+          "tense": "imperfetto",
+          "person": "noi",
+          "explanation": "Con noi, guidare all'imperfetto si coniuga guidavamo."
+        }
+      ]
+    },
+    "band": 1
+  },
+  {
+    "id": "corpus-imperfetto-074",
+    "textTemplate": "Con la nebbia gli autisti {slot_0} molto lentamente.",
+    "primaryTense": "imperfetto",
+    "level": 11,
+    "difficulty": 1,
+    "theme": "vita_quotidiana",
+    "source": "authored",
+    "target": {
+      "slotId": 0,
+      "verb": "guidare",
+      "person": "loro",
+      "acceptedAnswers": [
+        {
+          "text": "guidavano",
+          "tense": "imperfetto",
+          "person": "loro",
+          "explanation": "Con loro, guidare all'imperfetto si coniuga guidavano."
+        }
+      ]
+    },
+    "band": 1
+  },
+  {
+    "id": "corpus-imperfetto-075",
+    "textTemplate": "Quando avevo una casa più grande, io {slot_0} spesso gli amici.",
+    "primaryTense": "imperfetto",
+    "level": 12,
+    "difficulty": 1,
+    "theme": "vita_quotidiana",
+    "source": "authored",
+    "target": {
+      "slotId": 0,
+      "verb": "invitare",
+      "person": "io",
+      "acceptedAnswers": [
+        {
+          "text": "invitavo",
+          "tense": "imperfetto",
+          "person": "io",
+          "explanation": "Con io, invitare all'imperfetto si coniuga invitavo."
+        }
+      ]
+    },
+    "band": 1
+  },
+  {
+    "id": "corpus-imperfetto-076",
+    "textTemplate": "Ogni primavera la scuola {slot_0} le famiglie a una festa.",
+    "primaryTense": "imperfetto",
+    "level": 13,
+    "difficulty": 1,
+    "theme": "vita_quotidiana",
+    "source": "authored",
+    "target": {
+      "slotId": 0,
+      "verb": "invitare",
+      "person": "lui/lei",
+      "acceptedAnswers": [
+        {
+          "text": "invitava",
+          "tense": "imperfetto",
+          "person": "lui/lei",
+          "explanation": "Con lui o lei, invitare all'imperfetto si coniuga invitava."
+        }
+      ]
+    },
+    "band": 1
+  },
+  {
+    "id": "corpus-imperfetto-077",
+    "textTemplate": "Da studenti voi {slot_0} tutti a condividere la cena.",
+    "primaryTense": "imperfetto",
+    "level": 14,
+    "difficulty": 1,
+    "theme": "vita_quotidiana",
+    "source": "authored",
+    "target": {
+      "slotId": 0,
+      "verb": "invitare",
+      "person": "voi",
+      "acceptedAnswers": [
+        {
+          "text": "invitavate",
+          "tense": "imperfetto",
+          "person": "voi",
+          "explanation": "Con voi, invitare all'imperfetto si coniuga invitavate."
+        }
+      ]
+    },
+    "band": 1
+  },
+  {
+    "id": "corpus-imperfetto-078",
+    "textTemplate": "Quando ci siamo conosciuti, tu {slot_0} in un teatro.",
+    "primaryTense": "imperfetto",
+    "level": 11,
+    "difficulty": 1,
+    "theme": "vita_quotidiana",
+    "source": "authored",
+    "target": {
+      "slotId": 0,
+      "verb": "lavorare",
+      "person": "tu",
+      "acceptedAnswers": [
+        {
+          "text": "lavoravi",
+          "tense": "imperfetto",
+          "person": "tu",
+          "explanation": "Con tu, lavorare all'imperfetto si coniuga lavoravi."
+        }
+      ]
+    },
+    "band": 1
+  },
+  {
+    "id": "corpus-imperfetto-079",
+    "textTemplate": "Prima di avere uno studio, noi {slot_0} in cucina.",
+    "primaryTense": "imperfetto",
+    "level": 12,
+    "difficulty": 1,
+    "theme": "vita_quotidiana",
+    "source": "authored",
+    "target": {
+      "slotId": 0,
+      "verb": "lavorare",
+      "person": "noi",
+      "acceptedAnswers": [
+        {
+          "text": "lavoravamo",
+          "tense": "imperfetto",
+          "person": "noi",
+          "explanation": "Con noi, lavorare all'imperfetto si coniuga lavoravamo."
+        }
+      ]
+    },
+    "band": 1
+  },
+  {
+    "id": "corpus-imperfetto-080",
+    "textTemplate": "Mentre i muratori {slot_0}, i vicini tenevano chiuse le finestre.",
+    "primaryTense": "imperfetto",
+    "level": 12,
+    "difficulty": 1,
+    "theme": "vita_quotidiana",
+    "source": "authored",
+    "target": {
+      "slotId": 0,
+      "verb": "lavorare",
+      "person": "loro",
+      "acceptedAnswers": [
+        {
+          "text": "lavoravano",
+          "tense": "imperfetto",
+          "person": "loro",
+          "explanation": "Con loro, lavorare all'imperfetto si coniuga lavoravano."
+        }
+      ]
+    },
+    "band": 1
+  },
+  {
+    "id": "corpus-imperfetto-081",
+    "textTemplate": "Da ragazzo io {slot_0} romanzi nascosto sotto le coperte.",
+    "primaryTense": "imperfetto",
+    "level": 12,
+    "difficulty": 2,
+    "theme": "vita_quotidiana",
+    "source": "authored",
+    "target": {
+      "slotId": 0,
+      "verb": "leggere",
+      "person": "io",
+      "acceptedAnswers": [
+        {
+          "text": "leggevo",
+          "tense": "imperfetto",
+          "person": "io",
+          "explanation": "Con io, leggere all'imperfetto si coniuga leggevo."
+        }
+      ]
+    },
+    "band": 2
+  },
+  {
+    "id": "corpus-imperfetto-082",
+    "textTemplate": "Quando sono entrato, il nonno {slot_0} una vecchia lettera.",
+    "primaryTense": "imperfetto",
+    "level": 13,
+    "difficulty": 2,
+    "theme": "vita_quotidiana",
+    "source": "authored",
+    "target": {
+      "slotId": 0,
+      "verb": "leggere",
+      "person": "lui/lei",
+      "acceptedAnswers": [
+        {
+          "text": "leggeva",
+          "tense": "imperfetto",
+          "person": "lui/lei",
+          "explanation": "Con lui o lei, leggere all'imperfetto si coniuga leggeva."
+        }
+      ]
+    },
+    "band": 2
+  },
+  {
+    "id": "corpus-imperfetto-083",
+    "textTemplate": "Prima di dormire voi {slot_0} sempre un capitolo ai bambini.",
+    "primaryTense": "imperfetto",
+    "level": 14,
+    "difficulty": 2,
+    "theme": "vita_quotidiana",
+    "source": "authored",
+    "target": {
+      "slotId": 0,
+      "verb": "leggere",
+      "person": "voi",
+      "acceptedAnswers": [
+        {
+          "text": "leggevate",
+          "tense": "imperfetto",
+          "person": "voi",
+          "explanation": "Con voi, leggere all'imperfetto si coniuga leggevate."
+        }
+      ]
+    },
+    "band": 2
+  },
+  {
+    "id": "corpus-imperfetto-084",
+    "textTemplate": "Quando eri piccolo, tu {slot_0} solo la parte interna del pane.",
+    "primaryTense": "imperfetto",
+    "level": 12,
+    "difficulty": 1,
+    "theme": "vita_quotidiana",
+    "source": "authored",
+    "target": {
+      "slotId": 0,
+      "verb": "mangiare",
+      "person": "tu",
+      "acceptedAnswers": [
+        {
+          "text": "mangiavi",
+          "tense": "imperfetto",
+          "person": "tu",
+          "explanation": "Con tu, mangiare all'imperfetto si coniuga mangiavi."
+        }
+      ]
+    },
+    "band": 1
+  },
+  {
+    "id": "corpus-imperfetto-085",
+    "textTemplate": "Durante le vacanze dai nonni noi {slot_0} spesso in giardino.",
+    "primaryTense": "imperfetto",
+    "level": 13,
+    "difficulty": 1,
+    "theme": "vita_quotidiana",
+    "source": "authored",
+    "target": {
+      "slotId": 0,
+      "verb": "mangiare",
+      "person": "noi",
+      "acceptedAnswers": [
+        {
+          "text": "mangiavamo",
+          "tense": "imperfetto",
+          "person": "noi",
+          "explanation": "Con noi, mangiare all'imperfetto si coniuga mangiavamo."
+        }
+      ]
+    },
+    "band": 1
+  },
+  {
+    "id": "corpus-imperfetto-086",
+    "textTemplate": "Mentre gli altri {slot_0}, il cuoco preparava il dolce.",
+    "primaryTense": "imperfetto",
+    "level": 14,
+    "difficulty": 1,
+    "theme": "vita_quotidiana",
+    "source": "authored",
+    "target": {
+      "slotId": 0,
+      "verb": "mangiare",
+      "person": "loro",
+      "acceptedAnswers": [
+        {
+          "text": "mangiavano",
+          "tense": "imperfetto",
+          "person": "loro",
+          "explanation": "Con loro, mangiare all'imperfetto si coniuga mangiavano."
+        }
+      ]
+    },
+    "band": 1
+  },
+  {
+    "id": "corpus-imperfetto-087",
+    "textTemplate": "Mentre io {slot_0} i documenti, è caduta una vecchia fotografia.",
+    "primaryTense": "imperfetto",
+    "level": 11,
+    "difficulty": 1,
+    "theme": "vita_quotidiana",
+    "source": "authored",
+    "target": {
+      "slotId": 0,
+      "verb": "ordinare",
+      "person": "io",
+      "acceptedAnswers": [
+        {
+          "text": "ordinavo",
+          "tense": "imperfetto",
+          "person": "io",
+          "explanation": "Con io, ordinare all'imperfetto si coniuga ordinavo."
+        }
+      ]
+    },
+    "band": 1
+  },
+  {
+    "id": "corpus-imperfetto-088",
+    "textTemplate": "Quando andavamo in quel bar, Anna {slot_0} sempre una spremuta.",
+    "primaryTense": "imperfetto",
+    "level": 12,
+    "difficulty": 1,
+    "theme": "vita_quotidiana",
+    "source": "authored",
+    "target": {
+      "slotId": 0,
+      "verb": "ordinare",
+      "person": "lui/lei",
+      "acceptedAnswers": [
+        {
+          "text": "ordinava",
+          "tense": "imperfetto",
+          "person": "lui/lei",
+          "explanation": "Con lui o lei, ordinare all'imperfetto si coniuga ordinava."
+        }
+      ]
+    },
+    "band": 1
+  },
+  {
+    "id": "corpus-imperfetto-089",
+    "textTemplate": "Ai tempi dell'università tu {slot_0} tutte le nostre gite.",
+    "primaryTense": "imperfetto",
+    "level": 13,
+    "difficulty": 1,
+    "theme": "vita_quotidiana",
+    "source": "authored",
+    "target": {
+      "slotId": 0,
+      "verb": "organizzare",
+      "person": "tu",
+      "acceptedAnswers": [
+        {
+          "text": "organizzavi",
+          "tense": "imperfetto",
+          "person": "tu",
+          "explanation": "Con tu, organizzare all'imperfetto si coniuga organizzavi."
+        }
+      ]
+    },
+    "band": 1
+  },
+  {
+    "id": "corpus-imperfetto-090",
+    "textTemplate": "Quando il cinema era ancora aperto, noi {slot_0} serate di discussione.",
+    "primaryTense": "imperfetto",
+    "level": 13,
+    "difficulty": 1,
+    "theme": "vita_quotidiana",
+    "source": "authored",
+    "target": {
+      "slotId": 0,
+      "verb": "organizzare",
+      "person": "noi",
+      "acceptedAnswers": [
+        {
+          "text": "organizzavamo",
+          "tense": "imperfetto",
+          "person": "noi",
+          "explanation": "Con noi, organizzare all'imperfetto si coniuga organizzavamo."
+        }
+      ]
+    },
+    "band": 1
+  },
+  {
+    "id": "corpus-imperfetto-091",
+    "textTemplate": "Mentre gli insegnanti {slot_0} la festa, gli alunni decoravano la sala.",
+    "primaryTense": "imperfetto",
+    "level": 14,
+    "difficulty": 1,
+    "theme": "vita_quotidiana",
+    "source": "authored",
+    "target": {
+      "slotId": 0,
+      "verb": "organizzare",
+      "person": "loro",
+      "acceptedAnswers": [
+        {
+          "text": "organizzavano",
+          "tense": "imperfetto",
+          "person": "loro",
+          "explanation": "Con loro, organizzare all'imperfetto si coniuga organizzavano."
+        }
+      ]
+    },
+    "band": 1
+  },
+  {
+    "id": "corpus-imperfetto-092",
+    "textTemplate": "Da piccolo io {slot_0} pochissimo con gli estranei.",
+    "primaryTense": "imperfetto",
+    "level": 11,
+    "difficulty": 1,
+    "theme": "vita_quotidiana",
+    "source": "authored",
+    "target": {
+      "slotId": 0,
+      "verb": "parlare",
+      "person": "io",
+      "acceptedAnswers": [
+        {
+          "text": "parlavo",
+          "tense": "imperfetto",
+          "person": "io",
+          "explanation": "Con io, parlare all'imperfetto si coniuga parlavo."
+        }
+      ]
+    },
+    "band": 1
+  },
+  {
+    "id": "corpus-imperfetto-093",
+    "textTemplate": "Quando siamo entrati, la guida {slot_0} del soffitto dipinto.",
+    "primaryTense": "imperfetto",
+    "level": 12,
+    "difficulty": 1,
+    "theme": "vita_quotidiana",
+    "source": "authored",
+    "target": {
+      "slotId": 0,
+      "verb": "parlare",
+      "person": "lui/lei",
+      "acceptedAnswers": [
+        {
+          "text": "parlava",
+          "tense": "imperfetto",
+          "person": "lui/lei",
+          "explanation": "Con lui o lei, parlare all'imperfetto si coniuga parlava."
+        }
+      ]
+    },
+    "band": 1
+  },
+  {
+    "id": "corpus-imperfetto-094",
+    "textTemplate": "Prima del corso voi {slot_0} già un po' di italiano.",
+    "primaryTense": "imperfetto",
+    "level": 13,
+    "difficulty": 1,
+    "theme": "vita_quotidiana",
+    "source": "authored",
+    "target": {
+      "slotId": 0,
+      "verb": "parlare",
+      "person": "voi",
+      "acceptedAnswers": [
+        {
+          "text": "parlavate",
+          "tense": "imperfetto",
+          "person": "voi",
+          "explanation": "Con voi, parlare all'imperfetto si coniuga parlavate."
+        }
+      ]
+    },
+    "band": 1
+  },
+  {
+    "id": "corpus-imperfetto-095",
+    "textTemplate": "Quando lavoravi qui, tu {slot_0} da questa strada ogni giorno.",
+    "primaryTense": "imperfetto",
+    "level": 14,
+    "difficulty": 1,
+    "theme": "vita_quotidiana",
+    "source": "authored",
+    "target": {
+      "slotId": 0,
+      "verb": "passare",
+      "person": "tu",
+      "acceptedAnswers": [
+        {
+          "text": "passavi",
+          "tense": "imperfetto",
+          "person": "tu",
+          "explanation": "Con tu, passare all'imperfetto si coniuga passavi."
+        }
+      ]
+    },
+    "band": 1
+  },
+  {
+    "id": "corpus-imperfetto-096",
+    "textTemplate": "Da bambini noi {slot_0} ore a cercare conchiglie.",
+    "primaryTense": "imperfetto",
+    "level": 11,
+    "difficulty": 1,
+    "theme": "vita_quotidiana",
+    "source": "authored",
+    "target": {
+      "slotId": 0,
+      "verb": "passare",
+      "person": "noi",
+      "acceptedAnswers": [
+        {
+          "text": "passavamo",
+          "tense": "imperfetto",
+          "person": "noi",
+          "explanation": "Con noi, passare all'imperfetto si coniuga passavamo."
+        }
+      ]
+    },
+    "band": 1
+  },
+  {
+    "id": "corpus-imperfetto-097",
+    "textTemplate": "Prima della nuova strada, i camion {slot_0} davanti alla scuola.",
+    "primaryTense": "imperfetto",
+    "level": 12,
+    "difficulty": 1,
+    "theme": "vita_quotidiana",
+    "source": "authored",
+    "target": {
+      "slotId": 0,
+      "verb": "passare",
+      "person": "loro",
+      "acceptedAnswers": [
+        {
+          "text": "passavano",
+          "tense": "imperfetto",
+          "person": "loro",
+          "explanation": "Con loro, passare all'imperfetto si coniuga passavano."
+        }
+      ]
+    },
+    "band": 1
+  },
+  {
+    "id": "corpus-imperfetto-098",
+    "textTemplate": "Quando non conoscevo la città, io {slot_0} anche vicino a casa.",
+    "primaryTense": "imperfetto",
+    "level": 13,
+    "difficulty": 2,
+    "theme": "vita_quotidiana",
+    "source": "authored",
+    "target": {
+      "slotId": 0,
+      "verb": "perdersi",
+      "person": "io",
+      "acceptedAnswers": [
+        {
+          "text": "mi perdevo",
+          "tense": "imperfetto",
+          "person": "io",
+          "explanation": "Con io, perdersi all'imperfetto si coniuga mi perdevo."
+        }
+      ]
+    },
+    "band": 2
+  },
+  {
+    "id": "corpus-imperfetto-099",
+    "textTemplate": "Da piccolo mio fratello {slot_0} spesso nei suoi pensieri.",
+    "primaryTense": "imperfetto",
+    "level": 14,
+    "difficulty": 2,
+    "theme": "vita_quotidiana",
+    "source": "authored",
+    "target": {
+      "slotId": 0,
+      "verb": "perdersi",
+      "person": "lui/lei",
+      "acceptedAnswers": [
+        {
+          "text": "si perdeva",
+          "tense": "imperfetto",
+          "person": "lui/lei",
+          "explanation": "Con lui o lei, perdersi all'imperfetto si coniuga si perdeva."
+        }
+      ]
+    },
+    "band": 2
+  },
+  {
+    "id": "corpus-imperfetto-100",
+    "textTemplate": "Prima di scaricare la mappa, voi {slot_0} in tutte quelle stradine.",
+    "primaryTense": "imperfetto",
+    "level": 13,
+    "difficulty": 2,
+    "theme": "vita_quotidiana",
+    "source": "authored",
+    "target": {
+      "slotId": 0,
+      "verb": "perdersi",
+      "person": "voi",
+      "acceptedAnswers": [
+        {
+          "text": "vi perdevate",
+          "tense": "imperfetto",
+          "person": "voi",
+          "explanation": "Con voi, perdersi all'imperfetto si coniuga vi perdevate."
+        }
+      ]
+    },
+    "band": 2
+  },
+  {
+    "id": "corpus-imperfetto-101",
+    "textTemplate": "Con il vecchio abbonamento tu {slot_0} entrare in tutti i musei.",
+    "primaryTense": "imperfetto",
+    "level": 14,
+    "difficulty": 2,
+    "theme": "vita_quotidiana",
+    "source": "authored",
+    "target": {
+      "slotId": 0,
+      "verb": "potere",
+      "person": "tu",
+      "acceptedAnswers": [
+        {
+          "text": "potevi",
+          "tense": "imperfetto",
+          "person": "tu",
+          "explanation": "Con tu, potere all'imperfetto si coniuga potevi."
+        }
+      ]
+    },
+    "band": 2
+  },
+  {
+    "id": "corpus-imperfetto-102",
+    "textTemplate": "Da quella finestra noi {slot_0} vedere le montagne.",
+    "primaryTense": "imperfetto",
+    "level": 12,
+    "difficulty": 2,
+    "theme": "vita_quotidiana",
+    "source": "authored",
+    "target": {
+      "slotId": 0,
+      "verb": "potere",
+      "person": "noi",
+      "acceptedAnswers": [
+        {
+          "text": "potevamo",
+          "tense": "imperfetto",
+          "person": "noi",
+          "explanation": "Con noi, potere all'imperfetto si coniuga potevamo."
+        }
+      ]
+    },
+    "band": 2
+  },
+  {
+    "id": "corpus-imperfetto-103",
+    "textTemplate": "Prima della ristrutturazione i bambini non {slot_0} usare il cortile.",
+    "primaryTense": "imperfetto",
+    "level": 13,
+    "difficulty": 2,
+    "theme": "vita_quotidiana",
+    "source": "authored",
+    "target": {
+      "slotId": 0,
+      "verb": "potere",
+      "person": "loro",
+      "acceptedAnswers": [
+        {
+          "text": "potevano",
+          "tense": "imperfetto",
+          "person": "loro",
+          "explanation": "Con loro, potere all'imperfetto si coniuga potevano."
+        }
+      ]
+    },
+    "band": 2
+  },
+  {
+    "id": "corpus-imperfetto-104",
+    "textTemplate": "Da ragazzo io {slot_0} restare sveglio fino a tardi.",
+    "primaryTense": "imperfetto",
+    "level": 13,
+    "difficulty": 1,
+    "theme": "vita_quotidiana",
+    "source": "authored",
+    "target": {
+      "slotId": 0,
+      "verb": "preferire",
+      "person": "io",
+      "acceptedAnswers": [
+        {
+          "text": "preferivo",
+          "tense": "imperfetto",
+          "person": "io",
+          "explanation": "Con io, preferire all'imperfetto si coniuga preferivo."
+        }
+      ]
+    },
+    "band": 1
+  },
+  {
+    "id": "corpus-imperfetto-105",
+    "textTemplate": "Quando abitava al mare, mia zia {slot_0} la spiaggia d'inverno.",
+    "primaryTense": "imperfetto",
+    "level": 14,
+    "difficulty": 1,
+    "theme": "vita_quotidiana",
+    "source": "authored",
+    "target": {
+      "slotId": 0,
+      "verb": "preferire",
+      "person": "lui/lei",
+      "acceptedAnswers": [
+        {
+          "text": "preferiva",
+          "tense": "imperfetto",
+          "person": "lui/lei",
+          "explanation": "Con lui o lei, preferire all'imperfetto si coniuga preferiva."
+        }
+      ]
+    },
+    "band": 1
+  },
+  {
+    "id": "corpus-imperfetto-106",
+    "textTemplate": "All'epoca voi {slot_0} viaggiare senza prenotare nulla.",
+    "primaryTense": "imperfetto",
+    "level": 11,
+    "difficulty": 1,
+    "theme": "vita_quotidiana",
+    "source": "authored",
+    "target": {
+      "slotId": 0,
+      "verb": "preferire",
+      "person": "voi",
+      "acceptedAnswers": [
+        {
+          "text": "preferivate",
+          "tense": "imperfetto",
+          "person": "voi",
+          "explanation": "Con voi, preferire all'imperfetto si coniuga preferivate."
+        }
+      ]
+    },
+    "band": 1
+  },
+  {
+    "id": "corpus-imperfetto-107",
+    "textTemplate": "Quando andavi a scuola, tu {slot_0} sempre il posto vicino al finestrino.",
+    "primaryTense": "imperfetto",
+    "level": 14,
+    "difficulty": 2,
+    "theme": "vita_quotidiana",
+    "source": "authored",
+    "target": {
+      "slotId": 0,
+      "verb": "prendere",
+      "person": "tu",
+      "acceptedAnswers": [
+        {
+          "text": "prendevi",
+          "tense": "imperfetto",
+          "person": "tu",
+          "explanation": "Con tu, prendere all'imperfetto si coniuga prendevi."
+        }
+      ]
+    },
+    "band": 2
+  },
+  {
+    "id": "corpus-imperfetto-108",
+    "textTemplate": "Durante quel corso noi {slot_0} appunti su piccoli quaderni.",
+    "primaryTense": "imperfetto",
+    "level": 12,
+    "difficulty": 2,
+    "theme": "vita_quotidiana",
+    "source": "authored",
+    "target": {
+      "slotId": 0,
+      "verb": "prendere",
+      "person": "noi",
+      "acceptedAnswers": [
+        {
+          "text": "prendevamo",
+          "tense": "imperfetto",
+          "person": "noi",
+          "explanation": "Con noi, prendere all'imperfetto si coniuga prendevamo."
+        }
+      ]
+    },
+    "band": 2
+  },
+  {
+    "id": "corpus-imperfetto-109",
+    "textTemplate": "Prima della metropolitana i pendolari {slot_0} due autobus.",
+    "primaryTense": "imperfetto",
+    "level": 13,
+    "difficulty": 2,
+    "theme": "vita_quotidiana",
+    "source": "authored",
+    "target": {
+      "slotId": 0,
+      "verb": "prendere",
+      "person": "loro",
+      "acceptedAnswers": [
+        {
+          "text": "prendevano",
+          "tense": "imperfetto",
+          "person": "loro",
+          "explanation": "Con loro, prendere all'imperfetto si coniuga prendevano."
+        }
+      ]
+    },
+    "band": 2
+  },
+  {
+    "id": "corpus-imperfetto-110",
+    "textTemplate": "Mentre io {slot_0} il tè, è suonato il telefono.",
+    "primaryTense": "imperfetto",
+    "level": 14,
+    "difficulty": 1,
+    "theme": "vita_quotidiana",
+    "source": "authored",
+    "target": {
+      "slotId": 0,
+      "verb": "preparare",
+      "person": "io",
+      "acceptedAnswers": [
+        {
+          "text": "preparavo",
+          "tense": "imperfetto",
+          "person": "io",
+          "explanation": "Con io, preparare all'imperfetto si coniuga preparavo."
+        }
+      ]
+    },
+    "band": 1
+  },
+  {
+    "id": "corpus-imperfetto-111",
+    "textTemplate": "Ogni domenica la nonna {slot_0} la pasta fresca.",
+    "primaryTense": "imperfetto",
+    "level": 11,
+    "difficulty": 1,
+    "theme": "vita_quotidiana",
+    "source": "authored",
+    "target": {
+      "slotId": 0,
+      "verb": "preparare",
+      "person": "lui/lei",
+      "acceptedAnswers": [
+        {
+          "text": "preparava",
+          "tense": "imperfetto",
+          "person": "lui/lei",
+          "explanation": "Con lui o lei, preparare all'imperfetto si coniuga preparava."
+        }
+      ]
+    },
+    "band": 1
+  },
+  {
+    "id": "corpus-imperfetto-112",
+    "textTemplate": "Quando è arrivata la notizia, voi {slot_0} le valigie.",
+    "primaryTense": "imperfetto",
+    "level": 12,
+    "difficulty": 1,
+    "theme": "vita_quotidiana",
+    "source": "authored",
+    "target": {
+      "slotId": 0,
+      "verb": "preparare",
+      "person": "voi",
+      "acceptedAnswers": [
+        {
+          "text": "preparavate",
+          "tense": "imperfetto",
+          "person": "voi",
+          "explanation": "Con voi, preparare all'imperfetto si coniuga preparavate."
+        }
+      ]
+    },
+    "band": 1
+  },
+  {
+    "id": "corpus-imperfetto-113",
+    "textTemplate": "Da bambino tu {slot_0} sempre di mettere in ordine la stanza.",
+    "primaryTense": "imperfetto",
+    "level": 14,
+    "difficulty": 2,
+    "theme": "vita_quotidiana",
+    "source": "authored",
+    "target": {
+      "slotId": 0,
+      "verb": "promettere",
+      "person": "tu",
+      "acceptedAnswers": [
+        {
+          "text": "promettevi",
+          "tense": "imperfetto",
+          "person": "tu",
+          "explanation": "Con tu, promettere all'imperfetto si coniuga promettevi."
+        }
+      ]
+    },
+    "band": 2
+  },
+  {
+    "id": "corpus-imperfetto-114",
+    "textTemplate": "Prima di ogni vacanza noi {slot_0} di scrivere molte cartoline.",
+    "primaryTense": "imperfetto",
+    "level": 12,
+    "difficulty": 2,
+    "theme": "vita_quotidiana",
+    "source": "authored",
+    "target": {
+      "slotId": 0,
+      "verb": "promettere",
+      "person": "noi",
+      "acceptedAnswers": [
+        {
+          "text": "promettevamo",
+          "tense": "imperfetto",
+          "person": "noi",
+          "explanation": "Con noi, promettere all'imperfetto si coniuga promettevamo."
+        }
+      ]
+    },
+    "band": 2
+  },
+  {
+    "id": "corpus-imperfetto-115",
+    "textTemplate": "Le vecchie pubblicità {slot_0} risultati in pochi giorni.",
+    "primaryTense": "imperfetto",
+    "level": 13,
+    "difficulty": 2,
+    "theme": "vita_quotidiana",
+    "source": "authored",
+    "target": {
+      "slotId": 0,
+      "verb": "promettere",
+      "person": "loro",
+      "acceptedAnswers": [
+        {
+          "text": "promettevano",
+          "tense": "imperfetto",
+          "person": "loro",
+          "explanation": "Con loro, promettere all'imperfetto si coniuga promettevano."
+        }
+      ]
+    },
+    "band": 2
+  },
+  {
+    "id": "corpus-imperfetto-116",
+    "textTemplate": "Mentre io {slot_0} il vetro, il cane lasciava nuove impronte.",
+    "primaryTense": "imperfetto",
+    "level": 12,
+    "difficulty": 1,
+    "theme": "vita_quotidiana",
+    "source": "authored",
+    "target": {
+      "slotId": 0,
+      "verb": "pulire",
+      "person": "io",
+      "acceptedAnswers": [
+        {
+          "text": "pulivo",
+          "tense": "imperfetto",
+          "person": "io",
+          "explanation": "Con io, pulire all'imperfetto si coniuga pulivo."
+        }
+      ]
+    },
+    "band": 1
+  },
+  {
+    "id": "corpus-imperfetto-117",
+    "textTemplate": "Quando lavorava al bar, Luca {slot_0} la macchina del caffè ogni sera.",
+    "primaryTense": "imperfetto",
+    "level": 13,
+    "difficulty": 1,
+    "theme": "vita_quotidiana",
+    "source": "authored",
+    "target": {
+      "slotId": 0,
+      "verb": "pulire",
+      "person": "lui/lei",
+      "acceptedAnswers": [
+        {
+          "text": "puliva",
+          "tense": "imperfetto",
+          "person": "lui/lei",
+          "explanation": "Con lui o lei, pulire all'imperfetto si coniuga puliva."
+        }
+      ]
+    },
+    "band": 1
+  },
+  {
+    "id": "corpus-imperfetto-118",
+    "textTemplate": "Prima della festa voi {slot_0} sempre anche le scale.",
+    "primaryTense": "imperfetto",
+    "level": 14,
+    "difficulty": 1,
+    "theme": "vita_quotidiana",
+    "source": "authored",
+    "target": {
+      "slotId": 0,
+      "verb": "pulire",
+      "person": "voi",
+      "acceptedAnswers": [
+        {
+          "text": "pulivate",
+          "tense": "imperfetto",
+          "person": "voi",
+          "explanation": "Con voi, pulire all'imperfetto si coniuga pulivate."
+        }
+      ]
+    },
+    "band": 1
+  },
+  {
+    "id": "corpus-imperfetto-119",
+    "textTemplate": "Quando dovevi partire presto, tu {slot_0} due sveglie.",
+    "primaryTense": "imperfetto",
+    "level": 11,
+    "difficulty": 1,
+    "theme": "vita_quotidiana",
+    "source": "authored",
+    "target": {
+      "slotId": 0,
+      "verb": "puntare",
+      "person": "tu",
+      "acceptedAnswers": [
+        {
+          "text": "puntavi",
+          "tense": "imperfetto",
+          "person": "tu",
+          "explanation": "Con tu, puntare all'imperfetto si coniuga puntavi."
+        }
+      ]
+    },
+    "band": 1
+  },
+  {
+    "id": "corpus-imperfetto-120",
+    "textTemplate": "Durante le osservazioni notturne noi {slot_0} il telescopio verso i pianeti.",
+    "primaryTense": "imperfetto",
+    "level": 11,
+    "difficulty": 1,
+    "theme": "vita_quotidiana",
+    "source": "authored",
+    "target": {
+      "slotId": 0,
+      "verb": "puntare",
+      "person": "noi",
+      "acceptedAnswers": [
+        {
+          "text": "puntavamo",
+          "tense": "imperfetto",
+          "person": "noi",
+          "explanation": "Con noi, puntare all'imperfetto si coniuga puntavamo."
+        }
+      ]
+    },
+    "band": 1
+  },
+  {
+    "id": "corpus-imperfetto-121",
+    "textTemplate": "Da bambino io {slot_0} un libro per ogni compleanno.",
+    "primaryTense": "imperfetto",
+    "level": 12,
+    "difficulty": 1,
+    "theme": "vita_quotidiana",
+    "source": "authored",
+    "target": {
+      "slotId": 0,
+      "verb": "ricevere",
+      "person": "io",
+      "acceptedAnswers": [
+        {
+          "text": "ricevevo",
+          "tense": "imperfetto",
+          "person": "io",
+          "explanation": "Con io, ricevere all'imperfetto si coniuga ricevevo."
+        }
+      ]
+    },
+    "band": 1
+  },
+  {
+    "id": "corpus-imperfetto-122",
+    "textTemplate": "Prima del trasloco la dottoressa {slot_0} in centro.",
+    "primaryTense": "imperfetto",
+    "level": 13,
+    "difficulty": 1,
+    "theme": "vita_quotidiana",
+    "source": "authored",
+    "target": {
+      "slotId": 0,
+      "verb": "ricevere",
+      "person": "lui/lei",
+      "acceptedAnswers": [
+        {
+          "text": "riceveva",
+          "tense": "imperfetto",
+          "person": "lui/lei",
+          "explanation": "Con lui o lei, ricevere all'imperfetto si coniuga riceveva."
+        }
+      ]
+    },
+    "band": 1
+  },
+  {
+    "id": "corpus-imperfetto-123",
+    "textTemplate": "Con il vecchio contratto voi {slot_0} il giornale ogni mattina.",
+    "primaryTense": "imperfetto",
+    "level": 14,
+    "difficulty": 1,
+    "theme": "vita_quotidiana",
+    "source": "authored",
+    "target": {
+      "slotId": 0,
+      "verb": "ricevere",
+      "person": "voi",
+      "acceptedAnswers": [
+        {
+          "text": "ricevevate",
+          "tense": "imperfetto",
+          "person": "voi",
+          "explanation": "Con voi, ricevere all'imperfetto si coniuga ricevevate."
+        }
+      ]
+    },
+    "band": 1
+  },
+  {
+    "id": "corpus-imperfetto-124",
+    "textTemplate": "A scuola tu {slot_0} i problemi di matematica senza difficoltà.",
+    "primaryTense": "imperfetto",
+    "level": 13,
+    "difficulty": 2,
+    "theme": "vita_quotidiana",
+    "source": "authored",
+    "target": {
+      "slotId": 0,
+      "verb": "risolvere",
+      "person": "tu",
+      "acceptedAnswers": [
+        {
+          "text": "risolvevi",
+          "tense": "imperfetto",
+          "person": "tu",
+          "explanation": "Con tu, risolvere all'imperfetto si coniuga risolvevi."
+        }
+      ]
+    },
+    "band": 2
+  },
+  {
+    "id": "corpus-imperfetto-125",
+    "textTemplate": "Prima di avere internet noi {slot_0} i dubbi consultando l'enciclopedia.",
+    "primaryTense": "imperfetto",
+    "level": 14,
+    "difficulty": 2,
+    "theme": "vita_quotidiana",
+    "source": "authored",
+    "target": {
+      "slotId": 0,
+      "verb": "risolvere",
+      "person": "noi",
+      "acceptedAnswers": [
+        {
+          "text": "risolvevamo",
+          "tense": "imperfetto",
+          "person": "noi",
+          "explanation": "Con noi, risolvere all'imperfetto si coniuga risolvevamo."
+        }
+      ]
+    },
+    "band": 2
+  },
+  {
+    "id": "corpus-imperfetto-126",
+    "textTemplate": "Quando il negozio era piccolo, i proprietari {slot_0} tutto da soli.",
+    "primaryTense": "imperfetto",
+    "level": 12,
+    "difficulty": 2,
+    "theme": "vita_quotidiana",
+    "source": "authored",
+    "target": {
+      "slotId": 0,
+      "verb": "risolvere",
+      "person": "loro",
+      "acceptedAnswers": [
+        {
+          "text": "risolvevano",
+          "tense": "imperfetto",
+          "person": "loro",
+          "explanation": "Con loro, risolvere all'imperfetto si coniuga risolvevano."
+        }
+      ]
+    },
+    "band": 2
+  },
+  {
+    "id": "corpus-imperfetto-127",
+    "textTemplate": "Da piccolo io {slot_0} sempre prima di alzare la mano.",
+    "primaryTense": "imperfetto",
+    "level": 13,
+    "difficulty": 2,
+    "theme": "vita_quotidiana",
+    "source": "authored",
+    "target": {
+      "slotId": 0,
+      "verb": "rispondere",
+      "person": "io",
+      "acceptedAnswers": [
+        {
+          "text": "rispondevo",
+          "tense": "imperfetto",
+          "person": "io",
+          "explanation": "Con io, rispondere all'imperfetto si coniuga rispondevo."
+        }
+      ]
+    },
+    "band": 2
+  },
+  {
+    "id": "corpus-imperfetto-128",
+    "textTemplate": "Prima delle ferie voi {slot_0} alle richieste entro un giorno.",
+    "primaryTense": "imperfetto",
+    "level": 14,
+    "difficulty": 2,
+    "theme": "vita_quotidiana",
+    "source": "authored",
+    "target": {
+      "slotId": 0,
+      "verb": "rispondere",
+      "person": "voi",
+      "acceptedAnswers": [
+        {
+          "text": "rispondevate",
+          "tense": "imperfetto",
+          "person": "voi",
+          "explanation": "Con voi, rispondere all'imperfetto si coniuga rispondevate."
+        }
+      ]
+    },
+    "band": 2
+  },
+  {
+    "id": "corpus-imperfetto-129",
+    "textTemplate": "Prima di partire tu {slot_0} già come raggiungere l'albergo.",
+    "primaryTense": "imperfetto",
+    "level": 12,
+    "difficulty": 2,
+    "theme": "vita_quotidiana",
+    "source": "authored",
+    "target": {
+      "slotId": 0,
+      "verb": "sapere",
+      "person": "tu",
+      "acceptedAnswers": [
+        {
+          "text": "sapevi",
+          "tense": "imperfetto",
+          "person": "tu",
+          "explanation": "Con tu, sapere all'imperfetto si coniuga sapevi."
+        }
+      ]
+    },
+    "band": 2
+  },
+  {
+    "id": "corpus-imperfetto-130",
+    "textTemplate": "Quando è arrivata la lettera, noi non {slot_0} ancora nulla.",
+    "primaryTense": "imperfetto",
+    "level": 13,
+    "difficulty": 2,
+    "theme": "vita_quotidiana",
+    "source": "authored",
+    "target": {
+      "slotId": 0,
+      "verb": "sapere",
+      "person": "noi",
+      "acceptedAnswers": [
+        {
+          "text": "sapevamo",
+          "tense": "imperfetto",
+          "person": "noi",
+          "explanation": "Con noi, sapere all'imperfetto si coniuga sapevamo."
+        }
+      ]
+    },
+    "band": 2
+  },
+  {
+    "id": "corpus-imperfetto-131",
+    "textTemplate": "I vecchi pescatori {slot_0} riconoscere il vento dal rumore del mare.",
+    "primaryTense": "imperfetto",
+    "level": 14,
+    "difficulty": 2,
+    "theme": "vita_quotidiana",
+    "source": "authored",
+    "target": {
+      "slotId": 0,
+      "verb": "sapere",
+      "person": "loro",
+      "acceptedAnswers": [
+        {
+          "text": "sapevano",
+          "tense": "imperfetto",
+          "person": "loro",
+          "explanation": "Con loro, sapere all'imperfetto si coniuga sapevano."
+        }
+      ]
+    },
+    "band": 2
+  },
+  {
+    "id": "corpus-imperfetto-132",
+    "textTemplate": "Da adolescente io {slot_0} un diario ogni sera.",
+    "primaryTense": "imperfetto",
+    "level": 12,
+    "difficulty": 2,
+    "theme": "vita_quotidiana",
+    "source": "authored",
+    "target": {
+      "slotId": 0,
+      "verb": "scrivere",
+      "person": "io",
+      "acceptedAnswers": [
+        {
+          "text": "scrivevo",
+          "tense": "imperfetto",
+          "person": "io",
+          "explanation": "Con io, scrivere all'imperfetto si coniuga scrivevo."
+        }
+      ]
+    },
+    "band": 2
+  },
+  {
+    "id": "corpus-imperfetto-133",
+    "textTemplate": "Mentre la maestra {slot_0} alla lavagna, qualcuno ha bussato.",
+    "primaryTense": "imperfetto",
+    "level": 13,
+    "difficulty": 2,
+    "theme": "vita_quotidiana",
+    "source": "authored",
+    "target": {
+      "slotId": 0,
+      "verb": "scrivere",
+      "person": "lui/lei",
+      "acceptedAnswers": [
+        {
+          "text": "scriveva",
+          "tense": "imperfetto",
+          "person": "lui/lei",
+          "explanation": "Con lui o lei, scrivere all'imperfetto si coniuga scriveva."
+        }
+      ]
+    },
+    "band": 2
+  },
+  {
+    "id": "corpus-imperfetto-134",
+    "textTemplate": "Prima di avere il telefono voi {slot_0} lettere molto lunghe.",
+    "primaryTense": "imperfetto",
+    "level": 14,
+    "difficulty": 2,
+    "theme": "vita_quotidiana",
+    "source": "authored",
+    "target": {
+      "slotId": 0,
+      "verb": "scrivere",
+      "person": "voi",
+      "acceptedAnswers": [
+        {
+          "text": "scrivevate",
+          "tense": "imperfetto",
+          "person": "voi",
+          "explanation": "Con voi, scrivere all'imperfetto si coniuga scrivevate."
+        }
+      ]
+    },
+    "band": 2
+  },
+  {
+    "id": "corpus-imperfetto-135",
+    "textTemplate": "Quando vivevi lontano, tu {slot_0} un pacco ogni Natale.",
+    "primaryTense": "imperfetto",
+    "level": 13,
+    "difficulty": 1,
+    "theme": "vita_quotidiana",
+    "source": "authored",
+    "target": {
+      "slotId": 0,
+      "verb": "spedire",
+      "person": "tu",
+      "acceptedAnswers": [
+        {
+          "text": "spedivi",
+          "tense": "imperfetto",
+          "person": "tu",
+          "explanation": "Con tu, spedire all'imperfetto si coniuga spedivi."
+        }
+      ]
+    },
+    "band": 1
+  },
+  {
+    "id": "corpus-imperfetto-136",
+    "textTemplate": "Prima di cambiare magazzino noi {slot_0} gli ordini due volte a settimana.",
+    "primaryTense": "imperfetto",
+    "level": 14,
+    "difficulty": 1,
+    "theme": "vita_quotidiana",
+    "source": "authored",
+    "target": {
+      "slotId": 0,
+      "verb": "spedire",
+      "person": "noi",
+      "acceptedAnswers": [
+        {
+          "text": "spedivamo",
+          "tense": "imperfetto",
+          "person": "noi",
+          "explanation": "Con noi, spedire all'imperfetto si coniuga spedivamo."
+        }
+      ]
+    },
+    "band": 1
+  },
+  {
+    "id": "corpus-imperfetto-137",
+    "textTemplate": "Durante le feste i negozi {slot_0} anche di sabato.",
+    "primaryTense": "imperfetto",
+    "level": 11,
+    "difficulty": 1,
+    "theme": "vita_quotidiana",
+    "source": "authored",
+    "target": {
+      "slotId": 0,
+      "verb": "spedire",
+      "person": "loro",
+      "acceptedAnswers": [
+        {
+          "text": "spedivano",
+          "tense": "imperfetto",
+          "person": "loro",
+          "explanation": "Con loro, spedire all'imperfetto si coniuga spedivano."
+        }
+      ]
+    },
+    "band": 1
+  },
+  {
+    "id": "corpus-imperfetto-138",
+    "textTemplate": "Quando uscivo per ultimo, io {slot_0} tutte le luci.",
+    "primaryTense": "imperfetto",
+    "level": 12,
+    "difficulty": 2,
+    "theme": "vita_quotidiana",
+    "source": "authored",
+    "target": {
+      "slotId": 0,
+      "verb": "spegnere",
+      "person": "io",
+      "acceptedAnswers": [
+        {
+          "text": "spegnevo",
+          "tense": "imperfetto",
+          "person": "io",
+          "explanation": "Con io, spegnere all'imperfetto si coniuga spegnevo."
+        }
+      ]
+    },
+    "band": 2
+  },
+  {
+    "id": "corpus-imperfetto-139",
+    "textTemplate": "Mentre il custode {slot_0} l'insegna, arrivavano gli ultimi clienti.",
+    "primaryTense": "imperfetto",
+    "level": 13,
+    "difficulty": 2,
+    "theme": "vita_quotidiana",
+    "source": "authored",
+    "target": {
+      "slotId": 0,
+      "verb": "spegnere",
+      "person": "lui/lei",
+      "acceptedAnswers": [
+        {
+          "text": "spegneva",
+          "tense": "imperfetto",
+          "person": "lui/lei",
+          "explanation": "Con lui o lei, spegnere all'imperfetto si coniuga spegneva."
+        }
+      ]
+    },
+    "band": 2
+  },
+  {
+    "id": "corpus-imperfetto-140",
+    "textTemplate": "Da piccoli voi {slot_0} la luce per raccontare storie di paura.",
+    "primaryTense": "imperfetto",
+    "level": 14,
+    "difficulty": 2,
+    "theme": "vita_quotidiana",
+    "source": "authored",
+    "target": {
+      "slotId": 0,
+      "verb": "spegnere",
+      "person": "voi",
+      "acceptedAnswers": [
+        {
+          "text": "spegnevate",
+          "tense": "imperfetto",
+          "person": "voi",
+          "explanation": "Con voi, spegnere all'imperfetto si coniuga spegnevate."
+        }
+      ]
+    },
+    "band": 2
+  },
+  {
+    "id": "corpus-imperfetto-141",
+    "textTemplate": "Quando eri malato, tu {slot_0} sul divano vicino al camino.",
+    "primaryTense": "imperfetto",
+    "level": 12,
+    "difficulty": 2,
+    "theme": "vita_quotidiana",
+    "source": "authored",
+    "target": {
+      "slotId": 0,
+      "verb": "stare",
+      "person": "tu",
+      "acceptedAnswers": [
+        {
+          "text": "stavi",
+          "tense": "imperfetto",
+          "person": "tu",
+          "explanation": "Con tu, stare all'imperfetto si coniuga stavi."
+        }
+      ]
+    },
+    "band": 2
+  },
+  {
+    "id": "corpus-imperfetto-142",
+    "textTemplate": "Durante le prove noi {slot_0} in fondo alla sala.",
+    "primaryTense": "imperfetto",
+    "level": 13,
+    "difficulty": 2,
+    "theme": "vita_quotidiana",
+    "source": "authored",
+    "target": {
+      "slotId": 0,
+      "verb": "stare",
+      "person": "noi",
+      "acceptedAnswers": [
+        {
+          "text": "stavamo",
+          "tense": "imperfetto",
+          "person": "noi",
+          "explanation": "Con noi, stare all'imperfetto si coniuga stavamo."
+        }
+      ]
+    },
+    "band": 2
+  },
+  {
+    "id": "corpus-imperfetto-143",
+    "textTemplate": "Prima del temporale gli animali {slot_0} tutti sotto gli alberi.",
+    "primaryTense": "imperfetto",
+    "level": 14,
+    "difficulty": 2,
+    "theme": "vita_quotidiana",
+    "source": "authored",
+    "target": {
+      "slotId": 0,
+      "verb": "stare",
+      "person": "loro",
+      "acceptedAnswers": [
+        {
+          "text": "stavano",
+          "tense": "imperfetto",
+          "person": "loro",
+          "explanation": "Con loro, stare all'imperfetto si coniuga stavano."
+        }
+      ]
+    },
+    "band": 2
+  },
+  {
+    "id": "corpus-imperfetto-144",
+    "textTemplate": "Quando vivevo dai miei, io {slot_0} la chitarra in cantina.",
+    "primaryTense": "imperfetto",
+    "level": 13,
+    "difficulty": 1,
+    "theme": "vita_quotidiana",
+    "source": "authored",
+    "target": {
+      "slotId": 0,
+      "verb": "suonare",
+      "person": "io",
+      "acceptedAnswers": [
+        {
+          "text": "suonavo",
+          "tense": "imperfetto",
+          "person": "io",
+          "explanation": "Con io, suonare all'imperfetto si coniuga suonavo."
+        }
+      ]
+    },
+    "band": 1
+  },
+  {
+    "id": "corpus-imperfetto-145",
+    "textTemplate": "Da ragazzo tu {slot_0} tutti nella corsa in salita.",
+    "primaryTense": "imperfetto",
+    "level": 14,
+    "difficulty": 1,
+    "theme": "vita_quotidiana",
+    "source": "authored",
+    "target": {
+      "slotId": 0,
+      "verb": "superare",
+      "person": "tu",
+      "acceptedAnswers": [
+        {
+          "text": "superavi",
+          "tense": "imperfetto",
+          "person": "tu",
+          "explanation": "Con tu, superare all'imperfetto si coniuga superavi."
+        }
+      ]
+    },
+    "band": 1
+  },
+  {
+    "id": "corpus-imperfetto-146",
+    "textTemplate": "Con quelle valigie noi {slot_0} sempre il peso consentito.",
+    "primaryTense": "imperfetto",
+    "level": 11,
+    "difficulty": 1,
+    "theme": "vita_quotidiana",
+    "source": "authored",
+    "target": {
+      "slotId": 0,
+      "verb": "superare",
+      "person": "noi",
+      "acceptedAnswers": [
+        {
+          "text": "superavamo",
+          "tense": "imperfetto",
+          "person": "noi",
+          "explanation": "Con noi, superare all'imperfetto si coniuga superavamo."
+        }
+      ]
+    },
+    "band": 1
+  },
+  {
+    "id": "corpus-imperfetto-147",
+    "textTemplate": "Quando lavoravo in campagna, io {slot_0} a casa al tramonto.",
+    "primaryTense": "imperfetto",
+    "level": 12,
+    "difficulty": 1,
+    "theme": "vita_quotidiana",
+    "source": "authored",
+    "target": {
+      "slotId": 0,
+      "verb": "tornare",
+      "person": "io",
+      "acceptedAnswers": [
+        {
+          "text": "tornavo",
+          "tense": "imperfetto",
+          "person": "io",
+          "explanation": "Con io, tornare all'imperfetto si coniuga tornavo."
+        }
+      ]
+    },
+    "band": 1
+  },
+  {
+    "id": "corpus-imperfetto-148",
+    "textTemplate": "Ogni estate i miei cugini {slot_0} nello stesso campeggio.",
+    "primaryTense": "imperfetto",
+    "level": 13,
+    "difficulty": 1,
+    "theme": "vita_quotidiana",
+    "source": "authored",
+    "target": {
+      "slotId": 0,
+      "verb": "tornare",
+      "person": "loro",
+      "acceptedAnswers": [
+        {
+          "text": "tornavano",
+          "tense": "imperfetto",
+          "person": "loro",
+          "explanation": "Con loro, tornare all'imperfetto si coniuga tornavano."
+        }
+      ]
+    },
+    "band": 1
+  },
+  {
+    "id": "corpus-imperfetto-149",
+    "textTemplate": "Prima di costruire quel palazzo tu {slot_0} la collina dalla cucina.",
+    "primaryTense": "imperfetto",
+    "level": 14,
+    "difficulty": 2,
+    "theme": "vita_quotidiana",
+    "source": "authored",
+    "target": {
+      "slotId": 0,
+      "verb": "vedere",
+      "person": "tu",
+      "acceptedAnswers": [
+        {
+          "text": "vedevi",
+          "tense": "imperfetto",
+          "person": "tu",
+          "explanation": "Con tu, vedere all'imperfetto si coniuga vedevi."
+        }
+      ]
+    },
+    "band": 2
+  },
+  {
+    "id": "corpus-imperfetto-150",
+    "textTemplate": "Da piccoli noi {slot_0} i nonni quasi tutti i giorni.",
+    "primaryTense": "imperfetto",
+    "level": 12,
+    "difficulty": 2,
+    "theme": "vita_quotidiana",
+    "source": "authored",
+    "target": {
+      "slotId": 0,
+      "verb": "vedere",
+      "person": "noi",
+      "acceptedAnswers": [
+        {
+          "text": "vedevamo",
+          "tense": "imperfetto",
+          "person": "noi",
+          "explanation": "Con noi, vedere all'imperfetto si coniuga vedevamo."
+        }
+      ]
+    },
+    "band": 2
+  },
+  {
+    "id": "corpus-imperfetto-151",
+    "textTemplate": "Quando abitavo qui, io {slot_0} in biblioteca ogni pomeriggio.",
+    "primaryTense": "imperfetto",
+    "level": 13,
+    "difficulty": 2,
+    "theme": "vita_quotidiana",
+    "source": "authored",
+    "target": {
+      "slotId": 0,
+      "verb": "venire",
+      "person": "io",
+      "acceptedAnswers": [
+        {
+          "text": "venivo",
+          "tense": "imperfetto",
+          "person": "io",
+          "explanation": "Con io, venire all'imperfetto si coniuga venivo."
+        }
+      ]
+    },
+    "band": 2
+  },
+  {
+    "id": "corpus-imperfetto-152",
+    "textTemplate": "Prima della chiusura i clienti {slot_0} anche dai paesi vicini.",
+    "primaryTense": "imperfetto",
+    "level": 14,
+    "difficulty": 2,
+    "theme": "vita_quotidiana",
+    "source": "authored",
+    "target": {
+      "slotId": 0,
+      "verb": "venire",
+      "person": "loro",
+      "acceptedAnswers": [
+        {
+          "text": "venivano",
+          "tense": "imperfetto",
+          "person": "loro",
+          "explanation": "Con loro, venire all'imperfetto si coniuga venivano."
+        }
+      ]
+    },
+    "band": 2
+  },
+  {
+    "id": "corpus-imperfetto-153",
+    "textTemplate": "Prima di sposarsi mia madre {slot_0} spesso da sola.",
+    "primaryTense": "imperfetto",
+    "level": 13,
+    "difficulty": 1,
+    "theme": "vita_quotidiana",
+    "source": "authored",
+    "target": {
+      "slotId": 0,
+      "verb": "viaggiare",
+      "person": "lui/lei",
+      "acceptedAnswers": [
+        {
+          "text": "viaggiava",
+          "tense": "imperfetto",
+          "person": "lui/lei",
+          "explanation": "Con lui o lei, viaggiare all'imperfetto si coniuga viaggiava."
+        }
+      ]
+    },
+    "band": 1
+  },
+  {
+    "id": "corpus-imperfetto-154",
+    "textTemplate": "Quando eravate studenti voi {slot_0} con pochi soldi.",
+    "primaryTense": "imperfetto",
+    "level": 14,
+    "difficulty": 1,
+    "theme": "vita_quotidiana",
+    "source": "authored",
+    "target": {
+      "slotId": 0,
+      "verb": "viaggiare",
+      "person": "voi",
+      "acceptedAnswers": [
+        {
+          "text": "viaggiavate",
+          "tense": "imperfetto",
+          "person": "voi",
+          "explanation": "Con voi, viaggiare all'imperfetto si coniuga viaggiavate."
+        }
+      ]
+    },
+    "band": 1
+  },
+  {
+    "id": "corpus-imperfetto-155",
+    "textTemplate": "Durante quel soggiorno tu {slot_0} un museo diverso ogni giorno.",
+    "primaryTense": "imperfetto",
+    "level": 11,
+    "difficulty": 1,
+    "theme": "vita_quotidiana",
+    "source": "authored",
+    "target": {
+      "slotId": 0,
+      "verb": "visitare",
+      "person": "tu",
+      "acceptedAnswers": [
+        {
+          "text": "visitavi",
+          "tense": "imperfetto",
+          "person": "tu",
+          "explanation": "Con tu, visitare all'imperfetto si coniuga visitavi."
+        }
+      ]
+    },
+    "band": 1
+  },
+  {
+    "id": "corpus-imperfetto-156",
+    "textTemplate": "Da bambini noi {slot_0} i parenti ogni domenica.",
+    "primaryTense": "imperfetto",
+    "level": 12,
+    "difficulty": 1,
+    "theme": "vita_quotidiana",
+    "source": "authored",
+    "target": {
+      "slotId": 0,
+      "verb": "visitare",
+      "person": "noi",
+      "acceptedAnswers": [
+        {
+          "text": "visitavamo",
+          "tense": "imperfetto",
+          "person": "noi",
+          "explanation": "Con noi, visitare all'imperfetto si coniuga visitavamo."
+        }
+      ]
+    },
+    "band": 1
+  },
+  {
+    "id": "corpus-imperfetto-157",
+    "textTemplate": "Da piccolo io {slot_0} una bicicletta rossa.",
+    "primaryTense": "imperfetto",
+    "level": 13,
+    "difficulty": 2,
+    "theme": "vita_quotidiana",
+    "source": "authored",
+    "target": {
+      "slotId": 0,
+      "verb": "volere",
+      "person": "io",
+      "acceptedAnswers": [
+        {
+          "text": "volevo",
+          "tense": "imperfetto",
+          "person": "io",
+          "explanation": "Con io, volere all'imperfetto si coniuga volevo."
+        }
+      ]
+    },
+    "band": 2
+  },
+  {
+    "id": "corpus-imperfetto-158",
+    "textTemplate": "Quando è finita la musica, i bambini {slot_0} ancora ballare.",
+    "primaryTense": "imperfetto",
+    "level": 14,
+    "difficulty": 2,
+    "theme": "vita_quotidiana",
+    "source": "authored",
+    "target": {
+      "slotId": 0,
+      "verb": "volere",
+      "person": "loro",
+      "acceptedAnswers": [
+        {
+          "text": "volevano",
+          "tense": "imperfetto",
+          "person": "loro",
+          "explanation": "Con loro, volere all'imperfetto si coniuga volevano."
+        }
+      ]
+    },
+    "band": 2
+  },
+  {
+    "id": "pilot-multi-004",
+    "primaryTense": "imperfetto",
+    "textTemplate": "L'anno scorso Giulia {slot_0} in una libreria.",
+    "target": {
+      "slotId": 0,
+      "verb": "lavorare",
+      "person": "lui/lei",
+      "acceptedAnswers": [
+        {
+          "text": "lavorava",
+          "mood": "indicativo",
+          "tense": "imperfetto",
+          "person": "lui/lei",
+          "explanation": "Lavorava descrive l'occupazione di Giulia in quel periodo, senza mettere in primo piano la fine dell'esperienza."
+        },
+        {
+          "text": "ha lavorato",
+          "mood": "indicativo",
+          "tense": "passato_prossimo",
+          "person": "lui/lei",
+          "explanation": "Ha lavorato presenta il lavoro in libreria come un'esperienza conclusa. Si usa avere con il participio lavorato."
+        }
+      ]
+    },
+    "level": 11,
+    "difficulty": 2,
+    "theme": "vita_quotidiana",
+    "source": "authored-multi-tense",
+    "band": 1
+  },
+  {
+    "id": "pilot-multi-005",
+    "primaryTense": "imperfetto",
+    "textTemplate": "Durante le vacanze dell'estate scorsa, noi {slot_0} spesso al ristorante.",
+    "target": {
+      "slotId": 0,
+      "verb": "mangiare",
+      "person": "noi",
+      "acceptedAnswers": [
+        {
+          "text": "mangiavamo",
+          "mood": "indicativo",
+          "tense": "imperfetto",
+          "person": "noi",
+          "explanation": "Mangiavamo descrive un'abitudine durante quelle vacanze. Con noi, l'imperfetto di mangiare termina in -avamo."
+        },
+        {
+          "text": "abbiamo mangiato",
+          "mood": "indicativo",
+          "tense": "passato_prossimo",
+          "person": "noi",
+          "explanation": "Abbiamo mangiato riassume le occasioni in cui siamo stati al ristorante durante un periodo concluso. Anche un'azione ripetuta può essere espressa al passato prossimo."
+        }
+      ]
+    },
+    "level": 11,
+    "difficulty": 2,
+    "theme": "vita_quotidiana",
+    "source": "authored-multi-tense",
+    "band": 1
+  }
+]

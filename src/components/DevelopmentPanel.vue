@@ -1,10 +1,61 @@
 <script setup lang="ts">
 import { computed, onBeforeUnmount, ref } from 'vue';
-import { synchronizeLearningState, type LearningState } from '../lib/learning.ts';
+import {
+  curriculumBands,
+  activeBands,
+  bandProgress,
+  synchronizeLearningState,
+  type LearningState,
+} from '../lib/learning.ts';
 import { learningStorageKey } from '../lib/storage.ts';
-import type { Exercise } from '../lib/practice.ts';
+import { gradeExercise, type Exercise, type Outcome, type Verb } from '../lib/practice.ts';
 
-const { exercises } = defineProps<{ exercises: Exercise[] }>();
+const { exercises, verbs, currentExercise, submitAnswer, canReplay, replayAnimation } =
+  defineProps<{
+    exercises: Exercise[];
+    verbs: Verb[];
+    currentExercise: () => Exercise | null;
+    submitAnswer: (value: string) => void;
+    canReplay: () => boolean;
+    replayAnimation: () => void;
+  }>();
+const answerable = ref(false);
+const replayable = ref(false);
+function answerAndConfirm(outcome: Outcome) {
+  error.value = '';
+  const exercise = currentExercise();
+  if (!exercise) return;
+  let answer = outcome === 'correct' ? exercise.answers[0]! : 'risposta sbagliata';
+  if (outcome === 'typo') {
+    let found: string | undefined;
+    for (const target of exercise.answers) {
+      for (let index = 0; index < target.length && !found; index++) {
+        for (const candidate of [
+          target.slice(0, index) + 'x' + target.slice(index + 1),
+          target.slice(0, index) + target.slice(index + 1),
+        ]) {
+          if (gradeExercise(candidate, exercise, verbs).outcome === 'typo') {
+            found = candidate;
+            break;
+          }
+        }
+      }
+      if (found) break;
+    }
+    if (!found) {
+      error.value =
+        'Questa forma non ammette un refuso con le regole attuali. Prova un’altra frase.';
+      return;
+    }
+    answer = found;
+  }
+  if (gradeExercise(answer, exercise, verbs).outcome !== outcome) {
+    error.value = 'Impossibile generare questo risultato per la frase corrente.';
+    return;
+  }
+  submitAnswer(answer);
+  answerable.value = false;
+}
 const tenseLabels = {
   presente: 'Presente indicativo',
   passato_prossimo: 'Passato prossimo',
@@ -18,7 +69,7 @@ const open = ref(false);
 const state = ref<LearningState>();
 const error = ref('');
 const hasBackup = ref(false);
-const level = ref(1);
+const bandCount = ref(3);
 const tense = ref<Tense>('presente');
 const question = ref('');
 const byId = new Map(exercises.map((exercise) => [exercise.id, exercise]));
@@ -26,6 +77,8 @@ const candidates = computed(() =>
   exercises.filter((exercise) => (exercise.tense ?? 'presente') === tense.value),
 );
 function refresh() {
+  answerable.value = currentExercise() !== null;
+  replayable.value = canReplay();
   try {
     state.value = JSON.parse(localStorage.getItem(learningStorageKey) ?? 'null') ?? undefined;
     hasBackup.value = localStorage.getItem(backupKey) !== null;
@@ -34,7 +87,7 @@ function refresh() {
   }
 }
 refresh();
-level.value = state.value?.learner.level ?? 1;
+bandCount.value = state.value?.curriculum?.unlocked.length ?? 3;
 const timer = setInterval(refresh, 1000);
 onBeforeUnmount(() => clearInterval(timer));
 const summary = computed(() => {
@@ -43,7 +96,12 @@ const summary = computed(() => {
   return {
     versione: s.version,
     contenuto: 'contentRevision' in s ? s.contentRevision : 'precedente',
-    ...s.learner,
+    fasceSbloccate: s.curriculum.unlocked,
+    fasceAttive: activeBands(s, exercises).map((band) => ({
+      id: band.id,
+      ...bandProgress(band, s.results),
+    })),
+    risposteDistinte: Object.keys(s.results).length,
     coda: s.queue.length,
     prossime: s.queue.slice(0, 8).map((id) => ({ id, tempo: byId.get(id)?.tense })),
     padronanza: Object.values(s.mastery).reduce<Record<string, number>>((counts, item) => {
@@ -65,12 +123,14 @@ function inject(useTense: boolean) {
     const selected = useTense
       ? candidates.value.find((item) => item.id === question.value)
       : undefined;
-    next.learner.level =
-      (selected ? (selected.level ?? selected.difficulty) : undefined) ??
-      (useTense
-        ? { presente: 4, passato_prossimo: 9, imperfetto: 14, futuro_semplice: 19 }[tense.value]
-        : Math.max(1, Math.min(25, Math.round(level.value || 1))));
-    next.learner.levelProgress = 0;
+    const bands = curriculumBands(exercises);
+    const selectedBand = selected
+      ? `${selected.tense ?? 'presente'}:${selected.band ?? 1}`
+      : `${tense.value}:2`;
+    const count = useTense
+      ? Math.max(3, bands.findIndex((band) => band.id === selectedBand) + 1)
+      : Math.max(3, Math.min(8, Math.round(bandCount.value || 3)));
+    next.curriculum.unlocked = bands.slice(0, count).map((band) => band.id);
     synchronizeLearningState(next, exercises);
     if (useTense) {
       next.queue.sort(
@@ -100,7 +160,7 @@ function restore() {
 </script>
 
 <template>
-  <aside class="dev-tools" aria-label="Strumenti di sviluppo">
+  <aside class="dev-tools" :class="{ 'is-open': open }" aria-label="Strumenti di sviluppo">
     <button type="button" :aria-expanded="open" @click="open = !open">
       {{ open ? 'Chiudi strumenti' : 'Sviluppo' }}
     </button>
@@ -110,6 +170,20 @@ function restore() {
         Le modifiche ricaricano la pagina e chiudono la sessione. Il primo intervento salva una
         copia dei progressi.
       </p>
+      <div role="group" aria-label="Rispondi e verifica">
+        <button type="button" :disabled="!answerable" @click="answerAndConfirm('correct')">
+          Corretta ✓
+        </button>
+        <button type="button" :disabled="!answerable" @click="answerAndConfirm('typo')">
+          Refuso ≈
+        </button>
+        <button type="button" :disabled="!answerable" @click="answerAndConfirm('error')">
+          Sbagliata ×
+        </button>
+      </div>
+      <button type="button" :disabled="!replayable" @click="replayAnimation">
+        Ripeti animazione del riepilogo
+      </button>
       <label
         >Tempo
         <select aria-label="Tempo" v-model="tense" @change="question = ''">
@@ -126,8 +200,10 @@ function restore() {
         </select>
       </label>
       <button type="button" @click="inject(true)">Prova questo tempo / frase</button>
-      <label>Livello <input v-model.number="level" type="number" min="1" max="25" /></label>
-      <button type="button" @click="inject(false)">Imposta livello</button>
+      <label
+        >Fasce sbloccate <input v-model.number="bandCount" type="number" min="3" max="8"
+      /></label>
+      <button type="button" @click="inject(false)">Imposta fasce</button>
       <button type="button" :disabled="!hasBackup" @click="restore">
         Ripristina progressi originali
       </button>
@@ -156,15 +232,13 @@ function restore() {
   color: var(--ink);
 }
 section {
-  width: min(440px, calc(100vw - 24px));
-  max-height: 75vh;
-  overflow: auto;
+  width: 100%;
   padding: 18px;
   margin-top: 8px;
   background: var(--surface);
   border: 1px solid var(--line);
   border-radius: 14px;
-  box-shadow: 0 8px 32px #0002;
+  box-shadow: none;
 }
 h2 {
   margin: 0;
@@ -204,5 +278,38 @@ pre {
 }
 details {
   margin-top: 14px;
+}
+</style>
+
+<style>
+/* Loaded only by the development-only dynamic import. */
+body:has(.dev-tools.is-open) #app {
+  margin-left: min(360px, 32vw);
+  width: calc(100% - min(360px, 32vw));
+}
+.dev-tools.is-open {
+  position: fixed;
+  inset: 0 auto 0 0;
+  width: min(360px, 32vw);
+  height: 100dvh;
+  overflow-y: auto;
+  padding: 12px;
+  background: var(--surface);
+  border-right: 1px solid var(--line);
+}
+@media (max-width: 999px) {
+  body:has(.dev-tools.is-open) #app {
+    margin-left: 0;
+    width: 100%;
+  }
+  .dev-tools.is-open {
+    position: relative;
+    inset: auto;
+    width: 100%;
+    height: auto;
+    max-height: 45dvh;
+    border-right: 0;
+    border-bottom: 1px solid var(--line);
+  }
 }
 </style>

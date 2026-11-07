@@ -1,62 +1,2417 @@
 [
   {
-    "id": "bere",
-    "family": "ere",
-    "irregular": true,
-    "forms": ["bevo", "bevi", "beve", "beviamo", "bevete", "bevono"]
-  },
-  {
-    "id": "parlare",
+    "id": "alzarsi",
     "family": "are",
     "irregular": false,
-    "forms": ["parlo", "parli", "parla", "parliamo", "parlate", "parlano"]
+    "auxiliary": "essere",
+    "reflexive": true,
+    "tier": 1,
+    "forms": ["mi alzo", "ti alzi", "si alza", "ci alziamo", "vi alzate", "si alzano"],
+    "paradigms": {
+      "presente": [
+        ["mi alzo"],
+        ["ti alzi"],
+        ["si alza"],
+        ["ci alziamo"],
+        ["vi alzate"],
+        ["si alzano"]
+      ],
+      "imperfetto": [
+        ["mi alzavo"],
+        ["ti alzavi"],
+        ["si alzava"],
+        ["ci alzavamo"],
+        ["vi alzavate"],
+        ["si alzavano"]
+      ],
+      "futuro_semplice": [
+        ["mi alzerò"],
+        ["ti alzerai"],
+        ["si alzerà"],
+        ["ci alzeremo"],
+        ["vi alzerete"],
+        ["si alzeranno"]
+      ],
+      "passato_prossimo": [
+        ["mi sono alzato", "mi sono alzata"],
+        ["ti sei alzato", "ti sei alzata"],
+        ["si è alzato", "si è alzata"],
+        ["ci siamo alzati", "ci siamo alzate"],
+        ["vi siete alzati", "vi siete alzate"],
+        ["si sono alzati", "si sono alzate"]
+      ]
+    },
+    "irregularTenses": {
+      "presente": false,
+      "passato_prossimo": false,
+      "imperfetto": false,
+      "futuro_semplice": false
+    }
   },
   {
-    "id": "essere",
-    "family": "ere",
-    "irregular": true,
-    "forms": ["sono", "sei", "è", "siamo", "siete", "sono"]
-  },
-  {
-    "id": "dormire",
-    "family": "ire",
+    "id": "amare",
+    "family": "are",
     "irregular": false,
-    "forms": ["dormo", "dormi", "dorme", "dormiamo", "dormite", "dormono"]
-  },
-  {
-    "id": "avere",
-    "family": "ere",
-    "irregular": true,
-    "forms": ["ho", "hai", "ha", "abbiamo", "avete", "hanno"]
-  },
-  {
-    "id": "leggere",
-    "family": "ere",
-    "irregular": false,
-    "forms": ["leggo", "leggi", "legge", "leggiamo", "leggete", "leggono"]
+    "auxiliary": "avere",
+    "reflexive": false,
+    "tier": 2,
+    "forms": ["amo", "ami", "ama", "amiamo", "amate", "amano"],
+    "paradigms": {
+      "presente": [["amo"], ["ami"], ["ama"], ["amiamo"], ["amate"], ["amano"]],
+      "imperfetto": [["amavo"], ["amavi"], ["amava"], ["amavamo"], ["amavate"], ["amavano"]],
+      "futuro_semplice": [["amerò"], ["amerai"], ["amerà"], ["ameremo"], ["amerete"], ["ameranno"]],
+      "passato_prossimo": [
+        ["ho amato"],
+        ["hai amato"],
+        ["ha amato"],
+        ["abbiamo amato"],
+        ["avete amato"],
+        ["hanno amato"]
+      ]
+    },
+    "irregularTenses": {
+      "presente": false,
+      "passato_prossimo": false,
+      "imperfetto": false,
+      "futuro_semplice": false
+    }
   },
   {
     "id": "andare",
     "family": "are",
     "irregular": true,
-    "forms": ["vado", "vai", "va", "andiamo", "andate", "vanno"]
+    "auxiliary": "essere",
+    "reflexive": false,
+    "tier": 1,
+    "forms": ["vado", "vai", "va", "andiamo", "andate", "vanno"],
+    "paradigms": {
+      "presente": [["vado"], ["vai"], ["va"], ["andiamo"], ["andate"], ["vanno"]],
+      "imperfetto": [["andavo"], ["andavi"], ["andava"], ["andavamo"], ["andavate"], ["andavano"]],
+      "futuro_semplice": [["andrò"], ["andrai"], ["andrà"], ["andremo"], ["andrete"], ["andranno"]],
+      "passato_prossimo": [
+        ["sono andato", "sono andata"],
+        ["sei andato", "sei andata"],
+        ["è andato", "è andata"],
+        ["siamo andati", "siamo andate"],
+        ["siete andati", "siete andate"],
+        ["sono andati", "sono andate"]
+      ]
+    },
+    "irregularTenses": {
+      "presente": true,
+      "passato_prossimo": false,
+      "imperfetto": false,
+      "futuro_semplice": true
+    }
   },
   {
-    "id": "capire",
-    "family": "ire",
-    "irregular": false,
-    "forms": ["capisco", "capisci", "capisce", "capiamo", "capite", "capiscono"]
-  },
-  {
-    "id": "fare",
+    "id": "approvare",
     "family": "are",
+    "irregular": false,
+    "auxiliary": "avere",
+    "reflexive": false,
+    "tier": 3,
+    "forms": ["approvo", "approvi", "approva", "approviamo", "approvate", "approvano"],
+    "paradigms": {
+      "presente": [
+        ["approvo"],
+        ["approvi"],
+        ["approva"],
+        ["approviamo"],
+        ["approvate"],
+        ["approvano"]
+      ],
+      "imperfetto": [
+        ["approvavo"],
+        ["approvavi"],
+        ["approvava"],
+        ["approvavamo"],
+        ["approvavate"],
+        ["approvavano"]
+      ],
+      "futuro_semplice": [
+        ["approverò"],
+        ["approverai"],
+        ["approverà"],
+        ["approveremo"],
+        ["approverete"],
+        ["approveranno"]
+      ],
+      "passato_prossimo": [
+        ["ho approvato"],
+        ["hai approvato"],
+        ["ha approvato"],
+        ["abbiamo approvato"],
+        ["avete approvato"],
+        ["hanno approvato"]
+      ]
+    },
+    "irregularTenses": {
+      "presente": false,
+      "passato_prossimo": false,
+      "imperfetto": false,
+      "futuro_semplice": false
+    }
+  },
+  {
+    "id": "aprire",
+    "family": "ire",
     "irregular": true,
-    "forms": ["faccio", "fai", "fa", "facciamo", "fate", "fanno"]
+    "auxiliary": "avere",
+    "reflexive": false,
+    "tier": 2,
+    "forms": ["apro", "apri", "apre", "apriamo", "aprite", "aprono"],
+    "paradigms": {
+      "presente": [["apro"], ["apri"], ["apre"], ["apriamo"], ["aprite"], ["aprono"]],
+      "imperfetto": [["aprivo"], ["aprivi"], ["apriva"], ["aprivamo"], ["aprivate"], ["aprivano"]],
+      "futuro_semplice": [
+        ["aprirò"],
+        ["aprirai"],
+        ["aprirà"],
+        ["apriremo"],
+        ["aprirete"],
+        ["apriranno"]
+      ],
+      "passato_prossimo": [
+        ["ho aperto"],
+        ["hai aperto"],
+        ["ha aperto"],
+        ["abbiamo aperto"],
+        ["avete aperto"],
+        ["hanno aperto"]
+      ]
+    },
+    "irregularTenses": {
+      "presente": false,
+      "passato_prossimo": true,
+      "imperfetto": false,
+      "futuro_semplice": false
+    }
+  },
+  {
+    "id": "arrivare",
+    "family": "are",
+    "irregular": false,
+    "auxiliary": "essere",
+    "reflexive": false,
+    "tier": 1,
+    "forms": ["arrivo", "arrivi", "arriva", "arriviamo", "arrivate", "arrivano"],
+    "paradigms": {
+      "presente": [["arrivo"], ["arrivi"], ["arriva"], ["arriviamo"], ["arrivate"], ["arrivano"]],
+      "imperfetto": [
+        ["arrivavo"],
+        ["arrivavi"],
+        ["arrivava"],
+        ["arrivavamo"],
+        ["arrivavate"],
+        ["arrivavano"]
+      ],
+      "futuro_semplice": [
+        ["arriverò"],
+        ["arriverai"],
+        ["arriverà"],
+        ["arriveremo"],
+        ["arriverete"],
+        ["arriveranno"]
+      ],
+      "passato_prossimo": [
+        ["sono arrivato", "sono arrivata"],
+        ["sei arrivato", "sei arrivata"],
+        ["è arrivato", "è arrivata"],
+        ["siamo arrivati", "siamo arrivate"],
+        ["siete arrivati", "siete arrivate"],
+        ["sono arrivati", "sono arrivate"]
+      ]
+    },
+    "irregularTenses": {
+      "presente": false,
+      "passato_prossimo": false,
+      "imperfetto": false,
+      "futuro_semplice": false
+    }
   },
   {
     "id": "ascoltare",
     "family": "are",
     "irregular": false,
-    "forms": ["ascolto", "ascolti", "ascolta", "ascoltiamo", "ascoltate", "ascoltano"]
+    "auxiliary": "avere",
+    "reflexive": false,
+    "tier": 2,
+    "forms": ["ascolto", "ascolti", "ascolta", "ascoltiamo", "ascoltate", "ascoltano"],
+    "paradigms": {
+      "presente": [
+        ["ascolto"],
+        ["ascolti"],
+        ["ascolta"],
+        ["ascoltiamo"],
+        ["ascoltate"],
+        ["ascoltano"]
+      ],
+      "imperfetto": [
+        ["ascoltavo"],
+        ["ascoltavi"],
+        ["ascoltava"],
+        ["ascoltavamo"],
+        ["ascoltavate"],
+        ["ascoltavano"]
+      ],
+      "futuro_semplice": [
+        ["ascolterò"],
+        ["ascolterai"],
+        ["ascolterà"],
+        ["ascolteremo"],
+        ["ascolterete"],
+        ["ascolteranno"]
+      ],
+      "passato_prossimo": [
+        ["ho ascoltato"],
+        ["hai ascoltato"],
+        ["ha ascoltato"],
+        ["abbiamo ascoltato"],
+        ["avete ascoltato"],
+        ["hanno ascoltato"]
+      ]
+    },
+    "irregularTenses": {
+      "presente": false,
+      "passato_prossimo": false,
+      "imperfetto": false,
+      "futuro_semplice": false
+    }
+  },
+  {
+    "id": "aspettare",
+    "family": "are",
+    "irregular": false,
+    "auxiliary": "avere",
+    "reflexive": false,
+    "tier": 2,
+    "forms": ["aspetto", "aspetti", "aspetta", "aspettiamo", "aspettate", "aspettano"],
+    "paradigms": {
+      "presente": [
+        ["aspetto"],
+        ["aspetti"],
+        ["aspetta"],
+        ["aspettiamo"],
+        ["aspettate"],
+        ["aspettano"]
+      ],
+      "imperfetto": [
+        ["aspettavo"],
+        ["aspettavi"],
+        ["aspettava"],
+        ["aspettavamo"],
+        ["aspettavate"],
+        ["aspettavano"]
+      ],
+      "futuro_semplice": [
+        ["aspetterò"],
+        ["aspetterai"],
+        ["aspetterà"],
+        ["aspetteremo"],
+        ["aspetterete"],
+        ["aspetteranno"]
+      ],
+      "passato_prossimo": [
+        ["ho aspettato"],
+        ["hai aspettato"],
+        ["ha aspettato"],
+        ["abbiamo aspettato"],
+        ["avete aspettato"],
+        ["hanno aspettato"]
+      ]
+    },
+    "irregularTenses": {
+      "presente": false,
+      "passato_prossimo": false,
+      "imperfetto": false,
+      "futuro_semplice": false
+    }
+  },
+  {
+    "id": "avere",
+    "family": "ere",
+    "irregular": true,
+    "auxiliary": "avere",
+    "reflexive": false,
+    "tier": 1,
+    "forms": ["ho", "hai", "ha", "abbiamo", "avete", "hanno"],
+    "paradigms": {
+      "presente": [["ho"], ["hai"], ["ha"], ["abbiamo"], ["avete"], ["hanno"]],
+      "imperfetto": [["avevo"], ["avevi"], ["aveva"], ["avevamo"], ["avevate"], ["avevano"]],
+      "futuro_semplice": [["avrò"], ["avrai"], ["avrà"], ["avremo"], ["avrete"], ["avranno"]],
+      "passato_prossimo": [
+        ["ho avuto"],
+        ["hai avuto"],
+        ["ha avuto"],
+        ["abbiamo avuto"],
+        ["avete avuto"],
+        ["hanno avuto"]
+      ]
+    },
+    "irregularTenses": {
+      "presente": true,
+      "passato_prossimo": false,
+      "imperfetto": false,
+      "futuro_semplice": true
+    }
+  },
+  {
+    "id": "bere",
+    "family": "ere",
+    "irregular": true,
+    "auxiliary": "avere",
+    "reflexive": false,
+    "tier": 2,
+    "forms": ["bevo", "bevi", "beve", "beviamo", "bevete", "bevono"],
+    "paradigms": {
+      "presente": [["bevo"], ["bevi"], ["beve"], ["beviamo"], ["bevete"], ["bevono"]],
+      "imperfetto": [["bevevo"], ["bevevi"], ["beveva"], ["bevevamo"], ["bevevate"], ["bevevano"]],
+      "futuro_semplice": [["berrò"], ["berrai"], ["berrà"], ["berremo"], ["berrete"], ["berranno"]],
+      "passato_prossimo": [
+        ["ho bevuto"],
+        ["hai bevuto"],
+        ["ha bevuto"],
+        ["abbiamo bevuto"],
+        ["avete bevuto"],
+        ["hanno bevuto"]
+      ]
+    },
+    "irregularTenses": {
+      "presente": true,
+      "passato_prossimo": true,
+      "imperfetto": true,
+      "futuro_semplice": true
+    }
+  },
+  {
+    "id": "capire",
+    "family": "ire",
+    "irregular": false,
+    "auxiliary": "avere",
+    "reflexive": false,
+    "tier": 2,
+    "forms": ["capisco", "capisci", "capisce", "capiamo", "capite", "capiscono"],
+    "paradigms": {
+      "presente": [["capisco"], ["capisci"], ["capisce"], ["capiamo"], ["capite"], ["capiscono"]],
+      "imperfetto": [["capivo"], ["capivi"], ["capiva"], ["capivamo"], ["capivate"], ["capivano"]],
+      "futuro_semplice": [
+        ["capirò"],
+        ["capirai"],
+        ["capirà"],
+        ["capiremo"],
+        ["capirete"],
+        ["capiranno"]
+      ],
+      "passato_prossimo": [
+        ["ho capito"],
+        ["hai capito"],
+        ["ha capito"],
+        ["abbiamo capito"],
+        ["avete capito"],
+        ["hanno capito"]
+      ]
+    },
+    "irregularTenses": {
+      "presente": false,
+      "passato_prossimo": false,
+      "imperfetto": false,
+      "futuro_semplice": false
+    }
+  },
+  {
+    "id": "costruire",
+    "family": "ire",
+    "irregular": false,
+    "auxiliary": "avere",
+    "reflexive": false,
+    "tier": 3,
+    "forms": ["costruisco", "costruisci", "costruisce", "costruiamo", "costruite", "costruiscono"],
+    "paradigms": {
+      "presente": [
+        ["costruisco"],
+        ["costruisci"],
+        ["costruisce"],
+        ["costruiamo"],
+        ["costruite"],
+        ["costruiscono"]
+      ],
+      "imperfetto": [
+        ["costruivo"],
+        ["costruivi"],
+        ["costruiva"],
+        ["costruivamo"],
+        ["costruivate"],
+        ["costruivano"]
+      ],
+      "futuro_semplice": [
+        ["costruirò"],
+        ["costruirai"],
+        ["costruirà"],
+        ["costruiremo"],
+        ["costruirete"],
+        ["costruiranno"]
+      ],
+      "passato_prossimo": [
+        ["ho costruito"],
+        ["hai costruito"],
+        ["ha costruito"],
+        ["abbiamo costruito"],
+        ["avete costruito"],
+        ["hanno costruito"]
+      ]
+    },
+    "irregularTenses": {
+      "presente": false,
+      "passato_prossimo": false,
+      "imperfetto": false,
+      "futuro_semplice": false
+    }
+  },
+  {
+    "id": "cucinare",
+    "family": "are",
+    "irregular": false,
+    "auxiliary": "avere",
+    "reflexive": false,
+    "tier": 2,
+    "forms": ["cucino", "cucini", "cucina", "cuciniamo", "cucinate", "cucinano"],
+    "paradigms": {
+      "presente": [["cucino"], ["cucini"], ["cucina"], ["cuciniamo"], ["cucinate"], ["cucinano"]],
+      "imperfetto": [
+        ["cucinavo"],
+        ["cucinavi"],
+        ["cucinava"],
+        ["cucinavamo"],
+        ["cucinavate"],
+        ["cucinavano"]
+      ],
+      "futuro_semplice": [
+        ["cucinerò"],
+        ["cucinerai"],
+        ["cucinerà"],
+        ["cucineremo"],
+        ["cucinerete"],
+        ["cucineranno"]
+      ],
+      "passato_prossimo": [
+        ["ho cucinato"],
+        ["hai cucinato"],
+        ["ha cucinato"],
+        ["abbiamo cucinato"],
+        ["avete cucinato"],
+        ["hanno cucinato"]
+      ]
+    },
+    "irregularTenses": {
+      "presente": false,
+      "passato_prossimo": false,
+      "imperfetto": false,
+      "futuro_semplice": false
+    }
+  },
+  {
+    "id": "curare",
+    "family": "are",
+    "irregular": false,
+    "auxiliary": "avere",
+    "reflexive": false,
+    "tier": 2,
+    "forms": ["curo", "curi", "cura", "curiamo", "curate", "curano"],
+    "paradigms": {
+      "presente": [["curo"], ["curi"], ["cura"], ["curiamo"], ["curate"], ["curano"]],
+      "imperfetto": [["curavo"], ["curavi"], ["curava"], ["curavamo"], ["curavate"], ["curavano"]],
+      "futuro_semplice": [
+        ["curerò"],
+        ["curerai"],
+        ["curerà"],
+        ["cureremo"],
+        ["curerete"],
+        ["cureranno"]
+      ],
+      "passato_prossimo": [
+        ["ho curato"],
+        ["hai curato"],
+        ["ha curato"],
+        ["abbiamo curato"],
+        ["avete curato"],
+        ["hanno curato"]
+      ]
+    },
+    "irregularTenses": {
+      "presente": false,
+      "passato_prossimo": false,
+      "imperfetto": false,
+      "futuro_semplice": false
+    }
+  },
+  {
+    "id": "dimenticare",
+    "family": "are",
+    "irregular": false,
+    "auxiliary": "avere",
+    "reflexive": false,
+    "tier": 2,
+    "forms": [
+      "dimentico",
+      "dimentichi",
+      "dimentica",
+      "dimentichiamo",
+      "dimenticate",
+      "dimenticano"
+    ],
+    "paradigms": {
+      "presente": [
+        ["dimentico"],
+        ["dimentichi"],
+        ["dimentica"],
+        ["dimentichiamo"],
+        ["dimenticate"],
+        ["dimenticano"]
+      ],
+      "imperfetto": [
+        ["dimenticavo"],
+        ["dimenticavi"],
+        ["dimenticava"],
+        ["dimenticavamo"],
+        ["dimenticavate"],
+        ["dimenticavano"]
+      ],
+      "futuro_semplice": [
+        ["dimenticherò"],
+        ["dimenticherai"],
+        ["dimenticherà"],
+        ["dimenticheremo"],
+        ["dimenticherete"],
+        ["dimenticheranno"]
+      ],
+      "passato_prossimo": [
+        ["ho dimenticato"],
+        ["hai dimenticato"],
+        ["ha dimenticato"],
+        ["abbiamo dimenticato"],
+        ["avete dimenticato"],
+        ["hanno dimenticato"]
+      ]
+    },
+    "irregularTenses": {
+      "presente": false,
+      "passato_prossimo": false,
+      "imperfetto": false,
+      "futuro_semplice": false
+    }
+  },
+  {
+    "id": "dire",
+    "family": "ire",
+    "irregular": true,
+    "auxiliary": "avere",
+    "reflexive": false,
+    "tier": 1,
+    "forms": ["dico", "dici", "dice", "diciamo", "dite", "dicono"],
+    "paradigms": {
+      "presente": [["dico"], ["dici"], ["dice"], ["diciamo"], ["dite"], ["dicono"]],
+      "imperfetto": [["dicevo"], ["dicevi"], ["diceva"], ["dicevamo"], ["dicevate"], ["dicevano"]],
+      "futuro_semplice": [["dirò"], ["dirai"], ["dirà"], ["diremo"], ["direte"], ["diranno"]],
+      "passato_prossimo": [
+        ["ho detto"],
+        ["hai detto"],
+        ["ha detto"],
+        ["abbiamo detto"],
+        ["avete detto"],
+        ["hanno detto"]
+      ]
+    },
+    "irregularTenses": {
+      "presente": true,
+      "passato_prossimo": true,
+      "imperfetto": true,
+      "futuro_semplice": true
+    }
+  },
+  {
+    "id": "dormire",
+    "family": "ire",
+    "irregular": false,
+    "auxiliary": "avere",
+    "reflexive": false,
+    "tier": 2,
+    "forms": ["dormo", "dormi", "dorme", "dormiamo", "dormite", "dormono"],
+    "paradigms": {
+      "presente": [["dormo"], ["dormi"], ["dorme"], ["dormiamo"], ["dormite"], ["dormono"]],
+      "imperfetto": [
+        ["dormivo"],
+        ["dormivi"],
+        ["dormiva"],
+        ["dormivamo"],
+        ["dormivate"],
+        ["dormivano"]
+      ],
+      "futuro_semplice": [
+        ["dormirò"],
+        ["dormirai"],
+        ["dormirà"],
+        ["dormiremo"],
+        ["dormirete"],
+        ["dormiranno"]
+      ],
+      "passato_prossimo": [
+        ["ho dormito"],
+        ["hai dormito"],
+        ["ha dormito"],
+        ["abbiamo dormito"],
+        ["avete dormito"],
+        ["hanno dormito"]
+      ]
+    },
+    "irregularTenses": {
+      "presente": false,
+      "passato_prossimo": false,
+      "imperfetto": false,
+      "futuro_semplice": false
+    }
+  },
+  {
+    "id": "dovere",
+    "family": "ere",
+    "irregular": true,
+    "auxiliary": "avere",
+    "reflexive": false,
+    "tier": 1,
+    "forms": ["devo", "devi", "deve", "dobbiamo", "dovete", "devono"],
+    "paradigms": {
+      "presente": [
+        ["devo", "debbo"],
+        ["devi"],
+        ["deve"],
+        ["dobbiamo"],
+        ["dovete"],
+        ["devono", "debbono"]
+      ],
+      "imperfetto": [["dovevo"], ["dovevi"], ["doveva"], ["dovevamo"], ["dovevate"], ["dovevano"]],
+      "futuro_semplice": [["dovrò"], ["dovrai"], ["dovrà"], ["dovremo"], ["dovrete"], ["dovranno"]],
+      "passato_prossimo": [
+        ["ho dovuto"],
+        ["hai dovuto"],
+        ["ha dovuto"],
+        ["abbiamo dovuto"],
+        ["avete dovuto"],
+        ["hanno dovuto"]
+      ]
+    },
+    "irregularTenses": {
+      "presente": true,
+      "passato_prossimo": false,
+      "imperfetto": false,
+      "futuro_semplice": true
+    }
+  },
+  {
+    "id": "essere",
+    "family": "ere",
+    "irregular": true,
+    "auxiliary": "essere",
+    "reflexive": false,
+    "tier": 1,
+    "forms": ["sono", "sei", "è", "siamo", "siete", "sono"],
+    "paradigms": {
+      "presente": [["sono"], ["sei"], ["è"], ["siamo"], ["siete"], ["sono"]],
+      "imperfetto": [["ero"], ["eri"], ["era"], ["eravamo"], ["eravate"], ["erano"]],
+      "futuro_semplice": [["sarò"], ["sarai"], ["sarà"], ["saremo"], ["sarete"], ["saranno"]],
+      "passato_prossimo": [
+        ["sono stato", "sono stata"],
+        ["sei stato", "sei stata"],
+        ["è stato", "è stata"],
+        ["siamo stati", "siamo state"],
+        ["siete stati", "siete state"],
+        ["sono stati", "sono state"]
+      ]
+    },
+    "irregularTenses": {
+      "presente": true,
+      "passato_prossimo": true,
+      "imperfetto": true,
+      "futuro_semplice": true
+    }
+  },
+  {
+    "id": "fare",
+    "family": "ere",
+    "irregular": true,
+    "auxiliary": "avere",
+    "reflexive": false,
+    "tier": 1,
+    "forms": ["faccio", "fai", "fa", "facciamo", "fate", "fanno"],
+    "paradigms": {
+      "presente": [["faccio"], ["fai"], ["fa"], ["facciamo"], ["fate"], ["fanno"]],
+      "imperfetto": [["facevo"], ["facevi"], ["faceva"], ["facevamo"], ["facevate"], ["facevano"]],
+      "futuro_semplice": [["farò"], ["farai"], ["farà"], ["faremo"], ["farete"], ["faranno"]],
+      "passato_prossimo": [
+        ["ho fatto"],
+        ["hai fatto"],
+        ["ha fatto"],
+        ["abbiamo fatto"],
+        ["avete fatto"],
+        ["hanno fatto"]
+      ]
+    },
+    "irregularTenses": {
+      "presente": true,
+      "passato_prossimo": true,
+      "imperfetto": true,
+      "futuro_semplice": true
+    }
+  },
+  {
+    "id": "finire",
+    "family": "ire",
+    "irregular": false,
+    "auxiliary": "avere",
+    "reflexive": false,
+    "tier": 2,
+    "forms": ["finisco", "finisci", "finisce", "finiamo", "finite", "finiscono"],
+    "paradigms": {
+      "presente": [["finisco"], ["finisci"], ["finisce"], ["finiamo"], ["finite"], ["finiscono"]],
+      "imperfetto": [["finivo"], ["finivi"], ["finiva"], ["finivamo"], ["finivate"], ["finivano"]],
+      "futuro_semplice": [
+        ["finirò"],
+        ["finirai"],
+        ["finirà"],
+        ["finiremo"],
+        ["finirete"],
+        ["finiranno"]
+      ],
+      "passato_prossimo": [
+        ["ho finito"],
+        ["hai finito"],
+        ["ha finito"],
+        ["abbiamo finito"],
+        ["avete finito"],
+        ["hanno finito"]
+      ]
+    },
+    "irregularTenses": {
+      "presente": false,
+      "passato_prossimo": false,
+      "imperfetto": false,
+      "futuro_semplice": false
+    }
+  },
+  {
+    "id": "firmare",
+    "family": "are",
+    "irregular": false,
+    "auxiliary": "avere",
+    "reflexive": false,
+    "tier": 3,
+    "forms": ["firmo", "firmi", "firma", "firmiamo", "firmate", "firmano"],
+    "paradigms": {
+      "presente": [["firmo"], ["firmi"], ["firma"], ["firmiamo"], ["firmate"], ["firmano"]],
+      "imperfetto": [
+        ["firmavo"],
+        ["firmavi"],
+        ["firmava"],
+        ["firmavamo"],
+        ["firmavate"],
+        ["firmavano"]
+      ],
+      "futuro_semplice": [
+        ["firmerò"],
+        ["firmerai"],
+        ["firmerà"],
+        ["firmeremo"],
+        ["firmerete"],
+        ["firmeranno"]
+      ],
+      "passato_prossimo": [
+        ["ho firmato"],
+        ["hai firmato"],
+        ["ha firmato"],
+        ["abbiamo firmato"],
+        ["avete firmato"],
+        ["hanno firmato"]
+      ]
+    },
+    "irregularTenses": {
+      "presente": false,
+      "passato_prossimo": false,
+      "imperfetto": false,
+      "futuro_semplice": false
+    }
+  },
+  {
+    "id": "fotografare",
+    "family": "are",
+    "irregular": false,
+    "auxiliary": "avere",
+    "reflexive": false,
+    "tier": 3,
+    "forms": ["fotografo", "fotografi", "fotografa", "fotografiamo", "fotografate", "fotografano"],
+    "paradigms": {
+      "presente": [
+        ["fotografo"],
+        ["fotografi"],
+        ["fotografa"],
+        ["fotografiamo"],
+        ["fotografate"],
+        ["fotografano"]
+      ],
+      "imperfetto": [
+        ["fotografavo"],
+        ["fotografavi"],
+        ["fotografava"],
+        ["fotografavamo"],
+        ["fotografavate"],
+        ["fotografavano"]
+      ],
+      "futuro_semplice": [
+        ["fotograferò"],
+        ["fotograferai"],
+        ["fotograferà"],
+        ["fotograferemo"],
+        ["fotograferete"],
+        ["fotograferanno"]
+      ],
+      "passato_prossimo": [
+        ["ho fotografato"],
+        ["hai fotografato"],
+        ["ha fotografato"],
+        ["abbiamo fotografato"],
+        ["avete fotografato"],
+        ["hanno fotografato"]
+      ]
+    },
+    "irregularTenses": {
+      "presente": false,
+      "passato_prossimo": false,
+      "imperfetto": false,
+      "futuro_semplice": false
+    }
+  },
+  {
+    "id": "giocare",
+    "family": "are",
+    "irregular": false,
+    "auxiliary": "avere",
+    "reflexive": false,
+    "tier": 2,
+    "forms": ["gioco", "giochi", "gioca", "giochiamo", "giocate", "giocano"],
+    "paradigms": {
+      "presente": [["gioco"], ["giochi"], ["gioca"], ["giochiamo"], ["giocate"], ["giocano"]],
+      "imperfetto": [
+        ["giocavo"],
+        ["giocavi"],
+        ["giocava"],
+        ["giocavamo"],
+        ["giocavate"],
+        ["giocavano"]
+      ],
+      "futuro_semplice": [
+        ["giocherò"],
+        ["giocherai"],
+        ["giocherà"],
+        ["giocheremo"],
+        ["giocherete"],
+        ["giocheranno"]
+      ],
+      "passato_prossimo": [
+        ["ho giocato"],
+        ["hai giocato"],
+        ["ha giocato"],
+        ["abbiamo giocato"],
+        ["avete giocato"],
+        ["hanno giocato"]
+      ]
+    },
+    "irregularTenses": {
+      "presente": false,
+      "passato_prossimo": false,
+      "imperfetto": false,
+      "futuro_semplice": false
+    }
+  },
+  {
+    "id": "godersi",
+    "family": "ere",
+    "irregular": true,
+    "auxiliary": "essere",
+    "reflexive": true,
+    "tier": 3,
+    "forms": ["mi godo", "ti godi", "si gode", "ci godiamo", "vi godete", "si godono"],
+    "paradigms": {
+      "presente": [
+        ["mi godo"],
+        ["ti godi"],
+        ["si gode"],
+        ["ci godiamo"],
+        ["vi godete"],
+        ["si godono"]
+      ],
+      "imperfetto": [
+        ["mi godevo"],
+        ["ti godevi"],
+        ["si godeva"],
+        ["ci godevamo"],
+        ["vi godevate"],
+        ["si godevano"]
+      ],
+      "futuro_semplice": [
+        ["mi godrò", "mi goderò"],
+        ["ti godrai", "ti goderai"],
+        ["si godrà", "si goderà"],
+        ["ci godremo", "ci goderemo"],
+        ["vi godrete", "vi goderete"],
+        ["si godranno", "si goderanno"]
+      ],
+      "passato_prossimo": [
+        ["mi sono goduto", "mi sono goduta"],
+        ["ti sei goduto", "ti sei goduta"],
+        ["si è goduto", "si è goduta"],
+        ["ci siamo goduti", "ci siamo godute"],
+        ["vi siete goduti", "vi siete godute"],
+        ["si sono goduti", "si sono godute"]
+      ]
+    },
+    "irregularTenses": {
+      "presente": false,
+      "passato_prossimo": false,
+      "imperfetto": false,
+      "futuro_semplice": true
+    }
+  },
+  {
+    "id": "guardare",
+    "family": "are",
+    "irregular": false,
+    "auxiliary": "avere",
+    "reflexive": false,
+    "tier": 2,
+    "forms": ["guardo", "guardi", "guarda", "guardiamo", "guardate", "guardano"],
+    "paradigms": {
+      "presente": [["guardo"], ["guardi"], ["guarda"], ["guardiamo"], ["guardate"], ["guardano"]],
+      "imperfetto": [
+        ["guardavo"],
+        ["guardavi"],
+        ["guardava"],
+        ["guardavamo"],
+        ["guardavate"],
+        ["guardavano"]
+      ],
+      "futuro_semplice": [
+        ["guarderò"],
+        ["guarderai"],
+        ["guarderà"],
+        ["guarderemo"],
+        ["guarderete"],
+        ["guarderanno"]
+      ],
+      "passato_prossimo": [
+        ["ho guardato"],
+        ["hai guardato"],
+        ["ha guardato"],
+        ["abbiamo guardato"],
+        ["avete guardato"],
+        ["hanno guardato"]
+      ]
+    },
+    "irregularTenses": {
+      "presente": false,
+      "passato_prossimo": false,
+      "imperfetto": false,
+      "futuro_semplice": false
+    }
+  },
+  {
+    "id": "guidare",
+    "family": "are",
+    "irregular": false,
+    "auxiliary": "avere",
+    "reflexive": false,
+    "tier": 2,
+    "forms": ["guido", "guidi", "guida", "guidiamo", "guidate", "guidano"],
+    "paradigms": {
+      "presente": [["guido"], ["guidi"], ["guida"], ["guidiamo"], ["guidate"], ["guidano"]],
+      "imperfetto": [
+        ["guidavo"],
+        ["guidavi"],
+        ["guidava"],
+        ["guidavamo"],
+        ["guidavate"],
+        ["guidavano"]
+      ],
+      "futuro_semplice": [
+        ["guiderò"],
+        ["guiderai"],
+        ["guiderà"],
+        ["guideremo"],
+        ["guiderete"],
+        ["guideranno"]
+      ],
+      "passato_prossimo": [
+        ["ho guidato"],
+        ["hai guidato"],
+        ["ha guidato"],
+        ["abbiamo guidato"],
+        ["avete guidato"],
+        ["hanno guidato"]
+      ]
+    },
+    "irregularTenses": {
+      "presente": false,
+      "passato_prossimo": false,
+      "imperfetto": false,
+      "futuro_semplice": false
+    }
+  },
+  {
+    "id": "invitare",
+    "family": "are",
+    "irregular": false,
+    "auxiliary": "avere",
+    "reflexive": false,
+    "tier": 3,
+    "forms": ["invito", "inviti", "invita", "invitiamo", "invitate", "invitano"],
+    "paradigms": {
+      "presente": [["invito"], ["inviti"], ["invita"], ["invitiamo"], ["invitate"], ["invitano"]],
+      "imperfetto": [
+        ["invitavo"],
+        ["invitavi"],
+        ["invitava"],
+        ["invitavamo"],
+        ["invitavate"],
+        ["invitavano"]
+      ],
+      "futuro_semplice": [
+        ["inviterò"],
+        ["inviterai"],
+        ["inviterà"],
+        ["inviteremo"],
+        ["inviterete"],
+        ["inviteranno"]
+      ],
+      "passato_prossimo": [
+        ["ho invitato"],
+        ["hai invitato"],
+        ["ha invitato"],
+        ["abbiamo invitato"],
+        ["avete invitato"],
+        ["hanno invitato"]
+      ]
+    },
+    "irregularTenses": {
+      "presente": false,
+      "passato_prossimo": false,
+      "imperfetto": false,
+      "futuro_semplice": false
+    }
+  },
+  {
+    "id": "lavorare",
+    "family": "are",
+    "irregular": false,
+    "auxiliary": "avere",
+    "reflexive": false,
+    "tier": 2,
+    "forms": ["lavoro", "lavori", "lavora", "lavoriamo", "lavorate", "lavorano"],
+    "paradigms": {
+      "presente": [["lavoro"], ["lavori"], ["lavora"], ["lavoriamo"], ["lavorate"], ["lavorano"]],
+      "imperfetto": [
+        ["lavoravo"],
+        ["lavoravi"],
+        ["lavorava"],
+        ["lavoravamo"],
+        ["lavoravate"],
+        ["lavoravano"]
+      ],
+      "futuro_semplice": [
+        ["lavorerò"],
+        ["lavorerai"],
+        ["lavorerà"],
+        ["lavoreremo"],
+        ["lavorerete"],
+        ["lavoreranno"]
+      ],
+      "passato_prossimo": [
+        ["ho lavorato"],
+        ["hai lavorato"],
+        ["ha lavorato"],
+        ["abbiamo lavorato"],
+        ["avete lavorato"],
+        ["hanno lavorato"]
+      ]
+    },
+    "irregularTenses": {
+      "presente": false,
+      "passato_prossimo": false,
+      "imperfetto": false,
+      "futuro_semplice": false
+    }
+  },
+  {
+    "id": "leggere",
+    "family": "ere",
+    "irregular": true,
+    "auxiliary": "avere",
+    "reflexive": false,
+    "tier": 2,
+    "forms": ["leggo", "leggi", "legge", "leggiamo", "leggete", "leggono"],
+    "paradigms": {
+      "presente": [["leggo"], ["leggi"], ["legge"], ["leggiamo"], ["leggete"], ["leggono"]],
+      "imperfetto": [
+        ["leggevo"],
+        ["leggevi"],
+        ["leggeva"],
+        ["leggevamo"],
+        ["leggevate"],
+        ["leggevano"]
+      ],
+      "futuro_semplice": [
+        ["leggerò"],
+        ["leggerai"],
+        ["leggerà"],
+        ["leggeremo"],
+        ["leggerete"],
+        ["leggeranno"]
+      ],
+      "passato_prossimo": [
+        ["ho letto"],
+        ["hai letto"],
+        ["ha letto"],
+        ["abbiamo letto"],
+        ["avete letto"],
+        ["hanno letto"]
+      ]
+    },
+    "irregularTenses": {
+      "presente": false,
+      "passato_prossimo": true,
+      "imperfetto": false,
+      "futuro_semplice": false
+    }
+  },
+  {
+    "id": "mangiare",
+    "family": "are",
+    "irregular": false,
+    "auxiliary": "avere",
+    "reflexive": false,
+    "tier": 2,
+    "forms": ["mangio", "mangi", "mangia", "mangiamo", "mangiate", "mangiano"],
+    "paradigms": {
+      "presente": [["mangio"], ["mangi"], ["mangia"], ["mangiamo"], ["mangiate"], ["mangiano"]],
+      "imperfetto": [
+        ["mangiavo"],
+        ["mangiavi"],
+        ["mangiava"],
+        ["mangiavamo"],
+        ["mangiavate"],
+        ["mangiavano"]
+      ],
+      "futuro_semplice": [
+        ["mangerò"],
+        ["mangerai"],
+        ["mangerà"],
+        ["mangeremo"],
+        ["mangerete"],
+        ["mangeranno"]
+      ],
+      "passato_prossimo": [
+        ["ho mangiato"],
+        ["hai mangiato"],
+        ["ha mangiato"],
+        ["abbiamo mangiato"],
+        ["avete mangiato"],
+        ["hanno mangiato"]
+      ]
+    },
+    "irregularTenses": {
+      "presente": false,
+      "passato_prossimo": false,
+      "imperfetto": false,
+      "futuro_semplice": false
+    }
+  },
+  {
+    "id": "ordinare",
+    "family": "are",
+    "irregular": false,
+    "auxiliary": "avere",
+    "reflexive": false,
+    "tier": 3,
+    "forms": ["ordino", "ordini", "ordina", "ordiniamo", "ordinate", "ordinano"],
+    "paradigms": {
+      "presente": [["ordino"], ["ordini"], ["ordina"], ["ordiniamo"], ["ordinate"], ["ordinano"]],
+      "imperfetto": [
+        ["ordinavo"],
+        ["ordinavi"],
+        ["ordinava"],
+        ["ordinavamo"],
+        ["ordinavate"],
+        ["ordinavano"]
+      ],
+      "futuro_semplice": [
+        ["ordinerò"],
+        ["ordinerai"],
+        ["ordinerà"],
+        ["ordineremo"],
+        ["ordinerete"],
+        ["ordineranno"]
+      ],
+      "passato_prossimo": [
+        ["ho ordinato"],
+        ["hai ordinato"],
+        ["ha ordinato"],
+        ["abbiamo ordinato"],
+        ["avete ordinato"],
+        ["hanno ordinato"]
+      ]
+    },
+    "irregularTenses": {
+      "presente": false,
+      "passato_prossimo": false,
+      "imperfetto": false,
+      "futuro_semplice": false
+    }
+  },
+  {
+    "id": "organizzare",
+    "family": "are",
+    "irregular": false,
+    "auxiliary": "avere",
+    "reflexive": false,
+    "tier": 2,
+    "forms": ["organizzo", "organizzi", "organizza", "organizziamo", "organizzate", "organizzano"],
+    "paradigms": {
+      "presente": [
+        ["organizzo"],
+        ["organizzi"],
+        ["organizza"],
+        ["organizziamo"],
+        ["organizzate"],
+        ["organizzano"]
+      ],
+      "imperfetto": [
+        ["organizzavo"],
+        ["organizzavi"],
+        ["organizzava"],
+        ["organizzavamo"],
+        ["organizzavate"],
+        ["organizzavano"]
+      ],
+      "futuro_semplice": [
+        ["organizzerò"],
+        ["organizzerai"],
+        ["organizzerà"],
+        ["organizzeremo"],
+        ["organizzerete"],
+        ["organizzeranno"]
+      ],
+      "passato_prossimo": [
+        ["ho organizzato"],
+        ["hai organizzato"],
+        ["ha organizzato"],
+        ["abbiamo organizzato"],
+        ["avete organizzato"],
+        ["hanno organizzato"]
+      ]
+    },
+    "irregularTenses": {
+      "presente": false,
+      "passato_prossimo": false,
+      "imperfetto": false,
+      "futuro_semplice": false
+    }
+  },
+  {
+    "id": "parlare",
+    "family": "are",
+    "irregular": false,
+    "auxiliary": "avere",
+    "reflexive": false,
+    "tier": 2,
+    "forms": ["parlo", "parli", "parla", "parliamo", "parlate", "parlano"],
+    "paradigms": {
+      "presente": [["parlo"], ["parli"], ["parla"], ["parliamo"], ["parlate"], ["parlano"]],
+      "imperfetto": [
+        ["parlavo"],
+        ["parlavi"],
+        ["parlava"],
+        ["parlavamo"],
+        ["parlavate"],
+        ["parlavano"]
+      ],
+      "futuro_semplice": [
+        ["parlerò"],
+        ["parlerai"],
+        ["parlerà"],
+        ["parleremo"],
+        ["parlerete"],
+        ["parleranno"]
+      ],
+      "passato_prossimo": [
+        ["ho parlato"],
+        ["hai parlato"],
+        ["ha parlato"],
+        ["abbiamo parlato"],
+        ["avete parlato"],
+        ["hanno parlato"]
+      ]
+    },
+    "irregularTenses": {
+      "presente": false,
+      "passato_prossimo": false,
+      "imperfetto": false,
+      "futuro_semplice": false
+    }
+  },
+  {
+    "id": "passare",
+    "family": "are",
+    "irregular": false,
+    "auxiliary": "avere",
+    "reflexive": false,
+    "tier": 2,
+    "forms": ["passo", "passi", "passa", "passiamo", "passate", "passano"],
+    "paradigms": {
+      "presente": [["passo"], ["passi"], ["passa"], ["passiamo"], ["passate"], ["passano"]],
+      "imperfetto": [
+        ["passavo"],
+        ["passavi"],
+        ["passava"],
+        ["passavamo"],
+        ["passavate"],
+        ["passavano"]
+      ],
+      "futuro_semplice": [
+        ["passerò"],
+        ["passerai"],
+        ["passerà"],
+        ["passeremo"],
+        ["passerete"],
+        ["passeranno"]
+      ],
+      "passato_prossimo": [
+        ["ho passato"],
+        ["hai passato"],
+        ["ha passato"],
+        ["abbiamo passato"],
+        ["avete passato"],
+        ["hanno passato"]
+      ]
+    },
+    "irregularTenses": {
+      "presente": false,
+      "passato_prossimo": false,
+      "imperfetto": false,
+      "futuro_semplice": false
+    }
+  },
+  {
+    "id": "perdersi",
+    "family": "ere",
+    "irregular": true,
+    "auxiliary": "essere",
+    "reflexive": true,
+    "tier": 3,
+    "forms": ["mi perdo", "ti perdi", "si perde", "ci perdiamo", "vi perdete", "si perdono"],
+    "paradigms": {
+      "presente": [
+        ["mi perdo"],
+        ["ti perdi"],
+        ["si perde"],
+        ["ci perdiamo"],
+        ["vi perdete"],
+        ["si perdono"]
+      ],
+      "imperfetto": [
+        ["mi perdevo"],
+        ["ti perdevi"],
+        ["si perdeva"],
+        ["ci perdevamo"],
+        ["vi perdevate"],
+        ["si perdevano"]
+      ],
+      "futuro_semplice": [
+        ["mi perderò"],
+        ["ti perderai"],
+        ["si perderà"],
+        ["ci perderemo"],
+        ["vi perderete"],
+        ["si perderanno"]
+      ],
+      "passato_prossimo": [
+        ["mi sono perso", "mi sono persa", "mi sono perduto", "mi sono perduta"],
+        ["ti sei perso", "ti sei persa", "ti sei perduto", "ti sei perduta"],
+        ["si è perso", "si è persa", "si è perduto", "si è perduta"],
+        ["ci siamo persi", "ci siamo perse", "ci siamo perduti", "ci siamo perdute"],
+        ["vi siete persi", "vi siete perse", "vi siete perduti", "vi siete perdute"],
+        ["si sono persi", "si sono perse", "si sono perduti", "si sono perdute"]
+      ]
+    },
+    "irregularTenses": {
+      "presente": false,
+      "passato_prossimo": true,
+      "imperfetto": false,
+      "futuro_semplice": false
+    }
+  },
+  {
+    "id": "potere",
+    "family": "ere",
+    "irregular": true,
+    "auxiliary": "avere",
+    "reflexive": false,
+    "tier": 2,
+    "forms": ["posso", "puoi", "può", "possiamo", "potete", "possono"],
+    "paradigms": {
+      "presente": [["posso"], ["puoi"], ["può"], ["possiamo"], ["potete"], ["possono"]],
+      "imperfetto": [["potevo"], ["potevi"], ["poteva"], ["potevamo"], ["potevate"], ["potevano"]],
+      "futuro_semplice": [["potrò"], ["potrai"], ["potrà"], ["potremo"], ["potrete"], ["potranno"]],
+      "passato_prossimo": [
+        ["ho potuto"],
+        ["hai potuto"],
+        ["ha potuto"],
+        ["abbiamo potuto"],
+        ["avete potuto"],
+        ["hanno potuto"]
+      ]
+    },
+    "irregularTenses": {
+      "presente": true,
+      "passato_prossimo": false,
+      "imperfetto": false,
+      "futuro_semplice": true
+    }
+  },
+  {
+    "id": "preferire",
+    "family": "ire",
+    "irregular": false,
+    "auxiliary": "avere",
+    "reflexive": false,
+    "tier": 2,
+    "forms": ["preferisco", "preferisci", "preferisce", "preferiamo", "preferite", "preferiscono"],
+    "paradigms": {
+      "presente": [
+        ["preferisco"],
+        ["preferisci"],
+        ["preferisce"],
+        ["preferiamo"],
+        ["preferite"],
+        ["preferiscono"]
+      ],
+      "imperfetto": [
+        ["preferivo"],
+        ["preferivi"],
+        ["preferiva"],
+        ["preferivamo"],
+        ["preferivate"],
+        ["preferivano"]
+      ],
+      "futuro_semplice": [
+        ["preferirò"],
+        ["preferirai"],
+        ["preferirà"],
+        ["preferiremo"],
+        ["preferirete"],
+        ["preferiranno"]
+      ],
+      "passato_prossimo": [
+        ["ho preferito"],
+        ["hai preferito"],
+        ["ha preferito"],
+        ["abbiamo preferito"],
+        ["avete preferito"],
+        ["hanno preferito"]
+      ]
+    },
+    "irregularTenses": {
+      "presente": false,
+      "passato_prossimo": false,
+      "imperfetto": false,
+      "futuro_semplice": false
+    }
+  },
+  {
+    "id": "prendere",
+    "family": "ere",
+    "irregular": true,
+    "auxiliary": "avere",
+    "reflexive": false,
+    "tier": 1,
+    "forms": ["prendo", "prendi", "prende", "prendiamo", "prendete", "prendono"],
+    "paradigms": {
+      "presente": [["prendo"], ["prendi"], ["prende"], ["prendiamo"], ["prendete"], ["prendono"]],
+      "imperfetto": [
+        ["prendevo"],
+        ["prendevi"],
+        ["prendeva"],
+        ["prendevamo"],
+        ["prendevate"],
+        ["prendevano"]
+      ],
+      "futuro_semplice": [
+        ["prenderò"],
+        ["prenderai"],
+        ["prenderà"],
+        ["prenderemo"],
+        ["prenderete"],
+        ["prenderanno"]
+      ],
+      "passato_prossimo": [
+        ["ho preso"],
+        ["hai preso"],
+        ["ha preso"],
+        ["abbiamo preso"],
+        ["avete preso"],
+        ["hanno preso"]
+      ]
+    },
+    "irregularTenses": {
+      "presente": false,
+      "passato_prossimo": true,
+      "imperfetto": false,
+      "futuro_semplice": false
+    }
+  },
+  {
+    "id": "preparare",
+    "family": "are",
+    "irregular": false,
+    "auxiliary": "avere",
+    "reflexive": false,
+    "tier": 2,
+    "forms": ["preparo", "prepari", "prepara", "prepariamo", "preparate", "preparano"],
+    "paradigms": {
+      "presente": [
+        ["preparo"],
+        ["prepari"],
+        ["prepara"],
+        ["prepariamo"],
+        ["preparate"],
+        ["preparano"]
+      ],
+      "imperfetto": [
+        ["preparavo"],
+        ["preparavi"],
+        ["preparava"],
+        ["preparavamo"],
+        ["preparavate"],
+        ["preparavano"]
+      ],
+      "futuro_semplice": [
+        ["preparerò"],
+        ["preparerai"],
+        ["preparerà"],
+        ["prepareremo"],
+        ["preparerete"],
+        ["prepareranno"]
+      ],
+      "passato_prossimo": [
+        ["ho preparato"],
+        ["hai preparato"],
+        ["ha preparato"],
+        ["abbiamo preparato"],
+        ["avete preparato"],
+        ["hanno preparato"]
+      ]
+    },
+    "irregularTenses": {
+      "presente": false,
+      "passato_prossimo": false,
+      "imperfetto": false,
+      "futuro_semplice": false
+    }
+  },
+  {
+    "id": "promettere",
+    "family": "ere",
+    "irregular": true,
+    "auxiliary": "avere",
+    "reflexive": false,
+    "tier": 2,
+    "forms": ["prometto", "prometti", "promette", "promettiamo", "promettete", "promettono"],
+    "paradigms": {
+      "presente": [
+        ["prometto"],
+        ["prometti"],
+        ["promette"],
+        ["promettiamo"],
+        ["promettete"],
+        ["promettono"]
+      ],
+      "imperfetto": [
+        ["promettevo"],
+        ["promettevi"],
+        ["prometteva"],
+        ["promettevamo"],
+        ["promettevate"],
+        ["promettevano"]
+      ],
+      "futuro_semplice": [
+        ["prometterò"],
+        ["prometterai"],
+        ["prometterà"],
+        ["prometteremo"],
+        ["prometterete"],
+        ["prometteranno"]
+      ],
+      "passato_prossimo": [
+        ["ho promesso"],
+        ["hai promesso"],
+        ["ha promesso"],
+        ["abbiamo promesso"],
+        ["avete promesso"],
+        ["hanno promesso"]
+      ]
+    },
+    "irregularTenses": {
+      "presente": false,
+      "passato_prossimo": true,
+      "imperfetto": false,
+      "futuro_semplice": false
+    }
+  },
+  {
+    "id": "pulire",
+    "family": "ire",
+    "irregular": false,
+    "auxiliary": "avere",
+    "reflexive": false,
+    "tier": 2,
+    "forms": ["pulisco", "pulisci", "pulisce", "puliamo", "pulite", "puliscono"],
+    "paradigms": {
+      "presente": [["pulisco"], ["pulisci"], ["pulisce"], ["puliamo"], ["pulite"], ["puliscono"]],
+      "imperfetto": [["pulivo"], ["pulivi"], ["puliva"], ["pulivamo"], ["pulivate"], ["pulivano"]],
+      "futuro_semplice": [
+        ["pulirò"],
+        ["pulirai"],
+        ["pulirà"],
+        ["puliremo"],
+        ["pulirete"],
+        ["puliranno"]
+      ],
+      "passato_prossimo": [
+        ["ho pulito"],
+        ["hai pulito"],
+        ["ha pulito"],
+        ["abbiamo pulito"],
+        ["avete pulito"],
+        ["hanno pulito"]
+      ]
+    },
+    "irregularTenses": {
+      "presente": false,
+      "passato_prossimo": false,
+      "imperfetto": false,
+      "futuro_semplice": false
+    }
+  },
+  {
+    "id": "puntare",
+    "family": "are",
+    "irregular": false,
+    "auxiliary": "avere",
+    "reflexive": false,
+    "tier": 2,
+    "forms": ["punto", "punti", "punta", "puntiamo", "puntate", "puntano"],
+    "paradigms": {
+      "presente": [["punto"], ["punti"], ["punta"], ["puntiamo"], ["puntate"], ["puntano"]],
+      "imperfetto": [
+        ["puntavo"],
+        ["puntavi"],
+        ["puntava"],
+        ["puntavamo"],
+        ["puntavate"],
+        ["puntavano"]
+      ],
+      "futuro_semplice": [
+        ["punterò"],
+        ["punterai"],
+        ["punterà"],
+        ["punteremo"],
+        ["punterete"],
+        ["punteranno"]
+      ],
+      "passato_prossimo": [
+        ["ho puntato"],
+        ["hai puntato"],
+        ["ha puntato"],
+        ["abbiamo puntato"],
+        ["avete puntato"],
+        ["hanno puntato"]
+      ]
+    },
+    "irregularTenses": {
+      "presente": false,
+      "passato_prossimo": false,
+      "imperfetto": false,
+      "futuro_semplice": false
+    }
+  },
+  {
+    "id": "ricevere",
+    "family": "ere",
+    "irregular": false,
+    "auxiliary": "avere",
+    "reflexive": false,
+    "tier": 2,
+    "forms": ["ricevo", "ricevi", "riceve", "riceviamo", "ricevete", "ricevono"],
+    "paradigms": {
+      "presente": [["ricevo"], ["ricevi"], ["riceve"], ["riceviamo"], ["ricevete"], ["ricevono"]],
+      "imperfetto": [
+        ["ricevevo"],
+        ["ricevevi"],
+        ["riceveva"],
+        ["ricevevamo"],
+        ["ricevevate"],
+        ["ricevevano"]
+      ],
+      "futuro_semplice": [
+        ["riceverò"],
+        ["riceverai"],
+        ["riceverà"],
+        ["riceveremo"],
+        ["riceverete"],
+        ["riceveranno"]
+      ],
+      "passato_prossimo": [
+        ["ho ricevuto"],
+        ["hai ricevuto"],
+        ["ha ricevuto"],
+        ["abbiamo ricevuto"],
+        ["avete ricevuto"],
+        ["hanno ricevuto"]
+      ]
+    },
+    "irregularTenses": {
+      "presente": false,
+      "passato_prossimo": false,
+      "imperfetto": false,
+      "futuro_semplice": false
+    }
+  },
+  {
+    "id": "risolvere",
+    "family": "ere",
+    "irregular": true,
+    "auxiliary": "avere",
+    "reflexive": false,
+    "tier": 3,
+    "forms": ["risolvo", "risolvi", "risolve", "risolviamo", "risolvete", "risolvono"],
+    "paradigms": {
+      "presente": [
+        ["risolvo"],
+        ["risolvi"],
+        ["risolve"],
+        ["risolviamo"],
+        ["risolvete"],
+        ["risolvono"]
+      ],
+      "imperfetto": [
+        ["risolvevo"],
+        ["risolvevi"],
+        ["risolveva"],
+        ["risolvevamo"],
+        ["risolvevate"],
+        ["risolvevano"]
+      ],
+      "futuro_semplice": [
+        ["risolverò"],
+        ["risolverai"],
+        ["risolverà"],
+        ["risolveremo"],
+        ["risolverete"],
+        ["risolveranno"]
+      ],
+      "passato_prossimo": [
+        ["ho risolto"],
+        ["hai risolto"],
+        ["ha risolto"],
+        ["abbiamo risolto"],
+        ["avete risolto"],
+        ["hanno risolto"]
+      ]
+    },
+    "irregularTenses": {
+      "presente": false,
+      "passato_prossimo": true,
+      "imperfetto": false,
+      "futuro_semplice": false
+    }
+  },
+  {
+    "id": "rispondere",
+    "family": "ere",
+    "irregular": true,
+    "auxiliary": "avere",
+    "reflexive": false,
+    "tier": 2,
+    "forms": ["rispondo", "rispondi", "risponde", "rispondiamo", "rispondete", "rispondono"],
+    "paradigms": {
+      "presente": [
+        ["rispondo"],
+        ["rispondi"],
+        ["risponde"],
+        ["rispondiamo"],
+        ["rispondete"],
+        ["rispondono"]
+      ],
+      "imperfetto": [
+        ["rispondevo"],
+        ["rispondevi"],
+        ["rispondeva"],
+        ["rispondevamo"],
+        ["rispondevate"],
+        ["rispondevano"]
+      ],
+      "futuro_semplice": [
+        ["risponderò"],
+        ["risponderai"],
+        ["risponderà"],
+        ["risponderemo"],
+        ["risponderete"],
+        ["risponderanno"]
+      ],
+      "passato_prossimo": [
+        ["ho risposto"],
+        ["hai risposto"],
+        ["ha risposto"],
+        ["abbiamo risposto"],
+        ["avete risposto"],
+        ["hanno risposto"]
+      ]
+    },
+    "irregularTenses": {
+      "presente": false,
+      "passato_prossimo": true,
+      "imperfetto": false,
+      "futuro_semplice": false
+    }
+  },
+  {
+    "id": "sapere",
+    "family": "ere",
+    "irregular": true,
+    "auxiliary": "avere",
+    "reflexive": false,
+    "tier": 1,
+    "forms": ["so", "sai", "sa", "sappiamo", "sapete", "sanno"],
+    "paradigms": {
+      "presente": [["so"], ["sai"], ["sa"], ["sappiamo"], ["sapete"], ["sanno"]],
+      "imperfetto": [["sapevo"], ["sapevi"], ["sapeva"], ["sapevamo"], ["sapevate"], ["sapevano"]],
+      "futuro_semplice": [["saprò"], ["saprai"], ["saprà"], ["sapremo"], ["saprete"], ["sapranno"]],
+      "passato_prossimo": [
+        ["ho saputo"],
+        ["hai saputo"],
+        ["ha saputo"],
+        ["abbiamo saputo"],
+        ["avete saputo"],
+        ["hanno saputo"]
+      ]
+    },
+    "irregularTenses": {
+      "presente": true,
+      "passato_prossimo": false,
+      "imperfetto": false,
+      "futuro_semplice": true
+    }
+  },
+  {
+    "id": "scrivere",
+    "family": "ere",
+    "irregular": true,
+    "auxiliary": "avere",
+    "reflexive": false,
+    "tier": 2,
+    "forms": ["scrivo", "scrivi", "scrive", "scriviamo", "scrivete", "scrivono"],
+    "paradigms": {
+      "presente": [["scrivo"], ["scrivi"], ["scrive"], ["scriviamo"], ["scrivete"], ["scrivono"]],
+      "imperfetto": [
+        ["scrivevo"],
+        ["scrivevi"],
+        ["scriveva"],
+        ["scrivevamo"],
+        ["scrivevate"],
+        ["scrivevano"]
+      ],
+      "futuro_semplice": [
+        ["scriverò"],
+        ["scriverai"],
+        ["scriverà"],
+        ["scriveremo"],
+        ["scriverete"],
+        ["scriveranno"]
+      ],
+      "passato_prossimo": [
+        ["ho scritto"],
+        ["hai scritto"],
+        ["ha scritto"],
+        ["abbiamo scritto"],
+        ["avete scritto"],
+        ["hanno scritto"]
+      ]
+    },
+    "irregularTenses": {
+      "presente": false,
+      "passato_prossimo": true,
+      "imperfetto": false,
+      "futuro_semplice": false
+    }
+  },
+  {
+    "id": "spedire",
+    "family": "ire",
+    "irregular": false,
+    "auxiliary": "avere",
+    "reflexive": false,
+    "tier": 3,
+    "forms": ["spedisco", "spedisci", "spedisce", "spediamo", "spedite", "spediscono"],
+    "paradigms": {
+      "presente": [
+        ["spedisco"],
+        ["spedisci"],
+        ["spedisce"],
+        ["spediamo"],
+        ["spedite"],
+        ["spediscono"]
+      ],
+      "imperfetto": [
+        ["spedivo"],
+        ["spedivi"],
+        ["spediva"],
+        ["spedivamo"],
+        ["spedivate"],
+        ["spedivano"]
+      ],
+      "futuro_semplice": [
+        ["spedirò"],
+        ["spedirai"],
+        ["spedirà"],
+        ["spediremo"],
+        ["spedirete"],
+        ["spediranno"]
+      ],
+      "passato_prossimo": [
+        ["ho spedito"],
+        ["hai spedito"],
+        ["ha spedito"],
+        ["abbiamo spedito"],
+        ["avete spedito"],
+        ["hanno spedito"]
+      ]
+    },
+    "irregularTenses": {
+      "presente": false,
+      "passato_prossimo": false,
+      "imperfetto": false,
+      "futuro_semplice": false
+    }
+  },
+  {
+    "id": "spegnere",
+    "family": "ere",
+    "irregular": true,
+    "auxiliary": "avere",
+    "reflexive": false,
+    "tier": 3,
+    "forms": ["spengo", "spegni", "spegne", "spegniamo", "spegnete", "spengono"],
+    "paradigms": {
+      "presente": [["spengo"], ["spegni"], ["spegne"], ["spegniamo"], ["spegnete"], ["spengono"]],
+      "imperfetto": [
+        ["spegnevo"],
+        ["spegnevi"],
+        ["spegneva"],
+        ["spegnevamo"],
+        ["spegnevate"],
+        ["spegnevano"]
+      ],
+      "futuro_semplice": [
+        ["spegnerò"],
+        ["spegnerai"],
+        ["spegnerà"],
+        ["spegneremo"],
+        ["spegnerete"],
+        ["spegneranno"]
+      ],
+      "passato_prossimo": [
+        ["ho spento"],
+        ["hai spento"],
+        ["ha spento"],
+        ["abbiamo spento"],
+        ["avete spento"],
+        ["hanno spento"]
+      ]
+    },
+    "irregularTenses": {
+      "presente": true,
+      "passato_prossimo": true,
+      "imperfetto": false,
+      "futuro_semplice": false
+    }
+  },
+  {
+    "id": "stare",
+    "family": "are",
+    "irregular": true,
+    "auxiliary": "essere",
+    "reflexive": false,
+    "tier": 1,
+    "forms": ["sto", "stai", "sta", "stiamo", "state", "stanno"],
+    "paradigms": {
+      "presente": [["sto"], ["stai"], ["sta"], ["stiamo"], ["state"], ["stanno"]],
+      "imperfetto": [["stavo"], ["stavi"], ["stava"], ["stavamo"], ["stavate"], ["stavano"]],
+      "futuro_semplice": [["starò"], ["starai"], ["starà"], ["staremo"], ["starete"], ["staranno"]],
+      "passato_prossimo": [
+        ["sono stato", "sono stata"],
+        ["sei stato", "sei stata"],
+        ["è stato", "è stata"],
+        ["siamo stati", "siamo state"],
+        ["siete stati", "siete state"],
+        ["sono stati", "sono state"]
+      ]
+    },
+    "irregularTenses": {
+      "presente": true,
+      "passato_prossimo": false,
+      "imperfetto": false,
+      "futuro_semplice": true
+    }
+  },
+  {
+    "id": "suonare",
+    "family": "are",
+    "irregular": false,
+    "auxiliary": "avere",
+    "reflexive": false,
+    "tier": 2,
+    "forms": ["suono", "suoni", "suona", "suoniamo", "suonate", "suonano"],
+    "paradigms": {
+      "presente": [["suono"], ["suoni"], ["suona"], ["suoniamo"], ["suonate"], ["suonano"]],
+      "imperfetto": [
+        ["suonavo"],
+        ["suonavi"],
+        ["suonava"],
+        ["suonavamo"],
+        ["suonavate"],
+        ["suonavano"]
+      ],
+      "futuro_semplice": [
+        ["suonerò"],
+        ["suonerai"],
+        ["suonerà"],
+        ["suoneremo"],
+        ["suonerete"],
+        ["suoneranno"]
+      ],
+      "passato_prossimo": [
+        ["ho suonato"],
+        ["hai suonato"],
+        ["ha suonato"],
+        ["abbiamo suonato"],
+        ["avete suonato"],
+        ["hanno suonato"]
+      ]
+    },
+    "irregularTenses": {
+      "presente": false,
+      "passato_prossimo": false,
+      "imperfetto": false,
+      "futuro_semplice": false
+    }
+  },
+  {
+    "id": "superare",
+    "family": "are",
+    "irregular": false,
+    "auxiliary": "avere",
+    "reflexive": false,
+    "tier": 2,
+    "forms": ["supero", "superi", "supera", "superiamo", "superate", "superano"],
+    "paradigms": {
+      "presente": [["supero"], ["superi"], ["supera"], ["superiamo"], ["superate"], ["superano"]],
+      "imperfetto": [
+        ["superavo"],
+        ["superavi"],
+        ["superava"],
+        ["superavamo"],
+        ["superavate"],
+        ["superavano"]
+      ],
+      "futuro_semplice": [
+        ["supererò"],
+        ["supererai"],
+        ["supererà"],
+        ["supereremo"],
+        ["supererete"],
+        ["supereranno"]
+      ],
+      "passato_prossimo": [
+        ["ho superato"],
+        ["hai superato"],
+        ["ha superato"],
+        ["abbiamo superato"],
+        ["avete superato"],
+        ["hanno superato"]
+      ]
+    },
+    "irregularTenses": {
+      "presente": false,
+      "passato_prossimo": false,
+      "imperfetto": false,
+      "futuro_semplice": false
+    }
+  },
+  {
+    "id": "tornare",
+    "family": "are",
+    "irregular": false,
+    "auxiliary": "essere",
+    "reflexive": false,
+    "tier": 1,
+    "forms": ["torno", "torni", "torna", "torniamo", "tornate", "tornano"],
+    "paradigms": {
+      "presente": [["torno"], ["torni"], ["torna"], ["torniamo"], ["tornate"], ["tornano"]],
+      "imperfetto": [
+        ["tornavo"],
+        ["tornavi"],
+        ["tornava"],
+        ["tornavamo"],
+        ["tornavate"],
+        ["tornavano"]
+      ],
+      "futuro_semplice": [
+        ["tornerò"],
+        ["tornerai"],
+        ["tornerà"],
+        ["torneremo"],
+        ["tornerete"],
+        ["torneranno"]
+      ],
+      "passato_prossimo": [
+        ["sono tornato", "sono tornata"],
+        ["sei tornato", "sei tornata"],
+        ["è tornato", "è tornata"],
+        ["siamo tornati", "siamo tornate"],
+        ["siete tornati", "siete tornate"],
+        ["sono tornati", "sono tornate"]
+      ]
+    },
+    "irregularTenses": {
+      "presente": false,
+      "passato_prossimo": false,
+      "imperfetto": false,
+      "futuro_semplice": false
+    }
+  },
+  {
+    "id": "uscire",
+    "family": "ire",
+    "irregular": true,
+    "auxiliary": "essere",
+    "reflexive": false,
+    "tier": 1,
+    "forms": ["esco", "esci", "esce", "usciamo", "uscite", "escono"],
+    "paradigms": {
+      "presente": [["esco"], ["esci"], ["esce"], ["usciamo"], ["uscite"], ["escono"]],
+      "imperfetto": [["uscivo"], ["uscivi"], ["usciva"], ["uscivamo"], ["uscivate"], ["uscivano"]],
+      "futuro_semplice": [
+        ["uscirò"],
+        ["uscirai"],
+        ["uscirà"],
+        ["usciremo"],
+        ["uscirete"],
+        ["usciranno"]
+      ],
+      "passato_prossimo": [
+        ["sono uscito", "sono uscita"],
+        ["sei uscito", "sei uscita"],
+        ["è uscito", "è uscita"],
+        ["siamo usciti", "siamo uscite"],
+        ["siete usciti", "siete uscite"],
+        ["sono usciti", "sono uscite"]
+      ]
+    },
+    "irregularTenses": {
+      "presente": true,
+      "passato_prossimo": false,
+      "imperfetto": false,
+      "futuro_semplice": false
+    }
+  },
+  {
+    "id": "vedere",
+    "family": "ere",
+    "irregular": true,
+    "auxiliary": "avere",
+    "reflexive": false,
+    "tier": 1,
+    "forms": ["vedo", "vedi", "vede", "vediamo", "vedete", "vedono"],
+    "paradigms": {
+      "presente": [["vedo"], ["vedi"], ["vede"], ["vediamo"], ["vedete"], ["vedono"]],
+      "imperfetto": [["vedevo"], ["vedevi"], ["vedeva"], ["vedevamo"], ["vedevate"], ["vedevano"]],
+      "futuro_semplice": [["vedrò"], ["vedrai"], ["vedrà"], ["vedremo"], ["vedrete"], ["vedranno"]],
+      "passato_prossimo": [
+        ["ho visto", "ho veduto"],
+        ["hai visto", "hai veduto"],
+        ["ha visto", "ha veduto"],
+        ["abbiamo visto", "abbiamo veduto"],
+        ["avete visto", "avete veduto"],
+        ["hanno visto", "hanno veduto"]
+      ]
+    },
+    "irregularTenses": {
+      "presente": false,
+      "passato_prossimo": true,
+      "imperfetto": false,
+      "futuro_semplice": true
+    }
+  },
+  {
+    "id": "venire",
+    "family": "ire",
+    "irregular": true,
+    "auxiliary": "essere",
+    "reflexive": false,
+    "tier": 1,
+    "forms": ["vengo", "vieni", "viene", "veniamo", "venite", "vengono"],
+    "paradigms": {
+      "presente": [["vengo"], ["vieni"], ["viene"], ["veniamo"], ["venite"], ["vengono"]],
+      "imperfetto": [["venivo"], ["venivi"], ["veniva"], ["venivamo"], ["venivate"], ["venivano"]],
+      "futuro_semplice": [["verrò"], ["verrai"], ["verrà"], ["verremo"], ["verrete"], ["verranno"]],
+      "passato_prossimo": [
+        ["sono venuto", "sono venuta"],
+        ["sei venuto", "sei venuta"],
+        ["è venuto", "è venuta"],
+        ["siamo venuti", "siamo venute"],
+        ["siete venuti", "siete venute"],
+        ["sono venuti", "sono venute"]
+      ]
+    },
+    "irregularTenses": {
+      "presente": true,
+      "passato_prossimo": true,
+      "imperfetto": false,
+      "futuro_semplice": true
+    }
+  },
+  {
+    "id": "viaggiare",
+    "family": "are",
+    "irregular": false,
+    "auxiliary": "avere",
+    "reflexive": false,
+    "tier": 2,
+    "forms": ["viaggio", "viaggi", "viaggia", "viaggiamo", "viaggiate", "viaggiano"],
+    "paradigms": {
+      "presente": [
+        ["viaggio"],
+        ["viaggi"],
+        ["viaggia"],
+        ["viaggiamo"],
+        ["viaggiate"],
+        ["viaggiano"]
+      ],
+      "imperfetto": [
+        ["viaggiavo"],
+        ["viaggiavi"],
+        ["viaggiava"],
+        ["viaggiavamo"],
+        ["viaggiavate"],
+        ["viaggiavano"]
+      ],
+      "futuro_semplice": [
+        ["viaggerò"],
+        ["viaggerai"],
+        ["viaggerà"],
+        ["viaggeremo"],
+        ["viaggerete"],
+        ["viaggeranno"]
+      ],
+      "passato_prossimo": [
+        ["ho viaggiato"],
+        ["hai viaggiato"],
+        ["ha viaggiato"],
+        ["abbiamo viaggiato"],
+        ["avete viaggiato"],
+        ["hanno viaggiato"]
+      ]
+    },
+    "irregularTenses": {
+      "presente": false,
+      "passato_prossimo": false,
+      "imperfetto": false,
+      "futuro_semplice": false
+    }
+  },
+  {
+    "id": "visitare",
+    "family": "are",
+    "irregular": false,
+    "auxiliary": "avere",
+    "reflexive": false,
+    "tier": 2,
+    "forms": ["visito", "visiti", "visita", "visitiamo", "visitate", "visitano"],
+    "paradigms": {
+      "presente": [["visito"], ["visiti"], ["visita"], ["visitiamo"], ["visitate"], ["visitano"]],
+      "imperfetto": [
+        ["visitavo"],
+        ["visitavi"],
+        ["visitava"],
+        ["visitavamo"],
+        ["visitavate"],
+        ["visitavano"]
+      ],
+      "futuro_semplice": [
+        ["visiterò"],
+        ["visiterai"],
+        ["visiterà"],
+        ["visiteremo"],
+        ["visiterete"],
+        ["visiteranno"]
+      ],
+      "passato_prossimo": [
+        ["ho visitato"],
+        ["hai visitato"],
+        ["ha visitato"],
+        ["abbiamo visitato"],
+        ["avete visitato"],
+        ["hanno visitato"]
+      ]
+    },
+    "irregularTenses": {
+      "presente": false,
+      "passato_prossimo": false,
+      "imperfetto": false,
+      "futuro_semplice": false
+    }
+  },
+  {
+    "id": "volere",
+    "family": "ere",
+    "irregular": true,
+    "auxiliary": "avere",
+    "reflexive": false,
+    "tier": 1,
+    "forms": ["voglio", "vuoi", "vuole", "vogliamo", "volete", "vogliono"],
+    "paradigms": {
+      "presente": [["voglio"], ["vuoi"], ["vuole"], ["vogliamo"], ["volete"], ["vogliono"]],
+      "imperfetto": [["volevo"], ["volevi"], ["voleva"], ["volevamo"], ["volevate"], ["volevano"]],
+      "futuro_semplice": [["vorrò"], ["vorrai"], ["vorrà"], ["vorremo"], ["vorrete"], ["vorranno"]],
+      "passato_prossimo": [
+        ["ho voluto"],
+        ["hai voluto"],
+        ["ha voluto"],
+        ["abbiamo voluto"],
+        ["avete voluto"],
+        ["hanno voluto"]
+      ]
+    },
+    "irregularTenses": {
+      "presente": true,
+      "passato_prossimo": false,
+      "imperfetto": false,
+      "futuro_semplice": true
+    }
   }
 ]

@@ -1,0 +1,1142 @@
+[
+  {
+    "id": "sent-past-101",
+    "context_theme": "travel_commuting",
+    "text_template": "Ieri mattina, per andare in ufficio, io {slot_0} la metropolitana.",
+    "constraint_type": "temporal_anchor",
+    "difficulty_level": 2,
+    "targets": [
+      {
+        "slot_id": 0,
+        "token_index": 9,
+        "verb": "prendere",
+        "mood": "indicativo",
+        "tense": "indicativo_passato_prossimo",
+        "person": "io",
+        "accepted_answers": ["ho preso"],
+        "explanation": "Il verbo prendere è transitivo e richiede l'ausiliare avere, seguito dal participio passato regolare o irregolare (preso)."
+      }
+    ]
+  },
+  {
+    "id": "sent-past-102",
+    "context_theme": "travel_commuting",
+    "text_template": "La settimana scorsa, Maria {slot_0} a Roma per un viaggio di lavoro.",
+    "constraint_type": "temporal_anchor",
+    "difficulty_level": 2,
+    "targets": [
+      {
+        "slot_id": 0,
+        "token_index": 5,
+        "verb": "andare",
+        "mood": "indicativo",
+        "tense": "indicativo_passato_prossimo",
+        "person": "lui_lei",
+        "accepted_answers": ["è andata"],
+        "explanation": "I verbi di movimento come andare richiedono l'ausiliare essere e il participio passato concordato al femminile (andata)."
+      }
+    ]
+  },
+  {
+    "id": "sent-past-103",
+    "context_theme": "home_lifestyle",
+    "text_template": "Ieri sera noi {slot_0} una cena deliziosa tutti insieme.",
+    "constraint_type": "temporal_anchor",
+    "difficulty_level": 2,
+    "targets": [
+      {
+        "slot_id": 0,
+        "token_index": 4,
+        "verb": "preparare",
+        "mood": "indicativo",
+        "tense": "indicativo_passato_prossimo",
+        "person": "noi",
+        "accepted_answers": ["abbiamo preparato"],
+        "explanation": "Il verbo preparare è transitivo e richiede l'ausiliare avere unito al participio passato preparato."
+      }
+    ]
+  },
+  {
+    "id": "sent-past-104",
+    "context_theme": "daily_routine",
+    "text_template": "Stamattina i bambini {slot_0} molto presto per andare a scuola.",
+    "constraint_type": "temporal_anchor",
+    "difficulty_level": 2,
+    "targets": [
+      {
+        "slot_id": 0,
+        "token_index": 4,
+        "verb": "alzarsi",
+        "mood": "indicativo",
+        "tense": "indicativo_passato_prossimo",
+        "person": "loro",
+        "accepted_answers": ["si sono alzati", "si sono alzate"],
+        "explanation": "I verbi riflessivi richiedono sempre l'ausiliare essere e il participio passato concordato in genere e numero con il soggetto plurale."
+      }
+    ]
+  },
+  {
+    "id": "sent-past-105",
+    "context_theme": "work_office",
+    "text_template": "Due giorni fa tu {slot_0} tutte le email importanti.",
+    "constraint_type": "temporal_anchor",
+    "difficulty_level": 2,
+    "targets": [
+      {
+        "slot_id": 0,
+        "token_index": 4,
+        "verb": "rispondere",
+        "mood": "indicativo",
+        "tense": "indicativo_passato_prossimo",
+        "person": "tu",
+        "accepted_answers": ["hai risposto"],
+        "explanation": "Il verbo rispondere richiede l'ausiliare avere e il participio passato irregolare risposto."
+      }
+    ]
+  },
+  {
+    "id": "sent-past-106",
+    "context_theme": "social_life",
+    "text_template": "L'anno scorso voi {slot_0} una vacanza meravigliosa in Spagna.",
+    "constraint_type": "temporal_anchor",
+    "difficulty_level": 2,
+    "targets": [
+      {
+        "slot_id": 0,
+        "token_index": 4,
+        "verb": "fare",
+        "mood": "indicativo",
+        "tense": "indicativo_passato_prossimo",
+        "person": "voi",
+        "accepted_answers": ["avete fatto"],
+        "explanation": "Il verbo fare è transitivo e ha un participio passato irregolare (fatto), preceduto dall'ausiliare avere."
+      }
+    ]
+  },
+  {
+    "id": "sent-past-107",
+    "context_theme": "travel_commuting",
+    "text_template": "Poco fa Luca {slot_0} a casa dopo una lunga giornata.",
+    "constraint_type": "temporal_anchor",
+    "difficulty_level": 2,
+    "targets": [
+      {
+        "slot_id": 0,
+        "token_index": 3,
+        "verb": "tornare",
+        "mood": "indicativo",
+        "tense": "indicativo_passato_prossimo",
+        "person": "lui_lei",
+        "accepted_answers": ["è tornato"],
+        "explanation": "Il verbo tornare esprime movimento e stato, richiedendo l'ausiliare essere con accordo maschile singolare."
+      }
+    ]
+  },
+  {
+    "id": "sent-past-108",
+    "context_theme": "leisure",
+    "text_template": "Ieri sera io {slot_0} un libro giallo molto avvincente.",
+    "constraint_type": "temporal_anchor",
+    "difficulty_level": 2,
+    "targets": [
+      {
+        "slot_id": 0,
+        "token_index": 4,
+        "verb": "leggere",
+        "mood": "indicativo",
+        "tense": "indicativo_passato_prossimo",
+        "person": "io",
+        "accepted_answers": ["ho letto"],
+        "explanation": "Il passato prossimo del verbo transitivo leggere richiede avere e il participio passato irregolare letto."
+      }
+    ]
+  },
+  {
+    "id": "sent-past-109",
+    "context_theme": "home_lifestyle",
+    "text_template": "Stamattina Anna {slot_0} molto tardi dal letto.",
+    "constraint_type": "temporal_anchor",
+    "difficulty_level": 2,
+    "targets": [
+      {
+        "slot_id": 0,
+        "token_index": 3,
+        "verb": "alzarsi",
+        "mood": "indicativo",
+        "tense": "indicativo_passato_prossimo",
+        "person": "lui_lei",
+        "accepted_answers": ["si è alzata"],
+        "explanation": "Essendo un verbo riflessivo con soggetto femminile singolare, richiede l'ausiliare essere e il participio concordato (alzata)."
+      }
+    ]
+  },
+  {
+    "id": "sent-past-110",
+    "context_theme": "work_office",
+    "text_template": "Nel 2024 noi {slot_0} un nuovo ufficio nel centro storico.",
+    "constraint_type": "temporal_anchor",
+    "difficulty_level": 2,
+    "targets": [
+      {
+        "slot_id": 0,
+        "token_index": 4,
+        "verb": "aprire",
+        "mood": "indicativo",
+        "tense": "indicativo_passato_prossimo",
+        "person": "noi",
+        "accepted_answers": ["abbiamo aperto"],
+        "explanation": "Il verbo aprire richiede l'ausiliare avere e il participio passato aperto."
+      }
+    ]
+  },
+  {
+    "id": "sent-past-111",
+    "context_theme": "travel_commuting",
+    "text_template": "Ieri sera, per andare a teatro, io {slot_0} con i miei amici.",
+    "constraint_type": "temporal_anchor",
+    "difficulty_level": 2,
+    "targets": [
+      {
+        "slot_id": 0,
+        "token_index": 9,
+        "verb": "andare",
+        "mood": "indicativo",
+        "tense": "indicativo_passato_prossimo",
+        "person": "io",
+        "accepted_answers": ["sono andato", "sono andata"],
+        "explanation": "Il verbo andare richiede l'ausiliare essere e il participio passato deve concordare in genere con chi parla (andato o andata)."
+      }
+    ]
+  },
+  {
+    "id": "sent-past-112",
+    "context_theme": "social_life",
+    "text_template": "La settimana scorsa, i miei genitori {slot_0} a trovarci in città.",
+    "constraint_type": "temporal_anchor",
+    "difficulty_level": 2,
+    "targets": [
+      {
+        "slot_id": 0,
+        "token_index": 6,
+        "verb": "venire",
+        "mood": "indicativo",
+        "tense": "indicativo_passato_prossimo",
+        "person": "loro",
+        "accepted_answers": ["sono venuti"],
+        "explanation": "Il verbo venire richiede l'ausiliare essere e concorda al plurale maschile (sono venuti) con il soggetto plurale misto o maschile."
+      }
+    ]
+  },
+  {
+    "id": "sent-past-113",
+    "context_theme": "daily_routine",
+    "text_template": "Stamattina presto tu {slot_0} di casa per fare jogging?",
+    "constraint_type": "temporal_anchor",
+    "difficulty_level": 2,
+    "targets": [
+      {
+        "slot_id": 0,
+        "token_index": 4,
+        "verb": "uscire",
+        "mood": "indicativo",
+        "tense": "indicativo_passato_prossimo",
+        "person": "tu",
+        "accepted_answers": ["sei uscito", "sei uscita"],
+        "explanation": "Il verbo uscire prende l'ausiliare essere e il participio passato uscito/uscita concorda con il tu singolare."
+      }
+    ]
+  },
+  {
+    "id": "sent-past-114",
+    "context_theme": "travel_commuting",
+    "text_template": "Due giorni fa Chiara {slot_0} in Germania per lavoro.",
+    "constraint_type": "temporal_anchor",
+    "difficulty_level": 2,
+    "targets": [
+      {
+        "slot_id": 0,
+        "token_index": 4,
+        "verb": "andare",
+        "mood": "indicativo",
+        "tense": "indicativo_passato_prossimo",
+        "person": "lui_lei",
+        "accepted_answers": ["è andata"],
+        "explanation": "Con il soggetto femminile singolare Chiara, il verbo andare richiede essere e il participio concordato al femminile (andata)."
+      }
+    ]
+  },
+  {
+    "id": "sent-past-115",
+    "context_theme": "social_life",
+    "text_template": "Ieri sera noi {slot_0} tardi dalla festa di compleanno.",
+    "constraint_type": "temporal_anchor",
+    "difficulty_level": 2,
+    "targets": [
+      {
+        "slot_id": 0,
+        "token_index": 4,
+        "verb": "uscire",
+        "mood": "indicativo",
+        "tense": "indicativo_passato_prossimo",
+        "person": "noi",
+        "accepted_answers": ["siamo usciti", "siamo uscite"],
+        "explanation": "Il verbo uscire usa essere; il participio passato si accorda al plurale con il soggetto noi (usciti o uscite)."
+      }
+    ]
+  },
+  {
+    "id": "sent-past-116",
+    "context_theme": "home_lifestyle",
+    "text_template": "Poco fa un vecchio amico {slot_0} a trovarmi all'improvviso.",
+    "constraint_type": "temporal_anchor",
+    "difficulty_level": 2,
+    "targets": [
+      {
+        "slot_id": 0,
+        "token_index": 5,
+        "verb": "venire",
+        "mood": "indicativo",
+        "tense": "indicativo_passato_prossimo",
+        "person": "lui_lei",
+        "accepted_answers": ["è venuto"],
+        "explanation": "Il verbo venire vuole l'ausiliare essere; con il soggetto maschile singolare (un amico), il participio è venuto."
+      }
+    ]
+  },
+  {
+    "id": "sent-past-117",
+    "context_theme": "travel_commuting",
+    "text_template": "State estate voi {slot_0} in vacanza al mare?",
+    "constraint_type": "temporal_anchor",
+    "difficulty_level": 2,
+    "targets": [
+      {
+        "slot_id": 0,
+        "token_index": 4,
+        "verb": "andare",
+        "mood": "indicativo",
+        "tense": "indicativo_passato_prossimo",
+        "person": "voi",
+        "accepted_answers": ["siete andati", "siete andate"],
+        "explanation": "Il verbo andare richiede essere al plural voi, con accordo in genere del participio passato (andati o andate)."
+      }
+    ]
+  },
+  {
+    "id": "sent-past-118",
+    "context_theme": "daily_routine",
+    "text_template": "Stamattina mia sorella {slot_0} di casa molto presto.",
+    "constraint_type": "temporal_anchor",
+    "difficulty_level": 2,
+    "targets": [
+      {
+        "slot_id": 0,
+        "token_index": 4,
+        "verb": "uscire",
+        "mood": "indicativo",
+        "tense": "indicativo_passato_prossimo",
+        "person": "lui_lei",
+        "accepted_answers": ["è uscita"],
+        "explanation": "Con il soggetto femminile singolare (mia sorella), il verbo uscire richiede essere e il participio uscita."
+      }
+    ]
+  },
+  {
+    "id": "sent-past-119",
+    "context_theme": "social_life",
+    "text_template": "Ieri sera tu {slot_0} con noi in centro?",
+    "constraint_type": "temporal_anchor",
+    "difficulty_level": 2,
+    "targets": [
+      {
+        "slot_id": 0,
+        "token_index": 4,
+        "verb": "venire",
+        "mood": "indicativo",
+        "tense": "indicativo_passato_prossimo",
+        "person": "tu",
+        "accepted_answers": ["sei venuto", "sei venuta"],
+        "explanation": "Il verbo venire richiede essere e concorda con il pronome singolare tu (venuto o venuta)."
+      }
+    ]
+  },
+  {
+    "id": "sent-past-120",
+    "context_theme": "travel_commuting",
+    "text_template": "L'anno scorso io {slot_0} in Giappone per la prima volta.",
+    "constraint_type": "temporal_anchor",
+    "difficulty_level": 2,
+    "targets": [
+      {
+        "slot_id": 0,
+        "token_index": 4,
+        "verb": "andare",
+        "mood": "indicativo",
+        "tense": "indicativo_passato_prossimo",
+        "person": "io",
+        "accepted_answers": ["sono andato", "sono andata"],
+        "explanation": "Il passato prossimo di andare con io richiede essere e l'accordo di genere corretto per il parlante."
+      }
+    ]
+  },
+  {
+    "id": "sent-past-121",
+    "context_theme": "home_lifestyle",
+    "text_template": "Ieri pomeriggio io {slot_0} una torta di mele per la famiglia.",
+    "constraint_type": "temporal_anchor",
+    "difficulty_level": 2,
+    "targets": [
+      {
+        "slot_id": 0,
+        "token_index": 4,
+        "verb": "fare",
+        "mood": "indicativo",
+        "tense": "indicativo_passato_prossimo",
+        "person": "io",
+        "accepted_answers": ["ho fatto"],
+        "explanation": "Il verbo fare ha un participio passato irregolare (fatto) e richiede l'ausiliare avere alla prima persona singolare."
+      }
+    ]
+  },
+  {
+    "id": "sent-past-122",
+    "context_theme": "work_office",
+    "text_template": "Durante la riunione, tu {slot_0} tutta la verità al direttore.",
+    "constraint_type": "none",
+    "difficulty_level": 2,
+    "targets": [
+      {
+        "slot_id": 0,
+        "token_index": 5,
+        "verb": "dire",
+        "mood": "indicativo",
+        "tense": "indicativo_passato_prossimo",
+        "person": "tu",
+        "accepted_answers": ["hai detto"],
+        "explanation": "Il participio passato del verbo dire è irregolare (detto); con la seconda persona singolare si usa hai detto."
+      }
+    ]
+  },
+  {
+    "id": "sent-past-123",
+    "context_theme": "social_life",
+    "text_template": "La settimana scorsa noi {slot_0} un film straordinario al cinema.",
+    "constraint_type": "temporal_anchor",
+    "difficulty_level": 2,
+    "targets": [
+      {
+        "slot_id": 0,
+        "token_index": 5,
+        "verb": "vedere",
+        "mood": "indicativo",
+        "tense": "indicativo_passato_prossimo",
+        "person": "noi",
+        "accepted_answers": ["abbiamo visto", "abbiamo veduto"],
+        "explanation": "Il verbo vedere usa l'ausiliare avere e il participio passato più comune è visto (accettato anche veduto)."
+      }
+    ]
+  },
+  {
+    "id": "sent-past-124",
+    "context_theme": "daily_routine",
+    "text_template": "Subito dopo la lezione, Marco {slot_0} che la risposta era corretta.",
+    "constraint_type": "none",
+    "difficulty_level": 2,
+    "targets": [
+      {
+        "slot_id": 0,
+        "token_index": 5,
+        "verb": "sapere",
+        "mood": "indicativo",
+        "tense": "indicativo_passato_prossimo",
+        "person": "lui_lei",
+        "accepted_answers": ["ha saputo"],
+        "explanation": "Il verbo sapere richiede l'ausiliare avere e il participio passato regolare saputo."
+      }
+    ]
+  },
+  {
+    "id": "sent-past-125",
+    "context_theme": "travel_commuting",
+    "text_template": "Ieri voi {slot_0} molte foto meravigliose durante la gita.",
+    "constraint_type": "temporal_anchor",
+    "difficulty_level": 2,
+    "targets": [
+      {
+        "slot_id": 0,
+        "token_index": 3,
+        "verb": "fare",
+        "mood": "indicativo",
+        "tense": "indicativo_passato_prossimo",
+        "person": "voi",
+        "accepted_answers": ["avete fatto"],
+        "explanation": "Con il pronome voi, il passato prossimo del verbo fare si coniuga con avete fatto."
+      }
+    ]
+  },
+  {
+    "id": "sent-past-126",
+    "context_theme": "work_office",
+    "text_template": "I colleghi {slot_0} chiaramente che il progetto era pronto.",
+    "constraint_type": "none",
+    "difficulty_level": 2,
+    "targets": [
+      {
+        "slot_id": 0,
+        "token_index": 2,
+        "verb": "dire",
+        "mood": "indicativo",
+        "tense": "indicativo_passato_prossimo",
+        "person": "loro",
+        "accepted_answers": ["hanno detto"],
+        "explanation": "La terza persona plurale del verbo dire al passato prossimo è hanno detto."
+      }
+    ]
+  },
+  {
+    "id": "sent-past-127",
+    "context_theme": "leisure",
+    "text_template": "Ieri sera io {slot_0} un bellissimo tramonto sul mare.",
+    "constraint_type": "temporal_anchor",
+    "difficulty_level": 2,
+    "targets": [
+      {
+        "slot_id": 0,
+        "token_index": 4,
+        "verb": "vedere",
+        "mood": "indicativo",
+        "tense": "indicativo_passato_prossimo",
+        "person": "io",
+        "accepted_answers": ["ho visto", "ho veduto"],
+        "explanation": "Alla prima persona singolare, vedere richiede ho visto."
+      }
+    ]
+  },
+  {
+    "id": "sent-past-128",
+    "context_theme": "home_lifestyle",
+    "text_template": "Tu {slot_0} subito la verità quando hai letto il messaggio?",
+    "constraint_type": "none",
+    "difficulty_level": 2,
+    "targets": [
+      {
+        "slot_id": 0,
+        "token_index": 2,
+        "verb": "sapere",
+        "mood": "indicativo",
+        "tense": "indicativo_passato_prossimo",
+        "person": "tu",
+        "accepted_answers": ["hai saputo"],
+        "explanation": "Con il pronome tu, il verbo sapere richiede hai saputo."
+      }
+    ]
+  },
+  {
+    "id": "sent-past-129",
+    "context_theme": "work_office",
+    "text_template": "Stamattina noi {slot_0} un ottimo lavoro di squadra.",
+    "constraint_type": "temporal_anchor",
+    "difficulty_level": 2,
+    "targets": [
+      {
+        "slot_id": 0,
+        "token_index": 3,
+        "verb": "fare",
+        "mood": "indicativo",
+        "tense": "indicativo_passato_prossimo",
+        "person": "noi",
+        "accepted_answers": ["abbiamo fatto"],
+        "explanation": "La prima persona plurale del verbo fare richiede abbiamo fatto."
+      }
+    ]
+  },
+  {
+    "id": "sent-past-130",
+    "context_theme": "social_life",
+    "text_template": "Chiara e Luca {slot_0} a tutti che si sarebbero sposati.",
+    "constraint_type": "none",
+    "difficulty_level": 2,
+    "targets": [
+      {
+        "slot_id": 0,
+        "token_index": 3,
+        "verb": "dire",
+        "mood": "indicativo",
+        "tense": "indicativo_passato_prossimo",
+        "person": "loro",
+        "accepted_answers": ["hanno detto"],
+        "explanation": "Con il soggetto plurale Chiara e Luca (loro), si usa hanno detto."
+      }
+    ]
+  },
+  {
+    "id": "sent-past-131",
+    "context_theme": "work_office",
+    "text_template": "Ieri pomeriggio io {slot_0} a lungo con il cliente al telefono.",
+    "constraint_type": "temporal_anchor",
+    "difficulty_level": 1,
+    "targets": [
+      {
+        "slot_id": 0,
+        "token_index": 4,
+        "verb": "parlare",
+        "mood": "indicativo",
+        "tense": "indicativo_passato_prossimo",
+        "person": "io",
+        "accepted_answers": ["ho parlato"],
+        "explanation": "I verbi regolari in -are come parlare richiedono l'ausiliare avere e il participio passato in -ato (parlato)."
+      }
+    ]
+  },
+  {
+    "id": "sent-past-132",
+    "context_theme": "home_lifestyle",
+    "text_template": "La settimana scorsa tu {slot_0} una pizza deliziosa in centro.",
+    "constraint_type": "temporal_anchor",
+    "difficulty_level": 1,
+    "targets": [
+      {
+        "slot_id": 0,
+        "token_index": 5,
+        "verb": "mangiare",
+        "mood": "indicativo",
+        "tense": "indicativo_passato_prossimo",
+        "person": "tu",
+        "accepted_answers": ["hai mangiato"],
+        "explanation": "Il verbo mangiare richiede l'ausiliare avere e il participio passato regolare mangiato."
+      }
+    ]
+  },
+  {
+    "id": "sent-past-133",
+    "context_theme": "work_office",
+    "text_template": "Per tutto il fine settimana noi {slot_0} sodo sul nuovo progetto.",
+    "constraint_type": "temporal_anchor",
+    "difficulty_level": 1,
+    "targets": [
+      {
+        "slot_id": 0,
+        "token_index": 7,
+        "verb": "lavorare",
+        "mood": "indicativo",
+        "tense": "indicativo_passato_prossimo",
+        "person": "noi",
+        "accepted_answers": ["abbiamo lavorato"],
+        "explanation": "Con la prima persona plurale (noi), il passato prossimo di lavorare si forma con abbiamo lavorato."
+      }
+    ]
+  },
+  {
+    "id": "sent-past-134",
+    "context_theme": "leisure",
+    "text_template": "Ieri sera Anna {slot_0} un lungo articolo sul suo blog personale.",
+    "constraint_type": "temporal_anchor",
+    "difficulty_level": 2,
+    "targets": [
+      {
+        "slot_id": 0,
+        "token_index": 4,
+        "verb": "scrivere",
+        "mood": "indicativo",
+        "tense": "indicativo_passato_prossimo",
+        "person": "lui_lei",
+        "accepted_answers": ["ha scritto"],
+        "explanation": "Il verbo scrivere ha un participio passato irregolare (scritto) e richiede l'ausiliare avere."
+      }
+    ]
+  },
+  {
+    "id": "sent-past-135",
+    "context_theme": "social_life",
+    "text_template": "Durante la conferenza voi {slot_0} con molti esperti internazionali.",
+    "constraint_type": "none",
+    "difficulty_level": 1,
+    "targets": [
+      {
+        "slot_id": 0,
+        "token_index": 4,
+        "verb": "parlare",
+        "mood": "indicativo",
+        "tense": "indicativo_passato_prossimo",
+        "person": "voi",
+        "accepted_answers": ["avete parlato"],
+        "explanation": "Con il pronome voi, il passato prossimo del verbo parlare è avete parlato."
+      }
+    ]
+  },
+  {
+    "id": "sent-past-136",
+    "context_theme": "daily_routine",
+    "text_template": "A mezzogiorno i bambini {slot_0} tutta la pasta nel piatto.",
+    "constraint_type": "none",
+    "difficulty_level": 1,
+    "targets": [
+      {
+        "slot_id": 0,
+        "token_index": 5,
+        "verb": "mangiare",
+        "mood": "indicativo",
+        "tense": "indicativo_passato_prossimo",
+        "person": "loro",
+        "accepted_answers": ["hanno mangiato"],
+        "explanation": "Con il soggetto plurale (loro), il verbo mangiare richiede hanno mangiato."
+      }
+    ]
+  },
+  {
+    "id": "sent-past-137",
+    "context_theme": "work_office",
+    "text_template": "L'anno scorso i miei colleghi {slot_0} in una nuova sede aziendale.",
+    "constraint_type": "temporal_anchor",
+    "difficulty_level": 1,
+    "targets": [
+      {
+        "slot_id": 0,
+        "token_index": 7,
+        "verb": "lavorare",
+        "mood": "indicativo",
+        "tense": "indicativo_passato_prossimo",
+        "person": "loro",
+        "accepted_answers": ["hanno lavorato"],
+        "explanation": "La terza persona plurale di lavorare al passato prossimo è hanno lavorato."
+      }
+    ]
+  },
+  {
+    "id": "sent-past-138",
+    "context_theme": "leisure",
+    "text_template": "Due giorni fa io {slot_0} una lettera formale di ringraziamento.",
+    "constraint_type": "temporal_anchor",
+    "difficulty_level": 2,
+    "targets": [
+      {
+        "slot_id": 0,
+        "token_index": 4,
+        "verb": "scrivere",
+        "mood": "indicativo",
+        "tense": "indicativo_passato_prossimo",
+        "person": "io",
+        "accepted_answers": ["ho scritto"],
+        "explanation": "La prima persona singolare di scrivere al passato prossimo richiede ho scritto."
+      }
+    ]
+  },
+  {
+    "id": "sent-past-139",
+    "context_theme": "home_lifestyle",
+    "text_template": "Stamattina tu {slot_0} con il proprietario di casa per il contratto.",
+    "constraint_type": "temporal_anchor",
+    "difficulty_level": 1,
+    "targets": [
+      {
+        "slot_id": 0,
+        "token_index": 3,
+        "verb": "parlare",
+        "mood": "indicativo",
+        "tense": "indicativo_passato_prossimo",
+        "person": "tu",
+        "accepted_answers": ["hai parlato"],
+        "explanation": "Con il pronome tu, il passato prossimo di parlare si forma con hai parlato."
+      }
+    ]
+  },
+  {
+    "id": "sent-past-140",
+    "context_theme": "social_life",
+    "text_template": "Ieri sera noi {slot_0} insieme in un ristorante tipico toscano.",
+    "constraint_type": "temporal_anchor",
+    "difficulty_level": 1,
+    "targets": [
+      {
+        "slot_id": 0,
+        "token_index": 4,
+        "verb": "mangiare",
+        "mood": "indicativo",
+        "tense": "indicativo_passato_prossimo",
+        "person": "noi",
+        "accepted_answers": ["abbiamo mangiato"],
+        "explanation": "Con la prima persona plurale (noi), il passato prossimo di mangiare è abbiamo mangiato."
+      }
+    ]
+  },
+  {
+    "id": "sent-past-141",
+    "context_theme": "leisure",
+    "text_template": "Durante le vacanze estive io {slot_0} tre romanzi storici.",
+    "constraint_type": "temporal_anchor",
+    "difficulty_level": 2,
+    "targets": [
+      {
+        "slot_id": 0,
+        "token_index": 5,
+        "verb": "leggere",
+        "mood": "indicativo",
+        "tense": "indicativo_passato_prossimo",
+        "person": "io",
+        "accepted_answers": ["ho letto"],
+        "explanation": "Il verbo leggere richiede l'ausiliare avere e il participio passato irregolare letto."
+      }
+    ]
+  },
+  {
+    "id": "sent-past-142",
+    "context_theme": "work_office",
+    "text_template": "Finalmente tu {slot_0} tutte le regole della nuova normativa.",
+    "constraint_type": "lexical_trigger",
+    "difficulty_level": 2,
+    "targets": [
+      {
+        "slot_id": 0,
+        "token_index": 2,
+        "verb": "capire",
+        "mood": "indicativo",
+        "tense": "indicativo_passato_prossimo",
+        "person": "tu",
+        "accepted_answers": ["hai capito"],
+        "explanation": "Il verbo capire adotta l'ausiliare avere e il participio passato regolare capito."
+      }
+    ]
+  },
+  {
+    "id": "sent-past-143",
+    "context_theme": "daily_routine",
+    "text_template": "Ieri notte noi {slot_0} per ben otto ore consecutive.",
+    "constraint_type": "temporal_anchor",
+    "difficulty_level": 2,
+    "targets": [
+      {
+        "slot_id": 0,
+        "token_index": 4,
+        "verb": "dormire",
+        "mood": "indicativo",
+        "tense": "indicativo_passato_prossimo",
+        "person": "noi",
+        "accepted_answers": ["abbiamo dormito"],
+        "explanation": "Il verbo dormire richiede l'ausiliare avere e il participio passato dormito."
+      }
+    ]
+  },
+  {
+    "id": "sent-past-144",
+    "context_theme": "travel_commuting",
+    "text_template": "L'estate scorsa voi {slot_0} in treno attraverso tutta Europa.",
+    "constraint_type": "temporal_anchor",
+    "difficulty_level": 2,
+    "targets": [
+      {
+        "slot_id": 0,
+        "token_index": 4,
+        "verb": "viaggiare",
+        "mood": "indicativo",
+        "tense": "indicativo_passato_prossimo",
+        "person": "voi",
+        "accepted_answers": ["avete viaggiato"],
+        "explanation": "Il verbo viaggiare richiede l'ausiliare avere e il participio passato viaggiato."
+      }
+    ]
+  },
+  {
+    "id": "sent-past-145",
+    "context_theme": "home_lifestyle",
+    "text_template": "Prima di uscire, Luca {slot_0} tutte le luci di casa.",
+    "constraint_type": "none",
+    "difficulty_level": 2,
+    "targets": [
+      {
+        "slot_id": 0,
+        "token_index": 5,
+        "verb": "spegnere",
+        "mood": "indicativo",
+        "tense": "indicativo_passato_prossimo",
+        "person": "lui_lei",
+        "accepted_answers": ["ha spento"],
+        "explanation": "Il verbo spegnere ha un participio passato irregolare (spento) e richiede l'ausiliare avere."
+      }
+    ]
+  },
+  {
+    "id": "sent-past-146",
+    "context_theme": "work_office",
+    "text_template": "Per errore stamattina io {slot_0} le chiavi nell'ufficio chiuso.",
+    "constraint_type": "temporal_anchor",
+    "difficulty_level": 2,
+    "targets": [
+      {
+        "slot_id": 0,
+        "token_index": 5,
+        "verb": "dimenticare",
+        "mood": "indicativo",
+        "tense": "indicativo_passato_prossimo",
+        "person": "io",
+        "accepted_answers": ["ho dimenticato"],
+        "explanation": "Il verbo dimenticare richiede l'ausiliare avere e il participio passato dimenticato."
+      }
+    ]
+  },
+  {
+    "id": "sent-past-147",
+    "context_theme": "leisure",
+    "text_template": "Tra i due film in programmazione, tu quale {slot_0} di vedere?",
+    "constraint_type": "none",
+    "difficulty_level": 2,
+    "targets": [
+      {
+        "slot_id": 0,
+        "token_index": 7,
+        "verb": "preferire",
+        "mood": "indicativo",
+        "tense": "indicativo_passato_prossimo",
+        "person": "tu",
+        "accepted_answers": ["hai preferito"],
+        "explanation": "Il verbo preferire richiede l'ausiliare avere e il participio passato preferito."
+      }
+    ]
+  },
+  {
+    "id": "sent-past-148",
+    "context_theme": "work_office",
+    "text_template": "I nostri ingegneri {slot_0} un nuovo sistema di archiviazione.",
+    "constraint_type": "none",
+    "difficulty_level": 2,
+    "targets": [
+      {
+        "slot_id": 0,
+        "token_index": 3,
+        "verb": "costruire",
+        "mood": "indicativo",
+        "tense": "indicativo_passato_prossimo",
+        "person": "loro",
+        "accepted_answers": ["hanno costruito"],
+        "explanation": "Il verbo costruire richiede l'ausiliare avere e il participio passato costruito."
+      }
+    ]
+  },
+  {
+    "id": "sent-past-149",
+    "context_theme": "daily_routine",
+    "text_template": "Stamattina la segretaria {slot_0} tutti i pacchi urgenti.",
+    "constraint_type": "temporal_anchor",
+    "difficulty_level": 2,
+    "targets": [
+      {
+        "slot_id": 0,
+        "token_index": 4,
+        "verb": "spedire",
+        "mood": "indicativo",
+        "tense": "indicativo_passato_prossimo",
+        "person": "lui_lei",
+        "accepted_answers": ["ha spedito"],
+        "explanation": "Il verbo spedire richiede l'ausiliare avere e il participio passato spedito."
+      }
+    ]
+  },
+  {
+    "id": "sent-past-150",
+    "context_theme": "home_lifestyle",
+    "text_template": "Insieme noi {slot_0} ogni problema sorto durante i lavori.",
+    "constraint_type": "none",
+    "difficulty_level": 2,
+    "targets": [
+      {
+        "slot_id": 0,
+        "token_index": 3,
+        "verb": "risolvere",
+        "mood": "indicativo",
+        "tense": "indicativo_passato_prossimo",
+        "person": "noi",
+        "accepted_answers": ["abbiamo risolto"],
+        "explanation": "Il verbo risolvere ha un participio passato irregolare (risolto) e richiede l'ausiliare avere."
+      }
+    ]
+  },
+  {
+    "id": "sent-past-151",
+    "context_theme": "travel_commuting",
+    "text_template": "Ieri mattina, appena arrivato alla stazione, io {slot_0} il treno in orario.",
+    "constraint_type": "temporal_anchor",
+    "difficulty_level": 2,
+    "targets": [
+      {
+        "slot_id": 0,
+        "token_index": 11,
+        "verb": "prendere",
+        "mood": "indicativo",
+        "tense": "indicativo_passato_prossimo",
+        "person": "io",
+        "accepted_answers": ["ho preso"],
+        "explanation": "Il verbo prendere è transitivo e richiede l'ausiliare avere con il participio irregolare preso."
+      }
+    ]
+  },
+  {
+    "id": "sent-past-152",
+    "context_theme": "home_lifestyle",
+    "text_template": "L'anno scorso mia sorella {slot_0} a vivere da sola in centro.",
+    "constraint_type": "temporal_anchor",
+    "difficulty_level": 2,
+    "targets": [
+      {
+        "slot_id": 0,
+        "token_index": 5,
+        "verb": "andare",
+        "mood": "indicativo",
+        "tense": "indicativo_passato_prossimo",
+        "person": "lui_lei",
+        "accepted_answers": ["è andata"],
+        "explanation": "Il verbo andare richiede l'ausiliare essere e il participio passato concordato al femminile singolare (andata)."
+      }
+    ]
+  },
+  {
+    "id": "sent-past-153",
+    "context_theme": "work_office",
+    "text_template": "Durante la conferenza di ieri, tu {slot_0} una proposta eccellente.",
+    "constraint_type": "temporal_anchor",
+    "difficulty_level": 2,
+    "targets": [
+      {
+        "slot_id": 0,
+        "token_index": 8,
+        "verb": "fare",
+        "mood": "indicativo",
+        "tense": "indicativo_passato_prossimo",
+        "person": "tu",
+        "accepted_answers": ["hai fatto"],
+        "explanation": "Il verbo fare richiede l'ausiliare avere e il participio passato fatto."
+      }
+    ]
+  },
+  {
+    "id": "sent-past-154",
+    "context_theme": "social_life",
+    "text_template": "Sabato scorso noi {slot_0} tardi a causa del traffico in tangenziale.",
+    "constraint_type": "temporal_anchor",
+    "difficulty_level": 2,
+    "targets": [
+      {
+        "slot_id": 0,
+        "token_index": 4,
+        "verb": "arrivare",
+        "mood": "indicativo",
+        "tense": "indicativo_passato_prossimo",
+        "person": "noi",
+        "accepted_answers": ["siamo arrivati", "siamo arrivate"],
+        "explanation": "Il verbo arrivare esprime movimento/arrivo e richiede essere, con accordo plurale del participio (arrivati o arrivate)."
+      }
+    ]
+  },
+  {
+    "id": "sent-past-155",
+    "context_theme": "leisure",
+    "text_template": "Ieri sera i miei amici {slot_0} un film d'azione molto emozionante.",
+    "constraint_type": "temporal_anchor",
+    "difficulty_level": 2,
+    "targets": [
+      {
+        "slot_id": 0,
+        "token_index": 6,
+        "verb": "vedere",
+        "mood": "indicativo",
+        "tense": "indicativo_passato_prossimo",
+        "person": "loro",
+        "accepted_answers": ["hanno visto", "hanno veduto"],
+        "explanation": "Il verbo vedere richiede l'ausiliare avere e il participio passato visto."
+      }
+    ]
+  },
+  {
+    "id": "sent-past-156",
+    "context_theme": "daily_routine",
+    "text_template": "Stamattina voi {slot_0} troppo tardi per prendere il primo autobus.",
+    "constraint_type": "temporal_anchor",
+    "difficulty_level": 2,
+    "targets": [
+      {
+        "slot_id": 0,
+        "token_index": 3,
+        "verb": "alzarsi",
+        "mood": "indicativo",
+        "tense": "indicativo_passato_prossimo",
+        "person": "voi",
+        "accepted_answers": ["vi siete alzati", "vi siete alzate"],
+        "explanation": "I verbi riflessivi richiedono essere; con il pronome voi il participio si accorda al plurale (alzati o alzate)."
+      }
+    ]
+  },
+  {
+    "id": "sent-past-157",
+    "context_theme": "work_office",
+    "text_template": "La settimana scorsa io {slot_0} un contratto molto importante per l'azienda.",
+    "constraint_type": "temporal_anchor",
+    "difficulty_level": 2,
+    "targets": [
+      {
+        "slot_id": 0,
+        "token_index": 5,
+        "verb": "firmare",
+        "mood": "indicativo",
+        "tense": "indicativo_passato_prossimo",
+        "person": "io",
+        "accepted_answers": ["ho firmato"],
+        "explanation": "Il verbo firmare è transitivo e richiede l'ausiliare avere con il participio firmato."
+      }
+    ]
+  },
+  {
+    "id": "sent-past-158",
+    "context_theme": "home_lifestyle",
+    "text_template": "Due giorni fa tu {slot_0} un messaggio importante sul telefono.",
+    "constraint_type": "temporal_anchor",
+    "difficulty_level": 2,
+    "targets": [
+      {
+        "slot_id": 0,
+        "token_index": 5,
+        "verb": "ricevere",
+        "mood": "indicativo",
+        "tense": "indicativo_passato_prossimo",
+        "person": "tu",
+        "accepted_answers": ["hai ricevuto"],
+        "explanation": "Il verbo ricevere richiede l'ausiliare avere e il participio passato ricevuto."
+      }
+    ]
+  },
+  {
+    "id": "sent-past-159",
+    "context_theme": "travel_commuting",
+    "text_template": "Poco fa i nostri ospiti {slot_0} in albergo dopo il volo.",
+    "constraint_type": "temporal_anchor",
+    "difficulty_level": 2,
+    "targets": [
+      {
+        "slot_id": 0,
+        "token_index": 5,
+        "verb": "tornare",
+        "mood": "indicativo",
+        "tense": "indicativo_passato_prossimo",
+        "person": "loro",
+        "accepted_answers": ["sono tornati", "sono tornate"],
+        "explanation": "Il verbo tornare richiede l'ausiliare essere e l'accordo plurale del participio (tornati o tornate)."
+      }
+    ]
+  },
+  {
+    "id": "sent-past-160",
+    "context_theme": "social_life",
+    "text_template": "Ieri sera noi {slot_0} a lungo del nostro futuro professionale.",
+    "constraint_type": "temporal_anchor",
+    "difficulty_level": 2,
+    "targets": [
+      {
+        "slot_id": 0,
+        "token_index": 4,
+        "verb": "parlare",
+        "mood": "indicativo",
+        "tense": "indicativo_passato_prossimo",
+        "person": "noi",
+        "accepted_answers": ["abbiamo parlato"],
+        "explanation": "Il verbo parlare richiede l'ausiliare avere e il participio passato parlato."
+      }
+    ]
+  }
+]

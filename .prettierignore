@@ -6,3 +6,6 @@ package-lock.json
 AGENTS.md
 playwright-report
 test-results
+
+# Preserve supplied source notes byte-for-byte for import provenance.
+docs/content-import/source/source-notes

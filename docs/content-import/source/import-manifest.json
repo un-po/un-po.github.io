@@ -1,0 +1,403 @@
+{
+  "status": "unvalidated",
+  "originals_backup": ".local/content-import-originals/ (ignored, local only)",
+  "sources": [
+    {
+      "original": "gemini-code-1793587585502.json",
+      "sha256": "ed271f491dc902f91c19f1ed69b3b828ba409700ebc8c30a1bfff7772baf66bd",
+      "destination": "sentences/indicativo-presente.json",
+      "ids": [
+        "sent-pres-101",
+        "sent-pres-102",
+        "sent-pres-103",
+        "sent-pres-104",
+        "sent-pres-105",
+        "sent-pres-106",
+        "sent-pres-107",
+        "sent-pres-108",
+        "sent-pres-109",
+        "sent-pres-110"
+      ]
+    },
+    {
+      "original": "gemini-code-1793587624306.json",
+      "sha256": "6c235cf957537cdbb09ffcab53f182bf5916268f385c3b74776d19cf96eed33f",
+      "destination": "sentences/indicativo-presente.json",
+      "ids": [
+        "sent-pres-111",
+        "sent-pres-112",
+        "sent-pres-113",
+        "sent-pres-114",
+        "sent-pres-115",
+        "sent-pres-116",
+        "sent-pres-117",
+        "sent-pres-118",
+        "sent-pres-119",
+        "sent-pres-120"
+      ]
+    },
+    {
+      "original": "gemini-code-1793587651408.json",
+      "sha256": "abc57461cd8e1d9ab9c2a4ba2202ae967a0b54f67725271b7614c7ad4afab732",
+      "destination": "sentences/indicativo-presente.json",
+      "ids": [
+        "sent-pres-121",
+        "sent-pres-122",
+        "sent-pres-123",
+        "sent-pres-124",
+        "sent-pres-125",
+        "sent-pres-126",
+        "sent-pres-127",
+        "sent-pres-128",
+        "sent-pres-129",
+        "sent-pres-130"
+      ]
+    },
+    {
+      "original": "gemini-code-1793587683470.json",
+      "sha256": "b4bfb0cec83fa520cd73aa005c4bb79f460afed2cf6540c72b31199e2b089dd6",
+      "destination": "sentences/indicativo-presente.json",
+      "ids": [
+        "sent-pres-131",
+        "sent-pres-132",
+        "sent-pres-133",
+        "sent-pres-134",
+        "sent-pres-135",
+        "sent-pres-136",
+        "sent-pres-137",
+        "sent-pres-138",
+        "sent-pres-139",
+        "sent-pres-140"
+      ]
+    },
+    {
+      "original": "gemini-code-1793587715550.json",
+      "sha256": "4890a1a8c06fa83d453050871c1d2f96174dc45c3f14917de53fd1361556ce49",
+      "destination": "sentences/indicativo-presente.json",
+      "ids": [
+        "sent-pres-141",
+        "sent-pres-142",
+        "sent-pres-143",
+        "sent-pres-144",
+        "sent-pres-145",
+        "sent-pres-146",
+        "sent-pres-147",
+        "sent-pres-148",
+        "sent-pres-149",
+        "sent-pres-150"
+      ]
+    },
+    {
+      "original": "gemini-code-1793587744083.json",
+      "sha256": "e9a184a2776858ea22cee3cdd72daf84c538ef909034b6e582d629017fc65d79",
+      "destination": "sentences/indicativo-presente.json",
+      "ids": [
+        "sent-pres-151",
+        "sent-pres-152",
+        "sent-pres-153",
+        "sent-pres-154",
+        "sent-pres-155",
+        "sent-pres-156",
+        "sent-pres-157",
+        "sent-pres-158",
+        "sent-pres-159",
+        "sent-pres-160"
+      ]
+    },
+    {
+      "original": "gemini-code-1793587763360.json",
+      "sha256": "a69fe1b1bddbe18478c873f1711b36718d11083b78e258c676383e2db92c7fb8",
+      "destination": "sentences/passato-prossimo.json",
+      "ids": [
+        "sent-past-101",
+        "sent-past-102",
+        "sent-past-103",
+        "sent-past-104",
+        "sent-past-105",
+        "sent-past-106",
+        "sent-past-107",
+        "sent-past-108",
+        "sent-past-109",
+        "sent-past-110"
+      ]
+    },
+    {
+      "original": "gemini-code-1793587785170.json",
+      "sha256": "f57f4dc30a496273adb60deefa57b53d0d75ab0b627939e4a178916e2432a3a4",
+      "destination": "sentences/passato-prossimo.json",
+      "ids": [
+        "sent-past-111",
+        "sent-past-112",
+        "sent-past-113",
+        "sent-past-114",
+        "sent-past-115",
+        "sent-past-116",
+        "sent-past-117",
+        "sent-past-118",
+        "sent-past-119",
+        "sent-past-120"
+      ]
+    },
+    {
+      "original": "gemini-code-1793587821343.json",
+      "sha256": "25bbc17341933d8c733e9b844ef3d5d25a705891bfe6c11df8574e87e454164f",
+      "destination": "sentences/passato-prossimo.json",
+      "ids": [
+        "sent-past-121",
+        "sent-past-122",
+        "sent-past-123",
+        "sent-past-124",
+        "sent-past-125",
+        "sent-past-126",
+        "sent-past-127",
+        "sent-past-128",
+        "sent-past-129",
+        "sent-past-130"
+      ]
+    },
+    {
+      "original": "gemini-code-1793587850532.json",
+      "sha256": "bb041dfa09ab2715ec132b7f863c003cdcc3ae4609f986668db73ce6e57aba15",
+      "destination": "sentences/passato-prossimo.json",
+      "ids": [
+        "sent-past-131",
+        "sent-past-132",
+        "sent-past-133",
+        "sent-past-134",
+        "sent-past-135",
+        "sent-past-136",
+        "sent-past-137",
+        "sent-past-138",
+        "sent-past-139",
+        "sent-past-140"
+      ]
+    },
+    {
+      "original": "gemini-code-1793587882685.json",
+      "sha256": "efa6f48d6d15876df4277028da88c08dc21abe20e685f80efe3416d8408026d2",
+      "destination": "sentences/passato-prossimo.json",
+      "ids": [
+        "sent-past-141",
+        "sent-past-142",
+        "sent-past-143",
+        "sent-past-144",
+        "sent-past-145",
+        "sent-past-146",
+        "sent-past-147",
+        "sent-past-148",
+        "sent-past-149",
+        "sent-past-150"
+      ]
+    },
+    {
+      "original": "gemini-code-1793587890724.json",
+      "sha256": "bb041dfa09ab2715ec132b7f863c003cdcc3ae4609f986668db73ce6e57aba15",
+      "destination": "sentences/passato-prossimo.json",
+      "ids": [
+        "sent-past-131",
+        "sent-past-132",
+        "sent-past-133",
+        "sent-past-134",
+        "sent-past-135",
+        "sent-past-136",
+        "sent-past-137",
+        "sent-past-138",
+        "sent-past-139",
+        "sent-past-140"
+      ],
+      "identical_duplicates_omitted": [
+        "sent-past-131",
+        "sent-past-132",
+        "sent-past-133",
+        "sent-past-134",
+        "sent-past-135",
+        "sent-past-136",
+        "sent-past-137",
+        "sent-past-138",
+        "sent-past-139",
+        "sent-past-140"
+      ]
+    },
+    {
+      "original": "gemini-code-1793587948657.json",
+      "sha256": "f79854913fc9c620343e99a1252408c39b68f9cfdae5eb99aa7d3e5cb19fd45b",
+      "destination": "sentences/passato-prossimo.json",
+      "ids": [
+        "sent-past-151",
+        "sent-past-152",
+        "sent-past-153",
+        "sent-past-154",
+        "sent-past-155",
+        "sent-past-156",
+        "sent-past-157",
+        "sent-past-158",
+        "sent-past-159",
+        "sent-past-160"
+      ]
+    },
+    {
+      "original": "gemini-code-1793588054266.json",
+      "sha256": "5d67204a3ebbec10a42762c6dc9b67b190f83d3fd6c91ad27712ea2a51568ec5",
+      "destination": "sentences/imperfetto.json",
+      "ids": [
+        "sent-imp-101",
+        "sent-imp-102",
+        "sent-imp-103",
+        "sent-imp-104",
+        "sent-imp-105",
+        "sent-imp-106",
+        "sent-imp-107",
+        "sent-imp-108",
+        "sent-imp-109",
+        "sent-imp-110"
+      ]
+    },
+    {
+      "original": "gemini-code-1793588070306.json",
+      "sha256": "18c20540a5031ecf7c4734bdc9ed81cae882af134c1403ff8e78468ae4e7f920",
+      "destination": "sentences/imperfetto.json",
+      "ids": [
+        "sent-imp-111",
+        "sent-imp-112",
+        "sent-imp-113",
+        "sent-imp-114",
+        "sent-imp-115",
+        "sent-imp-116",
+        "sent-imp-117",
+        "sent-imp-118",
+        "sent-imp-119",
+        "sent-imp-120"
+      ]
+    },
+    {
+      "original": "gemini-code-1793588090120.json",
+      "sha256": "50c7047f9a2a285868dda95681d96bb1eb692ce323c1b071fcee41cd0a530ef8",
+      "destination": "sentences/imperfetto.json",
+      "ids": [
+        "sent-imp-121",
+        "sent-imp-122",
+        "sent-imp-123",
+        "sent-imp-124",
+        "sent-imp-125",
+        "sent-imp-126",
+        "sent-imp-127",
+        "sent-imp-128",
+        "sent-imp-129",
+        "sent-imp-130"
+      ]
+    },
+    {
+      "original": "gemini-code-1793588117532.json",
+      "sha256": "6e4f5dd29dcc91ff36c8c55a2422f3786c1ff1ff4df2e193107777a5763bb548",
+      "destination": "sentences/imperfetto.json",
+      "ids": [
+        "sent-imp-131",
+        "sent-imp-132",
+        "sent-imp-133",
+        "sent-imp-134",
+        "sent-imp-135",
+        "sent-imp-136",
+        "sent-imp-137",
+        "sent-imp-138",
+        "sent-imp-139",
+        "sent-imp-140"
+      ]
+    },
+    {
+      "original": "gemini-code-1793588141150.json",
+      "sha256": "c1f5d4274b749590cabc3670e3f94220dd1773273ef929cf12518ac4a559f939",
+      "destination": "sentences/futuro-semplice.json",
+      "ids": [
+        "sent-fut-101",
+        "sent-fut-102",
+        "sent-fut-103",
+        "sent-fut-104",
+        "sent-fut-105",
+        "sent-fut-106",
+        "sent-fut-107",
+        "sent-fut-108",
+        "sent-fut-109",
+        "sent-fut-110"
+      ]
+    },
+    {
+      "original": "gemini-code-1793588168510.json",
+      "sha256": "70238075db5989392a117cf2cead87b7f78df7234ce3de099cb98724487646b5",
+      "destination": "sentences/futuro-semplice.json",
+      "ids": [
+        "sent-fut-111",
+        "sent-fut-112",
+        "sent-fut-113",
+        "sent-fut-114",
+        "sent-fut-115",
+        "sent-fut-116",
+        "sent-fut-117",
+        "sent-fut-118",
+        "sent-fut-119",
+        "sent-fut-120"
+      ]
+    },
+    {
+      "original": "gemini-code-1793588206231.json",
+      "sha256": "5f53728b873faedfb023a00a354b44cf49cba825aa96afdb546424fb4119148c",
+      "destination": "sentences/futuro-semplice.json",
+      "ids": [
+        "sent-fut-121",
+        "sent-fut-122",
+        "sent-fut-123",
+        "sent-fut-124",
+        "sent-fut-125",
+        "sent-fut-126",
+        "sent-fut-127",
+        "sent-fut-128",
+        "sent-fut-129",
+        "sent-fut-130"
+      ]
+    },
+    {
+      "original": "gemini-code-1793588225567.json",
+      "sha256": "ccfe328fa4985acda87e731f8b5a4b94d37f2e3a6443ae64151cb2ea886a705b",
+      "destination": "sentences/futuro-semplice.json",
+      "ids": [
+        "sent-fut-131",
+        "sent-fut-132",
+        "sent-fut-133",
+        "sent-fut-134",
+        "sent-fut-135",
+        "sent-fut-136",
+        "sent-fut-137",
+        "sent-fut-138",
+        "sent-fut-139",
+        "sent-fut-140"
+      ]
+    },
+    {
+      "original": "gemini-code-1793588306434.json",
+      "sha256": "87d7499f61b490776e883a7e08c27e0365d6c64eed84000da67e891f64338657",
+      "destination": "verbs.json",
+      "records": 47
+    },
+    {
+      "original": "gemini-code-1793588399588.md",
+      "sha256": "6440ee2f2e257ebc54f2caf8a69f2bb8c456f7d0281f93dcfc83419b08b6dbbf",
+      "destination": "source-notes/architecture.md"
+    },
+    {
+      "original": "gemini-code-1793588730239.md",
+      "sha256": "f419052e67a0c4a3cd5f03b7f78a9bfc4efaf7e23654b4f28162188fa107265b",
+      "destination": "source-notes/schema.md"
+    },
+    {
+      "original": "gemini-code-1793588741647.md",
+      "sha256": "a507030ee5029ebe29bf1fea759c91ed440263202fdba28f3da6bf89ececc9a1",
+      "destination": "source-notes/engine.md"
+    }
+  ],
+  "repairs": [
+    {
+      "source": "gemini-code-1793588225567.json",
+      "id": "sent-fut-136",
+      "change": "Quote the bare approverà value to make JSON parseable. No linguistic edits."
+    }
+  ]
+}

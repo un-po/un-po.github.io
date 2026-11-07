@@ -273,6 +273,13 @@ a {
   text-align: center;
   will-change: transform, opacity;
 }
+.tense-cue {
+  color: var(--muted);
+  font-size: 13px;
+  line-height: 1.6;
+  margin: 0 0 12px;
+  min-height: 1.6em;
+}
 .sentence-text {
   font-family: var(--hand);
   color: var(--sentence);
@@ -287,11 +294,14 @@ a {
   display: inline-block;
   width: var(--answer-width);
   min-width: 5.5ch;
-  max-width: min(13ch, 75vw);
+  max-width: min(24ch, calc(100vw - 64px));
   position: relative;
   vertical-align: baseline;
   margin: 0 7px;
   line-height: 1.45;
+}
+.answer-slot.long-answer {
+  font-size: clamp(20px, 2.5vw, 32px);
 }
 .answer-slot input {
   display: block;
@@ -572,6 +582,34 @@ td {
 .row-note span {
   margin-left: 8px;
 }
+.conjugation th {
+  width: 18%;
+}
+.conjugation .conjugation-forms {
+  width: 52%;
+}
+.conjugation .row-note {
+  width: 30%;
+}
+.conjugation-form {
+  display: block;
+  line-height: 1.6;
+}
+@media (max-width: 600px) {
+  .conjugation th,
+  .conjugation td {
+    padding-inline: 8px;
+  }
+  .conjugation .conjugation-forms {
+    width: 66%;
+  }
+  .conjugation .row-note {
+    width: 16%;
+  }
+  .row-note-text {
+    display: none;
+  }
+}
 .target-row {
   background: var(--correct);
 }
@@ -627,7 +665,7 @@ td {
   font-size: 11px;
 }
 .summary {
-  width: min(780px, calc(100% - 48px));
+  width: min(1000px, calc(100% - 48px));
   margin: clamp(45px, 10vh, 110px) auto 80px;
   text-align: center;
 }

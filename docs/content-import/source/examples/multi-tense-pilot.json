@@ -1,0 +1,142 @@
+{
+  "schemaVersion": 0,
+  "reviewStatus": "draft",
+  "description": "Design examples for one blank with multiple accepted tenses. Not production content; requires linguistic review and the new loader/grader.",
+  "sentences": [
+    {
+      "id": "pilot-multi-001",
+      "primaryTense": "futuro_semplice",
+      "textTemplate": "Domani io {slot_0} da casa.",
+      "tenseCue": "Presente o futuro semplice",
+      "target": {
+        "slotId": 0,
+        "verb": "lavorare",
+        "person": "io",
+        "acceptedAnswers": [
+          {
+            "text": "lavoro",
+            "mood": "indicativo",
+            "tense": "presente",
+            "person": "io",
+            "explanation": "Con io, lavorare al presente diventa lavoro. Il presente può indicare un impegno già programmato per domani."
+          },
+          {
+            "text": "lavorerò",
+            "mood": "indicativo",
+            "tense": "futuro_semplice",
+            "person": "io",
+            "explanation": "Con io, il futuro semplice di lavorare è lavorerò. Qui indica un'attività prevista per domani."
+          }
+        ]
+      }
+    },
+    {
+      "id": "pilot-multi-002",
+      "primaryTense": "futuro_semplice",
+      "textTemplate": "Stasera noi {slot_0} a casa di Marta.",
+      "tenseCue": "Presente o futuro semplice",
+      "target": {
+        "slotId": 0,
+        "verb": "mangiare",
+        "person": "noi",
+        "acceptedAnswers": [
+          {
+            "text": "mangiamo",
+            "mood": "indicativo",
+            "tense": "presente",
+            "person": "noi",
+            "explanation": "Con noi, mangiare al presente diventa mangiamo. Il presente è naturale per un programma già deciso."
+          },
+          {
+            "text": "mangeremo",
+            "mood": "indicativo",
+            "tense": "futuro_semplice",
+            "person": "noi",
+            "explanation": "Con noi, il futuro semplice di mangiare è mangeremo, senza i dopo la g. Anche il futuro può esprimere questo programma."
+          }
+        ]
+      }
+    },
+    {
+      "id": "pilot-multi-003",
+      "primaryTense": "futuro_semplice",
+      "textTemplate": "Domenica prossima tu {slot_0} a pranzo da noi?",
+      "tenseCue": "Presente o futuro semplice",
+      "target": {
+        "slotId": 0,
+        "verb": "venire",
+        "person": "tu",
+        "acceptedAnswers": [
+          {
+            "text": "vieni",
+            "mood": "indicativo",
+            "tense": "presente",
+            "person": "tu",
+            "explanation": "Con tu, il presente di venire è vieni. Qui il presente serve a chiedere conferma di un programma futuro."
+          },
+          {
+            "text": "verrai",
+            "mood": "indicativo",
+            "tense": "futuro_semplice",
+            "person": "tu",
+            "explanation": "Con tu, il futuro semplice di venire è verrai, con la radice irregolare verr-. La domanda riguarda domenica prossima."
+          }
+        ]
+      }
+    },
+    {
+      "id": "pilot-multi-004",
+      "primaryTense": "imperfetto",
+      "textTemplate": "L'anno scorso Giulia {slot_0} in una libreria.",
+      "tenseCue": "Imperfetto o passato prossimo",
+      "target": {
+        "slotId": 0,
+        "verb": "lavorare",
+        "person": "lui/lei",
+        "acceptedAnswers": [
+          {
+            "text": "lavorava",
+            "mood": "indicativo",
+            "tense": "imperfetto",
+            "person": "lui/lei",
+            "explanation": "Lavorava descrive l'occupazione di Giulia in quel periodo, senza mettere in primo piano la fine dell'esperienza."
+          },
+          {
+            "text": "ha lavorato",
+            "mood": "indicativo",
+            "tense": "passato_prossimo",
+            "person": "lui/lei",
+            "explanation": "Ha lavorato presenta il lavoro in libreria come un'esperienza conclusa. Si usa avere con il participio lavorato."
+          }
+        ]
+      }
+    },
+    {
+      "id": "pilot-multi-005",
+      "primaryTense": "imperfetto",
+      "textTemplate": "Durante le vacanze dell'estate scorsa, noi {slot_0} spesso al ristorante.",
+      "tenseCue": "Imperfetto o passato prossimo",
+      "target": {
+        "slotId": 0,
+        "verb": "mangiare",
+        "person": "noi",
+        "acceptedAnswers": [
+          {
+            "text": "mangiavamo",
+            "mood": "indicativo",
+            "tense": "imperfetto",
+            "person": "noi",
+            "explanation": "Mangiavamo descrive un'abitudine durante quelle vacanze. Con noi, l'imperfetto di mangiare termina in -avamo."
+          },
+          {
+            "text": "abbiamo mangiato",
+            "mood": "indicativo",
+            "tense": "passato_prossimo",
+            "person": "noi",
+            "explanation": "Abbiamo mangiato riassume le occasioni in cui siamo stati al ristorante durante un periodo concluso. Anche un'azione ripetuta può essere espressa al passato prossimo."
+          }
+        ]
+      }
+    }
+  ]
+}

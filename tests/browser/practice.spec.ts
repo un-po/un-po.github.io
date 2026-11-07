@@ -1,23 +1,12 @@
 import { test, expect } from '@playwright/test';
-import { readFileSync } from 'node:fs';
+import { exercises } from '../content-fixture.ts';
+import {
+  createLearningState,
+  curriculumBands,
+  synchronizeLearningState,
+} from '../../src/lib/learning.ts';
 
-interface AnswerFixture {
-  id: string;
-  answers: string[];
-}
-
-const rawExercises: AnswerFixture[] = JSON.parse(
-  readFileSync(new URL('../../src/content/exercises.json', import.meta.url), 'utf8'),
-);
-const rawPilotExercises: AnswerFixture[] = JSON.parse(
-  readFileSync(new URL('../../src/content/exercises-pilot.json', import.meta.url), 'utf8'),
-);
-
-const answerByExercise = new Map(
-  [...rawExercises, ...rawPilotExercises].map(
-    (exercise) => [exercise.id, exercise.answers[0]!] as const,
-  ),
-);
+const answerByExercise = new Map(exercises.map((exercise) => [exercise.id, exercise.answers[0]!]));
 
 async function begin(page: import('@playwright/test').Page, name = '') {
   await page.goto('/');
@@ -154,7 +143,7 @@ test('only fully displayed onboarding messages are remembered across visits', as
   await expect(page.locator('.practice-context')).toHaveAttribute('data-message', 'keyboard');
 });
 
-test('returning learners get a greeting and then their level without advancing questions', async ({
+test('returning learners get a greeting and available tenses without advancing questions', async ({
   page,
 }) => {
   await page.clock.install();
@@ -171,8 +160,9 @@ test('returning learners get a greeting and then their level without advancing q
   await page.clock.runFor(400);
   await page.clock.fastForward(40000);
   await page.clock.runFor(500);
-  await expect(page.locator('.practice-context')).toContainText('Livello 1');
-  await expect(page.locator('.practice-context')).toContainText('Grado I');
+  await expect(page.locator('.practice-context')).toContainText('Presente indicativo');
+  await expect(page.locator('.practice-context')).toContainText('Passato prossimo');
+  await expect(page.locator('.practice-context')).not.toContainText(/Livello|Grado/);
 });
 
 test('history is blank and the content clock pauses for history, dialogs, hidden tabs, and summaries', async ({
@@ -248,7 +238,7 @@ test('validation paints a temporary wash while the sentence stays still for eith
 test('practice feedback remains available for manual continuation', async ({ page }) => {
   await begin(page);
   await expect(page.locator('footer')).toHaveCount(0);
-  await expect(page.getByText('Presente indicativo', { exact: true })).toHaveCount(0);
+  await expect(page.locator('#tense-cue')).toHaveText(/^(Presente indicativo|Passato prossimo)$/);
   await expect(page.getByText(/oppure premi/)).toHaveCount(0);
   await answerCurrent(page);
   await page.getByRole('button', { name: 'Verifica' }).click();
@@ -430,84 +420,20 @@ test('history indicator caps itself at 20 items and reports omitted items', asyn
   await expect(page.locator('.history-overflow')).toContainText('+2');
 });
 
-test('session summary omits points, difficulty, saved-data copy, and restart control', async ({
+test('session summary shows focused feedback with locks and no levels or ruler', async ({
   page,
 }) => {
   await begin(page);
-  const currentVerb = (await page.locator('.infinitive').textContent())!.trim();
   await page.locator('#verb-answer').fill('sbagliato');
   await page.getByRole('button', { name: 'Verifica' }).click();
-  await expect(page.getByRole('button', { name: 'Concludi la sessione' })).not.toContainText('↗');
-  await page.getByRole('button', { name: /Concludi la sessione/ }).click();
-  await expect(page.locator('.summary-stats')).toContainText('0%');
-  await expect(page.locator('.summary-stats > div')).toHaveCount(2);
-  await expect(
-    page.getByRole('heading', { name: 'Oggi hai consolidato il percorso.' }),
-  ).toBeVisible();
-  await expect(page.getByRole('img', { name: /livello 1/ })).toBeVisible();
-  await expect(page.locator('.progress-journey')).not.toHaveClass(/moving/);
-  await expect(page.locator('.progress-strip')).toHaveCSS('transition-duration', '0s');
-  await expect(page.locator('body')).not.toContainText(
-    /punti|Difficoltà media|risultati sono salvati|prossimo grado/,
-  );
-  await expect(page.getByRole('button', { name: 'Ancora un po’' })).toHaveCount(0);
-  const review = page.locator('.review-note');
-  await expect(review).toContainText(currentVerb);
-  expect((await review.boundingBox())!.width).toBeGreaterThan(300);
-});
-
-test('session summary shows progress as a level journey', async ({ page }) => {
-  await begin(page);
-  await answerCurrent(page);
-  await page.getByRole('button', { name: 'Verifica' }).click();
   await page.getByRole('button', { name: 'Concludi la sessione' }).click();
-
-  await expect(page.getByRole('heading', { name: 'Un po’ più avanti.' })).toBeVisible();
-  await expect(page.getByRole('img', { name: /Progresso della sessione/ })).toBeVisible();
-  await expect(page.locator('.progress-strip')).toHaveClass(/animated/);
-  await expect(page.locator('.progress-strip')).toHaveCSS('transition-delay', '0.9s');
-  await expect(page.locator('.journey-reveal')).toHaveCSS('animation-duration', '1.7s');
-  await expect(page.locator('.current-progress-marker')).toHaveCSS(
-    'animation-name',
-    /dot-from-line/,
-  );
-  await expect(page.locator('.level-mark.major')).toHaveCount(5);
-  const journeyGeometry = await page.locator('.progress-window').evaluate((window) => {
-    const line = window.querySelector<HTMLElement>('.journey-line')!;
-    const styles = getComputedStyle(window);
-    return {
-      progress: Number.parseFloat(styles.getPropertyValue('--journey-width')),
-      line: Number.parseFloat(getComputedStyle(line).width),
-      halo: getComputedStyle(
-        window.querySelector<HTMLElement>('.current-progress-marker')!,
-        '::after',
-      ).animationName,
-    };
-  });
-  expect(journeyGeometry.line).toBeCloseTo(Math.max(0, journeyGeometry.progress - 12), 1);
-  expect(journeyGeometry.halo).toContain('arrival-halo');
-  await expect(page.locator('.session-start-marker')).toHaveCSS('border-top-width', '2px');
-  await expect(page.locator('.summary-stats > div')).toHaveCount(2);
-  await expect(page.locator('.summary-stats')).toHaveCSS('animation-duration', '1.7s');
-  const summaryOrder = await page.locator('.summary').evaluate((summary) => ({
-    journey: summary.querySelector('.progress-journey')!.getBoundingClientRect().top,
-    stats: summary.querySelector('.summary-stats')!.getBoundingClientRect().top,
-  }));
-  expect(summaryOrder.journey).toBeLessThan(summaryOrder.stats);
-
-  await page.locator('.summary-history .history-dot.correct').click();
-  await page.getByRole('button', { name: 'Torna al riepilogo della sessione' }).click();
-  await expect(page.locator('.progress-journey')).toHaveClass(/revisit/);
-  await expect(page.locator('.progress-journey')).toHaveClass(/celebrating/);
-  await expect(page.locator('.progress-strip')).toHaveCSS('transition-duration', '0s');
-  await expect(page.locator('.progress-line')).toHaveCSS('opacity', '1');
-  await expect(page.locator('.current-progress-marker')).toHaveCSS('animation-name', 'none');
-  await expect(page.locator('.journey-reveal')).toHaveCSS('animation-name', 'none');
-  await expect(page.locator('.summary-stats.revisit')).toHaveCount(1);
-  const revisitHalo = await page
-    .locator('.current-progress-marker')
-    .evaluate((marker) => getComputedStyle(marker, '::after').animationName);
-  expect(revisitHalo).toContain('arrival-halo');
+  await expect(page.locator('.session-count')).toHaveText('1 frase praticata.');
+  await expect(page.locator('.accuracy-matrix tbody tr')).toHaveCount(4);
+  await expect(page.locator('.accuracy-lock')).toHaveCount(16);
+  await expect(page.locator('.accuracy-matrix')).toContainText('0%');
+  await expect(page.locator('.progress-journey')).toHaveCount(0);
+  await expect(page.locator('.summary-stats')).toHaveCount(0);
+  expect(await page.evaluate(() => document.documentElement.scrollWidth <= innerWidth)).toBe(true);
 });
 
 test('summary history can revisit answers and return to the results', async ({ page }) => {
@@ -548,7 +474,7 @@ test('wrapped sentences leave room between the verb hint and next button', async
   await begin(page);
   await page.evaluate(() => {
     const state = JSON.parse(localStorage.getItem('unpo-learning-state')!);
-    state.queue = ['presente-29', ...state.queue.filter((id: string) => id !== 'presente-29')];
+    state.queue = ['sent-pres-101', ...state.queue.filter((id: string) => id !== 'sent-pres-101')];
     localStorage.setItem('unpo-learning-state', JSON.stringify(state));
   });
   await page.reload();
@@ -560,4 +486,90 @@ test('wrapped sentences leave room between the verb hint and next button', async
     .getByRole('button', { name: 'Prossima frase', exact: true })
     .boundingBox())!;
   expect(button.y - (hint.y + hint.height)).toBeGreaterThanOrEqual(12);
+});
+
+async function startAt(page: import('@playwright/test').Page, id: string) {
+  const state = createLearningState(exercises, () => 0.5);
+  const selected = exercises.find((e) => e.id === id)!;
+  const bands = curriculumBands(exercises);
+  const index = bands.findIndex((b) => b.id === `${selected.tense}:${selected.band}`);
+  state.curriculum.unlocked = bands.slice(0, Math.max(3, index + 1)).map((b) => b.id);
+  synchronizeLearningState(state, exercises, () => 0.5);
+  state.queue = [id, ...state.queue.filter((queued) => queued !== id)];
+  await page.addInitScript((saved) => {
+    localStorage.setItem('unpo-learning-state', JSON.stringify(saved));
+  }, state);
+  await page.emulateMedia({ reducedMotion: 'reduce' });
+  await begin(page);
+  await expect(page.locator('.exercise-form')).toHaveAttribute('data-exercise-id', id);
+}
+
+test('compound answers show the correct tense and context-bound agreement in the table', async ({
+  page,
+}) => {
+  await startAt(page, 'sent-past-104');
+  await expect(page.locator('#tense-cue')).toHaveText('Passato prossimo');
+  await page.locator('#verb-answer').fill('si sono alzate');
+  await page.getByRole('button', { name: 'Verifica' }).click();
+  await expect(page.locator('.exercise-form')).toHaveClass(/answer-incorrect/);
+  await expect(page.locator('.table-heading')).toContainText('Passato prossimo');
+  await expect(page.locator('.target-row')).toContainText('si sono alzati');
+  await expect(page.locator('.target-row')).not.toContainText('si sono alzate');
+  expect(await page.evaluate(() => document.documentElement.scrollWidth <= innerWidth)).toBe(true);
+});
+
+test('mixed-tense answers credit the chosen tense and preserve its explanation in history', async ({
+  page,
+}) => {
+  await startAt(page, 'pilot-multi-004');
+  await expect(page.locator('#tense-cue')).toHaveText('Imperfetto o Passato prossimo');
+  await page.locator('#verb-answer').fill('ha lavorato');
+  await page.keyboard.press('Enter');
+  await expect(page.locator('.exercise-form')).toHaveClass(/answer-correct/);
+  await expect(page.locator('.correct-caption')).toContainText('esperienza conclusa');
+  const contexts = await page.evaluate(
+    () => JSON.parse(localStorage.getItem('unpo-learning-state')!).contexts,
+  );
+  expect(contexts.tenses.passato_prossimo.correct).toBe(1);
+  expect(contexts.tenses.imperfetto).toBeUndefined();
+  await page.getByRole('button', { name: 'Prossima frase', exact: true }).click();
+  await expect(page.locator('#verb-answer')).toBeEditable();
+  await page.keyboard.press('ArrowUp');
+  await expect(page.locator('#verb-answer')).toHaveValue('ha lavorato');
+  await expect(page.locator('.correct-caption')).toContainText('esperienza conclusa');
+  await expect(page.locator('#tense-cue')).toHaveText('Imperfetto o Passato prossimo');
+});
+
+test('long compound alternatives fit a narrow screen and remain readable', async ({ page }) => {
+  await page.setViewportSize({ width: 375, height: 667 });
+  await startAt(page, 'sent-past-156');
+  await page.locator('#verb-answer').fill('vi siete alzate');
+  await page.getByRole('button', { name: 'Verifica' }).click();
+  await expect(page.locator('.exercise-form')).toHaveClass(/answer-correct/);
+  expect(await page.evaluate(() => document.documentElement.scrollWidth <= innerWidth)).toBe(true);
+  const geometry = await page.locator('#verb-answer').evaluate((el) => ({
+    width: el.clientWidth,
+    content: el.scrollWidth,
+  }));
+  expect(geometry.content).toBeLessThanOrEqual(geometry.width + 1);
+});
+
+test('summary arrows compare saved accuracy with the session baseline', async ({ page }) => {
+  const first = exercises.find((e) => e.tense === 'presente' && e.person === 'io' && e.band === 1)!;
+  const state = createLearningState(exercises, () => 0.5);
+  state.results[first.id] = { outcome: 'error', tense: 'presente' };
+  state.queue = [first.id, ...state.queue.filter((id) => id !== first.id)];
+  await page.addInitScript(
+    (saved) => localStorage.setItem('unpo-learning-state', JSON.stringify(saved)),
+    state,
+  );
+  await page.emulateMedia({ reducedMotion: 'reduce' });
+  await begin(page);
+  await page.locator('#verb-answer').fill(first.answers[0]!);
+  await page.getByRole('button', { name: 'Verifica', exact: true }).click();
+  await page.getByRole('button', { name: 'Concludi la sessione' }).click();
+  const cell = page.locator('.accuracy-matrix tbody tr').first().locator('td').first();
+  await expect(cell).toContainText('100%');
+  await expect(cell.locator('.accuracy-up')).toHaveText('↑');
+  expect(await page.evaluate(() => document.documentElement.scrollWidth <= innerWidth)).toBe(true);
 });

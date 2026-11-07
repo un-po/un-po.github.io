@@ -1,0 +1,366 @@
+{
+  "verbi": [
+    {
+      "infinito": "essere",
+      "coniugazione": "ausiliare",
+      "tier": 1,
+      "ausiliare": "essere",
+      "irregolare": true,
+      "radice_futuro": "sar-",
+      "radice_imperfetto": "er-"
+    },
+    {
+      "infinito": "avere",
+      "coniugazione": "ausiliare",
+      "tier": 1,
+      "ausiliare": "avere",
+      "irregolare": true,
+      "radice_futuro": "avr-",
+      "radice_imperfetto": "av-"
+    },
+    {
+      "infinito": "andare",
+      "coniugazione": "1",
+      "tier": 1,
+      "ausiliare": "essere",
+      "irregolare": true,
+      "radice_futuro": "andr-",
+      "radice_imperfetto": "andav-"
+    },
+    {
+      "infinito": "venire",
+      "coniugazione": "3",
+      "tier": 1,
+      "ausiliare": "essere",
+      "irregolare": true,
+      "radice_futuro": "verr-",
+      "radice_imperfetto": "veniv-"
+    },
+    {
+      "infinito": "uscire",
+      "coniugazione": "3",
+      "tier": 1,
+      "ausiliare": "essere",
+      "irregolare": true,
+      "radice_futuro": "uscir-",
+      "radice_imperfetto": "usciv-"
+    },
+    {
+      "infinito": "fare",
+      "coniugazione": "1",
+      "tier": 1,
+      "ausiliare": "avere",
+      "irregolare": true,
+      "radice_futuro": "far-",
+      "radice_imperfetto": "facev-"
+    },
+    {
+      "infinito": "dire",
+      "coniugazione": "3",
+      "tier": 1,
+      "ausiliare": "avere",
+      "irregolare": true,
+      "radice_futuro": "dir-",
+      "radice_imperfetto": "dicev-"
+    },
+    {
+      "infinito": "sapere",
+      "coniugazione": "2",
+      "tier": 1,
+      "ausiliare": "avere",
+      "irregolare": true,
+      "radice_futuro": "sapr-",
+      "radice_imperfetto": "sapev-"
+    },
+    {
+      "infinito": "vedere",
+      "coniugazione": "2",
+      "tier": 1,
+      "ausiliare": "avere",
+      "irregolare": true,
+      "radice_futuro": "vedr-",
+      "radice_imperfetto": "vedev-"
+    },
+    {
+      "infinito": "prendere",
+      "coniugazione": "2",
+      "tier": 1,
+      "ausiliare": "avere",
+      "irregolare": false,
+      "participio_passato": "preso"
+    },
+    {
+      "infinito": "parlare",
+      "coniugazione": "1",
+      "tier": 2,
+      "ausiliare": "avere",
+      "irregolare": false
+    },
+    {
+      "infinito": "mangiare",
+      "coniugazione": "1",
+      "tier": 2,
+      "ausiliare": "avere",
+      "irregolare": false
+    },
+    {
+      "infinito": "lavorare",
+      "coniugazione": "1",
+      "tier": 2,
+      "ausiliare": "avere",
+      "irregolare": false
+    },
+    {
+      "infinito": "scrivere",
+      "coniugazione": "2",
+      "tier": 2,
+      "ausiliare": "avere",
+      "irregolare": true,
+      "participio_passato": "scritto"
+    },
+    {
+      "infinito": "leggere",
+      "coniugazione": "2",
+      "tier": 2,
+      "ausiliare": "avere",
+      "irregolare": true,
+      "participio_passato": "letto"
+    },
+    {
+      "infinito": "capire",
+      "coniugazione": "3",
+      "tier": 2,
+      "ausiliare": "avere",
+      "irregolare": false,
+      "isc": true
+    },
+    {
+      "infinito": "dormire",
+      "coniugazione": "3",
+      "tier": 2,
+      "ausiliare": "avere",
+      "irregolare": false
+    },
+    {
+      "infinito": "viaggiare",
+      "coniugazione": "1",
+      "tier": 2,
+      "ausiliare": "avere",
+      "irregolare": false
+    },
+    {
+      "infinito": "spegnere",
+      "coniugazione": "2",
+      "tier": 3,
+      "ausiliare": "avere",
+      "irregolare": true,
+      "participio_passato": "spento"
+    },
+    {
+      "infinito": "dimenticare",
+      "coniugazione": "1",
+      "tier": 2,
+      "ausiliare": "avere",
+      "irregolare": false
+    },
+    {
+      "infinito": "preferire",
+      "coniugazione": "3",
+      "tier": 2,
+      "ausiliare": "avere",
+      "irregolare": false,
+      "isc": true
+    },
+    {
+      "infinito": "costruire",
+      "coniugazione": "3",
+      "tier": 3,
+      "ausiliare": "avere",
+      "irregolare": false,
+      "isc": true
+    },
+    {
+      "infinito": "spedire",
+      "coniugazione": "3",
+      "tier": 3,
+      "ausiliare": "avere",
+      "irregolare": false,
+      "isc": true
+    },
+    {
+      "infinito": "risolvere",
+      "coniugazione": "2",
+      "tier": 3,
+      "ausiliare": "avere",
+      "irregolare": true,
+      "participio_passato": "risolto"
+    },
+    {
+      "infinito": "arrivare",
+      "coniugazione": "1",
+      "tier": 1,
+      "ausiliare": "essere",
+      "irregolare": false
+    },
+    {
+      "infinito": "firmare",
+      "coniugazione": "1",
+      "tier": 3,
+      "ausiliare": "avere",
+      "irregolare": false
+    },
+    {
+      "infinito": "ricevere",
+      "coniugazione": "2",
+      "tier": 2,
+      "ausiliare": "avere",
+      "irregolare": false
+    },
+    {
+      "infinito": "tornare",
+      "coniugazione": "1",
+      "tier": 1,
+      "ausiliare": "essere",
+      "irregolare": false
+    },
+    {
+      "infinito": "alzarsi",
+      "coniugazione": "riflessivo",
+      "tier": 1,
+      "ausiliare": "essere",
+      "irregolare": false
+    },
+    {
+      "infinito": "cucinare",
+      "coniugazione": "1",
+      "tier": 2,
+      "ausiliare": "avere",
+      "irregolare": false
+    },
+    {
+      "infinito": "guidare",
+      "coniugazione": "1",
+      "tier": 2,
+      "ausiliare": "avere",
+      "irregolare": false
+    },
+    {
+      "infinito": "giocare",
+      "coniugazione": "1",
+      "tier": 2,
+      "ausiliare": "avere",
+      "irregolare": false
+    },
+    {
+      "infinito": "ordinare",
+      "coniugazione": "1",
+      "tier": 3,
+      "ausiliare": "avere",
+      "irregolare": false
+    },
+    {
+      "infinito": "amare",
+      "coniugazione": "1",
+      "tier": 2,
+      "ausiliare": "avere",
+      "irregolare": false
+    },
+    {
+      "infinito": "dovere",
+      "coniugazione": "2",
+      "tier": 1,
+      "ausiliare": "avere",
+      "irregolare": true,
+      "radice_futuro": "dovr-",
+      "radice_imperfetto": "dovev-"
+    },
+    {
+      "infinito": "volere",
+      "coniugazione": "2",
+      "tier": 1,
+      "ausiliare": "avere",
+      "irregolare": true,
+      "radice_futuro": "vorr-",
+      "radice_imperfetto": "volev-"
+    },
+    {
+      "infinito": "fotografare",
+      "coniugazione": "1",
+      "tier": 3,
+      "ausiliare": "avere",
+      "irregolare": false
+    },
+    {
+      "infinito": "invitare",
+      "coniugazione": "1",
+      "tier": 3,
+      "ausiliare": "avere",
+      "irregolare": false
+    },
+    {
+      "infinito": "visitare",
+      "coniugazione": "1",
+      "tier": 2,
+      "ausiliare": "avere",
+      "irregolare": false
+    },
+    {
+      "infinito": "perdersi",
+      "coniugazione": "riflessivo",
+      "tier": 3,
+      "ausiliare": "essere",
+      "irregolare": false
+    },
+    {
+      "infinito": "stare",
+      "coniugazione": "1",
+      "tier": 1,
+      "ausiliare": "essere",
+      "irregolare": true,
+      "radice_futuro": "star-",
+      "radice_imperfetto": "stav-"
+    },
+    {
+      "infinito": "superare",
+      "coniugazione": "1",
+      "tier": 2,
+      "ausiliare": "avere",
+      "irregolare": false
+    },
+    {
+      "infinito": "organizzare",
+      "coniugazione": "1",
+      "tier": 2,
+      "ausiliare": "avere",
+      "irregolare": false
+    },
+    {
+      "infinito": "godersi",
+      "coniugazione": "riflessivo",
+      "tier": 3,
+      "ausiliare": "essere",
+      "irregolare": false
+    },
+    {
+      "infinito": "approvare",
+      "coniugazione": "1",
+      "tier": 3,
+      "ausiliare": "avere",
+      "irregolare": false
+    },
+    {
+      "infinito": "puntere",
+      "coniugazione": "1",
+      "tier": 3,
+      "ausiliare": "avere",
+      "irregolare": false
+    },
+    {
+      "infinito": "aspettare",
+      "coniugazione": "1",
+      "tier": 2,
+      "ausiliare": "avere",
+      "irregolare": false
+    }
+  ]
+}

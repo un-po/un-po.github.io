@@ -1,6 +1,5 @@
 import test from 'node:test';
 import assert from 'node:assert/strict';
-import { readFileSync } from 'node:fs';
 import { createLearningState, learningStateVersion } from '../src/lib/learning.ts';
 import {
   clearLearningState,
@@ -10,9 +9,8 @@ import {
 } from '../src/lib/storage.ts';
 import type { Exercise } from '../src/lib/practice.ts';
 
-const exercises: Exercise[] = JSON.parse(
-  readFileSync(new URL('../src/content/exercises.json', import.meta.url), 'utf8'),
-);
+import { exercises } from './content-fixture.ts';
+const starterExercises = exercises.filter((exercise) => exercise.level! <= 2);
 const random = () => 0.5;
 let stored = new Map<string, string>();
 
@@ -48,10 +46,10 @@ test('rejects corrupt or unknown state versions', () => {
 
 test('merges newly eligible questions without resetting progress', () => {
   installStorage();
-  const state = createLearningState(exercises.slice(0, 3), random);
+  const state = createLearningState(starterExercises.slice(0, 3), random);
   state.learner.totalMastery = 2;
   saveLearningState(state);
-  const expanded = loadLearningState(exercises.slice(0, 6), random);
+  const expanded = loadLearningState(starterExercises.slice(0, 6), random);
   assert.equal(expanded.learner.totalMastery, 2);
   assert.equal(new Set(expanded.queue).size, 6);
 });
@@ -73,4 +71,57 @@ test('storage failures do not interrupt practice', () => {
   const state = loadLearningState(exercises, random);
   assert.equal(state.version, learningStateVersion);
   assert.equal(saveLearningState(state), false);
+});
+
+test('version 1 migration replaces the pool without losing earned progress or context', () => {
+  installStorage();
+  const legacy: any = createLearningState(starterExercises, random);
+  legacy.version = 1;
+  delete legacy.contentRevision;
+  delete legacy.results;
+  delete legacy.curriculum;
+  legacy.learner.level = 6;
+  legacy.learner.levelProgress = 3;
+  legacy.learner.totalMastery = 47;
+  legacy.learner.missedMastery = 2.6;
+  legacy.mastery = { 'presente-1': { earned: 1, offeredAtLevel: 1, status: 'active' } };
+  legacy.queue = ['presente-1', 'presente-2'];
+  legacy.contexts.tenses.presente = {
+    score: 0.8,
+    samples: 10,
+    attempts: 10,
+    correct: 8,
+    typos: 0,
+    errors: 2,
+  };
+  stored.set(learningStorageKey, JSON.stringify(legacy));
+  const migrated = loadLearningState(exercises, random);
+  assert.equal(migrated.version, 3);
+  assert.deepEqual(migrated.learner, legacy.learner);
+  assert.deepEqual(migrated.contexts.tenses.presente, legacy.contexts.tenses.presente);
+  assert.equal(migrated.mastery['presente-1']?.earned, 1);
+  assert.equal(migrated.mastery['presente-1']?.status, 'active');
+  assert.deepEqual(migrated.results, {});
+  assert.ok(migrated.curriculum.unlocked.length >= 3);
+  assert.ok(
+    migrated.queue.length && migrated.queue.every((id) => exercises.some((e) => e.id === id)),
+  );
+  assert.deepEqual(loadLearningState(exercises, random), migrated);
+});
+
+test('version 2 migration preserves unlocked access without inventing matrix accuracy', () => {
+  installStorage();
+  const legacy: any = createLearningState(exercises, random);
+  legacy.version = 2;
+  legacy.learner.level = 19;
+  legacy.learner.totalMastery = 200;
+  delete legacy.results;
+  delete legacy.curriculum;
+  stored.set(learningStorageKey, JSON.stringify(legacy));
+  const migrated = loadLearningState(exercises, random);
+  assert.equal(migrated.version, 3);
+  assert.equal(migrated.curriculum.unlocked.length, 8);
+  assert.equal(migrated.learner.totalMastery, 200);
+  assert.deepEqual(migrated.results, {});
+  assert.deepEqual(loadLearningState(exercises, random), migrated);
 });

@@ -1,0 +1,1142 @@
+[
+  {
+    "id": "sent-pres-101",
+    "context_theme": "daily_routine",
+    "text_template": "Ogni mattina, prima di uscire, io {slot_0} un caffè veloce.",
+    "constraint_type": "temporal_anchor",
+    "difficulty_level": 2,
+    "targets": [
+      {
+        "slot_id": 0,
+        "token_index": 8,
+        "verb": "bere",
+        "mood": "indicativo",
+        "tense": "indicativo_presente",
+        "person": "io",
+        "accepted_answers": ["bevo"],
+        "explanation": "Il verbo bere è irregolare: alla prima persona singolare (io) cambia radice e diventa bevo."
+      }
+    ]
+  },
+  {
+    "id": "sent-pres-102",
+    "context_theme": "work_office",
+    "text_template": "Nel mio ufficio, tu {slot_0} italiano molto chiaramente.",
+    "constraint_type": "none",
+    "difficulty_level": 1,
+    "targets": [
+      {
+        "slot_id": 0,
+        "token_index": 5,
+        "verb": "parlare",
+        "mood": "indicativo",
+        "tense": "indicativo_presente",
+        "person": "tu",
+        "accepted_answers": ["parli"],
+        "explanation": "Con la seconda persona singolare (tu), i verbi regolari della prima coniugazione in -are terminano in -i."
+      }
+    ]
+  },
+  {
+    "id": "sent-pres-103",
+    "context_theme": "home_lifestyle",
+    "text_template": "Oggi noi {slot_0} liberi tutto il pomeriggio.",
+    "constraint_type": "none",
+    "difficulty_level": 2,
+    "targets": [
+      {
+        "slot_id": 0,
+        "token_index": 3,
+        "verb": "essere",
+        "mood": "indicativo",
+        "tense": "indicativo_presente",
+        "person": "noi",
+        "accepted_answers": ["siamo"],
+        "explanation": "Il verbo essere è altamente irregolare: con la prima persona plurale (noi) si usa la forma siamo."
+      }
+    ]
+  },
+  {
+    "id": "sent-pres-104",
+    "context_theme": "social_life",
+    "text_template": "I gatti dei miei vicini {slot_0} sempre sul divano del soggiorno.",
+    "constraint_type": "none",
+    "difficulty_level": 1,
+    "targets": [
+      {
+        "slot_id": 0,
+        "token_index": 5,
+        "verb": "dormire",
+        "mood": "indicativo",
+        "tense": "indicativo_presente",
+        "person": "loro",
+        "accepted_answers": ["dormono"],
+        "explanation": "Con la terza persona plurale (loro), i verbi della terza coniugazione in -ire terminano in -ono."
+      }
+    ]
+  },
+  {
+    "id": "sent-pres-105",
+    "context_theme": "home_lifestyle",
+    "text_template": "Voi {slot_0} un giardino bellissimo dietro casa.",
+    "constraint_type": "none",
+    "difficulty_level": 2,
+    "targets": [
+      {
+        "slot_id": 0,
+        "token_index": 1,
+        "verb": "avere",
+        "mood": "indicativo",
+        "tense": "indicativo_presente",
+        "person": "voi",
+        "accepted_answers": ["avete"],
+        "explanation": "Il verbo avere è irregolare: con la seconda persona plurale (voi) la forma corretta è avete."
+      }
+    ]
+  },
+  {
+    "id": "sent-pres-106",
+    "context_theme": "daily_routine",
+    "text_template": "Ogni sera dopo cena, Giulia {slot_0} un capitolo di un libro.",
+    "constraint_type": "none",
+    "difficulty_level": 1,
+    "targets": [
+      {
+        "slot_id": 0,
+        "token_index": 6,
+        "verb": "leggere",
+        "mood": "indicativo",
+        "tense": "indicativo_presente",
+        "person": "lui_lei",
+        "accepted_answers": ["legge"],
+        "explanation": "Con la terza persona singolare (lui o lei), i verbi regolari in -ere della seconda coniugazione terminano in -e."
+      }
+    ]
+  },
+  {
+    "id": "sent-pres-107",
+    "context_theme": "travel_commuting",
+    "text_template": "Di solito tu {slot_0} al mercato rionale ogni sabato mattina.",
+    "constraint_type": "temporal_anchor",
+    "difficulty_level": 2,
+    "targets": [
+      {
+        "slot_id": 0,
+        "token_index": 4,
+        "verb": "andare",
+        "mood": "indicativo",
+        "tense": "indicativo_presente",
+        "person": "tu",
+        "accepted_answers": ["vai"],
+        "explanation": "Il verbo andare è irregolare: con la seconda persona singolare (tu) si usa la forma vai."
+      }
+    ]
+  },
+  {
+    "id": "sent-pres-108",
+    "context_theme": "work_office",
+    "text_template": "Finalmente io {slot_0} questa regola grammaticale.",
+    "constraint_type": "none",
+    "difficulty_level": 2,
+    "targets": [
+      {
+        "slot_id": 0,
+        "token_index": 3,
+        "verb": "capire",
+        "mood": "indicativo",
+        "tense": "indicativo_presente",
+        "person": "io",
+        "accepted_answers": ["capisco"],
+        "explanation": "I verbi in -isc- come capire aggiungono il suffisso -isc- nelle persone singolari e alla terza plurale: con io fa capisco."
+      }
+    ]
+  },
+  {
+    "id": "sent-pres-109",
+    "context_theme": "leisure",
+    "text_template": "La domenica i miei amici {slot_0} sempre una lunga passeggiata.",
+    "constraint_type": "temporal_anchor",
+    "difficulty_level": 2,
+    "targets": [
+      {
+        "slot_id": 0,
+        "token_index": 6,
+        "verb": "fare",
+        "mood": "indicativo",
+        "tense": "indicativo_presente",
+        "person": "loro",
+        "accepted_answers": ["fanno"],
+        "explanation": "Il verbo fare è irregolare: con la terza persona plurale (loro) la forma è fanno."
+      }
+    ]
+  },
+  {
+    "id": "sent-pres-110",
+    "context_theme": "travel_commuting",
+    "text_template": "Mentre guidiamo in autostrada, noi {slot_0} sempre la radio.",
+    "constraint_type": "none",
+    "difficulty_level": 1,
+    "targets": [
+      {
+        "slot_id": 0,
+        "token_index": 6,
+        "verb": "ascoltare",
+        "mood": "indicativo",
+        "tense": "indicativo_presente",
+        "person": "noi",
+        "accepted_answers": ["ascoltiamo"],
+        "explanation": "Con la prima persona plurale (noi), i verbi regolari in -are terminano sempre in -iamo."
+      }
+    ]
+  },
+  {
+    "id": "sent-pres-111",
+    "context_theme": "daily_routine",
+    "text_template": "Scusi, signore, mi {slot_0} che ore sono?",
+    "constraint_type": "lexical_trigger",
+    "difficulty_level": 2,
+    "targets": [
+      {
+        "slot_id": 0,
+        "token_index": 5,
+        "verb": "dire",
+        "mood": "indicativo",
+        "tense": "indicativo_presente",
+        "person": "tu",
+        "accepted_answers": ["dici"],
+        "explanation": "Il verbo dire è irregolare: alla seconda persona singolare (tu) si coniuga con dici."
+      }
+    ]
+  },
+  {
+    "id": "sent-pres-112",
+    "context_theme": "work_office",
+    "text_template": "Domani mattina io {slot_0} finire questo report in anticipo.",
+    "constraint_type": "temporal_anchor",
+    "difficulty_level": 2,
+    "targets": [
+      {
+        "slot_id": 0,
+        "token_index": 4,
+        "verb": "dovere",
+        "mood": "indicativo",
+        "tense": "indicativo_presente",
+        "person": "io",
+        "accepted_answers": ["devono", "devo"],
+        "explanation": "Il verbo modale dovere è irregolare: alla prima persona singolare (io) la forma corretta è devo."
+      }
+    ]
+  },
+  {
+    "id": "sent-pres-113",
+    "context_theme": "home_lifestyle",
+    "text_template": "Tu {slot_0} venire con noi al cinema stasera se vuoi.",
+    "constraint_type": "none",
+    "difficulty_level": 2,
+    "targets": [
+      {
+        "slot_id": 0,
+        "token_index": 1,
+        "verb": "potere",
+        "mood": "indicativo",
+        "tense": "indicativo_presente",
+        "person": "tu",
+        "accepted_answers": ["puoi"],
+        "explanation": "Il verbo servile potere è irregolare: con la seconda persona singolare (tu) la forma è puoi."
+      }
+    ]
+  },
+  {
+    "id": "sent-pres-114",
+    "context_theme": "social_life",
+    "text_template": "Noi {slot_0} organizzare una festa per il compleanno di Marco.",
+    "constraint_type": "none",
+    "difficulty_level": 2,
+    "targets": [
+      {
+        "slot_id": 0,
+        "token_index": 1,
+        "verb": "volere",
+        "mood": "indicativo",
+        "tense": "indicativo_presente",
+        "person": "noi",
+        "accepted_answers": ["vogliamo"],
+        "explanation": "Il verbo volere è irregolare: con la prima persona plurale (noi) si usa vogliamo."
+      }
+    ]
+  },
+  {
+    "id": "sent-pres-115",
+    "context_theme": "travel_commuting",
+    "text_template": "I passeggeri {slot_0} esibire il biglietto prima di salire a bordo.",
+    "constraint_type": "none",
+    "difficulty_level": 2,
+    "targets": [
+      {
+        "slot_id": 0,
+        "token_index": 2,
+        "verb": "dovere",
+        "mood": "indicativo",
+        "tense": "indicativo_presente",
+        "person": "loro",
+        "accepted_answers": ["devono"],
+        "explanation": "Con la terza persona plurale (loro), il verbo dovere assume la forma irregolare devono."
+      }
+    ]
+  },
+  {
+    "id": "sent-pres-116",
+    "context_theme": "work_office",
+    "text_template": "Cosa {slot_0} tu di questa nuova proposta di progetto?",
+    "constraint_type": "none",
+    "difficulty_level": 2,
+    "targets": [
+      {
+        "slot_id": 0,
+        "token_index": 2,
+        "verb": "dire",
+        "mood": "indicativo",
+        "tense": "indicativo_presente",
+        "person": "tu",
+        "accepted_answers": ["dici"],
+        "explanation": "Il verbo dire richiede la desinenza irregolare dici alla seconda persona singolare."
+      }
+    ]
+  },
+  {
+    "id": "sent-pres-117",
+    "context_theme": "daily_routine",
+    "text_template": "Voi non {slot_0} entrare in questa stanza senza permesso.",
+    "constraint_type": "none",
+    "difficulty_level": 2,
+    "targets": [
+      {
+        "slot_id": 0,
+        "token_index": 3,
+        "verb": "potere",
+        "mood": "indicativo",
+        "tense": "indicativo_presente",
+        "person": "voi",
+        "accepted_answers": ["potete"],
+        "explanation": "Con la seconda persona plurale (voi), il verbo potere si coniuga regolarmente nella radice con potete."
+      }
+    ]
+  },
+  {
+    "id": "sent-pres-118",
+    "context_theme": "home_lifestyle",
+    "text_template": "Luca {slot_0} comprare un'auto nuova quest'anno.",
+    "constraint_type": "temporal_anchor",
+    "difficulty_level": 2,
+    "targets": [
+      {
+        "slot_id": 0,
+        "token_index": 1,
+        "verb": "volere",
+        "mood": "indicativo",
+        "tense": "indicativo_presente",
+        "person": "lui_lei",
+        "accepted_answers": ["vuole"],
+        "explanation": "Con la terza persona singolare (lui/lei), il verbo volere diventa vuole."
+      }
+    ]
+  },
+  {
+    "id": "sent-pres-119",
+    "context_theme": "social_life",
+    "text_template": "Io {slot_0} sempre la verità ai miei amici più cari.",
+    "constraint_type": "none",
+    "difficulty_level": 2,
+    "targets": [
+      {
+        "slot_id": 0,
+        "token_index": 1,
+        "verb": "dire",
+        "mood": "indicativo",
+        "tense": "indicativo_presente",
+        "person": "io",
+        "accepted_answers": ["dico"],
+        "explanation": "La prima persona singolare (io) del verbo dire è dico."
+      }
+    ]
+  },
+  {
+    "id": "sent-pres-120",
+    "context_theme": "leisure",
+    "text_template": "Se hai tempo, tu {slot_0} riposarti un po' nel pomeriggio.",
+    "constraint_type": "none",
+    "difficulty_level": 2,
+    "targets": [
+      {
+        "slot_id": 0,
+        "token_index": 5,
+        "verb": "potere",
+        "mood": "indicativo",
+        "tense": "indicativo_presente",
+        "person": "tu",
+        "accepted_answers": ["puoi"],
+        "explanation": "Con il pronome tu, il verbo potere esprime la possibilità attraverso la forma puoi."
+      }
+    ]
+  },
+  {
+    "id": "sent-pres-121",
+    "context_theme": "social_life",
+    "text_template": "Io non {slot_0} a che ora comincia lo spettacolo stasera.",
+    "constraint_type": "lexical_trigger",
+    "difficulty_level": 2,
+    "targets": [
+      {
+        "slot_id": 0,
+        "token_index": 3,
+        "verb": "sapere",
+        "mood": "indicativo",
+        "tense": "indicativo_presente",
+        "person": "io",
+        "accepted_answers": ["so"],
+        "explanation": "Il verbo sapere è irregolare: alla prima persona singolare (io) la forma corretta è so."
+      }
+    ]
+  },
+  {
+    "id": "sent-pres-122",
+    "context_theme": "home_lifestyle",
+    "text_template": "Come {slot_0} tu oggi dopo la lunga camminata di ieri?",
+    "constraint_type": "none",
+    "difficulty_level": 2,
+    "targets": [
+      {
+        "slot_id": 0,
+        "token_index": 2,
+        "verb": "stare",
+        "mood": "indicativo",
+        "tense": "indicativo_presente",
+        "person": "tu",
+        "accepted_answers": ["stai"],
+        "explanation": "Il verbo stare è irregolare: con la seconda persona singolare (tu) si coniuga con stai."
+      }
+    ]
+  },
+  {
+    "id": "sent-pres-123",
+    "context_theme": "social_life",
+    "text_template": "Domani sera voi {slot_0} alla festa di compleanno di Chiara?",
+    "constraint_type": "temporal_anchor",
+    "difficulty_level": 2,
+    "targets": [
+      {
+        "slot_id": 0,
+        "token_index": 4,
+        "verb": "venire",
+        "mood": "indicativo",
+        "tense": "indicativo_presente",
+        "person": "voi",
+        "accepted_answers": ["venite"],
+        "explanation": "Con la seconda persona plurale (voi), il verbo venire si coniuga regolarmente nella desinenza con venite."
+      }
+    ]
+  },
+  {
+    "id": "sent-pres-124",
+    "context_theme": "daily_routine",
+    "text_template": "Di solito i miei colleghi {slot_0} dall'ufficio verso le diciotto.",
+    "constraint_type": "temporal_anchor",
+    "difficulty_level": 2,
+    "targets": [
+      {
+        "slot_id": 0,
+        "token_index": 6,
+        "verb": "uscire",
+        "mood": "indicativo",
+        "tense": "indicativo_presente",
+        "person": "loro",
+        "accepted_answers": ["escono"],
+        "explanation": "Il verbo uscire subisce una modifica radicale con l'aggiunta di -sc-: alla terza persona plurale (loro) fa escono."
+      }
+    ]
+  },
+  {
+    "id": "sent-pres-125",
+    "context_theme": "work_office",
+    "text_template": "Tu {slot_0} perfettamente come risolvere questo problema informatico.",
+    "constraint_type": "none",
+    "difficulty_level": 2,
+    "targets": [
+      {
+        "slot_id": 0,
+        "token_index": 1,
+        "verb": "sapere",
+        "mood": "indicativo",
+        "tense": "indicativo_presente",
+        "person": "tu",
+        "accepted_answers": ["sai"],
+        "explanation": "La seconda persona singolare (tu) del verbo sapere è l'irregolare sai."
+      }
+    ]
+  },
+  {
+    "id": "sent-pres-126",
+    "context_theme": "home_lifestyle",
+    "text_template": "Io {slot_0} molto bene quando cucino piatti tradizionali.",
+    "constraint_type": "none",
+    "difficulty_level": 2,
+    "targets": [
+      {
+        "slot_id": 0,
+        "token_index": 1,
+        "verb": "stare",
+        "mood": "indicativo",
+        "tense": "indicativo_presente",
+        "person": "io",
+        "accepted_answers": ["sto"],
+        "explanation": "La prima persona singolare (io) del verbo stare è sto."
+      }
+    ]
+  },
+  {
+    "id": "sent-pres-127",
+    "context_theme": "social_life",
+    "text_template": "Anche tu {slot_0} con noi al concerto sabato prossimo?",
+    "constraint_type": "temporal_anchor",
+    "difficulty_level": 2,
+    "targets": [
+      {
+        "slot_id": 0,
+        "token_index": 2,
+        "verb": "venire",
+        "mood": "indicativo",
+        "tense": "indicativo_presente",
+        "person": "tu",
+        "accepted_answers": ["vieni"],
+        "explanation": "Il verbo venire presenta un'alternanza vocalica: con la seconda persona singolare (tu) si usa vieni."
+      }
+    ]
+  },
+  {
+    "id": "sent-pres-128",
+    "context_theme": "leisure",
+    "text_template": "Quando fa bel tempo, noi {slot_0} volentieri a fare una passeggiata.",
+    "constraint_type": "temporal_anchor",
+    "difficulty_level": 2,
+    "targets": [
+      {
+        "slot_id": 0,
+        "token_index": 7,
+        "verb": "uscire",
+        "mood": "indicativo",
+        "tense": "indicativo_presente",
+        "person": "noi",
+        "accepted_answers": ["usciamo"],
+        "explanation": "Con la prima persona plurale (noi), il verbo uscire mantiene la forma regolare usciamo senza il suffisso -sc-."
+      }
+    ]
+  },
+  {
+    "id": "sent-pres-129",
+    "context_theme": "work_office",
+    "text_template": "I nostri clienti {slot_0} già tutti i dettagli del contratto.",
+    "constraint_type": "none",
+    "difficulty_level": 2,
+    "targets": [
+      {
+        "slot_id": 0,
+        "token_index": 3,
+        "verb": "sapere",
+        "mood": "indicativo",
+        "tense": "indicativo_presente",
+        "person": "loro",
+        "accepted_answers": ["sanno"],
+        "explanation": "Il verbo sapere alla terza persona plurale (loro) diventa sanno."
+      }
+    ]
+  },
+  {
+    "id": "sent-pres-130",
+    "context_theme": "daily_routine",
+    "text_template": "Marco {slot_0} a casa a studiare per l'esame universitario.",
+    "constraint_type": "none",
+    "difficulty_level": 2,
+    "targets": [
+      {
+        "slot_id": 0,
+        "token_index": 1,
+        "verb": "stare",
+        "mood": "indicativo",
+        "tense": "indicativo_presente",
+        "person": "lui_lei",
+        "accepted_answers": ["sta"],
+        "explanation": "Con la terza persona singolare (lui/lei), il verbo stare si coniuga con sta."
+      }
+    ]
+  },
+  {
+    "id": "sent-pres-131",
+    "context_theme": "work_office",
+    "text_template": "Durante le riunioni di team, io {slot_0} sempre con attenzione.",
+    "constraint_type": "temporal_anchor",
+    "difficulty_level": 1,
+    "targets": [
+      {
+        "slot_id": 0,
+        "token_index": 7,
+        "verb": "parlare",
+        "mood": "indicativo",
+        "tense": "indicativo_presente",
+        "person": "io",
+        "accepted_answers": ["parlo"],
+        "explanation": "I verbi regolari della prima coniugazione in -are alla prima persona singolare (io) terminano in -o."
+      }
+    ]
+  },
+  {
+    "id": "sent-pres-132",
+    "context_theme": "home_lifestyle",
+    "text_template": "Stasera noi {slot_0} una pizza fatta in casa con gli amici.",
+    "constraint_type": "temporal_anchor",
+    "difficulty_level": 1,
+    "targets": [
+      {
+        "slot_id": 0,
+        "token_index": 3,
+        "verb": "mangiare",
+        "mood": "indicativo",
+        "tense": "indicativo_presente",
+        "person": "noi",
+        "accepted_answers": ["mangiamo"],
+        "explanation": "Per i verbi in -ciare / -giare, la prima persona plurale (noi) perde la 'i' superflua e fa mangiamo."
+      }
+    ]
+  },
+  {
+    "id": "sent-pres-133",
+    "context_theme": "work_office",
+    "text_template": "I miei colleghi {slot_0} in un ufficio moderno vicino al centro.",
+    "constraint_type": "none",
+    "difficulty_level": 1,
+    "targets": [
+      {
+        "slot_id": 0,
+        "token_index": 3,
+        "verb": "lavorare",
+        "mood": "indicativo",
+        "tense": "indicativo_presente",
+        "person": "loro",
+        "accepted_answers": ["lavorano"],
+        "explanation": "Con la terza persona plurale (loro), i verbi regolari in -are terminano in -ano."
+      }
+    ]
+  },
+  {
+    "id": "sent-pres-134",
+    "context_theme": "home_lifestyle",
+    "text_template": "Ogni settimana tu {slot_0} un articolo interessante per il blog.",
+    "constraint_type": "temporal_anchor",
+    "difficulty_level": 1,
+    "targets": [
+      {
+        "slot_id": 0,
+        "token_index": 4,
+        "verb": "scrivere",
+        "mood": "indicativo",
+        "tense": "indicativo_presente",
+        "person": "tu",
+        "accepted_answers": ["scrivi"],
+        "explanation": "Con la seconda persona singolare (tu), i verbi regolari in -ere della seconda coniugazione terminano in -i."
+      }
+    ]
+  },
+  {
+    "id": "sent-pres-135",
+    "context_theme": "work_office",
+    "text_template": "La direttrice {slot_0} tre lingue straniere fluentemente nel suo lavoro.",
+    "constraint_type": "none",
+    "difficulty_level": 1,
+    "targets": [
+      {
+        "slot_id": 0,
+        "token_index": 2,
+        "verb": "parlare",
+        "mood": "indicativo",
+        "tense": "indicativo_presente",
+        "person": "lui_lei",
+        "accepted_answers": ["parla"],
+        "explanation": "Con la terza persona singolare (lui/lei), i verbi in -are terminano in -a."
+      }
+    ]
+  },
+  {
+    "id": "sent-pres-136",
+    "context_theme": "daily_routine",
+    "text_template": "Tu {slot_0} sempre frutta fresca dopo i pasti principali.",
+    "constraint_type": "temporal_anchor",
+    "difficulty_level": 1,
+    "targets": [
+      {
+        "slot_id": 0,
+        "token_index": 2,
+        "verb": "mangiare",
+        "mood": "indicativo",
+        "tense": "indicativo_presente",
+        "person": "tu",
+        "accepted_answers": ["mangi"],
+        "explanation": "Alla seconda persona singolare (tu), i verbi in -ciare / -giare aggiungono solo la -i finale diventando mangi."
+      }
+    ]
+  },
+  {
+    "id": "sent-pres-137",
+    "context_theme": "work_office",
+    "text_template": "Voi {slot_0} troppo al computer senza fare una pausa.",
+    "constraint_type": "none",
+    "difficulty_level": 1,
+    "targets": [
+      {
+        "slot_id": 0,
+        "token_index": 1,
+        "verb": "lavorare",
+        "mood": "indicativo",
+        "tense": "indicativo_presente",
+        "person": "voi",
+        "accepted_answers": ["lavorate"],
+        "explanation": "Con la seconda persona plurale (voi), i verbi regolari in -are terminano sempre in -ate."
+      }
+    ]
+  },
+  {
+    "id": "sent-pres-138",
+    "context_theme": "leisure",
+    "text_template": "Io {slot_0} spesso email ai miei vecchi amici d'infanzia.",
+    "constraint_type": "temporal_anchor",
+    "difficulty_level": 1,
+    "targets": [
+      {
+        "slot_id": 0,
+        "token_index": 2,
+        "verb": "scrivere",
+        "mood": "indicativo",
+        "tense": "indicativo_presente",
+        "person": "io",
+        "accepted_answers": ["scrivo"],
+        "explanation": "La prima persona singolare (io) dei verbi regolari in -ere termina in -o."
+      }
+    ]
+  },
+  {
+    "id": "sent-pres-139",
+    "context_theme": "social_life",
+    "text_template": "Noi {slot_0} volentieri con chiunque condivida le nostre passioni.",
+    "constraint_type": "none",
+    "difficulty_level": 1,
+    "targets": [
+      {
+        "slot_id": 0,
+        "token_index": 2,
+        "verb": "parlare",
+        "mood": "indicativo",
+        "tense": "indicativo_presente",
+        "person": "noi",
+        "accepted_answers": ["parliamo"],
+        "explanation": "Con la prima persona plurale (noi), i verbi in -are prendono la desinenza -liamo / -iamo."
+      }
+    ]
+  },
+  {
+    "id": "sent-pres-140",
+    "context_theme": "daily_routine",
+    "text_template": "A mezzogiorno i bambini {slot_0} la pasta alla bolognese a scuola.",
+    "constraint_type": "temporal_anchor",
+    "difficulty_level": 1,
+    "targets": [
+      {
+        "slot_id": 0,
+        "token_index": 4,
+        "verb": "mangiare",
+        "mood": "indicativo",
+        "tense": "indicativo_presente",
+        "person": "loro",
+        "accepted_answers": ["mangiano"],
+        "explanation": "La terza persona plurale (loro) dei verbi in -are si forma aggiungendo -no alla radice (mangiano)."
+      }
+    ]
+  },
+  {
+    "id": "sent-pres-141",
+    "context_theme": "leisure",
+    "text_template": "Durante il fine settimana, io {slot_0} romanzi storici sul divano.",
+    "constraint_type": "temporal_anchor",
+    "difficulty_level": 1,
+    "targets": [
+      {
+        "slot_id": 0,
+        "token_index": 6,
+        "verb": "leggere",
+        "mood": "indicativo",
+        "tense": "indicativo_presente",
+        "person": "io",
+        "accepted_answers": ["leggo"],
+        "explanation": "La prima persona singolare (io) dei verbi regolari in -ere della seconda coniugazione termina in -o."
+      }
+    ]
+  },
+  {
+    "id": "sent-pres-142",
+    "context_theme": "work_office",
+    "text_template": "Quando il professore spiega la lezione, gli studenti {slot_0} tutto subito.",
+    "constraint_type": "none",
+    "difficulty_level": 2,
+    "targets": [
+      {
+        "slot_id": 0,
+        "token_index": 11,
+        "verb": "capire",
+        "mood": "indicativo",
+        "tense": "indicativo_presente",
+        "person": "loro",
+        "accepted_answers": ["capiscono"],
+        "explanation": "I verbi in -isc- come capire aggiungono il suffisso -iscono alla terza persona plurale (loro)."
+      }
+    ]
+  },
+  {
+    "id": "sent-pres-143",
+    "context_theme": "daily_routine",
+    "text_template": "Dopo una lunga giornata di lavoro, tu {slot_0} almeno otto ore.",
+    "constraint_type": "temporal_anchor",
+    "difficulty_level": 1,
+    "targets": [
+      {
+        "slot_id": 0,
+        "token_index": 9,
+        "verb": "dormire",
+        "mood": "indicativo",
+        "tense": "indicativo_presente",
+        "person": "tu",
+        "accepted_answers": ["dormi"],
+        "explanation": "Con la seconda persona singolare (tu), i verbi della terza coniugazione in -ire terminano regolarmente in -i."
+      }
+    ]
+  },
+  {
+    "id": "sent-pres-144",
+    "context_theme": "travel_commuting",
+    "text_template": "Spesso noi {slot_0} in treno per visitare le città d'arte italiane.",
+    "constraint_type": "temporal_anchor",
+    "difficulty_level": 1,
+    "targets": [
+      {
+        "slot_id": 0,
+        "token_index": 3,
+        "verb": "viaggiare",
+        "mood": "indicativo",
+        "tense": "indicativo_presente",
+        "person": "noi",
+        "accepted_answers": ["viaggiamo"],
+        "explanation": "Nei verbi in -ciare / -giare, la prima persona plurale (noi) si scrive senza la 'i' interna (viaggiamo)."
+      }
+    ]
+  },
+  {
+    "id": "sent-pres-145",
+    "context_theme": "home_lifestyle",
+    "text_template": "Mio padre {slot_0} sempre il giornale cartaceo ogni mattina.",
+    "constraint_type": "temporal_anchor",
+    "difficulty_level": 1,
+    "targets": [
+      {
+        "slot_id": 0,
+        "token_index": 2,
+        "verb": "leggere",
+        "mood": "indicativo",
+        "tense": "indicativo_presente",
+        "person": "lui_lei",
+        "accepted_answers": ["legge"],
+        "explanation": "Con la terza persona singolare (lui/lei), i verbi regolari in -ere terminano in -e."
+      }
+    ]
+  },
+  {
+    "id": "sent-pres-146",
+    "context_theme": "work_office",
+    "text_template": "Tu {slot_0} sempre molto rapidamente le istruzioni tecniche.",
+    "constraint_type": "temporal_anchor",
+    "difficulty_level": 2,
+    "targets": [
+      {
+        "slot_id": 0,
+        "token_index": 1,
+        "verb": "capire",
+        "mood": "indicativo",
+        "tense": "indicativo_presente",
+        "person": "tu",
+        "accepted_answers": ["capisci"],
+        "explanation": "Il verbo capire richiede l'infisso -isci- alla seconda persona singolare (tu capisci)."
+      }
+    ]
+  },
+  {
+    "id": "sent-pres-147",
+    "context_theme": "leisure",
+    "text_template": "Nel fine settimana i miei gatti {slot_0} beatamente vicino alla finestra.",
+    "constraint_type": "temporal_anchor",
+    "difficulty_level": 1,
+    "targets": [
+      {
+        "slot_id": 0,
+        "token_index": 6,
+        "verb": "dormire",
+        "mood": "indicativo",
+        "tense": "indicativo_presente",
+        "person": "loro",
+        "accepted_answers": ["dormono"],
+        "explanation": "La terza persona plurale (loro) dei verbi in -ire termina regolarmente in -ono."
+      }
+    ]
+  },
+  {
+    "id": "sent-pres-148",
+    "context_theme": "travel_commuting",
+    "text_template": "Ogni estate voi {slot_0} all'estero per scoprire nuove culture.",
+    "constraint_type": "temporal_anchor",
+    "difficulty_level": 1,
+    "targets": [
+      {
+        "slot_id": 0,
+        "token_index": 3,
+        "verb": "viaggiare",
+        "mood": "indicativo",
+        "tense": "indicativo_presente",
+        "person": "voi",
+        "accepted_answers": ["viaggiate"],
+        "explanation": "Con la seconda persona plurale (voi), i verbi in -are terminano in -ate (viaggiate)."
+      }
+    ]
+  },
+  {
+    "id": "sent-pres-149",
+    "context_theme": "leisure",
+    "text_template": "Noi {slot_0} molti articoli scientifici per curiosità personale.",
+    "constraint_type": "none",
+    "difficulty_level": 1,
+    "targets": [
+      {
+        "slot_id": 0,
+        "token_index": 1,
+        "verb": "leggere",
+        "mood": "indicativo",
+        "tense": "indicativo_presente",
+        "person": "noi",
+        "accepted_answers": ["leggiamo"],
+        "explanation": "La prima persona plurale (noi) dei verbi in -ere prende sempre la desinenza -iamo."
+      }
+    ]
+  },
+  {
+    "id": "sent-pres-150",
+    "context_theme": "daily_routine",
+    "text_template": "Io {slot_0} benissimo anche quando c'è un po' di rumore intorno.",
+    "constraint_type": "none",
+    "difficulty_level": 1,
+    "targets": [
+      {
+        "slot_id": 0,
+        "token_index": 1,
+        "verb": "dormire",
+        "mood": "indicativo",
+        "tense": "indicativo_presente",
+        "person": "io",
+        "accepted_answers": ["dormo"],
+        "explanation": "La prima persona singolare (io) del verbo dormire termina in -o."
+      }
+    ]
+  },
+  {
+    "id": "sent-pres-151",
+    "context_theme": "home_lifestyle",
+    "text_template": "Prima di uscire di casa, io {slot_0} tutte le luci delle stanze.",
+    "constraint_type": "temporal_anchor",
+    "difficulty_level": 2,
+    "targets": [
+      {
+        "slot_id": 0,
+        "token_index": 7,
+        "verb": "spegnere",
+        "mood": "indicativo",
+        "tense": "indicativo_presente",
+        "person": "io",
+        "accepted_answers": ["spengo"],
+        "explanation": "Il verbo spegnere è irregolare nella radice: alla prima persona singolare (io) la forma corretta è spengo."
+      }
+    ]
+  },
+  {
+    "id": "sent-pres-152",
+    "context_theme": "work_office",
+    "text_template": "Spesso noi {slot_0} dove abbiamo messo le chiavi dell'archivio.",
+    "constraint_type": "temporal_anchor",
+    "difficulty_level": 2,
+    "targets": [
+      {
+        "slot_id": 0,
+        "token_index": 3,
+        "verb": "dimenticare",
+        "mood": "indicativo",
+        "tense": "indicativo_presente",
+        "person": "noi",
+        "accepted_answers": ["dimentichiamo"],
+        "explanation": "Nei verbi in -care / -gare, per mantenere il suono duro della 'c' o della 'g' davanti a 'i', si inserisce una 'h' (dimentichiamo)."
+      }
+    ]
+  },
+  {
+    "id": "sent-pres-153",
+    "context_theme": "leisure",
+    "text_template": "Tra questi due romanzi, tu quale {slot_0} di leggere per primo?",
+    "constraint_type": "lexical_trigger",
+    "difficulty_level": 2,
+    "targets": [
+      {
+        "slot_id": 0,
+        "token_index": 6,
+        "verb": "preferire",
+        "mood": "indicativo",
+        "tense": "indicativo_presente",
+        "person": "tu",
+        "accepted_answers": ["preferisci"],
+        "explanation": "Il verbo preferire appartiene alla classe in -isc-: alla seconda persona singolare (tu) si coniuga con preferisci."
+      }
+    ]
+  },
+  {
+    "id": "sent-pres-154",
+    "context_theme": "work_office",
+    "text_template": "Nel tempo libero, i miei colleghi {slot_0} modellini di case in legno.",
+    "constraint_type": "none",
+    "difficulty_level": 2,
+    "targets": [
+      {
+        "slot_id": 0,
+        "token_index": 7,
+        "verb": "costruire",
+        "mood": "indicativo",
+        "tense": "indicativo_presente",
+        "person": "loro",
+        "accepted_answers": ["costruiscono"],
+        "explanation": "Il verbo costruire richiede l'infisso -isc- alla terza persona plurale (loro costruiscono)."
+      }
+    ]
+  },
+  {
+    "id": "sent-pres-155",
+    "context_theme": "daily_routine",
+    "text_template": "Ogni lunedì mattina la segretaria {slot_0} i documenti ufficiali ai clienti.",
+    "constraint_type": "temporal_anchor",
+    "difficulty_level": 2,
+    "targets": [
+      {
+        "slot_id": 0,
+        "token_index": 7,
+        "verb": "spedire",
+        "mood": "indicativo",
+        "tense": "indicativo_presente",
+        "person": "lui_lei",
+        "accepted_answers": ["spedisce"],
+        "explanation": "Il verbo spedire adotta l'infisso -isc- alla terza persona singolare (lui/lei spedisce)."
+      }
+    ]
+  },
+  {
+    "id": "sent-pres-156",
+    "context_theme": "home_lifestyle",
+    "text_template": "Insieme noi {slot_0} sempre ogni dubbio prima di prendere decisioni.",
+    "constraint_type": "temporal_anchor",
+    "difficulty_level": 2,
+    "targets": [
+      {
+        "slot_id": 0,
+        "token_index": 3,
+        "verb": "risolvere",
+        "mood": "indicativo",
+        "tense": "indicativo_presente",
+        "person": "noi",
+        "accepted_answers": ["risolviamo"],
+        "explanation": "Il verbo regolare in -ere risolvere si coniuga regolarmente alla prima persona plurale con risolviamo."
+      }
+    ]
+  },
+  {
+    "id": "sent-pres-157",
+    "context_theme": "travel_commuting",
+    "text_template": "Quando viaggi in estate, tu {slot_0} tutte le luci del terrazzo?",
+    "constraint_type": "temporal_anchor",
+    "difficulty_level": 2,
+    "targets": [
+      {
+        "slot_id": 0,
+        "token_index": 6,
+        "verb": "spegnere",
+        "mood": "indicativo",
+        "tense": "indicativo_presente",
+        "person": "tu",
+        "accepted_answers": ["spegni"],
+        "explanation": "Alla seconda persona singolare (tu), il verbo spegnere mantiene la radice irregolare senza la 'e' finale della forma base (spegni)."
+      }
+    ]
+  },
+  {
+    "id": "sent-pres-158",
+    "context_theme": "leisure",
+    "text_template": "Io non {slot_0} mai dove ho messo gli occhiali da sole.",
+    "constraint_type": "temporal_anchor",
+    "difficulty_level": 2,
+    "targets": [
+      {
+        "slot_id": 0,
+        "token_index": 3,
+        "verb": "dimenticare",
+        "mood": "indicativo",
+        "tense": "indicativo_presente",
+        "person": "io",
+        "accepted_answers": ["dimentico"],
+        "explanation": "Alla prima persona singolare (io), il verbo dimenticare non richiede la 'h' perché la 'c' è seguita da 'o' ed è già naturalmente dura."
+      }
+    ]
+  },
+  {
+    "id": "sent-pres-159",
+    "context_theme": "social_life",
+    "text_template": "I nostri amici {slot_0} di passare a trovarci domani pomeriggio.",
+    "constraint_type": "temporal_anchor",
+    "difficulty_level": 1,
+    "targets": [
+      {
+        "slot_id": 0,
+        "token_index": 4,
+        "verb": "promettere",
+        "mood": "indicativo",
+        "tense": "indicativo_presente",
+        "person": "loro",
+        "accepted_answers": ["promettono"],
+        "explanation": "Con la terza persona plurale (loro), i verbi regolari in -ere terminano in -ono (promettono)."
+      }
+    ]
+  },
+  {
+    "id": "sent-pres-160",
+    "context_theme": "work_office",
+    "text_template": "Tu {slot_0} sempre con grande cura ogni dettaglio del progetto.",
+    "constraint_type": "temporal_anchor",
+    "difficulty_level": 2,
+    "targets": [
+      {
+        "slot_id": 0,
+        "token_index": 1,
+        "verb": "curare",
+        "mood": "indicativo",
+        "tense": "indicativo_presente",
+        "person": "tu",
+        "accepted_answers": ["curi"],
+        "explanation": "Con la seconda persona singolare (tu), i verbi in -are terminano in -i (curi)."
+      }
+    ]
+  }
+]

@@ -4,20 +4,19 @@ import ThemeToggle from './components/ThemeToggle.vue';
 import ConjugationTable from './components/ConjugationTable.vue';
 import SettingsDialog from './components/SettingsDialog.vue';
 import InformationDialog from './components/InformationDialog.vue';
-import ProgressJourney from './components/ProgressJourney.vue';
-import SessionSummaryStats from './components/SessionSummaryStats.vue';
+import LearningFeedback from './components/LearningFeedback.vue';
 import PracticeContext from './components/PracticeContext.vue';
-import rawVerbs from './content/verbs.json';
-import rawExercises from './content/exercises.json';
-import rawPilotExercises from './content/exercises-pilot.json';
-import { gradeAnswer, normalize, summarize } from './lib/practice.ts';
-import type { Attempt, Exercise, Outcome, Verb } from './lib/practice.ts';
+import { verbs, exercises } from './content/index.ts';
 import {
-  masteryTarget,
-  maximumReachableLevel,
-  nextLearningExercise,
-  recordLearningOutcome,
-} from './lib/learning.ts';
+  gradeExercise,
+  answerAnalyses,
+  exerciseTenseCue,
+  normalize,
+  summarize,
+  tenseLabels,
+} from './lib/practice.ts';
+import type { AcceptedAnswer, Attempt, Exercise, Outcome } from './lib/practice.ts';
+import { activeBands, nextLearningExercise, recordLearningOutcome } from './lib/learning.ts';
 import { clearLearningState, loadLearningState, saveLearningState } from './lib/storage.ts';
 import { loadProfile, saveProfile } from './lib/profile.ts';
 import {
@@ -34,10 +33,9 @@ interface SessionItem {
   exercise: Exercise;
   answer: string;
   outcome: Outcome | null;
+  matched?: AcceptedAnswer;
 }
 
-const verbs = rawVerbs as Verb[];
-const exercises = [...(rawExercises as Exercise[]), ...(rawPilotExercises as Exercise[])];
 const profile = loadProfile();
 const learnerName = ref(profile.name);
 const seenMessages = ref(profile.seenMessages);
@@ -59,6 +57,7 @@ const transitioning = ref(false);
 const sentenceVisible = ref(true);
 const reviewingFinishedSession = ref(false);
 const summaryRevisited = ref(false);
+const summaryAnimationRun = ref(0);
 const autoAdvanceActive = ref(false);
 const autoAdvanceDuration = ref(0);
 const freshValidation = ref(false);
@@ -83,29 +82,28 @@ function completeContextMessage(message: PracticeMessage) {
   storageAvailable.value = saveProfile(learnerName.value, seenMessages.value);
 }
 
-function currentProgressPosition(): number {
-  const learner = learning.value.learner;
-  const atContentLimit = learner.level >= maximumReachableLevel(exercises);
-  const fraction = atContentLimit
-    ? 0
-    : Math.min(1, learner.levelProgress / masteryTarget(learner.level));
-  return learner.level - 1 + fraction;
-}
-
-const sessionStartPosition = ref(currentProgressPosition());
-const sessionStartLevel = ref(learning.value.learner.level);
+const sessionBaseline = ref(JSON.parse(JSON.stringify(learning.value.results)));
+const practiceLabel = computed(() =>
+  [...new Set(activeBands(learning.value, exercises).map((b) => tenseLabels[b.tense]))].join(' · '),
+);
 
 const currentIndex = computed(() => sessionItems.value.length - 1);
 const displayedItem = computed(() => sessionItems.value[displayedIndex.value]!);
 const exercise = computed(() => displayedItem.value.exercise);
 const answer = computed(() => displayedItem.value.answer);
 const outcome = computed(() => displayedItem.value.outcome);
+const feedbackAnswer = computed(
+  () => displayedItem.value.matched ?? answerAnalyses(exercise.value)[0]!,
+);
+const tenseCue = computed(() => exerciseTenseCue(exercise.value));
+const isMultiTense = computed(
+  () => new Set(answerAnalyses(exercise.value).map((a) => a.tense)).size > 1,
+);
 const verb = computed(() => verbs.find((item) => item.id === exercise.value.verb)!);
 const isReviewing = computed(
   () => reviewingFinishedSession.value || displayedIndex.value !== currentIndex.value,
 );
 const stats = computed(() => summarize(attempts.value));
-const progressPosition = computed(currentProgressPosition);
 const mistakes = computed(() => [
   ...new Set(
     attempts.value
@@ -115,7 +113,7 @@ const mistakes = computed(() => [
 ]);
 const answerWidth = computed(
   () =>
-    Math.min(13, Math.max(7, ...exercise.value.answers.map((value) => value.length + 1))) + 'ch',
+    Math.min(24, Math.max(7, ...exercise.value.answers.map((value) => value.length + 1))) + 'ch',
 );
 const feedbackHeading = computed(() =>
   outcome.value === 'correct'
@@ -200,7 +198,11 @@ function submit(dontKnow = false) {
     return;
   }
 
-  const result = dontKnow ? 'error' : gradeAnswer(answer.value, exercise.value.answers, verbs);
+  const grading = dontKnow
+    ? { outcome: 'error' as const, matched: undefined }
+    : gradeExercise(answer.value, exercise.value, verbs);
+  const result = grading.outcome;
+  displayedItem.value.matched = grading.matched;
   if (!sessionStarted) {
     trackEvent('session_started');
     sessionStarted = true;
@@ -222,9 +224,18 @@ function submit(dontKnow = false) {
     outcome: result,
     difficulty: exercise.value.difficulty,
     timestamp: Date.now(),
+    tense: grading.matched?.tense,
+    matchedAnswer: grading.matched?.text,
   };
   attempts.value.push(attempt);
-  recordLearningOutcome(learning.value, exercise.value, result, exercises);
+  recordLearningOutcome(
+    learning.value,
+    exercise.value,
+    result,
+    exercises,
+    Math.random,
+    grading.matched?.tense ?? (isMultiTense.value ? null : (exercise.value.tense ?? 'presente')),
+  );
   storageAvailable.value = saveLearningState(learning.value);
   const message = streakMessage(attempts.value.map((attempt) => attempt.outcome));
   if (message) practiceContext.value?.enqueue(message, 60000);
@@ -332,6 +343,7 @@ function handleSessionKeys(event: KeyboardEvent) {
 }
 
 function finish() {
+  summaryRevisited.value = false;
   if (screen.value !== 'practice') return;
   if (reviewingFinishedSession.value) {
     returnToSummary();
@@ -344,7 +356,6 @@ function finish() {
   sentenceVisible.value = true;
   historyIndicatorVisible.value = false;
   reviewingFinishedSession.value = false;
-  summaryRevisited.value = false;
   screen.value = 'summary';
   nextTick(() => document.getElementById('summary-heading')?.focus());
 }
@@ -393,11 +404,10 @@ function resetProgress() {
   ];
   displayedIndex.value = 0;
   reviewingFinishedSession.value = false;
-  summaryRevisited.value = false;
   freshValidation.value = false;
   cancelAutoAdvance();
-  sessionStartPosition.value = currentProgressPosition();
-  sessionStartLevel.value = learning.value.learner.level;
+  sessionBaseline.value = {};
+  summaryRevisited.value = false;
   screen.value = 'practice';
   settings.value?.close();
   focusAnswer();
@@ -435,7 +445,34 @@ function updateVisibility() {
 
 onMounted(() => {
   if (import.meta.env.DEV) {
-    document.dispatchEvent(new CustomEvent('unpo:development-content', { detail: { exercises } }));
+    const currentExercise = () =>
+      screen.value === 'practice' &&
+      !outcome.value &&
+      !isReviewing.value &&
+      !transitioning.value &&
+      !dialogOpen.value
+        ? exercise.value
+        : null;
+    document.dispatchEvent(
+      new CustomEvent('unpo:development-content', {
+        detail: {
+          exercises,
+          verbs,
+          currentExercise,
+          canReplay: () => screen.value === 'summary',
+          replayAnimation: () => {
+            if (screen.value !== 'summary') return;
+            summaryRevisited.value = false;
+            summaryAnimationRun.value++;
+          },
+          submitAnswer: (value: string) => {
+            if (!currentExercise()) return;
+            displayedItem.value.answer = value;
+            submit();
+          },
+        },
+      }),
+    );
   }
   storageAvailable.value = saveProfile(learnerName.value, seenMessages.value);
   window.addEventListener('keydown', handleSessionKeys);
@@ -531,7 +568,7 @@ focusAnswer();
         :paused="screen !== 'practice' || isReviewing || dialogOpen || !pageVisible"
         :suppressed="isReviewing"
         :name="learnerName"
-        :level="learning.learner.level"
+        :practice-label="practiceLabel"
         @save-name="saveInlineName"
         @interact="cancelAutoAdvance"
         @completed="completeContextMessage"
@@ -547,6 +584,7 @@ focusAnswer();
           }"
           @submit.prevent="submit()"
         >
+          <p id="tense-cue" class="tense-cue">{{ tenseCue }}</p>
           <div class="sentence-window">
             <Transition
               name="sentence"
@@ -558,8 +596,12 @@ focusAnswer();
                   {{ exercise.before }}: completa con {{ verb.id }}. {{ exercise.after }}
                 </label>
                 <h1 class="sentence-text">
-                  <span>{{ exercise.before }} </span>
-                  <span class="answer-slot" :style="{ '--answer-width': answerWidth }">
+                  <span>{{ exercise.before }}</span>
+                  <span
+                    class="answer-slot"
+                    :class="{ 'long-answer': exercise.answers.some((a) => a.length > 14) }"
+                    :style="{ '--answer-width': answerWidth }"
+                  >
                     <span
                       v-if="freshValidation && !isReviewing && !transitioning"
                       class="answer-wash"
@@ -571,20 +613,22 @@ focusAnswer();
                       :value="answer"
                       :readonly="isReviewing || !!outcome || transitioning"
                       :aria-invalid="outcome === 'error' || outcome === 'typo'"
-                      :aria-describedby="outcome ? 'answer-feedback' : 'verb-hint'"
+                      :aria-describedby="
+                        outcome ? 'tense-cue answer-feedback' : 'tense-cue verb-hint'
+                      "
                       type="text"
                       autocomplete="off"
                       autocapitalize="none"
                       autocorrect="off"
                       :spellcheck="false"
                       enterkeyhint="go"
-                      maxlength="32"
+                      maxlength="64"
                       placeholder="···"
                       @input="updateAnswer"
                     />
                     <span id="verb-hint" class="infinitive">{{ verb.id }}</span>
                   </span>
-                  <span> {{ exercise.after }}</span>
+                  <span>{{ exercise.after }}</span>
                 </h1>
               </div>
             </Transition>
@@ -657,15 +701,23 @@ focusAnswer();
                 <span
                   >Hai scritto <s>{{ answer }}</s></span
                 >
-                <span aria-hidden="true">→</span><strong>{{ exercise.answers[0] }}</strong>
+                <span aria-hidden="true">→</span><strong>{{ feedbackAnswer.text }}</strong>
               </p>
               <p v-else class="answer-comparison">
-                La forma corretta è <strong>{{ exercise.answers[0] }}</strong
+                La forma corretta è <strong>{{ feedbackAnswer.text }}</strong
                 >.
               </p>
-              <p class="explanation">{{ exercise.explanation }}</p>
+              <p class="explanation">{{ feedbackAnswer.explanation }}</p>
+              <p v-if="exercise.answers.length > 1" class="explanation accepted-alternatives">
+                Sono valide: {{ exercise.answers.join(' · ') }}.
+              </p>
               <div v-if="showConjugation" id="conjugation-details">
-                <ConjugationTable :verb="verb" :exercise="exercise" :answer="answer" />
+                <ConjugationTable
+                  :verb="verb"
+                  :exercise="exercise"
+                  :answer="answer"
+                  :tense="feedbackAnswer.tense"
+                />
                 <button
                   class="quiet-button hide-table-link"
                   type="button"
@@ -675,7 +727,13 @@ focusAnswer();
                 </button>
               </div>
             </template>
-            <p v-else class="correct-caption">Un’altra frase, un piccolo passo avanti.</p>
+            <p v-else class="correct-caption">
+              {{
+                isMultiTense
+                  ? feedbackAnswer.explanation
+                  : 'Un’altra frase, un piccolo passo avanti.'
+              }}
+            </p>
           </section>
         </Transition>
       </div>
@@ -721,20 +779,16 @@ focusAnswer();
             : 'Basta una frase per cominciare. Quando vuoi, siamo qui.'
         }}
       </p>
-      <ProgressJourney
-        v-if="stats.count"
-        :start-position="sessionStartPosition"
-        :end-position="progressPosition"
-        :start-level="sessionStartLevel"
-        :end-level="learning.learner.level"
-        :revisit="summaryRevisited"
-      />
-      <hr v-if="stats.count" class="summary-seam" aria-hidden="true" />
-      <SessionSummaryStats
-        v-if="stats.count"
-        :accuracy="stats.accuracy"
-        :count="stats.count"
-        :revisit="summaryRevisited"
+      <p v-if="stats.count" class="session-count">
+        {{ stats.count }} {{ stats.count === 1 ? 'frase praticata' : 'frasi praticate' }}.
+      </p>
+      <LearningFeedback
+        :key="summaryAnimationRun"
+        :state="learning"
+        :baseline="sessionBaseline"
+        :animate="!summaryRevisited"
+        :exercises="exercises"
+        :verbs="verbs"
       />
       <section v-if="mistakes.length" class="review-note">
         <h2>Da ritrovare, con calma</h2>

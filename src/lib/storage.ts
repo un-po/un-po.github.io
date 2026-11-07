@@ -1,6 +1,7 @@
 import { createLearningState, learningStateVersion, synchronizeLearningState } from './learning.ts';
 import type { ContextScore, LearningState, RandomSource } from './learning.ts';
-import type { Exercise } from './practice.ts';
+import { tenses, type Exercise } from './practice.ts';
+import { contentRevision } from './content.ts';
 
 export const learningStorageKey = 'unpo-learning-state';
 
@@ -39,6 +40,24 @@ function validLearningState(value: unknown): value is LearningState {
   const contexts = state.contexts;
   return (
     state.version === learningStateVersion &&
+    state.curriculum !== undefined &&
+    Array.isArray(state.curriculum.unlocked) &&
+    state.curriculum.unlocked.every(
+      (id) =>
+        typeof id === 'string' &&
+        tenses.some((tense) => id === `${tense}:1` || id === `${tense}:2`),
+    ) &&
+    state.results !== null &&
+    typeof state.results === 'object' &&
+    !Array.isArray(state.results) &&
+    Object.values(state.results).every(
+      (result) =>
+        result &&
+        typeof result === 'object' &&
+        ['correct', 'typo', 'error'].includes(result.outcome) &&
+        (result.tense === null || tenses.includes(result.tense)),
+    ) &&
+    typeof state.contentRevision === 'string' &&
     learner !== undefined &&
     Number.isInteger(learner.level) &&
     learner.level >= 1 &&
@@ -98,7 +117,27 @@ export function loadLearningState(
   random: RandomSource = Math.random,
 ): LearningState {
   try {
-    const stored: unknown = JSON.parse(localStorage.getItem(learningStorageKey) ?? 'null');
+    let stored: unknown = JSON.parse(localStorage.getItem(learningStorageKey) ?? 'null');
+    if (
+      stored &&
+      typeof stored === 'object' &&
+      'version' in stored &&
+      (stored.version === 1 || stored.version === 2)
+    ) {
+      const legacy = stored as { learner?: { level?: number } };
+      const level = legacy.learner?.level ?? 1;
+      const starts = [1, 3, 6, 8, 11, 13, 15, 17];
+      const ids = tenses.flatMap((tense) => [`${tense}:1`, `${tense}:2`]);
+      stored = {
+        ...stored,
+        version: learningStateVersion,
+        contentRevision,
+        curriculum: {
+          unlocked: ids.filter((_, index) => index < 3 || starts[index]! <= level + 1),
+        },
+        results: {},
+      };
+    }
     if (validLearningState(stored)) {
       synchronizeLearningState(stored, exercises, random);
       saveLearningState(stored);

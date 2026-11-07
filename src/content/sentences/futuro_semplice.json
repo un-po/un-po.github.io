@@ -1,0 +1,4650 @@
+[
+  {
+    "id": "sent-fut-101",
+    "textTemplate": "Domani mattina presto io {slot_0} già a Milano per la riunione.",
+    "primaryTense": "futuro_semplice",
+    "level": 17,
+    "difficulty": 2,
+    "theme": "travel_commuting",
+    "source": "import-revised",
+    "target": {
+      "slotId": 0,
+      "verb": "essere",
+      "person": "io",
+      "acceptedAnswers": [
+        {
+          "text": "sarò",
+          "tense": "futuro_semplice",
+          "person": "io",
+          "explanation": "Con io, essere al futuro semplice si coniuga sarò."
+        }
+      ]
+    },
+    "band": 2
+  },
+  {
+    "id": "sent-fut-102",
+    "textTemplate": "La settimana prossima tu {slot_0} abbastanza tempo per finire il progetto.",
+    "primaryTense": "futuro_semplice",
+    "level": 18,
+    "difficulty": 2,
+    "theme": "work_office",
+    "source": "import-revised",
+    "target": {
+      "slotId": 0,
+      "verb": "avere",
+      "person": "tu",
+      "acceptedAnswers": [
+        {
+          "text": "avrai",
+          "tense": "futuro_semplice",
+          "person": "tu",
+          "explanation": "Con tu, avere al futuro semplice si coniuga avrai."
+        }
+      ]
+    },
+    "band": 2
+  },
+  {
+    "id": "sent-fut-103",
+    "textTemplate": "Stasera Marco {slot_0} una cena speciale per festeggiare la promozione.",
+    "primaryTense": "futuro_semplice",
+    "level": 19,
+    "difficulty": 2,
+    "theme": "home_lifestyle",
+    "source": "import-revised",
+    "target": {
+      "slotId": 0,
+      "verb": "fare",
+      "person": "lui/lei",
+      "acceptedAnswers": [
+        {
+          "text": "farà",
+          "tense": "futuro_semplice",
+          "person": "lui/lei",
+          "explanation": "Con lui o lei, fare al futuro semplice si coniuga farà."
+        }
+      ]
+    },
+    "band": 2
+  },
+  {
+    "id": "sent-fut-104",
+    "textTemplate": "Domani io vi {slot_0} tutta la verità sulla festa a sorpresa.",
+    "primaryTense": "futuro_semplice",
+    "level": 16,
+    "difficulty": 2,
+    "theme": "social_life",
+    "source": "import-revised",
+    "target": {
+      "slotId": 0,
+      "verb": "dire",
+      "person": "io",
+      "acceptedAnswers": [
+        {
+          "text": "dirò",
+          "tense": "futuro_semplice",
+          "person": "io",
+          "explanation": "Con io, dire al futuro semplice si coniuga dirò."
+        }
+      ]
+    },
+    "band": 2
+  },
+  {
+    "id": "sent-fut-105",
+    "textTemplate": "L'anno prossimo noi {slot_0} in Giappone per le vacanze estive.",
+    "primaryTense": "futuro_semplice",
+    "level": 17,
+    "difficulty": 2,
+    "theme": "travel_commuting",
+    "source": "import-revised",
+    "target": {
+      "slotId": 0,
+      "verb": "andare",
+      "person": "noi",
+      "acceptedAnswers": [
+        {
+          "text": "andremo",
+          "tense": "futuro_semplice",
+          "person": "noi",
+          "explanation": "Con noi, andare al futuro semplice si coniuga andremo."
+        }
+      ]
+    },
+    "band": 2
+  },
+  {
+    "id": "sent-fut-106",
+    "textTemplate": "Presto voi {slot_0} la risposta ufficiale dal dipartimento legale.",
+    "primaryTense": "futuro_semplice",
+    "level": 18,
+    "difficulty": 2,
+    "theme": "work_office",
+    "source": "import-revised",
+    "target": {
+      "slotId": 0,
+      "verb": "avere",
+      "person": "voi",
+      "acceptedAnswers": [
+        {
+          "text": "avrete",
+          "tense": "futuro_semplice",
+          "person": "voi",
+          "explanation": "Con voi, avere al futuro semplice si coniuga avrete."
+        }
+      ]
+    },
+    "band": 2
+  },
+  {
+    "id": "sent-fut-107",
+    "textTemplate": "Tra poco i nostri ospiti {slot_0} qui.",
+    "primaryTense": "futuro_semplice",
+    "level": 19,
+    "difficulty": 2,
+    "theme": "home_lifestyle",
+    "source": "import-revised",
+    "target": {
+      "slotId": 0,
+      "verb": "essere",
+      "person": "loro",
+      "acceptedAnswers": [
+        {
+          "text": "saranno",
+          "tense": "futuro_semplice",
+          "person": "loro",
+          "explanation": "Con loro, essere al futuro semplice si coniuga saranno."
+        }
+      ]
+    },
+    "band": 2
+  },
+  {
+    "id": "sent-fut-108",
+    "textTemplate": "Se hai dubbi, tu mi {slot_0} tutto quello che pensi.",
+    "primaryTense": "futuro_semplice",
+    "level": 16,
+    "difficulty": 2,
+    "theme": "leisure",
+    "source": "import-revised",
+    "target": {
+      "slotId": 0,
+      "verb": "dire",
+      "person": "tu",
+      "acceptedAnswers": [
+        {
+          "text": "dirai",
+          "tense": "futuro_semplice",
+          "person": "tu",
+          "explanation": "Con tu, dire al futuro semplice si coniuga dirai."
+        }
+      ]
+    },
+    "band": 2
+  },
+  {
+    "id": "sent-fut-109",
+    "textTemplate": "La settimana entrante i colleghi {slot_0} una riunione straordinaria.",
+    "primaryTense": "futuro_semplice",
+    "level": 17,
+    "difficulty": 2,
+    "theme": "work_office",
+    "source": "import-revised",
+    "target": {
+      "slotId": 0,
+      "verb": "fare",
+      "person": "loro",
+      "acceptedAnswers": [
+        {
+          "text": "faranno",
+          "tense": "futuro_semplice",
+          "person": "loro",
+          "explanation": "Con loro, fare al futuro semplice si coniuga faranno."
+        }
+      ]
+    },
+    "band": 2
+  },
+  {
+    "id": "sent-fut-110",
+    "textTemplate": "Domani io {slot_0} del mio meglio per completare il compito.",
+    "primaryTense": "futuro_semplice",
+    "level": 17,
+    "difficulty": 2,
+    "theme": "daily_routine",
+    "source": "import-revised",
+    "target": {
+      "slotId": 0,
+      "verb": "fare",
+      "person": "io",
+      "acceptedAnswers": [
+        {
+          "text": "farò",
+          "tense": "futuro_semplice",
+          "person": "io",
+          "explanation": "Con io, fare al futuro semplice si coniuga farò."
+        }
+      ]
+    },
+    "band": 2
+  },
+  {
+    "id": "sent-fut-111",
+    "textTemplate": "Domani mattina io {slot_0} con il direttore riguardo al nuovo contratto.",
+    "primaryTense": "futuro_semplice",
+    "level": 19,
+    "difficulty": 1,
+    "theme": "work_office",
+    "source": "import-revised",
+    "target": {
+      "slotId": 0,
+      "verb": "parlare",
+      "person": "io",
+      "acceptedAnswers": [
+        {
+          "text": "parlerò",
+          "tense": "futuro_semplice",
+          "person": "io",
+          "explanation": "Con io, parlare al futuro semplice si coniuga parlerò."
+        }
+      ]
+    },
+    "band": 2
+  },
+  {
+    "id": "sent-fut-112",
+    "textTemplate": "La settimana prossima tu {slot_0} il treno ad alta velocità per Roma.",
+    "primaryTense": "futuro_semplice",
+    "level": 19,
+    "difficulty": 1,
+    "theme": "travel_commuting",
+    "source": "import-revised",
+    "target": {
+      "slotId": 0,
+      "verb": "prendere",
+      "person": "tu",
+      "acceptedAnswers": [
+        {
+          "text": "prenderai",
+          "tense": "futuro_semplice",
+          "person": "tu",
+          "explanation": "Con tu, prendere al futuro semplice si coniuga prenderai."
+        }
+      ]
+    },
+    "band": 2
+  },
+  {
+    "id": "sent-fut-113",
+    "textTemplate": "Entro venerdì prossimo Marco {slot_0} tutti i documenti necessari.",
+    "primaryTense": "futuro_semplice",
+    "level": 16,
+    "difficulty": 1,
+    "theme": "work_office",
+    "source": "import-revised",
+    "target": {
+      "slotId": 0,
+      "verb": "finire",
+      "person": "lui/lei",
+      "acceptedAnswers": [
+        {
+          "text": "finirà",
+          "tense": "futuro_semplice",
+          "person": "lui/lei",
+          "explanation": "Con lui o lei, finire al futuro semplice si coniuga finirà."
+        }
+      ]
+    },
+    "band": 1
+  },
+  {
+    "id": "sent-fut-114",
+    "textTemplate": "Nel fine settimana noi {slot_0} la nostra camera da letto.",
+    "primaryTense": "futuro_semplice",
+    "level": 17,
+    "difficulty": 1,
+    "theme": "home_lifestyle",
+    "source": "import-revised",
+    "target": {
+      "slotId": 0,
+      "verb": "pulire",
+      "person": "noi",
+      "acceptedAnswers": [
+        {
+          "text": "puliremo",
+          "tense": "futuro_semplice",
+          "person": "noi",
+          "explanation": "Con noi, pulire al futuro semplice si coniuga puliremo."
+        }
+      ]
+    },
+    "band": 1
+  },
+  {
+    "id": "sent-fut-115",
+    "textTemplate": "Presto voi {slot_0} tutti i vostri parenti alla festa di compleanno.",
+    "primaryTense": "futuro_semplice",
+    "level": 18,
+    "difficulty": 1,
+    "theme": "social_life",
+    "source": "import-revised",
+    "target": {
+      "slotId": 0,
+      "verb": "invitare",
+      "person": "voi",
+      "acceptedAnswers": [
+        {
+          "text": "inviterete",
+          "tense": "futuro_semplice",
+          "person": "voi",
+          "explanation": "Con voi, invitare al futuro semplice si coniuga inviterete."
+        }
+      ]
+    },
+    "band": 1
+  },
+  {
+    "id": "sent-fut-116",
+    "textTemplate": "Domani sera i miei amici {slot_0} un film al cinema all'aperto.",
+    "primaryTense": "futuro_semplice",
+    "level": 19,
+    "difficulty": 1,
+    "theme": "leisure",
+    "source": "import-revised",
+    "target": {
+      "slotId": 0,
+      "verb": "vedere",
+      "person": "loro",
+      "acceptedAnswers": [
+        {
+          "text": "vedranno",
+          "tense": "futuro_semplice",
+          "person": "loro",
+          "explanation": "Con loro, vedere al futuro semplice si coniuga vedranno."
+        }
+      ]
+    },
+    "band": 2
+  },
+  {
+    "id": "sent-fut-117",
+    "textTemplate": "L'anno prossimo io {slot_0} in una nuova e moderna sede aziendale.",
+    "primaryTense": "futuro_semplice",
+    "level": 15,
+    "difficulty": 1,
+    "theme": "work_office",
+    "source": "import-revised",
+    "target": {
+      "slotId": 0,
+      "verb": "lavorare",
+      "person": "io",
+      "acceptedAnswers": [
+        {
+          "text": "lavorerò",
+          "tense": "futuro_semplice",
+          "person": "io",
+          "explanation": "Con io, lavorare al futuro semplice si coniuga lavorerò."
+        }
+      ]
+    },
+    "band": 1
+  },
+  {
+    "id": "sent-fut-118",
+    "textTemplate": "Tra poco tu {slot_0} una decisione importante per il tuo futuro.",
+    "primaryTense": "futuro_semplice",
+    "level": 17,
+    "difficulty": 2,
+    "theme": "daily_routine",
+    "source": "import-revised",
+    "target": {
+      "slotId": 0,
+      "verb": "prendere",
+      "person": "tu",
+      "acceptedAnswers": [
+        {
+          "text": "prenderai",
+          "tense": "futuro_semplice",
+          "person": "tu",
+          "explanation": "Con tu, prendere al futuro semplice si coniuga prenderai."
+        }
+      ]
+    },
+    "band": 2
+  },
+  {
+    "id": "sent-fut-119",
+    "textTemplate": "Stasera noi {slot_0} la cena italiana che ci hai consigliato.",
+    "primaryTense": "futuro_semplice",
+    "level": 17,
+    "difficulty": 1,
+    "theme": "home_lifestyle",
+    "source": "import-revised",
+    "target": {
+      "slotId": 0,
+      "verb": "preparare",
+      "person": "noi",
+      "acceptedAnswers": [
+        {
+          "text": "prepareremo",
+          "tense": "futuro_semplice",
+          "person": "noi",
+          "explanation": "Con noi, preparare al futuro semplice si coniuga prepareremo."
+        }
+      ]
+    },
+    "band": 1
+  },
+  {
+    "id": "sent-fut-120",
+    "textTemplate": "Nei prossimi giorni i turisti {slot_0} tutte le bellezze della città.",
+    "primaryTense": "futuro_semplice",
+    "level": 19,
+    "difficulty": 1,
+    "theme": "travel_commuting",
+    "source": "import-revised",
+    "target": {
+      "slotId": 0,
+      "verb": "visitare",
+      "person": "loro",
+      "acceptedAnswers": [
+        {
+          "text": "visiteranno",
+          "tense": "futuro_semplice",
+          "person": "loro",
+          "explanation": "Con loro, visitare al futuro semplice si coniuga visiteranno."
+        }
+      ]
+    },
+    "band": 2
+  },
+  {
+    "id": "sent-fut-121",
+    "textTemplate": "Non trovo le mie chiavi sul tavolo: dove {slot_0}?",
+    "primaryTense": "futuro_semplice",
+    "level": 19,
+    "difficulty": 3,
+    "theme": "home_lifestyle",
+    "source": "import-revised",
+    "target": {
+      "slotId": 0,
+      "verb": "essere",
+      "person": "loro",
+      "acceptedAnswers": [
+        {
+          "text": "saranno",
+          "tense": "futuro_semplice",
+          "person": "loro",
+          "explanation": "Con loro, essere al futuro semplice si coniuga saranno."
+        }
+      ]
+    },
+    "band": 2
+  },
+  {
+    "id": "sent-fut-122",
+    "textTemplate": "Il capo non risponde al telefono: a quest'ora {slot_0} in riunione.",
+    "primaryTense": "futuro_semplice",
+    "level": 16,
+    "difficulty": 3,
+    "theme": "work_office",
+    "source": "import-revised",
+    "target": {
+      "slotId": 0,
+      "verb": "essere",
+      "person": "lui/lei",
+      "acceptedAnswers": [
+        {
+          "text": "sarà",
+          "tense": "futuro_semplice",
+          "person": "lui/lei",
+          "explanation": "Con lui o lei, essere al futuro semplice si coniuga sarà."
+        }
+      ]
+    },
+    "band": 2
+  },
+  {
+    "id": "sent-fut-123",
+    "textTemplate": "Che ore {slot_0} adesso? Credo che siano quasi le dieci.",
+    "primaryTense": "futuro_semplice",
+    "level": 17,
+    "difficulty": 3,
+    "theme": "daily_routine",
+    "source": "import-revised",
+    "target": {
+      "slotId": 0,
+      "verb": "essere",
+      "person": "loro",
+      "acceptedAnswers": [
+        {
+          "text": "saranno",
+          "tense": "futuro_semplice",
+          "person": "loro",
+          "explanation": "Con loro, essere al futuro semplice si coniuga saranno."
+        }
+      ]
+    },
+    "band": 2
+  },
+  {
+    "id": "sent-fut-124",
+    "textTemplate": "Marco è così silenzioso oggi: forse {slot_0} un problema al lavoro.",
+    "primaryTense": "futuro_semplice",
+    "level": 18,
+    "difficulty": 3,
+    "theme": "social_life",
+    "source": "import-revised",
+    "target": {
+      "slotId": 0,
+      "verb": "avere",
+      "person": "lui/lei",
+      "acceptedAnswers": [
+        {
+          "text": "avrà",
+          "tense": "futuro_semplice",
+          "person": "lui/lei",
+          "explanation": "Con lui o lei, avere al futuro semplice si coniuga avrà."
+        }
+      ]
+    },
+    "band": 2
+  },
+  {
+    "id": "sent-fut-125-v2",
+    "textTemplate": "Maria non risponde: probabilmente {slot_0} in metropolitana.",
+    "primaryTense": "futuro_semplice",
+    "level": 16,
+    "difficulty": 3,
+    "theme": "leisure",
+    "source": "import-revised",
+    "target": {
+      "slotId": 0,
+      "verb": "essere",
+      "person": "lui/lei",
+      "acceptedAnswers": [
+        {
+          "text": "sarà",
+          "tense": "futuro_semplice",
+          "person": "lui/lei",
+          "explanation": "Con lui o lei, essere al futuro semplice si coniuga sarà."
+        }
+      ]
+    },
+    "band": 2
+  },
+  {
+    "id": "sent-fut-126",
+    "textTemplate": "Quella torta in cucina ha un profumo delizioso: {slot_0} buonissima!",
+    "primaryTense": "futuro_semplice",
+    "level": 16,
+    "difficulty": 3,
+    "theme": "home_lifestyle",
+    "source": "import-revised",
+    "target": {
+      "slotId": 0,
+      "verb": "essere",
+      "person": "lui/lei",
+      "acceptedAnswers": [
+        {
+          "text": "sarà",
+          "tense": "futuro_semplice",
+          "person": "lui/lei",
+          "explanation": "Con lui o lei, essere al futuro semplice si coniuga sarà."
+        }
+      ]
+    },
+    "band": 2
+  },
+  {
+    "id": "sent-fut-127",
+    "textTemplate": "Quanti dipendenti ci {slot_0} in questa azienda?",
+    "primaryTense": "futuro_semplice",
+    "level": 17,
+    "difficulty": 3,
+    "theme": "work_office",
+    "source": "import-revised",
+    "target": {
+      "slotId": 0,
+      "verb": "essere",
+      "person": "loro",
+      "acceptedAnswers": [
+        {
+          "text": "saranno",
+          "tense": "futuro_semplice",
+          "person": "loro",
+          "explanation": "Con loro, essere al futuro semplice si coniuga saranno."
+        }
+      ]
+    },
+    "band": 2
+  },
+  {
+    "id": "sent-fut-128",
+    "textTemplate": "Il treno è in ritardo di mezz'ora: ci {slot_0} un guasto sulla linea.",
+    "primaryTense": "futuro_semplice",
+    "level": 18,
+    "difficulty": 3,
+    "theme": "travel_commuting",
+    "source": "import-revised",
+    "target": {
+      "slotId": 0,
+      "verb": "essere",
+      "person": "lui/lei",
+      "acceptedAnswers": [
+        {
+          "text": "sarà",
+          "tense": "futuro_semplice",
+          "person": "lui/lei",
+          "explanation": "Con lui o lei, essere al futuro semplice si coniuga sarà."
+        }
+      ]
+    },
+    "band": 2
+  },
+  {
+    "id": "sent-fut-129",
+    "textTemplate": "Luca non risponde ai messaggi: chissà cosa {slot_0} facendo adesso.",
+    "primaryTense": "futuro_semplice",
+    "level": 19,
+    "difficulty": 3,
+    "theme": "social_life",
+    "source": "import-revised",
+    "target": {
+      "slotId": 0,
+      "verb": "stare",
+      "person": "lui/lei",
+      "acceptedAnswers": [
+        {
+          "text": "starà",
+          "tense": "futuro_semplice",
+          "person": "lui/lei",
+          "explanation": "Con lui o lei, stare al futuro semplice si coniuga starà."
+        }
+      ]
+    },
+    "band": 2
+  },
+  {
+    "id": "sent-fut-130",
+    "textTemplate": "Chi {slot_0} a suonare alla porta a quest'ora della notte?",
+    "primaryTense": "futuro_semplice",
+    "level": 19,
+    "difficulty": 3,
+    "theme": "home_lifestyle",
+    "source": "import-revised",
+    "target": {
+      "slotId": 0,
+      "verb": "essere",
+      "person": "lui/lei",
+      "acceptedAnswers": [
+        {
+          "text": "sarà",
+          "tense": "futuro_semplice",
+          "person": "lui/lei",
+          "explanation": "Con lui o lei, essere al futuro semplice si coniuga sarà."
+        }
+      ]
+    },
+    "band": 2
+  },
+  {
+    "id": "sent-fut-131",
+    "textTemplate": "Quando andremo in vacanza, noi {slot_0} molte foto ricordo.",
+    "primaryTense": "futuro_semplice",
+    "level": 16,
+    "difficulty": 2,
+    "theme": "travel_commuting",
+    "source": "import-revised",
+    "target": {
+      "slotId": 0,
+      "verb": "fare",
+      "person": "noi",
+      "acceptedAnswers": [
+        {
+          "text": "faremo",
+          "tense": "futuro_semplice",
+          "person": "noi",
+          "explanation": "Con noi, fare al futuro semplice si coniuga faremo."
+        }
+      ]
+    },
+    "band": 2
+  },
+  {
+    "id": "sent-fut-132",
+    "textTemplate": "Se studi con attenzione, tu {slot_0} sicuramente l'esame di lingua.",
+    "primaryTense": "futuro_semplice",
+    "level": 17,
+    "difficulty": 2,
+    "theme": "work_office",
+    "source": "import-revised",
+    "target": {
+      "slotId": 0,
+      "verb": "superare",
+      "person": "tu",
+      "acceptedAnswers": [
+        {
+          "text": "supererai",
+          "tense": "futuro_semplice",
+          "person": "tu",
+          "explanation": "Con tu, superare al futuro semplice si coniuga supererai."
+        }
+      ]
+    },
+    "band": 2
+  },
+  {
+    "id": "sent-fut-133",
+    "textTemplate": "Tra cinque anni io {slot_0} una casa indipendente vicino al mare.",
+    "primaryTense": "futuro_semplice",
+    "level": 18,
+    "difficulty": 2,
+    "theme": "home_lifestyle",
+    "source": "import-revised",
+    "target": {
+      "slotId": 0,
+      "verb": "avere",
+      "person": "io",
+      "acceptedAnswers": [
+        {
+          "text": "avrò",
+          "tense": "futuro_semplice",
+          "person": "io",
+          "explanation": "Con io, avere al futuro semplice si coniuga avrò."
+        }
+      ]
+    },
+    "band": 2
+  },
+  {
+    "id": "sent-fut-134",
+    "textTemplate": "Sabato sera prossimo i nostri amici {slot_0} una festa a sorpresa.",
+    "primaryTense": "futuro_semplice",
+    "level": 19,
+    "difficulty": 2,
+    "theme": "social_life",
+    "source": "import-revised",
+    "target": {
+      "slotId": 0,
+      "verb": "organizzare",
+      "person": "loro",
+      "acceptedAnswers": [
+        {
+          "text": "organizzeranno",
+          "tense": "futuro_semplice",
+          "person": "loro",
+          "explanation": "Con loro, organizzare al futuro semplice si coniuga organizzeranno."
+        }
+      ]
+    },
+    "band": 2
+  },
+  {
+    "id": "sent-fut-135",
+    "textTemplate": "Nel prossimo fine settimana tu {slot_0} un po' di sano relax.",
+    "primaryTense": "futuro_semplice",
+    "level": 17,
+    "difficulty": 2,
+    "theme": "leisure",
+    "source": "import-revised",
+    "target": {
+      "slotId": 0,
+      "verb": "godersi",
+      "person": "tu",
+      "acceptedAnswers": [
+        {
+          "text": "ti godrai",
+          "tense": "futuro_semplice",
+          "person": "tu",
+          "explanation": "Con tu, godersi al futuro semplice si coniuga ti godrai."
+        },
+        {
+          "text": "ti goderai",
+          "tense": "futuro_semplice",
+          "person": "tu",
+          "explanation": "Con tu, godersi al futuro semplice si coniuga ti goderai."
+        }
+      ]
+    },
+    "band": 2
+  },
+  {
+    "id": "sent-fut-136",
+    "textTemplate": "Il mese prossimo il consiglio di amministrazione {slot_0} nuove direttive.",
+    "primaryTense": "futuro_semplice",
+    "level": 16,
+    "difficulty": 2,
+    "theme": "work_office",
+    "source": "import-revised",
+    "target": {
+      "slotId": 0,
+      "verb": "approvare",
+      "person": "lui/lei",
+      "acceptedAnswers": [
+        {
+          "text": "approverà",
+          "tense": "futuro_semplice",
+          "person": "lui/lei",
+          "explanation": "Con lui o lei, approvare al futuro semplice si coniuga approverà."
+        }
+      ]
+    },
+    "band": 2
+  },
+  {
+    "id": "sent-fut-137",
+    "textTemplate": "Stasera noi {slot_0} la sveglia per le sei di domani.",
+    "primaryTense": "futuro_semplice",
+    "level": 17,
+    "difficulty": 2,
+    "theme": "daily_routine",
+    "source": "import-revised",
+    "target": {
+      "slotId": 0,
+      "verb": "puntare",
+      "person": "noi",
+      "acceptedAnswers": [
+        {
+          "text": "punteremo",
+          "tense": "futuro_semplice",
+          "person": "noi",
+          "explanation": "Con noi, puntare al futuro semplice si coniuga punteremo."
+        }
+      ]
+    },
+    "band": 2
+  },
+  {
+    "id": "sent-fut-138",
+    "textTemplate": "Quando arriverai a Firenze, io ti {slot_0} alla stazione centrale.",
+    "primaryTense": "futuro_semplice",
+    "level": 18,
+    "difficulty": 2,
+    "theme": "travel_commuting",
+    "source": "import-revised",
+    "target": {
+      "slotId": 0,
+      "verb": "aspettare",
+      "person": "io",
+      "acceptedAnswers": [
+        {
+          "text": "aspetterò",
+          "tense": "futuro_semplice",
+          "person": "io",
+          "explanation": "Con io, aspettare al futuro semplice si coniuga aspetterò."
+        }
+      ]
+    },
+    "band": 2
+  },
+  {
+    "id": "sent-fut-139",
+    "textTemplate": "Nel giro di pochi anni questa zona {slot_0} completamente trasformata.",
+    "primaryTense": "futuro_semplice",
+    "level": 16,
+    "difficulty": 2,
+    "theme": "home_lifestyle",
+    "source": "import-revised",
+    "target": {
+      "slotId": 0,
+      "verb": "essere",
+      "person": "lui/lei",
+      "acceptedAnswers": [
+        {
+          "text": "sarà",
+          "tense": "futuro_semplice",
+          "person": "lui/lei",
+          "explanation": "Con lui o lei, essere al futuro semplice si coniuga sarà."
+        }
+      ]
+    },
+    "band": 2
+  },
+  {
+    "id": "sent-fut-140",
+    "textTemplate": "Speriamo che il tempo sia bello: domani noi {slot_0} una lunga passeggiata.",
+    "primaryTense": "futuro_semplice",
+    "level": 16,
+    "difficulty": 2,
+    "theme": "social_life",
+    "source": "import-revised",
+    "target": {
+      "slotId": 0,
+      "verb": "fare",
+      "person": "noi",
+      "acceptedAnswers": [
+        {
+          "text": "faremo",
+          "tense": "futuro_semplice",
+          "person": "noi",
+          "explanation": "Con noi, fare al futuro semplice si coniuga faremo."
+        }
+      ]
+    },
+    "band": 2
+  },
+  {
+    "id": "corpus-futuro_semplice-001",
+    "textTemplate": "Domani io {slot_0} presto per vedere l'alba.",
+    "primaryTense": "futuro_semplice",
+    "level": 19,
+    "difficulty": 1,
+    "theme": "vita_quotidiana",
+    "source": "authored",
+    "target": {
+      "slotId": 0,
+      "verb": "alzarsi",
+      "person": "io",
+      "acceptedAnswers": [
+        {
+          "text": "mi alzerò",
+          "tense": "futuro_semplice",
+          "person": "io",
+          "explanation": "Con io, alzarsi al futuro semplice si coniuga mi alzerò."
+        }
+      ]
+    },
+    "band": 1
+  },
+  {
+    "id": "corpus-futuro_semplice-002",
+    "textTemplate": "Tu {slot_0} in tempo per il primo autobus?",
+    "primaryTense": "futuro_semplice",
+    "level": 17,
+    "difficulty": 1,
+    "theme": "vita_quotidiana",
+    "source": "authored",
+    "target": {
+      "slotId": 0,
+      "verb": "alzarsi",
+      "person": "tu",
+      "acceptedAnswers": [
+        {
+          "text": "ti alzerai",
+          "tense": "futuro_semplice",
+          "person": "tu",
+          "explanation": "Con tu, alzarsi al futuro semplice si coniuga ti alzerai."
+        }
+      ]
+    },
+    "band": 1
+  },
+  {
+    "id": "corpus-futuro_semplice-003",
+    "textTemplate": "Domenica noi {slot_0} senza mettere la sveglia.",
+    "primaryTense": "futuro_semplice",
+    "level": 18,
+    "difficulty": 1,
+    "theme": "vita_quotidiana",
+    "source": "authored",
+    "target": {
+      "slotId": 0,
+      "verb": "alzarsi",
+      "person": "noi",
+      "acceptedAnswers": [
+        {
+          "text": "ci alzeremo",
+          "tense": "futuro_semplice",
+          "person": "noi",
+          "explanation": "Con noi, alzarsi al futuro semplice si coniuga ci alzeremo."
+        }
+      ]
+    },
+    "band": 1
+  },
+  {
+    "id": "corpus-futuro_semplice-004",
+    "textTemplate": "Tu {slot_0} il giardino quando fioriranno le rose.",
+    "primaryTense": "futuro_semplice",
+    "level": 18,
+    "difficulty": 1,
+    "theme": "vita_quotidiana",
+    "source": "authored",
+    "target": {
+      "slotId": 0,
+      "verb": "amare",
+      "person": "tu",
+      "acceptedAnswers": [
+        {
+          "text": "amerai",
+          "tense": "futuro_semplice",
+          "person": "tu",
+          "explanation": "Con tu, amare al futuro semplice si coniuga amerai."
+        }
+      ]
+    },
+    "band": 1
+  },
+  {
+    "id": "corpus-futuro_semplice-005",
+    "textTemplate": "I bambini {slot_0} questa storia di animali parlanti.",
+    "primaryTense": "futuro_semplice",
+    "level": 19,
+    "difficulty": 1,
+    "theme": "vita_quotidiana",
+    "source": "authored",
+    "target": {
+      "slotId": 0,
+      "verb": "amare",
+      "person": "loro",
+      "acceptedAnswers": [
+        {
+          "text": "ameranno",
+          "tense": "futuro_semplice",
+          "person": "loro",
+          "explanation": "Con loro, amare al futuro semplice si coniuga ameranno."
+        }
+      ]
+    },
+    "band": 1
+  },
+  {
+    "id": "corpus-futuro_semplice-006",
+    "textTemplate": "La prossima settimana io {slot_0} a ritirare il passaporto.",
+    "primaryTense": "futuro_semplice",
+    "level": 18,
+    "difficulty": 2,
+    "theme": "vita_quotidiana",
+    "source": "authored",
+    "target": {
+      "slotId": 0,
+      "verb": "andare",
+      "person": "io",
+      "acceptedAnswers": [
+        {
+          "text": "andrò",
+          "tense": "futuro_semplice",
+          "person": "io",
+          "explanation": "Con io, andare al futuro semplice si coniuga andrò."
+        }
+      ]
+    },
+    "band": 2
+  },
+  {
+    "id": "corpus-futuro_semplice-007",
+    "textTemplate": "Domani la nonna {slot_0} alla visita con mio fratello.",
+    "primaryTense": "futuro_semplice",
+    "level": 19,
+    "difficulty": 2,
+    "theme": "vita_quotidiana",
+    "source": "authored",
+    "target": {
+      "slotId": 0,
+      "verb": "andare",
+      "person": "lui/lei",
+      "acceptedAnswers": [
+        {
+          "text": "andrà",
+          "tense": "futuro_semplice",
+          "person": "lui/lei",
+          "explanation": "Con lui o lei, andare al futuro semplice si coniuga andrà."
+        }
+      ]
+    },
+    "band": 2
+  },
+  {
+    "id": "corpus-futuro_semplice-008",
+    "textTemplate": "Voi {slot_0} al mare anche se farà freddo?",
+    "primaryTense": "futuro_semplice",
+    "level": 16,
+    "difficulty": 2,
+    "theme": "vita_quotidiana",
+    "source": "authored",
+    "target": {
+      "slotId": 0,
+      "verb": "andare",
+      "person": "voi",
+      "acceptedAnswers": [
+        {
+          "text": "andrete",
+          "tense": "futuro_semplice",
+          "person": "voi",
+          "explanation": "Con voi, andare al futuro semplice si coniuga andrete."
+        }
+      ]
+    },
+    "band": 2
+  },
+  {
+    "id": "corpus-futuro_semplice-009",
+    "textTemplate": "Tu {slot_0} la bozza prima di mandarla in stampa?",
+    "primaryTense": "futuro_semplice",
+    "level": 18,
+    "difficulty": 1,
+    "theme": "vita_quotidiana",
+    "source": "authored",
+    "target": {
+      "slotId": 0,
+      "verb": "approvare",
+      "person": "tu",
+      "acceptedAnswers": [
+        {
+          "text": "approverai",
+          "tense": "futuro_semplice",
+          "person": "tu",
+          "explanation": "Con tu, approvare al futuro semplice si coniuga approverai."
+        }
+      ]
+    },
+    "band": 1
+  },
+  {
+    "id": "corpus-futuro_semplice-010",
+    "textTemplate": "Il comune {slot_0} il piano dopo aver ascoltato i residenti.",
+    "primaryTense": "futuro_semplice",
+    "level": 15,
+    "difficulty": 1,
+    "theme": "vita_quotidiana",
+    "source": "authored",
+    "target": {
+      "slotId": 0,
+      "verb": "approvare",
+      "person": "lui/lei",
+      "acceptedAnswers": [
+        {
+          "text": "approverà",
+          "tense": "futuro_semplice",
+          "person": "lui/lei",
+          "explanation": "Con lui o lei, approvare al futuro semplice si coniuga approverà."
+        }
+      ]
+    },
+    "band": 1
+  },
+  {
+    "id": "corpus-futuro_semplice-011",
+    "textTemplate": "Noi {slot_0} il preventivo soltanto dopo averlo letto insieme.",
+    "primaryTense": "futuro_semplice",
+    "level": 16,
+    "difficulty": 1,
+    "theme": "vita_quotidiana",
+    "source": "authored",
+    "target": {
+      "slotId": 0,
+      "verb": "approvare",
+      "person": "noi",
+      "acceptedAnswers": [
+        {
+          "text": "approveremo",
+          "tense": "futuro_semplice",
+          "person": "noi",
+          "explanation": "Con noi, approvare al futuro semplice si coniuga approveremo."
+        }
+      ]
+    },
+    "band": 1
+  },
+  {
+    "id": "corpus-futuro_semplice-012",
+    "textTemplate": "Domani io {slot_0} il negozio mezz'ora prima.",
+    "primaryTense": "futuro_semplice",
+    "level": 19,
+    "difficulty": 2,
+    "theme": "vita_quotidiana",
+    "source": "authored",
+    "target": {
+      "slotId": 0,
+      "verb": "aprire",
+      "person": "io",
+      "acceptedAnswers": [
+        {
+          "text": "aprirò",
+          "tense": "futuro_semplice",
+          "person": "io",
+          "explanation": "Con io, aprire al futuro semplice si coniuga aprirò."
+        }
+      ]
+    },
+    "band": 2
+  },
+  {
+    "id": "corpus-futuro_semplice-013",
+    "textTemplate": "Alla fine dei lavori noi {slot_0} il giardino al pubblico.",
+    "primaryTense": "futuro_semplice",
+    "level": 16,
+    "difficulty": 2,
+    "theme": "vita_quotidiana",
+    "source": "authored",
+    "target": {
+      "slotId": 0,
+      "verb": "aprire",
+      "person": "noi",
+      "acceptedAnswers": [
+        {
+          "text": "apriremo",
+          "tense": "futuro_semplice",
+          "person": "noi",
+          "explanation": "Con noi, aprire al futuro semplice si coniuga apriremo."
+        }
+      ]
+    },
+    "band": 2
+  },
+  {
+    "id": "corpus-futuro_semplice-014",
+    "textTemplate": "Tu {slot_0} prima degli altri e potrai scegliere il posto.",
+    "primaryTense": "futuro_semplice",
+    "level": 19,
+    "difficulty": 1,
+    "theme": "vita_quotidiana",
+    "source": "authored",
+    "target": {
+      "slotId": 0,
+      "verb": "arrivare",
+      "person": "tu",
+      "acceptedAnswers": [
+        {
+          "text": "arriverai",
+          "tense": "futuro_semplice",
+          "person": "tu",
+          "explanation": "Con tu, arrivare al futuro semplice si coniuga arriverai."
+        }
+      ]
+    },
+    "band": 1
+  },
+  {
+    "id": "corpus-futuro_semplice-015",
+    "textTemplate": "Il pacco {slot_0} entro la fine della settimana.",
+    "primaryTense": "futuro_semplice",
+    "level": 15,
+    "difficulty": 1,
+    "theme": "vita_quotidiana",
+    "source": "authored",
+    "target": {
+      "slotId": 0,
+      "verb": "arrivare",
+      "person": "lui/lei",
+      "acceptedAnswers": [
+        {
+          "text": "arriverà",
+          "tense": "futuro_semplice",
+          "person": "lui/lei",
+          "explanation": "Con lui o lei, arrivare al futuro semplice si coniuga arriverà."
+        }
+      ]
+    },
+    "band": 1
+  },
+  {
+    "id": "corpus-futuro_semplice-016",
+    "textTemplate": "Voi {slot_0} dalla strada principale o dal sentiero?",
+    "primaryTense": "futuro_semplice",
+    "level": 16,
+    "difficulty": 1,
+    "theme": "vita_quotidiana",
+    "source": "authored",
+    "target": {
+      "slotId": 0,
+      "verb": "arrivare",
+      "person": "voi",
+      "acceptedAnswers": [
+        {
+          "text": "arriverete",
+          "tense": "futuro_semplice",
+          "person": "voi",
+          "explanation": "Con voi, arrivare al futuro semplice si coniuga arriverete."
+        }
+      ]
+    },
+    "band": 1
+  },
+  {
+    "id": "corpus-futuro_semplice-017",
+    "textTemplate": "Stasera io {slot_0} il concerto dalla prima fila.",
+    "primaryTense": "futuro_semplice",
+    "level": 17,
+    "difficulty": 1,
+    "theme": "vita_quotidiana",
+    "source": "authored",
+    "target": {
+      "slotId": 0,
+      "verb": "ascoltare",
+      "person": "io",
+      "acceptedAnswers": [
+        {
+          "text": "ascolterò",
+          "tense": "futuro_semplice",
+          "person": "io",
+          "explanation": "Con io, ascoltare al futuro semplice si coniuga ascolterò."
+        }
+      ]
+    },
+    "band": 1
+  },
+  {
+    "id": "corpus-futuro_semplice-018",
+    "textTemplate": "Durante la visita noi {slot_0} il racconto di un artigiano.",
+    "primaryTense": "futuro_semplice",
+    "level": 18,
+    "difficulty": 1,
+    "theme": "vita_quotidiana",
+    "source": "authored",
+    "target": {
+      "slotId": 0,
+      "verb": "ascoltare",
+      "person": "noi",
+      "acceptedAnswers": [
+        {
+          "text": "ascolteremo",
+          "tense": "futuro_semplice",
+          "person": "noi",
+          "explanation": "Con noi, ascoltare al futuro semplice si coniuga ascolteremo."
+        }
+      ]
+    },
+    "band": 1
+  },
+  {
+    "id": "corpus-futuro_semplice-019",
+    "textTemplate": "I responsabili {slot_0} le nostre osservazioni prima di decidere.",
+    "primaryTense": "futuro_semplice",
+    "level": 19,
+    "difficulty": 1,
+    "theme": "vita_quotidiana",
+    "source": "authored",
+    "target": {
+      "slotId": 0,
+      "verb": "ascoltare",
+      "person": "loro",
+      "acceptedAnswers": [
+        {
+          "text": "ascolteranno",
+          "tense": "futuro_semplice",
+          "person": "loro",
+          "explanation": "Con loro, ascoltare al futuro semplice si coniuga ascolteranno."
+        }
+      ]
+    },
+    "band": 1
+  },
+  {
+    "id": "corpus-futuro_semplice-020",
+    "textTemplate": "Tu {slot_0} qui mentre io cerco un parcheggio?",
+    "primaryTense": "futuro_semplice",
+    "level": 16,
+    "difficulty": 1,
+    "theme": "vita_quotidiana",
+    "source": "authored",
+    "target": {
+      "slotId": 0,
+      "verb": "aspettare",
+      "person": "tu",
+      "acceptedAnswers": [
+        {
+          "text": "aspetterai",
+          "tense": "futuro_semplice",
+          "person": "tu",
+          "explanation": "Con tu, aspettare al futuro semplice si coniuga aspetterai."
+        }
+      ]
+    },
+    "band": 1
+  },
+  {
+    "id": "corpus-futuro_semplice-021",
+    "textTemplate": "Noi {slot_0} una risposta fino a venerdì.",
+    "primaryTense": "futuro_semplice",
+    "level": 17,
+    "difficulty": 1,
+    "theme": "vita_quotidiana",
+    "source": "authored",
+    "target": {
+      "slotId": 0,
+      "verb": "aspettare",
+      "person": "noi",
+      "acceptedAnswers": [
+        {
+          "text": "aspetteremo",
+          "tense": "futuro_semplice",
+          "person": "noi",
+          "explanation": "Con noi, aspettare al futuro semplice si coniuga aspetteremo."
+        }
+      ]
+    },
+    "band": 1
+  },
+  {
+    "id": "corpus-futuro_semplice-022",
+    "textTemplate": "Voi {slot_0} la fine della partita per chiamarmi?",
+    "primaryTense": "futuro_semplice",
+    "level": 18,
+    "difficulty": 1,
+    "theme": "vita_quotidiana",
+    "source": "authored",
+    "target": {
+      "slotId": 0,
+      "verb": "aspettare",
+      "person": "voi",
+      "acceptedAnswers": [
+        {
+          "text": "aspetterete",
+          "tense": "futuro_semplice",
+          "person": "voi",
+          "explanation": "Con voi, aspettare al futuro semplice si coniuga aspetterete."
+        }
+      ]
+    },
+    "band": 1
+  },
+  {
+    "id": "corpus-futuro_semplice-023",
+    "textTemplate": "Dopo questo corso io {slot_0} più tempo libero.",
+    "primaryTense": "futuro_semplice",
+    "level": 17,
+    "difficulty": 2,
+    "theme": "vita_quotidiana",
+    "source": "authored",
+    "target": {
+      "slotId": 0,
+      "verb": "avere",
+      "person": "io",
+      "acceptedAnswers": [
+        {
+          "text": "avrò",
+          "tense": "futuro_semplice",
+          "person": "io",
+          "explanation": "Con io, avere al futuro semplice si coniuga avrò."
+        }
+      ]
+    },
+    "band": 2
+  },
+  {
+    "id": "corpus-futuro_semplice-024",
+    "textTemplate": "La nuova biblioteca {slot_0} una sala per i bambini.",
+    "primaryTense": "futuro_semplice",
+    "level": 18,
+    "difficulty": 2,
+    "theme": "vita_quotidiana",
+    "source": "authored",
+    "target": {
+      "slotId": 0,
+      "verb": "avere",
+      "person": "lui/lei",
+      "acceptedAnswers": [
+        {
+          "text": "avrà",
+          "tense": "futuro_semplice",
+          "person": "lui/lei",
+          "explanation": "Con lui o lei, avere al futuro semplice si coniuga avrà."
+        }
+      ]
+    },
+    "band": 2
+  },
+  {
+    "id": "corpus-futuro_semplice-025",
+    "textTemplate": "Gli ospiti {slot_0} a disposizione due biciclette.",
+    "primaryTense": "futuro_semplice",
+    "level": 19,
+    "difficulty": 2,
+    "theme": "vita_quotidiana",
+    "source": "authored",
+    "target": {
+      "slotId": 0,
+      "verb": "avere",
+      "person": "loro",
+      "acceptedAnswers": [
+        {
+          "text": "avranno",
+          "tense": "futuro_semplice",
+          "person": "loro",
+          "explanation": "Con loro, avere al futuro semplice si coniuga avranno."
+        }
+      ]
+    },
+    "band": 2
+  },
+  {
+    "id": "corpus-futuro_semplice-026",
+    "textTemplate": "Tu {slot_0} una tisana prima di andare a letto?",
+    "primaryTense": "futuro_semplice",
+    "level": 16,
+    "difficulty": 2,
+    "theme": "vita_quotidiana",
+    "source": "authored",
+    "target": {
+      "slotId": 0,
+      "verb": "bere",
+      "person": "tu",
+      "acceptedAnswers": [
+        {
+          "text": "berrai",
+          "tense": "futuro_semplice",
+          "person": "tu",
+          "explanation": "Con tu, bere al futuro semplice si coniuga berrai."
+        }
+      ]
+    },
+    "band": 2
+  },
+  {
+    "id": "corpus-futuro_semplice-027",
+    "textTemplate": "Dopo la salita noi {slot_0} alla fontana del paese.",
+    "primaryTense": "futuro_semplice",
+    "level": 17,
+    "difficulty": 2,
+    "theme": "vita_quotidiana",
+    "source": "authored",
+    "target": {
+      "slotId": 0,
+      "verb": "bere",
+      "person": "noi",
+      "acceptedAnswers": [
+        {
+          "text": "berremo",
+          "tense": "futuro_semplice",
+          "person": "noi",
+          "explanation": "Con noi, bere al futuro semplice si coniuga berremo."
+        }
+      ]
+    },
+    "band": 2
+  },
+  {
+    "id": "corpus-futuro_semplice-028",
+    "textTemplate": "Con un esempio concreto io {slot_0} meglio la regola.",
+    "primaryTense": "futuro_semplice",
+    "level": 19,
+    "difficulty": 1,
+    "theme": "vita_quotidiana",
+    "source": "authored",
+    "target": {
+      "slotId": 0,
+      "verb": "capire",
+      "person": "io",
+      "acceptedAnswers": [
+        {
+          "text": "capirò",
+          "tense": "futuro_semplice",
+          "person": "io",
+          "explanation": "Con io, capire al futuro semplice si coniuga capirò."
+        }
+      ]
+    },
+    "band": 1
+  },
+  {
+    "id": "corpus-futuro_semplice-029",
+    "textTemplate": "Un giorno mia figlia {slot_0} perché abbiamo fatto questa scelta.",
+    "primaryTense": "futuro_semplice",
+    "level": 15,
+    "difficulty": 1,
+    "theme": "vita_quotidiana",
+    "source": "authored",
+    "target": {
+      "slotId": 0,
+      "verb": "capire",
+      "person": "lui/lei",
+      "acceptedAnswers": [
+        {
+          "text": "capirà",
+          "tense": "futuro_semplice",
+          "person": "lui/lei",
+          "explanation": "Con lui o lei, capire al futuro semplice si coniuga capirà."
+        }
+      ]
+    },
+    "band": 1
+  },
+  {
+    "id": "corpus-futuro_semplice-030",
+    "textTemplate": "Gli spettatori {slot_0} il titolo soltanto alla fine del film.",
+    "primaryTense": "futuro_semplice",
+    "level": 17,
+    "difficulty": 1,
+    "theme": "vita_quotidiana",
+    "source": "authored",
+    "target": {
+      "slotId": 0,
+      "verb": "capire",
+      "person": "loro",
+      "acceptedAnswers": [
+        {
+          "text": "capiranno",
+          "tense": "futuro_semplice",
+          "person": "loro",
+          "explanation": "Con loro, capire al futuro semplice si coniuga capiranno."
+        }
+      ]
+    },
+    "band": 1
+  },
+  {
+    "id": "corpus-futuro_semplice-031",
+    "textTemplate": "Tu {slot_0} la cornice con il legno che è rimasto?",
+    "primaryTense": "futuro_semplice",
+    "level": 18,
+    "difficulty": 1,
+    "theme": "vita_quotidiana",
+    "source": "authored",
+    "target": {
+      "slotId": 0,
+      "verb": "costruire",
+      "person": "tu",
+      "acceptedAnswers": [
+        {
+          "text": "costruirai",
+          "tense": "futuro_semplice",
+          "person": "tu",
+          "explanation": "Con tu, costruire al futuro semplice si coniuga costruirai."
+        }
+      ]
+    },
+    "band": 1
+  },
+  {
+    "id": "corpus-futuro_semplice-032",
+    "textTemplate": "In primavera noi {slot_0} una piccola serra.",
+    "primaryTense": "futuro_semplice",
+    "level": 19,
+    "difficulty": 1,
+    "theme": "vita_quotidiana",
+    "source": "authored",
+    "target": {
+      "slotId": 0,
+      "verb": "costruire",
+      "person": "noi",
+      "acceptedAnswers": [
+        {
+          "text": "costruiremo",
+          "tense": "futuro_semplice",
+          "person": "noi",
+          "explanation": "Con noi, costruire al futuro semplice si coniuga costruiremo."
+        }
+      ]
+    },
+    "band": 1
+  },
+  {
+    "id": "corpus-futuro_semplice-033",
+    "textTemplate": "Gli operai {slot_0} il ponte senza interrompere il traffico.",
+    "primaryTense": "futuro_semplice",
+    "level": 15,
+    "difficulty": 1,
+    "theme": "vita_quotidiana",
+    "source": "authored",
+    "target": {
+      "slotId": 0,
+      "verb": "costruire",
+      "person": "loro",
+      "acceptedAnswers": [
+        {
+          "text": "costruiranno",
+          "tense": "futuro_semplice",
+          "person": "loro",
+          "explanation": "Con loro, costruire al futuro semplice si coniuga costruiranno."
+        }
+      ]
+    },
+    "band": 1
+  },
+  {
+    "id": "corpus-futuro_semplice-034",
+    "textTemplate": "Domani io {slot_0} qualcosa che si possa mangiare freddo.",
+    "primaryTense": "futuro_semplice",
+    "level": 16,
+    "difficulty": 1,
+    "theme": "vita_quotidiana",
+    "source": "authored",
+    "target": {
+      "slotId": 0,
+      "verb": "cucinare",
+      "person": "io",
+      "acceptedAnswers": [
+        {
+          "text": "cucinerò",
+          "tense": "futuro_semplice",
+          "person": "io",
+          "explanation": "Con io, cucinare al futuro semplice si coniuga cucinerò."
+        }
+      ]
+    },
+    "band": 1
+  },
+  {
+    "id": "corpus-futuro_semplice-035",
+    "textTemplate": "Per la festa Paolo {slot_0} la sua famosa zuppa.",
+    "primaryTense": "futuro_semplice",
+    "level": 17,
+    "difficulty": 1,
+    "theme": "vita_quotidiana",
+    "source": "authored",
+    "target": {
+      "slotId": 0,
+      "verb": "cucinare",
+      "person": "lui/lei",
+      "acceptedAnswers": [
+        {
+          "text": "cucinerà",
+          "tense": "futuro_semplice",
+          "person": "lui/lei",
+          "explanation": "Con lui o lei, cucinare al futuro semplice si coniuga cucinerà."
+        }
+      ]
+    },
+    "band": 1
+  },
+  {
+    "id": "corpus-futuro_semplice-036",
+    "textTemplate": "Voi {slot_0} per tutti oppure ognuno porterà qualcosa?",
+    "primaryTense": "futuro_semplice",
+    "level": 18,
+    "difficulty": 1,
+    "theme": "vita_quotidiana",
+    "source": "authored",
+    "target": {
+      "slotId": 0,
+      "verb": "cucinare",
+      "person": "voi",
+      "acceptedAnswers": [
+        {
+          "text": "cucinerete",
+          "tense": "futuro_semplice",
+          "person": "voi",
+          "explanation": "Con voi, cucinare al futuro semplice si coniuga cucinerete."
+        }
+      ]
+    },
+    "band": 1
+  },
+  {
+    "id": "corpus-futuro_semplice-037",
+    "textTemplate": "Tu {slot_0} il gatto mentre sarò in viaggio?",
+    "primaryTense": "futuro_semplice",
+    "level": 19,
+    "difficulty": 1,
+    "theme": "vita_quotidiana",
+    "source": "authored",
+    "target": {
+      "slotId": 0,
+      "verb": "curare",
+      "person": "tu",
+      "acceptedAnswers": [
+        {
+          "text": "curerai",
+          "tense": "futuro_semplice",
+          "person": "tu",
+          "explanation": "Con tu, curare al futuro semplice si coniuga curerai."
+        }
+      ]
+    },
+    "band": 1
+  },
+  {
+    "id": "corpus-futuro_semplice-038",
+    "textTemplate": "Noi {slot_0} l'orto della scuola durante l'estate.",
+    "primaryTense": "futuro_semplice",
+    "level": 15,
+    "difficulty": 1,
+    "theme": "vita_quotidiana",
+    "source": "authored",
+    "target": {
+      "slotId": 0,
+      "verb": "curare",
+      "person": "noi",
+      "acceptedAnswers": [
+        {
+          "text": "cureremo",
+          "tense": "futuro_semplice",
+          "person": "noi",
+          "explanation": "Con noi, curare al futuro semplice si coniuga cureremo."
+        }
+      ]
+    },
+    "band": 1
+  },
+  {
+    "id": "corpus-futuro_semplice-039",
+    "textTemplate": "I volontari {slot_0} le nuove aiuole della piazza.",
+    "primaryTense": "futuro_semplice",
+    "level": 16,
+    "difficulty": 1,
+    "theme": "vita_quotidiana",
+    "source": "authored",
+    "target": {
+      "slotId": 0,
+      "verb": "curare",
+      "person": "loro",
+      "acceptedAnswers": [
+        {
+          "text": "cureranno",
+          "tense": "futuro_semplice",
+          "person": "loro",
+          "explanation": "Con loro, curare al futuro semplice si coniuga cureranno."
+        }
+      ]
+    },
+    "band": 1
+  },
+  {
+    "id": "corpus-futuro_semplice-040",
+    "textTemplate": "Con questa lista io non {slot_0} niente.",
+    "primaryTense": "futuro_semplice",
+    "level": 18,
+    "difficulty": 1,
+    "theme": "vita_quotidiana",
+    "source": "authored",
+    "target": {
+      "slotId": 0,
+      "verb": "dimenticare",
+      "person": "io",
+      "acceptedAnswers": [
+        {
+          "text": "dimenticherò",
+          "tense": "futuro_semplice",
+          "person": "io",
+          "explanation": "Con io, dimenticare al futuro semplice si coniuga dimenticherò."
+        }
+      ]
+    },
+    "band": 1
+  },
+  {
+    "id": "corpus-futuro_semplice-041",
+    "textTemplate": "Mio fratello {slot_0} le chiavi se non le mettiamo vicino alla porta.",
+    "primaryTense": "futuro_semplice",
+    "level": 19,
+    "difficulty": 1,
+    "theme": "vita_quotidiana",
+    "source": "authored",
+    "target": {
+      "slotId": 0,
+      "verb": "dimenticare",
+      "person": "lui/lei",
+      "acceptedAnswers": [
+        {
+          "text": "dimenticherà",
+          "tense": "futuro_semplice",
+          "person": "lui/lei",
+          "explanation": "Con lui o lei, dimenticare al futuro semplice si coniuga dimenticherà."
+        }
+      ]
+    },
+    "band": 1
+  },
+  {
+    "id": "corpus-futuro_semplice-042",
+    "textTemplate": "Voi non {slot_0} facilmente il panorama da lassù.",
+    "primaryTense": "futuro_semplice",
+    "level": 15,
+    "difficulty": 1,
+    "theme": "vita_quotidiana",
+    "source": "authored",
+    "target": {
+      "slotId": 0,
+      "verb": "dimenticare",
+      "person": "voi",
+      "acceptedAnswers": [
+        {
+          "text": "dimenticherete",
+          "tense": "futuro_semplice",
+          "person": "voi",
+          "explanation": "Con voi, dimenticare al futuro semplice si coniuga dimenticherete."
+        }
+      ]
+    },
+    "band": 1
+  },
+  {
+    "id": "corpus-futuro_semplice-043",
+    "textTemplate": "Tu {slot_0} agli altri dove incontrarci?",
+    "primaryTense": "futuro_semplice",
+    "level": 19,
+    "difficulty": 2,
+    "theme": "vita_quotidiana",
+    "source": "authored",
+    "target": {
+      "slotId": 0,
+      "verb": "dire",
+      "person": "tu",
+      "acceptedAnswers": [
+        {
+          "text": "dirai",
+          "tense": "futuro_semplice",
+          "person": "tu",
+          "explanation": "Con tu, dire al futuro semplice si coniuga dirai."
+        }
+      ]
+    },
+    "band": 2
+  },
+  {
+    "id": "corpus-futuro_semplice-044",
+    "textTemplate": "Noi {slot_0} la nostra opinione alla fine dell'incontro.",
+    "primaryTense": "futuro_semplice",
+    "level": 16,
+    "difficulty": 2,
+    "theme": "vita_quotidiana",
+    "source": "authored",
+    "target": {
+      "slotId": 0,
+      "verb": "dire",
+      "person": "noi",
+      "acceptedAnswers": [
+        {
+          "text": "diremo",
+          "tense": "futuro_semplice",
+          "person": "noi",
+          "explanation": "Con noi, dire al futuro semplice si coniuga diremo."
+        }
+      ]
+    },
+    "band": 2
+  },
+  {
+    "id": "corpus-futuro_semplice-045",
+    "textTemplate": "I medici {slot_0} quando sarà possibile tornare a casa.",
+    "primaryTense": "futuro_semplice",
+    "level": 17,
+    "difficulty": 2,
+    "theme": "vita_quotidiana",
+    "source": "authored",
+    "target": {
+      "slotId": 0,
+      "verb": "dire",
+      "person": "loro",
+      "acceptedAnswers": [
+        {
+          "text": "diranno",
+          "tense": "futuro_semplice",
+          "person": "loro",
+          "explanation": "Con loro, dire al futuro semplice si coniuga diranno."
+        }
+      ]
+    },
+    "band": 2
+  },
+  {
+    "id": "corpus-futuro_semplice-046",
+    "textTemplate": "Stanotte io {slot_0} nella stanza vicino al giardino.",
+    "primaryTense": "futuro_semplice",
+    "level": 19,
+    "difficulty": 1,
+    "theme": "vita_quotidiana",
+    "source": "authored",
+    "target": {
+      "slotId": 0,
+      "verb": "dormire",
+      "person": "io",
+      "acceptedAnswers": [
+        {
+          "text": "dormirò",
+          "tense": "futuro_semplice",
+          "person": "io",
+          "explanation": "Con io, dormire al futuro semplice si coniuga dormirò."
+        }
+      ]
+    },
+    "band": 1
+  },
+  {
+    "id": "corpus-futuro_semplice-047",
+    "textTemplate": "Dopo una giornata così il bambino {slot_0} profondamente.",
+    "primaryTense": "futuro_semplice",
+    "level": 15,
+    "difficulty": 1,
+    "theme": "vita_quotidiana",
+    "source": "authored",
+    "target": {
+      "slotId": 0,
+      "verb": "dormire",
+      "person": "lui/lei",
+      "acceptedAnswers": [
+        {
+          "text": "dormirà",
+          "tense": "futuro_semplice",
+          "person": "lui/lei",
+          "explanation": "Con lui o lei, dormire al futuro semplice si coniuga dormirà."
+        }
+      ]
+    },
+    "band": 1
+  },
+  {
+    "id": "corpus-futuro_semplice-048",
+    "textTemplate": "Voi {slot_0} in tenda anche in montagna?",
+    "primaryTense": "futuro_semplice",
+    "level": 16,
+    "difficulty": 1,
+    "theme": "vita_quotidiana",
+    "source": "authored",
+    "target": {
+      "slotId": 0,
+      "verb": "dormire",
+      "person": "voi",
+      "acceptedAnswers": [
+        {
+          "text": "dormirete",
+          "tense": "futuro_semplice",
+          "person": "voi",
+          "explanation": "Con voi, dormire al futuro semplice si coniuga dormirete."
+        }
+      ]
+    },
+    "band": 1
+  },
+  {
+    "id": "corpus-futuro_semplice-049",
+    "textTemplate": "Per iscriverti tu {slot_0} presentare un documento.",
+    "primaryTense": "futuro_semplice",
+    "level": 17,
+    "difficulty": 2,
+    "theme": "vita_quotidiana",
+    "source": "authored",
+    "target": {
+      "slotId": 0,
+      "verb": "dovere",
+      "person": "tu",
+      "acceptedAnswers": [
+        {
+          "text": "dovrai",
+          "tense": "futuro_semplice",
+          "person": "tu",
+          "explanation": "Con tu, dovere al futuro semplice si coniuga dovrai."
+        }
+      ]
+    },
+    "band": 2
+  },
+  {
+    "id": "corpus-futuro_semplice-050",
+    "textTemplate": "Noi {slot_0} dividere il viaggio in due tappe.",
+    "primaryTense": "futuro_semplice",
+    "level": 17,
+    "difficulty": 2,
+    "theme": "vita_quotidiana",
+    "source": "authored",
+    "target": {
+      "slotId": 0,
+      "verb": "dovere",
+      "person": "noi",
+      "acceptedAnswers": [
+        {
+          "text": "dovremo",
+          "tense": "futuro_semplice",
+          "person": "noi",
+          "explanation": "Con noi, dovere al futuro semplice si coniuga dovremo."
+        }
+      ]
+    },
+    "band": 2
+  },
+  {
+    "id": "corpus-futuro_semplice-051",
+    "textTemplate": "I visitatori {slot_0} lasciare gli zaini all'ingresso.",
+    "primaryTense": "futuro_semplice",
+    "level": 18,
+    "difficulty": 2,
+    "theme": "vita_quotidiana",
+    "source": "authored",
+    "target": {
+      "slotId": 0,
+      "verb": "dovere",
+      "person": "loro",
+      "acceptedAnswers": [
+        {
+          "text": "dovranno",
+          "tense": "futuro_semplice",
+          "person": "loro",
+          "explanation": "Con loro, dovere al futuro semplice si coniuga dovranno."
+        }
+      ]
+    },
+    "band": 2
+  },
+  {
+    "id": "corpus-futuro_semplice-052",
+    "textTemplate": "Domani a quest'ora io {slot_0} sul treno.",
+    "primaryTense": "futuro_semplice",
+    "level": 19,
+    "difficulty": 2,
+    "theme": "vita_quotidiana",
+    "source": "authored",
+    "target": {
+      "slotId": 0,
+      "verb": "essere",
+      "person": "io",
+      "acceptedAnswers": [
+        {
+          "text": "sarò",
+          "tense": "futuro_semplice",
+          "person": "io",
+          "explanation": "Con io, essere al futuro semplice si coniuga sarò."
+        }
+      ]
+    },
+    "band": 2
+  },
+  {
+    "id": "corpus-futuro_semplice-053",
+    "textTemplate": "La piscina {slot_0} pronta prima dell'estate.",
+    "primaryTense": "futuro_semplice",
+    "level": 16,
+    "difficulty": 2,
+    "theme": "vita_quotidiana",
+    "source": "authored",
+    "target": {
+      "slotId": 0,
+      "verb": "essere",
+      "person": "lui/lei",
+      "acceptedAnswers": [
+        {
+          "text": "sarà",
+          "tense": "futuro_semplice",
+          "person": "lui/lei",
+          "explanation": "Con lui o lei, essere al futuro semplice si coniuga sarà."
+        }
+      ]
+    },
+    "band": 2
+  },
+  {
+    "id": "corpus-futuro_semplice-054",
+    "textTemplate": "Voi {slot_0} i primi a vedere il nuovo laboratorio.",
+    "primaryTense": "futuro_semplice",
+    "level": 17,
+    "difficulty": 2,
+    "theme": "vita_quotidiana",
+    "source": "authored",
+    "target": {
+      "slotId": 0,
+      "verb": "essere",
+      "person": "voi",
+      "acceptedAnswers": [
+        {
+          "text": "sarete",
+          "tense": "futuro_semplice",
+          "person": "voi",
+          "explanation": "Con voi, essere al futuro semplice si coniuga sarete."
+        }
+      ]
+    },
+    "band": 2
+  },
+  {
+    "id": "corpus-futuro_semplice-055",
+    "textTemplate": "Tu {slot_0} le foto durante la cerimonia?",
+    "primaryTense": "futuro_semplice",
+    "level": 18,
+    "difficulty": 2,
+    "theme": "vita_quotidiana",
+    "source": "authored",
+    "target": {
+      "slotId": 0,
+      "verb": "fare",
+      "person": "tu",
+      "acceptedAnswers": [
+        {
+          "text": "farai",
+          "tense": "futuro_semplice",
+          "person": "tu",
+          "explanation": "Con tu, fare al futuro semplice si coniuga farai."
+        }
+      ]
+    },
+    "band": 2
+  },
+  {
+    "id": "corpus-futuro_semplice-056",
+    "textTemplate": "Noi {slot_0} una raccolta di libri per la scuola.",
+    "primaryTense": "futuro_semplice",
+    "level": 19,
+    "difficulty": 2,
+    "theme": "vita_quotidiana",
+    "source": "authored",
+    "target": {
+      "slotId": 0,
+      "verb": "fare",
+      "person": "noi",
+      "acceptedAnswers": [
+        {
+          "text": "faremo",
+          "tense": "futuro_semplice",
+          "person": "noi",
+          "explanation": "Con noi, fare al futuro semplice si coniuga faremo."
+        }
+      ]
+    },
+    "band": 2
+  },
+  {
+    "id": "corpus-futuro_semplice-057",
+    "textTemplate": "Gli studenti {slot_0} una prova prima dell'esame.",
+    "primaryTense": "futuro_semplice",
+    "level": 16,
+    "difficulty": 2,
+    "theme": "vita_quotidiana",
+    "source": "authored",
+    "target": {
+      "slotId": 0,
+      "verb": "fare",
+      "person": "loro",
+      "acceptedAnswers": [
+        {
+          "text": "faranno",
+          "tense": "futuro_semplice",
+          "person": "loro",
+          "explanation": "Con loro, fare al futuro semplice si coniuga faranno."
+        }
+      ]
+    },
+    "band": 2
+  },
+  {
+    "id": "corpus-futuro_semplice-058",
+    "textTemplate": "Io {slot_0} di dipingere la porta entro domani.",
+    "primaryTense": "futuro_semplice",
+    "level": 17,
+    "difficulty": 1,
+    "theme": "vita_quotidiana",
+    "source": "authored",
+    "target": {
+      "slotId": 0,
+      "verb": "finire",
+      "person": "io",
+      "acceptedAnswers": [
+        {
+          "text": "finirò",
+          "tense": "futuro_semplice",
+          "person": "io",
+          "explanation": "Con io, finire al futuro semplice si coniuga finirò."
+        }
+      ]
+    },
+    "band": 1
+  },
+  {
+    "id": "corpus-futuro_semplice-059",
+    "textTemplate": "La festa {slot_0} prima dell'ultimo autobus.",
+    "primaryTense": "futuro_semplice",
+    "level": 18,
+    "difficulty": 1,
+    "theme": "vita_quotidiana",
+    "source": "authored",
+    "target": {
+      "slotId": 0,
+      "verb": "finire",
+      "person": "lui/lei",
+      "acceptedAnswers": [
+        {
+          "text": "finirà",
+          "tense": "futuro_semplice",
+          "person": "lui/lei",
+          "explanation": "Con lui o lei, finire al futuro semplice si coniuga finirà."
+        }
+      ]
+    },
+    "band": 1
+  },
+  {
+    "id": "corpus-futuro_semplice-060",
+    "textTemplate": "Voi {slot_0} il percorso prima che faccia buio.",
+    "primaryTense": "futuro_semplice",
+    "level": 15,
+    "difficulty": 1,
+    "theme": "vita_quotidiana",
+    "source": "authored",
+    "target": {
+      "slotId": 0,
+      "verb": "finire",
+      "person": "voi",
+      "acceptedAnswers": [
+        {
+          "text": "finirete",
+          "tense": "futuro_semplice",
+          "person": "voi",
+          "explanation": "Con voi, finire al futuro semplice si coniuga finirete."
+        }
+      ]
+    },
+    "band": 1
+  },
+  {
+    "id": "corpus-futuro_semplice-061",
+    "textTemplate": "Tu {slot_0} il modulo quando verrai a ritirare le chiavi.",
+    "primaryTense": "futuro_semplice",
+    "level": 16,
+    "difficulty": 1,
+    "theme": "vita_quotidiana",
+    "source": "authored",
+    "target": {
+      "slotId": 0,
+      "verb": "firmare",
+      "person": "tu",
+      "acceptedAnswers": [
+        {
+          "text": "firmerai",
+          "tense": "futuro_semplice",
+          "person": "tu",
+          "explanation": "Con tu, firmare al futuro semplice si coniuga firmerai."
+        }
+      ]
+    },
+    "band": 1
+  },
+  {
+    "id": "corpus-futuro_semplice-062",
+    "textTemplate": "Noi {slot_0} il contratto dopo aver visto l'appartamento.",
+    "primaryTense": "futuro_semplice",
+    "level": 17,
+    "difficulty": 1,
+    "theme": "vita_quotidiana",
+    "source": "authored",
+    "target": {
+      "slotId": 0,
+      "verb": "firmare",
+      "person": "noi",
+      "acceptedAnswers": [
+        {
+          "text": "firmeremo",
+          "tense": "futuro_semplice",
+          "person": "noi",
+          "explanation": "Con noi, firmare al futuro semplice si coniuga firmeremo."
+        }
+      ]
+    },
+    "band": 1
+  },
+  {
+    "id": "corpus-futuro_semplice-063",
+    "textTemplate": "Gli atleti {slot_0} le magliette dei bambini.",
+    "primaryTense": "futuro_semplice",
+    "level": 18,
+    "difficulty": 1,
+    "theme": "vita_quotidiana",
+    "source": "authored",
+    "target": {
+      "slotId": 0,
+      "verb": "firmare",
+      "person": "loro",
+      "acceptedAnswers": [
+        {
+          "text": "firmeranno",
+          "tense": "futuro_semplice",
+          "person": "loro",
+          "explanation": "Con loro, firmare al futuro semplice si coniuga firmeranno."
+        }
+      ]
+    },
+    "band": 1
+  },
+  {
+    "id": "corpus-futuro_semplice-064",
+    "textTemplate": "Durante la gita io {slot_0} soprattutto i paesaggi.",
+    "primaryTense": "futuro_semplice",
+    "level": 19,
+    "difficulty": 1,
+    "theme": "vita_quotidiana",
+    "source": "authored",
+    "target": {
+      "slotId": 0,
+      "verb": "fotografare",
+      "person": "io",
+      "acceptedAnswers": [
+        {
+          "text": "fotograferò",
+          "tense": "futuro_semplice",
+          "person": "io",
+          "explanation": "Con io, fotografare al futuro semplice si coniuga fotograferò."
+        }
+      ]
+    },
+    "band": 1
+  },
+  {
+    "id": "corpus-futuro_semplice-065",
+    "textTemplate": "La fotografa {slot_0} la sala prima dell'arrivo degli invitati.",
+    "primaryTense": "futuro_semplice",
+    "level": 15,
+    "difficulty": 1,
+    "theme": "vita_quotidiana",
+    "source": "authored",
+    "target": {
+      "slotId": 0,
+      "verb": "fotografare",
+      "person": "lui/lei",
+      "acceptedAnswers": [
+        {
+          "text": "fotograferà",
+          "tense": "futuro_semplice",
+          "person": "lui/lei",
+          "explanation": "Con lui o lei, fotografare al futuro semplice si coniuga fotograferà."
+        }
+      ]
+    },
+    "band": 1
+  },
+  {
+    "id": "corpus-futuro_semplice-066",
+    "textTemplate": "Voi {slot_0} anche i preparativi della festa?",
+    "primaryTense": "futuro_semplice",
+    "level": 16,
+    "difficulty": 1,
+    "theme": "vita_quotidiana",
+    "source": "authored",
+    "target": {
+      "slotId": 0,
+      "verb": "fotografare",
+      "person": "voi",
+      "acceptedAnswers": [
+        {
+          "text": "fotograferete",
+          "tense": "futuro_semplice",
+          "person": "voi",
+          "explanation": "Con voi, fotografare al futuro semplice si coniuga fotograferete."
+        }
+      ]
+    },
+    "band": 1
+  },
+  {
+    "id": "corpus-futuro_semplice-067",
+    "textTemplate": "Tu {slot_0} nella stessa squadra di tua sorella?",
+    "primaryTense": "futuro_semplice",
+    "level": 17,
+    "difficulty": 1,
+    "theme": "vita_quotidiana",
+    "source": "authored",
+    "target": {
+      "slotId": 0,
+      "verb": "giocare",
+      "person": "tu",
+      "acceptedAnswers": [
+        {
+          "text": "giocherai",
+          "tense": "futuro_semplice",
+          "person": "tu",
+          "explanation": "Con tu, giocare al futuro semplice si coniuga giocherai."
+        }
+      ]
+    },
+    "band": 1
+  },
+  {
+    "id": "corpus-futuro_semplice-068",
+    "textTemplate": "Se pioverà, noi {slot_0} a carte in cucina.",
+    "primaryTense": "futuro_semplice",
+    "level": 18,
+    "difficulty": 1,
+    "theme": "vita_quotidiana",
+    "source": "authored",
+    "target": {
+      "slotId": 0,
+      "verb": "giocare",
+      "person": "noi",
+      "acceptedAnswers": [
+        {
+          "text": "giocheremo",
+          "tense": "futuro_semplice",
+          "person": "noi",
+          "explanation": "Con noi, giocare al futuro semplice si coniuga giocheremo."
+        }
+      ]
+    },
+    "band": 1
+  },
+  {
+    "id": "corpus-futuro_semplice-069",
+    "textTemplate": "Dopo l'esame io {slot_0} una giornata senza programmi.",
+    "primaryTense": "futuro_semplice",
+    "level": 18,
+    "difficulty": 2,
+    "theme": "vita_quotidiana",
+    "source": "authored",
+    "target": {
+      "slotId": 0,
+      "verb": "godersi",
+      "person": "io",
+      "acceptedAnswers": [
+        {
+          "text": "mi godrò",
+          "tense": "futuro_semplice",
+          "person": "io",
+          "explanation": "Con io, godersi al futuro semplice si coniuga mi godrò."
+        },
+        {
+          "text": "mi goderò",
+          "tense": "futuro_semplice",
+          "person": "io",
+          "explanation": "Con io, godersi al futuro semplice si coniuga mi goderò."
+        }
+      ]
+    },
+    "band": 2
+  },
+  {
+    "id": "corpus-futuro_semplice-070",
+    "textTemplate": "Noi {slot_0} il viaggio anche se non visiteremo tutto.",
+    "primaryTense": "futuro_semplice",
+    "level": 19,
+    "difficulty": 2,
+    "theme": "vita_quotidiana",
+    "source": "authored",
+    "target": {
+      "slotId": 0,
+      "verb": "godersi",
+      "person": "noi",
+      "acceptedAnswers": [
+        {
+          "text": "ci godremo",
+          "tense": "futuro_semplice",
+          "person": "noi",
+          "explanation": "Con noi, godersi al futuro semplice si coniuga ci godremo."
+        },
+        {
+          "text": "ci goderemo",
+          "tense": "futuro_semplice",
+          "person": "noi",
+          "explanation": "Con noi, godersi al futuro semplice si coniuga ci goderemo."
+        }
+      ]
+    },
+    "band": 2
+  },
+  {
+    "id": "corpus-futuro_semplice-071",
+    "textTemplate": "I nonni {slot_0} la compagnia dei nipoti durante le vacanze.",
+    "primaryTense": "futuro_semplice",
+    "level": 17,
+    "difficulty": 2,
+    "theme": "vita_quotidiana",
+    "source": "authored",
+    "target": {
+      "slotId": 0,
+      "verb": "godersi",
+      "person": "loro",
+      "acceptedAnswers": [
+        {
+          "text": "si godranno",
+          "tense": "futuro_semplice",
+          "person": "loro",
+          "explanation": "Con loro, godersi al futuro semplice si coniuga si godranno."
+        },
+        {
+          "text": "si goderanno",
+          "tense": "futuro_semplice",
+          "person": "loro",
+          "explanation": "Con loro, godersi al futuro semplice si coniuga si goderanno."
+        }
+      ]
+    },
+    "band": 2
+  },
+  {
+    "id": "corpus-futuro_semplice-072",
+    "textTemplate": "Il tecnico {slot_0} la lavatrice domani mattina.",
+    "primaryTense": "futuro_semplice",
+    "level": 18,
+    "difficulty": 1,
+    "theme": "vita_quotidiana",
+    "source": "authored",
+    "target": {
+      "slotId": 0,
+      "verb": "guardare",
+      "person": "lui/lei",
+      "acceptedAnswers": [
+        {
+          "text": "guarderà",
+          "tense": "futuro_semplice",
+          "person": "lui/lei",
+          "explanation": "Con lui o lei, guardare al futuro semplice si coniuga guarderà."
+        }
+      ]
+    },
+    "band": 1
+  },
+  {
+    "id": "corpus-futuro_semplice-073",
+    "textTemplate": "Voi {slot_0} il film in lingua originale?",
+    "primaryTense": "futuro_semplice",
+    "level": 19,
+    "difficulty": 1,
+    "theme": "vita_quotidiana",
+    "source": "authored",
+    "target": {
+      "slotId": 0,
+      "verb": "guardare",
+      "person": "voi",
+      "acceptedAnswers": [
+        {
+          "text": "guarderete",
+          "tense": "futuro_semplice",
+          "person": "voi",
+          "explanation": "Con voi, guardare al futuro semplice si coniuga guarderete."
+        }
+      ]
+    },
+    "band": 1
+  },
+  {
+    "id": "corpus-futuro_semplice-074",
+    "textTemplate": "Io {slot_0} nella prima parte del viaggio.",
+    "primaryTense": "futuro_semplice",
+    "level": 15,
+    "difficulty": 1,
+    "theme": "vita_quotidiana",
+    "source": "authored",
+    "target": {
+      "slotId": 0,
+      "verb": "guidare",
+      "person": "io",
+      "acceptedAnswers": [
+        {
+          "text": "guiderò",
+          "tense": "futuro_semplice",
+          "person": "io",
+          "explanation": "Con io, guidare al futuro semplice si coniuga guiderò."
+        }
+      ]
+    },
+    "band": 1
+  },
+  {
+    "id": "corpus-futuro_semplice-075",
+    "textTemplate": "Noi {slot_0} con calma lungo la strada costiera.",
+    "primaryTense": "futuro_semplice",
+    "level": 16,
+    "difficulty": 1,
+    "theme": "vita_quotidiana",
+    "source": "authored",
+    "target": {
+      "slotId": 0,
+      "verb": "guidare",
+      "person": "noi",
+      "acceptedAnswers": [
+        {
+          "text": "guideremo",
+          "tense": "futuro_semplice",
+          "person": "noi",
+          "explanation": "Con noi, guidare al futuro semplice si coniuga guideremo."
+        }
+      ]
+    },
+    "band": 1
+  },
+  {
+    "id": "corpus-futuro_semplice-076",
+    "textTemplate": "I volontari {slot_0} i pulmini fino al campo estivo.",
+    "primaryTense": "futuro_semplice",
+    "level": 17,
+    "difficulty": 1,
+    "theme": "vita_quotidiana",
+    "source": "authored",
+    "target": {
+      "slotId": 0,
+      "verb": "guidare",
+      "person": "loro",
+      "acceptedAnswers": [
+        {
+          "text": "guideranno",
+          "tense": "futuro_semplice",
+          "person": "loro",
+          "explanation": "Con loro, guidare al futuro semplice si coniuga guideranno."
+        }
+      ]
+    },
+    "band": 1
+  },
+  {
+    "id": "corpus-futuro_semplice-077",
+    "textTemplate": "Tu {slot_0} anche i tuoi vecchi compagni di scuola?",
+    "primaryTense": "futuro_semplice",
+    "level": 18,
+    "difficulty": 1,
+    "theme": "vita_quotidiana",
+    "source": "authored",
+    "target": {
+      "slotId": 0,
+      "verb": "invitare",
+      "person": "tu",
+      "acceptedAnswers": [
+        {
+          "text": "inviterai",
+          "tense": "futuro_semplice",
+          "person": "tu",
+          "explanation": "Con tu, invitare al futuro semplice si coniuga inviterai."
+        }
+      ]
+    },
+    "band": 1
+  },
+  {
+    "id": "corpus-futuro_semplice-078",
+    "textTemplate": "La biblioteca {slot_0} una traduttrice al prossimo incontro.",
+    "primaryTense": "futuro_semplice",
+    "level": 19,
+    "difficulty": 1,
+    "theme": "vita_quotidiana",
+    "source": "authored",
+    "target": {
+      "slotId": 0,
+      "verb": "invitare",
+      "person": "lui/lei",
+      "acceptedAnswers": [
+        {
+          "text": "inviterà",
+          "tense": "futuro_semplice",
+          "person": "lui/lei",
+          "explanation": "Con lui o lei, invitare al futuro semplice si coniuga inviterà."
+        }
+      ]
+    },
+    "band": 1
+  },
+  {
+    "id": "corpus-futuro_semplice-079",
+    "textTemplate": "Voi {slot_0} i vicini a vedere la casa rinnovata?",
+    "primaryTense": "futuro_semplice",
+    "level": 15,
+    "difficulty": 1,
+    "theme": "vita_quotidiana",
+    "source": "authored",
+    "target": {
+      "slotId": 0,
+      "verb": "invitare",
+      "person": "voi",
+      "acceptedAnswers": [
+        {
+          "text": "inviterete",
+          "tense": "futuro_semplice",
+          "person": "voi",
+          "explanation": "Con voi, invitare al futuro semplice si coniuga inviterete."
+        }
+      ]
+    },
+    "band": 1
+  },
+  {
+    "id": "corpus-futuro_semplice-080",
+    "textTemplate": "Quest'estate io {slot_0} nel negozio di mio zio.",
+    "primaryTense": "futuro_semplice",
+    "level": 17,
+    "difficulty": 1,
+    "theme": "vita_quotidiana",
+    "source": "authored",
+    "target": {
+      "slotId": 0,
+      "verb": "lavorare",
+      "person": "io",
+      "acceptedAnswers": [
+        {
+          "text": "lavorerò",
+          "tense": "futuro_semplice",
+          "person": "io",
+          "explanation": "Con io, lavorare al futuro semplice si coniuga lavorerò."
+        }
+      ]
+    },
+    "band": 1
+  },
+  {
+    "id": "corpus-futuro_semplice-081",
+    "textTemplate": "Noi {slot_0} alla scenografia durante il fine settimana.",
+    "primaryTense": "futuro_semplice",
+    "level": 18,
+    "difficulty": 1,
+    "theme": "vita_quotidiana",
+    "source": "authored",
+    "target": {
+      "slotId": 0,
+      "verb": "lavorare",
+      "person": "noi",
+      "acceptedAnswers": [
+        {
+          "text": "lavoreremo",
+          "tense": "futuro_semplice",
+          "person": "noi",
+          "explanation": "Con noi, lavorare al futuro semplice si coniuga lavoreremo."
+        }
+      ]
+    },
+    "band": 1
+  },
+  {
+    "id": "corpus-futuro_semplice-082",
+    "textTemplate": "I restauratori {slot_0} sulla facciata per sei mesi.",
+    "primaryTense": "futuro_semplice",
+    "level": 19,
+    "difficulty": 1,
+    "theme": "vita_quotidiana",
+    "source": "authored",
+    "target": {
+      "slotId": 0,
+      "verb": "lavorare",
+      "person": "loro",
+      "acceptedAnswers": [
+        {
+          "text": "lavoreranno",
+          "tense": "futuro_semplice",
+          "person": "loro",
+          "explanation": "Con loro, lavorare al futuro semplice si coniuga lavoreranno."
+        }
+      ]
+    },
+    "band": 1
+  },
+  {
+    "id": "corpus-futuro_semplice-083",
+    "textTemplate": "Tu {slot_0} il discorso prima della consegna dei premi?",
+    "primaryTense": "futuro_semplice",
+    "level": 19,
+    "difficulty": 2,
+    "theme": "vita_quotidiana",
+    "source": "authored",
+    "target": {
+      "slotId": 0,
+      "verb": "leggere",
+      "person": "tu",
+      "acceptedAnswers": [
+        {
+          "text": "leggerai",
+          "tense": "futuro_semplice",
+          "person": "tu",
+          "explanation": "Con tu, leggere al futuro semplice si coniuga leggerai."
+        }
+      ]
+    },
+    "band": 2
+  },
+  {
+    "id": "corpus-futuro_semplice-084",
+    "textTemplate": "La maestra {slot_0} le lettere dei bambini alla festa.",
+    "primaryTense": "futuro_semplice",
+    "level": 16,
+    "difficulty": 2,
+    "theme": "vita_quotidiana",
+    "source": "authored",
+    "target": {
+      "slotId": 0,
+      "verb": "leggere",
+      "person": "lui/lei",
+      "acceptedAnswers": [
+        {
+          "text": "leggerà",
+          "tense": "futuro_semplice",
+          "person": "lui/lei",
+          "explanation": "Con lui o lei, leggere al futuro semplice si coniuga leggerà."
+        }
+      ]
+    },
+    "band": 2
+  },
+  {
+    "id": "corpus-futuro_semplice-085",
+    "textTemplate": "Io {slot_0} qualcosa sul treno se avrò fame.",
+    "primaryTense": "futuro_semplice",
+    "level": 17,
+    "difficulty": 1,
+    "theme": "vita_quotidiana",
+    "source": "authored",
+    "target": {
+      "slotId": 0,
+      "verb": "mangiare",
+      "person": "io",
+      "acceptedAnswers": [
+        {
+          "text": "mangerò",
+          "tense": "futuro_semplice",
+          "person": "io",
+          "explanation": "Con io, mangiare al futuro semplice si coniuga mangerò."
+        }
+      ]
+    },
+    "band": 1
+  },
+  {
+    "id": "corpus-futuro_semplice-086",
+    "textTemplate": "Domenica noi {slot_0} in giardino, se il tempo lo permetterà.",
+    "primaryTense": "futuro_semplice",
+    "level": 18,
+    "difficulty": 1,
+    "theme": "vita_quotidiana",
+    "source": "authored",
+    "target": {
+      "slotId": 0,
+      "verb": "mangiare",
+      "person": "noi",
+      "acceptedAnswers": [
+        {
+          "text": "mangeremo",
+          "tense": "futuro_semplice",
+          "person": "noi",
+          "explanation": "Con noi, mangiare al futuro semplice si coniuga mangeremo."
+        }
+      ]
+    },
+    "band": 1
+  },
+  {
+    "id": "corpus-futuro_semplice-087",
+    "textTemplate": "Gli ospiti {slot_0} ai tavoli sotto gli alberi.",
+    "primaryTense": "futuro_semplice",
+    "level": 19,
+    "difficulty": 1,
+    "theme": "vita_quotidiana",
+    "source": "authored",
+    "target": {
+      "slotId": 0,
+      "verb": "mangiare",
+      "person": "loro",
+      "acceptedAnswers": [
+        {
+          "text": "mangeranno",
+          "tense": "futuro_semplice",
+          "person": "loro",
+          "explanation": "Con loro, mangiare al futuro semplice si coniuga mangeranno."
+        }
+      ]
+    },
+    "band": 1
+  },
+  {
+    "id": "corpus-futuro_semplice-088",
+    "textTemplate": "Tu {slot_0} il pezzo appena il negozio riaprirà?",
+    "primaryTense": "futuro_semplice",
+    "level": 15,
+    "difficulty": 1,
+    "theme": "vita_quotidiana",
+    "source": "authored",
+    "target": {
+      "slotId": 0,
+      "verb": "ordinare",
+      "person": "tu",
+      "acceptedAnswers": [
+        {
+          "text": "ordinerai",
+          "tense": "futuro_semplice",
+          "person": "tu",
+          "explanation": "Con tu, ordinare al futuro semplice si coniuga ordinerai."
+        }
+      ]
+    },
+    "band": 1
+  },
+  {
+    "id": "corpus-futuro_semplice-089",
+    "textTemplate": "Noi {slot_0} soltanto un antipasto da dividere.",
+    "primaryTense": "futuro_semplice",
+    "level": 16,
+    "difficulty": 1,
+    "theme": "vita_quotidiana",
+    "source": "authored",
+    "target": {
+      "slotId": 0,
+      "verb": "ordinare",
+      "person": "noi",
+      "acceptedAnswers": [
+        {
+          "text": "ordineremo",
+          "tense": "futuro_semplice",
+          "person": "noi",
+          "explanation": "Con noi, ordinare al futuro semplice si coniuga ordineremo."
+        }
+      ]
+    },
+    "band": 1
+  },
+  {
+    "id": "corpus-futuro_semplice-090",
+    "textTemplate": "Voi {slot_0} i libri per autore o per argomento?",
+    "primaryTense": "futuro_semplice",
+    "level": 18,
+    "difficulty": 1,
+    "theme": "vita_quotidiana",
+    "source": "authored",
+    "target": {
+      "slotId": 0,
+      "verb": "ordinare",
+      "person": "voi",
+      "acceptedAnswers": [
+        {
+          "text": "ordinerete",
+          "tense": "futuro_semplice",
+          "person": "voi",
+          "explanation": "Con voi, ordinare al futuro semplice si coniuga ordinerete."
+        }
+      ]
+    },
+    "band": 1
+  },
+  {
+    "id": "corpus-futuro_semplice-091",
+    "textTemplate": "La scuola {slot_0} un incontro per le nuove famiglie.",
+    "primaryTense": "futuro_semplice",
+    "level": 19,
+    "difficulty": 1,
+    "theme": "vita_quotidiana",
+    "source": "authored",
+    "target": {
+      "slotId": 0,
+      "verb": "organizzare",
+      "person": "lui/lei",
+      "acceptedAnswers": [
+        {
+          "text": "organizzerà",
+          "tense": "futuro_semplice",
+          "person": "lui/lei",
+          "explanation": "Con lui o lei, organizzare al futuro semplice si coniuga organizzerà."
+        }
+      ]
+    },
+    "band": 1
+  },
+  {
+    "id": "corpus-futuro_semplice-092",
+    "textTemplate": "I residenti {slot_0} una festa per inaugurare il giardino.",
+    "primaryTense": "futuro_semplice",
+    "level": 15,
+    "difficulty": 1,
+    "theme": "vita_quotidiana",
+    "source": "authored",
+    "target": {
+      "slotId": 0,
+      "verb": "organizzare",
+      "person": "loro",
+      "acceptedAnswers": [
+        {
+          "text": "organizzeranno",
+          "tense": "futuro_semplice",
+          "person": "loro",
+          "explanation": "Con loro, organizzare al futuro semplice si coniuga organizzeranno."
+        }
+      ]
+    },
+    "band": 1
+  },
+  {
+    "id": "corpus-futuro_semplice-093",
+    "textTemplate": "Tu {slot_0} con il proprietario del problema del riscaldamento?",
+    "primaryTense": "futuro_semplice",
+    "level": 16,
+    "difficulty": 1,
+    "theme": "vita_quotidiana",
+    "source": "authored",
+    "target": {
+      "slotId": 0,
+      "verb": "parlare",
+      "person": "tu",
+      "acceptedAnswers": [
+        {
+          "text": "parlerai",
+          "tense": "futuro_semplice",
+          "person": "tu",
+          "explanation": "Con tu, parlare al futuro semplice si coniuga parlerai."
+        }
+      ]
+    },
+    "band": 1
+  },
+  {
+    "id": "corpus-futuro_semplice-094",
+    "textTemplate": "Noi {slot_0} dei dettagli quando ci vedremo.",
+    "primaryTense": "futuro_semplice",
+    "level": 17,
+    "difficulty": 1,
+    "theme": "vita_quotidiana",
+    "source": "authored",
+    "target": {
+      "slotId": 0,
+      "verb": "parlare",
+      "person": "noi",
+      "acceptedAnswers": [
+        {
+          "text": "parleremo",
+          "tense": "futuro_semplice",
+          "person": "noi",
+          "explanation": "Con noi, parlare al futuro semplice si coniuga parleremo."
+        }
+      ]
+    },
+    "band": 1
+  },
+  {
+    "id": "corpus-futuro_semplice-095",
+    "textTemplate": "Voi {slot_0} davanti al pubblico per la prima volta?",
+    "primaryTense": "futuro_semplice",
+    "level": 18,
+    "difficulty": 1,
+    "theme": "vita_quotidiana",
+    "source": "authored",
+    "target": {
+      "slotId": 0,
+      "verb": "parlare",
+      "person": "voi",
+      "acceptedAnswers": [
+        {
+          "text": "parlerete",
+          "tense": "futuro_semplice",
+          "person": "voi",
+          "explanation": "Con voi, parlare al futuro semplice si coniuga parlerete."
+        }
+      ]
+    },
+    "band": 1
+  },
+  {
+    "id": "corpus-futuro_semplice-096",
+    "textTemplate": "Domani io {slot_0} a prendere i libri che mi hai prestato.",
+    "primaryTense": "futuro_semplice",
+    "level": 19,
+    "difficulty": 1,
+    "theme": "vita_quotidiana",
+    "source": "authored",
+    "target": {
+      "slotId": 0,
+      "verb": "passare",
+      "person": "io",
+      "acceptedAnswers": [
+        {
+          "text": "passerò",
+          "tense": "futuro_semplice",
+          "person": "io",
+          "explanation": "Con io, passare al futuro semplice si coniuga passerò."
+        }
+      ]
+    },
+    "band": 1
+  },
+  {
+    "id": "corpus-futuro_semplice-097",
+    "textTemplate": "Il nuovo percorso {slot_0} vicino al fiume.",
+    "primaryTense": "futuro_semplice",
+    "level": 15,
+    "difficulty": 1,
+    "theme": "vita_quotidiana",
+    "source": "authored",
+    "target": {
+      "slotId": 0,
+      "verb": "passare",
+      "person": "lui/lei",
+      "acceptedAnswers": [
+        {
+          "text": "passerà",
+          "tense": "futuro_semplice",
+          "person": "lui/lei",
+          "explanation": "Con lui o lei, passare al futuro semplice si coniuga passerà."
+        }
+      ]
+    },
+    "band": 1
+  },
+  {
+    "id": "corpus-futuro_semplice-098",
+    "textTemplate": "I bambini {slot_0} il pomeriggio con i cugini.",
+    "primaryTense": "futuro_semplice",
+    "level": 16,
+    "difficulty": 1,
+    "theme": "vita_quotidiana",
+    "source": "authored",
+    "target": {
+      "slotId": 0,
+      "verb": "passare",
+      "person": "loro",
+      "acceptedAnswers": [
+        {
+          "text": "passeranno",
+          "tense": "futuro_semplice",
+          "person": "loro",
+          "explanation": "Con loro, passare al futuro semplice si coniuga passeranno."
+        }
+      ]
+    },
+    "band": 1
+  },
+  {
+    "id": "corpus-futuro_semplice-099",
+    "textTemplate": "Tu non {slot_0} se seguirai i cartelli blu.",
+    "primaryTense": "futuro_semplice",
+    "level": 18,
+    "difficulty": 2,
+    "theme": "vita_quotidiana",
+    "source": "authored",
+    "target": {
+      "slotId": 0,
+      "verb": "perdersi",
+      "person": "tu",
+      "acceptedAnswers": [
+        {
+          "text": "ti perderai",
+          "tense": "futuro_semplice",
+          "person": "tu",
+          "explanation": "Con tu, perdersi al futuro semplice si coniuga ti perderai."
+        }
+      ]
+    },
+    "band": 2
+  },
+  {
+    "id": "corpus-futuro_semplice-100",
+    "textTemplate": "Senza una mappa noi {slot_0} in questo quartiere.",
+    "primaryTense": "futuro_semplice",
+    "level": 19,
+    "difficulty": 2,
+    "theme": "vita_quotidiana",
+    "source": "authored",
+    "target": {
+      "slotId": 0,
+      "verb": "perdersi",
+      "person": "noi",
+      "acceptedAnswers": [
+        {
+          "text": "ci perderemo",
+          "tense": "futuro_semplice",
+          "person": "noi",
+          "explanation": "Con noi, perdersi al futuro semplice si coniuga ci perderemo."
+        }
+      ]
+    },
+    "band": 2
+  },
+  {
+    "id": "corpus-futuro_semplice-101",
+    "textTemplate": "Dopo le sei io {slot_0} aiutarti a spostare il mobile.",
+    "primaryTense": "futuro_semplice",
+    "level": 18,
+    "difficulty": 2,
+    "theme": "vita_quotidiana",
+    "source": "authored",
+    "target": {
+      "slotId": 0,
+      "verb": "potere",
+      "person": "io",
+      "acceptedAnswers": [
+        {
+          "text": "potrò",
+          "tense": "futuro_semplice",
+          "person": "io",
+          "explanation": "Con io, potere al futuro semplice si coniuga potrò."
+        }
+      ]
+    },
+    "band": 2
+  },
+  {
+    "id": "corpus-futuro_semplice-102",
+    "textTemplate": "Con la nuova rampa la nonna {slot_0} entrare più facilmente.",
+    "primaryTense": "futuro_semplice",
+    "level": 19,
+    "difficulty": 2,
+    "theme": "vita_quotidiana",
+    "source": "authored",
+    "target": {
+      "slotId": 0,
+      "verb": "potere",
+      "person": "lui/lei",
+      "acceptedAnswers": [
+        {
+          "text": "potrà",
+          "tense": "futuro_semplice",
+          "person": "lui/lei",
+          "explanation": "Con lui o lei, potere al futuro semplice si coniuga potrà."
+        }
+      ]
+    },
+    "band": 2
+  },
+  {
+    "id": "corpus-futuro_semplice-103",
+    "textTemplate": "Voi {slot_0} scegliere il laboratorio al momento dell'iscrizione.",
+    "primaryTense": "futuro_semplice",
+    "level": 16,
+    "difficulty": 2,
+    "theme": "vita_quotidiana",
+    "source": "authored",
+    "target": {
+      "slotId": 0,
+      "verb": "potere",
+      "person": "voi",
+      "acceptedAnswers": [
+        {
+          "text": "potrete",
+          "tense": "futuro_semplice",
+          "person": "voi",
+          "explanation": "Con voi, potere al futuro semplice si coniuga potrete."
+        }
+      ]
+    },
+    "band": 2
+  },
+  {
+    "id": "corpus-futuro_semplice-104",
+    "textTemplate": "Dopo tante ore in piedi tu {slot_0} sederti vicino alla finestra.",
+    "primaryTense": "futuro_semplice",
+    "level": 19,
+    "difficulty": 1,
+    "theme": "vita_quotidiana",
+    "source": "authored",
+    "target": {
+      "slotId": 0,
+      "verb": "preferire",
+      "person": "tu",
+      "acceptedAnswers": [
+        {
+          "text": "preferirai",
+          "tense": "futuro_semplice",
+          "person": "tu",
+          "explanation": "Con tu, preferire al futuro semplice si coniuga preferirai."
+        }
+      ]
+    },
+    "band": 1
+  },
+  {
+    "id": "corpus-futuro_semplice-105",
+    "textTemplate": "Con questo caldo noi {slot_0} una cena leggera.",
+    "primaryTense": "futuro_semplice",
+    "level": 15,
+    "difficulty": 1,
+    "theme": "vita_quotidiana",
+    "source": "authored",
+    "target": {
+      "slotId": 0,
+      "verb": "preferire",
+      "person": "noi",
+      "acceptedAnswers": [
+        {
+          "text": "preferiremo",
+          "tense": "futuro_semplice",
+          "person": "noi",
+          "explanation": "Con noi, preferire al futuro semplice si coniuga preferiremo."
+        }
+      ]
+    },
+    "band": 1
+  },
+  {
+    "id": "corpus-futuro_semplice-106",
+    "textTemplate": "Forse gli ospiti {slot_0} fare una passeggiata prima di cena.",
+    "primaryTense": "futuro_semplice",
+    "level": 16,
+    "difficulty": 1,
+    "theme": "vita_quotidiana",
+    "source": "authored",
+    "target": {
+      "slotId": 0,
+      "verb": "preferire",
+      "person": "loro",
+      "acceptedAnswers": [
+        {
+          "text": "preferiranno",
+          "tense": "futuro_semplice",
+          "person": "loro",
+          "explanation": "Con loro, preferire al futuro semplice si coniuga preferiranno."
+        }
+      ]
+    },
+    "band": 1
+  },
+  {
+    "id": "corpus-futuro_semplice-107",
+    "textTemplate": "Domani io {slot_0} il treno delle sette.",
+    "primaryTense": "futuro_semplice",
+    "level": 16,
+    "difficulty": 2,
+    "theme": "vita_quotidiana",
+    "source": "authored",
+    "target": {
+      "slotId": 0,
+      "verb": "prendere",
+      "person": "io",
+      "acceptedAnswers": [
+        {
+          "text": "prenderò",
+          "tense": "futuro_semplice",
+          "person": "io",
+          "explanation": "Con io, prendere al futuro semplice si coniuga prenderò."
+        }
+      ]
+    },
+    "band": 2
+  },
+  {
+    "id": "corpus-futuro_semplice-108",
+    "textTemplate": "Mio fratello {slot_0} qualche giorno di ferie per il trasloco.",
+    "primaryTense": "futuro_semplice",
+    "level": 17,
+    "difficulty": 2,
+    "theme": "vita_quotidiana",
+    "source": "authored",
+    "target": {
+      "slotId": 0,
+      "verb": "prendere",
+      "person": "lui/lei",
+      "acceptedAnswers": [
+        {
+          "text": "prenderà",
+          "tense": "futuro_semplice",
+          "person": "lui/lei",
+          "explanation": "Con lui o lei, prendere al futuro semplice si coniuga prenderà."
+        }
+      ]
+    },
+    "band": 2
+  },
+  {
+    "id": "corpus-futuro_semplice-109",
+    "textTemplate": "Voi {slot_0} la strada lungo il lago?",
+    "primaryTense": "futuro_semplice",
+    "level": 18,
+    "difficulty": 2,
+    "theme": "vita_quotidiana",
+    "source": "authored",
+    "target": {
+      "slotId": 0,
+      "verb": "prendere",
+      "person": "voi",
+      "acceptedAnswers": [
+        {
+          "text": "prenderete",
+          "tense": "futuro_semplice",
+          "person": "voi",
+          "explanation": "Con voi, prendere al futuro semplice si coniuga prenderete."
+        }
+      ]
+    },
+    "band": 2
+  },
+  {
+    "id": "corpus-futuro_semplice-110",
+    "textTemplate": "Tu {slot_0} il dolce mentre io sistemo la sala?",
+    "primaryTense": "futuro_semplice",
+    "level": 16,
+    "difficulty": 1,
+    "theme": "vita_quotidiana",
+    "source": "authored",
+    "target": {
+      "slotId": 0,
+      "verb": "preparare",
+      "person": "tu",
+      "acceptedAnswers": [
+        {
+          "text": "preparerai",
+          "tense": "futuro_semplice",
+          "person": "tu",
+          "explanation": "Con tu, preparare al futuro semplice si coniuga preparerai."
+        }
+      ]
+    },
+    "band": 1
+  },
+  {
+    "id": "corpus-futuro_semplice-111",
+    "textTemplate": "Noi {slot_0} una lista di domande per la guida.",
+    "primaryTense": "futuro_semplice",
+    "level": 17,
+    "difficulty": 1,
+    "theme": "vita_quotidiana",
+    "source": "authored",
+    "target": {
+      "slotId": 0,
+      "verb": "preparare",
+      "person": "noi",
+      "acceptedAnswers": [
+        {
+          "text": "prepareremo",
+          "tense": "futuro_semplice",
+          "person": "noi",
+          "explanation": "Con noi, preparare al futuro semplice si coniuga prepareremo."
+        }
+      ]
+    },
+    "band": 1
+  },
+  {
+    "id": "corpus-futuro_semplice-112",
+    "textTemplate": "Gli organizzatori {slot_0} un percorso più breve per i bambini.",
+    "primaryTense": "futuro_semplice",
+    "level": 18,
+    "difficulty": 1,
+    "theme": "vita_quotidiana",
+    "source": "authored",
+    "target": {
+      "slotId": 0,
+      "verb": "preparare",
+      "person": "loro",
+      "acceptedAnswers": [
+        {
+          "text": "prepareranno",
+          "tense": "futuro_semplice",
+          "person": "loro",
+          "explanation": "Con loro, preparare al futuro semplice si coniuga prepareranno."
+        }
+      ]
+    },
+    "band": 1
+  },
+  {
+    "id": "corpus-futuro_semplice-113",
+    "textTemplate": "Io non {slot_0} una data finché non saprò quanto lavoro resta.",
+    "primaryTense": "futuro_semplice",
+    "level": 17,
+    "difficulty": 2,
+    "theme": "vita_quotidiana",
+    "source": "authored",
+    "target": {
+      "slotId": 0,
+      "verb": "promettere",
+      "person": "io",
+      "acceptedAnswers": [
+        {
+          "text": "prometterò",
+          "tense": "futuro_semplice",
+          "person": "io",
+          "explanation": "Con io, promettere al futuro semplice si coniuga prometterò."
+        }
+      ]
+    },
+    "band": 2
+  },
+  {
+    "id": "corpus-futuro_semplice-114",
+    "textTemplate": "Noi {slot_0} la sala prima di restituire le chiavi.",
+    "primaryTense": "futuro_semplice",
+    "level": 15,
+    "difficulty": 1,
+    "theme": "vita_quotidiana",
+    "source": "authored",
+    "target": {
+      "slotId": 0,
+      "verb": "pulire",
+      "person": "noi",
+      "acceptedAnswers": [
+        {
+          "text": "puliremo",
+          "tense": "futuro_semplice",
+          "person": "noi",
+          "explanation": "Con noi, pulire al futuro semplice si coniuga puliremo."
+        }
+      ]
+    },
+    "band": 1
+  },
+  {
+    "id": "corpus-futuro_semplice-115",
+    "textTemplate": "I volontari {slot_0} il parco dopo la festa.",
+    "primaryTense": "futuro_semplice",
+    "level": 16,
+    "difficulty": 1,
+    "theme": "vita_quotidiana",
+    "source": "authored",
+    "target": {
+      "slotId": 0,
+      "verb": "pulire",
+      "person": "loro",
+      "acceptedAnswers": [
+        {
+          "text": "puliranno",
+          "tense": "futuro_semplice",
+          "person": "loro",
+          "explanation": "Con loro, pulire al futuro semplice si coniuga puliranno."
+        }
+      ]
+    },
+    "band": 1
+  },
+  {
+    "id": "corpus-futuro_semplice-116",
+    "textTemplate": "Stasera io {slot_0} la sveglia anche sul telefono.",
+    "primaryTense": "futuro_semplice",
+    "level": 17,
+    "difficulty": 1,
+    "theme": "vita_quotidiana",
+    "source": "authored",
+    "target": {
+      "slotId": 0,
+      "verb": "puntare",
+      "person": "io",
+      "acceptedAnswers": [
+        {
+          "text": "punterò",
+          "tense": "futuro_semplice",
+          "person": "io",
+          "explanation": "Con io, puntare al futuro semplice si coniuga punterò."
+        }
+      ]
+    },
+    "band": 1
+  },
+  {
+    "id": "corpus-futuro_semplice-117",
+    "textTemplate": "Per la nuova collezione noi {slot_0} sui tessuti naturali.",
+    "primaryTense": "futuro_semplice",
+    "level": 18,
+    "difficulty": 1,
+    "theme": "vita_quotidiana",
+    "source": "authored",
+    "target": {
+      "slotId": 0,
+      "verb": "puntare",
+      "person": "noi",
+      "acceptedAnswers": [
+        {
+          "text": "punteremo",
+          "tense": "futuro_semplice",
+          "person": "noi",
+          "explanation": "Con noi, puntare al futuro semplice si coniuga punteremo."
+        }
+      ]
+    },
+    "band": 1
+  },
+  {
+    "id": "corpus-futuro_semplice-118",
+    "textTemplate": "Voi {slot_0} la macchina fotografica verso il palco?",
+    "primaryTense": "futuro_semplice",
+    "level": 19,
+    "difficulty": 1,
+    "theme": "vita_quotidiana",
+    "source": "authored",
+    "target": {
+      "slotId": 0,
+      "verb": "puntare",
+      "person": "voi",
+      "acceptedAnswers": [
+        {
+          "text": "punterete",
+          "tense": "futuro_semplice",
+          "person": "voi",
+          "explanation": "Con voi, puntare al futuro semplice si coniuga punterete."
+        }
+      ]
+    },
+    "band": 1
+  },
+  {
+    "id": "corpus-futuro_semplice-119",
+    "textTemplate": "Tu {slot_0} un messaggio quando il libro sarà disponibile.",
+    "primaryTense": "futuro_semplice",
+    "level": 15,
+    "difficulty": 1,
+    "theme": "vita_quotidiana",
+    "source": "authored",
+    "target": {
+      "slotId": 0,
+      "verb": "ricevere",
+      "person": "tu",
+      "acceptedAnswers": [
+        {
+          "text": "riceverai",
+          "tense": "futuro_semplice",
+          "person": "tu",
+          "explanation": "Con tu, ricevere al futuro semplice si coniuga riceverai."
+        }
+      ]
+    },
+    "band": 1
+  },
+  {
+    "id": "corpus-futuro_semplice-120",
+    "textTemplate": "Ogni partecipante {slot_0} una mappa del percorso.",
+    "primaryTense": "futuro_semplice",
+    "level": 17,
+    "difficulty": 1,
+    "theme": "vita_quotidiana",
+    "source": "authored",
+    "target": {
+      "slotId": 0,
+      "verb": "ricevere",
+      "person": "lui/lei",
+      "acceptedAnswers": [
+        {
+          "text": "riceverà",
+          "tense": "futuro_semplice",
+          "person": "lui/lei",
+          "explanation": "Con lui o lei, ricevere al futuro semplice si coniuga riceverà."
+        }
+      ]
+    },
+    "band": 1
+  },
+  {
+    "id": "corpus-futuro_semplice-121",
+    "textTemplate": "I vincitori {slot_0} i premi alla fine della giornata.",
+    "primaryTense": "futuro_semplice",
+    "level": 18,
+    "difficulty": 1,
+    "theme": "vita_quotidiana",
+    "source": "authored",
+    "target": {
+      "slotId": 0,
+      "verb": "ricevere",
+      "person": "loro",
+      "acceptedAnswers": [
+        {
+          "text": "riceveranno",
+          "tense": "futuro_semplice",
+          "person": "loro",
+          "explanation": "Con loro, ricevere al futuro semplice si coniuga riceveranno."
+        }
+      ]
+    },
+    "band": 1
+  },
+  {
+    "id": "corpus-futuro_semplice-122",
+    "textTemplate": "Io {slot_0} questo dubbio chiedendo alla bibliotecaria.",
+    "primaryTense": "futuro_semplice",
+    "level": 17,
+    "difficulty": 2,
+    "theme": "vita_quotidiana",
+    "source": "authored",
+    "target": {
+      "slotId": 0,
+      "verb": "risolvere",
+      "person": "io",
+      "acceptedAnswers": [
+        {
+          "text": "risolverò",
+          "tense": "futuro_semplice",
+          "person": "io",
+          "explanation": "Con io, risolvere al futuro semplice si coniuga risolverò."
+        }
+      ]
+    },
+    "band": 2
+  },
+  {
+    "id": "corpus-futuro_semplice-123",
+    "textTemplate": "Noi {slot_0} la questione prima delle vacanze.",
+    "primaryTense": "futuro_semplice",
+    "level": 18,
+    "difficulty": 2,
+    "theme": "vita_quotidiana",
+    "source": "authored",
+    "target": {
+      "slotId": 0,
+      "verb": "risolvere",
+      "person": "noi",
+      "acceptedAnswers": [
+        {
+          "text": "risolveremo",
+          "tense": "futuro_semplice",
+          "person": "noi",
+          "explanation": "Con noi, risolvere al futuro semplice si coniuga risolveremo."
+        }
+      ]
+    },
+    "band": 2
+  },
+  {
+    "id": "corpus-futuro_semplice-124",
+    "textTemplate": "Voi {slot_0} l'indovinello senza guardare gli indizi?",
+    "primaryTense": "futuro_semplice",
+    "level": 19,
+    "difficulty": 2,
+    "theme": "vita_quotidiana",
+    "source": "authored",
+    "target": {
+      "slotId": 0,
+      "verb": "risolvere",
+      "person": "voi",
+      "acceptedAnswers": [
+        {
+          "text": "risolverete",
+          "tense": "futuro_semplice",
+          "person": "voi",
+          "explanation": "Con voi, risolvere al futuro semplice si coniuga risolverete."
+        }
+      ]
+    },
+    "band": 2
+  },
+  {
+    "id": "corpus-futuro_semplice-125",
+    "textTemplate": "Tu {slot_0} alla lettera prima di partire?",
+    "primaryTense": "futuro_semplice",
+    "level": 16,
+    "difficulty": 2,
+    "theme": "vita_quotidiana",
+    "source": "authored",
+    "target": {
+      "slotId": 0,
+      "verb": "rispondere",
+      "person": "tu",
+      "acceptedAnswers": [
+        {
+          "text": "risponderai",
+          "tense": "futuro_semplice",
+          "person": "tu",
+          "explanation": "Con tu, rispondere al futuro semplice si coniuga risponderai."
+        }
+      ]
+    },
+    "band": 2
+  },
+  {
+    "id": "corpus-futuro_semplice-126",
+    "textTemplate": "La segreteria {slot_0} alle richieste in ordine di arrivo.",
+    "primaryTense": "futuro_semplice",
+    "level": 17,
+    "difficulty": 2,
+    "theme": "vita_quotidiana",
+    "source": "authored",
+    "target": {
+      "slotId": 0,
+      "verb": "rispondere",
+      "person": "lui/lei",
+      "acceptedAnswers": [
+        {
+          "text": "risponderà",
+          "tense": "futuro_semplice",
+          "person": "lui/lei",
+          "explanation": "Con lui o lei, rispondere al futuro semplice si coniuga risponderà."
+        }
+      ]
+    },
+    "band": 2
+  },
+  {
+    "id": "corpus-futuro_semplice-127",
+    "textTemplate": "Gli esperti {slot_0} alle domande dopo la presentazione.",
+    "primaryTense": "futuro_semplice",
+    "level": 18,
+    "difficulty": 2,
+    "theme": "vita_quotidiana",
+    "source": "authored",
+    "target": {
+      "slotId": 0,
+      "verb": "rispondere",
+      "person": "loro",
+      "acceptedAnswers": [
+        {
+          "text": "risponderanno",
+          "tense": "futuro_semplice",
+          "person": "loro",
+          "explanation": "Con loro, rispondere al futuro semplice si coniuga risponderanno."
+        }
+      ]
+    },
+    "band": 2
+  },
+  {
+    "id": "corpus-futuro_semplice-128",
+    "textTemplate": "Domani io {slot_0} finalmente la data della partenza.",
+    "primaryTense": "futuro_semplice",
+    "level": 19,
+    "difficulty": 2,
+    "theme": "vita_quotidiana",
+    "source": "authored",
+    "target": {
+      "slotId": 0,
+      "verb": "sapere",
+      "person": "io",
+      "acceptedAnswers": [
+        {
+          "text": "saprò",
+          "tense": "futuro_semplice",
+          "person": "io",
+          "explanation": "Con io, sapere al futuro semplice si coniuga saprò."
+        }
+      ]
+    },
+    "band": 2
+  },
+  {
+    "id": "corpus-futuro_semplice-129",
+    "textTemplate": "Noi {slot_0} il risultato soltanto alla fine della settimana.",
+    "primaryTense": "futuro_semplice",
+    "level": 16,
+    "difficulty": 2,
+    "theme": "vita_quotidiana",
+    "source": "authored",
+    "target": {
+      "slotId": 0,
+      "verb": "sapere",
+      "person": "noi",
+      "acceptedAnswers": [
+        {
+          "text": "sapremo",
+          "tense": "futuro_semplice",
+          "person": "noi",
+          "explanation": "Con noi, sapere al futuro semplice si coniuga sapremo."
+        }
+      ]
+    },
+    "band": 2
+  },
+  {
+    "id": "corpus-futuro_semplice-130",
+    "textTemplate": "Dopo il corso voi {slot_0} riconoscere gli alberi più comuni.",
+    "primaryTense": "futuro_semplice",
+    "level": 16,
+    "difficulty": 2,
+    "theme": "vita_quotidiana",
+    "source": "authored",
+    "target": {
+      "slotId": 0,
+      "verb": "sapere",
+      "person": "voi",
+      "acceptedAnswers": [
+        {
+          "text": "saprete",
+          "tense": "futuro_semplice",
+          "person": "voi",
+          "explanation": "Con voi, sapere al futuro semplice si coniuga saprete."
+        }
+      ]
+    },
+    "band": 2
+  },
+  {
+    "id": "corpus-futuro_semplice-131",
+    "textTemplate": "Tu {slot_0} i nomi degli invitati sui cartoncini?",
+    "primaryTense": "futuro_semplice",
+    "level": 17,
+    "difficulty": 2,
+    "theme": "vita_quotidiana",
+    "source": "authored",
+    "target": {
+      "slotId": 0,
+      "verb": "scrivere",
+      "person": "tu",
+      "acceptedAnswers": [
+        {
+          "text": "scriverai",
+          "tense": "futuro_semplice",
+          "person": "tu",
+          "explanation": "Con tu, scrivere al futuro semplice si coniuga scriverai."
+        }
+      ]
+    },
+    "band": 2
+  },
+  {
+    "id": "corpus-futuro_semplice-132",
+    "textTemplate": "La nonna {slot_0} le sue ricette in un quaderno per noi.",
+    "primaryTense": "futuro_semplice",
+    "level": 18,
+    "difficulty": 2,
+    "theme": "vita_quotidiana",
+    "source": "authored",
+    "target": {
+      "slotId": 0,
+      "verb": "scrivere",
+      "person": "lui/lei",
+      "acceptedAnswers": [
+        {
+          "text": "scriverà",
+          "tense": "futuro_semplice",
+          "person": "lui/lei",
+          "explanation": "Con lui o lei, scrivere al futuro semplice si coniuga scriverà."
+        }
+      ]
+    },
+    "band": 2
+  },
+  {
+    "id": "corpus-futuro_semplice-133",
+    "textTemplate": "Gli alunni {slot_0} una storia a partire da una fotografia.",
+    "primaryTense": "futuro_semplice",
+    "level": 19,
+    "difficulty": 2,
+    "theme": "vita_quotidiana",
+    "source": "authored",
+    "target": {
+      "slotId": 0,
+      "verb": "scrivere",
+      "person": "loro",
+      "acceptedAnswers": [
+        {
+          "text": "scriveranno",
+          "tense": "futuro_semplice",
+          "person": "loro",
+          "explanation": "Con loro, scrivere al futuro semplice si coniuga scriveranno."
+        }
+      ]
+    },
+    "band": 2
+  },
+  {
+    "id": "corpus-futuro_semplice-134",
+    "textTemplate": "Lunedì io {slot_0} il pacco con il corriere.",
+    "primaryTense": "futuro_semplice",
+    "level": 17,
+    "difficulty": 1,
+    "theme": "vita_quotidiana",
+    "source": "authored",
+    "target": {
+      "slotId": 0,
+      "verb": "spedire",
+      "person": "io",
+      "acceptedAnswers": [
+        {
+          "text": "spedirò",
+          "tense": "futuro_semplice",
+          "person": "io",
+          "explanation": "Con io, spedire al futuro semplice si coniuga spedirò."
+        }
+      ]
+    },
+    "band": 1
+  },
+  {
+    "id": "corpus-futuro_semplice-135",
+    "textTemplate": "Voi {slot_0} una copia anche alla biblioteca?",
+    "primaryTense": "futuro_semplice",
+    "level": 18,
+    "difficulty": 1,
+    "theme": "vita_quotidiana",
+    "source": "authored",
+    "target": {
+      "slotId": 0,
+      "verb": "spedire",
+      "person": "voi",
+      "acceptedAnswers": [
+        {
+          "text": "spedirete",
+          "tense": "futuro_semplice",
+          "person": "voi",
+          "explanation": "Con voi, spedire al futuro semplice si coniuga spedirete."
+        }
+      ]
+    },
+    "band": 1
+  },
+  {
+    "id": "corpus-futuro_semplice-136",
+    "textTemplate": "Tu {slot_0} le luci dopo l'uscita dell'ultimo ospite.",
+    "primaryTense": "futuro_semplice",
+    "level": 18,
+    "difficulty": 2,
+    "theme": "vita_quotidiana",
+    "source": "authored",
+    "target": {
+      "slotId": 0,
+      "verb": "spegnere",
+      "person": "tu",
+      "acceptedAnswers": [
+        {
+          "text": "spegnerai",
+          "tense": "futuro_semplice",
+          "person": "tu",
+          "explanation": "Con tu, spegnere al futuro semplice si coniuga spegnerai."
+        }
+      ]
+    },
+    "band": 2
+  },
+  {
+    "id": "corpus-futuro_semplice-137",
+    "textTemplate": "I tecnici {slot_0} gli impianti durante la manutenzione.",
+    "primaryTense": "futuro_semplice",
+    "level": 19,
+    "difficulty": 2,
+    "theme": "vita_quotidiana",
+    "source": "authored",
+    "target": {
+      "slotId": 0,
+      "verb": "spegnere",
+      "person": "loro",
+      "acceptedAnswers": [
+        {
+          "text": "spegneranno",
+          "tense": "futuro_semplice",
+          "person": "loro",
+          "explanation": "Con loro, spegnere al futuro semplice si coniuga spegneranno."
+        }
+      ]
+    },
+    "band": 2
+  },
+  {
+    "id": "corpus-futuro_semplice-138",
+    "textTemplate": "Durante il concerto io {slot_0} vicino all'uscita.",
+    "primaryTense": "futuro_semplice",
+    "level": 16,
+    "difficulty": 2,
+    "theme": "vita_quotidiana",
+    "source": "authored",
+    "target": {
+      "slotId": 0,
+      "verb": "stare",
+      "person": "io",
+      "acceptedAnswers": [
+        {
+          "text": "starò",
+          "tense": "futuro_semplice",
+          "person": "io",
+          "explanation": "Con io, stare al futuro semplice si coniuga starò."
+        }
+      ]
+    },
+    "band": 2
+  },
+  {
+    "id": "corpus-futuro_semplice-139",
+    "textTemplate": "Noi {slot_0} qui finché non arriveranno gli altri.",
+    "primaryTense": "futuro_semplice",
+    "level": 17,
+    "difficulty": 2,
+    "theme": "vita_quotidiana",
+    "source": "authored",
+    "target": {
+      "slotId": 0,
+      "verb": "stare",
+      "person": "noi",
+      "acceptedAnswers": [
+        {
+          "text": "staremo",
+          "tense": "futuro_semplice",
+          "person": "noi",
+          "explanation": "Con noi, stare al futuro semplice si coniuga staremo."
+        }
+      ]
+    },
+    "band": 2
+  },
+  {
+    "id": "corpus-futuro_semplice-140",
+    "textTemplate": "Voi {slot_0} bene in questa casa luminosa.",
+    "primaryTense": "futuro_semplice",
+    "level": 17,
+    "difficulty": 2,
+    "theme": "vita_quotidiana",
+    "source": "authored",
+    "target": {
+      "slotId": 0,
+      "verb": "stare",
+      "person": "voi",
+      "acceptedAnswers": [
+        {
+          "text": "starete",
+          "tense": "futuro_semplice",
+          "person": "voi",
+          "explanation": "Con voi, stare al futuro semplice si coniuga starete."
+        }
+      ]
+    },
+    "band": 2
+  },
+  {
+    "id": "corpus-futuro_semplice-141",
+    "textTemplate": "Tu {slot_0} il pianoforte durante la lettura?",
+    "primaryTense": "futuro_semplice",
+    "level": 15,
+    "difficulty": 1,
+    "theme": "vita_quotidiana",
+    "source": "authored",
+    "target": {
+      "slotId": 0,
+      "verb": "suonare",
+      "person": "tu",
+      "acceptedAnswers": [
+        {
+          "text": "suonerai",
+          "tense": "futuro_semplice",
+          "person": "tu",
+          "explanation": "Con tu, suonare al futuro semplice si coniuga suonerai."
+        }
+      ]
+    },
+    "band": 1
+  },
+  {
+    "id": "corpus-futuro_semplice-142",
+    "textTemplate": "Le campane {slot_0} per annunciare l'inizio della festa.",
+    "primaryTense": "futuro_semplice",
+    "level": 16,
+    "difficulty": 1,
+    "theme": "vita_quotidiana",
+    "source": "authored",
+    "target": {
+      "slotId": 0,
+      "verb": "suonare",
+      "person": "loro",
+      "acceptedAnswers": [
+        {
+          "text": "suoneranno",
+          "tense": "futuro_semplice",
+          "person": "loro",
+          "explanation": "Con loro, suonare al futuro semplice si coniuga suoneranno."
+        }
+      ]
+    },
+    "band": 1
+  },
+  {
+    "id": "corpus-futuro_semplice-143",
+    "textTemplate": "Con un po' di pratica io {slot_0} la paura di parlare in pubblico.",
+    "primaryTense": "futuro_semplice",
+    "level": 17,
+    "difficulty": 1,
+    "theme": "vita_quotidiana",
+    "source": "authored",
+    "target": {
+      "slotId": 0,
+      "verb": "superare",
+      "person": "io",
+      "acceptedAnswers": [
+        {
+          "text": "supererò",
+          "tense": "futuro_semplice",
+          "person": "io",
+          "explanation": "Con io, superare al futuro semplice si coniuga supererò."
+        }
+      ]
+    },
+    "band": 1
+  },
+  {
+    "id": "corpus-futuro_semplice-144",
+    "textTemplate": "Noi {slot_0} il ponte prima di fermarci a riposare.",
+    "primaryTense": "futuro_semplice",
+    "level": 18,
+    "difficulty": 1,
+    "theme": "vita_quotidiana",
+    "source": "authored",
+    "target": {
+      "slotId": 0,
+      "verb": "superare",
+      "person": "noi",
+      "acceptedAnswers": [
+        {
+          "text": "supereremo",
+          "tense": "futuro_semplice",
+          "person": "noi",
+          "explanation": "Con noi, superare al futuro semplice si coniuga supereremo."
+        }
+      ]
+    },
+    "band": 1
+  },
+  {
+    "id": "corpus-futuro_semplice-145",
+    "textTemplate": "Il tecnico {slot_0} domani con il pezzo nuovo.",
+    "primaryTense": "futuro_semplice",
+    "level": 19,
+    "difficulty": 1,
+    "theme": "vita_quotidiana",
+    "source": "authored",
+    "target": {
+      "slotId": 0,
+      "verb": "tornare",
+      "person": "lui/lei",
+      "acceptedAnswers": [
+        {
+          "text": "tornerà",
+          "tense": "futuro_semplice",
+          "person": "lui/lei",
+          "explanation": "Con lui o lei, tornare al futuro semplice si coniuga tornerà."
+        }
+      ]
+    },
+    "band": 2
+  },
+  {
+    "id": "corpus-futuro_semplice-146",
+    "textTemplate": "Voi {slot_0} nello stesso paese anche l'anno prossimo?",
+    "primaryTense": "futuro_semplice",
+    "level": 15,
+    "difficulty": 1,
+    "theme": "vita_quotidiana",
+    "source": "authored",
+    "target": {
+      "slotId": 0,
+      "verb": "tornare",
+      "person": "voi",
+      "acceptedAnswers": [
+        {
+          "text": "tornerete",
+          "tense": "futuro_semplice",
+          "person": "voi",
+          "explanation": "Con voi, tornare al futuro semplice si coniuga tornerete."
+        }
+      ]
+    },
+    "band": 1
+  },
+  {
+    "id": "corpus-futuro_semplice-147",
+    "textTemplate": "Tu {slot_0} dalla porta laterale dopo lo spettacolo.",
+    "primaryTense": "futuro_semplice",
+    "level": 16,
+    "difficulty": 2,
+    "theme": "vita_quotidiana",
+    "source": "authored",
+    "target": {
+      "slotId": 0,
+      "verb": "uscire",
+      "person": "tu",
+      "acceptedAnswers": [
+        {
+          "text": "uscirai",
+          "tense": "futuro_semplice",
+          "person": "tu",
+          "explanation": "Con tu, uscire al futuro semplice si coniuga uscirai."
+        }
+      ]
+    },
+    "band": 2
+  },
+  {
+    "id": "corpus-futuro_semplice-148",
+    "textTemplate": "Le nuove guide del museo {slot_0} in primavera.",
+    "primaryTense": "futuro_semplice",
+    "level": 17,
+    "difficulty": 2,
+    "theme": "vita_quotidiana",
+    "source": "authored",
+    "target": {
+      "slotId": 0,
+      "verb": "uscire",
+      "person": "loro",
+      "acceptedAnswers": [
+        {
+          "text": "usciranno",
+          "tense": "futuro_semplice",
+          "person": "loro",
+          "explanation": "Con loro, uscire al futuro semplice si coniuga usciranno."
+        }
+      ]
+    },
+    "band": 2
+  },
+  {
+    "id": "corpus-futuro_semplice-149",
+    "textTemplate": "Dalla cima della torre io {slot_0} tutta la valle.",
+    "primaryTense": "futuro_semplice",
+    "level": 18,
+    "difficulty": 2,
+    "theme": "vita_quotidiana",
+    "source": "authored",
+    "target": {
+      "slotId": 0,
+      "verb": "vedere",
+      "person": "io",
+      "acceptedAnswers": [
+        {
+          "text": "vedrò",
+          "tense": "futuro_semplice",
+          "person": "io",
+          "explanation": "Con io, vedere al futuro semplice si coniuga vedrò."
+        }
+      ]
+    },
+    "band": 2
+  },
+  {
+    "id": "corpus-futuro_semplice-150",
+    "textTemplate": "Noi {slot_0} i risultati dei lavori tra qualche settimana.",
+    "primaryTense": "futuro_semplice",
+    "level": 18,
+    "difficulty": 2,
+    "theme": "vita_quotidiana",
+    "source": "authored",
+    "target": {
+      "slotId": 0,
+      "verb": "vedere",
+      "person": "noi",
+      "acceptedAnswers": [
+        {
+          "text": "vedremo",
+          "tense": "futuro_semplice",
+          "person": "noi",
+          "explanation": "Con noi, vedere al futuro semplice si coniuga vedremo."
+        }
+      ]
+    },
+    "band": 2
+  },
+  {
+    "id": "corpus-futuro_semplice-151",
+    "textTemplate": "Mia sorella {slot_0} a prendere il cane nel pomeriggio.",
+    "primaryTense": "futuro_semplice",
+    "level": 19,
+    "difficulty": 2,
+    "theme": "vita_quotidiana",
+    "source": "authored",
+    "target": {
+      "slotId": 0,
+      "verb": "venire",
+      "person": "lui/lei",
+      "acceptedAnswers": [
+        {
+          "text": "verrà",
+          "tense": "futuro_semplice",
+          "person": "lui/lei",
+          "explanation": "Con lui o lei, venire al futuro semplice si coniuga verrà."
+        }
+      ]
+    },
+    "band": 2
+  },
+  {
+    "id": "corpus-futuro_semplice-152",
+    "textTemplate": "Voi {slot_0} con noi al laboratorio di cucina?",
+    "primaryTense": "futuro_semplice",
+    "level": 16,
+    "difficulty": 2,
+    "theme": "vita_quotidiana",
+    "source": "authored",
+    "target": {
+      "slotId": 0,
+      "verb": "venire",
+      "person": "voi",
+      "acceptedAnswers": [
+        {
+          "text": "verrete",
+          "tense": "futuro_semplice",
+          "person": "voi",
+          "explanation": "Con voi, venire al futuro semplice si coniuga verrete."
+        }
+      ]
+    },
+    "band": 2
+  },
+  {
+    "id": "corpus-futuro_semplice-153",
+    "textTemplate": "Tu {slot_0} con il gruppo oppure ci raggiungerai dopo?",
+    "primaryTense": "futuro_semplice",
+    "level": 18,
+    "difficulty": 1,
+    "theme": "vita_quotidiana",
+    "source": "authored",
+    "target": {
+      "slotId": 0,
+      "verb": "viaggiare",
+      "person": "tu",
+      "acceptedAnswers": [
+        {
+          "text": "viaggerai",
+          "tense": "futuro_semplice",
+          "person": "tu",
+          "explanation": "Con tu, viaggiare al futuro semplice si coniuga viaggerai."
+        }
+      ]
+    },
+    "band": 1
+  },
+  {
+    "id": "corpus-futuro_semplice-154",
+    "textTemplate": "I musicisti {slot_0} in treno per tutta la tournée.",
+    "primaryTense": "futuro_semplice",
+    "level": 19,
+    "difficulty": 1,
+    "theme": "vita_quotidiana",
+    "source": "authored",
+    "target": {
+      "slotId": 0,
+      "verb": "viaggiare",
+      "person": "loro",
+      "acceptedAnswers": [
+        {
+          "text": "viaggeranno",
+          "tense": "futuro_semplice",
+          "person": "loro",
+          "explanation": "Con loro, viaggiare al futuro semplice si coniuga viaggeranno."
+        }
+      ]
+    },
+    "band": 2
+  },
+  {
+    "id": "corpus-futuro_semplice-155",
+    "textTemplate": "Durante il soggiorno io {slot_0} anche il vecchio porto.",
+    "primaryTense": "futuro_semplice",
+    "level": 15,
+    "difficulty": 1,
+    "theme": "vita_quotidiana",
+    "source": "authored",
+    "target": {
+      "slotId": 0,
+      "verb": "visitare",
+      "person": "io",
+      "acceptedAnswers": [
+        {
+          "text": "visiterò",
+          "tense": "futuro_semplice",
+          "person": "io",
+          "explanation": "Con io, visitare al futuro semplice si coniuga visiterò."
+        }
+      ]
+    },
+    "band": 1
+  },
+  {
+    "id": "corpus-futuro_semplice-156",
+    "textTemplate": "Noi {slot_0} il museo appena riaprirà.",
+    "primaryTense": "futuro_semplice",
+    "level": 16,
+    "difficulty": 1,
+    "theme": "vita_quotidiana",
+    "source": "authored",
+    "target": {
+      "slotId": 0,
+      "verb": "visitare",
+      "person": "noi",
+      "acceptedAnswers": [
+        {
+          "text": "visiteremo",
+          "tense": "futuro_semplice",
+          "person": "noi",
+          "explanation": "Con noi, visitare al futuro semplice si coniuga visiteremo."
+        }
+      ]
+    },
+    "band": 1
+  },
+  {
+    "id": "corpus-futuro_semplice-157",
+    "textTemplate": "Dopo la passeggiata il cane {slot_0} riposare all'ombra.",
+    "primaryTense": "futuro_semplice",
+    "level": 17,
+    "difficulty": 2,
+    "theme": "vita_quotidiana",
+    "source": "authored",
+    "target": {
+      "slotId": 0,
+      "verb": "volere",
+      "person": "lui/lei",
+      "acceptedAnswers": [
+        {
+          "text": "vorrà",
+          "tense": "futuro_semplice",
+          "person": "lui/lei",
+          "explanation": "Con lui o lei, volere al futuro semplice si coniuga vorrà."
+        }
+      ]
+    },
+    "band": 2
+  },
+  {
+    "id": "pilot-multi-001",
+    "primaryTense": "futuro_semplice",
+    "textTemplate": "Domani io {slot_0} da casa.",
+    "target": {
+      "slotId": 0,
+      "verb": "lavorare",
+      "person": "io",
+      "acceptedAnswers": [
+        {
+          "text": "lavoro",
+          "mood": "indicativo",
+          "tense": "presente",
+          "person": "io",
+          "explanation": "Con io, lavorare al presente diventa lavoro. Il presente può indicare un impegno già programmato per domani."
+        },
+        {
+          "text": "lavorerò",
+          "mood": "indicativo",
+          "tense": "futuro_semplice",
+          "person": "io",
+          "explanation": "Con io, il futuro semplice di lavorare è lavorerò. Qui indica un'attività prevista per domani."
+        }
+      ]
+    },
+    "level": 15,
+    "difficulty": 2,
+    "theme": "vita_quotidiana",
+    "source": "authored-multi-tense",
+    "band": 2
+  },
+  {
+    "id": "pilot-multi-002",
+    "primaryTense": "futuro_semplice",
+    "textTemplate": "Stasera noi {slot_0} a casa di Marta.",
+    "target": {
+      "slotId": 0,
+      "verb": "mangiare",
+      "person": "noi",
+      "acceptedAnswers": [
+        {
+          "text": "mangiamo",
+          "mood": "indicativo",
+          "tense": "presente",
+          "person": "noi",
+          "explanation": "Con noi, mangiare al presente diventa mangiamo. Il presente è naturale per un programma già deciso."
+        },
+        {
+          "text": "mangeremo",
+          "mood": "indicativo",
+          "tense": "futuro_semplice",
+          "person": "noi",
+          "explanation": "Con noi, il futuro semplice di mangiare è mangeremo, senza i dopo la g. Anche il futuro può esprimere questo programma."
+        }
+      ]
+    },
+    "level": 15,
+    "difficulty": 2,
+    "theme": "vita_quotidiana",
+    "source": "authored-multi-tense",
+    "band": 2
+  },
+  {
+    "id": "pilot-multi-003",
+    "primaryTense": "futuro_semplice",
+    "textTemplate": "Domenica prossima tu {slot_0} a pranzo da noi?",
+    "target": {
+      "slotId": 0,
+      "verb": "venire",
+      "person": "tu",
+      "acceptedAnswers": [
+        {
+          "text": "vieni",
+          "mood": "indicativo",
+          "tense": "presente",
+          "person": "tu",
+          "explanation": "Con tu, il presente di venire è vieni. Qui il presente serve a chiedere conferma di un programma futuro."
+        },
+        {
+          "text": "verrai",
+          "mood": "indicativo",
+          "tense": "futuro_semplice",
+          "person": "tu",
+          "explanation": "Con tu, il futuro semplice di venire è verrai, con la radice irregolare verr-. La domanda riguarda domenica prossima."
+        }
+      ]
+    },
+    "level": 15,
+    "difficulty": 2,
+    "theme": "vita_quotidiana",
+    "source": "authored-multi-tense",
+    "band": 2
+  }
+]
